@@ -5,6 +5,7 @@ Guidelines:
   * Captions: Proxima Nova Semibold, white fill, 4px black stroke.
   * Cut out mistakes (filler words, stumbles and retaken lines).
   * Cut out any silence longer than 1 second.
+  * Audio as loud as possible without clipping (see boost_audio.py).
 
 Usage:
   python3 edit_video.py input/clip.mp4 [-o output/clip_edited.mp4] [--model small]
@@ -17,6 +18,8 @@ import re
 import subprocess
 import sys
 from pathlib import Path
+
+from boost_audio import boost
 
 ROOT = Path(__file__).resolve().parent
 FONTS_DIR = ROOT / "fonts"
@@ -31,6 +34,7 @@ WORDS_PER_CAPTION = 3       # words on screen at a time
 MAX_SILENCE = 1.0             # seconds; any longer pause is cut
 # -----------------------------------------------------------------------------
 
+CUT_FADE = 0.015            # seconds of audio fade at every cut, stops pops
 PAD = 0.12                    # breathing room kept around speech at each cut
 SILENCE_DB = -35              # threshold for ffmpeg silencedetect
 FILLERS = {"um", "uh", "uhm", "umm", "erm", "er", "ah", "hmm", "mm"}
@@ -221,7 +225,9 @@ def render(src, keep, ass_path, out):
     parts, labels = [], ""
     for i, (a, b) in enumerate(keep):
         parts.append(f"[0:v]trim={a:.3f}:{b:.3f},setpts=PTS-STARTPTS[v{i}];")
-        parts.append(f"[0:a]atrim={a:.3f}:{b:.3f},asetpts=PTS-STARTPTS[a{i}];")
+        fade_out = max(0.0, b - a - CUT_FADE)
+        parts.append(f"[0:a]atrim={a:.3f}:{b:.3f},asetpts=PTS-STARTPTS,"
+                     f"afade=t=in:d={CUT_FADE},afade=t=out:st={fade_out:.3f}:d={CUT_FADE}[a{i}];")
         labels += f"[v{i}][a{i}]"
     ass = str(ass_path).replace("\\", "/").replace(":", r"\:")
     fonts = str(FONTS_DIR).replace(":", r"\:")
@@ -268,7 +274,13 @@ def main():
     ass_path = out.with_suffix(".ass")
     write_captions(kept, keep, width, height, ass_path)
     print("Rendering...")
-    render(args.input, keep, ass_path, out)
+    rough = out.with_name(f"{out.stem}_rough{out.suffix}")
+    render(args.input, keep, ass_path, rough)
+    print("Boosting audio...")
+    try:
+        boost(rough, out)
+    finally:
+        rough.unlink(missing_ok=True)
     print(f"Done: {out}  (captions: {ass_path})")
 
 
