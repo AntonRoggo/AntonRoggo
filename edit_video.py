@@ -26,12 +26,13 @@ FONT_NAME = "Proxima Nova Semibold"
 FONT_COLOR = "&H00FFFFFF"     # white (ASS is &HAABBGGRR)
 STROKE_COLOR = "&H00000000"   # black
 STROKE_PX = 4
+FONT_SIZE_PX = 70
+WORDS_PER_CAPTION = 3       # words on screen at a time
 MAX_SILENCE = 1.0             # seconds; any longer pause is cut
 # -----------------------------------------------------------------------------
 
 PAD = 0.12                    # breathing room kept around speech at each cut
 SILENCE_DB = -35              # threshold for ffmpeg silencedetect
-WORDS_PER_CAPTION = 3
 FILLERS = {"um", "uh", "uhm", "umm", "erm", "er", "ah", "hmm", "mm"}
 
 
@@ -167,8 +168,9 @@ def ass_time(t):
 
 
 def write_captions(kept, keep, width, height, out_path):
-    font_size = round(height * 0.055)
-    margin_v = round(height * 0.22)
+    font_size = FONT_SIZE_PX
+    # bottom-anchored, offset so the line sits centred in the lower third
+    margin_v = round(height / 6 - font_size / 2)
     lines = [
         "[Script Info]", "ScriptType: v4.00+",
         f"PlayResX: {width}", f"PlayResY: {height}",

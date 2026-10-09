@@ -2,7 +2,7 @@
 
 `edit_video.py` edits talking-head videos to these guidelines:
 
-- **Captions:** Proxima Nova Semibold, white, 4px black stroke
+- **Captions:** Proxima Nova Semibold, 70px, white, 4px black stroke, 3 words on screen at a time, centred in the lower third
 - **Cut mistakes:** filler words (um/uh), stutters, and botched takes (when a line is restarted, only the last take is kept)
 - **Cut silences** longer than 1 second
 
