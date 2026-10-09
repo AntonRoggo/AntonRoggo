@@ -1,0 +1,7 @@
+input/*
+output/*
+!input/.gitkeep
+!output/.gitkeep
+fonts/*.otf
+fonts/*.ttf
+__pycache__/
