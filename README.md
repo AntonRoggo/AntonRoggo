@@ -31,3 +31,7 @@ python3 boost_audio.py some_video.mp4   # -> some_video_loud.mp4
 ```
 
 Or ask Claude to "boost the audio" on a file: the `boost-audio` skill in `.claude/skills/` runs this.
+
+## Publishing (Metricool)
+
+Once you approve an edited video, the `publish-metricool` skill schedules it on every platform connected in Metricool. Settings are in `publishing/config.json` and every scheduled post is logged in `publishing/log.md`. This needs the Metricool connector.

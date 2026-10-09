@@ -1,0 +1,19 @@
+{
+  "brand": "TODO: Metricool brand name",
+  "platforms": ["instagram", "tiktok", "youtube", "facebook"],
+  "timezone": "TODO: e.g. Europe/London",
+  "schedule": {
+    "mode": "best_time",
+    "within_days": 3,
+    "slots": ["09:00", "18:00"]
+  },
+  "caption": {
+    "style": "Short hook line from the video, one sentence of value, then a call to action.",
+    "hashtags": [],
+    "max_hashtags": 5
+  },
+  "youtube": { "made_for_kids": false },
+  "media_hosting": "TODO: how to get a public URL for the video",
+  "confirm_before_scheduling": true,
+  "draft": false
+}
