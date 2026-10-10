@@ -878,7 +878,8 @@
    "relaxing",
    "selfie",
    "shirtless",
-   "woods"
+   "woods",
+   "vibing"
   ],
   "location": "wooded cabin property (filed under Toronto 2026)",
   "orientation": "vertical",
@@ -906,7 +907,8 @@
    "lawn",
    "woods",
    "static",
-   "relaxing"
+   "relaxing",
+   "vibing"
   ],
   "location": "wooded cabin property (filed under Toronto 2026)",
   "orientation": "vertical",
@@ -2510,7 +2512,8 @@
    "indoor",
    "wood floor",
    "community",
-   "horizontal"
+   "horizontal",
+   "vibing"
   ],
   "location": "Toronto",
   "orientation": "horizontal",
@@ -2541,7 +2544,8 @@
    "gym hall",
    "indoor",
    "wood floor",
-   "handheld"
+   "handheld",
+   "vibing"
   ],
   "location": "Toronto",
   "orientation": "vertical",
@@ -2935,7 +2939,8 @@
    "sunny",
    "blue sky",
    "relaxing",
-   "grounding"
+   "grounding",
+   "vibing"
   ],
   "location": "Toronto",
   "orientation": "vertical",
@@ -4152,7 +4157,8 @@
    "cap",
    "relaxing",
    "sunny",
-   "selfie"
+   "selfie",
+   "vibing"
   ],
   "location": "North Carolina",
   "orientation": "vertical",
@@ -4350,7 +4356,8 @@
    "stretching",
    "selfie",
    "pink",
-   "playful"
+   "playful",
+   "vibing"
   ],
   "location": "North Carolina",
   "orientation": "vertical",
@@ -5796,7 +5803,8 @@
    "relaxing",
    "indoor",
    "static",
-   "cozy"
+   "cozy",
+   "vibing"
   ],
   "location": "Toronto",
   "orientation": "vertical",
@@ -6139,7 +6147,8 @@
    "stretching",
    "selfie",
    "pink",
-   "playful"
+   "playful",
+   "vibing"
   ],
   "location": "North Carolina",
   "orientation": "vertical",
@@ -6481,7 +6490,8 @@
    "sunny",
    "blue sky",
    "relaxing",
-   "grounding"
+   "grounding",
+   "vibing"
   ],
   "location": "Toronto",
   "orientation": "vertical",

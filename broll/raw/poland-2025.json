@@ -2026,7 +2026,8 @@
    "waking up",
    "morning",
    "interior",
-   "bright"
+   "bright",
+   "vibing"
   ],
   "location": "Kraków, Poland",
   "orientation": "vertical",
@@ -2854,7 +2855,8 @@
    "relaxing",
    "white linen",
    "calm",
-   "nature"
+   "nature",
+   "vibing"
   ],
   "location": "Wrocław, Poland",
   "orientation": "horizontal",
@@ -2881,7 +2883,8 @@
    "garden",
    "relaxing",
    "white linen",
-   "calm"
+   "calm",
+   "vibing"
   ],
   "location": "Wrocław, Poland",
   "orientation": "horizontal",
@@ -2908,7 +2911,8 @@
    "garden",
    "relaxing",
    "white linen",
-   "green"
+   "green",
+   "vibing"
   ],
   "location": "Wrocław, Poland",
   "orientation": "vertical",
@@ -2936,7 +2940,8 @@
    "relaxing",
    "meditative",
    "green",
-   "calm"
+   "calm",
+   "vibing"
   ],
   "location": "Wrocław, Poland",
   "orientation": "vertical",
@@ -2963,7 +2968,8 @@
    "bench",
    "garden",
    "relaxing",
-   "path"
+   "path",
+   "vibing"
   ],
   "location": "Wrocław, Poland",
   "orientation": "vertical",
@@ -3913,7 +3919,8 @@
    "rain",
    "ivy",
    "garden",
-   "mist"
+   "mist",
+   "vibing"
   ],
   "location": "Poland",
   "orientation": "vertical",

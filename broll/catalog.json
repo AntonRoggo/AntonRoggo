@@ -779,7 +779,8 @@
    "cliff",
    "sunny",
    "static",
-   "relaxing"
+   "relaxing",
+   "vibing"
   ],
   "location": "Spain (Costa Brava, likely)",
   "orientation": "vertical",
@@ -2541,7 +2542,8 @@
    "sunset",
    "golden hour",
    "shirtless",
-   "coast"
+   "coast",
+   "vibing"
   ],
   "location": "Brazil",
   "orientation": "vertical",
@@ -2596,7 +2598,8 @@
    "ocean",
    "rocks",
    "golden hour",
-   "shirtless"
+   "shirtless",
+   "vibing"
   ],
   "location": "Brazil",
   "orientation": "vertical",
@@ -2979,7 +2982,8 @@
    "railing",
    "sitting",
    "lookout",
-   "polo"
+   "polo",
+   "vibing"
   ],
   "location": "Cambará do Sul, Brazil",
   "orientation": "vertical",
@@ -4479,7 +4483,8 @@
    "lawn",
    "golden hour",
    "relaxing",
-   "static"
+   "static",
+   "vibing"
   ],
   "location": "Cotswolds, England",
   "orientation": "vertical",
@@ -4508,7 +4513,8 @@
    "white linen",
    "relaxing",
    "nature",
-   "grounding"
+   "grounding",
+   "vibing"
   ],
   "location": "Cotswolds, England",
   "orientation": "vertical",
@@ -4776,7 +4782,8 @@
    "relaxing",
    "sunny",
    "blue sky",
-   "summer"
+   "summer",
+   "vibing"
   ],
   "location": "England",
   "orientation": "vertical",
@@ -5072,7 +5079,8 @@
    "villa",
    "cat",
    "relaxing",
-   "golden hour"
+   "golden hour",
+   "vibing"
   ],
   "location": "Montenegro",
   "orientation": "vertical",
@@ -5186,7 +5194,8 @@
    "vine pergola",
    "summer",
    "relaxing",
-   "sunny"
+   "sunny",
+   "vibing"
   ],
   "location": "Montenegro",
   "orientation": "vertical",
@@ -5307,7 +5316,8 @@
    "sunny",
    "blue sky",
    "white shirt",
-   "static"
+   "static",
+   "vibing"
   ],
   "location": "Montenegro",
   "orientation": "vertical",
@@ -5338,7 +5348,8 @@
    "sunny",
    "blue sky",
    "white shirt",
-   "static"
+   "static",
+   "vibing"
   ],
   "location": "Montenegro",
   "orientation": "vertical",
@@ -5594,7 +5605,8 @@
    "relaxing",
    "white linen",
    "calm",
-   "nature"
+   "nature",
+   "vibing"
   ],
   "location": "Wrocław, Poland",
   "orientation": "horizontal",
@@ -5621,7 +5633,8 @@
    "garden",
    "relaxing",
    "white linen",
-   "calm"
+   "calm",
+   "vibing"
   ],
   "location": "Wrocław, Poland",
   "orientation": "horizontal",
@@ -5649,7 +5662,8 @@
    "relaxing",
    "meditative",
    "green",
-   "calm"
+   "calm",
+   "vibing"
   ],
   "location": "Wrocław, Poland",
   "orientation": "vertical",

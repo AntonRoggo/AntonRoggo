@@ -1350,7 +1350,8 @@
    "waterfront",
    "crowd",
    "social",
-   "street party"
+   "street party",
+   "vibing"
   ],
   "location": "Florianópolis, Brazil",
   "orientation": "vertical",
@@ -1380,7 +1381,8 @@
    "waterfront",
    "crowd",
    "social",
-   "street party"
+   "street party",
+   "vibing"
   ],
   "location": "Florianópolis, Brazil",
   "orientation": "vertical",
@@ -1410,7 +1412,8 @@
    "waterfront",
    "people",
    "city lights",
-   "social"
+   "social",
+   "vibing"
   ],
   "location": "Florianópolis, Brazil",
   "orientation": "vertical",
@@ -1439,7 +1442,8 @@
    "night",
    "waterfront",
    "people",
-   "city lights"
+   "city lights",
+   "vibing"
   ],
   "location": "Florianópolis, Brazil",
   "orientation": "vertical",
@@ -1469,7 +1473,8 @@
    "palm trees",
    "park",
    "sunny",
-   "blue sky"
+   "blue sky",
+   "vibing"
   ],
   "location": "Florianópolis, Brazil",
   "orientation": "vertical",
@@ -1499,7 +1504,8 @@
    "palm trees",
    "park",
    "sunny",
-   "blue sky"
+   "blue sky",
+   "vibing"
   ],
   "location": "Florianópolis, Brazil",
   "orientation": "vertical",
@@ -1529,7 +1535,8 @@
    "checkered floor",
    "people",
    "social",
-   "night"
+   "night",
+   "vibing"
   ],
   "location": "Florianópolis, Brazil",
   "orientation": "horizontal",
@@ -1591,7 +1598,8 @@
    "night",
    "warm light",
    "social",
-   "indoor"
+   "indoor",
+   "vibing"
   ],
   "location": "Brazil",
   "orientation": "horizontal",
@@ -1622,7 +1630,8 @@
    "night",
    "warm light",
    "social",
-   "indoor"
+   "indoor",
+   "vibing"
   ],
   "location": "Brazil",
   "orientation": "horizontal",
@@ -1654,7 +1663,8 @@
    "social",
    "street party",
    "wide",
-   "city lights"
+   "city lights",
+   "vibing"
   ],
   "location": "Florianópolis, Brazil",
   "orientation": "horizontal",
@@ -1684,7 +1694,8 @@
    "christmas lights",
    "purple",
    "festival",
-   "fun"
+   "fun",
+   "vibing"
   ],
   "location": "Gramado, Brazil",
   "orientation": "vertical",
@@ -1715,7 +1726,8 @@
    "night",
    "warm light",
    "social",
-   "indoor"
+   "indoor",
+   "vibing"
   ],
   "location": "Brazil",
   "orientation": "horizontal",
@@ -1745,7 +1757,8 @@
    "people",
    "social",
    "checkered floor",
-   "night"
+   "night",
+   "vibing"
   ],
   "location": "Florianópolis, Brazil",
   "orientation": "vertical",
@@ -1775,7 +1788,8 @@
    "people",
    "social",
    "checkered floor",
-   "night"
+   "night",
+   "vibing"
   ],
   "location": "Florianópolis, Brazil",
   "orientation": "vertical",
@@ -4057,7 +4071,8 @@
    "indoor",
    "wood floor",
    "community",
-   "horizontal"
+   "horizontal",
+   "vibing"
   ],
   "location": "Toronto",
   "orientation": "horizontal",
@@ -4088,7 +4103,8 @@
    "gym hall",
    "indoor",
    "wood floor",
-   "handheld"
+   "handheld",
+   "vibing"
   ],
   "location": "Toronto",
   "orientation": "vertical",

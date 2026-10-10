@@ -1660,7 +1660,8 @@
    "swimwear",
    "garden",
    "woods",
-   "group"
+   "group",
+   "vibing"
   ],
   "location": "Cotswolds, England",
   "orientation": "horizontal",
@@ -1964,7 +1965,8 @@
    "lawn",
    "golden hour",
    "relaxing",
-   "static"
+   "static",
+   "vibing"
   ],
   "location": "Cotswolds, England",
   "orientation": "vertical",
@@ -2355,7 +2357,8 @@
    "white linen",
    "relaxing",
    "nature",
-   "grounding"
+   "grounding",
+   "vibing"
   ],
   "location": "Cotswolds, England",
   "orientation": "vertical",
@@ -2383,7 +2386,8 @@
    "grass",
    "white linen",
    "relaxing",
-   "grounding"
+   "grounding",
+   "vibing"
   ],
   "location": "Cotswolds, England",
   "orientation": "vertical",
@@ -2515,7 +2519,8 @@
    "van",
    "legs",
    "dark",
-   "travel"
+   "travel",
+   "vibing"
   ],
   "location": "Cotswolds, England",
   "orientation": "vertical",
