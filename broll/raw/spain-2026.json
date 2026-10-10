@@ -289,6 +289,990 @@
   "notes": "wide view of pull-ups at end is the usable bit"
  },
  {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUKA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260610131414_0218_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "parallel bar dips outdoors",
+  "description": "Shirtless Anton does dips and walks along red parallel bars at a sunny outdoor gym in a park.",
+  "tags": [
+   "anton",
+   "calisthenics",
+   "dips",
+   "parallel bars",
+   "outdoor gym",
+   "park",
+   "sunny",
+   "fitness",
+   "shirtless"
+  ],
+  "location": "Serbia (likely Belgrade; filed under Spain 2026)",
+  "orientation": "horizontal",
+  "duration": 32.47,
+  "usable": [
+   [
+    0,
+    32.47
+   ]
+  ],
+  "quality": 3,
+  "notes": "static tripod; subject small and back to camera at times"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUKg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260610131503_0219_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "parallel bar dips outdoors",
+  "description": "Shirtless Anton performs dips on red parallel bars in a tree-lined outdoor gym, then walks up smiling to the camera.",
+  "tags": [
+   "anton",
+   "calisthenics",
+   "dips",
+   "parallel bars",
+   "outdoor gym",
+   "park",
+   "sunny",
+   "fitness",
+   "shirtless"
+  ],
+  "location": "Serbia (likely Belgrade; filed under Spain 2026)",
+  "orientation": "horizontal",
+  "duration": 42.84,
+  "usable": [
+   [
+    0,
+    36
+   ]
+  ],
+  "quality": 3,
+  "notes": "static wide; ends with Anton walking into camera"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACULA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260610132728_0220_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "pull-ups at outdoor gym",
+  "description": "Camera pans through a shaded green calisthenics rig as shirtless Anton hangs and does pull-ups.",
+  "tags": [
+   "anton",
+   "calisthenics",
+   "pull-ups",
+   "outdoor gym",
+   "trees",
+   "shade",
+   "fitness",
+   "green"
+  ],
+  "location": "Serbia (likely Belgrade; filed under Spain 2026)",
+  "orientation": "horizontal",
+  "duration": 13.31,
+  "usable": [
+   [
+    3,
+    10
+   ]
+  ],
+  "quality": 2,
+  "notes": "camera being set up at start; subject small"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACULg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260610132759_0221_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "pull-ups at outdoor gym",
+  "description": "Static wide shot of shirtless Anton doing pull-ups on a green bar under trees in an outdoor gym.",
+  "tags": [
+   "anton",
+   "calisthenics",
+   "pull-ups",
+   "outdoor gym",
+   "trees",
+   "shade",
+   "fitness",
+   "static"
+  ],
+  "location": "Serbia (likely Belgrade; filed under Spain 2026)",
+  "orientation": "horizontal",
+  "duration": 30.7,
+  "usable": [
+   [
+    0,
+    27
+   ]
+  ],
+  "quality": 3,
+  "notes": "subject small in frame, dappled shade"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUMA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260610133039_0222_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "handstand practice",
+  "description": "Shirtless Anton practises handstands and handstand holds on a concrete slab at a park calisthenics area.",
+  "tags": [
+   "anton",
+   "handstand",
+   "calisthenics",
+   "outdoor gym",
+   "park",
+   "sunny",
+   "fitness",
+   "static"
+  ],
+  "location": "Serbia (likely Belgrade; filed under Spain 2026)",
+  "orientation": "horizontal",
+  "duration": 67.05,
+  "usable": [
+   [
+    10,
+    55
+   ]
+  ],
+  "quality": 3,
+  "notes": "static wide shot"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUMg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260610133157_0223_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "other",
+  "shot": "accidental pov of feet",
+  "description": "Accidental downward point-of-view of bare feet on dirt and a jacket sleeve.",
+  "tags": [
+   "feet",
+   "ground",
+   "dirt",
+   "accidental",
+   "pov"
+  ],
+  "location": "Serbia (likely Belgrade; filed under Spain 2026)",
+  "orientation": "horizontal",
+  "duration": 25.0,
+  "usable": [],
+  "quality": 1,
+  "notes": "accidental recording"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUNA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260613110219_0224_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "getting ready in suits",
+  "description": "Anton in a white suit and a friend in a black suit get ready indoors, with Anton talking to selfie camera.",
+  "tags": [
+   "anton",
+   "suit",
+   "getting ready",
+   "wedding",
+   "indoors",
+   "friends",
+   "formal"
+  ],
+  "location": "Serbia (likely Belgrade; filed under Spain 2026)",
+  "orientation": "horizontal",
+  "duration": 35.77,
+  "usable": [
+   [
+    0,
+    15
+   ]
+  ],
+  "quality": 2,
+  "notes": "behind-the-scenes; Serbian wedding prep"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUNg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260613162133_0225_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "wedding party under pavilion",
+  "description": "Handheld walk through a crowded outdoor wedding party under a wooden pavilion with a Serbian flag.",
+  "tags": [
+   "wedding",
+   "party",
+   "crowd",
+   "serbian flag",
+   "pavilion",
+   "celebration",
+   "handheld",
+   "daytime"
+  ],
+  "location": "Serbia (likely Belgrade; filed under Spain 2026)",
+  "orientation": "horizontal",
+  "duration": 16.66,
+  "usable": [
+   [
+    3,
+    10
+   ]
+  ],
+  "quality": 2,
+  "notes": "shaky, tilting; frames rotated"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUOA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260613162730_0226_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "walking through wedding party",
+  "description": "Handheld walk among guests in suits and dresses on a covered terrace beside a pool at an outdoor wedding.",
+  "tags": [
+   "wedding",
+   "party",
+   "guests",
+   "suits",
+   "pool",
+   "terrace",
+   "sunny",
+   "handheld",
+   "celebration"
+  ],
+  "location": "Serbia (likely Belgrade; filed under Spain 2026)",
+  "orientation": "vertical",
+  "duration": 36.27,
+  "usable": [
+   [
+    0,
+    36.27
+   ]
+  ],
+  "quality": 2,
+  "notes": "handheld, people's backs block shot"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUOg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260613162908_0227_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "walking through wedding party",
+  "description": "Handheld clip moving through wedding guests on a covered terrace with blue sky behind.",
+  "tags": [
+   "wedding",
+   "party",
+   "guests",
+   "suits",
+   "terrace",
+   "sunny",
+   "handheld"
+  ],
+  "location": "Serbia (likely Belgrade; filed under Spain 2026)",
+  "orientation": "vertical",
+  "duration": 13.63,
+  "usable": [
+   [
+    3,
+    13
+   ]
+  ],
+  "quality": 2,
+  "notes": "shaky, heads block frame"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUPA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260613172307_0228_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "wedding reception hall",
+  "description": "View across a decorated wedding reception hall with chandeliers, flowers and guests standing, then the camera tilts away.",
+  "tags": [
+   "wedding",
+   "reception",
+   "chandeliers",
+   "flowers",
+   "guests",
+   "indoors",
+   "celebration",
+   "evening"
+  ],
+  "location": "Serbia (likely Belgrade; filed under Spain 2026)",
+  "orientation": "vertical",
+  "duration": 28.48,
+  "usable": [
+   [
+    0,
+    18
+   ]
+  ],
+  "quality": 2,
+  "notes": "camera tilts sideways after ~19s"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUPg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260613172926_0229_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "wedding dinner table",
+  "description": "Static table-level view of a wedding dinner table with wine glasses, fruit and plates as guests chat.",
+  "tags": [
+   "wedding",
+   "dinner",
+   "table",
+   "wine glasses",
+   "food",
+   "guests",
+   "celebration",
+   "static"
+  ],
+  "location": "Serbia (likely Belgrade; filed under Spain 2026)",
+  "orientation": "horizontal",
+  "duration": 10.98,
+  "usable": [
+   [
+    0,
+    10.98
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUQA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260614210240_0230_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking to camera in transit",
+  "description": "Anton in a graphic t-shirt talks and waves to camera in a bright indoor space, possibly an airport.",
+  "tags": [
+   "anton",
+   "travel",
+   "indoors",
+   "airport",
+   "t-shirt",
+   "selfie"
+  ],
+  "location": "Spain (uncertain)",
+  "orientation": "horizontal",
+  "duration": 49.02,
+  "usable": [
+   [
+    10,
+    49
+   ]
+  ],
+  "quality": 2,
+  "notes": "frames sideways in preview"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUQg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260616134432_0231_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "apartment tour with sea view",
+  "description": "Anton shows a holiday apartment balcony overlooking a pool, pine trees and the sea, then the kitchen with a friend.",
+  "tags": [
+   "anton",
+   "holiday",
+   "balcony",
+   "pool",
+   "sea view",
+   "pine trees",
+   "sunny",
+   "apartment tour"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 73.31,
+  "usable": [
+   [
+    0,
+    10
+   ],
+   [
+    28,
+    34
+   ]
+  ],
+  "quality": 3,
+  "notes": "balcony view at start and ~30s is nice b-roll"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACURA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260616140104_0232_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "other",
+  "shot": "tilted accidental shot of trees",
+  "description": "Static tilted shot of pine trees and white houses with the sea behind, apparently accidental.",
+  "tags": [
+   "pine trees",
+   "houses",
+   "sea",
+   "tilted",
+   "accidental"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 4.29,
+  "usable": [],
+  "quality": 1,
+  "notes": "crooked framing, 4s"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACURg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260616140747_0233_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "fresh orange juice machine",
+  "description": "Anton uses a supermarket fresh orange juice squeezing machine and holds up the bottle of juice.",
+  "tags": [
+   "anton",
+   "orange juice",
+   "juice machine",
+   "supermarket",
+   "fresh",
+   "orange",
+   "indoors"
+  ],
+  "location": "Spain",
+  "orientation": "horizontal",
+  "duration": 42.65,
+  "usable": [
+   [
+    14,
+    32
+   ]
+  ],
+  "quality": 3,
+  "notes": "frames sideways in preview; start blocked by finger"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUSA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260616155728_0234_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "other",
+  "shot": "upside-down accidental shot",
+  "description": "Short upside-down clip of a pool, greenery and someone in white near a balcony.",
+  "tags": [
+   "pool",
+   "greenery",
+   "upside down",
+   "accidental"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 5.76,
+  "usable": [],
+  "quality": 1,
+  "notes": "upside down in preview"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUSg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260616155739_0235_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "walking selfie vlog by pool",
+  "description": "Anton walks past a resort pool and up a garden path, then talks to a selfie camera in an open linen shirt.",
+  "tags": [
+   "anton",
+   "pool",
+   "resort",
+   "walking",
+   "selfie",
+   "sunny",
+   "summer",
+   "vlog"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 67.63,
+  "usable": [
+   [
+    0,
+    20
+   ]
+  ],
+  "quality": 2,
+  "notes": "opening pool shots (0-20s) usable as b-roll; rest is selfie talk"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUTA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260616155941_0236_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "walking down residential street",
+  "description": "Short walking POV down a sunny residential street lined with pines and jacaranda trees.",
+  "tags": [
+   "street",
+   "residential",
+   "pine trees",
+   "jacaranda",
+   "walking",
+   "pov",
+   "sunny",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 4.3,
+  "usable": [
+   [
+    0,
+    2.5
+   ]
+  ],
+  "quality": 2,
+  "notes": "4s, swinging camera"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUTg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260616160106_0237_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "other",
+  "shot": "accidental pan at viewpoint",
+  "description": "Two-second accidental clip of a path to a coastal viewpoint with people at a stone wall.",
+  "tags": [
+   "path",
+   "viewpoint",
+   "stone wall",
+   "trees",
+   "accidental"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 2.15,
+  "usable": [],
+  "quality": 1,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUUA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260616160126_0238_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "turquoise cove viewpoint",
+  "description": "Opens on a stunning turquoise cove framed by pines, then a friend photographs and Anton talks to selfie camera.",
+  "tags": [
+   "sea",
+   "cove",
+   "turquoise",
+   "pine trees",
+   "cliffs",
+   "viewpoint",
+   "sunny",
+   "anton",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 17.15,
+  "usable": [
+   [
+    0,
+    6
+   ]
+  ],
+  "quality": 3,
+  "notes": "first 6s is beautiful cove b-roll; rest selfie talk"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUUg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260616160407_0239_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "walking selfie vlog on coastal road",
+  "description": "Anton walks along a leafy coastal road talking to a selfie camera while a friend films behind him.",
+  "tags": [
+   "anton",
+   "walking",
+   "selfie",
+   "road",
+   "trees",
+   "sunny",
+   "summer",
+   "vlog"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 43.01,
+  "usable": [
+   [
+    0,
+    43.01
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUVA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260616160654_0240_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "walking down stone steps with juice",
+  "description": "Anton walks down a stone stairway talking to camera holding a bottle of orange juice.",
+  "tags": [
+   "anton",
+   "stone steps",
+   "orange juice",
+   "walking",
+   "selfie",
+   "sunny"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 15.65,
+  "usable": [
+   [
+    0,
+    10
+   ]
+  ],
+  "quality": 2,
+  "notes": "preview upside down (MP4 rotation flag); shaky"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUVg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260616160805_0241_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "turquoise cove between rocks",
+  "description": "Steady view down onto a small turquoise cove between rocky cliffs with pines.",
+  "tags": [
+   "sea",
+   "cove",
+   "turquoise",
+   "rocks",
+   "cliffs",
+   "pine trees",
+   "sunny",
+   "static",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 9.69,
+  "usable": [
+   [
+    0,
+    9.69
+   ]
+  ],
+  "quality": 4,
+  "notes": "preview appears upside down (rotation flag)"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUWA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260616161057_0242_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "walking onto rocky beach",
+  "description": "Handheld walk down a rocky path onto a small Mediterranean beach with clear turquoise water and green headlands.",
+  "tags": [
+   "beach",
+   "sea",
+   "turquoise",
+   "rocks",
+   "cove",
+   "walking",
+   "sunny",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 26.16,
+  "usable": [
+   [
+    9,
+    26.16
+   ]
+  ],
+  "quality": 3,
+  "notes": "Anton's face briefly in frame early; handheld"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUWg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260617112452_0243_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "hiking selfie vlog in pine forest",
+  "description": "Anton hikes a dusty trail through a pine forest talking to a selfie camera.",
+  "tags": [
+   "anton",
+   "hiking",
+   "pine forest",
+   "trail",
+   "selfie",
+   "sunny",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 63.8,
+  "usable": [
+   [
+    0,
+    63.8
+   ]
+  ],
+  "quality": 2,
+  "notes": "preview frames sideways"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUXA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260617112739_0244_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "pan over pine-covered hills",
+  "description": "Handheld pan across pine trees and green coastal hills under a clear blue sky.",
+  "tags": [
+   "pine trees",
+   "hills",
+   "coast",
+   "landscape",
+   "blue sky",
+   "sunny",
+   "pan",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 18.54,
+  "usable": [
+   [
+    11,
+    18.54
+   ]
+  ],
+  "quality": 3,
+  "notes": "slight wobble"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUXg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260617115648_0245_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "selfie at secluded rocky cove",
+  "description": "Shirtless Anton talks to camera at a secluded rocky cove, panning to show the calm sea and pine-covered headland.",
+  "tags": [
+   "anton",
+   "cove",
+   "beach",
+   "rocks",
+   "sea",
+   "pine trees",
+   "sunny",
+   "shirtless",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 39.24,
+  "usable": [
+   [
+    14,
+    20
+   ]
+  ],
+  "quality": 2,
+  "notes": "cove reveal around 16s usable"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUYA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260617121305_0246_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "swimming in clear sea",
+  "description": "Anton swims in clear green water toward a pine-covered shore, then dives underwater with the camera.",
+  "tags": [
+   "anton",
+   "swimming",
+   "sea",
+   "underwater",
+   "clear water",
+   "turquoise",
+   "cove",
+   "summer",
+   "sunny"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 42.69,
+  "usable": [
+   [
+    14,
+    24
+   ],
+   [
+    30,
+    42.69
+   ]
+  ],
+  "quality": 3,
+  "notes": "water drops on lens; underwater part nice"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUYg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260617121524_0247_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "swimming in clear sea",
+  "description": "Anton floats in turquoise sea talking to camera with the wooded coastline behind.",
+  "tags": [
+   "anton",
+   "swimming",
+   "sea",
+   "turquoise",
+   "coast",
+   "selfie",
+   "sunny",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 16.77,
+  "usable": [
+   [
+    0,
+    5
+   ]
+  ],
+  "quality": 2,
+  "notes": "water drops on lens"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUZA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260617122254_0248_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking on coastal rocks",
+  "description": "Shirtless Anton talks to selfie camera sitting on granite rocks by the sea with green headlands behind.",
+  "tags": [
+   "anton",
+   "rocks",
+   "sea",
+   "coast",
+   "shirtless",
+   "sunny",
+   "selfie",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 20.89,
+  "usable": [
+   [
+    4,
+    7
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUZg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260617125014_0249_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking on coastal rocks",
+  "description": "Short low-angle selfie of Anton against the sun, then talking with the sea and rocks behind.",
+  "tags": [
+   "anton",
+   "sun",
+   "sea",
+   "rocks",
+   "selfie",
+   "shirtless",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 4.14,
+  "usable": [],
+  "quality": 1,
+  "notes": "4s, sun flare"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUaA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260617125031_0250_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking on coastal rocks",
+  "description": "Shirtless Anton talks to selfie camera on pale granite rocks above the sea.",
+  "tags": [
+   "anton",
+   "rocks",
+   "sea",
+   "coast",
+   "shirtless",
+   "sunny",
+   "selfie",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 17.49,
+  "usable": [
+   [
+    3,
+    17.49
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUag",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260617125238_0251_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "swimming selfie with underwater shots",
+  "description": "Anton talks at a rocky swimming spot, then swims and films himself underwater in clear turquoise water over seagrass.",
+  "tags": [
+   "anton",
+   "swimming",
+   "underwater",
+   "sea",
+   "turquoise",
+   "rocks",
+   "seagrass",
+   "summer",
+   "sunny"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 67.27,
+  "usable": [
+   [
+    58,
+    67.27
+   ]
+  ],
+  "quality": 2,
+  "notes": "underwater selfie at end is the nicest part"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUbA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260617131408_0252_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "eating sandwich at beach",
+  "description": "Shirtless Anton sits under a pine tree by the beach eating a sandwich and talking to selfie camera with a friend.",
+  "tags": [
+   "anton",
+   "eating",
+   "sandwich",
+   "beach",
+   "pine tree",
+   "shade",
+   "summer",
+   "selfie"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 25.09,
+  "usable": [
+   [
+    4,
+    8
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUbg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260617145247_0253_D.MP4",
   "folder": "Spain 2026",
@@ -433,5 +1417,5545 @@
   ],
   "quality": 3,
   "notes": "exact duplicate (same name and size) of DJI_20260617145622_0257_D.MP4"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUew",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260617181044_0261_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "bay full of boats",
+  "description": "Slow pan from rocks to a turquoise bay crowded with moored boats and a white seaside village in the distance.",
+  "tags": [
+   "sea",
+   "bay",
+   "boats",
+   "turquoise",
+   "village",
+   "coast",
+   "sunny",
+   "pan",
+   "summer",
+   "mediterranean"
+  ],
+  "location": "Spain (Costa Brava, looks like Calella de Palafrugell)",
+  "orientation": "horizontal",
+  "duration": 7.61,
+  "usable": [
+   [
+    0,
+    7.61
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUfQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260617183318_0262_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "seaside promenade and beach",
+  "description": "Pan along a busy sandy beach with blue umbrellas and boats, ending on a promenade of white buildings and cafes.",
+  "tags": [
+   "beach",
+   "promenade",
+   "umbrellas",
+   "sea",
+   "village",
+   "white buildings",
+   "sunny",
+   "pan",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, looks like Calella de Palafrugell)",
+  "orientation": "horizontal",
+  "duration": 18.37,
+  "usable": [
+   [
+    0,
+    12
+   ]
+  ],
+  "quality": 3,
+  "notes": "person walks into frame at end"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUfw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260617183709_0263_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "seaside village promenade",
+  "description": "Wide view along a cobbled seaside promenade past white houses and cafe tables onto a calm bay.",
+  "tags": [
+   "promenade",
+   "village",
+   "white houses",
+   "sea",
+   "bay",
+   "cobblestones",
+   "sunny",
+   "summer",
+   "mediterranean"
+  ],
+  "location": "Spain (Costa Brava, looks like Calella de Palafrugell)",
+  "orientation": "horizontal",
+  "duration": 12.82,
+  "usable": [
+   [
+    0,
+    12.82
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUgQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260617190520_0264_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "lunch at seaside terrace",
+  "description": "Anton talks while eating fried calamari at a seaside terrace restaurant, with a few shots of the promenade and sea.",
+  "tags": [
+   "anton",
+   "restaurant",
+   "calamari",
+   "lunch",
+   "terrace",
+   "sea",
+   "village",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, looks like Calella de Palafrugell)",
+  "orientation": "horizontal",
+  "duration": 57.64,
+  "usable": [
+   [
+    50,
+    57.64
+   ]
+  ],
+  "quality": 2,
+  "notes": "camera repositioned several times; ending promenade view usable"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUgw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260618173811_0265_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "walking selfie vlog by beach bars",
+  "description": "Anton in a white number-26 jersey walks past stone walls and beach bars talking to selfie camera.",
+  "tags": [
+   "anton",
+   "walking",
+   "selfie",
+   "beach bar",
+   "stone wall",
+   "sunny",
+   "summer",
+   "vlog"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 59.5,
+  "usable": [
+   [
+    0,
+    59.5
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUhQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260619115025_0266_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking to camera by stone tower",
+  "description": "Anton in a white jersey talks to camera next to a sandstone wall with trees and towels behind.",
+  "tags": [
+   "anton",
+   "stone wall",
+   "sunny",
+   "summer",
+   "talking",
+   "jersey"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 34.3,
+  "usable": [
+   [
+    0,
+    34.3
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUhw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260620103101_0267_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "walking through old town street",
+  "description": "POV walk through a narrow shopping street of a Spanish coastal town in evening shade.",
+  "tags": [
+   "old town",
+   "street",
+   "shops",
+   "walking",
+   "pov",
+   "evening",
+   "urban",
+   "spain"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 22.02,
+  "usable": [
+   [
+    0,
+    18
+   ]
+  ],
+  "quality": 2,
+  "notes": "wide-angle handheld"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUiQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260620103128_0268_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "walking selfie vlog in town street",
+  "description": "Anton in a sage linen shirt walks through a narrow tourist street talking to selfie camera with a friend.",
+  "tags": [
+   "anton",
+   "walking",
+   "selfie",
+   "street",
+   "town",
+   "tourist",
+   "summer",
+   "vlog"
+  ],
+  "location": "Spain (Costa Brava resort town, possibly Lloret de Mar)",
+  "orientation": "horizontal",
+  "duration": 32.38,
+  "usable": [
+   [
+    0,
+    32.38
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUiw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260620103611_0269_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "walking selfie vlog in town street",
+  "description": "Anton walks through a resort town's souvenir shopping streets talking to selfie camera.",
+  "tags": [
+   "anton",
+   "walking",
+   "selfie",
+   "shops",
+   "souvenirs",
+   "street",
+   "sunny",
+   "summer",
+   "vlog"
+  ],
+  "location": "Spain (Costa Brava resort town, possibly Lloret de Mar)",
+  "orientation": "horizontal",
+  "duration": 107.07,
+  "usable": [
+   [
+    0,
+    107.07
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUjQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260620103850_0270_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "walking past shop windows",
+  "description": "Anton walks past colourful shopfronts and a candy store talking to camera.",
+  "tags": [
+   "anton",
+   "walking",
+   "shops",
+   "candy store",
+   "street",
+   "summer",
+   "vlog"
+  ],
+  "location": "Spain (Costa Brava resort town, possibly Lloret de Mar)",
+  "orientation": "vertical",
+  "duration": 19.8,
+  "usable": [
+   [
+    0,
+    19.8
+   ]
+  ],
+  "quality": 2,
+  "notes": "preview sideways; content vertical"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUjw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260620124457_0271_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking on rocky beach",
+  "description": "Shirtless Anton sits on reddish rocks at a cove talking and gesturing to camera beside a striped towel.",
+  "tags": [
+   "anton",
+   "rocks",
+   "cove",
+   "beach",
+   "shirtless",
+   "sunny",
+   "summer",
+   "towel"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 42.92,
+  "usable": [
+   [
+    0,
+    42.92
+   ]
+  ],
+  "quality": 2,
+  "notes": "preview rotated sideways; content vertical"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUkQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260620124555_0272_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking on rocky beach",
+  "description": "Close selfie of shirtless Anton talking while sitting on sunlit rocks at a cove.",
+  "tags": [
+   "anton",
+   "rocks",
+   "cove",
+   "selfie",
+   "shirtless",
+   "sunny",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 40.75,
+  "usable": [
+   [
+    0,
+    40
+   ]
+  ],
+  "quality": 2,
+  "notes": "preview sideways"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUkw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260620124802_0273_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "eating baguette sandwich on rocks",
+  "description": "Shirtless Anton holds a baguette sandwich and talks to selfie camera on rocks by the sea.",
+  "tags": [
+   "anton",
+   "sandwich",
+   "baguette",
+   "eating",
+   "rocks",
+   "sea",
+   "sunny",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 14.63,
+  "usable": [
+   [
+    5,
+    7
+   ]
+  ],
+  "quality": 2,
+  "notes": "close finger in frame at start"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUlQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260620124820_0274_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "eating sandwich on rocks",
+  "description": "Shirtless Anton sits on rocks by the sea eating a sandwich and talking to camera.",
+  "tags": [
+   "anton",
+   "eating",
+   "sandwich",
+   "rocks",
+   "pine trees",
+   "shirtless",
+   "sunny",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 20.37,
+  "usable": [
+   [
+    3,
+    20.37
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUlw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260620124844_0275_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "eating sandwich on rocks",
+  "description": "Anton lies back on rocks eating a sandwich with turquoise sea and green headland behind.",
+  "tags": [
+   "anton",
+   "eating",
+   "sandwich",
+   "rocks",
+   "sea",
+   "turquoise",
+   "sunny",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 9.73,
+  "usable": [
+   [
+    4,
+    9.73
+   ]
+  ],
+  "quality": 2,
+  "notes": "preview sideways; content vertical"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUmQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260620125029_0276_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "eating sandwich on beach towel",
+  "description": "Shirtless Anton sits on a striped towel on rocks by the sea eating a sandwich and talking to camera.",
+  "tags": [
+   "anton",
+   "eating",
+   "sandwich",
+   "towel",
+   "rocks",
+   "sea",
+   "sunny",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 39.04,
+  "usable": [
+   [
+    0,
+    39.04
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUmw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260620135913_0277_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "snorkelling underwater",
+  "description": "Clip moves from the beach umbrella to the sea, with underwater views of rocks, seagrass and Anton swimming in clear blue water.",
+  "tags": [
+   "underwater",
+   "snorkelling",
+   "sea",
+   "rocks",
+   "seagrass",
+   "clear water",
+   "blue",
+   "summer",
+   "anton"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 83.48,
+  "usable": [
+   [
+    30,
+    40
+   ],
+   [
+    58,
+    68
+   ]
+  ],
+  "quality": 3,
+  "notes": "preview sideways; underwater rocky reef at ~62s is nice"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUnQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260620140204_0278_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "swimming underwater selfie",
+  "description": "Anton swims in green-blue sea, diving underwater with the camera and resurfacing near the coast.",
+  "tags": [
+   "anton",
+   "swimming",
+   "underwater",
+   "sea",
+   "turquoise",
+   "selfie",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 76.95,
+  "usable": [
+   [
+    28,
+    48
+   ]
+  ],
+  "quality": 2,
+  "notes": "preview sideways; bubbly and chaotic"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUnw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260620140545_0279_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "walking along sea rocks",
+  "description": "Static shot of a rocky shoreline with turquoise sea where Anton sets up the camera and walks out across the rocks.",
+  "tags": [
+   "anton",
+   "rocks",
+   "sea",
+   "turquoise",
+   "coast",
+   "static",
+   "sunny",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 78.76,
+  "usable": [
+   [
+    25,
+    78.76
+   ]
+  ],
+  "quality": 3,
+  "notes": "subject small; set-up at start"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUoQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260620140759_0280_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "selfie on coastal rocks",
+  "description": "Shirtless Anton films himself against the sun then talks to camera on pale rocks by the sea.",
+  "tags": [
+   "anton",
+   "rocks",
+   "sea",
+   "sun",
+   "selfie",
+   "shirtless",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 19.12,
+  "usable": [
+   [
+    10,
+    19.12
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUow",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260620140843_0281_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking on rocks by waves",
+  "description": "Shirtless Anton talks to selfie camera on granite rocks with waves breaking on a turquoise sea and a green headland.",
+  "tags": [
+   "anton",
+   "rocks",
+   "waves",
+   "sea",
+   "turquoise",
+   "shirtless",
+   "sunny",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 46.75,
+  "usable": [
+   [
+    10,
+    14
+   ],
+   [
+    33,
+    37
+   ]
+  ],
+  "quality": 2,
+  "notes": "wave shots usable as b-roll"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUpQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260620140955_0282_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "swimming underwater selfie",
+  "description": "Waves wash over rocks, then Anton dives and floats underwater in clear turquoise sea, blowing bubbles.",
+  "tags": [
+   "anton",
+   "underwater",
+   "swimming",
+   "sea",
+   "turquoise",
+   "bubbles",
+   "waves",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 89.76,
+  "usable": [
+   [
+    0,
+    10
+   ],
+   [
+    48,
+    72
+   ]
+  ],
+  "quality": 3,
+  "notes": "finger over lens around 22s; underwater floating shots are striking"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUpw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260620182720_0283_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "drinks at beach bar",
+  "description": "Anton in a linen shirt sits at a beach bar table with beer, orange drink, chips and olives under pines by the sea.",
+  "tags": [
+   "anton",
+   "beach bar",
+   "drinks",
+   "beer",
+   "snacks",
+   "pine trees",
+   "sea",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 41.47,
+  "usable": [
+   [
+    15,
+    20
+   ]
+  ],
+  "quality": 2,
+  "notes": "table top shot at ~17s usable"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUqQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260620182807_0284_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "beach bar table with sea view",
+  "description": "Static view over a table of drinks and snacks at a beach bar framed by pine trunks and the sea.",
+  "tags": [
+   "beach bar",
+   "drinks",
+   "table",
+   "sea view",
+   "pine trees",
+   "sunny",
+   "static",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 9.34,
+  "usable": [
+   [
+    0,
+    9.34
+   ]
+  ],
+  "quality": 3,
+  "notes": "knees in foreground"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUqw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260621094908_0285_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in bus station",
+  "description": "Anton talks to camera inside a bus station or terminal.",
+  "tags": [
+   "anton",
+   "travel",
+   "bus station",
+   "indoors",
+   "selfie"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 35.47,
+  "usable": [
+   [
+    5,
+    35
+   ]
+  ],
+  "quality": 1,
+  "notes": "preview sideways; dull"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUrQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260621095408_0286_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "bus station crowd",
+  "description": "Static view of travellers waiting as a red bus pulls into a covered bus station.",
+  "tags": [
+   "bus",
+   "bus station",
+   "travel",
+   "crowd",
+   "people",
+   "static",
+   "daytime",
+   "transport"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 11.21,
+  "usable": [
+   [
+    2,
+    11.21
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUrw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260621095434_0287_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "bus station crowd",
+  "description": "Red Iveco bus pulls into a covered bus station bay as passengers queue.",
+  "tags": [
+   "bus",
+   "bus station",
+   "travel",
+   "crowd",
+   "queue",
+   "transport",
+   "daytime"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 9.14,
+  "usable": [
+   [
+    0,
+    9.14
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUsQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260622143623_0288_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in metro station",
+  "description": "Anton in a cap talks to selfie camera on a Valencia metro platform (Turia station).",
+  "tags": [
+   "anton",
+   "metro",
+   "subway",
+   "station",
+   "travel",
+   "cap",
+   "indoors",
+   "selfie"
+  ],
+  "location": "Spain (Valencia)",
+  "orientation": "horizontal",
+  "duration": 66.33,
+  "usable": [
+   [
+    25,
+    30
+   ]
+  ],
+  "quality": 2,
+  "notes": "empty platform shot at ~27s usable"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUsw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260624174025_0289_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "walking selfie vlog with towel",
+  "description": "Shirtless Anton with a towel over his shoulder walks through sunny city streets talking to selfie camera.",
+  "tags": [
+   "anton",
+   "walking",
+   "city",
+   "street",
+   "shirtless",
+   "towel",
+   "sunny",
+   "vlog"
+  ],
+  "location": "Spain (Valencia)",
+  "orientation": "horizontal",
+  "duration": 29.7,
+  "usable": [
+   [
+    0,
+    29.7
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUtA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260624174112_0290_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "other",
+  "shot": "upside-down accidental clip",
+  "description": "Five-second upside-down clip of Anton walking past shops under trees.",
+  "tags": [
+   "anton",
+   "upside down",
+   "street",
+   "accidental"
+  ],
+  "location": "Spain (Valencia)",
+  "orientation": "horizontal",
+  "duration": 5.01,
+  "usable": [],
+  "quality": 1,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUtg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260624174121_0291_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "walking selfie vlog with towel",
+  "description": "Shirtless Anton walks through sunny city streets with a towel on his shoulder talking at length to selfie camera.",
+  "tags": [
+   "anton",
+   "walking",
+   "city",
+   "street",
+   "shirtless",
+   "towel",
+   "sunny",
+   "vlog"
+  ],
+  "location": "Spain (Valencia)",
+  "orientation": "horizontal",
+  "duration": 240.41,
+  "usable": [
+   [
+    0,
+    240.41
+   ]
+  ],
+  "quality": 2,
+  "notes": "long ramble, sun flares"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUuA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260624174605_0292_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "walking selfie vlog with towel",
+  "description": "Shirtless Anton walks past apartment blocks and shops in the sun talking to selfie camera.",
+  "tags": [
+   "anton",
+   "walking",
+   "city",
+   "street",
+   "shirtless",
+   "towel",
+   "sunny",
+   "vlog"
+  ],
+  "location": "Spain (Valencia)",
+  "orientation": "horizontal",
+  "duration": 162.56,
+  "usable": [
+   [
+    0,
+    162.56
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUug",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260624174855_0293_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "walking selfie vlog with towel",
+  "description": "Shirtless Anton walks alongside tram tracks and a fence in harsh sun talking to selfie camera.",
+  "tags": [
+   "anton",
+   "walking",
+   "city",
+   "tram tracks",
+   "shirtless",
+   "towel",
+   "sunny",
+   "vlog"
+  ],
+  "location": "Spain (Valencia)",
+  "orientation": "horizontal",
+  "duration": 45.85,
+  "usable": [
+   [
+    0,
+    45.85
+   ]
+  ],
+  "quality": 2,
+  "notes": "sun flare"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUvA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260625070240_0294_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "walking selfie vlog with towel",
+  "description": "Shirtless Anton with a towel talks to camera while walking under palm trees in the sun.",
+  "tags": [
+   "anton",
+   "walking",
+   "palm trees",
+   "shirtless",
+   "towel",
+   "sunny",
+   "vlog"
+  ],
+  "location": "Spain (Valencia)",
+  "orientation": "horizontal",
+  "duration": 40.62,
+  "usable": [
+   [
+    0,
+    40.62
+   ]
+  ],
+  "quality": 1,
+  "notes": "preview sideways, tilted"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUvg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260626085917_0295_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in bedroom",
+  "description": "Shirtless Anton talks to a low-angle camera in a plain bedroom with wooden wardrobes.",
+  "tags": [
+   "anton",
+   "indoors",
+   "bedroom",
+   "shirtless",
+   "talking"
+  ],
+  "location": "Spain (Valencia)",
+  "orientation": "horizontal",
+  "duration": 65.86,
+  "usable": [
+   [
+    15,
+    65.86
+   ]
+  ],
+  "quality": 2,
+  "notes": "camera set-up at start, low angle"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUwA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260628082457_0296_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "morning beach talk",
+  "description": "Shirtless Anton talks to selfie camera on a wide sandy beach in morning light, turning to show the low sun over the sea.",
+  "tags": [
+   "anton",
+   "beach",
+   "morning",
+   "sunrise",
+   "sea",
+   "sand",
+   "shirtless",
+   "selfie"
+  ],
+  "location": "Spain (Valencia, Malvarrosa beach likely)",
+  "orientation": "vertical",
+  "duration": 24.19,
+  "usable": [
+   [
+    9,
+    11
+   ],
+   [
+    21,
+    24.19
+   ]
+  ],
+  "quality": 2,
+  "notes": "sun-over-sea shots usable"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUwg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260628082533_0297_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "morning beach talk",
+  "description": "Shirtless Anton talks to selfie camera on a wide city beach in the morning, with a shot of the empty shoreline.",
+  "tags": [
+   "anton",
+   "beach",
+   "morning",
+   "sea",
+   "sand",
+   "shirtless",
+   "selfie",
+   "city beach"
+  ],
+  "location": "Spain (Valencia, Malvarrosa beach likely)",
+  "orientation": "horizontal",
+  "duration": 32.45,
+  "usable": [
+   [
+    17,
+    21
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUxA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260628115402_0298_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "other",
+  "shot": "climbing stone stairs low angle",
+  "description": "Low-angle accidental clip of Anton in a cap climbing old stone stairs under the sun.",
+  "tags": [
+   "anton",
+   "stairs",
+   "stone",
+   "low angle",
+   "accidental"
+  ],
+  "location": "Spain (Valencia, Torres de Serranos)",
+  "orientation": "horizontal",
+  "duration": 10.44,
+  "usable": [],
+  "quality": 1,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUxg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260628115436_0299_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "view over tree-lined plaza",
+  "description": "Static high view over a sunny plaza with trees and colourful old buildings.",
+  "tags": [
+   "plaza",
+   "old town",
+   "trees",
+   "buildings",
+   "high angle",
+   "static",
+   "sunny",
+   "city"
+  ],
+  "location": "Spain (Valencia, Torres de Serranos)",
+  "orientation": "horizontal",
+  "duration": 4.12,
+  "usable": [
+   [
+    0,
+    4.12
+   ]
+  ],
+  "quality": 3,
+  "notes": "4s, slightly tilted"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUyA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260628115543_0300_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "gothic vaulted ceiling",
+  "description": "Tilting shot looking up at the gothic ribbed stone vault of a medieval gate tower.",
+  "tags": [
+   "gothic",
+   "vault",
+   "stone",
+   "architecture",
+   "medieval",
+   "looking up",
+   "tilt"
+  ],
+  "location": "Spain (Valencia, Torres de Serranos)",
+  "orientation": "horizontal",
+  "duration": 4.25,
+  "usable": [
+   [
+    0,
+    4.25
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUyg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260628115615_0301_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "view over old town from tower",
+  "description": "Pan from the top of a medieval tower over leafy streets and old buildings of the city.",
+  "tags": [
+   "city",
+   "old town",
+   "rooftops",
+   "tower",
+   "view",
+   "trees",
+   "sunny",
+   "pan"
+  ],
+  "location": "Spain (Valencia, Torres de Serranos)",
+  "orientation": "horizontal",
+  "duration": 8.98,
+  "usable": [
+   [
+    0,
+    4
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUzA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260628115709_0302_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "view over old town from tower",
+  "description": "Steady elevated view over a tree-lined square and old apartment buildings from a stone tower.",
+  "tags": [
+   "city",
+   "old town",
+   "square",
+   "tower",
+   "view",
+   "trees",
+   "sunny",
+   "static"
+  ],
+  "location": "Spain (Valencia, Torres de Serranos)",
+  "orientation": "horizontal",
+  "duration": 4.76,
+  "usable": [
+   [
+    0,
+    4.76
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUzg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260628115758_0303_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "medieval tower rooftop",
+  "description": "Pan across the city skyline to the crenellated top of a medieval gate tower crowded with tourists.",
+  "tags": [
+   "medieval",
+   "tower",
+   "city skyline",
+   "tourists",
+   "stone",
+   "sunny",
+   "pan",
+   "landmark"
+  ],
+  "location": "Spain (Valencia, Torres de Serranos)",
+  "orientation": "horizontal",
+  "duration": 20.31,
+  "usable": [
+   [
+    0,
+    15
+   ]
+  ],
+  "quality": 3,
+  "notes": "sun flare at end"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACU0A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260628120051_0304_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "selfie on medieval tower",
+  "description": "Anton in a red t-shirt talks to camera on top of the medieval tower with city views.",
+  "tags": [
+   "anton",
+   "tower",
+   "city view",
+   "medieval",
+   "selfie",
+   "sunny",
+   "travel"
+  ],
+  "location": "Spain (Valencia, Torres de Serranos)",
+  "orientation": "horizontal",
+  "duration": 47.18,
+  "usable": [
+   [
+    17,
+    22
+   ],
+   [
+    40,
+    47.18
+   ]
+  ],
+  "quality": 2,
+  "notes": "city view segments usable"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACU0g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260628120220_0305_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "selfie on medieval tower",
+  "description": "Anton in a red t-shirt and cap talks on top of a medieval tower, pointing out the park and city below.",
+  "tags": [
+   "anton",
+   "tower",
+   "city view",
+   "medieval",
+   "selfie",
+   "sunny",
+   "travel",
+   "cap"
+  ],
+  "location": "Spain (Valencia, Torres de Serranos)",
+  "orientation": "horizontal",
+  "duration": 33.6,
+  "usable": [
+   [
+    7,
+    10
+   ],
+   [
+    29,
+    33.6
+   ]
+  ],
+  "quality": 2,
+  "notes": "city views at ~8s and ~30s usable"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACU1g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260628120306_0306_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "selfie on medieval tower",
+  "description": "Anton in a red t-shirt talks to selfie camera beside the stone battlements of the tower.",
+  "tags": [
+   "anton",
+   "tower",
+   "stone",
+   "selfie",
+   "sunny",
+   "travel",
+   "cap"
+  ],
+  "location": "Spain (Valencia, Torres de Serranos)",
+  "orientation": "horizontal",
+  "duration": 43.24,
+  "usable": [
+   [
+    0,
+    43.24
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACU2A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260628124408_0308_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "walking selfie in old town plaza",
+  "description": "Anton talks to selfie camera walking through a sunny old-town plaza with cathedral bell tower and grand buildings.",
+  "tags": [
+   "anton",
+   "plaza",
+   "old town",
+   "cathedral",
+   "walking",
+   "selfie",
+   "sunny",
+   "travel"
+  ],
+  "location": "Spain (Valencia, Plaza de la Reina area)",
+  "orientation": "horizontal",
+  "duration": 33.41,
+  "usable": [
+   [
+    24,
+    27
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACU2g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260628140305_0309_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "walking selfie past gothic buildings",
+  "description": "Anton walks past gothic stone buildings and Valencian food stalls talking to selfie camera.",
+  "tags": [
+   "anton",
+   "gothic",
+   "old town",
+   "walking",
+   "selfie",
+   "sunny",
+   "travel",
+   "street"
+  ],
+  "location": "Spain (Valencia, near La Lonja)",
+  "orientation": "horizontal",
+  "duration": 54.74,
+  "usable": [
+   [
+    0,
+    54.74
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACU3A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260630111045_0310_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "other",
+  "shot": "static shot of agave syrup bottle",
+  "description": "Static close shot of an agave syrup bottle on a table beside a bag and cables.",
+  "tags": [
+   "agave syrup",
+   "bottle",
+   "table",
+   "indoors",
+   "static",
+   "product"
+  ],
+  "location": "Spain (Valencia)",
+  "orientation": "horizontal",
+  "duration": 70.68,
+  "usable": [
+   [
+    0,
+    70.68
+   ]
+  ],
+  "quality": 1,
+  "notes": "looks accidental, nothing happens"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACU3g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701070052_0311_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "other",
+  "shot": "upside-down accidental clip",
+  "description": "Upside-down clip of Anton with a towel on his shoulder against the sky.",
+  "tags": [
+   "anton",
+   "upside down",
+   "sky",
+   "towel",
+   "accidental"
+  ],
+  "location": "Spain (Valencia)",
+  "orientation": "vertical",
+  "duration": 19.79,
+  "usable": [],
+  "quality": 1,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACU4A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701070120_0312_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "sunrise beach promenade",
+  "description": "Anton in a white tee with a towel talks briefly, then shows a palm-lined beach promenade at sunrise.",
+  "tags": [
+   "anton",
+   "promenade",
+   "palm trees",
+   "sunrise",
+   "morning",
+   "beach",
+   "golden hour"
+  ],
+  "location": "Spain (Valencia, Malvarrosa beach likely)",
+  "orientation": "vertical",
+  "duration": 4.77,
+  "usable": [
+   [
+    2.5,
+    4.77
+   ]
+  ],
+  "quality": 2,
+  "notes": "short"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACU4g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701070506_0313_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "sunrise beach talk",
+  "description": "Shirtless Anton talks on the beach at sunrise, turning the camera to the sun rising over the sea.",
+  "tags": [
+   "anton",
+   "beach",
+   "sunrise",
+   "sea",
+   "golden hour",
+   "shirtless",
+   "morning"
+  ],
+  "location": "Spain (Valencia, Malvarrosa beach likely)",
+  "orientation": "vertical",
+  "duration": 18.89,
+  "usable": [
+   [
+    10,
+    15
+   ]
+  ],
+  "quality": 2,
+  "notes": "preview sideways; content vertical"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACU5A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701070538_0314_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "sunrise beach talk",
+  "description": "Shirtless Anton talks on the beach at sunrise, pointing to the sun over the sea, with a beach-cleaning tractor behind.",
+  "tags": [
+   "anton",
+   "beach",
+   "sunrise",
+   "sea",
+   "golden hour",
+   "shirtless",
+   "tractor",
+   "morning"
+  ],
+  "location": "Spain (Valencia, Malvarrosa beach likely)",
+  "orientation": "vertical",
+  "duration": 17.66,
+  "usable": [
+   [
+    3,
+    6
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACU5g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701070619_0315_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "sunrise beach talk",
+  "description": "Shirtless Anton talks to camera on the beach in warm golden sunrise light.",
+  "tags": [
+   "anton",
+   "beach",
+   "sunrise",
+   "golden hour",
+   "shirtless",
+   "morning",
+   "talking"
+  ],
+  "location": "Spain (Valencia, Malvarrosa beach likely)",
+  "orientation": "vertical",
+  "duration": 16.75,
+  "usable": [
+   [
+    0,
+    16.75
+   ]
+  ],
+  "quality": 3,
+  "notes": "nice warm light"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACU6A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701070648_0316_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "sunrise beach talk",
+  "description": "Shirtless Anton talks and gestures to camera on the beach at golden-hour sunrise.",
+  "tags": [
+   "anton",
+   "beach",
+   "sunrise",
+   "golden hour",
+   "shirtless",
+   "morning",
+   "talking"
+  ],
+  "location": "Spain (Valencia, Malvarrosa beach likely)",
+  "orientation": "vertical",
+  "duration": 7.51,
+  "usable": [
+   [
+    0,
+    7.51
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACU6g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701070905_0317_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "walking into the sea at sunrise",
+  "description": "POV of feet wading into the sea, then the camera swings to the sun rising over the water.",
+  "tags": [
+   "feet",
+   "sea",
+   "wading",
+   "sunrise",
+   "pov",
+   "morning",
+   "waves",
+   "golden hour"
+  ],
+  "location": "Spain (Valencia, Malvarrosa beach likely)",
+  "orientation": "vertical",
+  "duration": 11.58,
+  "usable": [
+   [
+    0,
+    5
+   ]
+  ],
+  "quality": 2,
+  "notes": "tilted/sideways framing"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACU7A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701070920_0318_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking waist-deep in sea",
+  "description": "Shirtless Anton stands in the calm sea at sunrise talking to selfie camera with the city beachfront behind.",
+  "tags": [
+   "anton",
+   "sea",
+   "sunrise",
+   "morning",
+   "shirtless",
+   "selfie",
+   "talking"
+  ],
+  "location": "Spain (Valencia, Malvarrosa beach likely)",
+  "orientation": "horizontal",
+  "duration": 70.38,
+  "usable": [
+   [
+    0,
+    70.38
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACU7g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701071038_0319_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "morning sea plunge",
+  "description": "Anton walks into the sea and plunges underwater with the camera, resurfacing smiling.",
+  "tags": [
+   "anton",
+   "sea",
+   "swimming",
+   "plunge",
+   "underwater",
+   "morning",
+   "cold water"
+  ],
+  "location": "Spain (Valencia, Malvarrosa beach likely)",
+  "orientation": "vertical",
+  "duration": 6.91,
+  "usable": [
+   [
+    0,
+    6.91
+   ]
+  ],
+  "quality": 2,
+  "notes": "chaotic"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACU8A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701071052_0320_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "swimming at sunrise",
+  "description": "Anton floats in the sea talking to camera with the sun rising low over the water behind him.",
+  "tags": [
+   "anton",
+   "sea",
+   "swimming",
+   "sunrise",
+   "golden hour",
+   "morning",
+   "backlit"
+  ],
+  "location": "Spain (Valencia, Malvarrosa beach likely)",
+  "orientation": "vertical",
+  "duration": 11.78,
+  "usable": [
+   [
+    0,
+    11.78
+   ]
+  ],
+  "quality": 3,
+  "notes": "beautiful light, backlit face"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACU8g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701072938_0321_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking on beach after swim",
+  "description": "Shirtless Anton with a towel talks to camera on the beach in morning light, starting with a shot of the shoreline.",
+  "tags": [
+   "anton",
+   "beach",
+   "morning",
+   "towel",
+   "shirtless",
+   "talking"
+  ],
+  "location": "Spain (Valencia, Malvarrosa beach likely)",
+  "orientation": "vertical",
+  "duration": 25.66,
+  "usable": [
+   [
+    0,
+    25.66
+   ]
+  ],
+  "quality": 2,
+  "notes": "preview sideways; content vertical"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACU9A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701073016_0322_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "morning beach talk",
+  "description": "Shirtless Anton talks to camera on a sandy beach in warm early-morning light.",
+  "tags": [
+   "anton",
+   "beach",
+   "morning",
+   "golden hour",
+   "shirtless",
+   "talking"
+  ],
+  "location": "Spain (Valencia, Malvarrosa beach likely)",
+  "orientation": "vertical",
+  "duration": 10.28,
+  "usable": [
+   [
+    0,
+    10.28
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACU9g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701073037_0323_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "morning beach talk",
+  "description": "Shirtless Anton talks and gestures to camera on a sandy beach in warm early-morning light.",
+  "tags": [
+   "anton",
+   "beach",
+   "morning",
+   "golden hour",
+   "shirtless",
+   "talking"
+  ],
+  "location": "Spain (Valencia, Malvarrosa beach likely)",
+  "orientation": "vertical",
+  "duration": 24.21,
+  "usable": [
+   [
+    0,
+    24.21
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACU-A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701073110_0324_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "morning beach talk",
+  "description": "Shirtless Anton talks on the beach and briefly turns the camera to the low sun over the sea.",
+  "tags": [
+   "anton",
+   "beach",
+   "morning",
+   "sunrise",
+   "sea",
+   "shirtless",
+   "talking"
+  ],
+  "location": "Spain (Valencia, Malvarrosa beach likely)",
+  "orientation": "vertical",
+  "duration": 14.05,
+  "usable": [
+   [
+    0,
+    4
+   ],
+   [
+    10,
+    14.05
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACU-g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701073311_0325_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "morning beach talk with towel",
+  "description": "Shirtless Anton with a towel over his shoulder talks to selfie camera on a wide sandy beach in the morning.",
+  "tags": [
+   "anton",
+   "beach",
+   "morning",
+   "towel",
+   "shirtless",
+   "selfie"
+  ],
+  "location": "Spain (Valencia, Malvarrosa beach likely)",
+  "orientation": "horizontal",
+  "duration": 12.16,
+  "usable": [
+   [
+    0,
+    12.16
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACU_A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701073334_0326_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "morning beach talk with towel",
+  "description": "Shirtless Anton with a towel talks to selfie camera on a wide sandy beach under clear blue sky.",
+  "tags": [
+   "anton",
+   "beach",
+   "morning",
+   "towel",
+   "shirtless",
+   "selfie"
+  ],
+  "location": "Spain (Valencia, Malvarrosa beach likely)",
+  "orientation": "horizontal",
+  "duration": 54.79,
+  "usable": [
+   [
+    0,
+    54.79
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACU_g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701075244_0327_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "walking through fish market",
+  "description": "Anton in a white jersey walks through a covered food market showing stalls and a fish counter with seafood on ice.",
+  "tags": [
+   "anton",
+   "market",
+   "fish market",
+   "seafood",
+   "stalls",
+   "indoors",
+   "walking",
+   "vlog"
+  ],
+  "location": "Spain (Valencia, covered food market, possibly Mercado del Cabanyal)",
+  "orientation": "horizontal",
+  "duration": 56.06,
+  "usable": [
+   [
+    40,
+    56.06
+   ]
+  ],
+  "quality": 2,
+  "notes": "low angle start; fish counter at end usable"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVAA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701075431_0328_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "walking through fish market",
+  "description": "Very low-angle selfie of Anton talking under the red roof of a fish market.",
+  "tags": [
+   "anton",
+   "market",
+   "fish market",
+   "indoors",
+   "low angle",
+   "vlog"
+  ],
+  "location": "Spain (Valencia, covered food market, possibly Mercado del Cabanyal)",
+  "orientation": "horizontal",
+  "duration": 36.67,
+  "usable": [],
+  "quality": 1,
+  "notes": "unflattering up-the-nose angle"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVAg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701075523_0329_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "seafood counter display",
+  "description": "Close views of a seafood counter with lobsters, oysters, prawns and fish laid out on ice.",
+  "tags": [
+   "seafood",
+   "fish market",
+   "lobster",
+   "oysters",
+   "prawns",
+   "ice",
+   "market",
+   "food"
+  ],
+  "location": "Spain (Valencia, covered food market, possibly Mercado del Cabanyal)",
+  "orientation": "vertical",
+  "duration": 13.78,
+  "usable": [
+   [
+    0,
+    13.78
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVBA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701075659_0330_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "walking through fish market",
+  "description": "Anton talks to camera in a fish market, with fast blurry whip pans between stalls.",
+  "tags": [
+   "anton",
+   "market",
+   "fish market",
+   "indoors",
+   "whip pan",
+   "vlog"
+  ],
+  "location": "Spain (Valencia, covered food market, possibly Mercado del Cabanyal)",
+  "orientation": "horizontal",
+  "duration": 13.06,
+  "usable": [
+   [
+    2,
+    4
+   ]
+  ],
+  "quality": 1,
+  "notes": "motion blur"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVBg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701075723_0331_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "buying oysters at fish market",
+  "description": "Anton talks to camera in a fish market then shows a counter of oysters and lobsters.",
+  "tags": [
+   "anton",
+   "fish market",
+   "oysters",
+   "seafood",
+   "market",
+   "indoors",
+   "vlog"
+  ],
+  "location": "Spain (Valencia, covered food market, possibly Mercado del Cabanyal)",
+  "orientation": "vertical",
+  "duration": 21.99,
+  "usable": [
+   [
+    17,
+    21.99
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVCA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701075812_0332_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "other",
+  "shot": "accidental tilted market shot",
+  "description": "Under-two-second tilted clip of a fish market counter.",
+  "tags": [
+   "fish market",
+   "counter",
+   "accidental",
+   "tilted"
+  ],
+  "location": "Spain (Valencia, covered food market, possibly Mercado del Cabanyal)",
+  "orientation": "vertical",
+  "duration": 1.84,
+  "usable": [],
+  "quality": 1,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVCg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701080506_0333_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "leaving market with oysters",
+  "description": "Low-angle selfie of Anton walking out of the market carrying a bag, talking to camera.",
+  "tags": [
+   "anton",
+   "market",
+   "walking",
+   "low angle",
+   "selfie",
+   "vlog"
+  ],
+  "location": "Spain (Valencia, covered food market, possibly Mercado del Cabanyal)",
+  "orientation": "horizontal",
+  "duration": 15.15,
+  "usable": [],
+  "quality": 1,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVDA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701080554_0334_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "unpacking oysters outdoors",
+  "description": "Anton sits at an outdoor table under trees unpacking a plastic tub of oysters from a bag.",
+  "tags": [
+   "anton",
+   "oysters",
+   "outdoor table",
+   "unpacking",
+   "seafood",
+   "trees",
+   "daytime"
+  ],
+  "location": "Spain (Valencia, covered food market, possibly Mercado del Cabanyal)",
+  "orientation": "horizontal",
+  "duration": 11.08,
+  "usable": [
+   [
+    2,
+    9
+   ]
+  ],
+  "quality": 2,
+  "notes": "finger near lens"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVDg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701080620_0335_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "holding up an oyster",
+  "description": "Anton holds up an oyster and talks to camera at an outdoor table under trees.",
+  "tags": [
+   "anton",
+   "oyster",
+   "seafood",
+   "outdoor table",
+   "talking",
+   "trees",
+   "daytime"
+  ],
+  "location": "Spain (Valencia, covered food market, possibly Mercado del Cabanyal)",
+  "orientation": "vertical",
+  "duration": 7.31,
+  "usable": [
+   [
+    0,
+    7.31
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVEA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701080836_0336_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "opening oysters at outdoor table",
+  "description": "Anton sits at a white outdoor table opening and handling oysters from a plastic tub while talking.",
+  "tags": [
+   "anton",
+   "oysters",
+   "shucking",
+   "outdoor table",
+   "seafood",
+   "daytime"
+  ],
+  "location": "Spain (Valencia, covered food market, possibly Mercado del Cabanyal)",
+  "orientation": "vertical",
+  "duration": 24.04,
+  "usable": [
+   [
+    8,
+    24.04
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVEg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701080913_0337_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "eating raw oysters",
+  "description": "Anton eats raw oysters one by one at an outdoor table and talks about them to camera.",
+  "tags": [
+   "anton",
+   "oysters",
+   "eating",
+   "raw",
+   "seafood",
+   "outdoor table",
+   "daytime"
+  ],
+  "location": "Spain (Valencia, covered food market, possibly Mercado del Cabanyal)",
+  "orientation": "vertical",
+  "duration": 78.31,
+  "usable": [
+   [
+    0,
+    78.31
+   ]
+  ],
+  "quality": 3,
+  "notes": "towel in foreground"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVFA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701081036_0338_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "eating raw oysters",
+  "description": "Anton talks to camera at an outdoor table with oysters, gesturing as he explains.",
+  "tags": [
+   "anton",
+   "oysters",
+   "seafood",
+   "outdoor table",
+   "talking",
+   "daytime"
+  ],
+  "location": "Spain (Valencia, covered food market, possibly Mercado del Cabanyal)",
+  "orientation": "vertical",
+  "duration": 34.27,
+  "usable": [
+   [
+    5,
+    34.27
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVFg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701081125_0339_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "eating raw oysters",
+  "description": "Long take of Anton eating and opening oysters at an outdoor table while talking to camera.",
+  "tags": [
+   "anton",
+   "oysters",
+   "eating",
+   "seafood",
+   "outdoor table",
+   "talking",
+   "daytime"
+  ],
+  "location": "Spain (Valencia, covered food market, possibly Mercado del Cabanyal)",
+  "orientation": "vertical",
+  "duration": 152.29,
+  "usable": [
+   [
+    0,
+    152.29
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVGA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701081402_0340_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "eating raw oysters",
+  "description": "Anton opens and eats oysters from a plastic tub at an outdoor table on a leafy street, talking to camera.",
+  "tags": [
+   "anton",
+   "oysters",
+   "eating",
+   "seafood",
+   "outdoor",
+   "street",
+   "trees",
+   "daytime"
+  ],
+  "location": "Spain (Valencia)",
+  "orientation": "horizontal",
+  "duration": 83.97,
+  "usable": [
+   [
+    0,
+    83.97
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVGg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701081534_0341_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "eating raw oysters",
+  "description": "Anton holds up and eats oysters at an outdoor table on a leafy street, talking to camera.",
+  "tags": [
+   "anton",
+   "oysters",
+   "eating",
+   "seafood",
+   "outdoor",
+   "street",
+   "trees",
+   "daytime"
+  ],
+  "location": "Spain (Valencia)",
+  "orientation": "horizontal",
+  "duration": 51.67,
+  "usable": [
+   [
+    0,
+    45
+   ]
+  ],
+  "quality": 3,
+  "notes": "umbrella intrudes at end"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVHA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701081820_0342_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "walking selfie vlog in city",
+  "description": "Anton in a white tee walks through sunny Valencia streets with palms talking to selfie camera.",
+  "tags": [
+   "anton",
+   "walking",
+   "city",
+   "street",
+   "palm trees",
+   "selfie",
+   "sunny",
+   "vlog"
+  ],
+  "location": "Spain (Valencia)",
+  "orientation": "horizontal",
+  "duration": 61.36,
+  "usable": [
+   [
+    0,
+    61.36
+   ]
+  ],
+  "quality": 2,
+  "notes": "sun flares"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVHg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701204920_0343_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "walking selfie vlog at dusk",
+  "description": "Anton walks along city streets in soft evening light talking to selfie camera.",
+  "tags": [
+   "anton",
+   "walking",
+   "city",
+   "street",
+   "evening",
+   "selfie",
+   "vlog"
+  ],
+  "location": "Spain (Valencia)",
+  "orientation": "horizontal",
+  "duration": 88.46,
+  "usable": [
+   [
+    0,
+    88.46
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVIA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701205106_0344_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "walking selfie vlog at dusk",
+  "description": "Anton walks past apartment blocks and tram lines in golden evening light talking to selfie camera.",
+  "tags": [
+   "anton",
+   "walking",
+   "city",
+   "evening",
+   "golden hour",
+   "selfie",
+   "vlog"
+  ],
+  "location": "Spain (Valencia)",
+  "orientation": "horizontal",
+  "duration": 117.35,
+  "usable": [
+   [
+    0,
+    117.35
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVIg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701205308_0345_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "walking by park at dusk",
+  "description": "Anton talks to camera, then pans across a fenced park with palms and trees at dusk.",
+  "tags": [
+   "anton",
+   "park",
+   "palm trees",
+   "dusk",
+   "evening",
+   "walking",
+   "pan"
+  ],
+  "location": "Spain (Valencia)",
+  "orientation": "horizontal",
+  "duration": 9.69,
+  "usable": [
+   [
+    2,
+    6
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVJA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260702064500_0346_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "sunrise on beach promenade",
+  "description": "Anton with a towel talks on a palm-lined beach promenade, showing the sun rising on the horizon.",
+  "tags": [
+   "anton",
+   "promenade",
+   "palm trees",
+   "sunrise",
+   "morning",
+   "sky",
+   "towel",
+   "beach"
+  ],
+  "location": "Spain (Valencia, Malvarrosa promenade likely)",
+  "orientation": "horizontal",
+  "duration": 12.01,
+  "usable": [
+   [
+    3,
+    8
+   ]
+  ],
+  "quality": 3,
+  "notes": "sunrise pan at 3-8s is nice b-roll"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVJg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260702064946_0347_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "sunrise over the sea",
+  "description": "Handheld view of the sun rising over the sea with pink clouds and gentle waves on a quiet beach.",
+  "tags": [
+   "sunrise",
+   "sea",
+   "beach",
+   "waves",
+   "clouds",
+   "golden hour",
+   "morning",
+   "orange"
+  ],
+  "location": "Spain (Valencia beach, likely Malvarrosa)",
+  "orientation": "horizontal",
+  "duration": 32.58,
+  "usable": [
+   [
+    0,
+    18
+   ]
+  ],
+  "quality": 3,
+  "notes": "tilts sideways after ~20s"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVKA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260702065031_0348_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "sunrise over the sea",
+  "description": "Steady wide shot of the sun rising over the sea under pink clouds with waves rolling onto a dark beach.",
+  "tags": [
+   "sunrise",
+   "sea",
+   "beach",
+   "waves",
+   "clouds",
+   "golden hour",
+   "morning",
+   "static",
+   "calm"
+  ],
+  "location": "Spain (Valencia beach, likely Malvarrosa)",
+  "orientation": "horizontal",
+  "duration": 7.47,
+  "usable": [
+   [
+    0,
+    7.47
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVKg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707064440_0349_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "sunrise beach talk",
+  "description": "Shirtless Anton talks to camera on the beach at dawn, fixes his hair, then pans to the sunrise over the sea.",
+  "tags": [
+   "anton",
+   "beach",
+   "dawn",
+   "sunrise",
+   "shirtless",
+   "talking",
+   "morning"
+  ],
+  "location": "Spain (Valencia beach, likely Malvarrosa)",
+  "orientation": "vertical",
+  "duration": 28.36,
+  "usable": [
+   [
+    24,
+    28.36
+   ]
+  ],
+  "quality": 2,
+  "notes": "no LRF; downloaded 4K MP4"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVLA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707064545_0350_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "dawn on the beach",
+  "description": "Static vertical shot of a calm beach at dawn with a red sun just above the horizon and a lone figure at the water's edge.",
+  "tags": [
+   "dawn",
+   "sunrise",
+   "beach",
+   "sea",
+   "silhouette",
+   "calm",
+   "morning",
+   "static",
+   "pastel"
+  ],
+  "location": "Spain (Valencia beach, likely Malvarrosa)",
+  "orientation": "vertical",
+  "duration": 6.61,
+  "usable": [
+   [
+    0,
+    6.61
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVLg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707064600_0351_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "dog on beach at sunrise",
+  "description": "Static vertical shot of the sunrise over a calm sea as a dog sniffs along the beach and a paddleboarder floats offshore.",
+  "tags": [
+   "sunrise",
+   "beach",
+   "dog",
+   "sea",
+   "calm",
+   "morning",
+   "static",
+   "pastel"
+  ],
+  "location": "Spain (Valencia beach, likely Malvarrosa)",
+  "orientation": "vertical",
+  "duration": 7.62,
+  "usable": [
+   [
+    0,
+    7.62
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVMg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707064647_0353_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "sunrise beach talk",
+  "description": "Shirtless Anton talks to camera on the beach at dawn, then shows the red sun rising over the sea.",
+  "tags": [
+   "anton",
+   "beach",
+   "sunrise",
+   "dawn",
+   "shirtless",
+   "talking"
+  ],
+  "location": "Spain (Valencia beach, likely Malvarrosa)",
+  "orientation": "vertical",
+  "duration": 11.85,
+  "usable": [
+   [
+    6,
+    11.85
+   ]
+  ],
+  "quality": 3,
+  "notes": "sunrise portion usable"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVOg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707064938_0357_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "sunrise beach talk",
+  "description": "Shirtless Anton talks and smiles to camera on the beach with a cut to the sun on the horizon.",
+  "tags": [
+   "anton",
+   "beach",
+   "sunrise",
+   "shirtless",
+   "talking",
+   "morning"
+  ],
+  "location": "Spain (Valencia beach, likely Malvarrosa)",
+  "orientation": "vertical",
+  "duration": 19.49,
+  "usable": [
+   [
+    0,
+    19.49
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVQA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707065244_0360_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "standing in sea at sunrise",
+  "description": "Shirtless Anton stands waist-deep in a calm sea gazing at the rising sun, in warm silhouette.",
+  "tags": [
+   "anton",
+   "sea",
+   "sunrise",
+   "silhouette",
+   "golden hour",
+   "calm",
+   "morning",
+   "contemplative"
+  ],
+  "location": "Spain (Valencia beach, likely Malvarrosa)",
+  "orientation": "vertical",
+  "duration": 8.51,
+  "usable": [
+   [
+    0,
+    8.51
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVQg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707065325_0361_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "sunrise reflection on water",
+  "description": "Low shot of the sun rising over a calm sea with golden reflections on the water.",
+  "tags": [
+   "sunrise",
+   "sea",
+   "reflection",
+   "golden hour",
+   "calm",
+   "water",
+   "morning",
+   "orange"
+  ],
+  "location": "Spain (Valencia beach, likely Malvarrosa)",
+  "orientation": "vertical",
+  "duration": 14.08,
+  "usable": [
+   [
+    0,
+    14.08
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVRA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707065438_0362_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "wading into sea at sunrise",
+  "description": "Anton wades into a calm sea toward the rising sun, then dips the camera into the water.",
+  "tags": [
+   "anton",
+   "sea",
+   "sunrise",
+   "wading",
+   "golden hour",
+   "morning",
+   "silhouette"
+  ],
+  "location": "Spain (Valencia beach, likely Malvarrosa)",
+  "orientation": "vertical",
+  "duration": 11.2,
+  "usable": [
+   [
+    0,
+    7
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVRg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707065510_0363_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "swimming at sunrise then diving",
+  "description": "Anton floats with only his head above a calm sea at sunrise, then ducks underwater.",
+  "tags": [
+   "anton",
+   "sea",
+   "swimming",
+   "sunrise",
+   "underwater",
+   "morning",
+   "golden hour"
+  ],
+  "location": "Spain (Valencia beach, likely Malvarrosa)",
+  "orientation": "vertical",
+  "duration": 6.38,
+  "usable": [
+   [
+    0,
+    4.5
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVSg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707065638_0365_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "underwater swimming silhouette",
+  "description": "Hazy underwater view of Anton swimming and gliding in milky blue-green sea water.",
+  "tags": [
+   "underwater",
+   "swimming",
+   "silhouette",
+   "sea",
+   "blue",
+   "morning",
+   "anton"
+  ],
+  "location": "Spain (Valencia beach, likely Malvarrosa)",
+  "orientation": "horizontal",
+  "duration": 25.06,
+  "usable": [
+   [
+    4,
+    20
+   ]
+  ],
+  "quality": 3,
+  "notes": "murky water"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVTA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707075609_0366_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "other",
+  "shot": "drying off with towel",
+  "description": "Messy clip of Anton drying off with towels by a building wall after the swim.",
+  "tags": [
+   "anton",
+   "towel",
+   "drying off",
+   "shirtless",
+   "morning"
+  ],
+  "location": "Spain (Valencia beach, likely Malvarrosa)",
+  "orientation": "vertical",
+  "duration": 23.86,
+  "usable": [
+   [
+    12,
+    18
+   ]
+  ],
+  "quality": 1,
+  "notes": "towel covers lens"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVTg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707075646_0367_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in morning sun",
+  "description": "Shirtless Anton talks to camera against a cream wall in bright morning sun.",
+  "tags": [
+   "anton",
+   "shirtless",
+   "morning",
+   "sunlight",
+   "wall",
+   "talking"
+  ],
+  "location": "Spain (Valencia beach, likely Malvarrosa)",
+  "orientation": "vertical",
+  "duration": 11.91,
+  "usable": [
+   [
+    0,
+    11.91
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVUg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707080031_0369_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "fruit stall at market",
+  "description": "Short pan across a colourful fruit stall piled with melons, peaches, cherries and bananas under market lights.",
+  "tags": [
+   "fruit",
+   "market",
+   "stall",
+   "produce",
+   "colorful",
+   "indoors",
+   "pan",
+   "food"
+  ],
+  "location": "Spain (Valencia, covered food market, likely Mercado del Cabanyal)",
+  "orientation": "vertical",
+  "duration": 3.29,
+  "usable": [
+   [
+    0,
+    3.29
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVVA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707080119_0370_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "market aisle",
+  "description": "Static view down a long covered market aisle lined with stalls under pink and red lights.",
+  "tags": [
+   "market",
+   "aisle",
+   "stalls",
+   "indoors",
+   "pink",
+   "static"
+  ],
+  "location": "Spain (Valencia, covered food market, likely Mercado del Cabanyal)",
+  "orientation": "vertical",
+  "duration": 3.17,
+  "usable": [
+   [
+    0,
+    3.17
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVVg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707080139_0371_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "market aisle",
+  "description": "Static view down a quiet market aisle with stalls and crates under pink lighting.",
+  "tags": [
+   "market",
+   "aisle",
+   "stalls",
+   "crates",
+   "indoors",
+   "pink",
+   "static"
+  ],
+  "location": "Spain (Valencia, covered food market, likely Mercado del Cabanyal)",
+  "orientation": "vertical",
+  "duration": 4.14,
+  "usable": [
+   [
+    0,
+    4.14
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVWA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707080216_0372_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "fish counter display",
+  "description": "Slow move along a fish counter laid with prawns, fish and seafood on ice.",
+  "tags": [
+   "seafood",
+   "fish counter",
+   "prawns",
+   "fish",
+   "ice",
+   "market",
+   "food"
+  ],
+  "location": "Spain (Valencia, covered food market, likely Mercado del Cabanyal)",
+  "orientation": "vertical",
+  "duration": 5.08,
+  "usable": [
+   [
+    0,
+    5.08
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVXg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707080449_0375_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "fishmonger at ice counter",
+  "description": "View across a counter of crushed ice to a fishmonger preparing fish at his stall.",
+  "tags": [
+   "fishmonger",
+   "ice",
+   "fish market",
+   "counter",
+   "work",
+   "indoors",
+   "pink light"
+  ],
+  "location": "Spain (Valencia, covered food market, likely Mercado del Cabanyal)",
+  "orientation": "vertical",
+  "duration": 10.88,
+  "usable": [
+   [
+    3,
+    10.88
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVYA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707080534_0376_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "market aisle",
+  "description": "Static view down a market aisle under a red ceiling with shoppers walking between stalls.",
+  "tags": [
+   "market",
+   "aisle",
+   "shoppers",
+   "stalls",
+   "indoors",
+   "pink",
+   "red",
+   "static"
+  ],
+  "location": "Spain (Valencia, covered food market, likely Mercado del Cabanyal)",
+  "orientation": "vertical",
+  "duration": 4.22,
+  "usable": [
+   [
+    0,
+    4.22
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVYg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707080641_0377_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "browsing fish counter",
+  "description": "Handheld moves past fish market counters with fish, prawns and oysters on ice.",
+  "tags": [
+   "fish market",
+   "seafood",
+   "oysters",
+   "counter",
+   "ice",
+   "handheld",
+   "market"
+  ],
+  "location": "Spain (Valencia, covered food market, likely Mercado del Cabanyal)",
+  "orientation": "vertical",
+  "duration": 19.86,
+  "usable": [
+   [
+    0,
+    8
+   ]
+  ],
+  "quality": 2,
+  "notes": "tilted, finger at end"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVZg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707081036_0379_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "opening an oyster",
+  "description": "Anton in a light blue linen shirt opens an oyster with his hands at a turquoise outdoor table under trees.",
+  "tags": [
+   "anton",
+   "oyster",
+   "shucking",
+   "hands",
+   "seafood",
+   "outdoor table",
+   "linen shirt",
+   "daytime"
+  ],
+  "location": "Spain (Valencia)",
+  "orientation": "vertical",
+  "duration": 34.48,
+  "usable": [
+   [
+    0,
+    12
+   ],
+   [
+    18,
+    30
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVaQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707082110_0381_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "eating raw oysters",
+  "description": "Anton in a blue linen shirt eats an oyster and talks to camera under a white parasol.",
+  "tags": [
+   "anton",
+   "oysters",
+   "eating",
+   "seafood",
+   "parasol",
+   "outdoor",
+   "talking"
+  ],
+  "location": "Spain (Valencia)",
+  "orientation": "vertical",
+  "duration": 26.36,
+  "usable": [
+   [
+    0,
+    26.36
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVbQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707082245_0383_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "showing tub of oysters",
+  "description": "Anton under a parasol talks to camera and shows a plastic tub of fresh oysters.",
+  "tags": [
+   "anton",
+   "oysters",
+   "seafood",
+   "parasol",
+   "outdoor",
+   "talking"
+  ],
+  "location": "Spain (Valencia)",
+  "orientation": "vertical",
+  "duration": 10.56,
+  "usable": [
+   [
+    0,
+    10.56
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVbw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707082259_0384_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "showing tub of oysters",
+  "description": "Anton under a parasol holds up a tub of oysters and talks to camera.",
+  "tags": [
+   "anton",
+   "oysters",
+   "seafood",
+   "parasol",
+   "outdoor",
+   "talking"
+  ],
+  "location": "Spain (Valencia)",
+  "orientation": "vertical",
+  "duration": 6.28,
+  "usable": [
+   [
+    0,
+    6.28
+   ]
+  ],
+  "quality": 2,
+  "notes": "preview sideways; content vertical"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVcQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/Farmers market/DJI_20260707082338_0385_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "slurping an oyster",
+  "description": "Anton in a blue linen shirt slurps a raw oyster under a white parasol and reacts to camera.",
+  "tags": [
+   "anton",
+   "oyster",
+   "eating",
+   "slurping",
+   "seafood",
+   "parasol",
+   "outdoor"
+  ],
+  "location": "Spain (Valencia)",
+  "orientation": "vertical",
+  "duration": 9.54,
+  "usable": [
+   [
+    0,
+    9.54
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVcw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/Farmers market/DJI_20260707082824_0386_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in market with towel",
+  "description": "Anton with a towel over his shoulder talks to camera walking through a covered market.",
+  "tags": [
+   "anton",
+   "market",
+   "towel",
+   "walking",
+   "talking",
+   "indoors"
+  ],
+  "location": "Spain (Valencia, covered food market, likely Mercado del Cabanyal)",
+  "orientation": "vertical",
+  "duration": 5.76,
+  "usable": [
+   [
+    0,
+    5.76
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVdQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/Farmers market/DJI_20260707082839_0387_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "butcher counter in market",
+  "description": "Camera passes butcher counters with red meat, then a very low-angle selfie of Anton talking.",
+  "tags": [
+   "anton",
+   "butcher",
+   "meat",
+   "market",
+   "counter",
+   "low angle"
+  ],
+  "location": "Spain (Valencia, covered food market, likely Mercado del Cabanyal)",
+  "orientation": "vertical",
+  "duration": 16.24,
+  "usable": [
+   [
+    3,
+    8
+   ]
+  ],
+  "quality": 1,
+  "notes": "meat counter shots briefly usable; unflattering angle"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVdw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/Farmers market/DJI_20260707082935_0388_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "low-angle talk in market",
+  "description": "Very low-angle selfie of Anton talking under pink market lights.",
+  "tags": [
+   "anton",
+   "market",
+   "low angle",
+   "pink light",
+   "talking"
+  ],
+  "location": "Spain (Valencia, covered food market, likely Mercado del Cabanyal)",
+  "orientation": "vertical",
+  "duration": 15.2,
+  "usable": [],
+  "quality": 1,
+  "notes": "up-the-nose angle"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVeQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/Farmers market/DJI_20260707083008_0389_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "low-angle talk in market",
+  "description": "Very low-angle selfie of Anton talking under pink market lights and hanging hams.",
+  "tags": [
+   "anton",
+   "market",
+   "low angle",
+   "pink light",
+   "ham",
+   "talking"
+  ],
+  "location": "Spain (Valencia, covered food market, likely Mercado del Cabanyal)",
+  "orientation": "vertical",
+  "duration": 34.37,
+  "usable": [],
+  "quality": 1,
+  "notes": "up-the-nose angle"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVew",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/Farmers market/DJI_20260707083250_0390_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "holding up bag of meat",
+  "description": "Anton holds up a bag of meat in a covered market and talks to camera.",
+  "tags": [
+   "anton",
+   "market",
+   "meat",
+   "bag",
+   "talking",
+   "indoors"
+  ],
+  "location": "Spain (Valencia, covered food market, likely Mercado del Cabanyal)",
+  "orientation": "vertical",
+  "duration": 3.44,
+  "usable": [
+   [
+    0,
+    3.44
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVfQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/Farmers market/DJI_20260707083317_0391_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "walking past butcher stalls",
+  "description": "Anton talks to camera walking past butcher stalls in the market, ending on a meat counter.",
+  "tags": [
+   "anton",
+   "market",
+   "butcher",
+   "walking",
+   "talking",
+   "indoors"
+  ],
+  "location": "Spain (Valencia, covered food market, likely Mercado del Cabanyal)",
+  "orientation": "vertical",
+  "duration": 6.14,
+  "usable": [
+   [
+    4,
+    6.14
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVfw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/Farmers market/DJI_20260707083419_0392_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "olive stall in market",
+  "description": "Anton talks, then a whip pan to a colourful counter of olives and pickles.",
+  "tags": [
+   "anton",
+   "market",
+   "olives",
+   "pickles",
+   "whip pan",
+   "indoors"
+  ],
+  "location": "Spain (Valencia, covered food market, likely Mercado del Cabanyal)",
+  "orientation": "vertical",
+  "duration": 5.85,
+  "usable": [
+   [
+    4,
+    5.85
+   ]
+  ],
+  "quality": 2,
+  "notes": "preview sideways; olives shot at end usable"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVgQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/Farmers market/DJI_20260707083439_0393_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "low-angle talk in market",
+  "description": "Low-angle selfie of Anton with a towel under the market roof.",
+  "tags": [
+   "anton",
+   "market",
+   "low angle",
+   "towel"
+  ],
+  "location": "Spain (Valencia, covered food market, likely Mercado del Cabanyal)",
+  "orientation": "vertical",
+  "duration": 4.37,
+  "usable": [],
+  "quality": 1,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVgw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/Farmers market/DJI_20260707083650_0394_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in market with towel",
+  "description": "Anton with a towel talks to camera under the wooden roof of the market.",
+  "tags": [
+   "anton",
+   "market",
+   "towel",
+   "talking",
+   "indoors"
+  ],
+  "location": "Spain (Valencia, covered food market, likely Mercado del Cabanyal)",
+  "orientation": "vertical",
+  "duration": 3.68,
+  "usable": [
+   [
+    0,
+    3.68
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVhA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/Farmers market/DJI_20260707083709_0395_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "market produce stall",
+  "description": "Handheld shot past potted plants to a market produce counter as shoppers walk by.",
+  "tags": [
+   "market",
+   "produce",
+   "stall",
+   "shoppers",
+   "plants",
+   "indoors",
+   "handheld"
+  ],
+  "location": "Spain (Valencia, covered food market, likely Mercado del Cabanyal)",
+  "orientation": "vertical",
+  "duration": 4.39,
+  "usable": [
+   [
+    2,
+    4.39
+   ]
+  ],
+  "quality": 2,
+  "notes": "leaves block frame at start"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVhg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/Farmers market/DJI_20260707084015_0396_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "walking selfie under palms",
+  "description": "Anton in a blue linen shirt with a towel talks to selfie camera walking past palm trees and white buildings.",
+  "tags": [
+   "anton",
+   "walking",
+   "palm trees",
+   "selfie",
+   "towel",
+   "linen shirt",
+   "morning"
+  ],
+  "location": "Spain (Valencia)",
+  "orientation": "vertical",
+  "duration": 14.27,
+  "usable": [
+   [
+    0,
+    14.27
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVOA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/Oyster Lover ROUTINE/DJI_20260707064843_0356_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "morning beach talk",
+  "description": "Shirtless Anton talks to camera on the beach in soft early-morning light, with a shot of the pastel sky.",
+  "tags": [
+   "anton",
+   "beach",
+   "morning",
+   "dawn",
+   "shirtless",
+   "talking",
+   "pastel"
+  ],
+  "location": "Spain (Valencia beach, likely Malvarrosa)",
+  "orientation": "vertical",
+  "duration": 29.44,
+  "usable": [
+   [
+    0,
+    29.44
+   ]
+  ],
+  "quality": 3,
+  "notes": "filed in Oyster Lover ROUTINE"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVSA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/Oyster Lover ROUTINE/hunting for oysters.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "swimming at sunrise then diving",
+  "description": "Anton floats in a calm sea at sunrise then dives underwater with the camera into green water.",
+  "tags": [
+   "anton",
+   "sea",
+   "sunrise",
+   "swimming",
+   "underwater",
+   "dive",
+   "morning",
+   "golden hour"
+  ],
+  "location": "Spain (Valencia beach, likely Malvarrosa)",
+  "orientation": "vertical",
+  "duration": 6.02,
+  "usable": [
+   [
+    0,
+    2.5
+   ],
+   [
+    3,
+    6.02
+   ]
+  ],
+  "quality": 3,
+  "notes": "named 'hunting for oysters'; no LRF, 4K MP4"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVUA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/Oyster Review/DJI_20260707075728_0368_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in morning sun",
+  "description": "Shirtless Anton talks to camera against a cream wall in bright morning sun.",
+  "tags": [
+   "anton",
+   "shirtless",
+   "morning",
+   "sunlight",
+   "wall",
+   "talking"
+  ],
+  "location": "Spain (Valencia)",
+  "orientation": "vertical",
+  "duration": 4.44,
+  "usable": [
+   [
+    0,
+    4.44
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVWg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/Oyster Review/DJI_20260707080238_0373_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "oysters on ice at market",
+  "description": "Swing from Anton to a market counter of large oysters and seafood on ice with price tags.",
+  "tags": [
+   "oysters",
+   "seafood",
+   "ice",
+   "market",
+   "counter",
+   "price tags",
+   "pink light"
+  ],
+  "location": "Spain (Valencia, covered food market, likely Mercado del Cabanyal)",
+  "orientation": "vertical",
+  "duration": 6.7,
+  "usable": [
+   [
+    2.5,
+    6.7
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVXA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/Oyster Review/DJI_20260707080250_0374_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "low-angle talk in market",
+  "description": "Very low-angle selfie of Anton talking under the market roof with a towel in frame.",
+  "tags": [
+   "anton",
+   "market",
+   "low angle",
+   "towel",
+   "talking"
+  ],
+  "location": "Spain (Valencia, covered food market, likely Mercado del Cabanyal)",
+  "orientation": "vertical",
+  "duration": 47.51,
+  "usable": [],
+  "quality": 1,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVZA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/Oyster Review/DJI_20260707080956_0378_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "oyster review",
+  "description": "Anton in a blue linen shirt holds up a tub of oysters and reviews them to camera at an outdoor table.",
+  "tags": [
+   "anton",
+   "oysters",
+   "review",
+   "seafood",
+   "outdoor",
+   "linen shirt",
+   "talking"
+  ],
+  "location": "Spain (Valencia)",
+  "orientation": "vertical",
+  "duration": 29.24,
+  "usable": [
+   [
+    0,
+    29.24
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVaw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/Oyster Review/DJI_20260707082157_0382_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "oyster review",
+  "description": "Anton under a white parasol holds an oyster and talks about it to camera.",
+  "tags": [
+   "anton",
+   "oyster",
+   "review",
+   "seafood",
+   "parasol",
+   "outdoor",
+   "talking"
+  ],
+  "location": "Spain (Valencia)",
+  "orientation": "vertical",
+  "duration": 30.51,
+  "usable": [
+   [
+    0,
+    30.51
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVPA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/Tanned depressed person/DJI_20260707065006_0358_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "morning beach talk",
+  "description": "Shirtless Anton talks to camera close-up on the beach under a soft morning sky.",
+  "tags": [
+   "anton",
+   "beach",
+   "morning",
+   "shirtless",
+   "talking",
+   "close-up",
+   "pastel sky"
+  ],
+  "location": "Spain (Valencia beach, likely Malvarrosa)",
+  "orientation": "vertical",
+  "duration": 31.64,
+  "usable": [
+   [
+    0,
+    31.64
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVPg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/Tanned depressed person/DJI_20260707065052_0359_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "morning beach talk",
+  "description": "Shirtless Anton talks and smiles to camera close-up on the beach under a soft morning sky.",
+  "tags": [
+   "anton",
+   "beach",
+   "morning",
+   "shirtless",
+   "talking",
+   "close-up",
+   "pastel sky"
+  ],
+  "location": "Spain (Valencia beach, likely Malvarrosa)",
+  "orientation": "vertical",
+  "duration": 27.84,
+  "usable": [
+   [
+    0,
+    27.84
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVMA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/What if you/DJI_20260707064613_0352_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "morning beach talk",
+  "description": "Shirtless Anton talks animatedly to camera on the beach in morning light.",
+  "tags": [
+   "anton",
+   "beach",
+   "morning",
+   "shirtless",
+   "talking",
+   "close-up"
+  ],
+  "location": "Spain (Valencia beach, likely Malvarrosa)",
+  "orientation": "vertical",
+  "duration": 15.45,
+  "usable": [
+   [
+    0,
+    15.45
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVNg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/What if you/DJI_20260707064802_0355_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "morning beach talk",
+  "description": "Shirtless Anton talks to camera close-up on the beach with palms and buildings behind.",
+  "tags": [
+   "anton",
+   "beach",
+   "morning",
+   "shirtless",
+   "talking",
+   "close-up"
+  ],
+  "location": "Spain (Valencia beach, likely Malvarrosa)",
+  "orientation": "vertical",
+  "duration": 10.11,
+  "usable": [
+   [
+    0,
+    10.11
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACS-Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_1502.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "resort pool with sea view",
+  "description": "Steady elevated view over manicured gardens and a blue resort pool with the Mediterranean on the horizon.",
+  "tags": [
+   "pool",
+   "resort",
+   "garden",
+   "sea view",
+   "mediterranean",
+   "sunny",
+   "static",
+   "summer",
+   "blue"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 7.93,
+  "usable": [
+   [
+    0,
+    7.93
+   ]
+  ],
+  "quality": 4,
+  "notes": "iPhone 4K; near-identical to IMG_1503"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACS8Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_1503.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "resort pool with sea view",
+  "description": "Steady elevated view over manicured gardens and a blue resort pool with the Mediterranean on the horizon.",
+  "tags": [
+   "pool",
+   "resort",
+   "garden",
+   "sea view",
+   "mediterranean",
+   "sunny",
+   "static",
+   "summer",
+   "blue"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 7.93,
+  "usable": [
+   [
+    0,
+    7.93
+   ]
+  ],
+  "quality": 4,
+  "notes": "iPhone 4K; near-identical to IMG_1502"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTDA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_1505.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "turquoise cove through pines",
+  "description": "Steady vertical view past pine branches down to a turquoise Mediterranean cove and rocky headland.",
+  "tags": [
+   "sea",
+   "cove",
+   "turquoise",
+   "pine trees",
+   "cliffs",
+   "mediterranean",
+   "sunny",
+   "static",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 5.9,
+  "usable": [
+   [
+    0,
+    5.9
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTBA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_1506.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "turquoise cove with rocky islets",
+  "description": "Sharp static vertical shot of a crystal-clear turquoise cove with rocky islets, boats and green pines.",
+  "tags": [
+   "sea",
+   "cove",
+   "turquoise",
+   "clear water",
+   "rocks",
+   "pine trees",
+   "boats",
+   "mediterranean",
+   "sunny",
+   "static"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 5.07,
+  "usable": [
+   [
+    0,
+    5.07
+   ]
+  ],
+  "quality": 5,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTAw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_1507.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "rocky coastline and calm sea",
+  "description": "Static vertical view of a wooded rocky headland above calm deep-blue sea.",
+  "tags": [
+   "sea",
+   "coast",
+   "headland",
+   "rocks",
+   "pine trees",
+   "calm",
+   "blue",
+   "static",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 4.53,
+  "usable": [
+   [
+    0,
+    4.53
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACS_w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_1508.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "coastline from rocky ledge",
+  "description": "Static view from orange rocks along a calm blue sea toward wooded headlands.",
+  "tags": [
+   "sea",
+   "coast",
+   "rocks",
+   "calm",
+   "blue",
+   "headland",
+   "static",
+   "sunny"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 3.34,
+  "usable": [
+   [
+    0,
+    3.34
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACS8g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_1509.MOV",
+  "folder": "Spain 2026",
+  "kind": "other",
+  "shot": "friend taking photo",
+  "description": "Brief shot of a friend in a white shirt and cap taking a photo among rocks and pines.",
+  "tags": [
+   "friend",
+   "photographer",
+   "rocks",
+   "pine trees",
+   "coast"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 1.47,
+  "usable": [
+   [
+    0,
+    1.47
+   ]
+  ],
+  "quality": 2,
+  "notes": "1.5s"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTBw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_1512.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "turquoise cove from clifftop",
+  "description": "Static vertical clifftop view down onto a rocky turquoise cove with pines and swimmers.",
+  "tags": [
+   "sea",
+   "cove",
+   "turquoise",
+   "cliffs",
+   "pine trees",
+   "rocks",
+   "mediterranean",
+   "sunny",
+   "static"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 4.27,
+  "usable": [
+   [
+    0,
+    4.27
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACS_g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_1513.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "hiking coastal path",
+  "description": "Static shot of a hiker walking a coastal path through pines with bright blue sea behind.",
+  "tags": [
+   "hiking",
+   "coastal path",
+   "pine trees",
+   "sea",
+   "blue",
+   "sunny",
+   "static",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 3.93,
+  "usable": [
+   [
+    0,
+    3.93
+   ]
+  ],
+  "quality": 3,
+  "notes": "hiker small"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTDQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_1514.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "hiking coastal path",
+  "description": "Hiker with a backpack walks along a scrubby coastal path with the blue sea behind.",
+  "tags": [
+   "hiking",
+   "coastal path",
+   "backpack",
+   "sea",
+   "sunny",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 3.37,
+  "usable": [
+   [
+    0,
+    3.37
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACS9g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_1518.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "cobbled seafront and beach",
+  "description": "Static vertical view along a cobbled seafront path beside a sandy beach and white houses.",
+  "tags": [
+   "seafront",
+   "cobblestones",
+   "beach",
+   "village",
+   "white houses",
+   "sunny",
+   "static",
+   "mediterranean"
+  ],
+  "location": "Spain (Costa Brava, looks like Calella de Palafrugell)",
+  "orientation": "vertical",
+  "duration": 9.1,
+  "usable": [
+   [
+    0,
+    9.1
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACS-A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_1527.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "seaside village bay",
+  "description": "Static vertical view across a rocky bay to a seaside village and beach.",
+  "tags": [
+   "bay",
+   "village",
+   "sea",
+   "rocks",
+   "beach",
+   "sunny",
+   "static",
+   "mediterranean"
+  ],
+  "location": "Spain (Costa Brava, looks like Calella de Palafrugell)",
+  "orientation": "vertical",
+  "duration": 5.2,
+  "usable": [
+   [
+    0,
+    5.2
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACS-g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_1528.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "swimmers in rocky bay",
+  "description": "Static view over a rocky bay with swimmers and a beach lined with village houses.",
+  "tags": [
+   "bay",
+   "swimmers",
+   "rocks",
+   "village",
+   "beach",
+   "sea",
+   "sunny",
+   "static"
+  ],
+  "location": "Spain (Costa Brava, looks like Calella de Palafrugell)",
+  "orientation": "vertical",
+  "duration": 4.83,
+  "usable": [
+   [
+    0,
+    4.83
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACS_Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_1529.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "bay full of moored boats",
+  "description": "Static vertical shot of a calm bay filled with moored boats beneath green hills.",
+  "tags": [
+   "bay",
+   "boats",
+   "sea",
+   "calm",
+   "hills",
+   "mediterranean",
+   "sunny",
+   "static"
+  ],
+  "location": "Spain (Costa Brava, looks like Calella de Palafrugell)",
+  "orientation": "vertical",
+  "duration": 5.37,
+  "usable": [
+   [
+    0,
+    5.37
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTEQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_1530.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "crowded village beach",
+  "description": "Static vertical view over rocks to a busy sandy beach in front of colourful seaside houses.",
+  "tags": [
+   "beach",
+   "village",
+   "crowd",
+   "sunbathers",
+   "sea",
+   "houses",
+   "sunny",
+   "static",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, looks like Calella de Palafrugell)",
+  "orientation": "vertical",
+  "duration": 7.04,
+  "usable": [
+   [
+    0,
+    7.04
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACS9Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_1531.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "terrace cafe with sea view",
+  "description": "Static view of empty white terrace chairs and tables overlooking a bay of boats and hills.",
+  "tags": [
+   "terrace",
+   "cafe",
+   "chairs",
+   "sea view",
+   "bay",
+   "boats",
+   "sunny",
+   "static",
+   "mediterranean"
+  ],
+  "location": "Spain (Costa Brava, looks like Calella de Palafrugell)",
+  "orientation": "vertical",
+  "duration": 5.13,
+  "usable": [
+   [
+    0,
+    5.13
+   ]
+  ],
+  "quality": 3,
+  "notes": "awning corner in frame"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACS_A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_1535.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "pan over rocky cove",
+  "description": "Pan from a rocky cove with turquoise water across pine-covered cliffs and the open sea.",
+  "tags": [
+   "sea",
+   "cove",
+   "rocks",
+   "pine trees",
+   "cliffs",
+   "turquoise",
+   "pan",
+   "sunny"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 6.33,
+  "usable": [
+   [
+    0,
+    6.33
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTAg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_1536.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "rocky headland and sea",
+  "description": "Static vertical view of a forested rocky headland with waves washing over rocks below.",
+  "tags": [
+   "sea",
+   "headland",
+   "rocks",
+   "waves",
+   "pine trees",
+   "blue",
+   "static",
+   "sunny"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 4.3,
+  "usable": [
+   [
+    0,
+    4.3
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTAQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4112.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "person wading in shallow sea",
+  "description": "Static view from a sandy shore of a person wading far out in calm shallow sea with rocks on the horizon.",
+  "tags": [
+   "sea",
+   "shallow water",
+   "wading",
+   "shore",
+   "calm",
+   "sunny",
+   "static",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 4.35,
+  "usable": [
+   [
+    0,
+    4.35
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTCw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4113.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "walking into the sea",
+  "description": "Static vertical shot of Anton walking out over mossy rocks into a calm clear sea.",
+  "tags": [
+   "anton",
+   "sea",
+   "wading",
+   "rocks",
+   "clear water",
+   "calm",
+   "sunny",
+   "static",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 7.33,
+  "usable": [
+   [
+    0,
+    7.33
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACS8A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4114.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "calm sea over mossy rocks",
+  "description": "Static vertical view across green mossy shallows to a flat calm sea and blue sky.",
+  "tags": [
+   "sea",
+   "calm",
+   "shallows",
+   "moss",
+   "rocks",
+   "horizon",
+   "sunny",
+   "static",
+   "minimal"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 4.25,
+  "usable": [
+   [
+    0,
+    4.25
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTDw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4149.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "waves over coastal rocks",
+  "description": "Looking down at turquoise waves washing around golden coastal rocks.",
+  "tags": [
+   "waves",
+   "rocks",
+   "sea",
+   "turquoise",
+   "coast",
+   "sunny",
+   "texture",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 4.05,
+  "usable": [
+   [
+    0,
+    4.05
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTCg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4151.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "rocky headland and sea",
+  "description": "Static vertical view of a wooded headland and rocky islets with waves and deep blue sea.",
+  "tags": [
+   "sea",
+   "headland",
+   "rocks",
+   "waves",
+   "pine trees",
+   "blue",
+   "static",
+   "sunny"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 4.48,
+  "usable": [
+   [
+    0,
+    4.48
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTBg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4152.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "climbing over rocks to sea",
+  "description": "Shirtless Anton in blue shorts turns, then clambers across granite boulders toward the sea.",
+  "tags": [
+   "anton",
+   "rocks",
+   "boulders",
+   "sea",
+   "climbing",
+   "shirtless",
+   "sunny",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 12.7,
+  "usable": [
+   [
+    0,
+    12.7
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACS8w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4153.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "wading among rocks",
+  "description": "Anton wades into the sea between granite boulders and rock formations.",
+  "tags": [
+   "anton",
+   "sea",
+   "wading",
+   "rocks",
+   "boulders",
+   "sunny",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 2.72,
+  "usable": [
+   [
+    0,
+    2.72
+   ]
+  ],
+  "quality": 3,
+  "notes": "short, subject small"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACS9w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4154.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "wading among rocks",
+  "description": "Static shot of Anton wading out into clear sea between boulders and a rocky islet.",
+  "tags": [
+   "anton",
+   "sea",
+   "wading",
+   "rocks",
+   "boulders",
+   "clear water",
+   "sunny",
+   "static",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 7.03,
+  "usable": [
+   [
+    0,
+    7.03
+   ]
+  ],
+  "quality": 3,
+  "notes": "subject small"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTDg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4155.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "climbing rocky islet",
+  "description": "Static shot of a small figure climbing a rocky islet beyond clear shallow water.",
+  "tags": [
+   "rocks",
+   "islet",
+   "climbing",
+   "sea",
+   "clear water",
+   "sunny",
+   "static",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 6.82,
+  "usable": [
+   [
+    0,
+    6.82
+   ]
+  ],
+  "quality": 3,
+  "notes": "subject very small"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTEA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4156.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "swimmer in clear rocky bay",
+  "description": "Static vertical view over boulders to clear shallow sea with a swimmer near rocky islets.",
+  "tags": [
+   "sea",
+   "swimmer",
+   "rocks",
+   "clear water",
+   "bay",
+   "sunny",
+   "static",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 5.28,
+  "usable": [
+   [
+    0,
+    5.9
+   ]
+  ],
+  "quality": 3,
+  "notes": "swimmer small"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACS-w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4157.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "sunbathing on granite rocks",
+  "description": "Static shot of Anton sitting and sunbathing on pale granite rocks below a rugged cliff.",
+  "tags": [
+   "anton",
+   "sunbathing",
+   "rocks",
+   "granite",
+   "cliff",
+   "sunny",
+   "static",
+   "summer",
+   "relaxing"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 5.53,
+  "usable": [
+   [
+    0,
+    5.6
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTCA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4158.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "sunbathing on granite rocks",
+  "description": "Static shot of Anton lying back sunbathing on granite rocks under a cliff.",
+  "tags": [
+   "anton",
+   "sunbathing",
+   "lying down",
+   "rocks",
+   "granite",
+   "cliff",
+   "sunny",
+   "static",
+   "relaxing"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 7.02,
+  "usable": [
+   [
+    0,
+    7
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTCQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4159.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "sunbathing on granite rocks",
+  "description": "Closer static shot of Anton lying on granite rocks in the sun with the sea and cliff behind.",
+  "tags": [
+   "anton",
+   "sunbathing",
+   "lying down",
+   "rocks",
+   "sea",
+   "cliff",
+   "sunny",
+   "static",
+   "relaxing"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 3.47,
+  "usable": [
+   [
+    0,
+    3.5
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTBQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4160.MOV",
+  "folder": "Spain 2026",
+  "kind": "broll",
+  "shot": "clear water over pebbles",
+  "description": "Static vertical view across clear shallow water over pebbles to a rocky outcrop and open sea.",
+  "tags": [
+   "sea",
+   "clear water",
+   "pebbles",
+   "rocks",
+   "shallows",
+   "sunny",
+   "static",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 5.33,
+  "usable": [
+   [
+    0,
+    5.2
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTEw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/finished/Big city lights.mp4",
+  "folder": "Spain 2026",
+  "kind": "other",
+  "shot": "finished edit: big city lights",
+  "description": "Finished captioned short of Anton on a rocky beach talking about leaving city lights for small coastal towns, with b-roll cutaways.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "anton",
+   "beach",
+   "talking",
+   "short-form"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 14.87,
+  "usable": [],
+  "quality": 1,
+  "notes": "finished edit, not raw b-roll"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTFA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/finished/Big city lights_1.mp4",
+  "folder": "Spain 2026",
+  "kind": "other",
+  "shot": "finished edit: big city lights",
+  "description": "Alternate finished captioned version of the 'big city lights' talking short on a rocky beach.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "anton",
+   "beach",
+   "talking",
+   "short-form"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 14.87,
+  "usable": [],
+  "quality": 1,
+  "notes": "finished edit (alt version)"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTFQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/finished/quit my job.mp4",
+  "folder": "Spain 2026",
+  "kind": "other",
+  "shot": "finished edit: quit my job",
+  "description": "Finished captioned short of shirtless Anton on a sandy beach talking about quitting his job, nude tanning and swimming.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "anton",
+   "beach",
+   "talking",
+   "short-form"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 14.57,
+  "usable": [],
+  "quality": 1,
+  "notes": "finished edit"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTFg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/finished/serbian wedding.mp4",
+  "folder": "Spain 2026",
+  "kind": "other",
+  "shot": "finished edit: serbian wedding",
+  "description": "Finished captioned short of Anton on a beach talking about a Serbian wedding and healing, with an inset wedding clip.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "anton",
+   "beach",
+   "talking",
+   "short-form",
+   "wedding"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 28.5,
+  "usable": [],
+  "quality": 1,
+  "notes": "finished edit"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVqA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/july 12/DJI_20260712160854_0001_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in park",
+  "description": "Shirtless Anton sits on the grass in a pine-shaded park talking to camera, occasionally looking away.",
+  "tags": [
+   "anton",
+   "park",
+   "grass",
+   "pine trees",
+   "shirtless",
+   "talking",
+   "daytime"
+  ],
+  "location": "Spain (city park with pines, likely Valencia)",
+  "orientation": "vertical",
+  "duration": 49.45,
+  "usable": [
+   [
+    0,
+    48
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVqg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/july 12/DJI_20260712161031_0002_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in park",
+  "description": "Shirtless Anton talks to camera sitting on the grass in a green park.",
+  "tags": [
+   "anton",
+   "park",
+   "grass",
+   "pine trees",
+   "shirtless",
+   "talking",
+   "daytime"
+  ],
+  "location": "Spain (city park with pines, likely Valencia)",
+  "orientation": "vertical",
+  "duration": 18.18,
+  "usable": [
+   [
+    0,
+    18
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVrA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/july 12/DJI_20260712161102_0003_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in park",
+  "description": "Shirtless Anton smiles and talks to camera on the grass in a park.",
+  "tags": [
+   "anton",
+   "park",
+   "grass",
+   "shirtless",
+   "talking",
+   "smiling",
+   "daytime"
+  ],
+  "location": "Spain (city park with pines, likely Valencia)",
+  "orientation": "vertical",
+  "duration": 12.56,
+  "usable": [
+   [
+    0,
+    12.5
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVrg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/july 12/DJI_20260712161245_0004_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in park",
+  "description": "Shirtless Anton talks animatedly to camera in a pine-shaded park, glancing away between lines.",
+  "tags": [
+   "anton",
+   "park",
+   "grass",
+   "pine trees",
+   "shirtless",
+   "talking",
+   "daytime"
+  ],
+  "location": "Spain (city park with pines, likely Valencia)",
+  "orientation": "vertical",
+  "duration": 35.6,
+  "usable": [
+   [
+    0,
+    35
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVtw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/july 12/DJI_20260712161414_0005_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in park",
+  "description": "Shirtless Anton talks to camera in the park, with some takes where he looks down or away.",
+  "tags": [
+   "anton",
+   "park",
+   "grass",
+   "pine trees",
+   "shirtless",
+   "talking",
+   "daytime"
+  ],
+  "location": "Spain (city park with pines, likely Valencia)",
+  "orientation": "vertical",
+  "duration": 46.25,
+  "usable": [
+   [
+    0,
+    46
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVuQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/july 12/DJI_20260712161523_0006_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in park",
+  "description": "Shirtless Anton talks and gestures to camera sitting on a lawn in the park.",
+  "tags": [
+   "anton",
+   "park",
+   "grass",
+   "shirtless",
+   "talking",
+   "gesturing",
+   "daytime"
+  ],
+  "location": "Spain (city park with pines, likely Valencia)",
+  "orientation": "vertical",
+  "duration": 15.28,
+  "usable": [
+   [
+    0,
+    15
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVuw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/july 12/DJI_20260712162156_0007_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking lying in park",
+  "description": "Close-up of shirtless Anton lying on the grass talking to camera under trees.",
+  "tags": [
+   "anton",
+   "park",
+   "grass",
+   "lying down",
+   "close-up",
+   "shirtless",
+   "talking"
+  ],
+  "location": "Spain (city park with pines, likely Valencia)",
+  "orientation": "vertical",
+  "duration": 20.64,
+  "usable": [
+   [
+    0,
+    20
+   ]
+  ],
+  "quality": 2,
+  "notes": "preview sideways; content vertical"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVvQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/july 12/DJI_20260712162240_0008_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "other",
+  "shot": "accidental pov of grass and laptop",
+  "description": "Two-second accidental clip of grass, a laptop, sandals and bikes in the park.",
+  "tags": [
+   "grass",
+   "laptop",
+   "park",
+   "accidental"
+  ],
+  "location": "Spain (city park with pines, likely Valencia)",
+  "orientation": "vertical",
+  "duration": 1.96,
+  "usable": [],
+  "quality": 1,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVvw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/july 12/DJI_20260712162438_0009_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in park",
+  "description": "Shirtless Anton talks to camera seated on grass in a pine park, giving a thumbs up.",
+  "tags": [
+   "anton",
+   "park",
+   "grass",
+   "pine trees",
+   "shirtless",
+   "talking",
+   "daytime"
+  ],
+  "location": "Spain (city park with pines, likely Valencia)",
+  "orientation": "vertical",
+  "duration": 28.84,
+  "usable": [
+   [
+    8,
+    30
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVwQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/july 12/DJI_20260712162657_0010_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in park",
+  "description": "Shirtless Anton talks to camera seated on grass in a pine park.",
+  "tags": [
+   "anton",
+   "park",
+   "grass",
+   "pine trees",
+   "shirtless",
+   "talking",
+   "daytime"
+  ],
+  "location": "Spain (city park with pines, likely Valencia)",
+  "orientation": "vertical",
+  "duration": 15.32,
+  "usable": [
+   [
+    0,
+    16
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVww",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/july 12/DJI_20260712162935_0011_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in park",
+  "description": "Shirtless Anton talks and gestures to camera in a pine park, with a few looks away.",
+  "tags": [
+   "anton",
+   "park",
+   "grass",
+   "pine trees",
+   "shirtless",
+   "talking",
+   "daytime"
+  ],
+  "location": "Spain (city park with pines, likely Valencia)",
+  "orientation": "vertical",
+  "duration": 49.84,
+  "usable": [
+   [
+    0,
+    50
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVxQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/july 12/DJI_20260712163106_0012_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in park",
+  "description": "Shirtless Anton talks and gestures to camera in a pine park.",
+  "tags": [
+   "anton",
+   "park",
+   "grass",
+   "pine trees",
+   "shirtless",
+   "talking",
+   "daytime"
+  ],
+  "location": "Spain (city park with pines, likely Valencia)",
+  "orientation": "vertical",
+  "duration": 24.45,
+  "usable": [
+   [
+    0,
+    24
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVxw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/july 12/DJI_20260712163806_0014_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in park",
+  "description": "Shirtless Anton talks to camera in a pine park, briefly looking down.",
+  "tags": [
+   "anton",
+   "park",
+   "grass",
+   "pine trees",
+   "shirtless",
+   "talking",
+   "daytime"
+  ],
+  "location": "Spain (city park with pines, likely Valencia)",
+  "orientation": "vertical",
+  "duration": 22.61,
+  "usable": [
+   [
+    0,
+    22
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVyQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/july 12/DJI_20260712164302_0015_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in park",
+  "description": "Shirtless Anton talks to camera in a pine park across several takes.",
+  "tags": [
+   "anton",
+   "park",
+   "grass",
+   "pine trees",
+   "shirtless",
+   "talking",
+   "daytime"
+  ],
+  "location": "Spain (city park with pines, likely Valencia)",
+  "orientation": "vertical",
+  "duration": 52.88,
+  "usable": [
+   [
+    0,
+    52
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVyw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/july 12/DJI_20260712164442_0016_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in park",
+  "description": "Shirtless Anton talks to camera in a pine park, touching his chin thoughtfully.",
+  "tags": [
+   "anton",
+   "park",
+   "grass",
+   "pine trees",
+   "shirtless",
+   "talking",
+   "daytime"
+  ],
+  "location": "Spain (city park with pines, likely Valencia)",
+  "orientation": "vertical",
+  "duration": 9.96,
+  "usable": [
+   [
+    0,
+    10
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVzQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/july 12/DJI_20260712164505_0017_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in park",
+  "description": "Shirtless Anton talks to camera in a pine park, with some takes where he looks down.",
+  "tags": [
+   "anton",
+   "park",
+   "grass",
+   "pine trees",
+   "shirtless",
+   "talking",
+   "daytime"
+  ],
+  "location": "Spain (city park with pines, likely Valencia)",
+  "orientation": "vertical",
+  "duration": 40.48,
+  "usable": [
+   [
+    0,
+    40
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVzw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/july 12/DJI_20260712164609_0018_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in park",
+  "description": "Shirtless Anton talks and gestures to camera seated on grass in a pine park.",
+  "tags": [
+   "anton",
+   "park",
+   "grass",
+   "pine trees",
+   "shirtless",
+   "talking",
+   "daytime"
+  ],
+  "location": "Spain (city park with pines, likely Valencia)",
+  "orientation": "vertical",
+  "duration": 20.32,
+  "usable": [
+   [
+    0,
+    20.32
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACV0Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/july 12/DJI_20260712164643_0019_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in park",
+  "description": "Shirtless Anton talks and gestures to camera seated on grass in a pine park.",
+  "tags": [
+   "anton",
+   "park",
+   "grass",
+   "pine trees",
+   "shirtless",
+   "talking",
+   "daytime"
+  ],
+  "location": "Spain (city park with pines, likely Valencia)",
+  "orientation": "vertical",
+  "duration": 18.41,
+  "usable": [
+   [
+    0,
+    18.41
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACV0w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/july 12/DJI_20260712164726_0020_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in park",
+  "description": "Shirtless Anton talks and gestures to camera seated on grass in a pine park.",
+  "tags": [
+   "anton",
+   "park",
+   "grass",
+   "pine trees",
+   "shirtless",
+   "talking",
+   "daytime"
+  ],
+  "location": "Spain (city park with pines, likely Valencia)",
+  "orientation": "vertical",
+  "duration": 21.52,
+  "usable": [
+   [
+    0,
+    21.52
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACV1Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/july 12/DJI_20260712164940_0023_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in park",
+  "description": "Shirtless Anton talks and gestures to camera seated on grass in a pine park.",
+  "tags": [
+   "anton",
+   "park",
+   "grass",
+   "pine trees",
+   "shirtless",
+   "talking",
+   "daytime"
+  ],
+  "location": "Spain (city park with pines, likely Valencia)",
+  "orientation": "vertical",
+  "duration": 51.09,
+  "usable": [
+   [
+    0,
+    51.09
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACV1w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/july 12/DJI_20260712165258_0024_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in park",
+  "description": "Shirtless Anton talks and gestures to camera seated on grass in a pine park.",
+  "tags": [
+   "anton",
+   "park",
+   "grass",
+   "pine trees",
+   "shirtless",
+   "talking",
+   "daytime"
+  ],
+  "location": "Spain (city park with pines, likely Valencia)",
+  "orientation": "vertical",
+  "duration": 19.37,
+  "usable": [
+   [
+    0,
+    19.37
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACV2Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/july 12/DJI_20260712165328_0025_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in park",
+  "description": "Shirtless Anton talks and gestures to camera seated on grass in a pine park.",
+  "tags": [
+   "anton",
+   "park",
+   "grass",
+   "pine trees",
+   "shirtless",
+   "talking",
+   "daytime"
+  ],
+  "location": "Spain (city park with pines, likely Valencia)",
+  "orientation": "vertical",
+  "duration": 18.22,
+  "usable": [
+   [
+    3,
+    18.22
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACV2w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/july 12/DJI_20260712165353_0026_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "other",
+  "shot": "accidental recording of trousers",
+  "description": "Accidental recording pointed at light trousers and tree canopy while the camera was left running.",
+  "tags": [
+   "accidental",
+   "trousers",
+   "trees",
+   "park"
+  ],
+  "location": "Spain (city park with pines, likely Valencia)",
+  "orientation": "vertical",
+  "duration": 85.01,
+  "usable": [],
+  "quality": 1,
+  "notes": "85s accidental"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACV3Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/july 12/DJI_20260712170146_0027_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in park",
+  "description": "Shirtless Anton talks and gestures to camera seated on grass in a pine park.",
+  "tags": [
+   "anton",
+   "park",
+   "grass",
+   "pine trees",
+   "shirtless",
+   "talking",
+   "daytime"
+  ],
+  "location": "Spain (city park with pines, likely Valencia)",
+  "orientation": "vertical",
+  "duration": 23.85,
+  "usable": [
+   [
+    8,
+    23.85
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACV3w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/july 12/DJI_20260712170215_0028_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in park",
+  "description": "Shirtless Anton talks and gestures to camera seated on grass in a pine park.",
+  "tags": [
+   "anton",
+   "park",
+   "grass",
+   "pine trees",
+   "shirtless",
+   "talking",
+   "daytime"
+  ],
+  "location": "Spain (city park with pines, likely Valencia)",
+  "orientation": "vertical",
+  "duration": 14.93,
+  "usable": [
+   [
+    0,
+    14.93
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACV4Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/july 12/DJI_20260712170237_0029_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in park",
+  "description": "Shirtless Anton talks and gestures to camera seated on grass in a pine park.",
+  "tags": [
+   "anton",
+   "park",
+   "grass",
+   "pine trees",
+   "shirtless",
+   "talking",
+   "daytime"
+  ],
+  "location": "Spain (city park with pines, likely Valencia)",
+  "orientation": "vertical",
+  "duration": 22.1,
+  "usable": [
+   [
+    0,
+    22.1
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACV4w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/july 12/DJI_20260712170318_0030_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in park",
+  "description": "Shirtless Anton talks and gestures to camera seated on grass in a pine park.",
+  "tags": [
+   "anton",
+   "park",
+   "grass",
+   "pine trees",
+   "shirtless",
+   "talking",
+   "daytime"
+  ],
+  "location": "Spain (city park with pines, likely Valencia)",
+  "orientation": "vertical",
+  "duration": 20.89,
+  "usable": [
+   [
+    0,
+    20.89
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACV5Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/july 12/DJI_20260712170545_0031_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in park",
+  "description": "Shirtless Anton talks and gestures to camera seated on grass in a pine park.",
+  "tags": [
+   "anton",
+   "park",
+   "grass",
+   "pine trees",
+   "shirtless",
+   "talking",
+   "daytime"
+  ],
+  "location": "Spain (city park with pines, likely Valencia)",
+  "orientation": "vertical",
+  "duration": 24.16,
+  "usable": [
+   [
+    0,
+    24.16
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACV5w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/july 12/DJI_20260712170744_0032_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in park",
+  "description": "Shirtless Anton talks and gestures to camera seated on grass in a pine park.",
+  "tags": [
+   "anton",
+   "park",
+   "grass",
+   "pine trees",
+   "shirtless",
+   "talking",
+   "daytime"
+  ],
+  "location": "Spain (city park with pines, likely Valencia)",
+  "orientation": "vertical",
+  "duration": 36.01,
+  "usable": [
+   [
+    0,
+    36.01
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
  }
 ]
