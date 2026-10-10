@@ -202,7 +202,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABgwg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 10/Video 2025-12-11, 4 42 13 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "walking up sand dune",
   "description": "Shirtless Anton walks across a sunny sand dune toward shrubs and mountains, filmed handheld.",
   "tags": [
@@ -224,13 +224,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "hiking",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABgvg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 10/Video 2025-12-11, 4 42 41 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "walking on sand dune",
   "description": "Anton in a white open shirt walks along the top of a dune with hazy mountains behind.",
   "tags": [
@@ -251,7 +254,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "hiking",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABgwQ",
@@ -284,7 +290,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABguA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 10/Video 2025-12-11, 4 56 18 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "sandboarding down dune",
   "description": "Wide shot of Anton sandboarding down a large dune past green flags, then climbing back up.",
   "tags": [
@@ -305,13 +311,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "sandboarding",
+  "who": "anton",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABgtw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 10/Video 2025-12-11, 4 56 54 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "climbing up sand dune",
   "description": "Static wide shot of Anton climbing a steep dune toward camera past a green flag.",
   "tags": [
@@ -332,7 +341,10 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "activity": "sandboarding",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABgtA",
@@ -392,7 +404,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABgrg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 10/Video 2025-12-11, 5 23 53 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "waxing sandboard on dune",
   "description": "Anton waxes a sandboard at the top of a dune, then the camera tips to show the dunes below.",
   "tags": [
@@ -412,13 +424,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "camera bumped mid-clip"
+  "notes": "camera bumped mid-clip",
+  "activity": "sandboarding",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABgsA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 10/Video 2025-12-11, 5 24 25 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "waxing sandboard on dune",
   "description": "Low angle of Anton crouching to wax a sandboard on a dune crest, gear and shadows in foreground.",
   "tags": [
@@ -439,13 +454,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "cluttered foreground"
+  "notes": "cluttered foreground",
+  "activity": "sandboarding",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABgrw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 10/Video 2025-12-11, 5 25 06 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "sandboarding down dune",
   "description": "Anton drops in and sandboards down a big dune, camera follows him far down the slope.",
   "tags": [
@@ -465,7 +483,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "sandboarding",
+  "who": "anton",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABgqw",
@@ -523,7 +544,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABgpg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 10/Video 2025-12-11, 5 26 56 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "climbing dune with sandboard",
   "description": "Anton trudges up a steep dune carrying a sandboard, tilted handheld framing.",
   "tags": [
@@ -544,13 +565,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "sandboarding",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABgpA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 10/Video 2025-12-11, 5 27 11 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "climbing dune with sandboard",
   "description": "Anton climbs the last stretch of a dune with a sandboard and walks past camera, mountains behind.",
   "tags": [
@@ -571,13 +595,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "sandboarding",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABgow",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 10/Video 2025-12-11, 5 33 54 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "backlit sandboarder on dune",
   "description": "Backlit silhouette of Anton sitting and prepping on a dune crest with the sun flaring behind.",
   "tags": [
@@ -597,13 +624,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "strong backlight, subject dark"
+  "notes": "strong backlight, subject dark",
+  "activity": "sandboarding",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABgnQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 10/Video 2025-12-11, 5 34 23 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "backlit sandboarder on dune",
   "description": "Silhouette of Anton bending over a sandboard on a dune against bright sun.",
   "tags": [
@@ -623,13 +653,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "sandboarding",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABgnw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 10/Video 2025-12-11, 5 35 02 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "sandboarding down dune",
   "description": "Anton sets off on a sandboard from a backlit crest and rides far down a pale dune.",
   "tags": [
@@ -649,7 +682,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "sandboarding",
+  "who": "anton",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABgmQ",
@@ -1013,7 +1049,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABgiQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 10/Video 2025-12-11, 6 48 20 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "climbing coastal boulders",
   "description": "High angle of Anton climbing between big granite boulders with white surf crashing below.",
   "tags": [
@@ -1035,13 +1071,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "climbing",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABgig",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 10/Video 2025-12-11, 6 48 36 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "climbing coastal boulders",
   "description": "Anton scrambles up granite boulders by crashing waves toward camera.",
   "tags": [
@@ -1062,7 +1101,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "climbing",
+  "who": "anton",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABghw",
@@ -1229,7 +1271,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABw6w",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 13/Video 2025-12-14, 8 55 03 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "mechanical bull ride",
   "description": "Anton rides a mechanical bull in a neon-lit bar at night, filmed from across the room.",
   "tags": [
@@ -1250,7 +1292,10 @@
    ]
   ],
   "quality": 2,
-  "notes": "dark, far away"
+  "notes": "dark, far away",
+  "activity": "mechanical bull",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABw7g",
@@ -2843,7 +2888,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAByHw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 16/Video 2025-12-20, 8 10 26 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "dancing at night festival",
   "description": "Anton dances on a street under purple Christmas lights with a lit tree behind; blurry.",
   "tags": [
@@ -2863,13 +2908,16 @@
    ]
   ],
   "quality": 1,
-  "notes": "very blurry"
+  "notes": "very blurry",
+  "activity": "dancing",
+  "who": "anton",
+  "action_quality": 1
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAByOQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 16/Video 2025-12-20, 8 12 05 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "dancing at night festival",
   "description": "Long clip of Anton dancing toward camera on a lit street at a Christmas festival, purple light.",
   "tags": [
@@ -2890,7 +2938,10 @@
    ]
   ],
   "quality": 2,
-  "notes": "soft, low light"
+  "notes": "soft, low light",
+  "activity": "dancing",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAByFg",
@@ -3024,7 +3075,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAByGw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 16/Video 2025-12-20, 8 51 18 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "playing arcade game",
   "description": "Anton plays a neon dance/arcade machine in a festive arcade, seen from behind.",
   "tags": [
@@ -3045,7 +3096,10 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "activity": "arcade game",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAByMA",
@@ -3269,7 +3323,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAByZQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 17/Video 2025-12-21, 1 02 42 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "walking toward cows in field",
   "description": "Shirtless Anton walks through tall grass toward grazing cows; camera tilts sideways midway.",
   "tags": [
@@ -3290,13 +3344,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "rotated after 6s"
+  "notes": "rotated after 6s",
+  "activity": "hiking",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAByWg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 17/Video 2025-12-21, 1 03 01 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "walking toward cows in field",
   "description": "Shirtless Anton walks across a wide grassy plateau toward brown cows.",
   "tags": [
@@ -3318,13 +3375,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "hiking",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAByWA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 17/Video 2025-12-21, 1 03 33 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "running toward cows in field",
   "description": "Anton runs off across a vast grassy field toward distant cows.",
   "tags": [
@@ -3345,13 +3405,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "running",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAByWw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 17/Video 2025-12-21, 1 03 54 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "running back across field",
   "description": "Horizontal wide shot of Anton jogging back across a grassy plateau toward camera, ending close and smiling.",
   "tags": [
@@ -3372,7 +3435,10 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "activity": "running",
+  "who": "anton",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAByVQ",
@@ -3698,7 +3764,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAByTw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 17/Video 2025-12-21, 1 09 29 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "walking canyon rim trail",
   "description": "Anton walks away along the canyon rim trail; camera then tilts sideways.",
   "tags": [
@@ -3718,7 +3784,10 @@
    ]
   ],
   "quality": 2,
-  "notes": "rotated at end"
+  "notes": "rotated at end",
+  "activity": "hiking",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAByRw",
@@ -5455,7 +5524,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACALw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/Video 2025-12-24, 3 41 58 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "hiking through jungle",
   "description": "Anton climbs through thick green jungle vegetation by a stream, gesturing back at camera.",
   "tags": [
@@ -5476,13 +5545,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "hiking",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACAKg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/Video 2025-12-24, 3 43 50 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "wading through river pov",
   "description": "POV of bare feet wading through a shallow brown river.",
   "tags": [
@@ -5503,13 +5575,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "hiking",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACAKA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/Video 2025-12-24, 3 43 55 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "wading through river pov",
   "description": "Under a second of POV feet wading in a river.",
   "tags": [
@@ -5529,13 +5604,16 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "activity": "hiking",
+  "who": "anton",
+  "action_quality": 1
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACAJg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/Video 2025-12-24, 3 43 59 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "wading through river pov",
   "description": "POV looking down at legs and board shorts wading through rippling river water.",
   "tags": [
@@ -5556,13 +5634,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "hiking",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACAKQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/Video 2025-12-24, 4 03 39 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "selfie wading jungle river",
   "description": "Selfie of shirtless Anton with backpack crossing a rocky jungle river, smiling.",
   "tags": [
@@ -5584,7 +5665,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "hiking",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACAJw",
@@ -5824,7 +5908,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACALQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/Video 2025-12-24, 5 00 01 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "running into waterfall pool",
   "description": "Anton spreads his arms in celebration, then runs and wades into a waterfall pool.",
   "tags": [
@@ -5846,13 +5930,16 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "activity": "swimming",
+  "who": "anton",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACAHg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/Video 2025-12-24, 5 00 17 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "swimming to waterfall",
   "description": "Horizontal shot of Anton swimming across a pool toward a tall waterfall.",
   "tags": [
@@ -5873,13 +5960,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "swimming",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACAHQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/Video 2025-12-24, 5 00 26 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "swimming in waterfall pool",
   "description": "Anton swims in a pool beneath a waterfall, branches in the foreground.",
   "tags": [
@@ -5899,13 +5989,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "swimming",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACAGg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/Video 2025-12-24, 5 05 28 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "meditating under waterfall",
   "description": "Horizontal shot of Anton sitting cross-legged in a meditation pose on a rock under a waterfall.",
   "tags": [
@@ -5927,13 +6020,16 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "activity": "cold exposure",
+  "who": "anton",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACAGQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/Video 2025-12-24, 5 05 37 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "standing under waterfall",
   "description": "Anton stands on a rock in the spray beneath a waterfall.",
   "tags": [
@@ -5953,7 +6049,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "cold exposure",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACAFw",
@@ -5985,7 +6084,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACAHw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/Video 2025-12-24, 5 05 57 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "friend selfie at waterfall",
   "description": "A friend with curly hair takes a selfie at the waterfall while Anton swims behind.",
   "tags": [
@@ -6005,7 +6104,10 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "activity": "swimming",
+  "who": "anton + friends",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACAIQ",
@@ -6071,7 +6173,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACAEA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/WhatsApp Video 2025-12-24 at 8.37.58 PM-2.mp4",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "standing under waterfall",
   "description": "Horizontal low-res clip of Anton climbing onto the rocks under a waterfall.",
   "tags": [
@@ -6091,13 +6193,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "WhatsApp low resolution"
+  "notes": "WhatsApp low resolution",
+  "activity": "cold exposure",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACACQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/WhatsApp Video 2025-12-24 at 8.37.58 PM.mp4",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "swimming to waterfall",
   "description": "Anton wades into a waterfall pool and swims toward the falls.",
   "tags": [
@@ -6117,13 +6222,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "WhatsApp low resolution"
+  "notes": "WhatsApp low resolution",
+  "activity": "swimming",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACADQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/WhatsApp Video 2025-12-24 at 8.37.59 PM-2.mp4",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "jumping into waterfall pool",
   "description": "Horizontal low-res clip of Anton jumping off rocks into a pool beside a waterfall.",
   "tags": [
@@ -6144,13 +6252,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "WhatsApp low resolution"
+  "notes": "WhatsApp low resolution",
+  "activity": "cliff jumping",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACADw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/WhatsApp Video 2025-12-24 at 8.37.59 PM.mp4",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "swimming at waterfall",
   "description": "Anton climbs on rocks at the base of a waterfall then swims back across the pool.",
   "tags": [
@@ -6170,13 +6281,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "WhatsApp low resolution"
+  "notes": "WhatsApp low resolution",
+  "activity": "swimming",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACACg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/WhatsApp Video 2025-12-24 at 8.38.00 PM.mp4",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "swimming at waterfall",
   "description": "Anton swims across a waterfall pool and climbs out laughing.",
   "tags": [
@@ -6196,7 +6310,10 @@
    ]
   ],
   "quality": 2,
-  "notes": "WhatsApp low resolution"
+  "notes": "WhatsApp low resolution",
+  "activity": "swimming",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACACw",
@@ -6912,7 +7029,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACDwA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 21 - brazil bike trip/Video 2025-12-31, 10 21 11 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "motorcycle taxi ride at night",
   "description": "Shaky POV from the back of a motorcycle taxi riding through city streets at night.",
   "tags": [
@@ -6932,13 +7049,16 @@
    ]
   ],
   "quality": 1,
-  "notes": "very shaky"
+  "notes": "very shaky",
+  "activity": "motorcycle ride",
+  "who": "anton",
+  "action_quality": 1
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACDwQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 21 - brazil bike trip/Video 2025-12-31, 10 21 29 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "motorcycle taxi ride at night",
   "description": "POV riding pillion on a motorcycle taxi through lit city streets at night.",
   "tags": [
@@ -6959,7 +7079,10 @@
    ]
   ],
   "quality": 2,
-  "notes": "dark, handheld"
+  "notes": "dark, handheld",
+  "activity": "motorcycle ride",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACDvA",
@@ -7730,7 +7853,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACEEA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 25 - yes I/Video 2026-01-06, 3 51 50 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "surfer catching waves",
   "description": "Distant surfer paddling among breaking waves under a blue sky.",
   "tags": [
@@ -7752,13 +7875,16 @@
    ]
   ],
   "quality": 3,
-  "notes": "surfer very small in frame"
+  "notes": "surfer very small in frame",
+  "activity": "surfing",
+  "who": "unclear",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACEFQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 25 - yes I/Video 2026-01-06, 3 52 32 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "surfer catching waves",
   "description": "Long take of rolling waves with a small surfer in the lineup.",
   "tags": [
@@ -7780,13 +7906,16 @@
    ]
   ],
   "quality": 3,
-  "notes": "surfer tiny; some reframing"
+  "notes": "surfer tiny; some reframing",
+  "activity": "surfing",
+  "who": "unclear",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACEEg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 25 - yes I/Video 2026-01-06, 3 53 30 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "surfer catching waves",
   "description": "Waves breaking with a surfer riding near the end.",
   "tags": [
@@ -7807,7 +7936,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "subject small"
+  "notes": "subject small",
+  "activity": "surfing",
+  "who": "unclear",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACEEQ",
@@ -8269,7 +8401,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACECA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 25 - yes I/Video 2026-01-07, 4 06 11 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "riding scooter",
   "description": "Shaky selfie riding a scooter in a helmet along a tree-lined road.",
   "tags": [
@@ -8291,7 +8423,10 @@
    ]
   ],
   "quality": 2,
-  "notes": "shaky, awkward angles"
+  "notes": "shaky, awkward angles",
+  "activity": "scooter ride",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACEAQ",
@@ -8858,7 +8993,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACFMw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 28 - slasa and surf/Video 2026-01-15, 5 06 43 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "boat ride to kitesurf",
   "description": "Riding in a small boat across a lagoon with kitesurfers and green hills.",
   "tags": [
@@ -8880,13 +9015,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "shaky"
+  "notes": "shaky",
+  "activity": "boat trip",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACFLQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 28 - slasa and surf/Video 2026-01-15, 5 06 57 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "boat ride to kitesurf",
   "description": "Short POV from a boat with kite gear and a man at the bow.",
   "tags": [
@@ -8906,13 +9044,16 @@
    ]
   ],
   "quality": 1,
-  "notes": "finger and gear blocking"
+  "notes": "finger and gear blocking",
+  "activity": "boat trip",
+  "who": "anton",
+  "action_quality": 1
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACFMg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 28 - slasa and surf/Video 2026-01-15, 5 07 52 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "selfie on boat",
   "description": "Shirtless selfie on a boat on the lagoon, looking at the kites.",
   "tags": [
@@ -8933,13 +9074,16 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "activity": "boat trip",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACFLA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 28 - slasa and surf/Video 2026-01-15, 5 08 08 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "boat ride to kitesurf",
   "description": "POV of the boat bow with kite gear crossing open water.",
   "tags": [
@@ -8960,7 +9104,10 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "activity": "boat trip",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACFKw",
@@ -8987,7 +9134,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACFLw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 28 - slasa and surf/Video 2026-01-15, 5 08 25 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "selfie on boat",
   "description": "Shirtless selfie on a boat on the lagoon with hills behind, wind in hair.",
   "tags": [
@@ -9012,13 +9159,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "whip in the middle"
+  "notes": "whip in the middle",
+  "activity": "boat trip",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACFKg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 28 - slasa and surf/Video 2026-01-15, 6 11 21 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "kitesurfing",
   "description": "Anton kitesurfing on the lagoon, filmed from behind as he pulls up on the board.",
   "tags": [
@@ -9040,13 +9190,16 @@
    ]
   ],
   "quality": 3,
-  "notes": "overcast"
+  "notes": "overcast",
+  "activity": "kitesurfing",
+  "who": "anton",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACFNA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 28 - slasa and surf/Video 2026-01-15, 6 11 59 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "kitesurfing",
   "description": "Wide shot of a kitesurfer riding across the lagoon under dramatic clouds and green hills.",
   "tags": [
@@ -9068,13 +9221,16 @@
    ]
   ],
   "quality": 3,
-  "notes": "subject small"
+  "notes": "subject small",
+  "activity": "kitesurfing",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACFMQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 28 - slasa and surf/Video 2026-01-15, 6 12 52 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "kitesurfing",
   "description": "Long follow shot of Anton kitesurfing with a red kite over grey water.",
   "tags": [
@@ -9096,13 +9252,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "kitesurfing",
+  "who": "anton",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACFFQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 28 - slasa and surf/Video 2026-01-15, 6 14 57 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "kitesurfing",
   "description": "Kitesurfer riding toward camera with a red kite and hills behind.",
   "tags": [
@@ -9123,13 +9282,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "kitesurfing",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACFFw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 28 - slasa and surf/Video 2026-01-15, 6 15 59 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "kitesurfing",
   "description": "Kitesurfer riding away into the distance on the lagoon.",
   "tags": [
@@ -9150,13 +9312,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "subject tiny"
+  "notes": "subject tiny",
+  "activity": "kitesurfing",
+  "who": "unclear",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACFFg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 28 - slasa and surf/Video 2026-01-15, 9 28 02 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "salsa dancing",
   "description": "Couples dancing salsa in a warm-lit dance hall.",
   "tags": [
@@ -9178,13 +9343,16 @@
    ]
   ],
   "quality": 3,
-  "notes": "low light, soft"
+  "notes": "low light, soft",
+  "activity": "dancing",
+  "who": "unclear",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACFGA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 28 - slasa and surf/Video 2026-01-15, 9 28 27 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "salsa dancing",
   "description": "Anton and others dancing salsa with partners in a crowded hall.",
   "tags": [
@@ -9206,13 +9374,16 @@
    ]
   ],
   "quality": 3,
-  "notes": "soft, warm cast"
+  "notes": "soft, warm cast",
+  "activity": "dancing",
+  "who": "anton + friends",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACFLg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 28 - slasa and surf/Video 2026-01-15, 9 31 55 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "salsa dancing",
   "description": "Anton spinning a partner during a salsa social.",
   "tags": [
@@ -9234,7 +9405,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "soft, warm cast"
+  "notes": "soft, warm cast",
+  "activity": "dancing",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABNbg",
@@ -10520,7 +10694,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACFjA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 33/Video 2026-01-20, 5 02 39 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "kitesurfing",
   "description": "From a board on the lagoon, kites in the distance and a kitesurfer approaching under puffy clouds.",
   "tags": [
@@ -10541,13 +10715,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "kitesurfing",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACFjQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 33/Video 2026-01-20, 5 03 45 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "kitesurfing",
   "description": "Follow shot of a kitesurfer carving across a sunny lagoon with a pink kite and mountains.",
   "tags": [
@@ -10569,13 +10746,16 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "activity": "kitesurfing",
+  "who": "unclear",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACFjg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 33/Video 2026-01-20, 5 05 01 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "kitesurfing",
   "description": "Long kitesurfing follow shot on the lagoon with mountains and bright sky.",
   "tags": [
@@ -10597,7 +10777,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "some sun flare"
+  "notes": "some sun flare",
+  "activity": "kitesurfing",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACFiw",
@@ -11074,7 +11257,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACGGA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 35/Video 2026-01-26, 3 34 32 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "doing push-ups on the beach",
   "description": "Anton drops into push-ups on the sand and pops back up, ocean behind.",
   "tags": [
@@ -11096,13 +11279,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "workout",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACGFw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 35/Video 2026-01-26, 3 34 44 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "running to the sea with surfboard",
   "description": "Anton runs across the sand toward the ocean carrying a surfboard.",
   "tags": [
@@ -11124,13 +11310,16 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "activity": "surfing",
+  "who": "anton",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACGGw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 35/Video 2026-01-26, 3 34 49 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "paddling out to surf",
   "description": "Anton walks into the surf with a board and paddles out.",
   "tags": [
@@ -11151,13 +11340,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "surfing",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACGGg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 35/Video 2026-01-26, 3 35 17 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "surfer catching waves",
   "description": "Surfer paddling through the white water among rolling waves.",
   "tags": [
@@ -11178,13 +11370,16 @@
    ]
   ],
   "quality": 3,
-  "notes": "subject small"
+  "notes": "subject small",
+  "activity": "surfing",
+  "who": "unclear",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACGHA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 35/Video 2026-01-26, 3 35 49 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "surfer catching waves",
   "description": "Long shot of waves with a distant surfer in the lineup.",
   "tags": [
@@ -11204,13 +11399,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "subject tiny"
+  "notes": "subject tiny",
+  "activity": "surfing",
+  "who": "unclear",
+  "action_quality": 1
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACGHQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 35/Video 2026-01-26, 3 36 48 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "surfer catching waves",
   "description": "Waves rolling in with a tiny surfer in the distance.",
   "tags": [
@@ -11230,7 +11428,10 @@
    ]
   ],
   "quality": 2,
-  "notes": "subject tiny"
+  "notes": "subject tiny",
+  "activity": "surfing",
+  "who": "unclear",
+  "action_quality": 1
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACGFA",
@@ -11262,7 +11463,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACGFg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 35/Video 2026-01-26, 3 38 39 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "surfer catching waves",
   "description": "Waves with a surfer riding near the end.",
   "tags": [
@@ -11282,7 +11483,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "surfing",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACGEQ",
@@ -11467,7 +11671,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACGUA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 36/Video 2026-01-28, 3 33 02 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "kitesurfing",
   "description": "Kitesurfers on a bright lagoon with a red kite and green hills.",
   "tags": [
@@ -11488,13 +11692,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "kitesurfing",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACGUQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 36/Video 2026-01-28, 3 41 45 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "kitesurfing",
   "description": "Kitesurfer carving past on a sunny lagoon with a red kite.",
   "tags": [
@@ -11515,7 +11722,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "kitesurfing",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACGSw",
@@ -11547,7 +11757,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACGTA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 36/Video 2026-01-28, 3 53 01 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "kites over the lagoon",
   "description": "Low shot of choppy water with kites flying over the lagoon.",
   "tags": [
@@ -11567,7 +11777,10 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "activity": "kitesurfing",
+  "who": "unclear",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACGUg",
@@ -11599,7 +11812,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACGTQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 36/Video 2026-01-28, 3 56 56 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "kites over the lagoon",
   "description": "Low POV over choppy lagoon water with kites in a blue sky.",
   "tags": [
@@ -11620,13 +11833,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "low, choppy angle"
+  "notes": "low, choppy angle",
+  "activity": "kitesurfing",
+  "who": "unclear",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACGSA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 36/Video 2026-01-28, 3 58 14 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "kites over the lagoon",
   "description": "Short low POV of the lagoon with a kite at the edge of frame.",
   "tags": [
@@ -11647,13 +11863,16 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "activity": "kitesurfing",
+  "who": "unclear",
+  "action_quality": 1
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACGQg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 36/Video 2026-01-28, 3 58 41 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "kitesurfing",
   "description": "Distant kitesurfer crossing the lagoon under a blue sky.",
   "tags": [
@@ -11675,13 +11894,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "subject small"
+  "notes": "subject small",
+  "activity": "kitesurfing",
+  "who": "unclear",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACGRw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 36/Video 2026-01-28, 3 58 53 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "kitesurfing",
   "description": "Kitesurfer riding past on the lagoon, then kite in the sky.",
   "tags": [
@@ -11703,13 +11925,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "kitesurfing",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACGRQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 36/Video 2026-01-28, 3 59 27 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "kitesurfing",
   "description": "Kitesurfer approaches and rides past close to camera on the lagoon.",
   "tags": [
@@ -11732,13 +11957,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "kitesurfing",
+  "who": "unclear",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACGSQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 36/Video 2026-01-28, 4 00 19 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "kitesurfing",
   "description": "Kitesurfer silhouetted on the lagoon under dramatic clouds and hills.",
   "tags": [
@@ -11761,13 +11989,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "kitesurfing",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACGRg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 36/Video 2026-01-28, 4 01 16 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "kitesurfing",
   "description": "Kitesurfer riding across the lagoon with red kite overhead.",
   "tags": [
@@ -11789,13 +12020,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "kitesurfing",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACGQQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 36/Video 2026-01-28, 4 03 31 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "kitesurfing",
   "description": "Kitesurfer passing on the lagoon under dramatic clouds with red kite.",
   "tags": [
@@ -11818,13 +12052,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "kitesurfing",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACGQA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 36/Video 2026-01-28, 4 04 09 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "kitesurfing",
   "description": "Kitesurfers riding on the lagoon under clouds and sun.",
   "tags": [
@@ -11847,13 +12084,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "kitesurfing",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACGPw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 36/Video 2026-01-28, 4 05 04 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "kitesurfing",
   "description": "Kitesurfers on the lagoon with dramatic cloudscape.",
   "tags": [
@@ -11875,13 +12115,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "kitesurfing",
+  "who": "unclear",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACGPg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 36/Video 2026-01-28, 4 05 52 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "kitesurfing",
   "description": "Kitesurfer on the lagoon under bright clouds.",
   "tags": [
@@ -11903,13 +12146,16 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "activity": "kitesurfing",
+  "who": "unclear",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACGSg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 36/Video 2026-01-28, 4 10 47 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "kitesurfing",
   "description": "Long follow of a kitesurfer jumping and riding on the lagoon with mountains.",
   "tags": [
@@ -11932,13 +12178,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "kitesurfing",
+  "who": "unclear",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACGTw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 36/Video 2026-01-28, 4 11 40 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "kitesurfing",
   "description": "Long kitesurfing follow shot under bright clouds and hills.",
   "tags": [
@@ -11961,7 +12210,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "kitesurfing",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACGPQ",
@@ -12707,7 +12959,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABOGg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 5/Video 2025-11-26, 8 11 49 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "night boat ride",
   "description": "Boat on dark water with waterfront lights in the background.",
   "tags": [
@@ -12727,13 +12979,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "dark, noisy"
+  "notes": "dark, noisy",
+  "activity": "boat trip",
+  "who": "unclear",
+  "action_quality": 1
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABOGA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 5/Video 2025-11-26, 8 11 57 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "night boat ride",
   "description": "Silhouette at the bow of a boat with glittering waterfront lights.",
   "tags": [
@@ -12754,7 +13009,10 @@
    ]
   ],
   "quality": 2,
-  "notes": "dark, noisy"
+  "notes": "dark, noisy",
+  "activity": "boat trip",
+  "who": "unclear",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABOHw",
@@ -12781,7 +13039,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABOFw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 5/Video 2025-11-26, 8 13 11 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "night boat ride",
   "description": "Boat bow on dark water with shore lights, hand in frame.",
   "tags": [
@@ -12801,7 +13059,10 @@
    ]
   ],
   "quality": 1,
-  "notes": "hand blocking, dark"
+  "notes": "hand blocking, dark",
+  "activity": "boat trip",
+  "who": "unclear",
+  "action_quality": 1
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABOHQ",
@@ -13149,7 +13410,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABfvQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 6/finished/surf.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "kitesurfing",
   "description": "Kitesurfer riding on grey water under overcast sky (exported clip in finished folder).",
   "tags": [
@@ -13169,7 +13430,10 @@
    ]
   ],
   "quality": 2,
-  "notes": "overcast, flat light"
+  "notes": "overcast, flat light",
+  "activity": "kitesurfing",
+  "who": "unclear",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABOVg",
@@ -13233,7 +13497,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABOTw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 6/Video 2025-11-30, 1 14 09 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "sitting in natural pool",
   "description": "Anton steps into a clear rock pool and sits down under a small waterfall.",
   "tags": [
@@ -13254,7 +13518,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "cold exposure",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABOTQ",
@@ -13424,7 +13691,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABORw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 6/Video 2025-11-30, 1 18 51 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "climbing by waterfall",
   "description": "Anton climbs the rocks beside a tall waterfall.",
   "tags": [
@@ -13445,7 +13712,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "climbing",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABOOA",
@@ -13477,7 +13747,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABONg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 6/Video 2025-11-30, 1 19 33 PM (1).mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "friend at waterfall",
   "description": "Friend with curly hair climbs down rocks smiling at a waterfall.",
   "tags": [
@@ -13497,13 +13767,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "duplicate of /[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 6/Video 2025-11-30, 1 19 33 PM.mov"
+  "notes": "duplicate of /[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 6/Video 2025-11-30, 1 19 33 PM.mov",
+  "activity": "climbing",
+  "who": "friends",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABOMw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 6/Video 2025-11-30, 1 19 33 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "friend at waterfall",
   "description": "Friend with curly hair climbs down rocks smiling at a waterfall.",
   "tags": [
@@ -13523,7 +13796,10 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "activity": "climbing",
+  "who": "friends",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABOWQ",
@@ -13604,7 +13880,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABOUw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 6/Video 2025-11-30, 11 19 58 AM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "friends hiking selfie",
   "description": "Selfie of a friend with Anton walking up a stone trail behind.",
   "tags": [
@@ -13624,13 +13900,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "shaky"
+  "notes": "shaky",
+  "activity": "hiking",
+  "who": "anton + friends",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABOWA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 6/Video 2025-11-30, 12 24 48 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "hiking through jungle",
   "description": "Rotated footage of Anton hiking through dense jungle.",
   "tags": [
@@ -13645,7 +13924,10 @@
   "duration": 27.81,
   "usable": [],
   "quality": 1,
-  "notes": "rotated sideways, shaky"
+  "notes": "rotated sideways, shaky",
+  "activity": "hiking",
+  "who": "anton",
+  "action_quality": 1
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABOYA",
@@ -14740,7 +15022,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABgIA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 8/Video 2025-12-07, 11 38 21 AM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "hiking through jungle",
   "description": "Rotated clip of a friend hiking through forest with a backpack.",
   "tags": [
@@ -14755,13 +15037,16 @@
   "duration": 4.83,
   "usable": [],
   "quality": 1,
-  "notes": "rotated sideways"
+  "notes": "rotated sideways",
+  "activity": "hiking",
+  "who": "friends",
+  "action_quality": 1
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABgHw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 8/Video 2025-12-07, 11 38 28 AM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "hiking through jungle",
   "description": "Rotated clip of a friend hiking down a forest trail.",
   "tags": [
@@ -14776,13 +15061,16 @@
   "duration": 4.13,
   "usable": [],
   "quality": 1,
-  "notes": "rotated sideways"
+  "notes": "rotated sideways",
+  "activity": "hiking",
+  "who": "friends",
+  "action_quality": 1
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABgIw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 8/Video 2025-12-07, 11 48 05 AM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "hiking down to the beach",
   "description": "Hikers descend a trail toward a wide beach and sea, then camera rotates.",
   "tags": [
@@ -14803,7 +15091,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "rotated second half"
+  "notes": "rotated second half",
+  "activity": "hiking",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABgJA",
@@ -14836,7 +15127,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABgNA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 8/Video 2025-12-07, 11 49 46 AM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "hiking down to the beach",
   "description": "Friend looks out over the sea then hikes down, mostly rotated.",
   "tags": [
@@ -14856,7 +15147,10 @@
    ]
   ],
   "quality": 2,
-  "notes": "mostly rotated"
+  "notes": "mostly rotated",
+  "activity": "hiking",
+  "who": "friends",
+  "action_quality": 1
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABgHg",
@@ -15244,7 +15538,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABgEQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 8/Video 2025-12-07, 12 32 30 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "hiking up the trail",
   "description": "Anton hikes up the rocky trail with the beach behind, camera tilts away.",
   "tags": [
@@ -15264,13 +15558,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "hiking",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABgAg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 8/Video 2025-12-07, 12 32 52 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "hiking up the trail",
   "description": "Anton climbs the trail with the bay and surf behind.",
   "tags": [
@@ -15291,7 +15588,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "hiking",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABf_A",
@@ -15349,7 +15649,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABf-w",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 8/Video 2025-12-07, 12 48 44 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "hiking up the trail",
   "description": "Friend climbs a steep rocky trail with the sea behind.",
   "tags": [
@@ -15370,7 +15670,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "hiking",
+  "who": "friends",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABf-Q",
@@ -16286,7 +16589,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACI5A",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/feb 22/Video 2026-02-21, 11 24 12 AM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "hiking through jungle",
   "description": "Friend walks ahead on a forest trail beside a wooden rail.",
   "tags": [
@@ -16306,7 +16609,10 @@
    ]
   ],
   "quality": 2,
-  "notes": "very short"
+  "notes": "very short",
+  "activity": "hiking",
+  "who": "friends",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACI5g",
@@ -16976,7 +17282,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACJjw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/feb 26/feb 28/Video 2026-02-28, 3 36 48 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "climbing stairs to trail",
   "description": "Anton walks up narrow stone stairs into the forest trail.",
   "tags": [
@@ -16996,7 +17302,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "hiking",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACJjQ",
@@ -18616,7 +18925,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACG2A",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/feb 5 dancing/Video 2026-02-06, 10 17 48 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "dancing in a bar",
   "description": "Crowd dancing forró in a teal bar with a checkered floor.",
   "tags": [
@@ -18637,13 +18946,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "dancing",
+  "who": "unclear",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACG3w",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/feb 5 dancing/Video 2026-02-06, 10 17 58 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "dancing in a bar",
   "description": "Couples dancing on a checkered floor in a busy bar.",
   "tags": [
@@ -18664,7 +18976,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "dancing",
+  "who": "unclear",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACG8g",
@@ -18994,7 +19309,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACG5A",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/feb 5 dancing/Video 2026-02-06, 7 30 10 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "running into the ocean at sunset",
   "description": "Anton runs into the sea at sunset and back out, pink sky and mountains.",
   "tags": [
@@ -19015,13 +19330,16 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "activity": "swimming",
+  "who": "anton",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACG4w",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/feb 5 dancing/Video 2026-02-06, 7 30 33 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "running into the ocean at sunset",
   "description": "Anton runs into the waves at sunset and swims.",
   "tags": [
@@ -19041,13 +19359,16 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "activity": "swimming",
+  "who": "anton",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACG6A",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/feb 5 dancing/Video 2026-02-06, 7 31 01 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "swimming at sunset",
   "description": "Anton swimming in the sea at dusk under a pink sky.",
   "tags": [
@@ -19067,7 +19388,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "swimming",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACG4A",
@@ -19437,7 +19761,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACK0g",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/feb 8 oysters/rabdom clips floripa(Anton)/Video 2026-02-28, 3 13 15 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "walking trail to beach",
   "description": "Following shirtless Anton along a forest trail out to dunes and a beach.",
   "tags": [
@@ -19458,7 +19782,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "shaky"
+  "notes": "shaky",
+  "activity": "hiking",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACK0A",
@@ -19726,7 +20053,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACKyQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/feb 8 oysters/rabdom clips floripa(Anton)/Video 2026-03-10, 2 03 58 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "surfer catching waves",
   "description": "Surfer in the waves near a green headland on a grey day.",
   "tags": [
@@ -19746,7 +20073,10 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "activity": "surfing",
+  "who": "unclear",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACHDA",
@@ -20270,7 +20600,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACJzw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/Hike/Video 2026-03-02, 6 50 16 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "playing spikeball on beach",
   "description": "Friends playing spikeball on a city beach lined with high-rise buildings.",
   "tags": [
@@ -20291,7 +20621,10 @@
    ]
   ],
   "quality": 2,
-  "notes": "long, handheld"
+  "notes": "long, handheld",
+  "activity": "spikeball",
+  "who": "friends",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACKrg",
@@ -20323,7 +20656,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACJpA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/March 1/pri dancing/Video 2026-03-01, 8 05 32 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "dancing on waterfront at night",
   "description": "People dancing forró on a waterfront deck at night with city lights.",
   "tags": [
@@ -20344,13 +20677,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "dancing",
+  "who": "friends",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACJoA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/March 1/pri dancing/Video 2026-03-01, 8 06 10 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "dancing on waterfront at night",
   "description": "Couple dancing on a waterfront deck at night.",
   "tags": [
@@ -20370,7 +20706,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "dancing",
+  "who": "friends",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACJmQ",
@@ -20574,7 +20913,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACJow",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/March 1/Video 2026-03-01, 7 24 29 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "dancing on waterfront at night",
   "description": "Friends dancing forró in a big crowd on a waterfront at night.",
   "tags": [
@@ -20595,13 +20934,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "dancing",
+  "who": "friends",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACJnw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/March 1/Video 2026-03-01, 7 24 59 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "dancing on waterfront at night",
   "description": "Couple dancing among a crowd on the waterfront at night.",
   "tags": [
@@ -20622,13 +20964,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "dancing",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACJoQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/March 1/Video 2026-03-01, 7 25 13 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "dancing on waterfront at night",
   "description": "Wide shot of a crowd dancing by the water with city lights.",
   "tags": [
@@ -20651,7 +20996,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "dancing",
+  "who": "unclear",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACJog",
@@ -20923,7 +21271,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACJ8Q",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/March 6/Video 2026-03-05, 9 29 59 AM (1).mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "couple dancing in park",
   "description": "Couple dancing forró on a plaza under tall palm trees.",
   "tags": [
@@ -20944,13 +21292,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "dancing",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACJ8A",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/March 6/Video 2026-03-05, 9 29 59 AM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "couple dancing in park",
   "description": "Long take of a couple practicing partner dance under palms.",
   "tags": [
@@ -20971,7 +21322,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "long take"
+  "notes": "long take",
+  "activity": "dancing",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACJ6g",
@@ -21045,7 +21399,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACJ6w",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/March 6/Video 2026-03-06, 4 36 45 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "running into the sea",
   "description": "Anton runs down the beach into the surf on a sunny day.",
   "tags": [
@@ -21066,13 +21420,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "swimming",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACJ7A",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/March 6/Video 2026-03-06, 6 52 05 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "pull-ups at outdoor gym",
   "description": "Shirtless Anton doing pull-ups at a steel outdoor beach gym.",
   "tags": [
@@ -21093,13 +21450,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "workout",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACKAw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/March 6/Video 2026-03-07, 12 02 24 AM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "dancing in a bar",
   "description": "Long take of couples dancing forró on a checkered floor in a teal bar.",
   "tags": [
@@ -21120,7 +21480,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "long take"
+  "notes": "long take",
+  "activity": "dancing",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACKIg",
@@ -22100,7 +22463,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACKNg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/March 9/Video 2026-03-09, 6 09 32 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "walking with surfboard",
   "description": "Anton carries an orange surfboard with a backpack down onto the beach; he is followed from behind.",
   "tags": [
@@ -22122,13 +22485,16 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "activity": "surfing",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACKMw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/March 9/Video 2026-03-09, 6 10 14 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "walking with surfboard",
   "description": "Anton walks a beach path past a 'Tanoa' sign carrying an orange surfboard; it ends tilting to the ground.",
   "tags": [
@@ -22149,7 +22515,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "The last 2 s point at the ground; a business sign is visible."
+  "notes": "The last 2 s point at the ground; a business sign is visible.",
+  "activity": "surfing",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACKRA",
@@ -22238,7 +22607,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACKwg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/Match 10/Video 2026-03-10, 10 00 44 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "dancing lesson",
   "description": "Anton dances with a woman in a white studio with dark curtains; static wide shot.",
   "tags": [
@@ -22260,7 +22629,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "Long static take of a third person."
+  "notes": "Long static take of a third person.",
+  "activity": "dancing",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACKwA",
@@ -22319,7 +22691,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACKxQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/Match 10/Video 2026-03-10, 3 53 59 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "stretching on beach",
   "description": "Anton does push-up and lunge stretches on the sand next to a white surfboard, then walks to the sea.",
   "tags": [
@@ -22341,7 +22713,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "Overcast; a towel is in the foreground."
+  "notes": "Overcast; a towel is in the foreground.",
+  "activity": "stretching",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACKvQ",
@@ -22698,7 +23073,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACFQw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/not wvery day is a higjhlight day 29/Video 2026-01-17, 4 55 48 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "throwing a spear on beach",
   "description": "Anton throws a long stick like a spear from the dune toward the beach.",
   "tags": [
@@ -22720,13 +23095,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "spear throwing",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACFPQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/not wvery day is a higjhlight day 29/Video 2026-01-17, 4 57 35 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "throwing a spear on beach",
   "description": "Anton throws a stick like a spear from the grassy dune toward the sea.",
   "tags": [
@@ -22747,13 +23125,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "spear throwing",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACFPA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/not wvery day is a higjhlight day 29/Video 2026-01-17, 4 57 58 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "spinning a stick on beach",
   "description": "Anton spins and twirls a long stick in front of the sea, wide static shot.",
   "tags": [
@@ -22776,13 +23157,16 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "activity": "stick spinning",
+  "who": "anton",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACFOg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/not wvery day is a higjhlight day 29/Video 2026-01-17, 4 58 12 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "spinning a stick on beach",
   "description": "Anton twirls a long stick on the grass above a sunny beach.",
   "tags": [
@@ -22805,7 +23189,10 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "activity": "stick spinning",
+  "who": "anton",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACFOA",
@@ -23209,7 +23596,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACH6Q",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/friday/Video 2026-02-12, 10 51 25 AM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "arm wrestling at cafe",
   "description": "Anton arm-wrestles a shirtless friend at a yellow outdoor cafe table while people watch.",
   "tags": [
@@ -23231,7 +23618,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "arm wrestling",
+  "who": "anton + friends",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACH7g",
@@ -23967,7 +24357,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACHxg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/friday/Video 2026-02-13, 6 10 13 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "moped ride through city",
   "description": "POV from the back of a moped riding down a tree-lined Rio road.",
   "tags": [
@@ -23989,13 +24379,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "moped ride",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACHww",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/friday/Video 2026-02-13, 6 15 57 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "moped ride at sunset",
   "description": "POV from a moped at a traffic light at sunset, behind the driver's helmet.",
   "tags": [
@@ -24016,13 +24409,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "Short."
+  "notes": "Short.",
+  "activity": "moped ride",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACHxQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/friday/Video 2026-02-13, 6 16 02 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "moped ride at sunset",
   "description": "POV from a moped riding past palm trees at sunset; it ends on accidental frames.",
   "tags": [
@@ -24043,7 +24439,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "moped ride",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACHwA",
@@ -24668,7 +25067,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACH-A",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/saturday/Video 2026-02-14, 5 03 23 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "dips at beach gym",
   "description": "Anton does dips and bar exercises at an outdoor beachfront gym in Ipanema.",
   "tags": [
@@ -24690,7 +25089,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "Close, cropped framing."
+  "notes": "Close, cropped framing.",
+  "activity": "workout",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACIew",
@@ -24854,7 +25256,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACIfQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-14, 5 03 23 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "dips at beach gym",
   "description": "Anton does dips and bar exercises at an outdoor beachfront gym in Ipanema.",
   "tags": [
@@ -24876,13 +25278,16 @@
    ]
   ],
   "quality": 3,
-  "notes": "Close, cropped framing.; duplicate of /[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/saturday/Video 2026-02-14, 5 03 23 PM.mov"
+  "notes": "Close, cropped framing.; duplicate of /[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/saturday/Video 2026-02-14, 5 03 23 PM.mov",
+  "activity": "workout",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACIdA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-15, 2 05 26 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "waterfall pool in rainforest",
   "description": "Friends wade into a muddy pool under a rainforest waterfall.",
   "tags": [
@@ -24903,13 +25308,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "swimming",
+  "who": "friends",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACIdQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-15, 2 05 33 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "waterfall pool in rainforest",
   "description": "Wide shot of a rainforest waterfall pool with people wading.",
   "tags": [
@@ -24930,13 +25338,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "swimming",
+  "who": "unclear",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACIcw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-15, 2 05 53 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "waterfall pool in rainforest",
   "description": "Friends stand in the pool under a tall rainforest waterfall.",
   "tags": [
@@ -24957,13 +25368,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "swimming",
+  "who": "friends",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACIcQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-15, 2 06 11 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "friends at waterfall",
   "description": "Friends stand in the water at the foot of a waterfall, seen from behind.",
   "tags": [
@@ -24983,7 +25397,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "swimming",
+  "who": "friends",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACIcA",
@@ -25073,7 +25490,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACIbw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-15, 4 29 42 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "wading to waterfall",
   "description": "Anton wades through a clear pool toward a rainforest waterfall.",
   "tags": [
@@ -25094,13 +25511,16 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "activity": "swimming",
+  "who": "anton",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACIcg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-15, 4 29 49 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "standing under waterfall",
   "description": "Anton stands under a powerful waterfall in the rainforest.",
   "tags": [
@@ -25121,7 +25541,10 @@
    ]
   ],
   "quality": 4,
-  "notes": "Fits the cold exposure theme."
+  "notes": "Fits the cold exposure theme.",
+  "activity": "cold exposure",
+  "who": "anton",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACIag",
@@ -25958,7 +26381,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACIRg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-18, 4 33 43 AM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "night hike in forest",
   "description": "Friends hike a dark forest trail at night by torchlight; ends on a selfie.",
   "tags": [
@@ -25979,7 +26402,10 @@
    ]
   ],
   "quality": 2,
-  "notes": "Dark and shaky."
+  "notes": "Dark and shaky.",
+  "activity": "hiking",
+  "who": "friends",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACIQg",
@@ -27100,7 +27526,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACIGA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-18, 5 56 04 AM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "hikers with pedra da gavea",
   "description": "Hikers on a green ridge with Pedra da Gávea glowing in morning light over the sea.",
   "tags": [
@@ -27122,13 +27548,16 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "activity": "hiking",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACIFw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-18, 5 56 12 AM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "hikers descending trail",
   "description": "Hikers file down the trail with Pedra da Gávea and the sea behind.",
   "tags": [
@@ -27149,7 +27578,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "hiking",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACIFg",
@@ -27182,7 +27614,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACIFA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-18, 5 59 39 AM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "hikers with pedra da gavea",
   "description": "A group of hikers on the trail with Pedra da Gávea behind.",
   "tags": [
@@ -27202,7 +27634,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "hiking",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACIFQ",
@@ -27236,7 +27671,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACIEw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-18, 6 47 08 AM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "moped ride past field",
   "description": "POV from a moped passing a sports field and hills.",
   "tags": [
@@ -27256,13 +27691,16 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "activity": "moped ride",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACIEQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-18, 7 00 41 AM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "selfie on moped",
   "description": "Shirtless Anton films himself on the back of a moped; ends on accidental frames.",
   "tags": [
@@ -27282,13 +27720,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "Shaky."
+  "notes": "Shaky.",
+  "activity": "moped ride",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACIEA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-18, 7 00 59 AM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "selfie on moped",
   "description": "Shirtless Anton in a helmet films himself riding on a moped in sunlight.",
   "tags": [
@@ -27309,13 +27750,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "moped ride",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACIEg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-18, 7 01 32 AM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "moped ride along coast",
   "description": "POV from the back of a moped riding along a coastal road with sun flare.",
   "tags": [
@@ -27337,13 +27781,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "moped ride",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACIDw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-18, 7 01 39 AM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "moped ride along coast",
   "description": "POV moped ride along the Rio waterfront with palms and sun flare.",
   "tags": [
@@ -27365,13 +27812,16 @@
    ]
   ],
   "quality": 3,
-  "notes": "Ends on accidental frames."
+  "notes": "Ends on accidental frames.",
+  "activity": "moped ride",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACIDg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-18, 7 03 29 AM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "moped ride along coast",
   "description": "POV from the moped on an empty coastal avenue with the sun ahead.",
   "tags": [
@@ -27392,7 +27842,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "moped ride",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACH-w",
@@ -27445,7 +27898,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACBkg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/youtube potential clips/Video 2025-12-24, 3 41 58 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "hiking through jungle",
   "description": "Anton climbs through thick green jungle vegetation by a stream, gesturing back at camera.",
   "tags": [
@@ -27466,13 +27919,16 @@
    ]
   ],
   "quality": 3,
-  "notes": "duplicate of /[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/Video 2025-12-24, 3 41 58 PM.mov"
+  "notes": "duplicate of /[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/Video 2025-12-24, 3 41 58 PM.mov",
+  "activity": "hiking",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACBkQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/youtube potential clips/Video 2025-12-24, 3 43 50 PM.mov",
   "folder": "brazil 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "wading through river pov",
   "description": "POV of bare feet wading through a shallow brown river.",
   "tags": [
@@ -27493,7 +27949,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "duplicate of /[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/Video 2025-12-24, 3 43 50 PM.mov"
+  "notes": "duplicate of /[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/Video 2025-12-24, 3 43 50 PM.mov",
+  "activity": "hiking",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACBjw",
