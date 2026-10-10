@@ -75,12 +75,12 @@ def load_audio(path, sr=16000):
     return np.frombuffer(raw, dtype=np.float32)
 
 
-def transcribe(path, model_size):
+def transcribe(path, model_size, hint=""):
     from faster_whisper import WhisperModel
     model = WhisperModel(model_size, device="auto", compute_type="int8")
     segments, _ = model.transcribe(load_audio(path), word_timestamps=True,
                                    vad_filter=False,
-                                   initial_prompt="Um, uh, so, like, I mean...")
+                                   initial_prompt=("Um, uh, so, like, I mean... " + hint).strip())
     words = []
     for seg in segments:
         for w in seg.words:
@@ -309,10 +309,12 @@ def main():
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("input", type=Path)
     ap.add_argument("-o", "--output", type=Path)
-    ap.add_argument("--model", default="small",
+    ap.add_argument("--model", default="medium.en",
                     help="whisper model size (tiny/base/small/medium/large-v3)")
     ap.add_argument("--drop", action="append", default=[], metavar="START-END",
                     help="extra source-time range to cut (outtakes, asides), e.g. --drop 8.6-11.2")
+    ap.add_argument("--hint", default="",
+                    help="words/phrases to help transcription (names, slang), e.g. 'Mate, tallow, cheeky pint'")
     ap.add_argument("--keep", action="append", default=[], metavar="START-END",
                     help="source-time range to always keep, even if silent (e.g. the trick shot, a bite)")
     ap.add_argument("--broll", type=Path,
@@ -330,7 +332,7 @@ def main():
         print(f"Using cached transcript {cache}")
     else:
         print("Transcribing...")
-        words = transcribe(args.input, args.model)
+        words = transcribe(args.input, args.model, args.hint)
         cache.write_text(json.dumps(words))
     drop = mark_mistakes(words)
     manual = [tuple(float(v) for v in r.split("-")) for r in args.drop]
