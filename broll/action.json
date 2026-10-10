@@ -14,7 +14,8 @@
    "neon",
    "night",
    "fun",
-   "indoor"
+   "indoor",
+   "vibing"
   ],
   "location": "Gramado, Brazil",
   "orientation": "vertical",
@@ -1567,7 +1568,8 @@
    "indoor",
    "white",
    "static",
-   "forro"
+   "forro",
+   "vibing"
   ],
   "location": "Florianópolis, Brazil",
   "orientation": "horizontal",
@@ -6086,7 +6088,8 @@
    "friends",
    "city",
    "sport",
-   "sunny"
+   "sunny",
+   "vibing"
   ],
   "location": "Brazil",
   "orientation": "vertical",

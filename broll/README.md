@@ -25,6 +25,6 @@ Use `raw/` to find talking takes or lower-rated clips; use `catalog.json` when p
 
 Shot types so far: shuffling leaves, fizzing milk, sipping coffee, licking bottle, sipping green tea, stacking. Add new ones as they come up.
 
-Tag `vibing` = Anton or friends chilling or dancing: lawn/lounge chairs, sunbeds, lying in the grass or on rocks, dancing. Search tags for it.
+Tag `vibing` = chill, good-mood moments: lawn/lounge chairs, sunbeds, lying in the grass or on rocks, dancing, fire pits, beach hangouts, festivals. Anton likes these even without him in shot. Search tags for it.
 
 `used_in` lists the posted videos that used the clip, so the same shot isn't repeated in back-to-back reels.

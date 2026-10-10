@@ -1544,7 +1544,8 @@
    "wellness",
    "garden",
    "static",
-   "wood"
+   "wood",
+   "vibing"
   ],
   "location": "Cotswolds, England",
   "orientation": "vertical",
@@ -1632,7 +1633,8 @@
    "garden",
    "cosy",
    "close up",
-   "outdoors"
+   "outdoors",
+   "vibing"
   ],
   "location": "Cotswolds, England",
   "orientation": "horizontal",
@@ -1716,7 +1718,8 @@
    "trees",
    "sunny",
    "static",
-   "summer"
+   "summer",
+   "vibing"
   ],
   "location": "Cotswolds, England",
   "orientation": "vertical",

@@ -3089,7 +3089,8 @@
    "neon",
    "night",
    "fun",
-   "indoor"
+   "indoor",
+   "vibing"
   ],
   "location": "Gramado, Brazil",
   "orientation": "vertical",
@@ -5163,7 +5164,8 @@
    "night",
    "christmas",
    "festival",
-   "horizontal"
+   "horizontal",
+   "vibing"
   ],
   "location": "Gramado, Brazil",
   "orientation": "horizontal",
@@ -11806,7 +11808,8 @@
    "kites",
    "lagoon",
    "blue sky",
-   "hills"
+   "hills",
+   "vibing"
   ],
   "location": "Brazil",
   "orientation": "vertical",
@@ -19158,7 +19161,8 @@
    "palm trees",
    "people",
    "sunny",
-   "relaxing"
+   "relaxing",
+   "vibing"
   ],
   "location": "Florianópolis, Brazil",
   "orientation": "vertical",
@@ -20640,7 +20644,8 @@
    "friends",
    "city",
    "sport",
-   "sunny"
+   "sunny",
+   "vibing"
   ],
   "location": "Brazil",
   "orientation": "vertical",
@@ -20928,7 +20933,8 @@
    "cafe",
    "relaxing",
    "red table",
-   "florianópolis"
+   "florianópolis",
+   "vibing"
   ],
   "location": "Florianópolis, Brazil",
   "orientation": "vertical",
@@ -22657,7 +22663,8 @@
    "indoor",
    "white",
    "static",
-   "forro"
+   "forro",
+   "vibing"
   ],
   "location": "Florianópolis, Brazil",
   "orientation": "horizontal",
@@ -24214,7 +24221,8 @@
    "street",
    "rio",
    "costume",
-   "sunny"
+   "sunny",
+   "vibing"
   ],
   "location": "Rio de Janeiro, Brazil",
   "orientation": "vertical",
@@ -24242,7 +24250,8 @@
    "rio",
    "costume",
    "colorful",
-   "sunny"
+   "sunny",
+   "vibing"
   ],
   "location": "Rio de Janeiro, Brazil",
   "orientation": "vertical",
