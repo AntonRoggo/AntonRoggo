@@ -7,14 +7,10 @@
     "youtube",
     "facebook"
   ],
-  "timezone": "TODO: e.g. Europe/London (leave empty to use the brand's timezone)",
+  "timezone": "America/New_York",
   "schedule": {
-    "mode": "best_time",
-    "within_days": 3,
-    "slots": [
-      "09:00",
-      "18:00"
-    ]
+    "mode": "on_approval",
+    "delay_minutes": 10
   },
   "caption": {
     "style": "Short hook line from the video, one sentence of value, then a call to action.",
@@ -24,8 +20,8 @@
   "youtube": {
     "made_for_kids": false
   },
-  "media_hosting": "TODO: e.g. upload to a Google Drive folder linked in Metricool, then pass the share link",
-  "confirm_before_scheduling": true,
+  "media_hosting": "Dropbox: create a shared link for the finished video and pass it in media (Metricool uploads Dropbox links automatically)",
+  "confirm_before_scheduling": false,
   "draft": false,
   "reviewers": [],
   "cover_frame_ms": null
