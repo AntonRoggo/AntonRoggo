@@ -52,7 +52,7 @@ def run(cmd, **kw):
 
 
 def probe(path):
-    """Output width, height and duration. Accounts for phone rotation, caps output at 1080p."""
+    """Output width, height and duration. Accounts for phone rotation; output is 1080p."""
     info = json.loads(run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries",
                            "stream=width,height:stream_side_data=rotation:format=duration",
                            "-of", "json", str(path)]).stdout)
@@ -61,7 +61,7 @@ def probe(path):
     rot = next((int(d.get("rotation", 0)) for d in st.get("side_data_list", []) if "rotation" in d), 0)
     if abs(rot) in (90, 270):
         w, h = h, w
-    scale = min(1.0, 1920 / max(w, h))
+    scale = 1920 / max(w, h)  # always deliver 1080x1920 (or 1920x1080), up- or downscaling
     w, h = int(round(w * scale / 2) * 2), int(round(h * scale / 2) * 2)
     return w, h, float(info["format"]["duration"])
 
@@ -311,6 +311,10 @@ def main():
     ap.add_argument("-o", "--output", type=Path)
     ap.add_argument("--model", default="small",
                     help="whisper model size (tiny/base/small/medium/large-v3)")
+    ap.add_argument("--drop", action="append", default=[], metavar="START-END",
+                    help="extra source-time range to cut (outtakes, asides), e.g. --drop 8.6-11.2")
+    ap.add_argument("--keep", action="append", default=[], metavar="START-END",
+                    help="source-time range to always keep, even if silent (e.g. the trick shot, a bite)")
     ap.add_argument("--broll", type=Path,
                     help="JSON list of {file, start, end, clip_in} overlays, times on the edited timeline")
     args = ap.parse_args()
@@ -329,8 +333,21 @@ def main():
         words = transcribe(args.input, args.model)
         cache.write_text(json.dumps(words))
     drop = mark_mistakes(words)
+    manual = [tuple(float(v) for v in r.split("-")) for r in args.drop]
+    for i, w in enumerate(words):
+        if any(a <= (w["start"] + w["end"]) / 2 <= b for a, b in manual):
+            drop.add(i)
     silences = detect_silences(args.input, duration)
     keep, kept = build_keep(words, drop, silences, duration)
+    forced = [tuple(float(v) for v in r.split("-")) for r in args.keep]
+    if forced:
+        merged = []
+        for a, b in sorted(keep + forced):
+            if merged and a <= merged[-1][1] + 0.05:
+                merged[-1] = (merged[-1][0], max(merged[-1][1], b))
+            else:
+                merged.append((a, b))
+        keep = merged
 
     removed = [words[i]["text"] for i in sorted(drop)]
     print(f"Dropped {len(removed)} mistake/filler words: {' '.join(removed)}")
