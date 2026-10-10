@@ -17,6 +17,6 @@
 }
 ```
 
-Shot types so far: shuffling leaves, fizzing milk, sipping coffee, licking bottle, sipping green tea, stacking, chin bucket. Add new ones as they come up.
+Shot types so far: shuffling leaves, fizzing milk, sipping coffee, licking bottle, sipping green tea, stacking. Add new ones as they come up.
 
 `used_in` lists the posted videos that used the clip, so the same shot isn't repeated in back-to-back reels.
