@@ -1,4 +1,4 @@
 # Publishing log
 
-| Scheduled on | File | Platform | Publishes at | Metricool post id |
-|---|---|---|---|---|
+| Scheduled on | File | Platform | Publishes at | Post id | uuid | Planner link |
+|---|---|---|---|---|---|---|
