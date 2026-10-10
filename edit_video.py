@@ -52,17 +52,33 @@ def run(cmd, **kw):
 
 
 def probe(path):
-    out = run(["ffprobe", "-v", "error", "-select_streams", "v:0",
-               "-show_entries", "stream=width,height:format=duration",
-               "-of", "default=nw=1", str(path)]).stdout
-    vals = dict(line.split("=") for line in out.split())
-    return int(vals["width"]), int(vals["height"]), float(vals["duration"])
+    """Output width, height and duration. Accounts for phone rotation, caps output at 1080p."""
+    info = json.loads(run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries",
+                           "stream=width,height:stream_side_data=rotation:format=duration",
+                           "-of", "json", str(path)]).stdout)
+    st = info["streams"][0]
+    w, h = st["width"], st["height"]
+    rot = next((int(d.get("rotation", 0)) for d in st.get("side_data_list", []) if "rotation" in d), 0)
+    if abs(rot) in (90, 270):
+        w, h = h, w
+    scale = min(1.0, 1920 / max(w, h))
+    w, h = int(round(w * scale / 2) * 2), int(round(h * scale / 2) * 2)
+    return w, h, float(info["format"]["duration"])
+
+
+def load_audio(path, sr=16000):
+    """16 kHz mono float32 samples via ffmpeg (avoids PyAV version clashes in faster-whisper)."""
+    import numpy as np
+    raw = subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-i", str(path), "-vn",
+                          "-ac", "1", "-ar", str(sr), "-f", "f32le", "-"],
+                         capture_output=True, check=True).stdout
+    return np.frombuffer(raw, dtype=np.float32)
 
 
 def transcribe(path, model_size):
     from faster_whisper import WhisperModel
     model = WhisperModel(model_size, device="auto", compute_type="int8")
-    segments, _ = model.transcribe(str(path), word_timestamps=True,
+    segments, _ = model.transcribe(load_audio(path), word_timestamps=True,
                                    vad_filter=False,
                                    initial_prompt="Um, uh, so, like, I mean...")
     words = []
@@ -261,7 +277,8 @@ def jcut_video(keep, j=J_CUT):
 def render(src, keep, ass_path, out, plan=(), size=None):
     parts, labels, alabels = [], "", ""
     for i, ((a, b), (vs, ve)) in enumerate(zip(keep, jcut_video(keep))):
-        parts.append(f"[0:v]trim={vs:.3f}:{ve:.3f},setpts=PTS-STARTPTS[v{i}];")
+        parts.append(f"[0:v]trim={vs:.3f}:{ve:.3f},setpts=PTS-STARTPTS,"
+                     f"scale={size[0]}:{size[1]},setsar=1[v{i}];")
         fade_out = max(0.0, b - a - CUT_FADE)
         parts.append(f"[0:a]atrim={a:.3f}:{b:.3f},asetpts=PTS-STARTPTS,"
                      f"afade=t=in:d={CUT_FADE},afade=t=out:st={fade_out:.3f}:d={CUT_FADE}[a{i}];")
