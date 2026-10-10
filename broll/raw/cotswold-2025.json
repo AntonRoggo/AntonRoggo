@@ -2703,5 +2703,87 @@
   ],
   "quality": 2,
   "notes": "Rotated after ~2.5s"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_7A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/finished/Aug10.mov",
+  "folder": "cotswold 2025",
+  "kind": "other",
+  "shot": "finished edit nature vs city",
+  "description": "Finished short: Anton wading under willows, sitting in the van, sitting on sea rocks, sunbathing and a selfie talk ('could never compare').",
+  "tags": [
+   "finished edit",
+   "captions",
+   "nature",
+   "river",
+   "sea",
+   "rocks",
+   "anton"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 14.57,
+  "usable": [
+   [
+    0,
+    14.57
+   ]
+  ],
+  "quality": 3,
+  "notes": "Finished edit; includes sea/rock footage not in this folder"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_6g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/finished/fix audio.mov",
+  "folder": "cotswold 2025",
+  "kind": "talking",
+  "shot": "selfie talk at dusk",
+  "description": "Shirtless Anton with lav mic talks to his phone in a park at dusk.",
+  "tags": [
+   "anton",
+   "talking head",
+   "selfie",
+   "dusk",
+   "park",
+   "shirtless"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 8.0,
+  "usable": [
+   [
+    0,
+    8.0
+   ]
+  ],
+  "quality": 2,
+  "notes": "Dim blue-hour light; in 'finished' folder but looks like an audio-fix export of a talking take"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_6w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/finished/fix audio.mp4",
+  "folder": "cotswold 2025",
+  "kind": "talking",
+  "shot": "selfie talk at dusk",
+  "description": "Longer version of the shirtless dusk selfie talk in a park.",
+  "tags": [
+   "anton",
+   "talking head",
+   "selfie",
+   "dusk",
+   "park",
+   "shirtless"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 11.93,
+  "usable": [
+   [
+    0,
+    11.93
+   ]
+  ],
+  "quality": 2,
+  "notes": "Audio-fix export of talking take"
  }
 ]

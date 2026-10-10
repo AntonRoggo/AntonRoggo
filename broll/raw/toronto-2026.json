@@ -2869,6 +2869,126 @@
   "notes": "Talking-head take."
  },
  {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACPTw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/May 4 Batch/May 10 Batch/Video 2026-05-10, 6 46 36 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "sitting on grass talk",
+  "description": "Anton sits barefoot on the grass in a sunny park in puffer and jeans, talking to camera.",
+  "tags": [
+   "anton",
+   "talking",
+   "sitting",
+   "grass",
+   "park",
+   "barefoot",
+   "sunny",
+   "blue sky",
+   "puffer jacket"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 18.43,
+  "usable": [
+   [
+    0,
+    18.43
+   ]
+  ],
+  "quality": 2,
+  "notes": "Byte-identical duplicate of Toronto 2026/Victoria Day/Video 2026-05-10, 6 46 36 PM.mov. Talking take, static tripod shot."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACPTA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/May 4 Batch/May 10 Batch/Video 2026-05-10, 6 47 21 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "lounging on grass",
+  "description": "Anton lies back and sits up barefoot on the grass in a sunny park, gazing around.",
+  "tags": [
+   "anton",
+   "lounging",
+   "grass",
+   "park",
+   "barefoot",
+   "sunny",
+   "blue sky",
+   "relaxing",
+   "grounding"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 11.3,
+  "usable": [
+   [
+    2,
+    11.3
+   ]
+  ],
+  "quality": 3,
+  "notes": "Byte-identical duplicate of Toronto 2026/Victoria Day/Video 2026-05-10, 6 47 21 PM.mov. Low angle, tripod."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACPTg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/May 4 Batch/May 10 Batch/Video 2026-05-10, 6 48 10 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "sitting on grass talk",
+  "description": "Anton sits barefoot on the grass in a sunny park, talking to camera.",
+  "tags": [
+   "anton",
+   "talking",
+   "sitting",
+   "grass",
+   "park",
+   "barefoot",
+   "sunny",
+   "blue sky",
+   "puffer jacket"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 19.23,
+  "usable": [
+   [
+    0,
+    19.23
+   ]
+  ],
+  "quality": 2,
+  "notes": "Byte-identical duplicate of Toronto 2026/Victoria Day/Video 2026-05-10, 6 48 10 PM.mov. Talking take, static tripod shot."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACPTQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/May 4 Batch/May 10 Batch/Video 2026-05-10, 6 49 41 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "sitting on grass talk",
+  "description": "Anton sits barefoot on the grass in a sunny park, talking to camera.",
+  "tags": [
+   "anton",
+   "talking",
+   "sitting",
+   "grass",
+   "park",
+   "barefoot",
+   "sunny",
+   "blue sky",
+   "puffer jacket"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 22.37,
+  "usable": [
+   [
+    0,
+    22.37
+   ]
+  ],
+  "quality": 2,
+  "notes": "Byte-identical duplicate of Toronto 2026/Victoria Day/Video 2026-05-10, 6 49 41 PM.mov. Talking take, static tripod shot."
+ },
+ {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPJg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/May 4 Batch/Video 2026-05-04, 4 47 18 PM.mov",
   "folder": "Toronto 2026",
@@ -3329,6 +3449,2740 @@
   "notes": "Talking-head take."
  },
  {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACPGw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/May 4 Batch/Video 2026-05-04, 5 25 53 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "shirtless park talk",
+  "description": "Shirtless Anton with lav mic talks to camera in a park in golden late-afternoon sun.",
+  "tags": [
+   "anton",
+   "talking head",
+   "shirtless",
+   "lav mic",
+   "park",
+   "golden hour",
+   "spring"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 23.6,
+  "usable": [
+   [
+    0,
+    23.6
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking-head take."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACPGA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/May 4 Batch/Video 2026-05-04, 5 26 21 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "shirtless park talk",
+  "description": "Shirtless Anton talks to camera in golden light in a park, smiling at the end.",
+  "tags": [
+   "anton",
+   "talking head",
+   "shirtless",
+   "lav mic",
+   "park",
+   "golden hour"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 7.3,
+  "usable": [
+   [
+    0,
+    7.3
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking-head take."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOMw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-23, 7 16 18 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "beach volleyball at sunset",
+  "description": "Static wide shot of a beach at dusk with people playing volleyball near the dunes.",
+  "tags": [
+   "beach",
+   "sunset",
+   "dusk",
+   "volleyball",
+   "people",
+   "sand",
+   "dunes",
+   "static",
+   "pastel sky"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 5.13,
+  "usable": [
+   [
+    0,
+    5.13
+   ]
+  ],
+  "quality": 3,
+  "notes": "Bench edge in bottom right corner; subjects tiny."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACONA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-23, 7 16 25 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "beach at dusk",
+  "description": "Static wide of an empty sandy beach at dusk with pastel sky and distant volleyball nets.",
+  "tags": [
+   "beach",
+   "dusk",
+   "sunset",
+   "sand",
+   "pastel sky",
+   "static",
+   "calm"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 4.33,
+  "usable": [
+   [
+    0,
+    4.33
+   ]
+  ],
+  "quality": 3,
+  "notes": "Bench edge in corner."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOMg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-23, 7 19 00 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "beach sunset",
+  "description": "Low-sun golden sunset over a sandy beach with silhouetted people and a beach bar.",
+  "tags": [
+   "beach",
+   "sunset",
+   "golden hour",
+   "sand",
+   "sun flare",
+   "silhouettes",
+   "warm",
+   "static"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 5.5,
+  "usable": [
+   [
+    0,
+    5.5
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOLw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-23, 7 19 46 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "beach sunset",
+  "description": "Sun setting over a wide sandy beach with lifeguard stand, slight handheld pan.",
+  "tags": [
+   "beach",
+   "sunset",
+   "golden hour",
+   "sand",
+   "lifeguard stand",
+   "warm",
+   "orange sky"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 5.77,
+  "usable": [
+   [
+    0,
+    5.77
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOMQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-23, 7 32 01 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "driving at sunset",
+  "description": "Through the car window: orange sun setting over a guardrail and water while driving a causeway, then windshield view.",
+  "tags": [
+   "driving",
+   "sunset",
+   "car window",
+   "causeway",
+   "road trip",
+   "orange sky",
+   "motion"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 14.1,
+  "usable": [
+   [
+    0,
+    7
+   ],
+   [
+    9.5,
+    14.1
+   ]
+  ],
+  "quality": 3,
+  "notes": "Includes dashboard shot mid-clip."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOMA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-24, 2 29 43 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "oyster farm boat selfie",
+  "description": "Selfie of Anton in a cap on an oyster boat with farmers hauling oyster cages, sunny water.",
+  "tags": [
+   "anton",
+   "oyster farm",
+   "boat",
+   "farmers",
+   "water",
+   "sunny",
+   "selfie",
+   "work"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 8.6,
+  "usable": [
+   [
+    0,
+    8.6
+   ]
+  ],
+  "quality": 3,
+  "notes": "Selfie, handheld."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOKA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 1 27 02 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "burger and fries",
+  "description": "Hand holds a juicy burger next to a basket of crispy fries on a sunny outdoor table.",
+  "tags": [
+   "food",
+   "burger",
+   "fries",
+   "tallow fries",
+   "lunch",
+   "sunny",
+   "outdoor dining",
+   "handheld"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 4.97,
+  "usable": [
+   [
+    0,
+    4.97
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOJA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 1 42 20 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "tallow sign",
+  "description": "Red chalkboard sign: 'We use no seed oils, we fry in 100% beef tallow!' on a sunny boardwalk.",
+  "tags": [
+   "sign",
+   "beef tallow",
+   "no seed oils",
+   "restaurant",
+   "boardwalk",
+   "sunny",
+   "red",
+   "static"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 3.63,
+  "usable": [
+   [
+    0,
+    3.63
+   ]
+  ],
+  "quality": 4,
+  "notes": "Great for seed-oil content."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOIQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 1 48 17 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "ice cream cone",
+  "description": "Hand holds up a vanilla ice cream cone against pavement in bright sun.",
+  "tags": [
+   "food",
+   "ice cream",
+   "cone",
+   "dessert",
+   "hand",
+   "sunny",
+   "summer"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 2.4,
+  "usable": [
+   [
+    0,
+    2.4
+   ]
+  ],
+  "quality": 3,
+  "notes": "Short."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOKw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 12 50 28 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "marina yacht",
+  "description": "Static shot of a yacht docked at a wooden marina under blue sky.",
+  "tags": [
+   "marina",
+   "yacht",
+   "boat",
+   "dock",
+   "blue sky",
+   "water",
+   "static",
+   "summer"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 11.07,
+  "usable": [
+   [
+    0,
+    11.07
+   ]
+  ],
+  "quality": 3,
+  "notes": "Awning edge at top."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOJQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 4 00 57 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "wild horses on dunes",
+  "description": "Horizontal wide of wild horses grazing on grassy dunes with sparkling ocean behind.",
+  "tags": [
+   "wild horses",
+   "sand dunes",
+   "ocean",
+   "beach grass",
+   "outer banks",
+   "nature",
+   "daytime",
+   "static"
+  ],
+  "location": "North Carolina (Outer Banks)",
+  "orientation": "horizontal",
+  "duration": 8.57,
+  "usable": [
+   [
+    0,
+    8.57
+   ]
+  ],
+  "quality": 4,
+  "notes": "Handheld slight sway."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOJg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 4 01 11 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "wild horses on dunes",
+  "description": "Wild horses grazing on dunes with ocean behind, vertical.",
+  "tags": [
+   "wild horses",
+   "sand dunes",
+   "ocean",
+   "beach grass",
+   "outer banks",
+   "nature",
+   "daytime",
+   "static"
+  ],
+  "location": "North Carolina (Outer Banks)",
+  "orientation": "vertical",
+  "duration": 8.9,
+  "usable": [
+   [
+    0,
+    8.9
+   ]
+  ],
+  "quality": 3,
+  "notes": "Subjects small."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOIg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 4 01 38 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "wild horses on dunes",
+  "description": "Wild horses grazing on dunes with ocean horizon, vertical.",
+  "tags": [
+   "wild horses",
+   "sand dunes",
+   "ocean",
+   "beach grass",
+   "outer banks",
+   "nature",
+   "daytime",
+   "static"
+  ],
+  "location": "North Carolina (Outer Banks)",
+  "orientation": "vertical",
+  "duration": 10.97,
+  "usable": [
+   [
+    0,
+    10.97
+   ]
+  ],
+  "quality": 3,
+  "notes": "Subjects small."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOIA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 4 02 15 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "wild horses on dunes",
+  "description": "Wild horses grazing across a dune ridge, vertical.",
+  "tags": [
+   "wild horses",
+   "sand dunes",
+   "ocean",
+   "beach grass",
+   "outer banks",
+   "nature",
+   "daytime",
+   "static"
+  ],
+  "location": "North Carolina (Outer Banks)",
+  "orientation": "vertical",
+  "duration": 7.87,
+  "usable": [
+   [
+    0,
+    7.87
+   ]
+  ],
+  "quality": 3,
+  "notes": "Subjects small."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOHg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 4 03 02 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "wild horses on dunes",
+  "description": "Distant wild horse and a person on dunes above the ocean.",
+  "tags": [
+   "wild horses",
+   "sand dunes",
+   "ocean",
+   "beach grass",
+   "outer banks",
+   "nature",
+   "daytime",
+   "static"
+  ],
+  "location": "North Carolina (Outer Banks)",
+  "orientation": "vertical",
+  "duration": 4.47,
+  "usable": [
+   [
+    0,
+    4.47
+   ]
+  ],
+  "quality": 2,
+  "notes": "Subjects tiny."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOHw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 4 06 40 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "wild horses on dunes",
+  "description": "Two dark wild horses walking/grazing across sandy dunes with ocean behind, vertical.",
+  "tags": [
+   "wild horses",
+   "sand dunes",
+   "ocean",
+   "beach grass",
+   "outer banks",
+   "nature",
+   "daytime",
+   "static"
+  ],
+  "location": "North Carolina (Outer Banks)",
+  "orientation": "vertical",
+  "duration": 6.97,
+  "usable": [
+   [
+    0,
+    6.97
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOGw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 4 06 51 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "wild horses on dunes",
+  "description": "Horizontal: mare and foal grazing on dunes, ocean and people on a ridge behind.",
+  "tags": [
+   "wild horses",
+   "sand dunes",
+   "ocean",
+   "beach grass",
+   "outer banks",
+   "nature",
+   "daytime",
+   "static"
+  ],
+  "location": "North Carolina (Outer Banks)",
+  "orientation": "horizontal",
+  "duration": 5.67,
+  "usable": [
+   [
+    0,
+    5.67
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOHA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 4 07 32 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "wild horses on dunes",
+  "description": "Two wild horses grazing on a dune crest against blue sky, vertical.",
+  "tags": [
+   "wild horses",
+   "sand dunes",
+   "ocean",
+   "beach grass",
+   "outer banks",
+   "nature",
+   "daytime",
+   "static"
+  ],
+  "location": "North Carolina (Outer Banks)",
+  "orientation": "vertical",
+  "duration": 7.34,
+  "usable": [
+   [
+    0,
+    7.34
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOGA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 4 07 45 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "wild horses on dunes",
+  "description": "Two wild horses grazing on a dune crest against blue sky, vertical.",
+  "tags": [
+   "wild horses",
+   "sand dunes",
+   "ocean",
+   "beach grass",
+   "outer banks",
+   "nature",
+   "daytime",
+   "static"
+  ],
+  "location": "North Carolina (Outer Banks)",
+  "orientation": "vertical",
+  "duration": 6.67,
+  "usable": [
+   [
+    0,
+    6.67
+   ]
+  ],
+  "quality": 3,
+  "notes": "1080p."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOHQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 4 08 31 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "wild horses on dunes",
+  "description": "Single wild horse grazing among dunes with ocean behind, vertical.",
+  "tags": [
+   "wild horses",
+   "sand dunes",
+   "ocean",
+   "beach grass",
+   "outer banks",
+   "nature",
+   "daytime",
+   "static"
+  ],
+  "location": "North Carolina (Outer Banks)",
+  "orientation": "vertical",
+  "duration": 12.97,
+  "usable": [
+   [
+    0,
+    12.97
+   ]
+  ],
+  "quality": 3,
+  "notes": "Subject small."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOGg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 4 08 49 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "wild horses on dunes",
+  "description": "Horizontal: brown horse and foal grazing close on a sandy dune, ocean behind.",
+  "tags": [
+   "wild horses",
+   "sand dunes",
+   "ocean",
+   "beach grass",
+   "outer banks",
+   "nature",
+   "daytime",
+   "static"
+  ],
+  "location": "North Carolina (Outer Banks)",
+  "orientation": "horizontal",
+  "duration": 7.67,
+  "usable": [
+   [
+    0,
+    7.67
+   ]
+  ],
+  "quality": 4,
+  "notes": "Nice close framing."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOGQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 4 35 26 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "lying on beach towel",
+  "description": "Anton in a cap lies on a beach towel in the sun, then tips his cap to camera.",
+  "tags": [
+   "anton",
+   "beach",
+   "sunbathing",
+   "towel",
+   "cap",
+   "relaxing",
+   "sunny",
+   "selfie"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 10.9,
+  "usable": [
+   [
+    0,
+    10.9
+   ]
+  ],
+  "quality": 3,
+  "notes": "Selfie angle."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOFw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 4 39 44 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "beach selfie talk",
+  "description": "Shirtless Anton talks to camera sitting on a sunny beach with dunes and waves.",
+  "tags": [
+   "anton",
+   "talking head",
+   "shirtless",
+   "beach",
+   "sunny",
+   "ocean",
+   "selfie"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 5.07,
+  "usable": [
+   [
+    0,
+    5.07
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking-head take."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOFg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 5 17 45 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "pier at dusk",
+  "description": "Static shot of a wooden pier over calm bay water with people sitting at the end, pastel evening sky.",
+  "tags": [
+   "pier",
+   "bay",
+   "water",
+   "dusk",
+   "calm",
+   "beach",
+   "static",
+   "people"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 4.9,
+  "usable": [
+   [
+    0,
+    4.9
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOFQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 7 03 52 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "beach sunset picnic",
+  "description": "Handheld: bag of drinks on the sand, then pan up to the sun setting over the beach with a lifeguard tower.",
+  "tags": [
+   "beach",
+   "sunset",
+   "picnic",
+   "drinks",
+   "sand",
+   "golden hour",
+   "handheld"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 5.23,
+  "usable": [
+   [
+    2,
+    5.23
+   ]
+  ],
+  "quality": 3,
+  "notes": "Feet/legs in frame."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOEw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 7 07 54 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "golden hour portrait",
+  "description": "Anton in an open linen shirt, hair blowing, eyes closed in golden evening light against blue sky.",
+  "tags": [
+   "anton",
+   "portrait",
+   "golden hour",
+   "linen shirt",
+   "wind",
+   "blue sky",
+   "calm",
+   "selfie"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 4.97,
+  "usable": [
+   [
+    0,
+    4.97
+   ]
+  ],
+  "quality": 4,
+  "notes": "Selfie framing."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOEg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 7 08 21 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "beach sunset",
+  "description": "Sun low over a sandy beach with a lifeguard tower, warm hazy light.",
+  "tags": [
+   "beach",
+   "sunset",
+   "golden hour",
+   "sand",
+   "lifeguard tower",
+   "warm"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 2.8,
+  "usable": [
+   [
+    0,
+    2.8
+   ]
+  ],
+  "quality": 3,
+  "notes": "Short."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOFA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 7 08 34 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "drinking juice",
+  "description": "Anton in a linen shirt chugs an orange juice bottle in golden evening light against blue sky.",
+  "tags": [
+   "anton",
+   "drinking",
+   "orange juice",
+   "bottle",
+   "golden hour",
+   "linen shirt",
+   "blue sky"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 7.07,
+  "usable": [
+   [
+    0.5,
+    5.5
+   ]
+  ],
+  "quality": 4,
+  "notes": "Selfie angle; talking at the end."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOLA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 7 24 34 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "waking up in bed",
+  "description": "Shirtless Anton lying in bed on pink pillows, stretching and grinning at the camera in the morning.",
+  "tags": [
+   "anton",
+   "bed",
+   "morning",
+   "waking up",
+   "stretching",
+   "selfie",
+   "pink",
+   "playful"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 5.0,
+  "usable": [
+   [
+    0,
+    3.8
+   ]
+  ],
+  "quality": 2,
+  "notes": "Byte-identical duplicate of Toronto 2026/Remaining Broll May 11/Video 2026-04-25, 7 24 34 AM.mov. Selfie, shaky end."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOLg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 7 32 16 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "oyster cages roadside",
+  "description": "Handheld shot of stacked oyster cages beside a rural road under clear sky.",
+  "tags": [
+   "oyster cages",
+   "road",
+   "rural",
+   "coast",
+   "blue sky",
+   "handheld"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 4.2,
+  "usable": [
+   [
+    0,
+    4.2
+   ]
+  ],
+  "quality": 2,
+  "notes": "Slight pan, plain subject."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOLQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 7 32 35 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "walking past oyster cages",
+  "description": "Handheld walk down a gravel path between towering stacks of oyster cages under clear blue sky.",
+  "tags": [
+   "oyster cages",
+   "walking",
+   "pov",
+   "gravel path",
+   "blue sky",
+   "coast",
+   "morning"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 4.53,
+  "usable": [
+   [
+    0,
+    4.53
+   ]
+  ],
+  "quality": 3,
+  "notes": "Byte-identical duplicate of Toronto 2026/Remaining Broll May 11/Video 2026-04-25, 7 32 35 AM.mov. Handheld."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOKg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 7 32 52 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "oyster cages selfie",
+  "description": "Selfie of Anton in a red tee among stacks of oyster cages in morning sun, wind in his hair.",
+  "tags": [
+   "anton",
+   "selfie",
+   "oyster cages",
+   "red shirt",
+   "morning",
+   "wind",
+   "blue sky"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 4.0,
+  "usable": [
+   [
+    0,
+    4.0
+   ]
+  ],
+  "quality": 3,
+  "notes": "Byte-identical duplicate of Toronto 2026/Remaining Broll May 11/Video 2026-04-25, 7 32 52 AM.mov."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOKQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 7 33 09 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "boardwalk to the dock",
+  "description": "Static shot down a long wooden boardwalk through marsh grass to a dock and gazebo on the water.",
+  "tags": [
+   "boardwalk",
+   "marsh",
+   "dock",
+   "water",
+   "leading lines",
+   "blue sky",
+   "static",
+   "morning"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 4.83,
+  "usable": [
+   [
+    0,
+    4.83
+   ]
+  ],
+  "quality": 4,
+  "notes": "Strong leading lines."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOJw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 9 54 26 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "other",
+  "shot": "car dashboard",
+  "description": "Close shot of a car dashboard speedometer.",
+  "tags": [
+   "car",
+   "dashboard",
+   "speedometer",
+   "driving",
+   "indoor"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 3.17,
+  "usable": [
+   [
+    0,
+    3.17
+   ]
+  ],
+  "quality": 1,
+  "notes": "Accidental / filler."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLrw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Dinner Party/finished/Oyster Party April.mp4",
+  "folder": "Toronto 2026",
+  "kind": "other",
+  "shot": "finished edit",
+  "description": "Finished edit of the oyster dinner party: 500 oysters, first-time oyster tasters, long table of friends.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "oysters",
+   "dinner party",
+   "friends",
+   "restaurant"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 16.57,
+  "usable": [
+   [
+    0,
+    16.57
+   ]
+  ],
+  "quality": 2,
+  "notes": "Finished edit."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLsA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Dinner Party/finished/Oyster Party April_1.mp4",
+  "folder": "Toronto 2026",
+  "kind": "other",
+  "shot": "finished edit",
+  "description": "Alternate export of the oyster party edit with 'Media pending' placeholder frames.",
+  "tags": [
+   "finished edit",
+   "oysters",
+   "dinner party",
+   "broken export"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 16.57,
+  "usable": [
+   [
+    6,
+    14
+   ]
+  ],
+  "quality": 1,
+  "notes": "Broken export: 'Media pending' placeholders."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLsQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Dinner Party/finished/Oyster Party April_2.mp4",
+  "folder": "Toronto 2026",
+  "kind": "other",
+  "shot": "finished edit",
+  "description": "Alternate export of the oyster party edit; last frames show 'Media pending' placeholder.",
+  "tags": [
+   "finished edit",
+   "oysters",
+   "dinner party",
+   "broken export"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 16.57,
+  "usable": [
+   [
+    0,
+    14
+   ]
+  ],
+  "quality": 1,
+  "notes": "Ending has 'Media pending' placeholder."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLsg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Dinner Party/finished/Oyster Party April_3.mp4",
+  "folder": "Toronto 2026",
+  "kind": "other",
+  "shot": "finished edit",
+  "description": "Alternate export of the oyster party edit.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "oysters",
+   "dinner party",
+   "friends"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 16.57,
+  "usable": [
+   [
+    0,
+    16.57
+   ]
+  ],
+  "quality": 2,
+  "notes": "Finished edit."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLpQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Dinner Party/Video 2026-03-26, 10 20 23 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "bedroom talk",
+  "description": "Horizontal: Anton in a plaid shirt talks to camera lying on a couch/bed with a world map on the wall, night.",
+  "tags": [
+   "anton",
+   "talking head",
+   "indoor",
+   "bedroom",
+   "night",
+   "horizontal",
+   "plaid shirt"
+  ],
+  "location": "Toronto",
+  "orientation": "horizontal",
+  "duration": 136.41,
+  "usable": [
+   [
+    0,
+    136.41
+   ]
+  ],
+  "quality": 2,
+  "notes": "Long horizontal talking take."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLpA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Dinner Party/Video 2026-03-26, 4 13 22 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "outdoor selfie talk",
+  "description": "Anton talks to camera outside a building with a fan-shaped window; footage is rotated sideways.",
+  "tags": [
+   "anton",
+   "talking head",
+   "selfie",
+   "street",
+   "rotated"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 65.2,
+  "usable": [
+   [
+    0,
+    65.2
+   ]
+  ],
+  "quality": 1,
+  "notes": "Video plays rotated 90 degrees; needs rotation fix."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLoQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Dinner Party/Video 2026-03-26, 6 34 54 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "hosting oyster party",
+  "description": "Anton in a grey tee stands and talks to friends seated at a restaurant table, holding an oyster knife.",
+  "tags": [
+   "anton",
+   "oyster party",
+   "friends",
+   "restaurant",
+   "hosting",
+   "dinner",
+   "indoor"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 10.6,
+  "usable": [
+   [
+    0,
+    10.6
+   ]
+  ],
+  "quality": 3,
+  "notes": "Handheld."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLow",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Dinner Party/Video 2026-03-26, 6 35 29 PM (1).mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "shucking oysters for friends",
+  "description": "Anton shucks and hands out oysters to friends at the restaurant oyster party; a woman tries one.",
+  "tags": [
+   "anton",
+   "oysters",
+   "shucking",
+   "friends",
+   "dinner party",
+   "restaurant",
+   "social"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 24.97,
+  "usable": [
+   [
+    0,
+    24.97
+   ]
+  ],
+  "quality": 3,
+  "notes": "Handheld, busy framing."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLog",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Dinner Party/Video 2026-03-26, 6 35 29 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "oyster party table",
+  "description": "Friends at a table with a platter of oysters on ice and lemons; Anton hands one over.",
+  "tags": [
+   "oysters",
+   "friends",
+   "dinner party",
+   "platter",
+   "lemon",
+   "restaurant",
+   "social"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 7.47,
+  "usable": [
+   [
+    0,
+    7.47
+   ]
+  ],
+  "quality": 3,
+  "notes": "Handheld."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLoA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Dinner Party/Video 2026-03-26, 6 36 19 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "long table dinner party",
+  "description": "Wide of a long wooden table packed with friends eating oysters in a restaurant with shelves.",
+  "tags": [
+   "dinner party",
+   "long table",
+   "friends",
+   "oysters",
+   "restaurant",
+   "social",
+   "wide"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 4.33,
+  "usable": [
+   [
+    0,
+    4.33
+   ]
+  ],
+  "quality": 3,
+  "notes": "Short."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACM6w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Party 2/finished/April 17.mp4",
+  "folder": "Toronto 2026",
+  "kind": "other",
+  "shot": "finished edit",
+  "description": "Finished edit: buying 200 oysters and hosting an oyster picnic in a park, talking head with captions.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "oysters",
+   "picnic",
+   "park",
+   "friends"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 17.57,
+  "usable": [
+   [
+    0,
+    17.57
+   ]
+  ],
+  "quality": 2,
+  "notes": "Finished edit."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACM6A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Party 2/Video 2026-04-16, 2 57 22 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "car talk",
+  "description": "Horizontal: Anton talks to camera from the driver's seat of a car on a rainy day.",
+  "tags": [
+   "anton",
+   "talking head",
+   "car",
+   "rainy",
+   "horizontal",
+   "puffer jacket"
+  ],
+  "location": "Toronto",
+  "orientation": "horizontal",
+  "duration": 68.0,
+  "usable": [
+   [
+    0,
+    68.0
+   ]
+  ],
+  "quality": 2,
+  "notes": "Long talking take."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACM3Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Party 2/Video 2026-04-16, 2 59 22 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "seafood shop exterior",
+  "description": "Horizontal handheld shot of Diana's Seafood storefront on a rainy grey day.",
+  "tags": [
+   "seafood shop",
+   "storefront",
+   "rainy",
+   "overcast",
+   "parking lot",
+   "horizontal",
+   "handheld"
+  ],
+  "location": "Toronto",
+  "orientation": "horizontal",
+  "duration": 6.57,
+  "usable": [
+   [
+    0,
+    5.5
+   ]
+  ],
+  "quality": 3,
+  "notes": "Pan ends on pavement."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACM4Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Party 2/Video 2026-04-16, 3 02 56 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "other",
+  "shot": "accidental recording",
+  "description": "Rotated, accidental-looking clip of Anton's face from below inside a store.",
+  "tags": [
+   "accidental",
+   "rotated",
+   "store",
+   "indoor"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 29.87,
+  "usable": [
+   [
+    0,
+    0
+   ]
+  ],
+  "quality": 1,
+  "notes": "Rotated sideways and unusable."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACM1w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Party 2/Video 2026-04-16, 3 03 44 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "oyster boxes in store",
+  "description": "Horizontal handheld pan across boxes of oysters (Ultraviolet, White Stone) in a seafood shop cooler.",
+  "tags": [
+   "oysters",
+   "boxes",
+   "seafood shop",
+   "cooler",
+   "shopping",
+   "horizontal",
+   "handheld"
+  ],
+  "location": "Toronto",
+  "orientation": "horizontal",
+  "duration": 4.4,
+  "usable": [
+   [
+    0,
+    4.4
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACM3A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Party 2/Video 2026-04-16, 3 19 53 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "car talk with oysters",
+  "description": "Horizontal selfie of Anton in the car with a box of White Stone oysters, talking and gesturing.",
+  "tags": [
+   "anton",
+   "talking head",
+   "car",
+   "oysters",
+   "box",
+   "horizontal",
+   "selfie"
+  ],
+  "location": "Toronto",
+  "orientation": "horizontal",
+  "duration": 7.5,
+  "usable": [
+   [
+    0,
+    7.5
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking take."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACM1g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Party 2/Video 2026-04-16, 6 44 08 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "oyster picnic in park",
+  "description": "Friends gathered around a picnic table with checkered cloth, boxes of oysters, lemons and drinks in a park.",
+  "tags": [
+   "oysters",
+   "picnic",
+   "park",
+   "friends",
+   "checkered tablecloth",
+   "lemons",
+   "social",
+   "spring"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 3.7,
+  "usable": [
+   [
+    0,
+    3.7
+   ]
+  ],
+  "quality": 3,
+  "notes": "Short, handheld."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACM2A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Party 2/Video 2026-04-16, 6 47 33 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "oyster picnic toast",
+  "description": "Friends around a checkered picnic table in a park raise their drinks and cheers, with charcuterie and oysters.",
+  "tags": [
+   "friends",
+   "picnic",
+   "cheers",
+   "toast",
+   "park",
+   "checkered tablecloth",
+   "charcuterie",
+   "social",
+   "spring"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 9.53,
+  "usable": [
+   [
+    0,
+    9.53
+   ]
+  ],
+  "quality": 4,
+  "notes": "Handheld but lively; good social moment."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACMzA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Party 2/Video 2026-04-17, 11 37 12 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "street selfie talk",
+  "description": "Anton in a grey puffer and backpack talks to camera on a residential street with bare trees.",
+  "tags": [
+   "anton",
+   "talking head",
+   "selfie",
+   "street",
+   "puffer jacket",
+   "overcast",
+   "spring"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 15.9,
+  "usable": [
+   [
+    0,
+    15.9
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking-head take."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACMzw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 02 59 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "park selfie talk",
+  "description": "Anton in a grey tee with lav mic talks to camera on a grassy residential street, overcast.",
+  "tags": [
+   "anton",
+   "talking head",
+   "selfie",
+   "lav mic",
+   "park",
+   "grey tee",
+   "backpack",
+   "spring"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 17.33,
+  "usable": [
+   [
+    0,
+    17.33
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking-head take."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACM2w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 22 28 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "park selfie talk",
+  "description": "Anton in grey tee with lav mic talks to camera by apartment towers and grass.",
+  "tags": [
+   "anton",
+   "talking head",
+   "selfie",
+   "lav mic",
+   "park",
+   "grey tee",
+   "backpack",
+   "spring"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 18.8,
+  "usable": [
+   [
+    0,
+    18.8
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking-head take."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACM2Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 24 38 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "park selfie talk",
+  "description": "Anton in grey tee and backpack talks to camera in a sunny park with apartment buildings.",
+  "tags": [
+   "anton",
+   "talking head",
+   "selfie",
+   "lav mic",
+   "park",
+   "grey tee",
+   "backpack",
+   "spring"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 23.97,
+  "usable": [
+   [
+    0,
+    23.97
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking-head take."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACMzQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 25 17 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "park selfie talk",
+  "description": "Anton in grey tee and backpack talks to camera in a sunny park.",
+  "tags": [
+   "anton",
+   "talking head",
+   "selfie",
+   "lav mic",
+   "park",
+   "grey tee",
+   "backpack",
+   "spring"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 21.17,
+  "usable": [
+   [
+    0,
+    21.17
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking-head take."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACM1Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 27 22 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "park selfie talk",
+  "description": "Anton in grey tee and backpack talks to camera in a sunny park, briefly leaning out of frame.",
+  "tags": [
+   "anton",
+   "talking head",
+   "selfie",
+   "lav mic",
+   "park",
+   "grey tee",
+   "backpack",
+   "spring"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 36.94,
+  "usable": [
+   [
+    0,
+    36.94
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking-head take."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACM0Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 28 15 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "park selfie talk",
+  "description": "Anton in grey tee talks to camera in a park with pines and towers under blue sky.",
+  "tags": [
+   "anton",
+   "talking head",
+   "selfie",
+   "lav mic",
+   "park",
+   "grey tee",
+   "backpack",
+   "spring"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 21.8,
+  "usable": [
+   [
+    0,
+    21.8
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking-head take."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACM3g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 29 44 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "park selfie talk",
+  "description": "Anton in grey tee talks energetically to camera in front of an apartment tower.",
+  "tags": [
+   "anton",
+   "talking head",
+   "selfie",
+   "lav mic",
+   "park",
+   "grey tee",
+   "backpack",
+   "spring"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 20.27,
+  "usable": [
+   [
+    0,
+    20.27
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking-head take."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACM5A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 34 56 PM (1).mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "holding box of oysters",
+  "description": "Anton smiles holding up an open box of fresh oysters on a balcony, selfie angle.",
+  "tags": [
+   "anton",
+   "oysters",
+   "box",
+   "balcony",
+   "selfie",
+   "smiling",
+   "seafood"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 3.87,
+  "usable": [
+   [
+    0,
+    3.0
+   ]
+  ],
+  "quality": 3,
+  "notes": "Byte-identical duplicate of Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 34 56 PM.mov. Short; camera drops at end."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACMzg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 34 56 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "holding box of oysters",
+  "description": "Anton smiles holding up an open box of fresh oysters on a balcony, selfie angle.",
+  "tags": [
+   "anton",
+   "oysters",
+   "box",
+   "balcony",
+   "selfie",
+   "smiling",
+   "seafood"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 3.87,
+  "usable": [
+   [
+    0,
+    3.0
+   ]
+  ],
+  "quality": 3,
+  "notes": "Short; camera drops at end."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACM4g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 35 17 PM (1).mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "opening oyster box",
+  "description": "Anton opens a box of oysters on a balcony, selfie; camera swings away.",
+  "tags": [
+   "anton",
+   "oysters",
+   "box",
+   "balcony",
+   "selfie",
+   "unboxing"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 2.62,
+  "usable": [
+   [
+    0,
+    1.3
+   ]
+  ],
+  "quality": 2,
+  "notes": "Very short, shaky."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACM0g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 35 17 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "opening oyster box",
+  "description": "Anton opens a box of oysters on a balcony, selfie; camera swings away.",
+  "tags": [
+   "anton",
+   "oysters",
+   "box",
+   "balcony",
+   "selfie",
+   "unboxing"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 2.62,
+  "usable": [
+   [
+    0,
+    1.3
+   ]
+  ],
+  "quality": 2,
+  "notes": "Byte-identical duplicate of Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 35 17 PM (1).mov. Very short, shaky."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACM4w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 35 29 PM (1).mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "box of oysters pov",
+  "description": "Top-down POV of a large box of fresh oysters held over bare feet on a balcony.",
+  "tags": [
+   "oysters",
+   "box",
+   "pov",
+   "overhead",
+   "seafood",
+   "feet",
+   "balcony"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 2.6,
+  "usable": [
+   [
+    0,
+    2.6
+   ]
+  ],
+  "quality": 3,
+  "notes": "Short."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACM0A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 35 29 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "box of oysters pov",
+  "description": "Top-down POV of a large box of fresh oysters held over bare feet on a balcony.",
+  "tags": [
+   "oysters",
+   "box",
+   "pov",
+   "overhead",
+   "seafood",
+   "feet",
+   "balcony"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 2.6,
+  "usable": [
+   [
+    0,
+    2.6
+   ]
+  ],
+  "quality": 3,
+  "notes": "Byte-identical duplicate of Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 35 29 PM (1).mov. Short."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACM5Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 35 50 PM (1).mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "holding box of oysters",
+  "description": "Anton holds up a box of oysters on a balcony then smirks into camera.",
+  "tags": [
+   "anton",
+   "oysters",
+   "box",
+   "balcony",
+   "selfie",
+   "playful"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 3.57,
+  "usable": [
+   [
+    0,
+    1.8
+   ]
+  ],
+  "quality": 2,
+  "notes": "Byte-identical duplicate of Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 35 50 PM.mov. Short, shaky end."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACM0w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 35 50 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "holding box of oysters",
+  "description": "Anton holds up a box of oysters on a balcony then smirks into camera.",
+  "tags": [
+   "anton",
+   "oysters",
+   "box",
+   "balcony",
+   "selfie",
+   "playful"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 3.57,
+  "usable": [
+   [
+    0,
+    1.8
+   ]
+  ],
+  "quality": 2,
+  "notes": "Short, shaky end."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACM5g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 36 09 PM (1).mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "box of oysters high angle",
+  "description": "High-angle selfie of Anton holding an open box of oysters on a balcony.",
+  "tags": [
+   "anton",
+   "oysters",
+   "box",
+   "balcony",
+   "selfie",
+   "high angle"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 3.2,
+  "usable": [
+   [
+    0,
+    3.2
+   ]
+  ],
+  "quality": 2,
+  "notes": "Distorted wide-angle arm."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACM1A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 36 09 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "box of oysters high angle",
+  "description": "High-angle selfie of Anton holding an open box of oysters on a balcony.",
+  "tags": [
+   "anton",
+   "oysters",
+   "box",
+   "balcony",
+   "selfie",
+   "high angle"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 3.2,
+  "usable": [
+   [
+    0,
+    3.2
+   ]
+  ],
+  "quality": 2,
+  "notes": "Byte-identical duplicate of Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 36 09 PM (1).mov. Distorted wide-angle arm."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACM5w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 37 22 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "oyster box talk",
+  "description": "Static shot of Anton on a balcony holding a big box of oysters and talking, then walking inside.",
+  "tags": [
+   "anton",
+   "talking",
+   "oysters",
+   "box",
+   "balcony",
+   "static",
+   "overcast"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 74.47,
+  "usable": [
+   [
+    0,
+    55
+   ]
+  ],
+  "quality": 3,
+  "notes": "Talking take; walks out of frame at end."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACL8Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oysters April 1/finished/suffer 2_1.mp4",
+  "folder": "Toronto 2026",
+  "kind": "other",
+  "shot": "finished edit",
+  "description": "Finished captioned edit: Anton in puffer and flannel talks on a street outside a cannabis store.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "talking head",
+   "street",
+   "puffer jacket",
+   "flannel"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 26.6,
+  "usable": [
+   [
+    0,
+    26.6
+   ]
+  ],
+  "quality": 2,
+  "notes": "Finished edit."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACL8A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oysters April 1/finished/wed april 1_1.mp4",
+  "folder": "Toronto 2026",
+  "kind": "other",
+  "shot": "finished edit",
+  "description": "Finished captioned edit: street talk then oysters at a restaurant.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "talking head",
+   "street",
+   "oysters",
+   "restaurant"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 24.63,
+  "usable": [
+   [
+    0,
+    24.63
+   ]
+  ],
+  "quality": 2,
+  "notes": "Finished edit."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACL7A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oysters April 1/Video 2026-04-01, 5 14 45 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "street talk",
+  "description": "Static: Anton in puffer and flannel talks and gestures on a Queen West-style street with brick buildings.",
+  "tags": [
+   "anton",
+   "talking",
+   "street",
+   "puffer jacket",
+   "flannel",
+   "overcast",
+   "static",
+   "brick buildings"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 26.67,
+  "usable": [
+   [
+    0,
+    26.67
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking take."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACL7Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oysters April 1/Video 2026-04-01, 5 15 52 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "street talk",
+  "description": "Static: Anton in puffer and flannel talks outside a cannabis shop on a city street.",
+  "tags": [
+   "anton",
+   "talking",
+   "street",
+   "puffer jacket",
+   "flannel",
+   "storefront",
+   "overcast",
+   "static"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 46.3,
+  "usable": [
+   [
+    0,
+    46.3
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking take; empty frame around 34s."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACL6Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oysters April 1/Video 2026-04-01, 5 18 23 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "alley pickup",
+  "description": "Anton bends to pick up something in a graffiti alley with bins, then walks toward camera.",
+  "tags": [
+   "anton",
+   "alley",
+   "graffiti",
+   "bins",
+   "street",
+   "urban",
+   "static"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 5.9,
+  "usable": [
+   [
+    0,
+    5.9
+   ]
+  ],
+  "quality": 2,
+  "notes": "Odd action; context unclear."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACL7g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oysters April 1/Video 2026-04-01, 5 46 44 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "oyster platter talk",
+  "description": "Anton in plaid flannel talks and eats oysters at a candlelit restaurant table.",
+  "tags": [
+   "anton",
+   "talking head",
+   "oysters",
+   "restaurant",
+   "candle",
+   "flannel",
+   "indoor",
+   "dinner"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 40.66,
+  "usable": [
+   [
+    0,
+    40.66
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking take."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACL6g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oysters April 1/Video 2026-04-01, 5 51 43 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "oyster platter talk",
+  "description": "Anton in plaid flannel talks over a plate of oysters at a candlelit restaurant table.",
+  "tags": [
+   "anton",
+   "talking head",
+   "oysters",
+   "restaurant",
+   "candle",
+   "flannel",
+   "indoor"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 12.87,
+  "usable": [
+   [
+    0,
+    12.87
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking take."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLjQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Pho W Ivan/finished/ivan soup v1..mp4",
+  "folder": "Toronto 2026",
+  "kind": "other",
+  "shot": "finished edit",
+  "description": "Finished captioned edit: Anton talks at a pho restaurant table about mukbang culture.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "pho",
+   "soup",
+   "restaurant",
+   "talking head"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 19.23,
+  "usable": [
+   [
+    0,
+    19.23
+   ]
+  ],
+  "quality": 2,
+  "notes": "Finished edit."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLjg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Pho W Ivan/finished/march 25.mp4",
+  "folder": "Toronto 2026",
+  "kind": "other",
+  "shot": "finished edit",
+  "description": "Alternate finished edit: forest walk intro then talking at a pho restaurant.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "pho",
+   "restaurant",
+   "forest walk",
+   "talking head"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 19.17,
+  "usable": [
+   [
+    0,
+    19.17
+   ]
+  ],
+  "quality": 2,
+  "notes": "Finished edit."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLjw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Pho W Ivan/finished/model.mp4",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "reading in bed",
+  "description": "Static shot of Anton in grey tee and jeans reading a red book on a white bed, shifting poses.",
+  "tags": [
+   "anton",
+   "reading",
+   "book",
+   "bed",
+   "bedroom",
+   "relaxing",
+   "indoor",
+   "static",
+   "cozy"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 65.4,
+  "usable": [
+   [
+    0,
+    65.4
+   ]
+  ],
+  "quality": 3,
+  "notes": "In a 'finished' folder but looks like raw B-roll with no captions."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLig",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Pho W Ivan/Video 2026-03-25, 6 38 23 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "forest trail selfie talk",
+  "description": "Anton in a grey puffer talks to camera on a wooded trail with a wooden fence, overcast.",
+  "tags": [
+   "anton",
+   "talking head",
+   "selfie",
+   "forest",
+   "trail",
+   "puffer jacket",
+   "overcast",
+   "winter"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 6.03,
+  "usable": [
+   [
+    0,
+    6.03
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking-head take."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLhw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Pho W Ivan/Video 2026-03-25, 6 38 42 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "forest trail selfie talk",
+  "description": "Anton in a grey puffer talks to camera on a wooded trail.",
+  "tags": [
+   "anton",
+   "talking head",
+   "selfie",
+   "forest",
+   "trail",
+   "puffer jacket",
+   "overcast",
+   "winter"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 5.93,
+  "usable": [
+   [
+    0,
+    5.93
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking-head take."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLhQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Pho W Ivan/Video 2026-03-25, 6 39 26 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "forest trail selfie talk",
+  "description": "Anton in a grey puffer talks to camera on a wooded trail; camera swings to sky at end.",
+  "tags": [
+   "anton",
+   "talking head",
+   "selfie",
+   "forest",
+   "trail",
+   "puffer jacket",
+   "overcast",
+   "winter"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 7.53,
+  "usable": [
+   [
+    0,
+    5.5
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking-head take."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLiA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Pho W Ivan/Video 2026-03-25, 6 39 41 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "forest trail selfie talk",
+  "description": "Anton in a grey puffer talks to camera on a wooded trail.",
+  "tags": [
+   "anton",
+   "talking head",
+   "selfie",
+   "forest",
+   "trail",
+   "puffer jacket",
+   "overcast",
+   "winter"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 10.97,
+  "usable": [
+   [
+    0,
+    10.97
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking-head take."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLiQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Pho W Ivan/Video 2026-03-25, 6 40 16 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "forest trail selfie talk",
+  "description": "Extreme low-angle close selfie of Anton talking while walking under bare trees.",
+  "tags": [
+   "anton",
+   "talking head",
+   "selfie",
+   "forest",
+   "trail",
+   "puffer jacket",
+   "overcast",
+   "winter"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 10.17,
+  "usable": [
+   [
+    0,
+    10.17
+   ]
+  ],
+  "quality": 1,
+  "notes": "Unflattering low angle, shaky."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLiw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Pho W Ivan/Video 2026-03-25, 6 43 27 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "street selfie talk",
+  "description": "Horizontal selfie of Anton talking while walking past brick houses with bare trees, overcast.",
+  "tags": [
+   "anton",
+   "talking head",
+   "selfie",
+   "walking",
+   "street",
+   "horizontal",
+   "overcast",
+   "winter"
+  ],
+  "location": "Toronto",
+  "orientation": "horizontal",
+  "duration": 107.04,
+  "usable": [
+   [
+    0,
+    107.04
+   ]
+  ],
+  "quality": 2,
+  "notes": "Long walking talk."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLgg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Pho W Ivan/Video 2026-03-25, 6 49 28 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "pho restaurant exterior",
+  "description": "Horizontal handheld shot of the Pho T&T Express storefront with neon OPEN sign.",
+  "tags": [
+   "pho",
+   "restaurant",
+   "storefront",
+   "sign",
+   "neon",
+   "street",
+   "horizontal",
+   "handheld"
+  ],
+  "location": "Toronto",
+  "orientation": "horizontal",
+  "duration": 6.87,
+  "usable": [
+   [
+    0,
+    6.87
+   ]
+  ],
+  "quality": 3,
+  "notes": "Pans slightly."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLgQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Pho W Ivan/Video 2026-03-25, 6 59 33 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "street crossing",
+  "description": "Horizontal shot of a Toronto intersection with pedestrians, red light and car headlights, overcast.",
+  "tags": [
+   "street",
+   "intersection",
+   "pedestrians",
+   "traffic",
+   "city",
+   "overcast",
+   "horizontal"
+  ],
+  "location": "Toronto",
+  "orientation": "horizontal",
+  "duration": 3.77,
+  "usable": [
+   [
+    0,
+    2.5
+   ]
+  ],
+  "quality": 2,
+  "notes": "Lens flare streaks; car and person pass in front."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLgw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Pho W Ivan/Video 2026-03-25, 7 00 46 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "greeting friend pov",
+  "description": "POV of Anton's hand reaching out to greet and shake hands with a friend in a black hoodie on a city sidewalk.",
+  "tags": [
+   "pov",
+   "handshake",
+   "friend",
+   "greeting",
+   "street",
+   "sidewalk",
+   "city",
+   "overcast"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 13.17,
+  "usable": [
+   [
+    0,
+    13.17
+   ]
+  ],
+  "quality": 3,
+  "notes": "Handheld."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLhg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Pho W Ivan/Video 2026-03-25, 8 08 47 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "pho restaurant talk",
+  "description": "Anton in grey tee talks animatedly at a pho restaurant table with soup bowl and herbs.",
+  "tags": [
+   "anton",
+   "talking head",
+   "pho",
+   "soup",
+   "restaurant",
+   "indoor"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 17.23,
+  "usable": [
+   [
+    0,
+    17.23
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking take."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLhA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Pho W Ivan/Video 2026-03-25, 8 10 14 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "pho restaurant talk",
+  "description": "Anton in grey tee talks animatedly at a pho restaurant table with soup bowl and herbs.",
+  "tags": [
+   "anton",
+   "talking head",
+   "pho",
+   "soup",
+   "restaurant",
+   "indoor"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 21.47,
+  "usable": [
+   [
+    0,
+    21.47
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking take."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACPdQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Remaining Broll May 11/Video 2026-04-25, 7 24 34 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "waking up in bed",
+  "description": "Shirtless Anton lying in bed on pink pillows, stretching and grinning at the camera in the morning.",
+  "tags": [
+   "anton",
+   "bed",
+   "morning",
+   "waking up",
+   "stretching",
+   "selfie",
+   "pink",
+   "playful"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 5.0,
+  "usable": [
+   [
+    0,
+    3.8
+   ]
+  ],
+  "quality": 2,
+  "notes": "Selfie, shaky end."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACPdA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Remaining Broll May 11/Video 2026-04-25, 7 32 35 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "walking past oyster cages",
+  "description": "Handheld walk down a gravel path between towering stacks of oyster cages under clear blue sky.",
+  "tags": [
+   "oyster cages",
+   "walking",
+   "pov",
+   "gravel path",
+   "blue sky",
+   "coast",
+   "morning"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 4.53,
+  "usable": [
+   [
+    0,
+    4.53
+   ]
+  ],
+  "quality": 3,
+  "notes": "Handheld."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACPcg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Remaining Broll May 11/Video 2026-04-25, 7 32 52 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "oyster cages selfie",
+  "description": "Selfie of Anton in a red tee among stacks of oyster cages in morning sun, wind in his hair.",
+  "tags": [
+   "anton",
+   "selfie",
+   "oyster cages",
+   "red shirt",
+   "morning",
+   "wind",
+   "blue sky"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 4.0,
+  "usable": [
+   [
+    0,
+    4.0
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPcw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Remaining Broll May 11/Video 2026-04-30, 5 07 24 PM.mp4",
   "folder": "Toronto 2026",
@@ -3354,5 +6208,1018 @@
   ],
   "quality": 2,
   "notes": "Byte-identical duplicate of Toronto 2026/April 29 Batch/finished/the world can be crumbling.mp4. Finished edit."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACQRQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Victoria Day/DJI_20260518162613_0075_D.MP4",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "lake ontario rocky shore",
+  "description": "Static wide of Anton shirtless on a rocky Lake Ontario shore, walking to the water and spraying something, deep blue lake and sky.",
+  "tags": [
+   "anton",
+   "lake ontario",
+   "shore",
+   "rocks",
+   "blue sky",
+   "water",
+   "shirtless",
+   "static",
+   "summer"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 26.6,
+  "usable": [
+   [
+    5,
+    26.6
+   ]
+  ],
+  "quality": 4,
+  "notes": "DJI; someone's leg in frame at start."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACQRg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Victoria Day/DJI_20260518162831_0076_D.MP4",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "swimming in lake ontario",
+  "description": "Action-cam style: Anton wades and swims in Lake Ontario, cold plunge reactions, underwater/splash moments, city skyline in distance.",
+  "tags": [
+   "anton",
+   "swimming",
+   "lake ontario",
+   "cold plunge",
+   "water",
+   "skyline",
+   "sunny",
+   "selfie",
+   "action cam"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 35.54,
+  "usable": [
+   [
+    0,
+    35.54
+   ]
+  ],
+  "quality": 3,
+  "notes": "Water drops on lens; handheld."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACQSQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Victoria Day/finished/eurolife in canda.mp4",
+  "folder": "Toronto 2026",
+  "kind": "other",
+  "shot": "finished edit",
+  "description": "Finished captioned edit 'eurolife in Canada': Anton talking at a sidewalk cafe table with steak sandwiches.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "cafe",
+   "sidewalk",
+   "talking head",
+   "european lifestyle"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 11.57,
+  "usable": [
+   [
+    0,
+    11.57
+   ]
+  ],
+  "quality": 2,
+  "notes": "Finished edit."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACQSA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Victoria Day/finished/lake ontario-.mp4",
+  "folder": "Toronto 2026",
+  "kind": "other",
+  "shot": "finished edit",
+  "description": "Finished captioned edit 'lake ontario': sunshine, magnesium spray, swimming; Victoria Day.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "lake ontario",
+   "swimming",
+   "victoria day",
+   "summer"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 9.37,
+  "usable": [
+   [
+    0,
+    9.37
+   ]
+  ],
+  "quality": 2,
+  "notes": "Finished edit."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACQSg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Victoria Day/finished/Park 1.mp4",
+  "folder": "Toronto 2026",
+  "kind": "other",
+  "shot": "finished edit",
+  "description": "Finished captioned edit 'Park 1': Anton sitting barefoot on grass in the sun talking.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "park",
+   "grass",
+   "barefoot",
+   "sunny",
+   "grounding"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 9.67,
+  "usable": [
+   [
+    0,
+    9.67
+   ]
+  ],
+  "quality": 2,
+  "notes": "Finished edit."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACQSw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Victoria Day/finished/Park 2.mp4",
+  "folder": "Toronto 2026",
+  "kind": "other",
+  "shot": "finished edit",
+  "description": "Finished captioned edit 'Park 2': Anton sitting barefoot on grass talking about weekend habits.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "park",
+   "grass",
+   "barefoot",
+   "sunny"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 14.03,
+  "usable": [
+   [
+    0,
+    14.03
+   ]
+  ],
+  "quality": 2,
+  "notes": "Finished edit."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACQTA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Victoria Day/finished/peanuts.mp4",
+  "folder": "Toronto 2026",
+  "kind": "other",
+  "shot": "finished edit",
+  "description": "Finished captioned edit 'peanuts': Anton sitting barefoot on grass in the park talking.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "park",
+   "grass",
+   "barefoot",
+   "sunny"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 20.0,
+  "usable": [
+   [
+    0,
+    20.0
+   ]
+  ],
+  "quality": 2,
+  "notes": "Finished edit."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACQWA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Victoria Day/Video 2026-05-10, 6 46 36 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "sitting on grass talk",
+  "description": "Anton sits barefoot on the grass in a sunny park in puffer and jeans, talking to camera.",
+  "tags": [
+   "anton",
+   "talking",
+   "sitting",
+   "grass",
+   "park",
+   "barefoot",
+   "sunny",
+   "blue sky",
+   "puffer jacket"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 18.43,
+  "usable": [
+   [
+    0,
+    18.43
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking take, static tripod shot."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACQVQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Victoria Day/Video 2026-05-10, 6 47 21 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "lounging on grass",
+  "description": "Anton lies back and sits up barefoot on the grass in a sunny park, gazing around.",
+  "tags": [
+   "anton",
+   "lounging",
+   "grass",
+   "park",
+   "barefoot",
+   "sunny",
+   "blue sky",
+   "relaxing",
+   "grounding"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 11.3,
+  "usable": [
+   [
+    2,
+    11.3
+   ]
+  ],
+  "quality": 3,
+  "notes": "Low angle, tripod."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACQVw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Victoria Day/Video 2026-05-10, 6 48 10 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "sitting on grass talk",
+  "description": "Anton sits barefoot on the grass in a sunny park, talking to camera.",
+  "tags": [
+   "anton",
+   "talking",
+   "sitting",
+   "grass",
+   "park",
+   "barefoot",
+   "sunny",
+   "blue sky",
+   "puffer jacket"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 19.23,
+  "usable": [
+   [
+    0,
+    19.23
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking take, static tripod shot."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACQVg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Victoria Day/Video 2026-05-10, 6 49 41 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "sitting on grass talk",
+  "description": "Anton sits barefoot on the grass in a sunny park, talking to camera.",
+  "tags": [
+   "anton",
+   "talking",
+   "sitting",
+   "grass",
+   "park",
+   "barefoot",
+   "sunny",
+   "blue sky",
+   "puffer jacket"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 22.37,
+  "usable": [
+   [
+    0,
+    22.37
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking take, static tripod shot."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACQWQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Victoria Day/Video 2026-05-17, 6 46 34 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "sidewalk cafe talk",
+  "description": "Anton in navy shirt talks and gestures at a sidewalk cafe table with takeout bags and water bottle.",
+  "tags": [
+   "anton",
+   "talking",
+   "cafe",
+   "sidewalk",
+   "outdoor dining",
+   "sunny",
+   "static"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 17.81,
+  "usable": [
+   [
+    0,
+    17.81
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking take (source of 'eurolife' edit)."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACQVA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Victoria Day/Video 2026-05-18, 5 39 33 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "lake ontario water",
+  "description": "Clear blue Lake Ontario water lapping over a pebble shore under cloudless sky.",
+  "tags": [
+   "lake ontario",
+   "water",
+   "pebbles",
+   "shore",
+   "blue sky",
+   "calm",
+   "summer",
+   "clear water"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 3.13,
+  "usable": [
+   [
+    0,
+    3.13
+   ]
+  ],
+  "quality": 4,
+  "notes": "Short; slight handheld drift."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACK2A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Video 2026-03-15, 12 52 45 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "steak frites talk",
+  "description": "Anton in green henley talks and eats steak frites with aioli at a restaurant.",
+  "tags": [
+   "anton",
+   "talking head",
+   "steak frites",
+   "restaurant",
+   "eating",
+   "dinner",
+   "indoor"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 31.82,
+  "usable": [
+   [
+    0,
+    31.82
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking take (source of steak frites edit)."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLWg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/finished/edit.mp4",
+  "folder": "Toronto 2026",
+  "kind": "other",
+  "shot": "finished edit",
+  "description": "Short snowboarding montage: riders on snowy slopes, POV of board, powder.",
+  "tags": [
+   "finished edit",
+   "snowboarding",
+   "montage",
+   "winter",
+   "mountain"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 7.2,
+  "usable": [
+   [
+    0,
+    7.2
+   ]
+  ],
+  "quality": 2,
+  "notes": "Finished edit."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLWA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/finished/march22-insensitive.mp4",
+  "folder": "Toronto 2026",
+  "kind": "other",
+  "shot": "finished edit",
+  "description": "Finished captioned edit: Anton in a gondola with grass-fed meat sticks, then snowboarding ('don't stress over what you can't control').",
+  "tags": [
+   "finished edit",
+   "captions",
+   "gondola",
+   "meat sticks",
+   "snowboarding",
+   "winter"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 19.63,
+  "usable": [
+   [
+    0,
+    19.63
+   ]
+  ],
+  "quality": 2,
+  "notes": "Finished edit."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLWQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/finished/march22-normal.mp4",
+  "folder": "Toronto 2026",
+  "kind": "other",
+  "shot": "finished edit",
+  "description": "Alternate finished edit: gondola talk with meat sticks, then snowboarding cutaways.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "gondola",
+   "meat sticks",
+   "snowboarding",
+   "winter"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 14.47,
+  "usable": [
+   [
+    0,
+    14.47
+   ]
+  ],
+  "quality": 2,
+  "notes": "Finished edit."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLTg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2317.MOV",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "snowboarding",
+  "description": "Snowboarder carving down a snowy slope toward camera with pine trees behind, overcast.",
+  "tags": [
+   "snowboarding",
+   "snow",
+   "ski slope",
+   "winter",
+   "mountain",
+   "pine trees",
+   "action"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 9.39,
+  "usable": [
+   [
+    0,
+    9.39
+   ]
+  ],
+  "quality": 3,
+  "notes": "Rider small; passes close at end."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLTQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2322.MOV",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "snowboarding",
+  "description": "Snowboarder rides through flat grey light toward camera and stops close.",
+  "tags": [
+   "snowboarding",
+   "snow",
+   "ski slope",
+   "winter",
+   "mountain",
+   "pine trees",
+   "action"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 13.59,
+  "usable": [
+   [
+    0,
+    13.59
+   ]
+  ],
+  "quality": 2,
+  "notes": "Flat light, low contrast."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLTw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2323.MOV",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "snowboarding",
+  "description": "Snowboarder rides down a slope edge by pines and sprays snow onto the camera.",
+  "tags": [
+   "snowboarding",
+   "snow",
+   "ski slope",
+   "winter",
+   "mountain",
+   "pine trees",
+   "action"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 13.79,
+  "usable": [
+   [
+    0,
+    13.79
+   ]
+  ],
+  "quality": 3,
+  "notes": "Ends with snow spray on lens."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLTA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2324.MOV",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "snowboarding",
+  "description": "Snowboarder sitting on the snow sliding down a slope, partly leaving frame.",
+  "tags": [
+   "snowboarding",
+   "snow",
+   "ski slope",
+   "winter",
+   "mountain",
+   "pine trees",
+   "action"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 2.67,
+  "usable": [
+   [
+    0,
+    2.67
+   ]
+  ],
+  "quality": 2,
+  "notes": "Short."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLUA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2326.MOV",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "snowboarding",
+  "description": "Snowboarder carving down a steep slope edge lined with trees, overcast.",
+  "tags": [
+   "snowboarding",
+   "snow",
+   "ski slope",
+   "winter",
+   "mountain",
+   "pine trees",
+   "action"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 8.11,
+  "usable": [
+   [
+    0,
+    8.11
+   ]
+  ],
+  "quality": 3,
+  "notes": "Rider small."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLVA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2328.MOV",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "snowboarding",
+  "description": "Snowboarder carves past camera; ends with mountain valley view behind a rider.",
+  "tags": [
+   "snowboarding",
+   "snow",
+   "ski slope",
+   "winter",
+   "mountain",
+   "pine trees",
+   "action",
+   "valley view"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 10.14,
+  "usable": [
+   [
+    0,
+    10.14
+   ]
+  ],
+  "quality": 4,
+  "notes": "Nice valley view at end."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLVQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2336.MOV",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "snowboarding",
+  "description": "Snowboarder rides down a tree-lined run toward camera.",
+  "tags": [
+   "snowboarding",
+   "snow",
+   "ski slope",
+   "winter",
+   "mountain",
+   "pine trees",
+   "action"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 13.29,
+  "usable": [
+   [
+    0,
+    13.29
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLUg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2338.MOV",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "snowboarding",
+  "description": "Snowboarder rides down a groomed run toward camera and stops, sunny patches.",
+  "tags": [
+   "snowboarding",
+   "snow",
+   "ski slope",
+   "winter",
+   "mountain",
+   "pine trees",
+   "action"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 15.14,
+  "usable": [
+   [
+    0,
+    15.14
+   ]
+  ],
+  "quality": 3,
+  "notes": "720p."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLUQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2339.MOV",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "snowboarding",
+  "description": "Snowboarder carves toward camera with mountain views behind.",
+  "tags": [
+   "snowboarding",
+   "snow",
+   "ski slope",
+   "winter",
+   "mountain",
+   "pine trees",
+   "action"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 5.64,
+  "usable": [
+   [
+    0,
+    5.64
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLVg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2341.MOV",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "snowboarding",
+  "description": "Snowboarder rides down under blue sky and stops close to camera.",
+  "tags": [
+   "snowboarding",
+   "snow",
+   "ski slope",
+   "winter",
+   "mountain",
+   "pine trees",
+   "action"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 9.86,
+  "usable": [
+   [
+    0,
+    9.86
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLUw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2342.MOV",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "snowboarding",
+  "description": "Following snowboarder down a run with distant mountains, handheld while riding.",
+  "tags": [
+   "snowboarding",
+   "snow",
+   "ski slope",
+   "winter",
+   "mountain",
+   "pine trees",
+   "action"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 6.47,
+  "usable": [
+   [
+    0,
+    6.47
+   ]
+  ],
+  "quality": 3,
+  "notes": "Shaky, tilted."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLQQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-20, 7 25 24 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "parking garage talk",
+  "description": "Horizontal selfie of Anton in a parking garage next to a red car and lime snowboard, talking.",
+  "tags": [
+   "anton",
+   "talking head",
+   "selfie",
+   "parking garage",
+   "snowboard",
+   "red car",
+   "horizontal"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "horizontal",
+  "duration": 44.23,
+  "usable": [
+   [
+    0,
+    44.23
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking take."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLPQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-20, 7 27 05 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "other",
+  "shot": "loading snowboard",
+  "description": "Dark, chaotic horizontal clip of a snowboard being loaded into a red car.",
+  "tags": [
+   "snowboard",
+   "car",
+   "loading",
+   "dark",
+   "horizontal"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "horizontal",
+  "duration": 8.77,
+  "usable": [
+   [
+    0,
+    2
+   ]
+  ],
+  "quality": 1,
+  "notes": "Dark and shaky."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLQA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-20, 7 29 20 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "car talk",
+  "description": "Horizontal selfie of Anton talking in the driver's seat inside a dim parking garage.",
+  "tags": [
+   "anton",
+   "talking head",
+   "car",
+   "parking garage",
+   "dim",
+   "horizontal"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "horizontal",
+  "duration": 32.7,
+  "usable": [
+   [
+    0,
+    32.7
+   ]
+  ],
+  "quality": 2,
+  "notes": "Dim lighting."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLKQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 11 38 50 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "snowboarding",
+  "description": "Snowboarder kneeling/fallen in deep snow in thick fog.",
+  "tags": [
+   "snowboarding",
+   "snow",
+   "ski slope",
+   "winter",
+   "mountain",
+   "pine trees",
+   "action"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 3.8,
+  "usable": [
+   [
+    0,
+    3.8
+   ]
+  ],
+  "quality": 2,
+  "notes": "Fog, small subject."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLKw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 11 38 57 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "snowboarding",
+  "description": "Snowboarder in the distance getting up in deep powder in fog.",
+  "tags": [
+   "snowboarding",
+   "snow",
+   "ski slope",
+   "winter",
+   "mountain",
+   "pine trees",
+   "action"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 8.13,
+  "usable": [
+   [
+    0,
+    8.13
+   ]
+  ],
+  "quality": 2,
+  "notes": "Fog, small subject."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLLg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 11 39 07 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "snowboarding",
+  "description": "Foggy powder slope with tiny distant snowboarder.",
+  "tags": [
+   "snowboarding",
+   "snow",
+   "ski slope",
+   "winter",
+   "mountain",
+   "pine trees",
+   "action"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 7.33,
+  "usable": [
+   [
+    0,
+    7.33
+   ]
+  ],
+  "quality": 1,
+  "notes": "Mostly empty fog."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLOw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 11 41 58 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "snowboard wipeout pov",
+  "description": "Chaotic selfie of Anton (Supreme goggles) snowboarding through trees, wiping out in powder, then the slope.",
+  "tags": [
+   "anton",
+   "snowboarding",
+   "wipeout",
+   "powder",
+   "selfie",
+   "goggles",
+   "winter",
+   "funny"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 40.52,
+  "usable": [
+   [
+    0,
+    25
+   ]
+  ],
+  "quality": 2,
+  "notes": "Very shaky; funny wipeout moment."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLMg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 11 42 41 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "snowboarding",
+  "description": "POV riding down a foggy slope then camera tumbling into snow.",
+  "tags": [
+   "snowboarding",
+   "snow",
+   "ski slope",
+   "winter",
+   "mountain",
+   "pine trees",
+   "action",
+   "pov"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 10.45,
+  "usable": [
+   [
+    0,
+    6.5
+   ]
+  ],
+  "quality": 2,
+  "notes": "Shaky; ends in snow."
  }
 ]
