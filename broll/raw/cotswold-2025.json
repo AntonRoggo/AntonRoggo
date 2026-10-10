@@ -1195,7 +1195,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Tw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 7 00 47 PM.mov",
   "folder": "cotswold 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "picking and eating plums",
   "description": "Anton reaches up under a purple-leaf plum tree in a Cotswold garden, picks a plum and eats it.",
   "tags": [
@@ -1218,13 +1218,16 @@
    ]
   ],
   "quality": 3,
-  "notes": "Handheld; looks up a lot"
+  "notes": "Handheld; looks up a lot",
+  "activity": "picking fruit",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Tg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 7 00 59 PM.mov",
   "folder": "cotswold 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "picking and eating plums",
   "description": "Anton picks plums from a purple-leaf tree, eats one, then walks toward camera talking.",
   "tags": [
@@ -1246,7 +1249,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "Starts talking to camera at the end"
+  "notes": "Starts talking to camera at the end",
+  "activity": "picking fruit",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_QQ",
@@ -1584,7 +1590,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_vg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 5/Video 2025-08-08, 11 42 52 AM.mov",
   "folder": "cotswold 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "cold plunge",
   "description": "Shirtless Anton climbs into an outdoor wooden cold-plunge tub in the woods, sits in the water breathing, laughs and climbs out.",
   "tags": [
@@ -1607,7 +1613,10 @@
    ]
   ],
   "quality": 4,
-  "notes": "Handheld, some framing shifts; strong wellness content"
+  "notes": "Handheld, some framing shifts; strong wellness content",
+  "activity": "cold plunge",
+  "who": "anton",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_tQ",
@@ -2082,7 +2091,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_4w",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-09, 8 22 27 PM.mov",
   "folder": "cotswold 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "trampoline pov at sunset",
   "description": "POV from a garden trampoline at dusk, looking down at feet then up through the safety net to a sunset over the lawn.",
   "tags": [
@@ -2104,13 +2113,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "Bouncy, dim"
+  "notes": "Bouncy, dim",
+  "activity": "trampoline",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_5Q",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-09, 8 22 37 PM.mov",
   "folder": "cotswold 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "trampoline pov at sunset",
   "description": "POV bouncing on a trampoline at dusk, alternating between feet and the sunset beyond the net.",
   "tags": [
@@ -2132,13 +2144,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "Very shaky, dark frames"
+  "notes": "Very shaky, dark frames",
+  "activity": "trampoline",
+  "who": "anton",
+  "action_quality": 1
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_1w",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 1 27 01 PM.mov",
   "folder": "cotswold 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "wading in stream",
   "description": "Anton in white linen walks barefoot up a shallow clear stream in a Cotswold village, then turns toward camera.",
   "tags": [
@@ -2161,13 +2176,16 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "activity": "wading",
+  "who": "anton",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_2A",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 1 27 27 PM.mov",
   "folder": "cotswold 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "wading in stream",
   "description": "Anton in white linen stands in a sunny stream, walks toward camera and steps onto a rock.",
   "tags": [
@@ -2190,13 +2208,16 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "activity": "wading",
+  "who": "anton",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_4A",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 1 27 44 PM.mov",
   "folder": "cotswold 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "balancing on rock in stream",
   "description": "Anton wades a clear stream, balances on a rock with arms out and wades on past flowering plants.",
   "tags": [
@@ -2219,13 +2240,16 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "activity": "wading",
+  "who": "anton",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_2w",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 1 36 48 PM.mov",
   "folder": "cotswold 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "push-ups by riverbank",
   "description": "Shirtless Anton does push-ups on a muddy riverbank among plants, then the camera tilts into the water.",
   "tags": [
@@ -2247,13 +2271,16 @@
    ]
   ],
   "quality": 3,
-  "notes": "Low angle, foreground plants; ends pointing at water"
+  "notes": "Low angle, foreground plants; ends pointing at water",
+  "activity": "calisthenics",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_4g",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 1 37 43 PM.mov",
   "folder": "cotswold 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "wading into river under willow",
   "description": "Shirtless Anton in linen trousers wades away from camera up a river beneath hanging willow branches.",
   "tags": [
@@ -2276,13 +2303,16 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "activity": "wading",
+  "who": "anton",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_2Q",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 1 38 16 PM.mov",
   "folder": "cotswold 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "walking out of river toward camera",
   "description": "Shirtless Anton wades back down the river under willows toward camera, pushing through branches and smiling.",
   "tags": [
@@ -2305,7 +2335,10 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "activity": "wading",
+  "who": "anton",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_1g",

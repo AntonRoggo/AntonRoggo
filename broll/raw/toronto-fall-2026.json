@@ -2932,7 +2932,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABMgg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/toronto fall 2026/day 24/Video 2025-11-09, 9 29 17 AM.mov",
   "folder": "toronto fall 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "walking through snowy forest",
   "description": "Handheld walk through a forest with snow and fallen leaves; whip pan midway.",
   "tags": [
@@ -2957,7 +2957,10 @@
    ]
   ],
   "quality": 2,
-  "notes": "whip pan mid-clip"
+  "notes": "whip pan mid-clip",
+  "activity": "hiking",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABMgA",
@@ -3207,7 +3210,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABMvg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/toronto fall 2026/day 28/Video 2025-11-11, 9 15 35 AM.mov",
   "folder": "toronto fall 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "cycling in snow",
   "description": "Anton rides an orange bike-share bike through a snowy bike lane past the docking station.",
   "tags": [
@@ -3229,13 +3232,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "biking",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABMvA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/toronto fall 2026/day 28/Video 2025-11-11, 9 17 11 AM.mov",
   "folder": "toronto fall 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "selfie cycling in snowy street",
   "description": "Selfie shot of Anton smiling while riding along a wet, snowy city street with a cyclist behind.",
   "tags": [
@@ -3257,7 +3263,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "biking",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABK6Q",
@@ -4575,7 +4584,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABHGw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/toronto fall 2026/day4/Video 2025-10-04, 5 41 03 PM.mov",
   "folder": "toronto fall 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "bike share ride pov",
   "description": "POV riding an orange bike-share bike down a sunny city bike lane with shops and trees.",
   "tags": [
@@ -4597,7 +4606,10 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "activity": "biking",
+  "who": "anton",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABHHQ",

@@ -402,7 +402,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABEcw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/londons/day 3/Video 2025-01-14, 4 22 25 PM.mov",
   "folder": "londons",
-  "kind": "broll",
+  "kind": "action",
   "shot": "cold plunge in icy river",
   "description": "Anton in a dark hooded puffer stands waist-deep in a snowy, icy stream beside a red life-ring post, arms out, in winter.",
   "tags": [
@@ -426,7 +426,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "filmed through reeds, slightly cluttered foreground"
+  "notes": "filmed through reeds, slightly cluttered foreground",
+  "activity": "cold plunge",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABEhw",
@@ -1665,7 +1668,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABEkg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/londons/day 4/Video 2025-09-18, 5 33 52 PM.mov",
   "folder": "londons",
-  "kind": "broll",
+  "kind": "action",
   "shot": "climbing over rocks",
   "description": "Camera follows Anton's legs as he climbs barefoot over big grey boulders toward the sky.",
   "tags": [
@@ -1688,7 +1691,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "short"
+  "notes": "short",
+  "activity": "scrambling",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABEnA",
@@ -2736,7 +2742,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABFbA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/londons/day 9/Video 2025-09-25, 12 25 45 PM.mov",
   "folder": "londons",
-  "kind": "broll",
+  "kind": "action",
   "shot": "group hiking through woods",
   "description": "Group of people walk single file along a sunlit woodland path toward a bright field.",
   "tags": [
@@ -2759,7 +2765,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "hiking",
+  "who": "friends",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABFbg",
@@ -3050,7 +3059,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABEww",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/londons/day 5/Video 2025-09-19, 2 08 32 PM.mov",
   "folder": "londons",
-  "kind": "broll",
+  "kind": "action",
   "shot": "riding in farm buggy",
   "description": "POV from the seat of an open farm buggy driving across a field toward distant cattle, blue sky.",
   "tags": [
@@ -3073,7 +3082,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "buggy ride",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABEzQ",
@@ -3307,7 +3319,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABEsQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/londons/day 5/Video 2025-09-19, 11 46 22 AM.mov",
   "folder": "londons",
-  "kind": "broll",
+  "kind": "action",
   "shot": "friends on farm buggy",
   "description": "Short shot of friends sitting in the back of a farm utility vehicle in a sunny field.",
   "tags": [
@@ -3329,13 +3341,16 @@
    ]
   ],
   "quality": 3,
-  "notes": "very short"
+  "notes": "very short",
+  "activity": "buggy ride",
+  "who": "friends",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABEvw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/londons/day 5/Video 2025-09-19, 12 34 31 PM.mov",
   "folder": "londons",
-  "kind": "broll",
+  "kind": "action",
   "shot": "group running in field with cows",
   "description": "Group of people walk and run across a huge sunny field with cows in the distance.",
   "tags": [
@@ -3358,7 +3373,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "running",
+  "who": "friends",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABEzA",
@@ -3419,7 +3437,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABEwg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/londons/day 5/Video 2025-09-19, 2 08 26 PM.mov",
   "folder": "londons",
-  "kind": "broll",
+  "kind": "action",
   "shot": "riding in farm buggy",
   "description": "Brief POV from a farm buggy across a field toward distant cows.",
   "tags": [
@@ -3440,7 +3458,10 @@
    ]
   ],
   "quality": 2,
-  "notes": "very short"
+  "notes": "very short",
+  "activity": "buggy ride",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABEzg",

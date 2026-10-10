@@ -623,7 +623,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-SA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 10 52 17 AM.mov",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "walking through cave",
   "description": "Friends climb stairs through a lit limestone cave passage.",
   "tags": [
@@ -645,13 +645,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "Dark, handheld"
+  "notes": "Dark, handheld",
+  "activity": "cave exploring",
+  "who": "friends",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-QQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 10 52 33 AM.mov",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "walking through cave",
   "description": "Friends walk through a dim cave chamber with reddish rock walls.",
   "tags": [
@@ -672,7 +675,10 @@
    ]
   ],
   "quality": 2,
-  "notes": "Dark"
+  "notes": "Dark",
+  "activity": "cave exploring",
+  "who": "friends",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-UA",
@@ -759,7 +765,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-SQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 5 54 50 PM.mov",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "friends walking past meadow",
   "description": "Friends walk along a gravel path beside a green meadow and forest; footage is rotated 90 degrees.",
   "tags": [
@@ -780,13 +786,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "Stored vertical but content is sideways (needs rotation; framing is horizontal)"
+  "notes": "Stored vertical but content is sideways (needs rotation; framing is horizontal)",
+  "activity": "hiking",
+  "who": "friends",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-Tg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 6 12 19 PM.mov",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "walking in forest",
   "description": "Anton in a dark raincoat looks up at the trees on a forest path, then walks toward camera and reaches for the phone.",
   "tags": [
@@ -808,7 +817,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "hiking",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-Sw",
@@ -842,7 +854,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-Uw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 6 19 40 PM.mov",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "friends hiking forest trail",
   "description": "Following friends from behind along a leafy forest trail.",
   "tags": [
@@ -863,13 +875,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "Whip pan blur at ~1.7s"
+  "notes": "Whip pan blur at ~1.7s",
+  "activity": "hiking",
+  "who": "friends",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-WA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 6 22 28 PM.mov",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "friends climbing through forest",
   "description": "Friends with backpacks scramble up through trees; footage rotated 90 degrees.",
   "tags": [
@@ -889,13 +904,16 @@
    ]
   ],
   "quality": 1,
-  "notes": "Sideways and shaky"
+  "notes": "Sideways and shaky",
+  "activity": "hiking",
+  "who": "friends",
+  "action_quality": 1
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-Tw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 6 23 46 PM.mov",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "friends at misty viewpoint",
   "description": "Friends arrive at a misty valley viewpoint; footage rotated 90 degrees.",
   "tags": [
@@ -915,7 +933,10 @@
    ]
   ],
   "quality": 1,
-  "notes": "Sideways and shaky"
+  "notes": "Sideways and shaky",
+  "activity": "hiking",
+  "who": "friends",
+  "action_quality": 1
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-TQ",
@@ -1059,7 +1080,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-Vw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 6 39 11 PM.mov",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "friends hiking misty forest",
   "description": "Horizontal shot following friends down a misty forest path.",
   "tags": [
@@ -1080,13 +1101,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "hiking",
+  "who": "friends",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-VQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 6 39 16 PM.mov",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "friends hiking misty forest",
   "description": "Vertical handheld following friends along a misty forest path.",
   "tags": [
@@ -1106,7 +1130,10 @@
    ]
   ],
   "quality": 2,
-  "notes": "Shaky"
+  "notes": "Shaky",
+  "activity": "hiking",
+  "who": "friends",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-WQ",
@@ -1193,7 +1220,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-Ww",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 7 29 45 PM.mov",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "friends walking into meadow",
   "description": "Horizontal shot of friends walking onto a green meadow toward misty hills.",
   "tags": [
@@ -1214,13 +1241,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "Heads close in foreground"
+  "notes": "Heads close in foreground",
+  "activity": "hiking",
+  "who": "friends",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-Wg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 7 29 50 PM.mov",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "friends walking with dog in meadow",
   "description": "Friends and a black dog walk away from camera across a lush meadow toward trees and misty hills.",
   "tags": [
@@ -1242,13 +1272,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "hiking",
+  "who": "friends",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-Xw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 7 29 59 PM.mov",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "friends walking in meadow",
   "description": "Vertical shot of friends walking across a lush meadow toward big trees in the mist.",
   "tags": [
@@ -1269,13 +1302,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "hiking",
+  "who": "friends",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-XA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 7 30 06 PM.mov",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "friends walking in meadow",
   "description": "Friends walk across a lush meadow toward misty wooded hills.",
   "tags": [
@@ -1297,13 +1333,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "hiking",
+  "who": "friends",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-YQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 7 33 57 PM.mov",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "friend hiking forest path",
   "description": "Following a friend in a puffer jacket up a forest path past rock outcrops.",
   "tags": [
@@ -1323,13 +1362,16 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "activity": "hiking",
+  "who": "friends",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-bA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 7 35 11 PM.mov",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "entering rock crevice cave",
   "description": "Friends and a dog squeeze through a narrow limestone rock passage into a cave.",
   "tags": [
@@ -1351,7 +1393,10 @@
    ]
   ],
   "quality": 2,
-  "notes": "Handheld, dog blocks frame at times"
+  "notes": "Handheld, dog blocks frame at times",
+  "activity": "cave exploring",
+  "who": "friends",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-Yg",
@@ -1380,7 +1425,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-Yw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 7 36 15 PM.mov",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "dark cave passage",
   "description": "Phone-lit view down a dark narrow cave passage with a torch light ahead.",
   "tags": [
@@ -1400,13 +1445,16 @@
    ]
   ],
   "quality": 1,
-  "notes": "Very dark"
+  "notes": "Very dark",
+  "activity": "cave exploring",
+  "who": "unclear",
+  "action_quality": 1
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-ZA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 7 36 37 PM.mov",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "selfie in cave",
   "description": "Chaotic handheld in a dark cave with a quick smiling selfie of Anton.",
   "tags": [
@@ -1426,13 +1474,16 @@
    ]
   ],
   "quality": 1,
-  "notes": "Shaky, dark"
+  "notes": "Shaky, dark",
+  "activity": "cave exploring",
+  "who": "anton",
+  "action_quality": 1
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-Zg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 7 37 11 PM.mov",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "crawling through cave",
   "description": "Dark cave interior where friends crawl under a low rock ceiling.",
   "tags": [
@@ -1452,13 +1503,16 @@
    ]
   ],
   "quality": 1,
-  "notes": "Very dark"
+  "notes": "Very dark",
+  "activity": "cave exploring",
+  "who": "friends",
+  "action_quality": 1
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-Zw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 7 37 32 PM.mov",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "crawling through cave",
   "description": "Anton crawls under a low limestone overhang in a cave, lit by a phone torch, grinning.",
   "tags": [
@@ -1479,13 +1533,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "Dark, torch flare at start"
+  "notes": "Dark, torch flare at start",
+  "activity": "cave exploring",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-aA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 7 39 22 PM.mov",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "squeezing through rock passage",
   "description": "A friend in a plaid shirt squeezes through a narrow limestone crevice toward green forest light.",
   "tags": [
@@ -1506,13 +1563,16 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "activity": "cave exploring",
+  "who": "friends",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-bw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 7 39 34 PM.mov",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "exiting rock passage into forest",
   "description": "Following a friend out of a narrow rock passage into green forest.",
   "tags": [
@@ -1533,7 +1593,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "cave exploring",
+  "who": "friends",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-ZQ",
@@ -1593,7 +1656,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-aw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 7 41 05 PM.mov",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "friends walking through forest",
   "description": "Horizontal shot of friends walking away along a trail in a tall green beech forest.",
   "tags": [
@@ -1614,13 +1677,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "hiking",
+  "who": "friends",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-aQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 7 41 10 PM.mov",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "friends walking through forest",
   "description": "Vertical shot of tall beech trees with friends small on the trail below.",
   "tags": [
@@ -1641,7 +1707,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "hiking",
+  "who": "friends",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-bQ",
@@ -4054,7 +4123,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-3w",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_5947.MOV",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "muddy bare feet on trail",
   "description": "Selfie of Anton in a cloak, then down to his muddy bare feet walking on a gravel path, then back to Anton.",
   "tags": [
@@ -4076,7 +4145,10 @@
    ]
   ],
   "quality": 2,
-  "notes": "Shaky"
+  "notes": "Shaky",
+  "activity": "hiking",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_FA",
@@ -4329,7 +4401,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-_A",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6195.MOV",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "friends hiking forest road",
   "description": "Following two friends in rain jackets walking up a gravel forest road among tall beeches.",
   "tags": [
@@ -4350,13 +4422,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "hiking",
+  "who": "friends",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_EQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6196.MOV",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "hiking with friends",
   "description": "Handheld walk with Anton in a black jacket and friends on a forest trail; includes a close selfie.",
   "tags": [
@@ -4376,7 +4451,10 @@
    ]
   ],
   "quality": 2,
-  "notes": "Shaky"
+  "notes": "Shaky",
+  "activity": "hiking",
+  "who": "anton + friends",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-4Q",
@@ -4409,7 +4487,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-9w",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6198.MOV",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "friends walking misty forest",
   "description": "Horizontal wide of two friends walking away on a wet forest road through misty beech trees; phone rotates at the end.",
   "tags": [
@@ -4430,13 +4508,16 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "activity": "hiking",
+  "who": "friends",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_DA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6199.MOV",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "friends walking misty forest",
   "description": "Vertical static shot of a wet forest road with two friends walking away into the trees.",
   "tags": [
@@ -4458,13 +4539,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "hiking",
+  "who": "friends",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Dg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6200.MOV",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "barefoot climbing rocky trail",
   "description": "Anton in a cloak climbs barefoot up a rocky boulder trail through the forest, shoes in hand, following friends.",
   "tags": [
@@ -4486,13 +4570,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "scrambling",
+  "who": "anton",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Bw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6201.MOV",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "barefoot climbing rocky trail",
   "description": "Anton climbs barefoot up a boulder field in the forest away from camera.",
   "tags": [
@@ -4514,7 +4601,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "scrambling",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA--A",
@@ -4548,7 +4638,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-_Q",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6205.MOV",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "friends hiking misty trail",
   "description": "Misty forest track, then friends walk past the camera and away up the trail.",
   "tags": [
@@ -4569,7 +4659,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "hiking",
+  "who": "friends",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_DQ",
@@ -4681,7 +4774,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-4A",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6210.MOV",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "friends hiking misty forest",
   "description": "Following friends up a rocky trail into a dark, misty beech forest.",
   "tags": [
@@ -4703,7 +4796,10 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "activity": "hiking",
+  "who": "friends",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_CQ",
@@ -4981,7 +5077,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_JA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 9/IMG_6231.MOV",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "steaks on grill",
   "description": "Static shot of steaks on a charcoal grill being turned with tongs.",
   "tags": [
@@ -5002,13 +5098,16 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "activity": "grilling",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_LA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 9/IMG_6232.MOV",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "grilling on terrace",
   "description": "Wide shot of a friend grilling behind a terrace table with smoke rising.",
   "tags": [
@@ -5029,13 +5128,16 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "activity": "grilling",
+  "who": "friends",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Kg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 9/IMG_6233.MOV",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "grilling on terrace",
   "description": "Wide shot of a friend at the grill by slate pillars with garden beyond.",
   "tags": [
@@ -5055,13 +5157,16 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "activity": "grilling",
+  "who": "friends",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Hw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 9/IMG_6234.MOV",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "flipping steaks on grill",
   "description": "Friend in an apron flips steaks on a grill in front of a slate wall.",
   "tags": [
@@ -5082,13 +5187,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "grilling",
+  "who": "friends",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Kw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 9/IMG_6235.MOV",
   "folder": "poland 2025",
-  "kind": "broll",
+  "kind": "action",
   "shot": "steaks on grill close",
   "description": "Close shot of steaks sizzling on a smoky grill being turned with tongs.",
   "tags": [
@@ -5110,7 +5218,10 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "activity": "grilling",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Hg",

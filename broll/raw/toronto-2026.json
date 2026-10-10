@@ -144,7 +144,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLbg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/2 Am Call/Video 2026-03-24, 10 07 08 AM.mov",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "cold shower",
   "description": "Shirtless Anton in a bathtub laughing under a cold shower, selfie angle, ends with camera dropping to his leg.",
   "tags": [
@@ -167,7 +167,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "Shaky at end; last second is accidental."
+  "notes": "Shaky at end; last second is accidental.",
+  "activity": "cold shower",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMgg",
@@ -740,7 +743,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMoQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/April 13/Video 2026-04-11, 3 06 27 PM.mov",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "hanging from bar",
   "description": "Low ground-level static shot of Anton hanging and doing pull-ups on an outdoor bar among bare trees, dry leaves in foreground.",
   "tags": [
@@ -764,13 +767,16 @@
    ]
   ],
   "quality": 3,
-  "notes": "Subject small in frame; someone walks into frame at end."
+  "notes": "Subject small in frame; someone walks into frame at end.",
+  "activity": "calisthenics",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMoA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/April 13/Video 2026-04-11, 3 08 01 PM.mov",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "dead hang",
   "description": "Static shot of shirtless Anton in jeans dead-hanging from a wooden bar frame in sunny bare woods.",
   "tags": [
@@ -793,7 +799,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "Long static take; subject partly behind post."
+  "notes": "Long static take; subject partly behind post.",
+  "activity": "calisthenics",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMnA",
@@ -825,7 +834,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMog",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/April 13/Video 2026-04-11, 3 51 23 PM.mov",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "outdoor workout",
   "description": "Low static shot: Anton walks to wooden bars, does hangs and a handstand on leaf-covered ground in sunny woods.",
   "tags": [
@@ -849,7 +858,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "Subject small; first seconds empty with shadow."
+  "notes": "Subject small; first seconds empty with shadow.",
+  "activity": "calisthenics",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMnw",
@@ -2261,7 +2273,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACK7g",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Day 2/Video 2026-03-16, 7 05 47 PM.mov",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "snowy forest pov",
   "description": "Handheld POV walking through a snowy forest with bare trees.",
   "tags": [
@@ -2283,7 +2295,10 @@
    ]
   ],
   "quality": 2,
-  "notes": "Short, finger/blur at edge."
+  "notes": "Short, finger/blur at edge.",
+  "activity": "hiking",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACK8A",
@@ -2484,7 +2499,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACNBg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Line Dancing/Video 2026-04-19, 6 36 18 PM (1).mov",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "line dancing class",
   "description": "Horizontal low-res video of people line dancing in a gym hall with wood floors, one in a cowboy hat.",
   "tags": [
@@ -2507,13 +2522,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "Low resolution (640x360), people crossing in front."
+  "notes": "Low resolution (640x360), people crossing in front.",
+  "activity": "line dancing",
+  "who": "unclear",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACNBQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Line Dancing/Video 2026-04-19, 6 36 18 PM.mov",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "line dancing crowd",
   "description": "Handheld vertical shot of a crowd line dancing in a gym hall.",
   "tags": [
@@ -2535,7 +2553,10 @@
    ]
   ],
   "quality": 2,
-  "notes": "Low resolution (536x960), shaky."
+  "notes": "Low resolution (536x960), shaky.",
+  "activity": "line dancing",
+  "who": "unclear",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACNCw",
@@ -3654,7 +3675,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOMA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-24, 2 29 43 PM.mov",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "oyster farm boat selfie",
   "description": "Selfie of Anton in a cap on an oyster boat with farmers hauling oyster cages, sunny water.",
   "tags": [
@@ -3677,7 +3698,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "Selfie, handheld."
+  "notes": "Selfie, handheld.",
+  "activity": "oyster farming",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOKA",
@@ -4667,7 +4691,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLow",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Dinner Party/Video 2026-03-26, 6 35 29 PM (1).mov",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "shucking oysters for friends",
   "description": "Anton shucks and hands out oysters to friends at the restaurant oyster party; a woman tries one.",
   "tags": [
@@ -4689,7 +4713,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "Handheld, busy framing."
+  "notes": "Handheld, busy framing.",
+  "activity": "shucking oysters",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLog",
@@ -6243,7 +6270,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACQRg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Victoria Day/DJI_20260518162831_0076_D.MP4",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "swimming in lake ontario",
   "description": "Action-cam style: Anton wades and swims in Lake Ontario, cold plunge reactions, underwater/splash moments, city skyline in distance.",
   "tags": [
@@ -6267,7 +6294,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "Water drops on lens; handheld."
+  "notes": "Water drops on lens; handheld.",
+  "activity": "swimming",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACQSQ",
@@ -6694,7 +6724,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLTg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2317.MOV",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "snowboarding",
   "description": "Snowboarder carving down a snowy slope toward camera with pine trees behind, overcast.",
   "tags": [
@@ -6716,13 +6746,16 @@
    ]
   ],
   "quality": 3,
-  "notes": "Rider small; passes close at end."
+  "notes": "Rider small; passes close at end.",
+  "activity": "snowboarding",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLTQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2322.MOV",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "snowboarding",
   "description": "Snowboarder rides through flat grey light toward camera and stops close.",
   "tags": [
@@ -6744,13 +6777,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "Flat light, low contrast."
+  "notes": "Flat light, low contrast.",
+  "activity": "snowboarding",
+  "who": "unclear",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLTw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2323.MOV",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "snowboarding",
   "description": "Snowboarder rides down a slope edge by pines and sprays snow onto the camera.",
   "tags": [
@@ -6772,13 +6808,16 @@
    ]
   ],
   "quality": 3,
-  "notes": "Ends with snow spray on lens."
+  "notes": "Ends with snow spray on lens.",
+  "activity": "snowboarding",
+  "who": "unclear",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLTA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2324.MOV",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "snowboarding",
   "description": "Snowboarder sitting on the snow sliding down a slope, partly leaving frame.",
   "tags": [
@@ -6800,13 +6839,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "Short."
+  "notes": "Short.",
+  "activity": "snowboarding",
+  "who": "unclear",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLUA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2326.MOV",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "snowboarding",
   "description": "Snowboarder carving down a steep slope edge lined with trees, overcast.",
   "tags": [
@@ -6828,13 +6870,16 @@
    ]
   ],
   "quality": 3,
-  "notes": "Rider small."
+  "notes": "Rider small.",
+  "activity": "snowboarding",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLVA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2328.MOV",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "snowboarding",
   "description": "Snowboarder carves past camera; ends with mountain valley view behind a rider.",
   "tags": [
@@ -6857,13 +6902,16 @@
    ]
   ],
   "quality": 4,
-  "notes": "Nice valley view at end."
+  "notes": "Nice valley view at end.",
+  "activity": "snowboarding",
+  "who": "unclear",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLVQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2336.MOV",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "snowboarding",
   "description": "Snowboarder rides down a tree-lined run toward camera.",
   "tags": [
@@ -6885,13 +6933,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "snowboarding",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLUg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2338.MOV",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "snowboarding",
   "description": "Snowboarder rides down a groomed run toward camera and stops, sunny patches.",
   "tags": [
@@ -6913,13 +6964,16 @@
    ]
   ],
   "quality": 3,
-  "notes": "720p."
+  "notes": "720p.",
+  "activity": "snowboarding",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLUQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2339.MOV",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "snowboarding",
   "description": "Snowboarder carves toward camera with mountain views behind.",
   "tags": [
@@ -6941,13 +6995,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "snowboarding",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLVg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2341.MOV",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "snowboarding",
   "description": "Snowboarder rides down under blue sky and stops close to camera.",
   "tags": [
@@ -6969,13 +7026,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "snowboarding",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLUw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2342.MOV",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "snowboarding",
   "description": "Following snowboarder down a run with distant mountains, handheld while riding.",
   "tags": [
@@ -6997,7 +7057,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "Shaky, tilted."
+  "notes": "Shaky, tilted.",
+  "activity": "snowboarding",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLQQ",
@@ -7084,7 +7147,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLKQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 11 38 50 AM.mov",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "snowboarding",
   "description": "Snowboarder kneeling/fallen in deep snow in thick fog.",
   "tags": [
@@ -7106,13 +7169,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "Fog, small subject."
+  "notes": "Fog, small subject.",
+  "activity": "snowboarding",
+  "who": "unclear",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLKw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 11 38 57 AM.mov",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "snowboarding",
   "description": "Snowboarder in the distance getting up in deep powder in fog.",
   "tags": [
@@ -7134,13 +7200,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "Fog, small subject."
+  "notes": "Fog, small subject.",
+  "activity": "snowboarding",
+  "who": "unclear",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLLg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 11 39 07 AM.mov",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "snowboarding",
   "description": "Foggy powder slope with tiny distant snowboarder.",
   "tags": [
@@ -7162,13 +7231,16 @@
    ]
   ],
   "quality": 1,
-  "notes": "Mostly empty fog."
+  "notes": "Mostly empty fog.",
+  "activity": "snowboarding",
+  "who": "unclear",
+  "action_quality": 1
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLOw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 11 41 58 AM.mov",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "snowboard wipeout pov",
   "description": "Chaotic selfie of Anton (Supreme goggles) snowboarding through trees, wiping out in powder, then the slope.",
   "tags": [
@@ -7191,13 +7263,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "Very shaky; funny wipeout moment."
+  "notes": "Very shaky; funny wipeout moment.",
+  "activity": "snowboarding",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLMg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 11 42 41 AM.mov",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "snowboarding",
   "description": "POV riding down a foggy slope then camera tumbling into snow.",
   "tags": [
@@ -7220,7 +7295,10 @@
    ]
   ],
   "quality": 2,
-  "notes": "Shaky; ends in snow."
+  "notes": "Shaky; ends in snow.",
+  "activity": "snowboarding",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLJQ",
@@ -7447,7 +7525,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLIg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 12 38 24 PM.mov",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "snowboarding",
   "description": "Distant snowboarder riding down a foggy slope then wiping out near camera.",
   "tags": [
@@ -7469,13 +7547,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "Fog, small subject."
+  "notes": "Fog, small subject.",
+  "activity": "snowboarding",
+  "who": "unclear",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLOA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 12 42 20 PM.mov",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "snowboarding",
   "description": "Snowboarder descending a foggy run between trees; ends on valley view.",
   "tags": [
@@ -7501,13 +7582,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "Long, mostly empty frames."
+  "notes": "Long, mostly empty frames.",
+  "activity": "snowboarding",
+  "who": "unclear",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLLQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 12 45 57 PM.mov",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "snowboarding",
   "description": "Static view of a snowy ridge where a snowboarder briefly appears; mostly empty.",
   "tags": [
@@ -7529,13 +7613,16 @@
    ]
   ],
   "quality": 1,
-  "notes": "Mostly empty slope."
+  "notes": "Mostly empty slope.",
+  "activity": "snowboarding",
+  "who": "unclear",
+  "action_quality": 1
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLJw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 12 46 50 PM.mov",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "snowboarding",
   "description": "Snowboarder carves past camera on a ridge then down a tree-lined run.",
   "tags": [
@@ -7557,7 +7644,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "snowboarding",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLHg",
@@ -7679,7 +7769,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLHQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 2 54 11 PM.mov",
   "folder": "Toronto 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "strapping in selfie",
   "description": "Anton in helmet strapping into his lime snowboard on a ridge, selfie with valley behind.",
   "tags": [
@@ -7701,7 +7791,10 @@
    ]
   ],
   "quality": 2,
-  "notes": "Handheld, tilted."
+  "notes": "Handheld, tilted.",
+  "activity": "snowboarding",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLPg",

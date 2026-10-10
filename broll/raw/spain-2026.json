@@ -292,7 +292,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUKA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260610131414_0218_D.MP4",
   "folder": "Spain 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "parallel bar dips outdoors",
   "description": "Shirtless Anton does dips and walks along red parallel bars at a sunny outdoor gym in a park.",
   "tags": [
@@ -316,13 +316,16 @@
    ]
   ],
   "quality": 3,
-  "notes": "static tripod; subject small and back to camera at times"
+  "notes": "static tripod; subject small and back to camera at times",
+  "activity": "calisthenics",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUKg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260610131503_0219_D.MP4",
   "folder": "Spain 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "parallel bar dips outdoors",
   "description": "Shirtless Anton performs dips on red parallel bars in a tree-lined outdoor gym, then walks up smiling to the camera.",
   "tags": [
@@ -346,13 +349,16 @@
    ]
   ],
   "quality": 3,
-  "notes": "static wide; ends with Anton walking into camera"
+  "notes": "static wide; ends with Anton walking into camera",
+  "activity": "calisthenics",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACULA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260610132728_0220_D.MP4",
   "folder": "Spain 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "pull-ups at outdoor gym",
   "description": "Camera pans through a shaded green calisthenics rig as shirtless Anton hangs and does pull-ups.",
   "tags": [
@@ -375,13 +381,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "camera being set up at start; subject small"
+  "notes": "camera being set up at start; subject small",
+  "activity": "calisthenics",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACULg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260610132759_0221_D.MP4",
   "folder": "Spain 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "pull-ups at outdoor gym",
   "description": "Static wide shot of shirtless Anton doing pull-ups on a green bar under trees in an outdoor gym.",
   "tags": [
@@ -404,13 +413,16 @@
    ]
   ],
   "quality": 3,
-  "notes": "subject small in frame, dappled shade"
+  "notes": "subject small in frame, dappled shade",
+  "activity": "calisthenics",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUMA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260610133039_0222_D.MP4",
   "folder": "Spain 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "handstand practice",
   "description": "Shirtless Anton practises handstands and handstand holds on a concrete slab at a park calisthenics area.",
   "tags": [
@@ -433,7 +445,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "static wide shot"
+  "notes": "static wide shot",
+  "activity": "calisthenics",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUMg",
@@ -1073,7 +1088,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUYA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260617121305_0246_D.MP4",
   "folder": "Spain 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "swimming in clear sea",
   "description": "Anton swims in clear green water toward a pine-covered shore, then dives underwater with the camera.",
   "tags": [
@@ -1101,7 +1116,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "water drops on lens; underwater part nice"
+  "notes": "water drops on lens; underwater part nice",
+  "activity": "swimming",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUYg",
@@ -1241,7 +1259,7 @@
    ]
   ],
   "quality": 2,
-  "notes": "underwater selfie at end is the nicest part"
+  "notes": "underwater selfie at end is the nicest part; activity footage at 58-67s (swimming underwater)"
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUbA",
@@ -1887,7 +1905,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUmw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260620135913_0277_D.MP4",
   "folder": "Spain 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "snorkelling underwater",
   "description": "Clip moves from the beach umbrella to the sea, with underwater views of rocks, seagrass and Anton swimming in clear blue water.",
   "tags": [
@@ -1915,13 +1933,16 @@
    ]
   ],
   "quality": 3,
-  "notes": "preview sideways; underwater rocky reef at ~62s is nice"
+  "notes": "preview sideways; underwater rocky reef at ~62s is nice",
+  "activity": "snorkelling",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUnQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260620140204_0278_D.MP4",
   "folder": "Spain 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "swimming underwater selfie",
   "description": "Anton swims in green-blue sea, diving underwater with the camera and resurfacing near the coast.",
   "tags": [
@@ -1943,7 +1964,10 @@
    ]
   ],
   "quality": 2,
-  "notes": "preview sideways; bubbly and chaotic"
+  "notes": "preview sideways; bubbly and chaotic",
+  "activity": "swimming",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUnw",
@@ -2039,7 +2063,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUpQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260620140955_0282_D.MP4",
   "folder": "Spain 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "swimming underwater selfie",
   "description": "Waves wash over rocks, then Anton dives and floats underwater in clear turquoise sea, blowing bubbles.",
   "tags": [
@@ -2066,7 +2090,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "finger over lens around 22s; underwater floating shots are striking"
+  "notes": "finger over lens around 22s; underwater floating shots are striking",
+  "activity": "swimming",
+  "who": "anton",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUpw",
@@ -2999,7 +3026,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACU6g",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701070905_0317_D.MP4",
   "folder": "Spain 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "walking into the sea at sunrise",
   "description": "POV of feet wading into the sea, then the camera swings to the sun rising over the water.",
   "tags": [
@@ -3022,7 +3049,10 @@
    ]
   ],
   "quality": 2,
-  "notes": "tilted/sideways framing"
+  "notes": "tilted/sideways framing",
+  "activity": "swimming",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACU7A",
@@ -3056,7 +3086,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACU7g",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260701071038_0319_D.MP4",
   "folder": "Spain 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "morning sea plunge",
   "description": "Anton walks into the sea and plunges underwater with the camera, resurfacing smiling.",
   "tags": [
@@ -3078,7 +3108,10 @@
    ]
   ],
   "quality": 2,
-  "notes": "chaotic"
+  "notes": "chaotic",
+  "activity": "swimming",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACU8A",
@@ -4080,7 +4113,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVRA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707065438_0362_D.MP4",
   "folder": "Spain 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "wading into sea at sunrise",
   "description": "Anton wades into a calm sea toward the rising sun, then dips the camera into the water.",
   "tags": [
@@ -4102,13 +4135,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "swimming",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVRg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707065510_0363_D.MP4",
   "folder": "Spain 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "swimming at sunrise then diving",
   "description": "Anton floats with only his head above a calm sea at sunrise, then ducks underwater.",
   "tags": [
@@ -4130,13 +4166,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "swimming",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVSg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707065638_0365_D.MP4",
   "folder": "Spain 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "underwater swimming silhouette",
   "description": "Hazy underwater view of Anton swimming and gliding in milky blue-green sea water.",
   "tags": [
@@ -4158,7 +4197,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "murky water"
+  "notes": "murky water",
+  "activity": "swimming",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVTA",
@@ -4414,7 +4456,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVZg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707081036_0379_D.MP4",
   "folder": "Spain 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "opening an oyster",
   "description": "Anton in a light blue linen shirt opens an oyster with his hands at a turquoise outdoor table under trees.",
   "tags": [
@@ -4441,7 +4483,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "shucking oysters",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVaQ",
@@ -4865,7 +4910,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVSA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/Oyster Lover ROUTINE/hunting for oysters.MP4",
   "folder": "Spain 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "swimming at sunrise then diving",
   "description": "Anton floats in a calm sea at sunrise then dives underwater with the camera into green water.",
   "tags": [
@@ -4892,7 +4937,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "named 'hunting for oysters'; no LRF, 4K MP4"
+  "notes": "named 'hunting for oysters'; no LRF, 4K MP4",
+  "activity": "swimming",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVUA",
@@ -5376,7 +5424,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACS_g",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_1513.MOV",
   "folder": "Spain 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "hiking coastal path",
   "description": "Static shot of a hiker walking a coastal path through pines with bright blue sea behind.",
   "tags": [
@@ -5399,13 +5447,16 @@
    ]
   ],
   "quality": 3,
-  "notes": "hiker small"
+  "notes": "hiker small",
+  "activity": "hiking",
+  "who": "unclear",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACTDQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_1514.MOV",
   "folder": "Spain 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "hiking coastal path",
   "description": "Hiker with a backpack walks along a scrubby coastal path with the blue sea behind.",
   "tags": [
@@ -5426,7 +5477,10 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "hiking",
+  "who": "unclear",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACS9g",
@@ -5695,7 +5749,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACTCw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4113.MOV",
   "folder": "Spain 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "walking into the sea",
   "description": "Static vertical shot of Anton walking out over mossy rocks into a calm clear sea.",
   "tags": [
@@ -5719,7 +5773,10 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "activity": "wading",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACS8A",
@@ -5813,7 +5870,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACTBg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4152.MOV",
   "folder": "Spain 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "climbing over rocks to sea",
   "description": "Shirtless Anton in blue shorts turns, then clambers across granite boulders toward the sea.",
   "tags": [
@@ -5836,13 +5893,16 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "activity": "scrambling",
+  "who": "anton",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACS8w",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4153.MOV",
   "folder": "Spain 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "wading among rocks",
   "description": "Anton wades into the sea between granite boulders and rock formations.",
   "tags": [
@@ -5864,13 +5924,16 @@
    ]
   ],
   "quality": 3,
-  "notes": "short, subject small"
+  "notes": "short, subject small",
+  "activity": "wading",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACS9w",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4154.MOV",
   "folder": "Spain 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "wading among rocks",
   "description": "Static shot of Anton wading out into clear sea between boulders and a rocky islet.",
   "tags": [
@@ -5894,13 +5957,16 @@
    ]
   ],
   "quality": 3,
-  "notes": "subject small"
+  "notes": "subject small",
+  "activity": "wading",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACTDg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4155.MOV",
   "folder": "Spain 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "climbing rocky islet",
   "description": "Static shot of a small figure climbing a rocky islet beyond clear shallow water.",
   "tags": [
@@ -5923,13 +5989,16 @@
    ]
   ],
   "quality": 3,
-  "notes": "subject very small"
+  "notes": "subject very small",
+  "activity": "scrambling",
+  "who": "unclear",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACTEA",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4156.MOV",
   "folder": "Spain 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "swimmer in clear rocky bay",
   "description": "Static vertical view over boulders to clear shallow sea with a swimmer near rocky islets.",
   "tags": [
@@ -5952,7 +6021,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "swimmer small"
+  "notes": "swimmer small",
+  "activity": "swimming",
+  "who": "unclear",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACS-w",

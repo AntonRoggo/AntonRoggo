@@ -1594,7 +1594,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAbg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/montenegro/day 2/Video 2025-08-12, 10 38 23 AM.mov",
   "folder": "montenegro",
-  "kind": "broll",
+  "kind": "action",
   "shot": "swimming in clear sea",
   "description": "Shot from the rocks of Anton climbing down a metal ladder and swimming out into clear turquoise sea toward a small island, then back.",
   "tags": [
@@ -1618,7 +1618,10 @@
    ]
   ],
   "quality": 4,
-  "notes": "nice morning-swim sequence"
+  "notes": "nice morning-swim sequence",
+  "activity": "swimming",
+  "who": "anton",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAdA",
@@ -5974,7 +5977,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABDBQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/montenegro/day 22/PXL_20240804_225943224.mp4",
   "folder": "montenegro",
-  "kind": "broll",
+  "kind": "action",
   "shot": "rope swing jump into lake",
   "description": "Pixel phone clip from 2024: friends at a pine-lined lake shore in low sun, someone swings on a rope and jumps into the water.",
   "tags": [
@@ -5997,7 +6000,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "older 2024 Pixel footage, probably not Montenegro"
+  "notes": "older 2024 Pixel footage, probably not Montenegro",
+  "activity": "rope swing",
+  "who": "friends",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABDBA",

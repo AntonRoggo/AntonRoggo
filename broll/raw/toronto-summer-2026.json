@@ -168,7 +168,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACWzQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto summer 2026/August 5/DJI_20260801205435_0040_D.MP4",
   "folder": "Toronto summer 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "shucking oysters in park",
   "description": "Rotated footage of Anton at a green picnic table shucking oysters on a wooden board, then talking.",
   "tags": [
@@ -190,13 +190,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "LRF preview plays rotated 90 degrees (orientation recorded as vertical); check the MP4."
+  "notes": "LRF preview plays rotated 90 degrees (orientation recorded as vertical); check the MP4.",
+  "activity": "shucking oysters",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACWzw",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto summer 2026/August 5/DJI_20260801205639_0041_D.MP4",
   "folder": "Toronto summer 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "friend shucking oysters",
   "description": "Friend in a cream shirt leans over a green picnic table shucking an oyster in a sunny park.",
   "tags": [
@@ -219,13 +222,16 @@
    ]
   ],
   "quality": 3,
-  "notes": "First seconds Anton selfie."
+  "notes": "First seconds Anton selfie.",
+  "activity": "shucking oysters",
+  "who": "friends",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACW2A",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto summer 2026/August 5/DJI_20260801205902_0042_D.MP4",
   "folder": "Toronto summer 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "friend shucking oysters",
   "description": "Friend shucks oysters at a picnic table then holds up an opened oyster.",
   "tags": [
@@ -247,13 +253,16 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "activity": "shucking oysters",
+  "who": "friends",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACW2g",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto summer 2026/August 5/DJI_20260801210021_0043_D.MP4",
   "folder": "Toronto summer 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "friend shucking oysters",
   "description": "Close/high angle of a friend shucking oysters at a park picnic table, then standing.",
   "tags": [
@@ -275,13 +284,16 @@
    ]
   ],
   "quality": 2,
-  "notes": "Head blocks frame at times."
+  "notes": "Head blocks frame at times.",
+  "activity": "shucking oysters",
+  "who": "friends",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACW3A",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto summer 2026/August 5/DJI_20260801210215_0044_D.MP4",
   "folder": "Toronto summer 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "shucking oysters in park",
   "description": "Anton in a linen shirt shucks an oyster on a wooden board at a park picnic table, then holds it up and talks.",
   "tags": [
@@ -304,7 +316,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "Mix of talking and hands; close hands section ~30-60s."
+  "notes": "Mix of talking and hands; close hands section ~30-60s.",
+  "activity": "shucking oysters",
+  "who": "anton",
+  "action_quality": 3
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACW6A",
@@ -1001,7 +1016,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACYSQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto summer 2026/sept 20/DJI_20260920183453_0111_D.MP4",
   "folder": "Toronto summer 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "bike pov ride",
   "description": "POV from e-bike handlebars riding down a quiet tree-lined city street under blue sky.",
   "tags": [
@@ -1025,7 +1040,10 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "activity": "biking",
+  "who": "anton",
+  "action_quality": 4
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACYSw",
@@ -1118,7 +1136,7 @@
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACYUQ",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto summer 2026/sept 20/DJI_20260920195925_0115_D.MP4",
   "folder": "Toronto summer 2026",
-  "kind": "broll",
+  "kind": "action",
   "shot": "night bike ride",
   "description": "Low-angle selfie of Anton biking at night singing with earbuds, streetlights and trees passing; POV of handlebars.",
   "tags": [
@@ -1141,7 +1159,10 @@
    ]
   ],
   "quality": 3,
-  "notes": "Dark and motion blur; vibey."
+  "notes": "Dark and motion blur; vibey.",
+  "activity": "biking",
+  "who": "anton",
+  "action_quality": 2
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACYUw",
