@@ -5,6 +5,7 @@
 - **Captions:** Proxima Nova Semibold, 70px, white, 4px black stroke, 3 words on screen at a time, centred in the lower third
 - **Cut mistakes:** filler words (um/uh), stutters, and botched takes (when a line is restarted, only the last take is kept)
 - **Cut silences** longer than 1 second
+- **J-cuts** on every cut: the next clip's audio starts 0.2s before its picture (`J_CUT`)
 - **Audio boosted** as loud as possible without clipping (-12 LUFS, peaks capped at -1 dBTP), with a 15ms fade on every cut so there are no pops
 
 ## B-roll

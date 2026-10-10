@@ -40,6 +40,7 @@ WORDS_PER_CAPTION = 3       # words on screen at a time
 MAX_SILENCE = 1.0             # seconds; any longer pause is cut
 # -----------------------------------------------------------------------------
 
+J_CUT = 0.2                 # seconds the next clip's audio leads its picture at every cut
 CUT_FADE = 0.015            # seconds of audio fade at every cut, stops pops
 PAD = 0.12                    # breathing room kept around speech at each cut
 SILENCE_DB = -35              # threshold for ffmpeg silencedetect
@@ -232,6 +233,7 @@ def broll_filters(plan, width, height, first_input):
     chain, last = [], "vc"
     for j, b in enumerate(plan):
         n = first_input + j
+        b = dict(b, start=b["start"] + J_CUT)  # J-cut: hear the line, then see the clip
         dur = b["end"] - b["start"]
         cin = b.get("clip_in", 0)
         chain.append(f"[{n}:v]trim={cin:.3f}:{cin + dur:.3f},setpts=PTS-STARTPTS+{b['start']:.3f}/TB,"
@@ -243,18 +245,34 @@ def broll_filters(plan, width, height, first_input):
     return "".join(chain), last
 
 
+def jcut_video(keep, j=J_CUT):
+    """Video in/out points for J-cuts: each cut's picture lands j seconds after its audio.
+
+    Audio keeps the `keep` ranges. Each segment's picture is shifted j seconds later, so at
+    every cut you still see the end of the previous shot while hearing the next one. The
+    first segment starts and the last ends on the audio cut, so lengths match exactly.
+    """
+    # A constant shift keeps lips in sync: inside every segment, picture and sound come from
+    # the same source moment; only the cut points differ.
+    last = len(keep) - 1
+    return [(a + (j if i > 0 else 0), b + (j if i < last else 0)) for i, (a, b) in enumerate(keep)]
+
+
 def render(src, keep, ass_path, out, plan=(), size=None):
-    parts, labels = [], ""
-    for i, (a, b) in enumerate(keep):
-        parts.append(f"[0:v]trim={a:.3f}:{b:.3f},setpts=PTS-STARTPTS[v{i}];")
+    parts, labels, alabels = [], "", ""
+    for i, ((a, b), (vs, ve)) in enumerate(zip(keep, jcut_video(keep))):
+        parts.append(f"[0:v]trim={vs:.3f}:{ve:.3f},setpts=PTS-STARTPTS[v{i}];")
         fade_out = max(0.0, b - a - CUT_FADE)
         parts.append(f"[0:a]atrim={a:.3f}:{b:.3f},asetpts=PTS-STARTPTS,"
                      f"afade=t=in:d={CUT_FADE},afade=t=out:st={fade_out:.3f}:d={CUT_FADE}[a{i}];")
-        labels += f"[v{i}][a{i}]"
+        labels += f"[v{i}]"
+        alabels += f"[a{i}]"
     ass = str(ass_path).replace("\\", "/").replace(":", r"\:")
     fonts = str(FONTS_DIR).replace(":", r"\:")
     over, last = broll_filters(plan, *size, 1) if plan else ("", "vc")
-    graph = ("".join(parts) + f"{labels}concat=n={len(keep)}:v=1:a=1[vc][ac];" + over +
+    # picture and sound are joined separately so J-cut segments can differ in length
+    graph = ("".join(parts) + f"{labels}concat=n={len(keep)}:v=1:a=0[vc];"
+             f"{alabels}concat=n={len(keep)}:v=0:a=1[ac];" + over +
              f"[{last}]ass='{ass}':fontsdir='{fonts}'[vo]")
     script = out.with_suffix(".filtergraph.txt")
     script.write_text(graph)

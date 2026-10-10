@@ -1,6 +1,6 @@
 {
-  "brand": "TODO: Metricool brand name",
-  "blog_id": "7331838",
+  "brand": "Anton",
+  "blog_id": "6537632",
   "platforms": [
     "instagram",
     "tiktok",
@@ -24,5 +24,6 @@
   "confirm_before_scheduling": false,
   "draft": false,
   "reviewers": [],
-  "cover_frame_ms": null
+  "cover_frame_ms": null,
+  "metricool_user_id": "5034363"
 }

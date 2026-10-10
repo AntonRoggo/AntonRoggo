@@ -17,7 +17,7 @@ This repo is the source of truth for Anton's personal-brand content: how videos 
 
 ## Rules
 
-- Edit style: Proxima Nova Semibold 70px, white with 4px black stroke, 3 words on screen, centred in the lower third. Cut mistakes and silences over 1s. Audio at -12 LUFS, peaks at -1 dBTP.
+- Edit style: Proxima Nova Semibold 70px, white with 4px black stroke, 3 words on screen, centred in the lower third. Cut mistakes and silences over 1s. Every cut is a J-cut: the next clip's audio starts 0.2s before its picture (`J_CUT` in `edit_video.py`); B-roll appears 0.2s after the words it illustrates. Audio at -12 LUFS, peaks at -1 dBTP.
 - Footage kinds: `broll` = scenery and small everyday moments used as overlays (only quality 4-5 make the catalogue). `action` = Anton or friends doing an activity (kitesurfing, surfing, hiking, climbing...), used to show what he's describing; judged on whether the activity is clear, not on beauty. `talking` = takes to camera.
 - When picking clips, prefer the ones Anton already reuses most in finished edits (`used_count` in the catalogue, from `tools/clip_embed.py`), even if they aren't the prettiest. Example: the Montenegro clip of him sipping orange juice on a sunbed is one of his most used.
 - Never post without Anton's explicit approval of that specific video. Posts go out 10 minutes after approval, Eastern time.
