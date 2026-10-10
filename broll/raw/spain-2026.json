@@ -1,0 +1,437 @@
+[
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACSvg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/DJI_20260617145247_0253_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking to camera on rocky beach",
+  "description": "Shirtless Anton in blue shorts talks and gestures to camera on a sunny rocky beach with sea and pines behind.",
+  "tags": [
+   "anton",
+   "beach",
+   "rocks",
+   "sea",
+   "sunny",
+   "blue sky",
+   "shirtless",
+   "summer",
+   "daytime"
+  ],
+  "location": "Spain",
+  "orientation": "horizontal",
+  "duration": 57.92,
+  "usable": [
+   [
+    0,
+    57.92
+   ]
+  ],
+  "quality": 3,
+  "notes": "LRF preview has no rotation flag, frames appear sideways; content is vertical"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACSwA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/DJI_20260617145400_0254_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking to camera on rocky beach",
+  "description": "Shirtless Anton talks energetically to camera on a sunny rocky beach, briefly stepping out of frame.",
+  "tags": [
+   "anton",
+   "beach",
+   "rocks",
+   "sea",
+   "sunny",
+   "blue sky",
+   "shirtless",
+   "summer"
+  ],
+  "location": "Spain",
+  "orientation": "horizontal",
+  "duration": 37.82,
+  "usable": [
+   [
+    0,
+    26
+   ]
+  ],
+  "quality": 3,
+  "notes": "content vertical (preview sideways); subject leaves frame around 28s"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACSwg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/DJI_20260617145506_0255_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking to camera on beach",
+  "description": "Shirtless Anton in blue shorts stands on a sandy beach talking and gesturing to camera with the sea behind.",
+  "tags": [
+   "anton",
+   "beach",
+   "sand",
+   "sea",
+   "sunny",
+   "shirtless",
+   "full body",
+   "summer"
+  ],
+  "location": "Spain",
+  "orientation": "vertical",
+  "duration": 16.36,
+  "usable": [
+   [
+    0,
+    16.36
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACSxA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/DJI_20260617145544_0256_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking to camera on beach",
+  "description": "Shirtless Anton talks animatedly to camera on a sandy beach with pine trees and kayaks behind.",
+  "tags": [
+   "anton",
+   "beach",
+   "sand",
+   "sea",
+   "sunny",
+   "shirtless",
+   "full body",
+   "summer"
+  ],
+  "location": "Spain",
+  "orientation": "vertical",
+  "duration": 17.92,
+  "usable": [
+   [
+    0,
+    17.92
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACSxg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/DJI_20260617145622_0257_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking to camera on beach",
+  "description": "Shirtless Anton walks and talks to camera on a sandy beach with the sea and trees behind.",
+  "tags": [
+   "anton",
+   "beach",
+   "sand",
+   "sea",
+   "sunny",
+   "shirtless",
+   "full body",
+   "summer"
+  ],
+  "location": "Spain",
+  "orientation": "vertical",
+  "duration": 29.27,
+  "usable": [
+   [
+    0,
+    29.27
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUFQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260605172953_0211_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "selfie vlog in apartment",
+  "description": "Anton in a white jersey talks to a low-angle handheld camera inside a bright white apartment.",
+  "tags": [
+   "anton",
+   "indoors",
+   "apartment",
+   "selfie",
+   "white",
+   "daytime",
+   "vlog"
+  ],
+  "location": "Spain (uncertain)",
+  "orientation": "horizontal",
+  "duration": 185.08,
+  "usable": [
+   [
+    0,
+    185.08
+   ]
+  ],
+  "quality": 2,
+  "notes": "unflattering low angle, long ramble"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUGQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260606110849_0212_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking in kitchen",
+  "description": "Anton in a red shirt talks to camera in a white kitchen, with a brief cut to a wide shot of the room.",
+  "tags": [
+   "anton",
+   "indoors",
+   "kitchen",
+   "red shirt",
+   "white",
+   "daytime"
+  ],
+  "location": "Spain (uncertain)",
+  "orientation": "horizontal",
+  "duration": 96.3,
+  "usable": [
+   [
+    0,
+    50
+   ]
+  ],
+  "quality": 2,
+  "notes": "frames appear rotated; camera position changes mid-clip"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUGw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260609082135_0215_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "walking selfie vlog in city",
+  "description": "Anton walks down a city street talking to a handheld selfie camera past apartment blocks and trees.",
+  "tags": [
+   "anton",
+   "city",
+   "street",
+   "walking",
+   "selfie",
+   "sunny",
+   "urban",
+   "vlog"
+  ],
+  "location": "Balkans city, likely Belgrade, Serbia (filed under Spain 2026)",
+  "orientation": "horizontal",
+  "duration": 48.52,
+  "usable": [
+   [
+    0,
+    48.52
+   ]
+  ],
+  "quality": 2,
+  "notes": "walking selfie, wide-angle; Cyrillic-era apartment blocks"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUJA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260609083158_0216_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "walking through market",
+  "description": "Anton walks through a covered open-air produce market, talking to camera and showing stalls of red berries.",
+  "tags": [
+   "anton",
+   "market",
+   "produce",
+   "berries",
+   "fruit",
+   "walking",
+   "selfie",
+   "sunny",
+   "vlog"
+  ],
+  "location": "Balkans city, likely Belgrade, Serbia (filed under Spain 2026)",
+  "orientation": "horizontal",
+  "duration": 75.9,
+  "usable": [
+   [
+    40,
+    48
+   ]
+  ],
+  "quality": 2,
+  "notes": "mostly selfie talk; berry stall shot around 44s usable as b-roll; shaky"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUJg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260610130950_0217_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "outdoor calisthenics park",
+  "description": "Anton talks to selfie camera at an outdoor calisthenics park, then shows people doing pull-ups on the bars.",
+  "tags": [
+   "anton",
+   "calisthenics",
+   "park",
+   "pull-ups",
+   "fitness",
+   "trees",
+   "sunny",
+   "outdoor gym"
+  ],
+  "location": "Balkans city, likely Serbia (filed under Spain 2026)",
+  "orientation": "horizontal",
+  "duration": 26.46,
+  "usable": [
+   [
+    15,
+    26.46
+   ]
+  ],
+  "quality": 2,
+  "notes": "wide view of pull-ups at end is the usable bit"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUbg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260617145247_0253_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking to camera on rocky beach",
+  "description": "Shirtless Anton in blue shorts talks and gestures to camera on a sunny rocky beach with sea and pines behind.",
+  "tags": [
+   "anton",
+   "beach",
+   "rocks",
+   "sea",
+   "sunny",
+   "blue sky",
+   "shirtless",
+   "summer",
+   "daytime"
+  ],
+  "location": "Spain",
+  "orientation": "horizontal",
+  "duration": 57.92,
+  "usable": [
+   [
+    0,
+    57.92
+   ]
+  ],
+  "quality": 3,
+  "notes": "LRF preview has no rotation flag, frames appear sideways; content is vertical; exact duplicate (same name and size) of DJI_20260617145247_0253_D.MP4"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUcA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260617145400_0254_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking to camera on rocky beach",
+  "description": "Shirtless Anton talks energetically to camera on a sunny rocky beach, briefly stepping out of frame.",
+  "tags": [
+   "anton",
+   "beach",
+   "rocks",
+   "sea",
+   "sunny",
+   "blue sky",
+   "shirtless",
+   "summer"
+  ],
+  "location": "Spain",
+  "orientation": "horizontal",
+  "duration": 37.82,
+  "usable": [
+   [
+    0,
+    26
+   ]
+  ],
+  "quality": 3,
+  "notes": "content vertical (preview sideways); subject leaves frame around 28s; exact duplicate (same name and size) of DJI_20260617145400_0254_D.MP4"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUcg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260617145506_0255_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking to camera on beach",
+  "description": "Shirtless Anton in blue shorts stands on a sandy beach talking and gesturing to camera with the sea behind.",
+  "tags": [
+   "anton",
+   "beach",
+   "sand",
+   "sea",
+   "sunny",
+   "shirtless",
+   "full body",
+   "summer"
+  ],
+  "location": "Spain",
+  "orientation": "vertical",
+  "duration": 16.36,
+  "usable": [
+   [
+    0,
+    16.36
+   ]
+  ],
+  "quality": 3,
+  "notes": "exact duplicate (same name and size) of DJI_20260617145506_0255_D.MP4"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUdA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260617145544_0256_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking to camera on beach",
+  "description": "Shirtless Anton talks animatedly to camera on a sandy beach with pine trees and kayaks behind.",
+  "tags": [
+   "anton",
+   "beach",
+   "sand",
+   "sea",
+   "sunny",
+   "shirtless",
+   "full body",
+   "summer"
+  ],
+  "location": "Spain",
+  "orientation": "vertical",
+  "duration": 17.92,
+  "usable": [
+   [
+    0,
+    17.92
+   ]
+  ],
+  "quality": 3,
+  "notes": "exact duplicate (same name and size) of DJI_20260617145544_0256_D.MP4"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUdg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260617145622_0257_D.MP4",
+  "folder": "Spain 2026",
+  "kind": "talking",
+  "shot": "talking to camera on beach",
+  "description": "Shirtless Anton walks and talks to camera on a sandy beach with the sea and trees behind.",
+  "tags": [
+   "anton",
+   "beach",
+   "sand",
+   "sea",
+   "sunny",
+   "shirtless",
+   "full body",
+   "summer"
+  ],
+  "location": "Spain",
+  "orientation": "vertical",
+  "duration": 29.27,
+  "usable": [
+   [
+    0,
+    29.27
+   ]
+  ],
+  "quality": 3,
+  "notes": "exact duplicate (same name and size) of DJI_20260617145622_0257_D.MP4"
+ }
+]

@@ -1,0 +1,144 @@
+[
+  {
+    "dropbox_id": "id:wdILo7p6X3AAAAAAAACSfg",
+    "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Serbia 2026/Video 2026-06-04, 8 24 50 AM.mov",
+    "folder": "Serbia 2026",
+    "kind": "broll",
+    "shot": "eating croissant at cafe",
+    "description": "Anton in a green linen shirt eats a pastry at a sidewalk patisserie table with baguettes, espresso and Perrier.",
+    "tags": [
+      "cafe",
+      "patisserie",
+      "breakfast",
+      "croissant",
+      "espresso",
+      "street",
+      "daytime",
+      "linen shirt",
+      "european"
+    ],
+    "location": "France (Nice area, despite folder name)",
+    "orientation": "vertical",
+    "duration": 17.63,
+    "usable": [
+      [
+        0,
+        17.63
+      ]
+    ],
+    "quality": 3,
+    "notes": "Static handheld, flat overcast light; Anton glances around and talks occasionally. Signage is French (Patisserie, Perrier) so likely filmed in France, not Serbia."
+  },
+  {
+    "dropbox_id": "id:wdILo7p6X3AAAAAAAACSgw",
+    "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Serbia 2026/Video 2026-06-04, 8 22 36 AM.mov",
+    "folder": "Serbia 2026",
+    "kind": "broll",
+    "shot": "espresso on cafe table",
+    "description": "Top-down pan over a cafe table with espresso, a glass of water and a Perrier glass.",
+    "tags": [
+      "espresso",
+      "coffee",
+      "cafe table",
+      "water glass",
+      "top-down",
+      "daytime",
+      "colorful",
+      "european"
+    ],
+    "location": "France (Nice area, despite folder name)",
+    "orientation": "vertical",
+    "duration": 1.4,
+    "usable": [
+      [
+        0,
+        1.4
+      ]
+    ],
+    "quality": 3,
+    "notes": "Very short (1.4s); slight handheld movement. French cafe, likely filmed in France."
+  },
+  {
+    "dropbox_id": "id:wdILo7p6X3AAAAAAAACSiQ",
+    "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Serbia 2026/finished/oyster video.mp4",
+    "folder": "Serbia 2026",
+    "kind": "other",
+    "shot": "oyster farm reaction",
+    "description": "Finished green-screen edit: Anton talks to camera in front of a YouTube 'Portside Oyster Farm' thumbnail.",
+    "tags": [
+      "talking head",
+      "green screen",
+      "oysters",
+      "reaction",
+      "youtube",
+      "earphones"
+    ],
+    "location": "Unknown",
+    "orientation": "vertical",
+    "duration": 17.63,
+    "usable": [
+      [
+        0,
+        17.63
+      ]
+    ],
+    "quality": 1,
+    "notes": "Finished edit made from 'Video 2026-06-08, 8 24 54 PM.mov'."
+  },
+  {
+    "dropbox_id": "id:wdILo7p6X3AAAAAAAACSgg",
+    "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Serbia 2026/Video 2026-06-04, 8 23 24 AM.mov",
+    "folder": "Serbia 2026",
+    "kind": "broll",
+    "shot": "eating croissant at cafe",
+    "description": "Anton in a green linen shirt bites a pastry at a sidewalk patisserie table with baguettes and Perrier.",
+    "tags": [
+      "cafe",
+      "patisserie",
+      "breakfast",
+      "croissant",
+      "street",
+      "daytime",
+      "linen shirt",
+      "european"
+    ],
+    "location": "France (Nice area, despite folder name)",
+    "orientation": "vertical",
+    "duration": 1.37,
+    "usable": [
+      [
+        0,
+        1.37
+      ]
+    ],
+    "quality": 3,
+    "notes": "Very short (1.4s). French signage, likely filmed in France."
+  },
+  {
+    "dropbox_id": "id:wdILo7p6X3AAAAAAAACSgA",
+    "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Serbia 2026/Video 2026-06-08, 8 24 54 PM.mov",
+    "folder": "Serbia 2026",
+    "kind": "talking",
+    "shot": "talking to camera outside",
+    "description": "Selfie-style talking take: Anton with wired earphones talks to camera in front of a stone building wall.",
+    "tags": [
+      "talking head",
+      "selfie",
+      "earphones",
+      "outdoors",
+      "building wall",
+      "evening"
+    ],
+    "location": "Unknown",
+    "orientation": "vertical",
+    "duration": 18.3,
+    "usable": [
+      [
+        0,
+        18.3
+      ]
+    ],
+    "quality": 1,
+    "notes": "Raw take for 'finished/oyster video.mp4'."
+  }
+]
