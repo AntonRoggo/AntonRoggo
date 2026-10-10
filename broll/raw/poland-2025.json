@@ -3994,5 +3994,1232 @@
   ],
   "quality": 3,
   "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_BA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_5945.MOV",
+  "folder": "poland 2025",
+  "kind": "talking",
+  "shot": "talking in forest with cloak",
+  "description": "Anton barefoot in a cloak talks to camera with a foot on a rock in a forest; ends with a friend's selfie.",
+  "tags": [
+   "anton",
+   "talking head",
+   "forest",
+   "cloak",
+   "barefoot",
+   "humour"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "vertical",
+  "duration": 17.64,
+  "usable": [
+   [
+    0,
+    6
+   ]
+  ],
+  "quality": 2,
+  "notes": "Whip pans and friend selfie"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_AA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_5946.MOV",
+  "folder": "poland 2025",
+  "kind": "talking",
+  "shot": "talking on misty forest trail",
+  "description": "Anton in a cloak, barefoot with shoes in hand, talks on a misty forest trail, then camera pans to foggy trees.",
+  "tags": [
+   "anton",
+   "talking head",
+   "mist",
+   "forest",
+   "barefoot",
+   "cloak",
+   "moody"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "vertical",
+  "duration": 9.37,
+  "usable": [
+   [
+    7.5,
+    9.4
+   ]
+  ],
+  "quality": 2,
+  "notes": "Final 2s of misty forest usable as B-roll"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-3w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_5947.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "muddy bare feet on trail",
+  "description": "Selfie of Anton in a cloak, then down to his muddy bare feet walking on a gravel path, then back to Anton.",
+  "tags": [
+   "anton",
+   "barefoot",
+   "feet",
+   "mud",
+   "hiking",
+   "grounding",
+   "handheld"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "vertical",
+  "duration": 5.07,
+  "usable": [
+   [
+    1.5,
+    3.3
+   ]
+  ],
+  "quality": 2,
+  "notes": "Shaky"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_FA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_5948.MOV",
+  "folder": "poland 2025",
+  "kind": "talking",
+  "shot": "talking at foggy summit church",
+  "description": "Anton in a cloak talks in front of a foggy stone church on a summit, then pans up to the misty tower.",
+  "tags": [
+   "anton",
+   "talking head",
+   "church",
+   "fog",
+   "summit",
+   "cloak",
+   "moody"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "vertical",
+  "duration": 11.93,
+  "usable": [
+   [
+    7,
+    9
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA--w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_5949.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "foggy stone church",
+  "description": "Handheld tilt up the stone wall of a church to its tower disappearing into fog.",
+  "tags": [
+   "church",
+   "stone",
+   "fog",
+   "mist",
+   "summit",
+   "moody",
+   "tilt up"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "vertical",
+  "duration": 3.63,
+  "usable": [
+   [
+    0,
+    3.63
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Cg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_5950.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "foggy stone church",
+  "description": "Slow tilt up a stone church to its fog-shrouded tower and cross.",
+  "tags": [
+   "church",
+   "stone",
+   "fog",
+   "mist",
+   "summit",
+   "moody",
+   "tilt up"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "vertical",
+  "duration": 8.87,
+  "usable": [
+   [
+    0,
+    8.87
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-3g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_5951.MOV",
+  "folder": "poland 2025",
+  "kind": "talking",
+  "shot": "eating plum crumble cake",
+  "description": "Anton in a navy tee talks at a picnic bench, eats a slice of plum crumble cake with a plastic spoon.",
+  "tags": [
+   "anton",
+   "talking head",
+   "cake",
+   "eating",
+   "picnic bench",
+   "forest",
+   "food"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "vertical",
+  "duration": 13.63,
+  "usable": [
+   [
+    5,
+    8.5
+   ]
+  ],
+  "quality": 2,
+  "notes": "5-8.5s close-up of cake usable as B-roll"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Eg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_5952.MOV",
+  "folder": "poland 2025",
+  "kind": "talking",
+  "shot": "talking in misty beech forest",
+  "description": "Anton in a grey raincoat talks to camera in a misty beech forest, then camera whips to a forest path.",
+  "tags": [
+   "anton",
+   "talking head",
+   "forest",
+   "mist",
+   "raincoat",
+   "beech"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "vertical",
+  "duration": 9.87,
+  "usable": [
+   [
+    8.3,
+    9.8
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-_g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_5953.MOV",
+  "folder": "poland 2025",
+  "kind": "talking",
+  "shot": "talking in beech forest",
+  "description": "Anton in a raincoat talks in a green forest, then a forest road and a friend's selfie.",
+  "tags": [
+   "anton",
+   "talking head",
+   "forest",
+   "raincoat",
+   "green"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "vertical",
+  "duration": 13.83,
+  "usable": [
+   [
+    0,
+    13.83
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA--g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6192.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "driving country road",
+  "description": "Dashboard view of a tree-lined country road on a cloudy day.",
+  "tags": [
+   "driving",
+   "road trip",
+   "car",
+   "country road",
+   "cloudy",
+   "pov"
+  ],
+  "location": "Poland",
+  "orientation": "vertical",
+  "duration": 2.77,
+  "usable": [
+   [
+    0,
+    2.77
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Cw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6193.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "driving country road",
+  "description": "Dashboard view of a tree-lined road with a car ahead, overcast sky.",
+  "tags": [
+   "driving",
+   "road trip",
+   "car",
+   "country road",
+   "trees",
+   "pov"
+  ],
+  "location": "Poland",
+  "orientation": "vertical",
+  "duration": 3.73,
+  "usable": [
+   [
+    0,
+    3.73
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Ew",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6194.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "driving toward mountains",
+  "description": "Dashboard view of a straight open road through fields toward distant hills under heavy clouds.",
+  "tags": [
+   "driving",
+   "road trip",
+   "open road",
+   "fields",
+   "hills",
+   "clouds",
+   "pov"
+  ],
+  "location": "Poland",
+  "orientation": "vertical",
+  "duration": 7.5,
+  "usable": [
+   [
+    0,
+    7.5
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-_A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6195.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "friends hiking forest road",
+  "description": "Following two friends in rain jackets walking up a gravel forest road among tall beeches.",
+  "tags": [
+   "friends",
+   "hiking",
+   "forest",
+   "walking",
+   "rain jacket",
+   "green"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "vertical",
+  "duration": 4.37,
+  "usable": [
+   [
+    0,
+    4.37
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_EQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6196.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "hiking with friends",
+  "description": "Handheld walk with Anton in a black jacket and friends on a forest trail; includes a close selfie.",
+  "tags": [
+   "anton",
+   "friends",
+   "hiking",
+   "forest",
+   "handheld"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "vertical",
+  "duration": 16.31,
+  "usable": [
+   [
+    0,
+    5
+   ]
+  ],
+  "quality": 2,
+  "notes": "Shaky"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-4Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6197.mov",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "misty beech forest",
+  "description": "Horizontal static shot of a misty beech forest with red leaf litter.",
+  "tags": [
+   "forest",
+   "mist",
+   "beech",
+   "moody",
+   "static",
+   "nature"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "horizontal",
+  "duration": 2.53,
+  "usable": [
+   [
+    0,
+    2.53
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-9w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6198.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "friends walking misty forest",
+  "description": "Horizontal wide of two friends walking away on a wet forest road through misty beech trees; phone rotates at the end.",
+  "tags": [
+   "friends",
+   "forest",
+   "mist",
+   "walking",
+   "wide",
+   "moody"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "horizontal",
+  "duration": 12.07,
+  "usable": [
+   [
+    0,
+    8
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_DA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6199.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "friends walking misty forest",
+  "description": "Vertical static shot of a wet forest road with two friends walking away into the trees.",
+  "tags": [
+   "friends",
+   "forest",
+   "mist",
+   "walking",
+   "path",
+   "moody",
+   "static"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "vertical",
+  "duration": 7.83,
+  "usable": [
+   [
+    0,
+    7.83
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Dg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6200.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "barefoot climbing rocky trail",
+  "description": "Anton in a cloak climbs barefoot up a rocky boulder trail through the forest, shoes in hand, following friends.",
+  "tags": [
+   "anton",
+   "barefoot",
+   "hiking",
+   "rocks",
+   "forest",
+   "cloak",
+   "climbing"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "vertical",
+  "duration": 8.79,
+  "usable": [
+   [
+    0,
+    8.79
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Bw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6201.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "barefoot climbing rocky trail",
+  "description": "Anton climbs barefoot up a boulder field in the forest away from camera.",
+  "tags": [
+   "anton",
+   "barefoot",
+   "hiking",
+   "rocks",
+   "forest",
+   "cloak",
+   "climbing"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "vertical",
+  "duration": 11.36,
+  "usable": [
+   [
+    0,
+    11.36
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA--A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6204.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "pine forest with view",
+  "description": "Slow pan through tall pine trunks revealing a misty valley view.",
+  "tags": [
+   "forest",
+   "pine",
+   "view",
+   "valley",
+   "mist",
+   "pan",
+   "nature"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "vertical",
+  "duration": 6.43,
+  "usable": [
+   [
+    0,
+    6.43
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-_Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6205.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "friends hiking misty trail",
+  "description": "Misty forest track, then friends walk past the camera and away up the trail.",
+  "tags": [
+   "friends",
+   "hiking",
+   "mist",
+   "forest",
+   "trail",
+   "walking"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "vertical",
+  "duration": 4.6,
+  "usable": [
+   [
+    0,
+    4.6
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_DQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6206.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "misty forest undergrowth",
+  "description": "One-second static shot of a misty forest floor with ferns and rocks.",
+  "tags": [
+   "forest",
+   "mist",
+   "ferns",
+   "moody",
+   "static"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "vertical",
+  "duration": 1.07,
+  "usable": [
+   [
+    0,
+    1.07
+   ]
+  ],
+  "quality": 2,
+  "notes": "Only 1s"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Dw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6207.MOV",
+  "folder": "poland 2025",
+  "kind": "talking",
+  "shot": "selfie in misty forest",
+  "description": "Anton in a black rain jacket talks in a selfie in a foggy forest; camera swings at the end.",
+  "tags": [
+   "anton",
+   "selfie",
+   "talking",
+   "mist",
+   "forest",
+   "rain jacket"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "vertical",
+  "duration": 2.77,
+  "usable": [
+   [
+    0,
+    1.4
+   ]
+  ],
+  "quality": 1,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-_w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6208.MOV",
+  "folder": "poland 2025",
+  "kind": "talking",
+  "shot": "selfie in misty forest",
+  "description": "Anton talks to camera in a selfie in a foggy, fern-covered forest.",
+  "tags": [
+   "anton",
+   "selfie",
+   "talking",
+   "mist",
+   "forest",
+   "rain jacket"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "vertical",
+  "duration": 3.3,
+  "usable": [
+   [
+    0,
+    3.3
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_AQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6209.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "friend in misty forest",
+  "description": "A friend in a hooded green jacket gestures in a foggy pine forest.",
+  "tags": [
+   "friend",
+   "forest",
+   "mist",
+   "hood",
+   "moody"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "vertical",
+  "duration": 2.41,
+  "usable": [
+   [
+    0,
+    2.41
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-4A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6210.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "friends hiking misty forest",
+  "description": "Following friends up a rocky trail into a dark, misty beech forest.",
+  "tags": [
+   "friends",
+   "hiking",
+   "mist",
+   "forest",
+   "moody",
+   "trail",
+   "dark"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "vertical",
+  "duration": 6.08,
+  "usable": [
+   [
+    0,
+    6.08
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_CQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6211.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "summit cross in fog",
+  "description": "Static vertical shot of a tall cross on a foggy summit clearing with grass and trees.",
+  "tags": [
+   "cross",
+   "summit",
+   "fog",
+   "mist",
+   "moody",
+   "static",
+   "mountain"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "vertical",
+  "duration": 5.23,
+  "usable": [
+   [
+    0,
+    5.23
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Ag",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6212.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "friends at foggy summit",
+  "description": "Friends stand by an old car on a foggy summit meadow.",
+  "tags": [
+   "friends",
+   "summit",
+   "fog",
+   "car",
+   "meadow",
+   "moody"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "vertical",
+  "duration": 5.83,
+  "usable": [
+   [
+    0,
+    5.83
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-9g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6213.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "foggy summit church",
+  "description": "Slow push toward a stone church tower emerging from thick fog.",
+  "tags": [
+   "church",
+   "fog",
+   "summit",
+   "stone",
+   "moody",
+   "mysterious"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "vertical",
+  "duration": 9.5,
+  "usable": [
+   [
+    0,
+    9.5
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_BQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6214.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "mountain hut dining hall",
+  "description": "View through an orange archway into a busy mountain-hut dining hall with stone floor and wooden beams.",
+  "tags": [
+   "mountain hut",
+   "restaurant",
+   "interior",
+   "people",
+   "rustic",
+   "wooden beams"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "vertical",
+  "duration": 3.47,
+  "usable": [
+   [
+    0,
+    3.47
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA--Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6215.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "pov ice cream on grass",
+  "description": "POV hand holding an ice cream cone over bare feet on a lawn by a turquoise table.",
+  "tags": [
+   "ice cream",
+   "pov",
+   "barefoot",
+   "grass",
+   "summer",
+   "sweet treat"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "vertical",
+  "duration": 3.17,
+  "usable": [
+   [
+    0,
+    3.17
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Gg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/finished/aug3.mov",
+  "folder": "poland 2025",
+  "kind": "other",
+  "shot": "finished edit sleza hike",
+  "description": "Finished short ('Ślęża, Sudeten Foreland - venture into nature'): drive, boulder trail, misty forest, foggy church, cake.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "hiking",
+   "mist",
+   "forest",
+   "church"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "vertical",
+  "duration": 31.33,
+  "usable": [
+   [
+    0,
+    31.33
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Jw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 9/IMG_6227.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "dog on terrace",
+  "description": "Static vertical shot of a black dog lying on a wooden terrace beside rattan furniture and a lush garden.",
+  "tags": [
+   "dog",
+   "terrace",
+   "garden",
+   "relaxing",
+   "green",
+   "static"
+  ],
+  "location": "Poland (countryside house)",
+  "orientation": "vertical",
+  "duration": 3.13,
+  "usable": [
+   [
+    0,
+    3.13
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Ig",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 9/IMG_6228.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "raw steaks on board",
+  "description": "Overhead of four seasoned raw steaks on a wooden board on a sunlit terrace table.",
+  "tags": [
+   "steak",
+   "raw meat",
+   "food",
+   "overhead",
+   "barbecue",
+   "sunlight",
+   "carnivore"
+  ],
+  "location": "Poland (countryside house)",
+  "orientation": "vertical",
+  "duration": 3.5,
+  "usable": [
+   [
+    0,
+    3.5
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_IQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 9/IMG_6229.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "terrace with grill",
+  "description": "Static shot of a sunny terrace with a barbecue grill, slate wall and steaks on a table.",
+  "tags": [
+   "terrace",
+   "grill",
+   "barbecue",
+   "slate wall",
+   "sunny",
+   "static"
+  ],
+  "location": "Poland (countryside house)",
+  "orientation": "vertical",
+  "duration": 5.4,
+  "usable": [
+   [
+    0,
+    5.4
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_KQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 9/IMG_6230.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "petting dog",
+  "description": "Handheld close-up of a hand petting a black dog lying on the terrace in sunlight.",
+  "tags": [
+   "dog",
+   "petting",
+   "hand",
+   "terrace",
+   "sunlight",
+   "close up"
+  ],
+  "location": "Poland (countryside house)",
+  "orientation": "vertical",
+  "duration": 10.53,
+  "usable": [
+   [
+    0,
+    10.53
+   ]
+  ],
+  "quality": 2,
+  "notes": "Shaky, motion blur"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_JA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 9/IMG_6231.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "steaks on grill",
+  "description": "Static shot of steaks on a charcoal grill being turned with tongs.",
+  "tags": [
+   "steak",
+   "grill",
+   "barbecue",
+   "cooking",
+   "meat",
+   "outdoors"
+  ],
+  "location": "Poland (countryside house)",
+  "orientation": "vertical",
+  "duration": 5.97,
+  "usable": [
+   [
+    0,
+    5.97
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_LA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 9/IMG_6232.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "grilling on terrace",
+  "description": "Wide shot of a friend grilling behind a terrace table with smoke rising.",
+  "tags": [
+   "barbecue",
+   "grill",
+   "friend",
+   "terrace",
+   "smoke",
+   "summer"
+  ],
+  "location": "Poland (countryside house)",
+  "orientation": "vertical",
+  "duration": 4.33,
+  "usable": [
+   [
+    0,
+    4.33
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Kg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 9/IMG_6233.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "grilling on terrace",
+  "description": "Wide shot of a friend at the grill by slate pillars with garden beyond.",
+  "tags": [
+   "barbecue",
+   "grill",
+   "friend",
+   "terrace",
+   "garden"
+  ],
+  "location": "Poland (countryside house)",
+  "orientation": "vertical",
+  "duration": 4.43,
+  "usable": [
+   [
+    0,
+    4.43
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Hw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 9/IMG_6234.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "flipping steaks on grill",
+  "description": "Friend in an apron flips steaks on a grill in front of a slate wall.",
+  "tags": [
+   "barbecue",
+   "grill",
+   "steak",
+   "cooking",
+   "apron",
+   "outdoors"
+  ],
+  "location": "Poland (countryside house)",
+  "orientation": "vertical",
+  "duration": 2.7,
+  "usable": [
+   [
+    0,
+    2.7
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Kw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 9/IMG_6235.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "steaks on grill close",
+  "description": "Close shot of steaks sizzling on a smoky grill being turned with tongs.",
+  "tags": [
+   "steak",
+   "grill",
+   "barbecue",
+   "smoke",
+   "cooking",
+   "close up",
+   "meat"
+  ],
+  "location": "Poland (countryside house)",
+  "orientation": "vertical",
+  "duration": 3.97,
+  "usable": [
+   [
+    0,
+    3.97
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Hg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 9/IMG_6236.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "outdoor dinner table set",
+  "description": "Static shot of a terrace table set with rice, salads, steak and plates beside a sunny lawn.",
+  "tags": [
+   "dinner",
+   "table",
+   "outdoor dining",
+   "salad",
+   "steak",
+   "sunny",
+   "garden"
+  ],
+  "location": "Poland (countryside house)",
+  "orientation": "vertical",
+  "duration": 4.23,
+  "usable": [
+   [
+    0,
+    4.23
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_LQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 9/IMG_6237.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "slicing grilled steak",
+  "description": "Hands slice grilled steak on a wooden board on a terrace table.",
+  "tags": [
+   "steak",
+   "slicing",
+   "knife",
+   "cutting board",
+   "barbecue",
+   "food",
+   "meat"
+  ],
+  "location": "Poland (countryside house)",
+  "orientation": "vertical",
+  "duration": 8.4,
+  "usable": [
+   [
+    0,
+    8.4
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_IA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 9/IMG_6238.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "hands sharing barbecue dinner",
+  "description": "Overhead of hands reaching for sliced steak, rice and salads on a terrace table.",
+  "tags": [
+   "dinner",
+   "friends",
+   "hands",
+   "steak",
+   "salad",
+   "overhead",
+   "sharing"
+  ],
+  "location": "Poland (countryside house)",
+  "orientation": "horizontal",
+  "duration": 7.0,
+  "usable": [
+   [
+    0,
+    7.0
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_HQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 9/aug3.MOV",
+  "folder": "poland 2025",
+  "kind": "other",
+  "shot": "reference video nutrient deficiencies",
+  "description": "Someone else's captioned short listing vitamin deficiency symptoms (dry skin, slow wound healing, brain fog) with lifestyle shots.",
+  "tags": [
+   "reference",
+   "inspiration",
+   "captions",
+   "nutrition",
+   "vitamins"
+  ],
+  "location": "unknown",
+  "orientation": "vertical",
+  "duration": 25.97,
+  "usable": [
+   [
+    0,
+    25.97
+   ]
+  ],
+  "quality": 1,
+  "notes": "Not Anton's footage; appears to be a downloaded reference/inspiration video saved as aug3.MOV"
  }
 ]
