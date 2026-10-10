@@ -16,6 +16,7 @@ This repo is the source of truth for Anton's personal-brand content: how videos 
 ## Rules
 
 - Edit style: Proxima Nova Semibold 70px, white with 4px black stroke, 3 words on screen, centred in the lower third. Cut mistakes and silences over 1s. Audio at -12 LUFS, peaks at -1 dBTP.
+- Footage kinds: `broll` = scenery and small everyday moments used as overlays (only quality 4-5 make the catalogue). `action` = Anton or friends doing an activity (kitesurfing, surfing, hiking, climbing...), used to show what he's describing; judged on whether the activity is clear, not on beauty. `talking` = takes to camera.
 - Never post without Anton's explicit approval of that specific video. Posts go out 10 minutes after approval, Eastern time.
 - Read files from Dropbox with the Dropbox connector (`download_link` gives a temporary URL). Never move, rename or delete Dropbox files without asking.
 - Don't commit videos, fonts or other large media. Put working files in `input/` and `output/` (git-ignored).
