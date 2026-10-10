@@ -1,5 +1,5 @@
 {
-  "brand": "Anton",
+  "brand": "Anton Roggo",
   "blog_id": "6537632",
   "platforms": [
     "instagram",
@@ -25,5 +25,13 @@
   "draft": false,
   "reviewers": [],
   "cover_frame_ms": null,
-  "metricool_user_id": "5034363"
+  "metricool_user_id": "5034363",
+  "connected_networks": {
+    "instagram": "antonroggo",
+    "tiktok": "antonroggo",
+    "youtube": "UCV-S-lhqrWsoHQyoUVuZYPQ",
+    "facebook": "411308168725498",
+    "twitter": "AntonRoggo",
+    "linkedin": "urn:li:person:Nk4IFjy2oc"
+  }
 }
