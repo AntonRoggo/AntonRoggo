@@ -1,0 +1,2707 @@
+[
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_nA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/Day 4/Aug7 audio.mov",
+  "folder": "cotswold 2025",
+  "kind": "talking",
+  "shot": "selfie talk indoors",
+  "description": "Anton talks to his phone in a bright room with wooden beams, wearing a linen shirt and lav mic.",
+  "tags": [
+   "anton",
+   "talking head",
+   "indoors",
+   "selfie",
+   "linen shirt",
+   "wooden beams",
+   "raw take"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 11.23,
+  "usable": [
+   [
+    0,
+    11.23
+   ]
+  ],
+  "quality": 2,
+  "notes": "Raw take; same script as Aug7.mp4 (paradoxical / noble savage)"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_nQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/Day 4/Aug7.mp4",
+  "folder": "cotswold 2025",
+  "kind": "other",
+  "shot": "captioned talking head",
+  "description": "Captioned version of the indoor selfie talk about being paradoxical, nice clothes, chess, the noble savage.",
+  "tags": [
+   "anton",
+   "talking head",
+   "captions",
+   "indoors",
+   "finished edit"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 11.23,
+  "usable": [
+   [
+    0,
+    11.23
+   ]
+  ],
+  "quality": 2,
+  "notes": "Finished/captioned edit, not raw B-roll"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_nw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/Day 4/Aug7_1.mov",
+  "folder": "cotswold 2025",
+  "kind": "other",
+  "shot": "finished edit with b-roll cutaways",
+  "description": "Finished short: Anton's selfie talk intercut with B-roll of him on a garden bench, hiking a rocky trail, sitting barefoot in a garden and holding books.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "anton",
+   "garden",
+   "hiking",
+   "books",
+   "lifestyle"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 11.23,
+  "usable": [
+   [
+    0,
+    11.23
+   ]
+  ],
+  "quality": 2,
+  "notes": "Finished edit (paradoxical / noble savage video)"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_kA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/Day 4/MAH08801.MP4",
+  "folder": "cotswold 2025",
+  "kind": "talking",
+  "shot": "talking take (sideways)",
+  "description": "Anton talks to a camera indoors by a wooden door frame in a linen shirt with lav mic; footage is rotated 90 degrees.",
+  "tags": [
+   "anton",
+   "talking head",
+   "indoors",
+   "linen shirt",
+   "sony camera",
+   "sideways"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 21.52,
+  "usable": [
+   [
+    3,
+    18
+   ]
+  ],
+  "quality": 2,
+  "notes": "Shot vertical on camera, stored sideways (needs 90 deg rotation); camera handling at start/end"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_mQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/Day 4/MAH08802.MP4",
+  "folder": "cotswold 2025",
+  "kind": "talking",
+  "shot": "talking take (sideways)",
+  "description": "Anton delivers a longer to-camera take indoors in a linen shirt with lav mic; footage is rotated 90 degrees.",
+  "tags": [
+   "anton",
+   "talking head",
+   "indoors",
+   "linen shirt",
+   "sony camera",
+   "sideways"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 54.05,
+  "usable": [
+   [
+    0,
+    54.05
+   ]
+  ],
+  "quality": 2,
+  "notes": "Stored sideways, needs rotation"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_mg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/Day 4/MAH08803.MP4",
+  "folder": "cotswold 2025",
+  "kind": "talking",
+  "shot": "talking take (sideways)",
+  "description": "Anton talks to camera indoors in a linen shirt with lav mic; ends with the camera being picked up.",
+  "tags": [
+   "anton",
+   "talking head",
+   "indoors",
+   "linen shirt",
+   "sony camera",
+   "sideways"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 19.52,
+  "usable": [
+   [
+    0,
+    16
+   ]
+  ],
+  "quality": 2,
+  "notes": "Stored sideways; handling at end"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_mw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/Day 4/MAH08804.MP4",
+  "folder": "cotswold 2025",
+  "kind": "talking",
+  "shot": "talking take (sideways)",
+  "description": "Short to-camera take of Anton smiling indoors, ending with camera handling.",
+  "tags": [
+   "anton",
+   "talking head",
+   "indoors",
+   "smiling",
+   "sony camera",
+   "sideways"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 8.01,
+  "usable": [
+   [
+    0,
+    6.5
+   ]
+  ],
+  "quality": 2,
+  "notes": "Stored sideways; handling at end"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Sw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/Video 2025-08-04, 8 27 23 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "sunset over field",
+  "description": "Golden sunset behind a treeline over a dark field; camera tilts and the frame ends up sideways.",
+  "tags": [
+   "sunset",
+   "field",
+   "treeline",
+   "golden hour",
+   "sky",
+   "countryside",
+   "evening"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 5.07,
+  "usable": [
+   [
+    0,
+    1
+   ]
+  ],
+  "quality": 2,
+  "notes": "Phone rotated mid-clip so horizon turns vertical after ~1.5s; only the first second is level"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Sg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/Video 2025-08-04, 8 30 12 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "talking",
+  "shot": "selfie talk outdoors",
+  "description": "Anton in a white shirt with lav mic talks to his phone outside in front of a wooden barn and trees.",
+  "tags": [
+   "anton",
+   "talking head",
+   "outdoors",
+   "selfie",
+   "white shirt",
+   "barn",
+   "daylight"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 5.13,
+  "usable": [
+   [
+    0,
+    5.13
+   ]
+  ],
+  "quality": 2,
+  "notes": "Raw talking take"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_OA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 1/finished/aug4 - 1.mov",
+  "folder": "cotswold 2025",
+  "kind": "other",
+  "shot": "finished edit outdoor steak dinner",
+  "description": "Finished short: Anton's intro then B-roll of an outdoor patio, slicing steak on a board and overhead of hands sharing steak, rice and salad.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "steak",
+   "outdoor dining",
+   "friends",
+   "food",
+   "overhead"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 7.83,
+  "usable": [
+   [
+    0,
+    7.83
+   ]
+  ],
+  "quality": 3,
+  "notes": "Finished edit ('nothing will ever beat an outdoor ... with your boys'); the overhead steak shots would be nice B-roll if raw versions exist"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_dA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 2 13 22 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "cotswold stone cottages",
+  "description": "Static shot of honey-stone Cotswold cottages along a quiet lane under a cloudy sky.",
+  "tags": [
+   "cotswolds",
+   "village",
+   "stone cottages",
+   "lane",
+   "cloudy",
+   "static",
+   "countryside"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 3.8,
+  "usable": [
+   [
+    0,
+    3.8
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_dg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 2 13 47 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "alpacas grazing in field",
+  "description": "Alpacas grazing in a pasture with dry fields beyond; starts framed past a stone wall then reframes wider.",
+  "tags": [
+   "alpacas",
+   "animals",
+   "pasture",
+   "countryside",
+   "cloudy",
+   "static",
+   "farm"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 10.73,
+  "usable": [
+   [
+    5.5,
+    10.7
+   ]
+  ],
+  "quality": 3,
+  "notes": "Reframe jump around 5s; power line visible in first half"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_cg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 2 14 23 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "alpacas grazing close",
+  "description": "Brown and white alpacas grazing on a green lawn in front of trees and a stone barn, with a zoom in partway.",
+  "tags": [
+   "alpacas",
+   "animals",
+   "grazing",
+   "green",
+   "countryside",
+   "cloudy",
+   "farm"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 11.43,
+  "usable": [
+   [
+    6,
+    11.4
+   ]
+  ],
+  "quality": 3,
+  "notes": "Zoom/reframe at ~5.5s; grass in foreground early"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_cw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 2 15 25 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "dry pasture landscape",
+  "description": "Wide static view across sun-dried Cotswold pasture with scattered bushes and a cloudy sky.",
+  "tags": [
+   "landscape",
+   "pasture",
+   "countryside",
+   "cloudy",
+   "summer",
+   "static",
+   "wide"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "horizontal",
+  "duration": 3.87,
+  "usable": [
+   [
+    0,
+    3.87
+   ]
+  ],
+  "quality": 2,
+  "notes": "Plain, little going on"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_cA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 2 15 35 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "dry pasture landscape",
+  "description": "Vertical static shot of dry grassland with bushes and distant sheep under heavy cloud.",
+  "tags": [
+   "landscape",
+   "pasture",
+   "sheep",
+   "countryside",
+   "cloudy",
+   "static"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 4.77,
+  "usable": [
+   [
+    0,
+    4.77
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_aQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 2 15 42 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "pasture with stone wall",
+  "description": "Vertical shot of a dry pasture, drystone wall, bushes and trees under a cloudy sky.",
+  "tags": [
+   "landscape",
+   "drystone wall",
+   "pasture",
+   "countryside",
+   "cloudy",
+   "static"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 5.13,
+  "usable": [
+   [
+    0,
+    5.13
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_aw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 2 19 52 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "country lane through fields",
+  "description": "Horizontal shot of a narrow country lane curving past a fence, long dry grass and green fields under a bright sky.",
+  "tags": [
+   "country lane",
+   "fields",
+   "countryside",
+   "summer",
+   "blue sky",
+   "static",
+   "wide"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "horizontal",
+  "duration": 5.73,
+  "usable": [
+   [
+    0,
+    5.73
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_ag",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 2 20 02 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "country lane through fields",
+  "description": "Vertical shot of a country lane past tall golden grass and green fields under puffy clouds and blue sky.",
+  "tags": [
+   "country lane",
+   "fields",
+   "countryside",
+   "summer",
+   "blue sky",
+   "clouds",
+   "static"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 4.23,
+  "usable": [
+   [
+    0,
+    4.23
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_bQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 2 21 43 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "pan across crop field",
+  "description": "Slow pan across a green crop field to rolling brown fields under cloudy sky.",
+  "tags": [
+   "crop field",
+   "countryside",
+   "pan",
+   "cloudy",
+   "farmland",
+   "green"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 14.97,
+  "usable": [
+   [
+    0,
+    14.97
+   ]
+  ],
+  "quality": 2,
+  "notes": "Pan is a bit uneven"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Zw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 2 23 42 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "crop field and treeline",
+  "description": "Static vertical shot of a green crop field, ploughed field and treeline beneath dramatic clouds.",
+  "tags": [
+   "farmland",
+   "crop field",
+   "treeline",
+   "clouds",
+   "countryside",
+   "static"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 5.77,
+  "usable": [
+   [
+    0,
+    4
+   ]
+  ],
+  "quality": 2,
+  "notes": "Plant creeps into frame at the end"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_bA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 2 36 33 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "golden grass hillside",
+  "description": "Vertical shot of a golden grass hillside behind a wooden fence under grey clouds.",
+  "tags": [
+   "hillside",
+   "golden grass",
+   "fence",
+   "countryside",
+   "cloudy",
+   "static"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 10.83,
+  "usable": [
+   [
+    0,
+    10.83
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Zg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 2 36 46 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "golden grass hillside",
+  "description": "Horizontal shot of a sloping golden grass field under clouds.",
+  "tags": [
+   "hillside",
+   "golden grass",
+   "field",
+   "countryside",
+   "cloudy",
+   "static",
+   "wide"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "horizontal",
+  "duration": 6.3,
+  "usable": [
+   [
+    0,
+    6.3
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_ZQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 2 43 12 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "sheep resting in meadow",
+  "description": "Vertical shot of sheep lying and grazing in a green meadow in front of a wooded hedge.",
+  "tags": [
+   "sheep",
+   "meadow",
+   "animals",
+   "countryside",
+   "green",
+   "static",
+   "calm"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 5.77,
+  "usable": [
+   [
+    0,
+    5.77
+   ]
+  ],
+  "quality": 3,
+  "notes": "Sheep small in frame"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Yw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 2 43 22 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "sheep resting in meadow",
+  "description": "Sheep lying and grazing in a green meadow in front of a wooded hedge and fence.",
+  "tags": [
+   "sheep",
+   "meadow",
+   "animals",
+   "countryside",
+   "green",
+   "static",
+   "calm"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 6.6,
+  "usable": [
+   [
+    0,
+    6.6
+   ]
+  ],
+  "quality": 3,
+  "notes": "Same scene as 2 43 12 PM clip; sheep small in frame"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_YQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 2 43 35 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "sheep resting in meadow",
+  "description": "Wide horizontal shot of sheep resting in a meadow below woodland.",
+  "tags": [
+   "sheep",
+   "meadow",
+   "animals",
+   "countryside",
+   "green",
+   "static",
+   "wide"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "horizontal",
+  "duration": 3.0,
+  "usable": [
+   [
+    0,
+    3.0
+   ]
+  ],
+  "quality": 2,
+  "notes": "Very short (3s), sheep tiny"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Yg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 2 43 43 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "talking",
+  "shot": "selfie in sheep field",
+  "description": "Anton in a blue plaid shirt holds the phone for a silent selfie shot in a field with sheep and trees behind.",
+  "tags": [
+   "anton",
+   "selfie",
+   "plaid shirt",
+   "field",
+   "sheep",
+   "countryside",
+   "cloudy"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 5.4,
+  "usable": [
+   [
+    0,
+    5.4
+   ]
+  ],
+  "quality": 2,
+  "notes": "Not speaking, but a selfie framing; could work as a reaction/look-to-camera shot"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Xw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 2 51 38 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "country lane with fence",
+  "description": "Vertical static shot of a narrow country lane lined by a wooden fence and trees under a moody cloudy sky.",
+  "tags": [
+   "country lane",
+   "fence",
+   "trees",
+   "countryside",
+   "cloudy",
+   "static",
+   "leading lines"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 4.07,
+  "usable": [
+   [
+    0,
+    4.07
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Xg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 6 49 30 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "talking",
+  "shot": "clipping on mic",
+  "description": "Anton in a plaid shirt stands in front of a hedge, then steps close to the camera adjusting his lav mic and smiles.",
+  "tags": [
+   "anton",
+   "plaid shirt",
+   "hedge",
+   "garden",
+   "lav mic",
+   "setup",
+   "outtake"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 3.43,
+  "usable": [
+   [
+    0,
+    3.43
+   ]
+  ],
+  "quality": 1,
+  "notes": "Setup/outtake before a take"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_aA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 6 50 34 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "talking",
+  "shot": "talking while picking plums",
+  "description": "Anton talks to camera in front of a hedge, reaches up to pick plums from a purple-leaf tree and continues talking.",
+  "tags": [
+   "anton",
+   "talking head",
+   "plaid shirt",
+   "plums",
+   "garden",
+   "hedge",
+   "picking fruit"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 28.0,
+  "usable": [
+   [
+    0,
+    28
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking take with fruit picking in the middle (~9-14s could be cut out as B-roll)"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_XQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 6 51 07 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "talking",
+  "shot": "talking in front of hedge",
+  "description": "Anton in plaid shirt and white shorts talks animatedly to camera holding plums on a gravel path by a hedge.",
+  "tags": [
+   "anton",
+   "talking head",
+   "plaid shirt",
+   "hedge",
+   "garden",
+   "gravel",
+   "plums"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 4.57,
+  "usable": [
+   [
+    0,
+    4.57
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Ww",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 6 51 28 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "talking",
+  "shot": "talking in front of hedge",
+  "description": "Short take of Anton talking and gesturing with plums in front of a hedge.",
+  "tags": [
+   "anton",
+   "talking head",
+   "plaid shirt",
+   "hedge",
+   "garden",
+   "plums"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 2.95,
+  "usable": [
+   [
+    0,
+    2.95
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_YA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 6 52 05 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "talking",
+  "shot": "talking in front of hedge",
+  "description": "Anton talks to camera with plums in hand in front of a hedge; camera drops to the gravel at the end.",
+  "tags": [
+   "anton",
+   "talking head",
+   "plaid shirt",
+   "hedge",
+   "garden",
+   "gravel",
+   "barefoot"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 10.05,
+  "usable": [
+   [
+    0,
+    8.5
+   ]
+  ],
+  "quality": 2,
+  "notes": "Camera drops at end"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_bw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 6 52 19 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "talking",
+  "shot": "talking in front of hedge",
+  "description": "Anton delivers a full take in front of a hedge, gesturing and smiling with plums in hand.",
+  "tags": [
+   "anton",
+   "talking head",
+   "plaid shirt",
+   "hedge",
+   "garden",
+   "plums",
+   "smiling"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 12.23,
+  "usable": [
+   [
+    0,
+    12.23
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_XA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 6 52 58 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "talking",
+  "shot": "talking at garden table then reclining",
+  "description": "Anton sits at a wrought-iron garden table by a Cotswold stone house talking, then leans back barefoot in the chair and gets up.",
+  "tags": [
+   "anton",
+   "garden",
+   "stone house",
+   "garden chair",
+   "barefoot",
+   "relaxing",
+   "plaid shirt"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 20.68,
+  "usable": [
+   [
+    11,
+    19
+   ]
+  ],
+  "quality": 3,
+  "notes": "First half is talking; 11-19s reclining in chair works as B-roll (used in Aug5 edit)"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_WA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 6 54 02 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "walking barefoot down lane",
+  "description": "Anton walks barefoot down a country lane past a drystone wall and wild grass, hands behind his back, smiling.",
+  "tags": [
+   "anton",
+   "walking",
+   "barefoot",
+   "country lane",
+   "drystone wall",
+   "plaid shirt",
+   "tracking",
+   "golden hour"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 6.42,
+  "usable": [
+   [
+    0,
+    6.42
+   ]
+  ],
+  "quality": 3,
+  "notes": "Handheld tracking, some framing wobble; used in Aug5 edit"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Vw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 6 54 19 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "gesturing to chickens and tractor",
+  "description": "Anton walks along a stone wall and gestures over it toward chickens and a toy tractor in a paddock, turning to camera smiling.",
+  "tags": [
+   "anton",
+   "chickens",
+   "drystone wall",
+   "paddock",
+   "countryside",
+   "plaid shirt",
+   "handheld"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 24.3,
+  "usable": [
+   [
+    8,
+    24
+   ]
+  ],
+  "quality": 3,
+  "notes": "Handheld, framing a bit loose; may be talking in parts"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_UQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 6 55 37 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "talking",
+  "shot": "talking by cottage sign",
+  "description": "Anton talks to camera leaning on a Cotswold stone cottage wall next to a 'Cock Roop Cottage' sign, then stands barefoot laughing.",
+  "tags": [
+   "anton",
+   "talking head",
+   "stone cottage",
+   "cottage sign",
+   "plaid shirt",
+   "barefoot",
+   "cotswolds"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 5.17,
+  "usable": [
+   [
+    0,
+    5.17
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Ug",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 6 55 45 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "talking",
+  "shot": "talking by cottage sign",
+  "description": "Anton points at the cottage sign on a stone wall while talking to camera and laughing.",
+  "tags": [
+   "anton",
+   "talking head",
+   "stone cottage",
+   "cottage sign",
+   "plaid shirt",
+   "cotswolds",
+   "laughing"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 4.78,
+  "usable": [
+   [
+    0,
+    4.78
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_VA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 6 57 28 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "talking",
+  "shot": "talking in village lane",
+  "description": "Anton talks to camera on a village lane with a drystone wall and honey-stone houses behind him.",
+  "tags": [
+   "anton",
+   "talking head",
+   "village",
+   "stone houses",
+   "drystone wall",
+   "plaid shirt",
+   "cotswolds"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 11.58,
+  "usable": [
+   [
+    0,
+    11.58
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Uw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 6 57 41 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "talking",
+  "shot": "talking in village lane",
+  "description": "Another take of Anton talking in front of a drystone wall and Cotswold houses.",
+  "tags": [
+   "anton",
+   "talking head",
+   "village",
+   "stone houses",
+   "drystone wall",
+   "plaid shirt",
+   "cotswolds"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 9.27,
+  "usable": [
+   [
+    0,
+    9.27
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_VQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 6 58 15 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "talking",
+  "shot": "talking in village lane",
+  "description": "Anton talks and walks toward camera in the village lane; camera drops to his legs at the end.",
+  "tags": [
+   "anton",
+   "talking head",
+   "village",
+   "stone houses",
+   "drystone wall",
+   "plaid shirt",
+   "barefoot"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 9.8,
+  "usable": [
+   [
+    0,
+    8
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_UA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 6 58 26 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "talking",
+  "shot": "talking in village lane",
+  "description": "Anton delivers a take in the village lane, gesturing with plums in hand.",
+  "tags": [
+   "anton",
+   "talking head",
+   "village",
+   "stone houses",
+   "drystone wall",
+   "plaid shirt",
+   "cotswolds"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 11.65,
+  "usable": [
+   [
+    0,
+    11.65
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_TQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 6 58 49 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "talking",
+  "shot": "talking in village lane",
+  "description": "Very short take of Anton laughing and talking in the village lane.",
+  "tags": [
+   "anton",
+   "talking head",
+   "village",
+   "drystone wall",
+   "plaid shirt",
+   "laughing"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 2.13,
+  "usable": [
+   [
+    0,
+    2.13
+   ]
+  ],
+  "quality": 1,
+  "notes": "2s false start"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Tw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 7 00 47 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "picking and eating plums",
+  "description": "Anton reaches up under a purple-leaf plum tree in a Cotswold garden, picks a plum and eats it.",
+  "tags": [
+   "anton",
+   "plums",
+   "picking fruit",
+   "eating",
+   "garden",
+   "tree",
+   "plaid shirt",
+   "natural food"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 8.53,
+  "usable": [
+   [
+    0,
+    8.53
+   ]
+  ],
+  "quality": 3,
+  "notes": "Handheld; looks up a lot"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Tg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 7 00 59 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "picking and eating plums",
+  "description": "Anton picks plums from a purple-leaf tree, eats one, then walks toward camera talking.",
+  "tags": [
+   "anton",
+   "plums",
+   "picking fruit",
+   "eating",
+   "garden",
+   "tree",
+   "plaid shirt"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 14.65,
+  "usable": [
+   [
+    0,
+    11
+   ]
+  ],
+  "quality": 3,
+  "notes": "Starts talking to camera at the end"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_QQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/finished/Aug5.mov",
+  "folder": "cotswold 2025",
+  "kind": "other",
+  "shot": "captioned talking head (fragment)",
+  "description": "0.7s captioned fragment of Anton talking in the village lane ('sometimes you just').",
+  "tags": [
+   "finished edit",
+   "captions",
+   "anton",
+   "village",
+   "fragment"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 0.67,
+  "usable": [
+   [
+    0,
+    0.67
+   ]
+  ],
+  "quality": 1,
+  "notes": "Tiny export fragment"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Qg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/finished/Aug5_1.mov",
+  "folder": "cotswold 2025",
+  "kind": "other",
+  "shot": "finished edit cotswolds countryside",
+  "description": "Finished short: 'out of the city' intro, The Cotswolds title card over alpacas, Anton walking barefoot, chickens, reclining in garden chair, grass hillside.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "cotswolds",
+   "countryside",
+   "anton",
+   "lifestyle"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 17.0,
+  "usable": [
+   [
+    0,
+    17.0
+   ]
+  ],
+  "quality": 3,
+  "notes": "Finished edit (Aug 5 video)"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_fg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 3/MAH08798.MP4",
+  "folder": "cotswold 2025",
+  "kind": "talking",
+  "shot": "talking take (sideways)",
+  "description": "Anton talks to camera indoors in a white shirt with lav mic; footage is rotated 90 degrees.",
+  "tags": [
+   "anton",
+   "talking head",
+   "indoors",
+   "white shirt",
+   "sony camera",
+   "sideways"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 47.05,
+  "usable": [
+   [
+    0,
+    47.05
+   ]
+  ],
+  "quality": 2,
+  "notes": "Stored sideways, needs rotation"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_fQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 3/MAH08799.MP4",
+  "folder": "cotswold 2025",
+  "kind": "talking",
+  "shot": "talking take (sideways)",
+  "description": "Anton talks to camera indoors in a linen shirt with lav mic; footage is rotated 90 degrees.",
+  "tags": [
+   "anton",
+   "talking head",
+   "indoors",
+   "linen shirt",
+   "sony camera",
+   "sideways"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 31.03,
+  "usable": [
+   [
+    0,
+    27
+   ]
+  ],
+  "quality": 2,
+  "notes": "Stored sideways, needs rotation; camera moves at end"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_fA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 3/MAH08800.MP4",
+  "folder": "cotswold 2025",
+  "kind": "other",
+  "shot": "accidental clip",
+  "description": "Brief talking-head false start followed by the camera being put down on a bed.",
+  "tags": [
+   "accidental",
+   "indoors",
+   "sony camera",
+   "sideways",
+   "false start"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 3.5,
+  "usable": [
+   [
+    0,
+    3.5
+   ]
+  ],
+  "quality": 1,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_gA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 3/finish/Video 2025-08-04, 8 27 23 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "other",
+  "shot": "finished edit third space",
+  "description": "Finished short about needing a 'third space': Anton's selfie intro intercut with friends lounging on a rooftop, relaxing on a park bench, a quiet cafe and friends walking across a misty meadow.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "friends",
+   "cafe",
+   "nature",
+   "third space",
+   "lifestyle"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 11.53,
+  "usable": [
+   [
+    0,
+    11.53
+   ]
+  ],
+  "quality": 3,
+  "notes": "Finished edit; filename duplicates a raw clip name"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_vQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 5/Video 2025-08-07, 8 37 25 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "sunset over lawn",
+  "description": "Horizontal static shot of a pink and orange sunset sky over a dark treeline and lawn.",
+  "tags": [
+   "sunset",
+   "sky",
+   "lawn",
+   "treeline",
+   "evening",
+   "pink",
+   "orange",
+   "static"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "horizontal",
+  "duration": 4.9,
+  "usable": [
+   [
+    0,
+    4.9
+   ]
+  ],
+  "quality": 3,
+  "notes": "Foreground is dark"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_vA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 5/Video 2025-08-07, 8 37 33 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "sunset over lawn",
+  "description": "Vertical static shot of an orange sunset with dramatic clouds over a garden lawn and hedges.",
+  "tags": [
+   "sunset",
+   "sky",
+   "clouds",
+   "lawn",
+   "evening",
+   "orange",
+   "static",
+   "calm"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 4.5,
+  "usable": [
+   [
+    0,
+    4.5
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_ug",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 5/Video 2025-08-07, 8 37 51 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "sunset over lawn",
+  "description": "Vertical static shot of a peach sunset sky over a garden lawn and hedges.",
+  "tags": [
+   "sunset",
+   "sky",
+   "clouds",
+   "lawn",
+   "evening",
+   "orange",
+   "static"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 3.3,
+  "usable": [
+   [
+    0,
+    3.3
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_uw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 5/Video 2025-08-08, 11 02 52 AM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "friends walking to spa",
+  "description": "Group of friends with towels and bags walk through a wooded garden toward a sauna area, filmed from behind.",
+  "tags": [
+   "friends",
+   "walking",
+   "woods",
+   "spa",
+   "towels",
+   "summer",
+   "pov",
+   "group"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 4.77,
+  "usable": [
+   [
+    0,
+    4.77
+   ]
+  ],
+  "quality": 3,
+  "notes": "Handheld walking"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_uQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 5/Video 2025-08-08, 11 03 49 AM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "barrel sauna in woods",
+  "description": "Static shot of a wooden barrel sauna among trees with benches and a bark path.",
+  "tags": [
+   "sauna",
+   "barrel sauna",
+   "woods",
+   "wellness",
+   "garden",
+   "static",
+   "wood"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 3.17,
+  "usable": [
+   [
+    0,
+    3.17
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_tg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 5/Video 2025-08-08, 11 06 48 AM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "barrel sauna and cabin",
+  "description": "Static wide shot of a barrel sauna, cabin and cold-plunge steps among trees.",
+  "tags": [
+   "sauna",
+   "cabin",
+   "woods",
+   "wellness",
+   "cold plunge",
+   "static",
+   "garden"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 4.33,
+  "usable": [
+   [
+    0,
+    4.33
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_vg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 5/Video 2025-08-08, 11 42 52 AM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "cold plunge",
+  "description": "Shirtless Anton climbs into an outdoor wooden cold-plunge tub in the woods, sits in the water breathing, laughs and climbs out.",
+  "tags": [
+   "anton",
+   "cold plunge",
+   "ice bath",
+   "wellness",
+   "woods",
+   "shirtless",
+   "outdoors",
+   "recovery"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 49.44,
+  "usable": [
+   [
+    3,
+    49
+   ]
+  ],
+  "quality": 4,
+  "notes": "Handheld, some framing shifts; strong wellness content"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_tQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 5/Video 2025-08-08, 11 46 31 AM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "fire pit flames",
+  "description": "Close horizontal shot of logs burning in a metal fire pit on stones beside garden chairs.",
+  "tags": [
+   "fire pit",
+   "flames",
+   "fire",
+   "garden",
+   "cosy",
+   "close up",
+   "outdoors"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "horizontal",
+  "duration": 7.6,
+  "usable": [
+   [
+    0,
+    7.6
+   ]
+  ],
+  "quality": 3,
+  "notes": "Slight handheld drift"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_tw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 5/Video 2025-08-08, 11 46 45 AM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "friends at sauna area",
+  "description": "Horizontal shot past cushioned benches and fire pit as friends in swimwear stand by the sauna and plunge area.",
+  "tags": [
+   "friends",
+   "sauna",
+   "spa",
+   "swimwear",
+   "garden",
+   "woods",
+   "group"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "horizontal",
+  "duration": 10.87,
+  "usable": [
+   [
+    0,
+    10.87
+   ]
+  ],
+  "quality": 2,
+  "notes": "Fire pit and cushions block foreground"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_sQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 5/Video 2025-08-08, 12 02 54 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "glamping tent garden",
+  "description": "Shot of a bell tent and cabin among trees with someone in a red robe passing in the foreground.",
+  "tags": [
+   "glamping",
+   "tent",
+   "woods",
+   "garden",
+   "summer",
+   "sunny"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 3.07,
+  "usable": [
+   [
+    0,
+    3.07
+   ]
+  ],
+  "quality": 1,
+  "notes": "Person blocks frame throughout"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_rw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 5/Video 2025-08-08, 12 04 41 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "garden bench and cabin",
+  "description": "Sunny static shot of a green bench with cushions in a tree-shaded garden with a cabin and fields behind.",
+  "tags": [
+   "garden",
+   "bench",
+   "cabin",
+   "trees",
+   "sunny",
+   "static",
+   "summer"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 4.23,
+  "usable": [
+   [
+    0,
+    4.23
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_rQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 5/Video 2025-08-08, 12 11 53 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "food truck courtyard",
+  "description": "Static shot of a wooden barn with a purple food kiosk on a gravel courtyard under blue sky.",
+  "tags": [
+   "courtyard",
+   "food kiosk",
+   "barn",
+   "blue sky",
+   "sunny",
+   "static",
+   "summer"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 2.47,
+  "usable": [
+   [
+    0,
+    2.47
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_rg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 5/Video 2025-08-08, 12 19 48 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "acai bowls on table",
+  "description": "Overhead of fruit-topped acai bowls on a sunny wooden table, one picked up and eaten with a wooden spoon.",
+  "tags": [
+   "acai bowl",
+   "food",
+   "fruit",
+   "strawberries",
+   "overhead",
+   "wooden table",
+   "sunny",
+   "healthy"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 4.03,
+  "usable": [
+   [
+    0,
+    4.03
+   ]
+  ],
+  "quality": 4,
+  "notes": "Handheld but appetising"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_tA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 5/Video 2025-08-08, 12 21 13 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "talking",
+  "shot": "talking with acai bowl",
+  "description": "Anton in a light blue linen shirt walks toward camera talking with an acai bowl in a sunny courtyard.",
+  "tags": [
+   "anton",
+   "talking head",
+   "linen shirt",
+   "acai bowl",
+   "courtyard",
+   "sunny"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 11.88,
+  "usable": [
+   [
+    0,
+    11.88
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_sw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 5/Video 2025-08-08, 2 59 03 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "talking",
+  "shot": "talking on sunny patio",
+  "description": "Anton in a blue linen shirt talks to camera on a sunny patio with friends and laptops behind him.",
+  "tags": [
+   "anton",
+   "talking head",
+   "linen shirt",
+   "patio",
+   "friends",
+   "sunny"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 9.8,
+  "usable": [
+   [
+    0,
+    9.8
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_sg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 5/Video 2025-08-08, 2 59 35 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "talking",
+  "shot": "talking on sunny patio",
+  "description": "Another take of Anton talking on the sunny patio with friends working behind him.",
+  "tags": [
+   "anton",
+   "talking head",
+   "linen shirt",
+   "patio",
+   "friends",
+   "sunny"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 10.3,
+  "usable": [
+   [
+    0,
+    10.3
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_qw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 5/Video 2025-08-08, 3 00 36 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "laptop setup on patio",
+  "description": "Static view of a patio table with a laptop, power station and gear, someone working at the edge.",
+  "tags": [
+   "laptop",
+   "remote work",
+   "patio",
+   "table",
+   "gear",
+   "sunny",
+   "static"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 5.53,
+  "usable": [
+   [
+    0,
+    5.53
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_qg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 5/Video 2025-08-08, 3 00 53 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "overhead patio table",
+  "description": "Tilted overhead of a patio table with bags and gear while someone peels an orange.",
+  "tags": [
+   "patio",
+   "table",
+   "orange",
+   "overhead",
+   "gear",
+   "sunny"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 2.97,
+  "usable": [
+   [
+    0,
+    2.97
+   ]
+  ],
+  "quality": 1,
+  "notes": "Tilted, cluttered"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_rA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 5/Video 2025-08-08, 3 01 23 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "working on laptop outdoors",
+  "description": "Anton types on a laptop on a sunny patio, then turns, smiles and leans into the camera.",
+  "tags": [
+   "anton",
+   "laptop",
+   "remote work",
+   "patio",
+   "sunny",
+   "linen shirt"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 5.87,
+  "usable": [
+   [
+    0,
+    4.5
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_vw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 5/Video 2025-08-08, 7 42 16 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "laptop in garden chair",
+  "description": "Anton settles into a reclining garden chair on a lawn at golden hour and works on a laptop, then gets up.",
+  "tags": [
+   "anton",
+   "laptop",
+   "remote work",
+   "garden",
+   "lawn",
+   "golden hour",
+   "relaxing",
+   "static"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 56.9,
+  "usable": [
+   [
+    8,
+    48
+   ]
+  ],
+  "quality": 4,
+  "notes": "Static, long; someone walks out of frame at start"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_pw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 5/finished/aug8.mov",
+  "folder": "cotswold 2025",
+  "kind": "other",
+  "shot": "finished edit friends working",
+  "description": "Finished short ('why don't you have any friends...'): patio talk, laptop gear, working outside and golden-hour laptop in garden chair.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "friends",
+   "remote work",
+   "patio",
+   "golden hour"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 9.63,
+  "usable": [
+   [
+    0,
+    9.63
+   ]
+  ],
+  "quality": 2,
+  "notes": "Finished edit"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_qA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 5/finished/aug8_1.mov",
+  "folder": "cotswold 2025",
+  "kind": "other",
+  "shot": "finished edit friends working",
+  "description": "Alternate version of the same finished short with different opening caption.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "friends",
+   "remote work",
+   "patio",
+   "golden hour"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 9.63,
+  "usable": [
+   [
+    0,
+    9.63
+   ]
+  ],
+  "quality": 2,
+  "notes": "Finished edit, near-duplicate of aug8.mov"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_yg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 5/finished/aug9.mov",
+  "folder": "cotswold 2025",
+  "kind": "other",
+  "shot": "finished edit cotswolds wellness day",
+  "description": "Finished short ('we're in the Cotswolds'): courtyard intro, friends walking to the spa, Anton in the cold plunge, 'life can be beautiful' outro.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "cotswolds",
+   "cold plunge",
+   "friends",
+   "wellness"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 12.83,
+  "usable": [
+   [
+    0,
+    12.83
+   ]
+  ],
+  "quality": 3,
+  "notes": "Finished edit"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_6A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/MAH08807.MP4",
+  "folder": "cotswold 2025",
+  "kind": "talking",
+  "shot": "talking take outdoors (sideways)",
+  "description": "Shirtless Anton talks to camera outdoors against trees and blue sky with lav mic; footage rotated 90 degrees.",
+  "tags": [
+   "anton",
+   "talking head",
+   "outdoors",
+   "shirtless",
+   "sony camera",
+   "sideways",
+   "evening"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 51.05,
+  "usable": [
+   [
+    0,
+    51.05
+   ]
+  ],
+  "quality": 2,
+  "notes": "Stored sideways, needs rotation"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_4w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-09, 8 22 27 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "trampoline pov at sunset",
+  "description": "POV from a garden trampoline at dusk, looking down at feet then up through the safety net to a sunset over the lawn.",
+  "tags": [
+   "trampoline",
+   "pov",
+   "sunset",
+   "garden",
+   "dusk",
+   "playful",
+   "feet"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 5.17,
+  "usable": [
+   [
+    2,
+    5
+   ]
+  ],
+  "quality": 2,
+  "notes": "Bouncy, dim"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_5Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-09, 8 22 37 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "trampoline pov at sunset",
+  "description": "POV bouncing on a trampoline at dusk, alternating between feet and the sunset beyond the net.",
+  "tags": [
+   "trampoline",
+   "pov",
+   "sunset",
+   "garden",
+   "dusk",
+   "bouncing",
+   "playful"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 9.44,
+  "usable": [
+   [
+    0,
+    9.44
+   ]
+  ],
+  "quality": 2,
+  "notes": "Very shaky, dark frames"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_1w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 1 27 01 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "wading in stream",
+  "description": "Anton in white linen walks barefoot up a shallow clear stream in a Cotswold village, then turns toward camera.",
+  "tags": [
+   "anton",
+   "stream",
+   "wading",
+   "barefoot",
+   "white linen",
+   "village",
+   "summer",
+   "nature"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 7.4,
+  "usable": [
+   [
+    0,
+    7.4
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_2A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 1 27 27 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "wading in stream",
+  "description": "Anton in white linen stands in a sunny stream, walks toward camera and steps onto a rock.",
+  "tags": [
+   "anton",
+   "stream",
+   "wading",
+   "barefoot",
+   "white linen",
+   "summer",
+   "nature",
+   "sunny"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 11.4,
+  "usable": [
+   [
+    0,
+    11.4
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_4A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 1 27 44 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "balancing on rock in stream",
+  "description": "Anton wades a clear stream, balances on a rock with arms out and wades on past flowering plants.",
+  "tags": [
+   "anton",
+   "stream",
+   "balance",
+   "barefoot",
+   "white linen",
+   "summer",
+   "nature",
+   "playful"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 21.7,
+  "usable": [
+   [
+    0,
+    21.7
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_2w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 1 36 48 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "push-ups by riverbank",
+  "description": "Shirtless Anton does push-ups on a muddy riverbank among plants, then the camera tilts into the water.",
+  "tags": [
+   "anton",
+   "push-ups",
+   "workout",
+   "riverbank",
+   "shirtless",
+   "nature",
+   "outdoor fitness"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 21.37,
+  "usable": [
+   [
+    0,
+    17
+   ]
+  ],
+  "quality": 3,
+  "notes": "Low angle, foreground plants; ends pointing at water"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_4g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 1 37 43 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "wading into river under willow",
+  "description": "Shirtless Anton in linen trousers wades away from camera up a river beneath hanging willow branches.",
+  "tags": [
+   "anton",
+   "river",
+   "wading",
+   "willow",
+   "shirtless",
+   "nature",
+   "summer",
+   "green"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 17.7,
+  "usable": [
+   [
+    0,
+    17.7
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_2Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 1 38 16 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "walking out of river toward camera",
+  "description": "Shirtless Anton wades back down the river under willows toward camera, pushing through branches and smiling.",
+  "tags": [
+   "anton",
+   "river",
+   "wading",
+   "willow",
+   "shirtless",
+   "nature",
+   "summer",
+   "smiling"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 13.2,
+  "usable": [
+   [
+    0,
+    13.2
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_1g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 1 55 05 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "pov feet by stream",
+  "description": "POV of bare feet and white linen trousers resting on grass beside a clear rippling stream.",
+  "tags": [
+   "pov",
+   "feet",
+   "stream",
+   "grass",
+   "white linen",
+   "relaxing",
+   "nature",
+   "grounding"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 3.63,
+  "usable": [
+   [
+    0,
+    3.63
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_0w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 1 55 33 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "pov feet by stream",
+  "description": "Short POV of bare feet by a clear stream on the grass.",
+  "tags": [
+   "pov",
+   "feet",
+   "stream",
+   "grass",
+   "white linen",
+   "relaxing",
+   "grounding"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 2.7,
+  "usable": [
+   [
+    0,
+    2.7
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_3w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 12 10 32 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "church yew tree",
+  "description": "Static vertical shot of a gnarled yew tree in front of an old stone church door.",
+  "tags": [
+   "church",
+   "yew tree",
+   "stone",
+   "village",
+   "cotswolds",
+   "static",
+   "historic"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 3.23,
+  "usable": [
+   [
+    0,
+    3.23
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_3g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 12 38 09 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "selfie in back of van",
+  "description": "Anton in white linen climbs into an empty plywood-lined van and looks around in a handheld selfie.",
+  "tags": [
+   "anton",
+   "van",
+   "selfie",
+   "white linen",
+   "handheld",
+   "travel"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 6.57,
+  "usable": [
+   [
+    0,
+    6.57
+   ]
+  ],
+  "quality": 1,
+  "notes": "Shaky, blurry handling"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_2g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 12 38 17 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "other",
+  "shot": "accidental clip",
+  "description": "Under-a-second clip of feet in sandals in a van.",
+  "tags": [
+   "accidental",
+   "van",
+   "feet"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 0.67,
+  "usable": [
+   [
+    0,
+    0.67
+   ]
+  ],
+  "quality": 1,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_3A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 12 38 22 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "talking",
+  "shot": "selfie in back of van",
+  "description": "Anton sits in the back of a van and talks to his phone in a selfie.",
+  "tags": [
+   "anton",
+   "van",
+   "selfie",
+   "talking",
+   "white linen",
+   "travel"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 7.38,
+  "usable": [
+   [
+    2.5,
+    6
+   ]
+  ],
+  "quality": 1,
+  "notes": "Shaky, handling at both ends"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_3Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 12 38 32 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "pov lying in van",
+  "description": "POV of Anton's legs in white trousers lying in the back of a dark van with ceiling lights.",
+  "tags": [
+   "pov",
+   "van",
+   "legs",
+   "dark",
+   "travel"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 7.1,
+  "usable": [
+   [
+    0,
+    7.1
+   ]
+  ],
+  "quality": 1,
+  "notes": "Dark, shaky"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_-A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 12 48 35 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "sitting in back of van",
+  "description": "Phone propped on the floor of a van films Anton sitting against plywood boards, then he grabs the phone.",
+  "tags": [
+   "anton",
+   "van",
+   "sitting",
+   "white linen",
+   "travel",
+   "low angle"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 23.38,
+  "usable": [
+   [
+    5,
+    19
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_0g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 2 59 19 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "cotswold village street",
+  "description": "Short static shot of a sunny Cotswold village street with stone cottages under blue sky.",
+  "tags": [
+   "village",
+   "street",
+   "stone cottages",
+   "cotswolds",
+   "sunny",
+   "blue sky",
+   "static"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 1.73,
+  "usable": [
+   [
+    0,
+    1.73
+   ]
+  ],
+  "quality": 3,
+  "notes": "Only 1.7s"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_1A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 3 01 28 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "village lane with stone walls",
+  "description": "Sunny vertical shot of a quiet lane between drystone walls with a large conifer and blue sky.",
+  "tags": [
+   "lane",
+   "drystone wall",
+   "village",
+   "cotswolds",
+   "sunny",
+   "blue sky"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 3.33,
+  "usable": [
+   [
+    0,
+    3.33
+   ]
+  ],
+  "quality": 3,
+  "notes": "Slight drift"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_1Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 3 05 17 PM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "field by fence",
+  "description": "Handheld view of a dry field and farm buildings past a wooden fence; the phone rotates sideways mid-clip.",
+  "tags": [
+   "field",
+   "fence",
+   "farmland",
+   "countryside",
+   "sunny",
+   "summer"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 7.83,
+  "usable": [
+   [
+    0,
+    2
+   ]
+  ],
+  "quality": 1,
+  "notes": "Rotated/tilted for most of the clip"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_5g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 9 01 27 AM.mov",
+  "folder": "cotswold 2025",
+  "kind": "other",
+  "shot": "accidental clip in van",
+  "description": "Shaky clip of the van floor, shoes and a leg.",
+  "tags": [
+   "accidental",
+   "van",
+   "floor"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 7.44,
+  "usable": [
+   [
+    0,
+    7.44
+   ]
+  ],
+  "quality": 1,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_5w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 9 01 38 AM.mov",
+  "folder": "cotswold 2025",
+  "kind": "other",
+  "shot": "accidental clip in van",
+  "description": "Dark clip of legs and the van interior.",
+  "tags": [
+   "accidental",
+   "van",
+   "dark"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 7.74,
+  "usable": [
+   [
+    0,
+    7.74
+   ]
+  ],
+  "quality": 1,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_4Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 9 01 49 AM.mov",
+  "folder": "cotswold 2025",
+  "kind": "other",
+  "shot": "accidental clip in van",
+  "description": "Around a second of blurry van floor and shoes.",
+  "tags": [
+   "accidental",
+   "van",
+   "floor"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 1.2,
+  "usable": [
+   [
+    0,
+    1.2
+   ]
+  ],
+  "quality": 1,
+  "notes": "Last frame could not be extracted; duration approximate"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_5A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 9 11 47 AM.mov",
+  "folder": "cotswold 2025",
+  "kind": "broll",
+  "shot": "cotswold market square",
+  "description": "Sunny market square of a Cotswold town with honey-stone buildings and parked cars; the phone turns sideways after 2.5s.",
+  "tags": [
+   "market square",
+   "town",
+   "stone buildings",
+   "cotswolds",
+   "sunny",
+   "blue sky"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 5.4,
+  "usable": [
+   [
+    0,
+    2.5
+   ]
+  ],
+  "quality": 2,
+  "notes": "Rotated after ~2.5s"
+ }
+]

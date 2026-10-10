@@ -1,0 +1,60 @@
+[
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_zw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Anton YouTube/UK to Montenegro/MAH08805.MP4",
+  "folder": "Anton YouTube",
+  "kind": "talking",
+  "shot": "selfie vlog in garden at dusk",
+  "description": "Shirtless Anton talks to a handheld camera in a garden by a modern house at dusk, ending on an empty lawn shot.",
+  "tags": [
+   "anton",
+   "talking head",
+   "vlog",
+   "garden",
+   "dusk",
+   "shirtless",
+   "handheld",
+   "youtube"
+  ],
+  "location": "England",
+  "orientation": "horizontal",
+  "duration": 154.65,
+  "usable": [
+   [
+    0,
+    140
+   ]
+  ],
+  "quality": 2,
+  "notes": "YouTube vlog take (UK to Montenegro); handheld selfie, slightly dim blue-hour light"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_0A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Anton YouTube/UK to Montenegro/MAH08806.MP4",
+  "folder": "Anton YouTube",
+  "kind": "talking",
+  "shot": "seated talk on stone wall",
+  "description": "Shirtless Anton in white trousers sits on a stone wall in a field, talking to a locked-off camera with a lav mic, phone in hand.",
+  "tags": [
+   "anton",
+   "talking head",
+   "youtube",
+   "field",
+   "stone wall",
+   "evening",
+   "tripod",
+   "shirtless"
+  ],
+  "location": "England",
+  "orientation": "horizontal",
+  "duration": 471.47,
+  "usable": [
+   [
+    0,
+    471.47
+   ]
+  ],
+  "quality": 2,
+  "notes": "Long 7.8 min YouTube talking take; static wide shot"
+ }
+]
