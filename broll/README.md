@@ -1,5 +1,9 @@
 # B-roll catalogue
 
+**Status (Oct 2026):** 2,492 videos from the 12 ANTON MASTER BROLL folders created since July 2025 were viewed and logged in `raw/` (every clip, any kind: broll, talking, other). `catalog.json` holds the 249 best B-roll clips (quality 4-5, duplicates removed). Not yet covered: `toronto summer 2025`, `ALL BROLL`, and older folders. Skipped as too large: `brazil 2025/day 6/finished/dec 5.mov` (a finished edit).
+
+Use `raw/` to find talking takes or lower-rated clips; use `catalog.json` when picking B-roll for an edit.
+
 `catalog.json` lists only the best clips from the Dropbox B-roll library, one entry per clip:
 
 ```json

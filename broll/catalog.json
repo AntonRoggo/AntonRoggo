@@ -1,1 +1,7085 @@
-[]
+[
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTBA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_1506.MOV",
+  "folder": "Spain 2026",
+  "shot": "turquoise cove with rocky islets",
+  "description": "Sharp static vertical shot of a crystal-clear turquoise cove with rocky islets, boats and green pines.",
+  "tags": [
+   "sea",
+   "cove",
+   "turquoise",
+   "clear water",
+   "rocks",
+   "pine trees",
+   "boats",
+   "mediterranean",
+   "sunny",
+   "static"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 5.07,
+  "usable": [
+   [
+    0,
+    5.07
+   ]
+  ],
+  "quality": 5,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACILg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-18, 5 36 09 AM.mov",
+  "folder": "brazil 2025",
+  "shot": "misty sunrise over rio",
+  "description": "Slow pan across mist-covered mountains, Lagoa and Sugarloaf under pink sunrise clouds, seen from Dois Irmãos.",
+  "tags": [
+   "sunrise",
+   "mist",
+   "mountains",
+   "lagoa",
+   "sugarloaf",
+   "rio",
+   "pink sky",
+   "pan",
+   "wide"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "horizontal",
+  "duration": 26.88,
+  "usable": [
+   [
+    0,
+    26.8
+   ]
+  ],
+  "quality": 5,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACIGQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-18, 5 54 26 AM.mov",
+  "folder": "brazil 2025",
+  "shot": "golden mist over rio mountains",
+  "description": "Mountains above a sea of golden morning mist over Rio, horizontal static shot.",
+  "tags": [
+   "sunrise",
+   "mist",
+   "mountains",
+   "golden",
+   "rio",
+   "wide",
+   "static",
+   "clouds"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "horizontal",
+  "duration": 9.21,
+  "usable": [
+   [
+    0,
+    9.2
+   ]
+  ],
+  "quality": 5,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABybA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 17/Video 2025-12-21, 12 44 06 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "canyon panorama",
+  "description": "Horizontal pan across the full canyon with waterfalls, cliffs and the gorge floor.",
+  "tags": [
+   "canyon",
+   "panorama",
+   "cliffs",
+   "waterfall",
+   "horizontal",
+   "landscape",
+   "itaimbezinho"
+  ],
+  "location": "Cambará do Sul, Brazil",
+  "orientation": "horizontal",
+  "duration": 7.83,
+  "usable": [
+   [
+    0,
+    7.83
+   ]
+  ],
+  "quality": 5,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACDrg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 21 - brazil bike trip/Video 2026-01-01, 12 08 29 AM.mov",
+  "folder": "brazil 2025",
+  "shot": "fireworks over Hercílio Luz bridge",
+  "description": "Horizontal shot of a waterfall of pink and purple fireworks along the suspension bridge.",
+  "tags": [
+   "fireworks",
+   "bridge",
+   "hercilio luz",
+   "new year's eve",
+   "night",
+   "horizontal",
+   "pink"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "horizontal",
+  "duration": 11.58,
+  "usable": [
+   [
+    0,
+    11.58
+   ]
+  ],
+  "quality": 5,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUVg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260616160805_0241_D.MP4",
+  "folder": "Spain 2026",
+  "shot": "turquoise cove between rocks",
+  "description": "Steady view down onto a small turquoise cove between rocky cliffs with pines.",
+  "tags": [
+   "sea",
+   "cove",
+   "turquoise",
+   "rocks",
+   "cliffs",
+   "pine trees",
+   "sunny",
+   "static",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "horizontal",
+  "duration": 9.69,
+  "usable": [
+   [
+    0,
+    9.69
+   ]
+  ],
+  "quality": 4,
+  "notes": "preview appears upside down (rotation flag)",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUew",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260617181044_0261_D.MP4",
+  "folder": "Spain 2026",
+  "shot": "bay full of boats",
+  "description": "Slow pan from rocks to a turquoise bay crowded with moored boats and a white seaside village in the distance.",
+  "tags": [
+   "sea",
+   "bay",
+   "boats",
+   "turquoise",
+   "village",
+   "coast",
+   "sunny",
+   "pan",
+   "summer",
+   "mediterranean"
+  ],
+  "location": "Spain (Costa Brava, looks like Calella de Palafrugell)",
+  "orientation": "horizontal",
+  "duration": 7.61,
+  "usable": [
+   [
+    0,
+    7.61
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUfw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260617183709_0263_D.MP4",
+  "folder": "Spain 2026",
+  "shot": "seaside village promenade",
+  "description": "Wide view along a cobbled seaside promenade past white houses and cafe tables onto a calm bay.",
+  "tags": [
+   "promenade",
+   "village",
+   "white houses",
+   "sea",
+   "bay",
+   "cobblestones",
+   "sunny",
+   "summer",
+   "mediterranean"
+  ],
+  "location": "Spain (Costa Brava, looks like Calella de Palafrugell)",
+  "orientation": "horizontal",
+  "duration": 12.82,
+  "usable": [
+   [
+    0,
+    12.82
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUzA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260628115709_0302_D.MP4",
+  "folder": "Spain 2026",
+  "shot": "view over old town from tower",
+  "description": "Steady elevated view over a tree-lined square and old apartment buildings from a stone tower.",
+  "tags": [
+   "city",
+   "old town",
+   "square",
+   "tower",
+   "view",
+   "trees",
+   "sunny",
+   "static"
+  ],
+  "location": "Spain (Valencia, Torres de Serranos)",
+  "orientation": "horizontal",
+  "duration": 4.76,
+  "usable": [
+   [
+    0,
+    4.76
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVKA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260702065031_0348_D.MP4",
+  "folder": "Spain 2026",
+  "shot": "sunrise over the sea",
+  "description": "Steady wide shot of the sun rising over the sea under pink clouds with waves rolling onto a dark beach.",
+  "tags": [
+   "sunrise",
+   "sea",
+   "beach",
+   "waves",
+   "clouds",
+   "golden hour",
+   "morning",
+   "static",
+   "calm"
+  ],
+  "location": "Spain (Valencia beach, likely Malvarrosa)",
+  "orientation": "horizontal",
+  "duration": 7.47,
+  "usable": [
+   [
+    0,
+    7.47
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVLA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707064545_0350_D.MP4",
+  "folder": "Spain 2026",
+  "shot": "dawn on the beach",
+  "description": "Static vertical shot of a calm beach at dawn with a red sun just above the horizon and a lone figure at the water's edge.",
+  "tags": [
+   "dawn",
+   "sunrise",
+   "beach",
+   "sea",
+   "silhouette",
+   "calm",
+   "morning",
+   "static",
+   "pastel"
+  ],
+  "location": "Spain (Valencia beach, likely Malvarrosa)",
+  "orientation": "vertical",
+  "duration": 6.61,
+  "usable": [
+   [
+    0,
+    6.61
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVLg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707064600_0351_D.MP4",
+  "folder": "Spain 2026",
+  "shot": "dog on beach at sunrise",
+  "description": "Static vertical shot of the sunrise over a calm sea as a dog sniffs along the beach and a paddleboarder floats offshore.",
+  "tags": [
+   "sunrise",
+   "beach",
+   "dog",
+   "sea",
+   "calm",
+   "morning",
+   "static",
+   "pastel"
+  ],
+  "location": "Spain (Valencia beach, likely Malvarrosa)",
+  "orientation": "vertical",
+  "duration": 7.62,
+  "usable": [
+   [
+    0,
+    7.62
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVQA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707065244_0360_D.MP4",
+  "folder": "Spain 2026",
+  "shot": "standing in sea at sunrise",
+  "description": "Shirtless Anton stands waist-deep in a calm sea gazing at the rising sun, in warm silhouette.",
+  "tags": [
+   "anton",
+   "sea",
+   "sunrise",
+   "silhouette",
+   "golden hour",
+   "calm",
+   "morning",
+   "contemplative"
+  ],
+  "location": "Spain (Valencia beach, likely Malvarrosa)",
+  "orientation": "vertical",
+  "duration": 8.51,
+  "usable": [
+   [
+    0,
+    8.51
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVQg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707065325_0361_D.MP4",
+  "folder": "Spain 2026",
+  "shot": "sunrise reflection on water",
+  "description": "Low shot of the sun rising over a calm sea with golden reflections on the water.",
+  "tags": [
+   "sunrise",
+   "sea",
+   "reflection",
+   "golden hour",
+   "calm",
+   "water",
+   "morning",
+   "orange"
+  ],
+  "location": "Spain (Valencia beach, likely Malvarrosa)",
+  "orientation": "vertical",
+  "duration": 14.08,
+  "usable": [
+   [
+    0,
+    14.08
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVUg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707080031_0369_D.MP4",
+  "folder": "Spain 2026",
+  "shot": "fruit stall at market",
+  "description": "Short pan across a colourful fruit stall piled with melons, peaches, cherries and bananas under market lights.",
+  "tags": [
+   "fruit",
+   "market",
+   "stall",
+   "produce",
+   "colorful",
+   "indoors",
+   "pan",
+   "food"
+  ],
+  "location": "Spain (Valencia, covered food market, likely Mercado del Cabanyal)",
+  "orientation": "vertical",
+  "duration": 3.29,
+  "usable": [
+   [
+    0,
+    3.29
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACVWA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 7/BROLL/DJI_20260707080216_0372_D.MP4",
+  "folder": "Spain 2026",
+  "shot": "fish counter display",
+  "description": "Slow move along a fish counter laid with prawns, fish and seafood on ice.",
+  "tags": [
+   "seafood",
+   "fish counter",
+   "prawns",
+   "fish",
+   "ice",
+   "market",
+   "food"
+  ],
+  "location": "Spain (Valencia, covered food market, likely Mercado del Cabanyal)",
+  "orientation": "vertical",
+  "duration": 5.08,
+  "usable": [
+   [
+    0,
+    5.08
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACS-Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_1502.MOV",
+  "folder": "Spain 2026",
+  "shot": "resort pool with sea view",
+  "description": "Steady elevated view over manicured gardens and a blue resort pool with the Mediterranean on the horizon.",
+  "tags": [
+   "pool",
+   "resort",
+   "garden",
+   "sea view",
+   "mediterranean",
+   "sunny",
+   "static",
+   "summer",
+   "blue"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 7.93,
+  "usable": [
+   [
+    0,
+    7.93
+   ]
+  ],
+  "quality": 4,
+  "notes": "iPhone 4K; near-identical to IMG_1503",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACS8Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_1503.MOV",
+  "folder": "Spain 2026",
+  "shot": "resort pool with sea view",
+  "description": "Steady elevated view over manicured gardens and a blue resort pool with the Mediterranean on the horizon.",
+  "tags": [
+   "pool",
+   "resort",
+   "garden",
+   "sea view",
+   "mediterranean",
+   "sunny",
+   "static",
+   "summer",
+   "blue"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 7.93,
+  "usable": [
+   [
+    0,
+    7.93
+   ]
+  ],
+  "quality": 4,
+  "notes": "iPhone 4K; near-identical to IMG_1502",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTDA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_1505.MOV",
+  "folder": "Spain 2026",
+  "shot": "turquoise cove through pines",
+  "description": "Steady vertical view past pine branches down to a turquoise Mediterranean cove and rocky headland.",
+  "tags": [
+   "sea",
+   "cove",
+   "turquoise",
+   "pine trees",
+   "cliffs",
+   "mediterranean",
+   "sunny",
+   "static",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 5.9,
+  "usable": [
+   [
+    0,
+    5.9
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTAw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_1507.MOV",
+  "folder": "Spain 2026",
+  "shot": "rocky coastline and calm sea",
+  "description": "Static vertical view of a wooded rocky headland above calm deep-blue sea.",
+  "tags": [
+   "sea",
+   "coast",
+   "headland",
+   "rocks",
+   "pine trees",
+   "calm",
+   "blue",
+   "static",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 4.53,
+  "usable": [
+   [
+    0,
+    4.53
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTBw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_1512.MOV",
+  "folder": "Spain 2026",
+  "shot": "turquoise cove from clifftop",
+  "description": "Static vertical clifftop view down onto a rocky turquoise cove with pines and swimmers.",
+  "tags": [
+   "sea",
+   "cove",
+   "turquoise",
+   "cliffs",
+   "pine trees",
+   "rocks",
+   "mediterranean",
+   "sunny",
+   "static"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 4.27,
+  "usable": [
+   [
+    0,
+    4.27
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACS9g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_1518.MOV",
+  "folder": "Spain 2026",
+  "shot": "cobbled seafront and beach",
+  "description": "Static vertical view along a cobbled seafront path beside a sandy beach and white houses.",
+  "tags": [
+   "seafront",
+   "cobblestones",
+   "beach",
+   "village",
+   "white houses",
+   "sunny",
+   "static",
+   "mediterranean"
+  ],
+  "location": "Spain (Costa Brava, looks like Calella de Palafrugell)",
+  "orientation": "vertical",
+  "duration": 9.1,
+  "usable": [
+   [
+    0,
+    9.1
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACS_Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_1529.MOV",
+  "folder": "Spain 2026",
+  "shot": "bay full of moored boats",
+  "description": "Static vertical shot of a calm bay filled with moored boats beneath green hills.",
+  "tags": [
+   "bay",
+   "boats",
+   "sea",
+   "calm",
+   "hills",
+   "mediterranean",
+   "sunny",
+   "static"
+  ],
+  "location": "Spain (Costa Brava, looks like Calella de Palafrugell)",
+  "orientation": "vertical",
+  "duration": 5.37,
+  "usable": [
+   [
+    0,
+    5.37
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTAg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_1536.MOV",
+  "folder": "Spain 2026",
+  "shot": "rocky headland and sea",
+  "description": "Static vertical view of a forested rocky headland with waves washing over rocks below.",
+  "tags": [
+   "sea",
+   "headland",
+   "rocks",
+   "waves",
+   "pine trees",
+   "blue",
+   "static",
+   "sunny"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 4.3,
+  "usable": [
+   [
+    0,
+    4.3
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTCw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4113.MOV",
+  "folder": "Spain 2026",
+  "shot": "walking into the sea",
+  "description": "Static vertical shot of Anton walking out over mossy rocks into a calm clear sea.",
+  "tags": [
+   "anton",
+   "sea",
+   "wading",
+   "rocks",
+   "clear water",
+   "calm",
+   "sunny",
+   "static",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 7.33,
+  "usable": [
+   [
+    0,
+    7.33
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTDw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4149.MOV",
+  "folder": "Spain 2026",
+  "shot": "waves over coastal rocks",
+  "description": "Looking down at turquoise waves washing around golden coastal rocks.",
+  "tags": [
+   "waves",
+   "rocks",
+   "sea",
+   "turquoise",
+   "coast",
+   "sunny",
+   "texture",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 4.05,
+  "usable": [
+   [
+    0,
+    4.05
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTCg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4151.MOV",
+  "folder": "Spain 2026",
+  "shot": "rocky headland and sea",
+  "description": "Static vertical view of a wooded headland and rocky islets with waves and deep blue sea.",
+  "tags": [
+   "sea",
+   "headland",
+   "rocks",
+   "waves",
+   "pine trees",
+   "blue",
+   "static",
+   "sunny"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 4.48,
+  "usable": [
+   [
+    0,
+    4.48
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTBg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4152.MOV",
+  "folder": "Spain 2026",
+  "shot": "climbing over rocks to sea",
+  "description": "Shirtless Anton in blue shorts turns, then clambers across granite boulders toward the sea.",
+  "tags": [
+   "anton",
+   "rocks",
+   "boulders",
+   "sea",
+   "climbing",
+   "shirtless",
+   "sunny",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 12.7,
+  "usable": [
+   [
+    0,
+    12.7
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTCQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4159.MOV",
+  "folder": "Spain 2026",
+  "shot": "sunbathing on granite rocks",
+  "description": "Closer static shot of Anton lying on granite rocks in the sun with the sea and cliff behind.",
+  "tags": [
+   "anton",
+   "sunbathing",
+   "lying down",
+   "rocks",
+   "sea",
+   "cliff",
+   "sunny",
+   "static",
+   "relaxing"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 3.47,
+  "usable": [
+   [
+    0,
+    3.5
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTBQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4160.MOV",
+  "folder": "Spain 2026",
+  "shot": "clear water over pebbles",
+  "description": "Static vertical view across clear shallow water over pebbles to a rocky outcrop and open sea.",
+  "tags": [
+   "sea",
+   "clear water",
+   "pebbles",
+   "rocks",
+   "shallows",
+   "sunny",
+   "static",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 5.33,
+  "usable": [
+   [
+    0,
+    5.2
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACMuA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/April 14/Video 2026-04-13, 2 58 39 PM.mov",
+  "folder": "Toronto 2026",
+  "shot": "burger and fries overhead",
+  "description": "Overhead handheld shot of a burger, fries, dip and a glass Coca-Cola bottle in takeout containers on a metal patio table; a hand lifts the Coke.",
+  "tags": [
+   "food",
+   "burger",
+   "fries",
+   "coca-cola",
+   "takeout",
+   "overhead",
+   "patio",
+   "lunch",
+   "handheld"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 7.64,
+  "usable": [
+   [
+    0,
+    7.64
+   ]
+  ],
+  "quality": 4,
+  "notes": "Slight handheld drift.",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOMg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-23, 7 19 00 PM.mov",
+  "folder": "Toronto 2026",
+  "shot": "beach sunset",
+  "description": "Low-sun golden sunset over a sandy beach with silhouetted people and a beach bar.",
+  "tags": [
+   "beach",
+   "sunset",
+   "golden hour",
+   "sand",
+   "sun flare",
+   "silhouettes",
+   "warm",
+   "static"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 5.5,
+  "usable": [
+   [
+    0,
+    5.5
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOLw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-23, 7 19 46 PM.mov",
+  "folder": "Toronto 2026",
+  "shot": "beach sunset",
+  "description": "Sun setting over a wide sandy beach with lifeguard stand, slight handheld pan.",
+  "tags": [
+   "beach",
+   "sunset",
+   "golden hour",
+   "sand",
+   "lifeguard stand",
+   "warm",
+   "orange sky"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 5.77,
+  "usable": [
+   [
+    0,
+    5.77
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOKA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 1 27 02 PM.mov",
+  "folder": "Toronto 2026",
+  "shot": "burger and fries",
+  "description": "Hand holds a juicy burger next to a basket of crispy fries on a sunny outdoor table.",
+  "tags": [
+   "food",
+   "burger",
+   "fries",
+   "tallow fries",
+   "lunch",
+   "sunny",
+   "outdoor dining",
+   "handheld"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 4.97,
+  "usable": [
+   [
+    0,
+    4.97
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOJA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 1 42 20 PM.mov",
+  "folder": "Toronto 2026",
+  "shot": "tallow sign",
+  "description": "Red chalkboard sign: 'We use no seed oils, we fry in 100% beef tallow!' on a sunny boardwalk.",
+  "tags": [
+   "sign",
+   "beef tallow",
+   "no seed oils",
+   "restaurant",
+   "boardwalk",
+   "sunny",
+   "red",
+   "static"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 3.63,
+  "usable": [
+   [
+    0,
+    3.63
+   ]
+  ],
+  "quality": 4,
+  "notes": "Great for seed-oil content.",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOJQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 4 00 57 PM.mov",
+  "folder": "Toronto 2026",
+  "shot": "wild horses on dunes",
+  "description": "Horizontal wide of wild horses grazing on grassy dunes with sparkling ocean behind.",
+  "tags": [
+   "wild horses",
+   "sand dunes",
+   "ocean",
+   "beach grass",
+   "outer banks",
+   "nature",
+   "daytime",
+   "static"
+  ],
+  "location": "North Carolina (Outer Banks)",
+  "orientation": "horizontal",
+  "duration": 8.57,
+  "usable": [
+   [
+    0,
+    8.57
+   ]
+  ],
+  "quality": 4,
+  "notes": "Handheld slight sway.",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOGw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 4 06 51 PM.mov",
+  "folder": "Toronto 2026",
+  "shot": "wild horses on dunes",
+  "description": "Horizontal: mare and foal grazing on dunes, ocean and people on a ridge behind.",
+  "tags": [
+   "wild horses",
+   "sand dunes",
+   "ocean",
+   "beach grass",
+   "outer banks",
+   "nature",
+   "daytime",
+   "static"
+  ],
+  "location": "North Carolina (Outer Banks)",
+  "orientation": "horizontal",
+  "duration": 5.67,
+  "usable": [
+   [
+    0,
+    5.67
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOGg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 4 08 49 PM.mov",
+  "folder": "Toronto 2026",
+  "shot": "wild horses on dunes",
+  "description": "Horizontal: brown horse and foal grazing close on a sandy dune, ocean behind.",
+  "tags": [
+   "wild horses",
+   "sand dunes",
+   "ocean",
+   "beach grass",
+   "outer banks",
+   "nature",
+   "daytime",
+   "static"
+  ],
+  "location": "North Carolina (Outer Banks)",
+  "orientation": "horizontal",
+  "duration": 7.67,
+  "usable": [
+   [
+    0,
+    7.67
+   ]
+  ],
+  "quality": 4,
+  "notes": "Nice close framing.",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOEw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 7 07 54 PM.mov",
+  "folder": "Toronto 2026",
+  "shot": "golden hour portrait",
+  "description": "Anton in an open linen shirt, hair blowing, eyes closed in golden evening light against blue sky.",
+  "tags": [
+   "anton",
+   "portrait",
+   "golden hour",
+   "linen shirt",
+   "wind",
+   "blue sky",
+   "calm",
+   "selfie"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 4.97,
+  "usable": [
+   [
+    0,
+    4.97
+   ]
+  ],
+  "quality": 4,
+  "notes": "Selfie framing.",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOFA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 7 08 34 PM.mov",
+  "folder": "Toronto 2026",
+  "shot": "drinking juice",
+  "description": "Anton in a linen shirt chugs an orange juice bottle in golden evening light against blue sky.",
+  "tags": [
+   "anton",
+   "drinking",
+   "orange juice",
+   "bottle",
+   "golden hour",
+   "linen shirt",
+   "blue sky"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 7.07,
+  "usable": [
+   [
+    0.5,
+    5.5
+   ]
+  ],
+  "quality": 4,
+  "notes": "Selfie angle; talking at the end.",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACOKQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/North Carolina/Video 2026-04-25, 7 33 09 AM.mov",
+  "folder": "Toronto 2026",
+  "shot": "boardwalk to the dock",
+  "description": "Static shot down a long wooden boardwalk through marsh grass to a dock and gazebo on the water.",
+  "tags": [
+   "boardwalk",
+   "marsh",
+   "dock",
+   "water",
+   "leading lines",
+   "blue sky",
+   "static",
+   "morning"
+  ],
+  "location": "North Carolina",
+  "orientation": "vertical",
+  "duration": 4.83,
+  "usable": [
+   [
+    0,
+    4.83
+   ]
+  ],
+  "quality": 4,
+  "notes": "Strong leading lines.",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACM2A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Party 2/Video 2026-04-16, 6 47 33 PM.mov",
+  "folder": "Toronto 2026",
+  "shot": "oyster picnic toast",
+  "description": "Friends around a checkered picnic table in a park raise their drinks and cheers, with charcuterie and oysters.",
+  "tags": [
+   "friends",
+   "picnic",
+   "cheers",
+   "toast",
+   "park",
+   "checkered tablecloth",
+   "charcuterie",
+   "social",
+   "spring"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 9.53,
+  "usable": [
+   [
+    0,
+    9.53
+   ]
+  ],
+  "quality": 4,
+  "notes": "Handheld but lively; good social moment.",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACQRQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Victoria Day/DJI_20260518162613_0075_D.MP4",
+  "folder": "Toronto 2026",
+  "shot": "lake ontario rocky shore",
+  "description": "Static wide of Anton shirtless on a rocky Lake Ontario shore, walking to the water and spraying something, deep blue lake and sky.",
+  "tags": [
+   "anton",
+   "lake ontario",
+   "shore",
+   "rocks",
+   "blue sky",
+   "water",
+   "shirtless",
+   "static",
+   "summer"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 26.6,
+  "usable": [
+   [
+    5,
+    26.6
+   ]
+  ],
+  "quality": 4,
+  "notes": "DJI; someone's leg in frame at start.",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACQVA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Victoria Day/Video 2026-05-18, 5 39 33 PM.mov",
+  "folder": "Toronto 2026",
+  "shot": "lake ontario water",
+  "description": "Clear blue Lake Ontario water lapping over a pebble shore under cloudless sky.",
+  "tags": [
+   "lake ontario",
+   "water",
+   "pebbles",
+   "shore",
+   "blue sky",
+   "calm",
+   "summer",
+   "clear water"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 3.13,
+  "usable": [
+   [
+    0,
+    3.13
+   ]
+  ],
+  "quality": 4,
+  "notes": "Short; slight handheld drift.",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLVA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2328.MOV",
+  "folder": "Toronto 2026",
+  "shot": "snowboarding",
+  "description": "Snowboarder carves past camera; ends with mountain valley view behind a rider.",
+  "tags": [
+   "snowboarding",
+   "snow",
+   "ski slope",
+   "winter",
+   "mountain",
+   "pine trees",
+   "action",
+   "valley view"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 10.14,
+  "usable": [
+   [
+    0,
+    10.14
+   ]
+  ],
+  "quality": 4,
+  "notes": "Nice valley view at end.",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLKA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 12 26 06 PM.mov",
+  "folder": "Toronto 2026",
+  "shot": "snowy forest from chairlift",
+  "description": "Horizontal view from a chairlift over snow-dusted pine forest and misty mountainside.",
+  "tags": [
+   "chairlift",
+   "snowy forest",
+   "pine trees",
+   "mountain",
+   "mist",
+   "winter",
+   "horizontal",
+   "moving"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "horizontal",
+  "duration": 6.3,
+  "usable": [
+   [
+    0,
+    6.3
+   ]
+  ],
+  "quality": 4,
+  "notes": "Smooth lift motion.",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLIw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 12 26 37 PM.mov",
+  "folder": "Toronto 2026",
+  "shot": "chairlift line",
+  "description": "Vertical view of chairlift towers and chairs climbing a snowy run toward cloud-covered mountains.",
+  "tags": [
+   "chairlift",
+   "ski resort",
+   "snow",
+   "pine trees",
+   "mountains",
+   "clouds",
+   "winter",
+   "moving"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 6.8,
+  "usable": [
+   [
+    0,
+    6.8
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLHg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 12 52 05 PM.mov",
+  "folder": "Toronto 2026",
+  "shot": "snowboard pov resting",
+  "description": "POV sitting with lime snowboard, looking out at ski runs and cloudy mountains, sun behind clouds.",
+  "tags": [
+   "snowboard",
+   "pov",
+   "legs",
+   "mountain view",
+   "ski resort",
+   "winter",
+   "clouds",
+   "resting"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 4.07,
+  "usable": [
+   [
+    0,
+    4.07
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLHw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 12 52 23 PM.mov",
+  "folder": "Toronto 2026",
+  "shot": "snowboard pov resting",
+  "description": "Horizontal POV of lime snowboard and legs resting on the slope with a valley and ski runs view.",
+  "tags": [
+   "snowboard",
+   "pov",
+   "legs",
+   "mountain view",
+   "ski resort",
+   "winter",
+   "clouds",
+   "resting"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "horizontal",
+  "duration": 5.0,
+  "usable": [
+   [
+    0,
+    5.0
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLGQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 3 39 59 PM.mov",
+  "folder": "Toronto 2026",
+  "shot": "summit mountain vista",
+  "description": "Horizontal pan over a vast snowy Adirondack mountain range under clouds; a friend in helmet and backpack crosses the frame.",
+  "tags": [
+   "mountain range",
+   "summit",
+   "vista",
+   "adirondacks",
+   "winter",
+   "clouds",
+   "epic",
+   "horizontal",
+   "pan"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "horizontal",
+  "duration": 12.51,
+  "usable": [
+   [
+    0,
+    6
+   ],
+   [
+    9,
+    12.51
+   ]
+  ],
+  "quality": 4,
+  "notes": "Person blocks shot mid-clip.",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLGA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 3 40 37 PM.mov",
+  "folder": "Toronto 2026",
+  "shot": "summit vista",
+  "description": "Horizontal static of a snowy summit edge overlooking cloud-capped mountain ranges.",
+  "tags": [
+   "mountain range",
+   "summit",
+   "vista",
+   "snow",
+   "clouds",
+   "winter",
+   "horizontal",
+   "static"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "horizontal",
+  "duration": 4.5,
+  "usable": [
+   [
+    0,
+    4.5
+   ]
+  ],
+  "quality": 4,
+  "notes": "Slight tilt.",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACYSQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto summer 2026/sept 20/DJI_20260920183453_0111_D.MP4",
+  "folder": "Toronto summer 2026",
+  "shot": "bike pov ride",
+  "description": "POV from e-bike handlebars riding down a quiet tree-lined city street under blue sky.",
+  "tags": [
+   "biking",
+   "pov",
+   "handlebars",
+   "street",
+   "city",
+   "trees",
+   "sunny",
+   "summer",
+   "motion"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 4.25,
+  "usable": [
+   [
+    0,
+    4.25
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACKEw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/March 7/Video 2026-03-07, 5 31 28 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "walking on beach at sunset",
+  "description": "Anton in white linen walks along the shore at sunset near a pier.",
+  "tags": [
+   "beach",
+   "sunset",
+   "silhouette",
+   "sea",
+   "golden hour",
+   "walking",
+   "pier"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "horizontal",
+  "duration": 29.54,
+  "usable": [
+   [
+    0,
+    29.5
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACKDw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/March 7/Video 2026-03-07, 5 32 25 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "walking on beach at sunset",
+  "description": "Silhouette of Anton walking along the water's edge at sunset.",
+  "tags": [
+   "beach",
+   "sunset",
+   "silhouette",
+   "sea",
+   "golden hour",
+   "walking"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "vertical",
+  "duration": 20.74,
+  "usable": [
+   [
+    0,
+    20.7
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACKDA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/March 7/Video 2026-03-07, 5 36 30 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "walking on beach at sunset",
+  "description": "Anton walks along the shoreline in backlit sunset light.",
+  "tags": [
+   "beach",
+   "sunset",
+   "silhouette",
+   "sea",
+   "golden hour",
+   "walking"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "vertical",
+  "duration": 12.53,
+  "usable": [
+   [
+    0,
+    12.5
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACKNg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/March 9/Video 2026-03-09, 6 09 32 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "walking with surfboard",
+  "description": "Anton carries an orange surfboard with a backpack down onto the beach; he is followed from behind.",
+  "tags": [
+   "surfboard",
+   "walking",
+   "beach",
+   "backpack",
+   "follow shot",
+   "cloudy",
+   "plants"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "horizontal",
+  "duration": 14.17,
+  "usable": [
+   [
+    0,
+    13
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACH6A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/friday/Video 2026-02-12, 8 56 47 AM.mov",
+  "folder": "brazil 2025",
+  "shot": "ipanema beach with dois irmaos",
+  "description": "Ipanema beach with Dois Irmãos mountain under dramatic clouds.",
+  "tags": [
+   "ipanema",
+   "beach",
+   "dois irmaos",
+   "mountain",
+   "clouds",
+   "rio",
+   "static"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "vertical",
+  "duration": 5.0,
+  "usable": [
+   [
+    0,
+    5
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACH5w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/friday/Video 2026-02-12, 8 56 57 AM.mov",
+  "folder": "brazil 2025",
+  "shot": "ipanema beach with dois irmaos",
+  "description": "Wide shot of Ipanema beach, umbrellas and high-rises with Dois Irmãos and a cloudy sky.",
+  "tags": [
+   "ipanema",
+   "beach",
+   "dois irmaos",
+   "mountain",
+   "clouds",
+   "rio",
+   "wide",
+   "static"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "horizontal",
+  "duration": 5.6,
+  "usable": [
+   [
+    0,
+    5.6
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACH0g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/friday/Video 2026-02-13, 2 50 42 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "carnival bloco crowd",
+  "description": "A dense carnival crowd with rainbow fans and signs by a pink building in the sun.",
+  "tags": [
+   "carnival",
+   "crowd",
+   "rio",
+   "party",
+   "colorful",
+   "sunny",
+   "pink building"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "horizontal",
+  "duration": 7.74,
+  "usable": [
+   [
+    0,
+    7.7
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACHwA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/friday/Video 2026-02-13, 6 33 12 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "ipanema sunset with dois irmaos",
+  "description": "Ipanema beach at sunset with Dois Irmãos mountain silhouetted.",
+  "tags": [
+   "ipanema",
+   "sunset",
+   "dois irmaos",
+   "beach",
+   "rio",
+   "silhouette",
+   "golden hour"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "vertical",
+  "duration": 2.6,
+  "usable": [
+   [
+    0,
+    2.6
+   ]
+  ],
+  "quality": 4,
+  "notes": "Short.",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACHxA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/friday/Video 2026-02-13, 6 33 23 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "ipanema sunset with dois irmaos",
+  "description": "Static view of Ipanema at sunset with Dois Irmãos and crowds on the sand.",
+  "tags": [
+   "ipanema",
+   "sunset",
+   "dois irmaos",
+   "beach",
+   "rio",
+   "silhouette",
+   "static"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "vertical",
+  "duration": 5.2,
+  "usable": [
+   [
+    0,
+    5.2
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACHvw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/friday/Video 2026-02-13, 6 33 31 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "ipanema sunset with dois irmaos",
+  "description": "Wide horizontal shot of Ipanema beach at dusk with Dois Irmãos and the city.",
+  "tags": [
+   "ipanema",
+   "sunset",
+   "dois irmaos",
+   "beach",
+   "rio",
+   "wide",
+   "dusk"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "horizontal",
+  "duration": 3.67,
+  "usable": [
+   [
+    0,
+    3.6
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACHug",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/friday/Video 2026-02-13, 7 47 25 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "meat carved at table",
+  "description": "A gaucho waiter carves meat off a skewer onto Anton's plate at a churrascaria.",
+  "tags": [
+   "churrascaria",
+   "meat",
+   "skewer",
+   "carving",
+   "restaurant",
+   "food",
+   "picanha"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "vertical",
+  "duration": 5.3,
+  "usable": [
+   [
+    0,
+    5.3
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACIcA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-15, 2 15 32 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "rainforest viewpoint",
+  "description": "View over lush rainforest canopy to distant Rio mountains under a blue sky.",
+  "tags": [
+   "rainforest",
+   "viewpoint",
+   "canopy",
+   "mountains",
+   "blue sky",
+   "tijuca",
+   "green"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "vertical",
+  "duration": 4.17,
+  "usable": [
+   [
+    0,
+    4.1
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACIbQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-15, 2 55 51 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "rainforest viewpoint",
+  "description": "Wide horizontal view over the forest to Barra da Tijuca, mountains and the ocean.",
+  "tags": [
+   "viewpoint",
+   "rio",
+   "ocean",
+   "mountains",
+   "clouds",
+   "forest",
+   "wide",
+   "blue sky"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "horizontal",
+  "duration": 3.2,
+  "usable": [
+   [
+    0,
+    3.2
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACIbw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-15, 4 29 42 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "wading to waterfall",
+  "description": "Anton wades through a clear pool toward a rainforest waterfall.",
+  "tags": [
+   "waterfall",
+   "wading",
+   "rainforest",
+   "pool",
+   "nature",
+   "adventure"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "vertical",
+  "duration": 5.82,
+  "usable": [
+   [
+    0,
+    5.8
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACIcg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-15, 4 29 49 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "standing under waterfall",
+  "description": "Anton stands under a powerful waterfall in the rainforest.",
+  "tags": [
+   "waterfall",
+   "cold water",
+   "rainforest",
+   "nature",
+   "shower",
+   "adventure"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "vertical",
+  "duration": 17.49,
+  "usable": [
+   [
+    0,
+    17.4
+   ]
+  ],
+  "quality": 4,
+  "notes": "Fits the cold exposure theme.",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACIZA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-16, 6 41 35 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "ipanema sunset with dois irmaos",
+  "description": "Static shot of Dois Irmãos and Ipanema beach at dusk.",
+  "tags": [
+   "ipanema",
+   "sunset",
+   "dois irmaos",
+   "beach",
+   "dusk",
+   "static",
+   "rio"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "vertical",
+  "duration": 8.3,
+  "usable": [
+   [
+    0,
+    8.3
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACIXA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-16, 6 43 48 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "waves at dusk",
+  "description": "Waves rolling and breaking under a pastel dusk sky.",
+  "tags": [
+   "waves",
+   "ocean",
+   "dusk",
+   "pastel",
+   "rio",
+   "static"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "vertical",
+  "duration": 8.54,
+  "usable": [
+   [
+    0,
+    8.5
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACIWA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-16, 6 44 42 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "ipanema sunset with dois irmaos",
+  "description": "Ipanema beach at sunset with Dois Irmãos and people sitting on the sand.",
+  "tags": [
+   "ipanema",
+   "sunset",
+   "dois irmaos",
+   "beach",
+   "rio",
+   "golden hour"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "horizontal",
+  "duration": 4.77,
+  "usable": [
+   [
+    0,
+    4.7
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACIWQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-16, 6 44 50 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "ipanema sunset with dois irmaos",
+  "description": "Low view of Dois Irmãos towering over the beach at dusk with people on the shore.",
+  "tags": [
+   "ipanema",
+   "dusk",
+   "dois irmaos",
+   "beach",
+   "rio",
+   "silhouettes"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "horizontal",
+  "duration": 6.9,
+  "usable": [
+   [
+    0,
+    6.9
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACIVw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-16, 6 52 49 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "ipanema at blue hour",
+  "description": "Dois Irmãos silhouetted at blue hour with an orange horizon and beach lights.",
+  "tags": [
+   "ipanema",
+   "blue hour",
+   "dois irmaos",
+   "beach",
+   "dusk",
+   "rio"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "vertical",
+  "duration": 5.92,
+  "usable": [
+   [
+    0,
+    5.9
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACIOg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-18, 5 12 17 AM.mov",
+  "folder": "brazil 2025",
+  "shot": "dawn over ipanema from summit",
+  "description": "Dawn from Dois Irmãos summit: orange horizon over the sea, Ipanema lights curving below.",
+  "tags": [
+   "sunrise",
+   "dawn",
+   "ipanema",
+   "summit",
+   "dois irmaos",
+   "city lights",
+   "orange",
+   "wide"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "horizontal",
+  "duration": 5.58,
+  "usable": [
+   [
+    0,
+    5.5
+   ]
+  ],
+  "quality": 4,
+  "notes": "Lamp post in frame.",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACIPA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-18, 5 16 01 AM.mov",
+  "folder": "brazil 2025",
+  "shot": "dawn over ipanema from summit",
+  "description": "Wide shot of a fiery dawn over the ocean with the lit curve of Ipanema/Leblon below.",
+  "tags": [
+   "sunrise",
+   "dawn",
+   "ipanema",
+   "summit",
+   "ocean",
+   "city lights",
+   "orange",
+   "wide"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "horizontal",
+  "duration": 5.14,
+  "usable": [
+   [
+    0,
+    5.1
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACIOw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-18, 5 16 10 AM.mov",
+  "folder": "brazil 2025",
+  "shot": "dawn over ipanema from summit",
+  "description": "Dawn sky over the ocean with Ipanema lights and crowd silhouettes on the summit.",
+  "tags": [
+   "sunrise",
+   "dawn",
+   "ipanema",
+   "summit",
+   "ocean",
+   "silhouettes",
+   "wide"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "horizontal",
+  "duration": 4.0,
+  "usable": [
+   [
+    0,
+    4
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACIOA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-18, 5 16 23 AM.mov",
+  "folder": "brazil 2025",
+  "shot": "dawn over ipanema from summit",
+  "description": "Vertical shot of dawn over the sea and Ipanema beach lights from the summit.",
+  "tags": [
+   "sunrise",
+   "dawn",
+   "ipanema",
+   "summit",
+   "ocean",
+   "vertical"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "vertical",
+  "duration": 3.78,
+  "usable": [
+   [
+    0,
+    3.7
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACIMw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-18, 5 26 28 AM.mov",
+  "folder": "brazil 2025",
+  "shot": "misty sunrise over rio",
+  "description": "Pan over misty mountains, the lagoon and Sugarloaf to the ocean at sunrise from Dois Irmãos.",
+  "tags": [
+   "sunrise",
+   "mist",
+   "mountains",
+   "lagoa",
+   "sugarloaf",
+   "rio",
+   "pan",
+   "pastel"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "horizontal",
+  "duration": 12.97,
+  "usable": [
+   [
+    0,
+    13
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACIMg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-18, 5 27 48 AM.mov",
+  "folder": "brazil 2025",
+  "shot": "misty sunrise over rio",
+  "description": "Vertical pan from misty mountains over Lagoa to the Ipanema coastline at sunrise.",
+  "tags": [
+   "sunrise",
+   "mist",
+   "mountains",
+   "lagoa",
+   "ipanema",
+   "rio",
+   "pan"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "vertical",
+  "duration": 9.63,
+  "usable": [
+   [
+    0,
+    9.6
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACILQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-18, 5 33 07 AM.mov",
+  "folder": "brazil 2025",
+  "shot": "misty sunrise over rio",
+  "description": "Horizontal pan over the hazy Rio skyline, mountains and coast at sunrise.",
+  "tags": [
+   "sunrise",
+   "mist",
+   "mountains",
+   "coast",
+   "rio",
+   "pan",
+   "wide"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "horizontal",
+  "duration": 9.3,
+  "usable": [
+   [
+    0,
+    9.3
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACIKg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-18, 5 36 44 AM.mov",
+  "folder": "brazil 2025",
+  "shot": "misty sunrise over rio",
+  "description": "Vertical pan from misty mountains and Lagoa down the Ipanema coastline to the sea.",
+  "tags": [
+   "sunrise",
+   "mist",
+   "mountains",
+   "lagoa",
+   "ipanema",
+   "rio",
+   "pan"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "vertical",
+  "duration": 7.37,
+  "usable": [
+   [
+    0,
+    7.3
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACIKA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-18, 5 40 15 AM.mov",
+  "folder": "brazil 2025",
+  "shot": "sunrise over ocean",
+  "description": "The sun just breaking the horizon in a red sky over the ocean, static.",
+  "tags": [
+   "sunrise",
+   "ocean",
+   "horizon",
+   "red",
+   "sun",
+   "static",
+   "wide"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "horizontal",
+  "duration": 5.34,
+  "usable": [
+   [
+    0,
+    5.3
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACIJw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-18, 5 41 28 AM.mov",
+  "folder": "brazil 2025",
+  "shot": "sunrise over ocean",
+  "description": "The red sun rising out of the ocean beneath a cloud band.",
+  "tags": [
+   "sunrise",
+   "ocean",
+   "sun",
+   "red",
+   "horizon",
+   "static"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "horizontal",
+  "duration": 4.64,
+  "usable": [
+   [
+    0,
+    4.6
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACIJQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-18, 5 43 11 AM.mov",
+  "folder": "brazil 2025",
+  "shot": "misty sunrise over rio",
+  "description": "Pan from misty Rio mountains and islands across to the red sun rising over the sea.",
+  "tags": [
+   "sunrise",
+   "mist",
+   "mountains",
+   "ocean",
+   "sun",
+   "pan",
+   "pink sky",
+   "rio"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "horizontal",
+  "duration": 6.1,
+  "usable": [
+   [
+    0,
+    6.1
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACIIw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-18, 5 47 15 AM.mov",
+  "folder": "brazil 2025",
+  "shot": "crowd watching sunrise",
+  "description": "Wide shot of the summit crowd in front of the sun rising over the bay.",
+  "tags": [
+   "sunrise",
+   "crowd",
+   "summit",
+   "sun",
+   "ocean",
+   "wide",
+   "rio"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "horizontal",
+  "duration": 8.34,
+  "usable": [
+   [
+    0,
+    8.3
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACIIA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-18, 5 52 28 AM.mov",
+  "folder": "brazil 2025",
+  "shot": "sun over sea with crowd",
+  "description": "The bright sun over the sea with its reflection, crowd silhouettes in front.",
+  "tags": [
+   "sunrise",
+   "sun",
+   "ocean",
+   "reflection",
+   "crowd",
+   "silhouettes"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "horizontal",
+  "duration": 3.9,
+  "usable": [
+   [
+    0,
+    3.9
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACIGA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-18, 5 56 04 AM.mov",
+  "folder": "brazil 2025",
+  "shot": "hikers with pedra da gavea",
+  "description": "Hikers on a green ridge with Pedra da Gávea glowing in morning light over the sea.",
+  "tags": [
+   "pedra da gavea",
+   "hikers",
+   "ridge",
+   "morning",
+   "ocean",
+   "mountain",
+   "rio"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "horizontal",
+  "duration": 4.67,
+  "usable": [
+   [
+    0,
+    4.6
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACIFQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-18, 6 20 22 AM.mov",
+  "folder": "brazil 2025",
+  "shot": "favela rocinha from above",
+  "description": "Pan over Rocinha favela on the green hillside in morning sun.",
+  "tags": [
+   "favela",
+   "rocinha",
+   "hillside",
+   "rio",
+   "morning",
+   "pan",
+   "aerial view"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "horizontal",
+  "duration": 4.43,
+  "usable": [
+   [
+    0,
+    4.4
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABNKw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 1/Video 2025-11-18, 6 28 00 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "sunset over lagoon",
+  "description": "Golden sun setting over a calm lagoon and hills, framed by a tree branch and sandy bank.",
+  "tags": [
+   "sunset",
+   "lagoon",
+   "water",
+   "hills",
+   "golden hour",
+   "calm",
+   "static",
+   "nature"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 4.83,
+  "usable": [
+   [
+    0,
+    4.83
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABNMA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 1/Video 2025-11-18, 6 28 17 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "sunset over lagoon",
+  "description": "Static wide shot of clouds and a soft sunset reflected on a lagoon with grassy shore.",
+  "tags": [
+   "sunset",
+   "lagoon",
+   "reflection",
+   "clouds",
+   "hills",
+   "golden hour",
+   "static"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 6.47,
+  "usable": [
+   [
+    0,
+    6.47
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABNLg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 1/Video 2025-11-18, 6 29 27 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "brazil flag on canoe at sunset",
+  "description": "A Brazilian flag flutters on the bow of a red outrigger canoe with a lagoon sunset behind.",
+  "tags": [
+   "brazil flag",
+   "canoe",
+   "sunset",
+   "lagoon",
+   "red",
+   "green",
+   "golden hour"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 3.1,
+  "usable": [
+   [
+    0,
+    3.1
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABNMg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 1/Video 2025-11-18, 6 30 54 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "wading into lagoon at sunset",
+  "description": "Anton in a white tee walks barefoot from the grassy shore into a calm lagoon at sunset, then turns back.",
+  "tags": [
+   "lagoon",
+   "wading",
+   "sunset",
+   "barefoot",
+   "water",
+   "clouds",
+   "hills",
+   "golden hour"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 13.7,
+  "usable": [
+   [
+    0,
+    11
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABgtw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 10/Video 2025-12-11, 4 56 54 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "climbing up sand dune",
+  "description": "Static wide shot of Anton climbing a steep dune toward camera past a green flag.",
+  "tags": [
+   "sand dunes",
+   "climbing",
+   "sunny",
+   "adventure",
+   "static",
+   "wide"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 5.9,
+  "usable": [
+   [
+    0,
+    5.9
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABgmQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 10/Video 2025-12-11, 6 26 26 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "sunset over ocean from rocks",
+  "description": "Static shot of the sun setting over a hazy ocean, seen from dark coastal rocks.",
+  "tags": [
+   "sunset",
+   "ocean",
+   "rocks",
+   "golden hour",
+   "sun",
+   "static",
+   "coast"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 4.57,
+  "usable": [
+   [
+    0,
+    4.57
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABglw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 10/Video 2025-12-11, 6 26 34 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "sunset over ocean from rocks",
+  "description": "Golden sun low over the sea with coastal boulders in the foreground.",
+  "tags": [
+   "sunset",
+   "ocean",
+   "rocks",
+   "golden hour",
+   "sun",
+   "static",
+   "coast"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 4.44,
+  "usable": [
+   [
+    0,
+    4.44
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABgjw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 10/Video 2025-12-11, 6 35 17 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "snacks on rocks at sunset",
+  "description": "A jar and a tub of snacks on a rock with the sun setting over the ocean behind.",
+  "tags": [
+   "snacks",
+   "food",
+   "sunset",
+   "ocean",
+   "rocks",
+   "golden hour",
+   "static"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 9.5,
+  "usable": [
+   [
+    0,
+    9.5
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABgkg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 10/Video 2025-12-11, 6 35 28 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "snacks on rocks at sunset",
+  "description": "Jar and tub of snacks on a rock in the foreground with the sun glittering on the ocean behind.",
+  "tags": [
+   "snacks",
+   "food",
+   "sunset",
+   "ocean",
+   "rocks",
+   "golden hour",
+   "static"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 5.57,
+  "usable": [
+   [
+    0,
+    5.57
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABgjQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 10/Video 2025-12-11, 6 45 40 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "sunset over ocean from rocks",
+  "description": "Wide static shot of the sun setting on the horizon over the ocean, coastal boulders in front.",
+  "tags": [
+   "sunset",
+   "ocean",
+   "rocks",
+   "golden hour",
+   "horizon",
+   "static",
+   "coast"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 4.74,
+  "usable": [
+   [
+    0,
+    4.74
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABgjg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 10/Video 2025-12-11, 6 46 59 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "leaning on boulder at sunset",
+  "description": "Shirtless Anton leans back against a big golden-lit boulder by the sea, relaxed with arms crossed.",
+  "tags": [
+   "relaxing",
+   "boulder",
+   "ocean",
+   "sunset",
+   "golden hour",
+   "shirtless",
+   "coast"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 11.77,
+  "usable": [
+   [
+    0,
+    11.77
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABghw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 10/Video 2025-12-11, 6 50 10 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "sun setting behind hills over sea",
+  "description": "Golden sun sinking behind distant hills across a hazy bay with surf in the foreground.",
+  "tags": [
+   "sunset",
+   "ocean",
+   "hills",
+   "golden hour",
+   "waves",
+   "static",
+   "coast"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 5.3,
+  "usable": [
+   [
+    0,
+    5.3
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABgjA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 10/Video 2025-12-11, 6 52 03 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "sipping drink on seaside rocks",
+  "description": "Shirtless Anton sits on rocks by the sea sipping a drink and gazing out, warm light.",
+  "tags": [
+   "drinking",
+   "relaxing",
+   "ocean",
+   "rocks",
+   "golden hour",
+   "shirtless"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 6.1,
+  "usable": [
+   [
+    0,
+    6.1
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABx_g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 15/Video 2025-12-17, 11 35 30 AM.mov",
+  "folder": "brazil 2025",
+  "shot": "driving a car",
+  "description": "Horizontal side view of Anton driving a car on a sunny highway with green scenery outside.",
+  "tags": [
+   "driving",
+   "car",
+   "road trip",
+   "sunny",
+   "horizontal",
+   "travel"
+  ],
+  "location": "Brazil",
+  "orientation": "horizontal",
+  "duration": 9.57,
+  "usable": [
+   [
+    0,
+    9.57
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABx5w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 15/Video 2025-12-18, 6 02 39 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "swan pedal boats on lake",
+  "description": "Horizontal shot of swan-shaped pedal boats on a lake ringed by tall evergreen trees.",
+  "tags": [
+   "lake",
+   "swan boats",
+   "trees",
+   "park",
+   "sunny",
+   "horizontal",
+   "gramado"
+  ],
+  "location": "Brazil",
+  "orientation": "horizontal",
+  "duration": 5.03,
+  "usable": [
+   [
+    0,
+    5.03
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABx4g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 15/Video 2025-12-18, 6 02 53 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "lake with pedal boats",
+  "description": "Calm lake with a dock of pedal boats and dense trees under blue sky.",
+  "tags": [
+   "lake",
+   "pedal boats",
+   "trees",
+   "blue sky",
+   "static",
+   "gramado"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 4.13,
+  "usable": [
+   [
+    0,
+    4.13
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABx6w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 15/Video 2025-12-18, 6 18 30 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "lake through trees with hydrangeas",
+  "description": "Slow move revealing a calm lake with the sun behind trees, hydrangeas in the foreground.",
+  "tags": [
+   "lake",
+   "hydrangeas",
+   "sunset",
+   "trees",
+   "reflection",
+   "golden hour"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 7.47,
+  "usable": [
+   [
+    0,
+    7.47
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABx5Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 15/Video 2025-12-18, 6 32 05 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "swan pedal boats on lake",
+  "description": "Horizontal shot of swan pedal boats gliding across a lake framed by tall trees and hanging branches.",
+  "tags": [
+   "lake",
+   "swan boats",
+   "trees",
+   "sunny",
+   "horizontal",
+   "gramado",
+   "calm"
+  ],
+  "location": "Brazil",
+  "orientation": "horizontal",
+  "duration": 6.07,
+  "usable": [
+   [
+    0,
+    6.07
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAByLw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 16/Video 2025-12-20, 4 27 58 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "stone cathedral",
+  "description": "Horizontal static shot of the tall Gothic stone cathedral in Canela under a deep blue sky.",
+  "tags": [
+   "cathedral",
+   "church",
+   "gothic",
+   "landmark",
+   "blue sky",
+   "sunny",
+   "horizontal",
+   "canela"
+  ],
+  "location": "Canela, Brazil",
+  "orientation": "horizontal",
+  "duration": 3.83,
+  "usable": [
+   [
+    0,
+    3.83
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAByHQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 16/Video 2025-12-20, 6 44 56 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "church square at dusk",
+  "description": "Horizontal slow pan across a crowded square in front of a stone church with festive decorations at dusk.",
+  "tags": [
+   "church",
+   "square",
+   "crowd",
+   "dusk",
+   "christmas",
+   "horizontal",
+   "gramado"
+  ],
+  "location": "Gramado, Brazil",
+  "orientation": "horizontal",
+  "duration": 5.6,
+  "usable": [
+   [
+    0,
+    5.6
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAByWQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 17/Video 2025-12-21, 1 01 06 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "canyon cliffs",
+  "description": "Static shot of sheer canyon cliffs covered in forest under an overcast sky.",
+  "tags": [
+   "canyon",
+   "cliffs",
+   "forest",
+   "landscape",
+   "overcast",
+   "nature",
+   "itaimbezinho"
+  ],
+  "location": "Cambará do Sul, Brazil",
+  "orientation": "vertical",
+  "duration": 3.9,
+  "usable": [
+   [
+    0,
+    3.9
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAByVg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 17/Video 2025-12-21, 1 01 15 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "canyon cliffs panorama",
+  "description": "Horizontal slow pan across towering canyon walls and green forest below.",
+  "tags": [
+   "canyon",
+   "cliffs",
+   "forest",
+   "landscape",
+   "pan",
+   "horizontal",
+   "itaimbezinho"
+  ],
+  "location": "Cambará do Sul, Brazil",
+  "orientation": "horizontal",
+  "duration": 4.23,
+  "usable": [
+   [
+    0,
+    4.23
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAByWw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 17/Video 2025-12-21, 1 03 54 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "running back across field",
+  "description": "Horizontal wide shot of Anton jogging back across a grassy plateau toward camera, ending close and smiling.",
+  "tags": [
+   "field",
+   "running",
+   "shirtless",
+   "grassland",
+   "horizontal",
+   "joy"
+  ],
+  "location": "Cambará do Sul, Brazil",
+  "orientation": "horizontal",
+  "duration": 11.73,
+  "usable": [
+   [
+    0,
+    11.73
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAByVA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 17/Video 2025-12-21, 1 05 42 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "sitting on canyon railing",
+  "description": "Horizontal shot of Anton climbing onto and sitting on a lookout railing with canyon cliffs behind, camera pushes in.",
+  "tags": [
+   "canyon",
+   "railing",
+   "sitting",
+   "shirtless",
+   "horizontal",
+   "lookout"
+  ],
+  "location": "Cambará do Sul, Brazil",
+  "orientation": "horizontal",
+  "duration": 5.1,
+  "usable": [
+   [
+    2,
+    5.1
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAByUw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 17/Video 2025-12-21, 1 07 15 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "sitting on canyon railing",
+  "description": "Anton in a navy polo sits on a railing gazing over the canyon cliffs.",
+  "tags": [
+   "canyon",
+   "railing",
+   "sitting",
+   "contemplative",
+   "lookout",
+   "polo"
+  ],
+  "location": "Cambará do Sul, Brazil",
+  "orientation": "vertical",
+  "duration": 5.4,
+  "usable": [
+   [
+    0,
+    5.4
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAByTQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 17/Video 2025-12-21, 1 07 28 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "sitting on canyon railing",
+  "description": "Anton in a navy polo sits on a lookout railing with the canyon behind, looking at camera.",
+  "tags": [
+   "canyon",
+   "railing",
+   "sitting",
+   "lookout",
+   "polo",
+   "portrait"
+  ],
+  "location": "Cambará do Sul, Brazil",
+  "orientation": "vertical",
+  "duration": 2.83,
+  "usable": [
+   [
+    0,
+    2.83
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAByUg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 17/Video 2025-12-21, 1 07 33 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "sitting on canyon railing",
+  "description": "Anton sits on the canyon lookout railing, cliffs and forest stretching behind.",
+  "tags": [
+   "canyon",
+   "railing",
+   "sitting",
+   "lookout",
+   "polo"
+  ],
+  "location": "Cambará do Sul, Brazil",
+  "orientation": "vertical",
+  "duration": 5.3,
+  "usable": [
+   [
+    0,
+    5.3
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAByTg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 17/Video 2025-12-21, 1 07 41 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "sitting on canyon railing",
+  "description": "Anton sits on a railing with the dramatic canyon behind him, relaxed pose.",
+  "tags": [
+   "canyon",
+   "railing",
+   "sitting",
+   "lookout",
+   "polo"
+  ],
+  "location": "Cambará do Sul, Brazil",
+  "orientation": "vertical",
+  "duration": 5.97,
+  "usable": [
+   [
+    0,
+    5.97
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAByRw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 17/Video 2025-12-21, 1 12 19 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "canyon cliffs and river valley",
+  "description": "Static shot of massive vertical canyon walls with a river winding through forest below.",
+  "tags": [
+   "canyon",
+   "cliffs",
+   "river",
+   "forest",
+   "landscape",
+   "nature",
+   "itaimbezinho"
+  ],
+  "location": "Cambará do Sul, Brazil",
+  "orientation": "vertical",
+  "duration": 4.73,
+  "usable": [
+   [
+    0,
+    4.73
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAByRA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 17/Video 2025-12-21, 1 12 40 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "canyon cliffs pan",
+  "description": "Horizontal pan across the towering pink-grey canyon walls and forested gorge.",
+  "tags": [
+   "canyon",
+   "cliffs",
+   "forest",
+   "pan",
+   "horizontal",
+   "landscape",
+   "itaimbezinho"
+  ],
+  "location": "Cambará do Sul, Brazil",
+  "orientation": "horizontal",
+  "duration": 7.27,
+  "usable": [
+   [
+    0,
+    7.27
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAByZw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 17/Video 2025-12-21, 12 40 17 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "canyon wall panorama",
+  "description": "Horizontal slow pan across a long pale canyon wall above dense forest.",
+  "tags": [
+   "canyon",
+   "cliffs",
+   "forest",
+   "pan",
+   "horizontal",
+   "landscape"
+  ],
+  "location": "Cambará do Sul, Brazil",
+  "orientation": "horizontal",
+  "duration": 4.83,
+  "usable": [
+   [
+    0,
+    4.83
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAByaA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 17/Video 2025-12-21, 12 43 52 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "canyon waterfall pan",
+  "description": "Horizontal pan from a thin waterfall down a sheer cliff across the forested gorge to the river.",
+  "tags": [
+   "canyon",
+   "waterfall",
+   "cliffs",
+   "forest",
+   "pan",
+   "horizontal",
+   "landscape"
+  ],
+  "location": "Cambará do Sul, Brazil",
+  "orientation": "horizontal",
+  "duration": 10.61,
+  "usable": [
+   [
+    0,
+    10.61
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAByYQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 17/Video 2025-12-21, 12 44 33 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "canyon cliffs",
+  "description": "Static shot of the canyon with ferns in the foreground and a pale cliff face.",
+  "tags": [
+   "canyon",
+   "cliffs",
+   "ferns",
+   "forest",
+   "landscape",
+   "static"
+  ],
+  "location": "Cambará do Sul, Brazil",
+  "orientation": "vertical",
+  "duration": 4.83,
+  "usable": [
+   [
+    0,
+    4.83
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAByYw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 17/Video 2025-12-21, 12 44 43 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "canyon waterfalls pan",
+  "description": "Pan across canyon walls with several thin waterfalls and forest.",
+  "tags": [
+   "canyon",
+   "waterfalls",
+   "cliffs",
+   "forest",
+   "pan",
+   "landscape"
+  ],
+  "location": "Cambará do Sul, Brazil",
+  "orientation": "vertical",
+  "duration": 7.27,
+  "usable": [
+   [
+    1,
+    7.27
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABybQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 17/Video 2025-12-21, 12 52 17 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "standing at canyon edge",
+  "description": "Horizontal shot of shirtless Anton standing on a grassy point at the canyon edge with cliffs and waterfalls behind.",
+  "tags": [
+   "canyon",
+   "standing",
+   "edge",
+   "shirtless",
+   "horizontal",
+   "adventure"
+  ],
+  "location": "Cambará do Sul, Brazil",
+  "orientation": "horizontal",
+  "duration": 22.37,
+  "usable": [
+   [
+    4,
+    22.37
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAByYg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 17/Video 2025-12-21, 12 53 20 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "canyon valley",
+  "description": "Static shot looking down a forested canyon with a winding river and a pale cliff.",
+  "tags": [
+   "canyon",
+   "valley",
+   "river",
+   "forest",
+   "landscape",
+   "static"
+  ],
+  "location": "Cambará do Sul, Brazil",
+  "orientation": "vertical",
+  "duration": 4.9,
+  "usable": [
+   [
+    0,
+    4.9
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAByXQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 17/Video 2025-12-21, 12 53 28 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "canyon panorama",
+  "description": "Horizontal static wide of the canyon walls and green gorge floor.",
+  "tags": [
+   "canyon",
+   "panorama",
+   "cliffs",
+   "forest",
+   "horizontal",
+   "landscape"
+  ],
+  "location": "Cambará do Sul, Brazil",
+  "orientation": "horizontal",
+  "duration": 4.7,
+  "usable": [
+   [
+    0,
+    4.7
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAByXA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 17/Video 2025-12-21, 12 53 37 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "canyon waterfalls",
+  "description": "Close view of lush green cliff walls with thin waterfalls streaming down.",
+  "tags": [
+   "canyon",
+   "waterfalls",
+   "cliffs",
+   "green",
+   "nature"
+  ],
+  "location": "Cambará do Sul, Brazil",
+  "orientation": "vertical",
+  "duration": 4.27,
+  "usable": [
+   [
+    0,
+    4.27
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAByig",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 18/Video 2025-12-21, 9 16 13 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "drone light show santa",
+  "description": "Horizontal shot of drones forming a waving Santa Claus above lit buildings and a crowd.",
+  "tags": [
+   "drone show",
+   "santa",
+   "christmas",
+   "night",
+   "crowd",
+   "horizontal"
+  ],
+  "location": "Gramado, Brazil",
+  "orientation": "horizontal",
+  "duration": 10.07,
+  "usable": [
+   [
+    0,
+    10.07
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAByiA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 18/Video 2025-12-21, 9 16 30 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "drone light show santa",
+  "description": "Close vertical shot of a glowing drone-formed Santa Claus waving in the night sky.",
+  "tags": [
+   "drone show",
+   "santa",
+   "christmas",
+   "night",
+   "lights"
+  ],
+  "location": "Gramado, Brazil",
+  "orientation": "vertical",
+  "duration": 9.67,
+  "usable": [
+   [
+    0,
+    9.67
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACAJQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/Video 2025-12-24, 4 36 42 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "jungle stream",
+  "description": "Static shot of a stream flowing over mossy boulders under a dense forest canopy.",
+  "tags": [
+   "jungle",
+   "stream",
+   "rocks",
+   "moss",
+   "forest",
+   "nature",
+   "static"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 5.8,
+  "usable": [
+   [
+    0,
+    5.8
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACALQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/Video 2025-12-24, 5 00 01 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "running into waterfall pool",
+  "description": "Anton spreads his arms in celebration, then runs and wades into a waterfall pool.",
+  "tags": [
+   "waterfall",
+   "pool",
+   "celebrating",
+   "swimming",
+   "jungle",
+   "adventure",
+   "shirtless"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 12.74,
+  "usable": [
+   [
+    0,
+    12.74
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACAGg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/Video 2025-12-24, 5 05 28 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "meditating under waterfall",
+  "description": "Horizontal shot of Anton sitting cross-legged in a meditation pose on a rock under a waterfall.",
+  "tags": [
+   "waterfall",
+   "meditation",
+   "rock",
+   "jungle",
+   "horizontal",
+   "calm",
+   "cold exposure"
+  ],
+  "location": "Brazil",
+  "orientation": "horizontal",
+  "duration": 5.93,
+  "usable": [
+   [
+    1,
+    5.93
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABNTQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 2/Video 2025-11-19, 6 05 21 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "historic market square",
+  "description": "Static shot of a yellow colonial market building and a large tree on a busy square.",
+  "tags": [
+   "historic",
+   "market",
+   "square",
+   "colonial",
+   "tree",
+   "sunny",
+   "florianopolis"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "vertical",
+  "duration": 4.13,
+  "usable": [
+   [
+    0,
+    4.13
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABNSQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 2/Video 2025-11-19, 6 32 11 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "sunset over waterfront",
+  "description": "Static shot of a dramatic cloudy sunset over a palm-lined waterfront plaza.",
+  "tags": [
+   "sunset",
+   "waterfront",
+   "palms",
+   "clouds",
+   "golden hour",
+   "static",
+   "city"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "vertical",
+  "duration": 4.37,
+  "usable": [
+   [
+    0,
+    4.37
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABNRg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 2/Video 2025-11-19, 7 08 14 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "oysters platter and gratinated oysters",
+  "description": "Overhead shots of a platter of fresh oysters with lime, then oysters baked with cheese.",
+  "tags": [
+   "oysters",
+   "seafood",
+   "food",
+   "lime",
+   "cheese",
+   "restaurant",
+   "overhead"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "vertical",
+  "duration": 4.17,
+  "usable": [
+   [
+    0,
+    4.17
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACDsg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 21 - brazil bike trip/Video 2026-01-01, 12 07 55 AM.mov",
+  "folder": "brazil 2025",
+  "shot": "fireworks over Hercílio Luz bridge",
+  "description": "Horizontal shot of pink fireworks cascading over the lit Hercílio Luz suspension bridge, crowd filming.",
+  "tags": [
+   "fireworks",
+   "bridge",
+   "hercilio luz",
+   "new year's eve",
+   "night",
+   "horizontal",
+   "crowd"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "horizontal",
+  "duration": 14.28,
+  "usable": [
+   [
+    0,
+    14.28
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACDrw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 21 - brazil bike trip/Video 2026-01-01, 12 08 12 AM.mov",
+  "folder": "brazil 2025",
+  "shot": "fireworks over Hercílio Luz bridge",
+  "description": "Fireworks over the color-changing suspension bridge with phones raised in the crowd.",
+  "tags": [
+   "fireworks",
+   "bridge",
+   "hercilio luz",
+   "new year's eve",
+   "night",
+   "crowd"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "vertical",
+  "duration": 11.23,
+  "usable": [
+   [
+    0,
+    11.23
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACDrQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 21 - brazil bike trip/Video 2026-01-01, 12 10 45 AM.mov",
+  "folder": "brazil 2025",
+  "shot": "fireworks over Hercílio Luz bridge",
+  "description": "Pink and blue fireworks along the bridge above a crowd of people filming.",
+  "tags": [
+   "fireworks",
+   "bridge",
+   "new year's eve",
+   "night",
+   "crowd"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "vertical",
+  "duration": 10.56,
+  "usable": [
+   [
+    0,
+    10.56
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACEEQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 25 - yes I/Video 2026-01-06, 3 54 08 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "waves crashing",
+  "description": "Big white-water waves crashing toward shore on a sunny day.",
+  "tags": [
+   "ocean",
+   "waves",
+   "crashing",
+   "beach",
+   "blue",
+   "day",
+   "static"
+  ],
+  "location": "Brazil",
+  "orientation": "horizontal",
+  "duration": 9.94,
+  "usable": [
+   [
+    0,
+    9.9
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABNYQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 3/Video 2025-11-20, 5 37 09 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "waves crashing",
+  "description": "Waves breaking on a golden beach with rocky outcrops and blue sky.",
+  "tags": [
+   "ocean",
+   "waves",
+   "beach",
+   "rocks",
+   "blue sky",
+   "golden hour"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 5.64,
+  "usable": [
+   [
+    1,
+    5.6
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACFjQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 33/Video 2026-01-20, 5 03 45 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "kitesurfing",
+  "description": "Follow shot of a kitesurfer carving across a sunny lagoon with a pink kite and mountains.",
+  "tags": [
+   "kitesurfing",
+   "water sports",
+   "lagoon",
+   "sunny",
+   "pink kite",
+   "mountains",
+   "action"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 33.07,
+  "usable": [
+   [
+    0,
+    30
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACGFw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 35/Video 2026-01-26, 3 34 44 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "running to the sea with surfboard",
+  "description": "Anton runs across the sand toward the ocean carrying a surfboard.",
+  "tags": [
+   "surfboard",
+   "running",
+   "beach",
+   "ocean",
+   "sunny",
+   "blue sky",
+   "from behind"
+  ],
+  "location": "Brazil",
+  "orientation": "horizontal",
+  "duration": 3.77,
+  "usable": [
+   [
+    0,
+    3.8
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABf6A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 8/Video 2025-12-07, 1 08 01 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "sitting on cliff overlooking bay",
+  "description": "Silhouette of a person sitting on jagged rocks overlooking a curved beach and green hills.",
+  "tags": [
+   "viewpoint",
+   "cliff",
+   "beach",
+   "ocean",
+   "hike",
+   "sunny",
+   "green hills",
+   "sitting",
+   "contemplative"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "vertical",
+  "duration": 9.23,
+  "usable": [
+   [
+    0,
+    9.2
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABf0Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 8/Video 2025-12-07, 1 26 18 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "sitting on cliff facing ocean",
+  "description": "Person sits on a boulder facing the open blue ocean.",
+  "tags": [
+   "ocean",
+   "cliff",
+   "sitting",
+   "horizon",
+   "blue sky",
+   "contemplative",
+   "sunny"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "vertical",
+  "duration": 7.43,
+  "usable": [
+   [
+    0,
+    7.4
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABgJw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 8/Video 2025-12-07, 11 29 10 AM.mov",
+  "folder": "brazil 2025",
+  "shot": "marmoset on tree",
+  "description": "Marmoset clinging to a tree among bamboo leaves.",
+  "tags": [
+   "monkey",
+   "marmoset",
+   "wildlife",
+   "tree",
+   "forest",
+   "nature",
+   "close"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "horizontal",
+  "duration": 8.97,
+  "usable": [
+   [
+    0,
+    9
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABgHg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 8/Video 2025-12-07, 11 50 52 AM.mov",
+  "folder": "brazil 2025",
+  "shot": "beach panorama",
+  "description": "Pan from a hillside across a long beach, sea and green headland.",
+  "tags": [
+   "beach",
+   "panorama",
+   "ocean",
+   "headland",
+   "blue sky",
+   "sunny",
+   "pan"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "horizontal",
+  "duration": 10.47,
+  "usable": [
+   [
+    0,
+    10.5
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABgGw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 8/Video 2025-12-07, 12 23 13 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "waves on lagoon beach",
+  "description": "High view of waves washing onto a golden beach with green hills.",
+  "tags": [
+   "beach",
+   "waves",
+   "ocean",
+   "hills",
+   "sunny",
+   "high angle"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "horizontal",
+  "duration": 6.07,
+  "usable": [
+   [
+    0,
+    6
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABgGg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 8/Video 2025-12-07, 12 26 24 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "beach panorama",
+  "description": "Lagoinha beach with rolling surf seen past jagged rocks and forested hills.",
+  "tags": [
+   "beach",
+   "panorama",
+   "rocks",
+   "waves",
+   "hills",
+   "sunny"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "horizontal",
+  "duration": 5.63,
+  "usable": [
+   [
+    0,
+    5.6
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABgGQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 8/Video 2025-12-07, 12 26 34 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "beach panorama",
+  "description": "Sweeping view of a secluded beach framed by jagged rocks and forest.",
+  "tags": [
+   "beach",
+   "panorama",
+   "rocks",
+   "hills",
+   "sunny",
+   "nature"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "horizontal",
+  "duration": 5.17,
+  "usable": [
+   [
+    0,
+    5.2
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABgFw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 8/Video 2025-12-07, 12 27 41 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "looking out at beach",
+  "description": "Anton with a backpack looks out over the beach from the rocks.",
+  "tags": [
+   "hiker",
+   "viewpoint",
+   "beach",
+   "backpack",
+   "sunny",
+   "contemplative"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "horizontal",
+  "duration": 7.43,
+  "usable": [
+   [
+    0,
+    7.4
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABgEg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 8/Video 2025-12-07, 12 30 12 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "beach panorama",
+  "description": "High view of a curved beach with surf and forested hills under low cloud.",
+  "tags": [
+   "beach",
+   "panorama",
+   "ocean",
+   "hills",
+   "sunny",
+   "nature",
+   "viewpoint"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "vertical",
+  "duration": 5.03,
+  "usable": [
+   [
+    0,
+    5
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABgAw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 8/Video 2025-12-07, 12 30 28 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "beach panorama",
+  "description": "Static view of a long curved beach and turquoise water from the hillside.",
+  "tags": [
+   "beach",
+   "panorama",
+   "ocean",
+   "hills",
+   "sunny",
+   "nature",
+   "viewpoint",
+   "static"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "horizontal",
+  "duration": 4.87,
+  "usable": [
+   [
+    0,
+    4.9
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABgBA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 8/Video 2025-12-07, 12 30 35 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "beach panorama",
+  "description": "Close view of surf rolling into a long beach below forested hills.",
+  "tags": [
+   "beach",
+   "panorama",
+   "ocean",
+   "hills",
+   "sunny",
+   "nature",
+   "viewpoint",
+   "waves"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "horizontal",
+  "duration": 3.67,
+  "usable": [
+   [
+    0,
+    3.7
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABf9g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 8/Video 2025-12-07, 12 51 48 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "sitting on cliff overlooking bay",
+  "description": "Anton sits on a rock pinnacle above a sweeping beach and bay.",
+  "tags": [
+   "beach",
+   "panorama",
+   "ocean",
+   "hills",
+   "sunny",
+   "nature",
+   "viewpoint",
+   "sitting",
+   "cliff",
+   "contemplative"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "horizontal",
+  "duration": 10.83,
+  "usable": [
+   [
+    2,
+    10.8
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABf7w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 8/Video 2025-12-07, 12 54 01 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "standing on overhanging rock",
+  "description": "Anton walks out onto a dramatic overhanging rock ledge against blue sky.",
+  "tags": [
+   "overhanging rock",
+   "cliff",
+   "adventure",
+   "blue sky",
+   "hills",
+   "standing"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "horizontal",
+  "duration": 7.43,
+  "usable": [
+   [
+    0,
+    7.4
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABf6g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 8/Video 2025-12-07, 12 55 07 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "sitting on overhanging rock",
+  "description": "Anton sits on an overhanging rock ledge above the ocean, camera moves closer.",
+  "tags": [
+   "overhanging rock",
+   "cliff",
+   "sitting",
+   "ocean",
+   "blue sky",
+   "adventure"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "vertical",
+  "duration": 6.0,
+  "usable": [
+   [
+    3.5,
+    6
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABf5w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 8/Video 2025-12-07, 12 55 15 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "sitting on overhanging rock",
+  "description": "Low-angle shot of Anton sitting on a rock ledge against blue sky, then standing.",
+  "tags": [
+   "overhanging rock",
+   "cliff",
+   "sitting",
+   "blue sky",
+   "low angle"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "horizontal",
+  "duration": 5.93,
+  "usable": [
+   [
+    0,
+    5.9
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABf5Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 8/Video 2025-12-07, 12 58 29 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "lagoon beach from summit",
+  "description": "High summit view of a beach, lagoon and forested headland with low cloud.",
+  "tags": [
+   "beach",
+   "panorama",
+   "ocean",
+   "hills",
+   "sunny",
+   "nature",
+   "viewpoint",
+   "lagoon",
+   "aerial view",
+   "clouds"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "horizontal",
+  "duration": 5.27,
+  "usable": [
+   [
+    0,
+    5.3
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACI2Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/feb 22/Video 2026-02-21, 6 27 22 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "sunset over the bay",
+  "description": "Wide shot of people on rocks watching a golden sunset under dramatic clouds.",
+  "tags": [
+   "sunset",
+   "bay",
+   "people",
+   "rocks",
+   "golden hour",
+   "clouds"
+  ],
+  "location": "Brazil",
+  "orientation": "horizontal",
+  "duration": 4.13,
+  "usable": [
+   [
+    0,
+    4.1
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACJhQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/feb 26/feb 28/Video 2026-02-28, 4 14 33 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "standing on summit rock",
+  "description": "Shirtless Anton stands on a summit boulder overlooking the town and lagoon.",
+  "tags": [
+   "viewpoint",
+   "summit",
+   "lagoon",
+   "town",
+   "cloudy",
+   "hike",
+   "standing",
+   "from behind",
+   "contemplative"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "vertical",
+  "duration": 9.93,
+  "usable": [
+   [
+    0,
+    9.9
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACJgQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/feb 26/feb 28/Video 2026-02-28, 4 14 54 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "standing on summit rock",
+  "description": "Anton stands on a rock gazing over the lagoon and mountains.",
+  "tags": [
+   "viewpoint",
+   "summit",
+   "lagoon",
+   "town",
+   "cloudy",
+   "hike",
+   "standing",
+   "from behind",
+   "contemplative"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "horizontal",
+  "duration": 10.67,
+  "usable": [
+   [
+    0,
+    10.7
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACG8A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/feb 5 dancing/Video 2026-02-06, 7 25 24 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "beach at sunset",
+  "description": "Wide beach at sunset with orange sky and mountains, people on the sand.",
+  "tags": [
+   "sunset",
+   "beach",
+   "crowd",
+   "golden hour",
+   "sky",
+   "silhouettes",
+   "wide"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "horizontal",
+  "duration": 4.88,
+  "usable": [
+   [
+    0,
+    4.9
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACG5A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/feb 5 dancing/Video 2026-02-06, 7 30 10 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "running into the ocean at sunset",
+  "description": "Anton runs into the sea at sunset and back out, pink sky and mountains.",
+  "tags": [
+   "running",
+   "ocean",
+   "sunset",
+   "beach",
+   "swimming",
+   "golden hour"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "horizontal",
+  "duration": 17.86,
+  "usable": [
+   [
+    0,
+    17.9
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACG4w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/feb 5 dancing/Video 2026-02-06, 7 30 33 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "running into the ocean at sunset",
+  "description": "Anton runs into the waves at sunset and swims.",
+  "tags": [
+   "running",
+   "ocean",
+   "sunset",
+   "beach",
+   "swimming"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "vertical",
+  "duration": 17.99,
+  "usable": [
+   [
+    2,
+    18
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACHCg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/feb 8 oysters/Video 2026-02-07, 4 20 03 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "colonial church square",
+  "description": "Colonial church with palms blowing in the wind and misty hills.",
+  "tags": [
+   "church",
+   "colonial",
+   "village square",
+   "palm trees",
+   "cloudy",
+   "windy"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "horizontal",
+  "duration": 13.97,
+  "usable": [
+   [
+    3,
+    14
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACHBw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/feb 8 oysters/Video 2026-02-07, 4 20 20 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "colonial church facade",
+  "description": "Close view of a colonial church facade with palms swaying.",
+  "tags": [
+   "church",
+   "colonial",
+   "village square",
+   "palm trees",
+   "cloudy",
+   "windy"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "horizontal",
+  "duration": 4.07,
+  "usable": [
+   [
+    0,
+    4.1
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACG-g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/feb 8 oysters/Video 2026-02-07, 5 20 18 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "oyster platter",
+  "description": "Overhead of baked oyster gratin platters on a table.",
+  "tags": [
+   "oysters",
+   "seafood",
+   "platter",
+   "food",
+   "overhead",
+   "close up"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "vertical",
+  "duration": 8.27,
+  "usable": [
+   [
+    0,
+    8.3
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACKxw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/feb 8 oysters/rabdom clips floripa(Anton)/Video 2026-03-08, 2 51 00 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "rainbow over beach",
+  "description": "Pan along a beach with kitesurfers and a rainbow, ending on green islands.",
+  "tags": [
+   "rainbow",
+   "beach",
+   "kites",
+   "clouds",
+   "islands",
+   "pan"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "horizontal",
+  "duration": 13.33,
+  "usable": [
+   [
+    0,
+    13.3
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACFPA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/not wvery day is a higjhlight day 29/Video 2026-01-17, 4 57 58 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "spinning a stick on beach",
+  "description": "Anton spins and twirls a long stick in front of the sea, wide static shot.",
+  "tags": [
+   "stick",
+   "spinning",
+   "beach",
+   "grass",
+   "sunny",
+   "shirtless",
+   "static",
+   "flow"
+  ],
+  "location": "Brazil",
+  "orientation": "horizontal",
+  "duration": 12.37,
+  "usable": [
+   [
+    0,
+    12.3
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACFOg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/not wvery day is a higjhlight day 29/Video 2026-01-17, 4 58 12 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "spinning a stick on beach",
+  "description": "Anton twirls a long stick on the grass above a sunny beach.",
+  "tags": [
+   "stick",
+   "spinning",
+   "beach",
+   "grass",
+   "sunny",
+   "shirtless",
+   "static",
+   "flow"
+  ],
+  "location": "Brazil",
+  "orientation": "horizontal",
+  "duration": 9.3,
+  "usable": [
+   [
+    0,
+    9.3
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACFNg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/not wvery day is a higjhlight day 29/Video 2026-01-17, 5 30 13 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "lifeguard hut on dune",
+  "description": "Wooden lifeguard hut on a grassy dune against a blue sky with clouds.",
+  "tags": [
+   "lifeguard hut",
+   "dune",
+   "blue sky",
+   "clouds",
+   "grass",
+   "static",
+   "sunny"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 7.94,
+  "usable": [
+   [
+    0,
+    7.9
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACBiw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/youtube potential clips/Video 2025-12-27, 10 58 01 AM.mov",
+  "folder": "brazil 2025",
+  "shot": "christmas square with half-timbered house",
+  "description": "A flowerbed square with giant red baubles in front of a half-timbered building.",
+  "tags": [
+   "christmas",
+   "square",
+   "half-timbered",
+   "flowers",
+   "baubles",
+   "sunny",
+   "blue sky"
+  ],
+  "location": "Nova Petrópolis, Brazil",
+  "orientation": "horizontal",
+  "duration": 4.07,
+  "usable": [
+   [
+    0,
+    4
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACBew",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/youtube potential clips/Video 2025-12-27, 12 22 05 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "half-timbered church tower",
+  "description": "Low-angle shot of a white half-timbered church tower against a blue sky with araucaria trees.",
+  "tags": [
+   "church",
+   "half-timbered",
+   "tower",
+   "blue sky",
+   "araucaria",
+   "low angle"
+  ],
+  "location": "Nova Petrópolis, Brazil",
+  "orientation": "horizontal",
+  "duration": 5.3,
+  "usable": [
+   [
+    0,
+    5.3
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_ag",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 2 20 02 PM.mov",
+  "folder": "cotswold 2025",
+  "shot": "country lane through fields",
+  "description": "Vertical shot of a country lane past tall golden grass and green fields under puffy clouds and blue sky.",
+  "tags": [
+   "country lane",
+   "fields",
+   "countryside",
+   "summer",
+   "blue sky",
+   "clouds",
+   "static"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 4.23,
+  "usable": [
+   [
+    0,
+    4.23
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Xw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 2/Video 2025-08-05, 2 51 38 PM.mov",
+  "folder": "cotswold 2025",
+  "shot": "country lane with fence",
+  "description": "Vertical static shot of a narrow country lane lined by a wooden fence and trees under a moody cloudy sky.",
+  "tags": [
+   "country lane",
+   "fence",
+   "trees",
+   "countryside",
+   "cloudy",
+   "static",
+   "leading lines"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 4.07,
+  "usable": [
+   [
+    0,
+    4.07
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_vA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 5/Video 2025-08-07, 8 37 33 PM.mov",
+  "folder": "cotswold 2025",
+  "shot": "sunset over lawn",
+  "description": "Vertical static shot of an orange sunset with dramatic clouds over a garden lawn and hedges.",
+  "tags": [
+   "sunset",
+   "sky",
+   "clouds",
+   "lawn",
+   "evening",
+   "orange",
+   "static",
+   "calm"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 4.5,
+  "usable": [
+   [
+    0,
+    4.5
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_uQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 5/Video 2025-08-08, 11 03 49 AM.mov",
+  "folder": "cotswold 2025",
+  "shot": "barrel sauna in woods",
+  "description": "Static shot of a wooden barrel sauna among trees with benches and a bark path.",
+  "tags": [
+   "sauna",
+   "barrel sauna",
+   "woods",
+   "wellness",
+   "garden",
+   "static",
+   "wood"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 3.17,
+  "usable": [
+   [
+    0,
+    3.17
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_vg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 5/Video 2025-08-08, 11 42 52 AM.mov",
+  "folder": "cotswold 2025",
+  "shot": "cold plunge",
+  "description": "Shirtless Anton climbs into an outdoor wooden cold-plunge tub in the woods, sits in the water breathing, laughs and climbs out.",
+  "tags": [
+   "anton",
+   "cold plunge",
+   "ice bath",
+   "wellness",
+   "woods",
+   "shirtless",
+   "outdoors",
+   "recovery"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 49.44,
+  "usable": [
+   [
+    3,
+    49
+   ]
+  ],
+  "quality": 4,
+  "notes": "Handheld, some framing shifts; strong wellness content",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_rg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 5/Video 2025-08-08, 12 19 48 PM.mov",
+  "folder": "cotswold 2025",
+  "shot": "acai bowls on table",
+  "description": "Overhead of fruit-topped acai bowls on a sunny wooden table, one picked up and eaten with a wooden spoon.",
+  "tags": [
+   "acai bowl",
+   "food",
+   "fruit",
+   "strawberries",
+   "overhead",
+   "wooden table",
+   "sunny",
+   "healthy"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 4.03,
+  "usable": [
+   [
+    0,
+    4.03
+   ]
+  ],
+  "quality": 4,
+  "notes": "Handheld but appetising",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_vw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 5/Video 2025-08-08, 7 42 16 PM.mov",
+  "folder": "cotswold 2025",
+  "shot": "laptop in garden chair",
+  "description": "Anton settles into a reclining garden chair on a lawn at golden hour and works on a laptop, then gets up.",
+  "tags": [
+   "anton",
+   "laptop",
+   "remote work",
+   "garden",
+   "lawn",
+   "golden hour",
+   "relaxing",
+   "static"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 56.9,
+  "usable": [
+   [
+    8,
+    48
+   ]
+  ],
+  "quality": 4,
+  "notes": "Static, long; someone walks out of frame at start",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_1w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 1 27 01 PM.mov",
+  "folder": "cotswold 2025",
+  "shot": "wading in stream",
+  "description": "Anton in white linen walks barefoot up a shallow clear stream in a Cotswold village, then turns toward camera.",
+  "tags": [
+   "anton",
+   "stream",
+   "wading",
+   "barefoot",
+   "white linen",
+   "village",
+   "summer",
+   "nature"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 7.4,
+  "usable": [
+   [
+    0,
+    7.4
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_2A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 1 27 27 PM.mov",
+  "folder": "cotswold 2025",
+  "shot": "wading in stream",
+  "description": "Anton in white linen stands in a sunny stream, walks toward camera and steps onto a rock.",
+  "tags": [
+   "anton",
+   "stream",
+   "wading",
+   "barefoot",
+   "white linen",
+   "summer",
+   "nature",
+   "sunny"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 11.4,
+  "usable": [
+   [
+    0,
+    11.4
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_4A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 1 27 44 PM.mov",
+  "folder": "cotswold 2025",
+  "shot": "balancing on rock in stream",
+  "description": "Anton wades a clear stream, balances on a rock with arms out and wades on past flowering plants.",
+  "tags": [
+   "anton",
+   "stream",
+   "balance",
+   "barefoot",
+   "white linen",
+   "summer",
+   "nature",
+   "playful"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 21.7,
+  "usable": [
+   [
+    0,
+    21.7
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_4g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 1 37 43 PM.mov",
+  "folder": "cotswold 2025",
+  "shot": "wading into river under willow",
+  "description": "Shirtless Anton in linen trousers wades away from camera up a river beneath hanging willow branches.",
+  "tags": [
+   "anton",
+   "river",
+   "wading",
+   "willow",
+   "shirtless",
+   "nature",
+   "summer",
+   "green"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 17.7,
+  "usable": [
+   [
+    0,
+    17.7
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_2Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 1 38 16 PM.mov",
+  "folder": "cotswold 2025",
+  "shot": "walking out of river toward camera",
+  "description": "Shirtless Anton wades back down the river under willows toward camera, pushing through branches and smiling.",
+  "tags": [
+   "anton",
+   "river",
+   "wading",
+   "willow",
+   "shirtless",
+   "nature",
+   "summer",
+   "smiling"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 13.2,
+  "usable": [
+   [
+    0,
+    13.2
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_1g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 1 55 05 PM.mov",
+  "folder": "cotswold 2025",
+  "shot": "pov feet by stream",
+  "description": "POV of bare feet and white linen trousers resting on grass beside a clear rippling stream.",
+  "tags": [
+   "pov",
+   "feet",
+   "stream",
+   "grass",
+   "white linen",
+   "relaxing",
+   "nature",
+   "grounding"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 3.63,
+  "usable": [
+   [
+    0,
+    3.63
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABEmQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/londons/day 4/Video 2025-09-18, 5 34 37 PM.mov",
+  "folder": "londons",
+  "shot": "standing on rocks by stormy sea",
+  "description": "Anton stands on rocks at the water's edge looking out at a choppy grey sea with red cliffs behind.",
+  "tags": [
+   "anton",
+   "sea",
+   "waves",
+   "rocks",
+   "cliffs",
+   "coast",
+   "overcast",
+   "moody",
+   "plaid shirt"
+  ],
+  "location": "England",
+  "orientation": "vertical",
+  "duration": 8.7,
+  "usable": [
+   [
+    0.0,
+    8.7
+   ]
+  ],
+  "quality": 4,
+  "notes": "moody coastal shot",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABEmg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/londons/day 4/Video 2025-09-18, 5 34 51 PM.mov",
+  "folder": "londons",
+  "shot": "standing on rocks by stormy sea",
+  "description": "Anton in a plaid shirt stands on rocks at a stormy seafront with crashing white waves and green cliffs behind, looking around, then walks toward camera.",
+  "tags": [
+   "anton",
+   "sea",
+   "waves",
+   "coast",
+   "cliffs",
+   "rocks",
+   "stormy",
+   "overcast",
+   "dramatic",
+   "plaid shirt"
+  ],
+  "location": "England",
+  "orientation": "vertical",
+  "duration": 11.5,
+  "usable": [
+   [
+    0.0,
+    11.5
+   ]
+  ],
+  "quality": 4,
+  "notes": "moody coastal shot",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABEuw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/londons/day 5/Video 2025-09-19, 12 24 56 PM.mov",
+  "folder": "londons",
+  "shot": "herd of cows staring at camera",
+  "description": "Low-angle shot of a line of curious Hereford cows standing in a sunny green field staring at the camera under a blue sky.",
+  "tags": [
+   "cows",
+   "herd",
+   "hereford",
+   "farm",
+   "animals",
+   "field",
+   "sunny",
+   "blue sky",
+   "funny"
+  ],
+  "location": "England",
+  "orientation": "vertical",
+  "duration": 3.5,
+  "usable": [
+   [
+    0.0,
+    3.5
+   ]
+  ],
+  "quality": 4,
+  "notes": "great curious-cows shot",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABEvA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/londons/day 5/Video 2025-09-19, 12 25 03 PM.mov",
+  "folder": "londons",
+  "shot": "herd of cows in field",
+  "description": "Static wide shot of a herd of Hereford cows bunched together in a sunny field facing the camera.",
+  "tags": [
+   "cows",
+   "herd",
+   "hereford",
+   "farm",
+   "animals",
+   "field",
+   "sunny",
+   "blue sky",
+   "horizontal"
+  ],
+  "location": "England",
+  "orientation": "horizontal",
+  "duration": 4.7,
+  "usable": [
+   [
+    0.0,
+    4.7
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABEwA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/londons/day 5/Video 2025-09-19, 12 46 23 PM.mov",
+  "folder": "londons",
+  "shot": "curious cow close-up",
+  "description": "A Hereford cow walks up close to the camera in a sunny field, staring into the lens.",
+  "tags": [
+   "cow",
+   "hereford",
+   "close-up",
+   "farm",
+   "animals",
+   "field",
+   "sunny",
+   "funny"
+  ],
+  "location": "England",
+  "orientation": "vertical",
+  "duration": 3.67,
+  "usable": [
+   [
+    0.0,
+    3.67
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABFHA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/londons/day 7/Video 2025-09-22, 6 40 25 PM.mov",
+  "folder": "londons",
+  "shot": "sunset over field",
+  "description": "Golden sun setting on the horizon over a dark field with sun rays and blue-grey clouds.",
+  "tags": [
+   "sunset",
+   "golden hour",
+   "field",
+   "horizon",
+   "sky",
+   "clouds",
+   "countryside",
+   "orange",
+   "static"
+  ],
+  "location": "England",
+  "orientation": "vertical",
+  "duration": 3.23,
+  "usable": [
+   [
+    0.0,
+    3.23
+   ]
+  ],
+  "quality": 4,
+  "notes": "short but pretty",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABFFw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/londons/day 7/Video 2025-09-23, 12 42 38 PM.mov",
+  "folder": "londons",
+  "shot": "petting pigs at fence",
+  "description": "Anton bends over a wire fence to pet spotted pigs in a green field, then stands and smiles.",
+  "tags": [
+   "anton",
+   "pigs",
+   "farm",
+   "animals",
+   "petting",
+   "fence",
+   "countryside",
+   "green",
+   "overcast"
+  ],
+  "location": "England",
+  "orientation": "vertical",
+  "duration": 6.5,
+  "usable": [
+   [
+    0.0,
+    6.5
+   ]
+  ],
+  "quality": 4,
+  "notes": "nice candid farm moment",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABFeA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/londons/day 9/Video 2025-09-25, 1 16 49 PM.mov",
+  "folder": "londons",
+  "shot": "petting horse at fence",
+  "description": "Anton in a navy t-shirt pets and strokes a brown horse in a rug over a wooden fence on a sunny day.",
+  "tags": [
+   "anton",
+   "horse",
+   "petting",
+   "fence",
+   "farm",
+   "animals",
+   "sunny",
+   "blue sky"
+  ],
+  "location": "England",
+  "orientation": "vertical",
+  "duration": 46.84,
+  "usable": [
+   [
+    0.0,
+    46.84
+   ]
+  ],
+  "quality": 4,
+  "notes": "long take, good light",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABFbw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/londons/day 9/Video 2025-09-25, 1 22 38 PM.mov",
+  "folder": "londons",
+  "shot": "lying in grass with dog",
+  "description": "Friends lie on their backs in a sunny grassy field with a golden dog, trees and blue sky behind.",
+  "tags": [
+   "friends",
+   "dog",
+   "lying in grass",
+   "field",
+   "relaxing",
+   "sunny",
+   "blue sky",
+   "summer"
+  ],
+  "location": "England",
+  "orientation": "vertical",
+  "duration": 9.97,
+  "usable": [
+   [
+    0.0,
+    9.97
+   ]
+  ],
+  "quality": 4,
+  "notes": "calm, warm vibe",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABBHg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/montenegro/day 11/Video 2025-08-21, 9 15 32 AM.mov",
+  "folder": "montenegro",
+  "shot": "squeezing oranges with lever juicer",
+  "description": "Shirtless Anton presses oranges on a manual lever juicer at a terrace table with blue sea and hills behind.",
+  "tags": [
+   "anton",
+   "squeezing oranges",
+   "juicer",
+   "fresh juice",
+   "terrace",
+   "sea view",
+   "sunny",
+   "morning"
+  ],
+  "location": "Montenegro",
+  "orientation": "vertical",
+  "duration": 20.3,
+  "usable": [
+   [
+    4.0,
+    20.3
+   ]
+  ],
+  "quality": 4,
+  "notes": "nice process shot",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABBDQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/montenegro/day 12/IMG_6705.MOV",
+  "folder": "montenegro",
+  "shot": "boats on bay with mountains",
+  "description": "Static shot of a motorboat and sailboat on choppy blue water with steep mountains and clouds behind.",
+  "tags": [
+   "bay of kotor",
+   "boats",
+   "sailboat",
+   "sea",
+   "mountains",
+   "clouds",
+   "sunny",
+   "horizontal",
+   "static"
+  ],
+  "location": "Montenegro",
+  "orientation": "horizontal",
+  "duration": 2.43,
+  "usable": [
+   [
+    0.0,
+    2.43
+   ]
+  ],
+  "quality": 4,
+  "notes": "scenic",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABBKQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/montenegro/day 12/IMG_6707.MOV",
+  "folder": "montenegro",
+  "shot": "marina with boats and mountains",
+  "description": "Static shot of boats moored at a wooden pier with a stone tower, pine trees and mountains under puffy clouds.",
+  "tags": [
+   "bay of kotor",
+   "marina",
+   "boats",
+   "pier",
+   "mountains",
+   "clouds",
+   "sunny",
+   "horizontal",
+   "static"
+  ],
+  "location": "Montenegro",
+  "orientation": "horizontal",
+  "duration": 2.63,
+  "usable": [
+   [
+    0.0,
+    2.63
+   ]
+  ],
+  "quality": 4,
+  "notes": "scenic",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABBCw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/montenegro/day 12/IMG_6713.MOV",
+  "folder": "montenegro",
+  "shot": "waterfront village with mountains",
+  "description": "Shot of a waterfront village with red-roofed stone houses, a jetty and a steep mountain behind, framed by leaves.",
+  "tags": [
+   "bay of kotor",
+   "village",
+   "red roofs",
+   "jetty",
+   "mountains",
+   "sea",
+   "sunny",
+   "horizontal"
+  ],
+  "location": "Montenegro",
+  "orientation": "horizontal",
+  "duration": 5.67,
+  "usable": [
+   [
+    0.0,
+    4.5
+   ]
+  ],
+  "quality": 4,
+  "notes": "scenic",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABArQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/montenegro/day 12/IMG_6722.mov",
+  "folder": "montenegro",
+  "shot": "rocky mountain cliffs",
+  "description": "Static shot of rugged limestone mountain cliffs lit by warm sun with forest below and clouds.",
+  "tags": [
+   "mountains",
+   "cliffs",
+   "limestone",
+   "forest",
+   "clouds",
+   "golden hour",
+   "landscape",
+   "horizontal",
+   "static"
+  ],
+  "location": "Montenegro",
+  "orientation": "horizontal",
+  "duration": 4.37,
+  "usable": [
+   [
+    0.0,
+    4.37
+   ]
+  ],
+  "quality": 4,
+  "notes": "scenic",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABBXw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/montenegro/day 13/Video 2025-08-23, 7 17 46 PM.mov",
+  "folder": "montenegro",
+  "shot": "laptop at sunset on terrace",
+  "description": "Static shot of an open laptop on a terrace table facing the sun setting over the sea and hills.",
+  "tags": [
+   "laptop",
+   "sunset",
+   "terrace",
+   "sea view",
+   "remote work",
+   "golden hour",
+   "static"
+  ],
+  "location": "Montenegro",
+  "orientation": "vertical",
+  "duration": 4.27,
+  "usable": [
+   [
+    0.0,
+    4.27
+   ]
+  ],
+  "quality": 4,
+  "notes": "good work-life b-roll",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABAbg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/montenegro/day 2/Video 2025-08-12, 10 38 23 AM.mov",
+  "folder": "montenegro",
+  "shot": "swimming in clear sea",
+  "description": "Shot from the rocks of Anton climbing down a metal ladder and swimming out into clear turquoise sea toward a small island, then back.",
+  "tags": [
+   "anton",
+   "swimming",
+   "sea",
+   "clear water",
+   "ladder",
+   "rocks",
+   "island",
+   "summer",
+   "morning swim"
+  ],
+  "location": "Montenegro",
+  "orientation": "vertical",
+  "duration": 30.47,
+  "usable": [
+   [
+    0.0,
+    30.47
+   ]
+  ],
+  "quality": 4,
+  "notes": "nice morning-swim sequence",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABAaA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/montenegro/day 2/Video 2025-08-12, 12 33 59 PM.mov",
+  "folder": "montenegro",
+  "shot": "grilled octopus salad plate",
+  "description": "Top-down static shot of a grilled octopus salad with tomatoes and cucumber on a pink ceramic plate at a restaurant table.",
+  "tags": [
+   "food",
+   "octopus",
+   "salad",
+   "seafood",
+   "healthy eating",
+   "restaurant",
+   "plate",
+   "top-down"
+  ],
+  "location": "Montenegro",
+  "orientation": "vertical",
+  "duration": 3.43,
+  "usable": [
+   [
+    0.0,
+    3.43
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABAYw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/montenegro/day 2/Video 2025-08-12, 5 01 35 PM.mov",
+  "folder": "montenegro",
+  "shot": "sparkling sea by cliffs",
+  "description": "Static wide shot of glittering sea with a rocky cliff on the right and a green headland in the distance.",
+  "tags": [
+   "sea",
+   "sparkling water",
+   "cliffs",
+   "coast",
+   "headland",
+   "sunny",
+   "summer",
+   "horizontal",
+   "static"
+  ],
+  "location": "Montenegro",
+  "orientation": "horizontal",
+  "duration": 2.33,
+  "usable": [
+   [
+    0.0,
+    2.33
+   ]
+  ],
+  "quality": 4,
+  "notes": "short but pretty",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABDGQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/montenegro/day 23/Video 2025-09-07, 2 13 09 PM.mov",
+  "folder": "montenegro",
+  "shot": "sitting on rock by crashing waves",
+  "description": "Static tripod shot of Anton in a white shirt climbing onto and sitting on a rock as waves crash around it, mountains across the bay.",
+  "tags": [
+   "anton",
+   "rocks",
+   "sea",
+   "waves",
+   "coast",
+   "sitting",
+   "sunny",
+   "white shirt",
+   "static"
+  ],
+  "location": "Montenegro",
+  "orientation": "vertical",
+  "duration": 108.88,
+  "usable": [
+   [
+    20.0,
+    100.0
+   ]
+  ],
+  "quality": 4,
+  "notes": "long take, strong scene",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABA1w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/montenegro/day 8/Video 2025-08-18, 7 06 18 PM.mov",
+  "folder": "montenegro",
+  "shot": "eating watermelon on terrace at sunset",
+  "description": "Shirtless Anton sits in a folding chair on a villa terrace eating watermelon and gazing at the sea at sunset, a black cat wandering by.",
+  "tags": [
+   "anton",
+   "watermelon",
+   "eating",
+   "terrace",
+   "sunset",
+   "sea view",
+   "villa",
+   "cat",
+   "relaxing",
+   "golden hour"
+  ],
+  "location": "Montenegro",
+  "orientation": "vertical",
+  "duration": 35.74,
+  "usable": [
+   [
+    0.0,
+    35.74
+   ]
+  ],
+  "quality": 4,
+  "notes": "lovely sunset moment",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABA0g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/montenegro/day 8/Video 2025-08-18, 7 07 32 PM.mov",
+  "folder": "montenegro",
+  "shot": "standing on wall at sunset",
+  "description": "Anton stands on top of a stone wall silhouetted against a pastel sunset sky over the sea and green hills.",
+  "tags": [
+   "anton",
+   "sunset",
+   "silhouette",
+   "stone wall",
+   "sea",
+   "hills",
+   "golden hour",
+   "static"
+  ],
+  "location": "Montenegro",
+  "orientation": "vertical",
+  "duration": 9.07,
+  "usable": [
+   [
+    0.0,
+    9.07
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABA0Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/montenegro/day 8/Video 2025-08-18, 7 09 37 PM.mov",
+  "folder": "montenegro",
+  "shot": "sunset over infinity pool",
+  "description": "Short shot of the sun setting over hills and sea behind an infinity pool.",
+  "tags": [
+   "sunset",
+   "pool",
+   "infinity pool",
+   "sea",
+   "hills",
+   "golden hour",
+   "villa"
+  ],
+  "location": "Montenegro",
+  "orientation": "vertical",
+  "duration": 2.93,
+  "usable": [
+   [
+    0.0,
+    2.93
+   ]
+  ],
+  "quality": 4,
+  "notes": "short",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABA0w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/montenegro/day 8/Video 2025-08-18, 7 31 35 PM.mov",
+  "folder": "montenegro",
+  "shot": "red sun setting over hills",
+  "description": "The sun sets as a red ball into haze over dark hills.",
+  "tags": [
+   "sunset",
+   "red sun",
+   "hills",
+   "haze",
+   "sky",
+   "golden hour",
+   "static"
+  ],
+  "location": "Montenegro",
+  "orientation": "vertical",
+  "duration": 4.67,
+  "usable": [
+   [
+    0.0,
+    4.67
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABA5A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/montenegro/day 9/Video 2025-08-19, 1 22 16 PM.mov",
+  "folder": "montenegro",
+  "shot": "sipping orange juice on sunbed",
+  "description": "Shirtless Anton lies back on a wooden sunbed under a vine pergola, tipping back a glass of orange juice in dappled sunlight.",
+  "tags": [
+   "anton",
+   "sipping juice",
+   "orange juice",
+   "sunbed",
+   "vine pergola",
+   "summer",
+   "relaxing",
+   "sunny"
+  ],
+  "location": "Montenegro",
+  "orientation": "vertical",
+  "duration": 9.37,
+  "usable": [
+   [
+    0.0,
+    9.37
+   ]
+  ],
+  "quality": 4,
+  "notes": "good drinking b-roll",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABA4g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/montenegro/day 9/Video 2025-08-19, 12 08 20 PM.mov",
+  "folder": "montenegro",
+  "shot": "rock island with flag in sea",
+  "description": "Steady shot of a dark rock topped with a flag in calm clear sea under blue sky.",
+  "tags": [
+   "rock",
+   "island",
+   "sea",
+   "flag",
+   "clear water",
+   "summer",
+   "sunny",
+   "calm"
+  ],
+  "location": "Montenegro",
+  "orientation": "vertical",
+  "duration": 8.5,
+  "usable": [
+   [
+    0.0,
+    8.5
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABA3Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/montenegro/day 9/Video 2025-08-19, 3 16 16 PM.mov",
+  "folder": "montenegro",
+  "shot": "seafood platter top-down",
+  "description": "Top-down shot of a seafood platter with prawns, mussels, lemon and salad on a bright green table in sunlight.",
+  "tags": [
+   "seafood",
+   "mussels",
+   "prawns",
+   "platter",
+   "food",
+   "restaurant",
+   "green table",
+   "top-down",
+   "summer"
+  ],
+  "location": "Montenegro",
+  "orientation": "vertical",
+  "duration": 3.03,
+  "usable": [
+   [
+    0.0,
+    3.03
+   ]
+  ],
+  "quality": 4,
+  "notes": "vivid colours",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABCaw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/montenegro/day19/Video 2025-09-02, 1 01 07 PM.mov",
+  "folder": "montenegro",
+  "shot": "fruit plate on seaside rocks",
+  "description": "Static shot of a clear plate of fresh peaches and green plums on flat rocks with a calm blue sea, islands and sky behind.",
+  "tags": [
+   "fruit",
+   "peach",
+   "plums",
+   "healthy eating",
+   "sea",
+   "rocks",
+   "blue sky",
+   "sunny",
+   "static",
+   "summer"
+  ],
+  "location": "Montenegro",
+  "orientation": "vertical",
+  "duration": 4.94,
+  "usable": [
+   [
+    0.0,
+    4.94
+   ]
+  ],
+  "quality": 4,
+  "notes": "pretty still-life",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABCcQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/montenegro/day19/Video 2025-09-02, 1 04 55 PM.mov",
+  "folder": "montenegro",
+  "shot": "sitting on seaside rocks eating fruit",
+  "description": "Static tripod shot: Anton walks in with a backpack, sits on rocks beside a boulder by a calm blue bay with fruit next to him and looks at the view.",
+  "tags": [
+   "anton",
+   "sea",
+   "rocks",
+   "bay",
+   "fruit",
+   "relaxing",
+   "sunny",
+   "blue sky",
+   "white shirt",
+   "static"
+  ],
+  "location": "Montenegro",
+  "orientation": "vertical",
+  "duration": 37.24,
+  "usable": [
+   [
+    9.0,
+    37.24
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABCcg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/montenegro/day19/Video 2025-09-02, 1 07 44 PM.mov",
+  "folder": "montenegro",
+  "shot": "sitting on seaside rocks",
+  "description": "Low static shot of Anton in a white shirt sitting on rocks gazing over a calm blue bay with mountains, fruit beside him.",
+  "tags": [
+   "anton",
+   "sea",
+   "rocks",
+   "bay",
+   "mountains",
+   "relaxing",
+   "sunny",
+   "blue sky",
+   "white shirt",
+   "static"
+  ],
+  "location": "Montenegro",
+  "orientation": "vertical",
+  "duration": 37.27,
+  "usable": [
+   [
+    5.0,
+    34.0
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABCcw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/montenegro/day19/Video 2025-09-02, 1 09 14 PM.mov",
+  "folder": "montenegro",
+  "shot": "sitting on seaside rocks eating fruit",
+  "description": "Static shot of Anton sitting on rocks by a calm blue bay eating fruit and looking at the water and mountains.",
+  "tags": [
+   "anton",
+   "sea",
+   "rocks",
+   "bay",
+   "mountains",
+   "fruit",
+   "eating",
+   "sunny",
+   "blue sky",
+   "static"
+  ],
+  "location": "Montenegro",
+  "orientation": "vertical",
+  "duration": 46.5,
+  "usable": [
+   [
+    8.0,
+    42.0
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-Sw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 6 15 36 PM.mov",
+  "folder": "poland 2025",
+  "shot": "forest trail",
+  "description": "Static horizontal shot of a dirt trail winding through lush green beech forest.",
+  "tags": [
+   "forest",
+   "trail",
+   "green",
+   "nature",
+   "hike",
+   "static",
+   "path"
+  ],
+  "location": "Kraków region, Poland",
+  "orientation": "horizontal",
+  "duration": 2.94,
+  "usable": [
+   [
+    0,
+    2.94
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-UQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 6 33 10 PM.mov",
+  "folder": "poland 2025",
+  "shot": "misty forested valley",
+  "description": "Horizontal static view of mist drifting over a green forested valley.",
+  "tags": [
+   "valley",
+   "mist",
+   "forest",
+   "landscape",
+   "moody",
+   "static",
+   "nature"
+  ],
+  "location": "Kraków region, Poland",
+  "orientation": "horizontal",
+  "duration": 3.2,
+  "usable": [
+   [
+    0,
+    3.2
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-WQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 6 45 54 PM.mov",
+  "folder": "poland 2025",
+  "shot": "putting on raincoat at viewpoint",
+  "description": "Anton pulls on a black raincoat and gazes out over a forested valley from a rocky viewpoint.",
+  "tags": [
+   "anton",
+   "viewpoint",
+   "raincoat",
+   "valley",
+   "looking out",
+   "nature",
+   "contemplative"
+  ],
+  "location": "Kraków region, Poland",
+  "orientation": "vertical",
+  "duration": 6.67,
+  "usable": [
+   [
+    0,
+    6.67
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-Rg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 9 58 46 AM.mov",
+  "folder": "poland 2025",
+  "shot": "wawel castle walls",
+  "description": "Static vertical shot of Wawel Castle's brick tower and walls above a cobbled road under blue sky.",
+  "tags": [
+   "wawel",
+   "castle",
+   "krakow",
+   "landmark",
+   "cobblestones",
+   "blue sky",
+   "static"
+  ],
+  "location": "Kraków, Poland",
+  "orientation": "vertical",
+  "duration": 3.47,
+  "usable": [
+   [
+    0,
+    3.47
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-EQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 3/IMG_6015.MOV",
+  "folder": "poland 2025",
+  "shot": "brunch spread",
+  "description": "Overhead of a brunch table: roast beef baguette, bagels with ham and scrambled eggs, coffee, hands reaching in.",
+  "tags": [
+   "brunch",
+   "food",
+   "breakfast",
+   "sandwich",
+   "eggs",
+   "cafe",
+   "overhead",
+   "friends"
+  ],
+  "location": "Kraków, Poland",
+  "orientation": "vertical",
+  "duration": 5.27,
+  "usable": [
+   [
+    0,
+    5.27
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-vA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 4/Video 2025-07-28, 3 07 48 PM.mov",
+  "folder": "poland 2025",
+  "shot": "market vegetable stall",
+  "description": "Colourful market stall piled with red and yellow tomatoes and peppers while a vendor serves.",
+  "tags": [
+   "market",
+   "vegetables",
+   "tomatoes",
+   "peppers",
+   "colourful",
+   "local produce",
+   "food"
+  ],
+  "location": "Wrocław, Poland",
+  "orientation": "vertical",
+  "duration": 4.27,
+  "usable": [
+   [
+    0,
+    4.27
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-rQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 4/Video 2025-07-28, 4 44 24 PM.mov",
+  "folder": "poland 2025",
+  "shot": "leaning on bridge railing",
+  "description": "Anton in white linen leans on a wooden footbridge railing in a lush garden, looking up and around, then walks off.",
+  "tags": [
+   "anton",
+   "bridge",
+   "garden",
+   "white linen",
+   "contemplative",
+   "green",
+   "nature"
+  ],
+  "location": "Wrocław, Poland",
+  "orientation": "vertical",
+  "duration": 8.93,
+  "usable": [
+   [
+    0,
+    6
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-qQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 4/Video 2025-07-28, 4 48 52 PM.mov",
+  "folder": "poland 2025",
+  "shot": "relaxing on garden bench",
+  "description": "Horizontal shot of Anton leaning back on a garden bench by an iron table, looking up at the trees.",
+  "tags": [
+   "anton",
+   "bench",
+   "garden",
+   "relaxing",
+   "white linen",
+   "calm",
+   "nature"
+  ],
+  "location": "Wrocław, Poland",
+  "orientation": "horizontal",
+  "duration": 4.96,
+  "usable": [
+   [
+    0,
+    4.96
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-pQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 4/Video 2025-07-28, 4 49 00 PM.mov",
+  "folder": "poland 2025",
+  "shot": "relaxing on garden bench",
+  "description": "Wider horizontal shot of Anton reclining on a garden bench under trees, gazing upward.",
+  "tags": [
+   "anton",
+   "bench",
+   "garden",
+   "relaxing",
+   "white linen",
+   "calm"
+  ],
+  "location": "Wrocław, Poland",
+  "orientation": "horizontal",
+  "duration": 4.29,
+  "usable": [
+   [
+    0,
+    4.29
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-og",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 4/Video 2025-07-28, 4 49 37 PM.mov",
+  "folder": "poland 2025",
+  "shot": "relaxing on garden bench",
+  "description": "Vertical shot of Anton cross-legged on a garden bench with arms spread, eyes closed in the greenery.",
+  "tags": [
+   "anton",
+   "bench",
+   "garden",
+   "relaxing",
+   "meditative",
+   "green",
+   "calm"
+  ],
+  "location": "Wrocław, Poland",
+  "orientation": "vertical",
+  "duration": 4.81,
+  "usable": [
+   [
+    0,
+    4.81
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-oA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 4/Video 2025-07-28, 5 27 42 PM.mov",
+  "folder": "poland 2025",
+  "shot": "flower beds and cathedral",
+  "description": "Static vertical shot of a lawn edged with orange and yellow flower beds, trees and the cathedral roof behind.",
+  "tags": [
+   "flowers",
+   "garden",
+   "lawn",
+   "cathedral",
+   "colourful",
+   "static",
+   "botanical garden"
+  ],
+  "location": "Wrocław, Poland",
+  "orientation": "vertical",
+  "duration": 4.3,
+  "usable": [
+   [
+    0,
+    4.3
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-ng",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 4/Video 2025-07-28, 5 28 48 PM.mov",
+  "folder": "poland 2025",
+  "shot": "walking barefoot on lawn",
+  "description": "Anton walks barefoot across a lawn beside flower beds toward the cathedral, turns and walks back toward camera.",
+  "tags": [
+   "anton",
+   "barefoot",
+   "walking",
+   "lawn",
+   "garden",
+   "grounding",
+   "white linen"
+  ],
+  "location": "Wrocław, Poland",
+  "orientation": "vertical",
+  "duration": 21.53,
+  "usable": [
+   [
+    0,
+    21.53
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-yA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 6/IMG_6136.MOV",
+  "folder": "poland 2025",
+  "shot": "oysters overhead",
+  "description": "Overhead of two plates of oysters and drinks on a wooden restaurant table.",
+  "tags": [
+   "oysters",
+   "seafood",
+   "food",
+   "overhead",
+   "wooden table",
+   "drinks"
+  ],
+  "location": "Gdańsk, Poland",
+  "orientation": "vertical",
+  "duration": 3.58,
+  "usable": [
+   [
+    0,
+    3.58
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-0w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 6/IMG_6147.MOV",
+  "folder": "poland 2025",
+  "shot": "pov feet in waves",
+  "description": "POV looking down at bare feet in wet sand as a gentle wave washes over them at dusk.",
+  "tags": [
+   "pov",
+   "feet",
+   "beach",
+   "waves",
+   "sea",
+   "grounding",
+   "dusk",
+   "calm"
+  ],
+  "location": "Baltic coast, Poland",
+  "orientation": "vertical",
+  "duration": 3.34,
+  "usable": [
+   [
+    0,
+    3.34
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-2A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 6/IMG_6149.MOV",
+  "folder": "poland 2025",
+  "shot": "baltic sea at dusk",
+  "description": "Static vertical shot of the calm Baltic Sea under clouds with a pink sunset strip on the horizon.",
+  "tags": [
+   "sea",
+   "dusk",
+   "sunset",
+   "clouds",
+   "calm",
+   "horizon",
+   "static",
+   "blue"
+  ],
+  "location": "Baltic coast, Poland",
+  "orientation": "vertical",
+  "duration": 3.58,
+  "usable": [
+   [
+    0,
+    3.58
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-2g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 6/IMG_6150.MOV",
+  "folder": "poland 2025",
+  "shot": "walking barefoot on beach at dusk",
+  "description": "Anton in a beige jacket stands at the water's edge looking out to sea at dusk, then walks along the shore.",
+  "tags": [
+   "anton",
+   "beach",
+   "sea",
+   "dusk",
+   "barefoot",
+   "walking",
+   "contemplative",
+   "blue hour"
+  ],
+  "location": "Baltic coast, Poland",
+  "orientation": "vertical",
+  "duration": 11.5,
+  "usable": [
+   [
+    0,
+    6
+   ],
+   [
+    7.5,
+    9.5
+   ]
+  ],
+  "quality": 4,
+  "notes": "Camera pans to empty sea mid-clip and at end",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-4Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6197.mov",
+  "folder": "poland 2025",
+  "shot": "misty beech forest",
+  "description": "Horizontal static shot of a misty beech forest with red leaf litter.",
+  "tags": [
+   "forest",
+   "mist",
+   "beech",
+   "moody",
+   "static",
+   "nature"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "horizontal",
+  "duration": 2.53,
+  "usable": [
+   [
+    0,
+    2.53
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-9w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6198.MOV",
+  "folder": "poland 2025",
+  "shot": "friends walking misty forest",
+  "description": "Horizontal wide of two friends walking away on a wet forest road through misty beech trees; phone rotates at the end.",
+  "tags": [
+   "friends",
+   "forest",
+   "mist",
+   "walking",
+   "wide",
+   "moody"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "horizontal",
+  "duration": 12.07,
+  "usable": [
+   [
+    0,
+    8
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-4A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6210.MOV",
+  "folder": "poland 2025",
+  "shot": "friends hiking misty forest",
+  "description": "Following friends up a rocky trail into a dark, misty beech forest.",
+  "tags": [
+   "friends",
+   "hiking",
+   "mist",
+   "forest",
+   "moody",
+   "trail",
+   "dark"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "vertical",
+  "duration": 6.08,
+  "usable": [
+   [
+    0,
+    6.08
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Ig",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 9/IMG_6228.MOV",
+  "folder": "poland 2025",
+  "shot": "raw steaks on board",
+  "description": "Overhead of four seasoned raw steaks on a wooden board on a sunlit terrace table.",
+  "tags": [
+   "steak",
+   "raw meat",
+   "food",
+   "overhead",
+   "barbecue",
+   "sunlight",
+   "carnivore"
+  ],
+  "location": "Poland (countryside house)",
+  "orientation": "vertical",
+  "duration": 3.5,
+  "usable": [
+   [
+    0,
+    3.5
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_JA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 9/IMG_6231.MOV",
+  "folder": "poland 2025",
+  "shot": "steaks on grill",
+  "description": "Static shot of steaks on a charcoal grill being turned with tongs.",
+  "tags": [
+   "steak",
+   "grill",
+   "barbecue",
+   "cooking",
+   "meat",
+   "outdoors"
+  ],
+  "location": "Poland (countryside house)",
+  "orientation": "vertical",
+  "duration": 5.97,
+  "usable": [
+   [
+    0,
+    5.97
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Kw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 9/IMG_6235.MOV",
+  "folder": "poland 2025",
+  "shot": "steaks on grill close",
+  "description": "Close shot of steaks sizzling on a smoky grill being turned with tongs.",
+  "tags": [
+   "steak",
+   "grill",
+   "barbecue",
+   "smoke",
+   "cooking",
+   "close up",
+   "meat"
+  ],
+  "location": "Poland (countryside house)",
+  "orientation": "vertical",
+  "duration": 3.97,
+  "usable": [
+   [
+    0,
+    3.97
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_LQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 9/IMG_6237.MOV",
+  "folder": "poland 2025",
+  "shot": "slicing grilled steak",
+  "description": "Hands slice grilled steak on a wooden board on a terrace table.",
+  "tags": [
+   "steak",
+   "slicing",
+   "knife",
+   "cutting board",
+   "barbecue",
+   "food",
+   "meat"
+  ],
+  "location": "Poland (countryside house)",
+  "orientation": "vertical",
+  "duration": 8.4,
+  "usable": [
+   [
+    0,
+    8.4
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_IA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 9/IMG_6238.MOV",
+  "folder": "poland 2025",
+  "shot": "hands sharing barbecue dinner",
+  "description": "Overhead of hands reaching for sliced steak, rice and salads on a terrace table.",
+  "tags": [
+   "dinner",
+   "friends",
+   "hands",
+   "steak",
+   "salad",
+   "overhead",
+   "sharing"
+  ],
+  "location": "Poland (countryside house)",
+  "orientation": "horizontal",
+  "duration": 7.0,
+  "usable": [
+   [
+    0,
+    7.0
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABIVA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/toronto fall 2026/da 7/Video 2025-10-08, 4 13 40 PM.mov",
+  "folder": "toronto fall 2026",
+  "shot": "red autumn tree against blue sky",
+  "description": "Static low-angle shot of a tree with red and orange fall leaves against a clear blue sky.",
+  "tags": [
+   "autumn",
+   "fall leaves",
+   "tree",
+   "red",
+   "blue sky",
+   "sunny",
+   "static",
+   "nature"
+  ],
+  "location": "Toronto, Canada",
+  "orientation": "vertical",
+  "duration": 6.0,
+  "usable": [
+   [
+    0,
+    6.0
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABIUw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/toronto fall 2026/da 7/Video 2025-10-08, 4 14 07 PM.mov",
+  "folder": "toronto fall 2026",
+  "shot": "autumn trees in park",
+  "description": "Static shot of an orange-red maple among green trees in a park under clear blue sky.",
+  "tags": [
+   "autumn",
+   "fall leaves",
+   "trees",
+   "park",
+   "orange",
+   "blue sky",
+   "sunny",
+   "static"
+  ],
+  "location": "Toronto, Canada",
+  "orientation": "vertical",
+  "duration": 5.37,
+  "usable": [
+   [
+    0,
+    5.37
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABIWg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/toronto fall 2026/da 7/Video 2025-10-08, 4 27 27 PM.mov",
+  "folder": "toronto fall 2026",
+  "shot": "looking up at tree canopy",
+  "description": "Upward shot of a dense green canopy with some orange fall leaves and blue sky peeking through.",
+  "tags": [
+   "trees",
+   "canopy",
+   "looking up",
+   "autumn",
+   "green",
+   "orange",
+   "blue sky",
+   "static"
+  ],
+  "location": "Toronto, Canada",
+  "orientation": "vertical",
+  "duration": 10.53,
+  "usable": [
+   [
+    0,
+    10.53
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABKCg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/toronto fall 2026/day 19/Video 2025-10-26, 5 23 48 PM.mov",
+  "folder": "toronto fall 2026",
+  "shot": "forest trail",
+  "description": "Static shot down a dirt trail through a sunlit deciduous forest; light dims slightly.",
+  "tags": [
+   "forest",
+   "trail",
+   "trees",
+   "green",
+   "daytime",
+   "static",
+   "nature"
+  ],
+  "location": "Toronto, Canada",
+  "orientation": "vertical",
+  "duration": 5.25,
+  "usable": [
+   [
+    0,
+    5.25
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABGBw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/toronto fall 2026/day 2/Video 2025-09-27, 6 05 16 PM.mov",
+  "folder": "toronto fall 2026",
+  "shot": "laptop on picnic table under trees",
+  "description": "Static shot of a laptop on a picnic table with a sunny tree-lined park behind.",
+  "tags": [
+   "laptop",
+   "picnic table",
+   "working outdoors",
+   "park",
+   "trees",
+   "sunny",
+   "static"
+  ],
+  "location": "Toronto, Canada",
+  "orientation": "vertical",
+  "duration": 5.57,
+  "usable": [
+   [
+    0,
+    5.57
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABGBQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/toronto fall 2026/day 2/Video 2025-09-27, 6 05 26 PM.mov",
+  "folder": "toronto fall 2026",
+  "shot": "laptop on picnic table under trees",
+  "description": "Laptop and cables on a wooden picnic table in a green, sunny park.",
+  "tags": [
+   "laptop",
+   "picnic table",
+   "working outdoors",
+   "park",
+   "trees",
+   "sunny",
+   "static"
+  ],
+  "location": "Toronto, Canada",
+  "orientation": "vertical",
+  "duration": 5.3,
+  "usable": [
+   [
+    0,
+    5.3
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABMhw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/toronto fall 2026/day 24/Video 2025-11-09, 8 40 32 AM.mov",
+  "folder": "toronto fall 2026",
+  "shot": "first snow in forest",
+  "description": "Static shot of a forest with a light dusting of snow on the ground and branches, autumn leaves still on trees.",
+  "tags": [
+   "snow",
+   "forest",
+   "first snow",
+   "winter",
+   "autumn",
+   "trees",
+   "static",
+   "cold"
+  ],
+  "location": "Toronto, Canada",
+  "orientation": "vertical",
+  "duration": 3.37,
+  "usable": [
+   [
+    0,
+    3.37
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABMgQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/toronto fall 2026/day 24/Video 2025-11-09, 8 48 11 AM.mov",
+  "folder": "toronto fall 2026",
+  "shot": "snowy forest path with fence",
+  "description": "Leaf-covered trail with wooden fence through a lightly snowy forest, a distant walker.",
+  "tags": [
+   "snow",
+   "forest",
+   "trail",
+   "fence",
+   "autumn",
+   "winter",
+   "static"
+  ],
+  "location": "Toronto, Canada",
+  "orientation": "vertical",
+  "duration": 4.47,
+  "usable": [
+   [
+    0,
+    4.47
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABMhg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/toronto fall 2026/day 24/Video 2025-11-09, 9 08 00 AM.mov",
+  "folder": "toronto fall 2026",
+  "shot": "snowy park with labyrinth",
+  "description": "Horizontal static shot of a snow-covered park lawn with a circular labyrinth and autumn trees dusted with snow.",
+  "tags": [
+   "snow",
+   "park",
+   "labyrinth",
+   "autumn",
+   "winter",
+   "trees",
+   "horizontal",
+   "static"
+  ],
+  "location": "Toronto, Canada",
+  "orientation": "horizontal",
+  "duration": 2.83,
+  "usable": [
+   [
+    0,
+    2.83
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABHFQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/toronto fall 2026/day4/Video 2025-10-04, 5 01 18 PM.mov",
+  "folder": "toronto fall 2026",
+  "shot": "bike share bikes in park",
+  "description": "Static shot of orange bike-share bikes docked on a grassy park edge under trees.",
+  "tags": [
+   "bike share",
+   "bikes",
+   "park",
+   "orange",
+   "green",
+   "sunny",
+   "static",
+   "city"
+  ],
+  "location": "Toronto, Canada",
+  "orientation": "vertical",
+  "duration": 3.4,
+  "usable": [
+   [
+    0,
+    3.4
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABHGw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/toronto fall 2026/day4/Video 2025-10-04, 5 41 03 PM.mov",
+  "folder": "toronto fall 2026",
+  "shot": "bike share ride pov",
+  "description": "POV riding an orange bike-share bike down a sunny city bike lane with shops and trees.",
+  "tags": [
+   "cycling",
+   "bike share",
+   "pov",
+   "city",
+   "street",
+   "sunny",
+   "bike lane"
+  ],
+  "location": "Toronto, Canada",
+  "orientation": "vertical",
+  "duration": 6.8,
+  "usable": [
+   [
+    0,
+    6.8
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_in": []
+ }
+]
