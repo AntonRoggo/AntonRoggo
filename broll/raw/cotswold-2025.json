@@ -25,7 +25,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Raw take; same script as Aug7.mp4 (paradoxical / noble savage)"
+  "notes": "Raw take; same script as Aug7.mp4 (paradoxical / noble savage)",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_nQ",
@@ -51,7 +53,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished/captioned edit, not raw B-roll"
+  "notes": "Finished/captioned edit, not raw B-roll",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_nw",
@@ -79,7 +83,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit (paradoxical / noble savage video)"
+  "notes": "Finished edit (paradoxical / noble savage video)",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_kA",
@@ -106,7 +112,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Shot vertical on camera, stored sideways (needs 90 deg rotation); camera handling at start/end"
+  "notes": "Shot vertical on camera, stored sideways (needs 90 deg rotation); camera handling at start/end",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_mQ",
@@ -133,7 +141,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Stored sideways, needs rotation"
+  "notes": "Stored sideways, needs rotation",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_mg",
@@ -160,7 +170,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Stored sideways; handling at end"
+  "notes": "Stored sideways; handling at end",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_mw",
@@ -187,7 +199,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Stored sideways; handling at end"
+  "notes": "Stored sideways; handling at end",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Sw",
@@ -215,7 +229,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Phone rotated mid-clip so horizon turns vertical after ~1.5s; only the first second is level"
+  "notes": "Phone rotated mid-clip so horizon turns vertical after ~1.5s; only the first second is level",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Sg",
@@ -243,7 +259,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Raw talking take"
+  "notes": "Raw talking take",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_OA",
@@ -271,7 +289,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Finished edit ('nothing will ever beat an outdoor ... with your boys'); the overhead steak shots would be nice B-roll if raw versions exist"
+  "notes": "Finished edit ('nothing will ever beat an outdoor ... with your boys'); the overhead steak shots would be nice B-roll if raw versions exist",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_dA",
@@ -299,7 +319,11 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "cotswold 2025/day 2/finished/Aug5_1.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_dg",
@@ -327,7 +351,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Reframe jump around 5s; power line visible in first half"
+  "notes": "Reframe jump around 5s; power line visible in first half",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_cg",
@@ -355,7 +381,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Zoom/reframe at ~5.5s; grass in foreground early"
+  "notes": "Zoom/reframe at ~5.5s; grass in foreground early",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_cw",
@@ -383,7 +411,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Plain, little going on"
+  "notes": "Plain, little going on",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_cA",
@@ -410,7 +440,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_aQ",
@@ -437,7 +469,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_aw",
@@ -465,7 +499,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_ag",
@@ -493,7 +529,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_bQ",
@@ -520,7 +558,11 @@
    ]
   ],
   "quality": 2,
-  "notes": "Pan is a bit uneven"
+  "notes": "Pan is a bit uneven",
+  "used_count": 1,
+  "used_in_edits": [
+   "cotswold 2025/day 2/finished/Aug5_1.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Zw",
@@ -547,7 +589,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Plant creeps into frame at the end"
+  "notes": "Plant creeps into frame at the end",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_bA",
@@ -574,7 +618,11 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "cotswold 2025/day 2/finished/Aug5_1.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Zg",
@@ -602,7 +650,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_ZQ",
@@ -630,7 +680,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Sheep small in frame"
+  "notes": "Sheep small in frame",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Yw",
@@ -658,7 +710,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Same scene as 2 43 12 PM clip; sheep small in frame"
+  "notes": "Same scene as 2 43 12 PM clip; sheep small in frame",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_YQ",
@@ -686,7 +740,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Very short (3s), sheep tiny"
+  "notes": "Very short (3s), sheep tiny",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Yg",
@@ -714,7 +770,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Not speaking, but a selfie framing; could work as a reaction/look-to-camera shot"
+  "notes": "Not speaking, but a selfie framing; could work as a reaction/look-to-camera shot",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Xw",
@@ -742,7 +800,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Xg",
@@ -770,7 +830,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "Setup/outtake before a take"
+  "notes": "Setup/outtake before a take",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_aA",
@@ -798,7 +860,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking take with fruit picking in the middle (~9-14s could be cut out as B-roll)"
+  "notes": "Talking take with fruit picking in the middle (~9-14s could be cut out as B-roll)",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_XQ",
@@ -826,7 +890,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Ww",
@@ -853,7 +919,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_YA",
@@ -881,7 +949,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Camera drops at end"
+  "notes": "Camera drops at end",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_bw",
@@ -909,7 +979,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_XA",
@@ -937,7 +1009,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "First half is talking; 11-19s reclining in chair works as B-roll (used in Aug5 edit)"
+  "notes": "First half is talking; 11-19s reclining in chair works as B-roll (used in Aug5 edit)",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_WA",
@@ -966,7 +1040,11 @@
    ]
   ],
   "quality": 3,
-  "notes": "Handheld tracking, some framing wobble; used in Aug5 edit"
+  "notes": "Handheld tracking, some framing wobble; used in Aug5 edit",
+  "used_count": 1,
+  "used_in_edits": [
+   "cotswold 2025/day 2/finished/Aug5_1.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Vw",
@@ -994,7 +1072,11 @@
    ]
   ],
   "quality": 3,
-  "notes": "Handheld, framing a bit loose; may be talking in parts"
+  "notes": "Handheld, framing a bit loose; may be talking in parts",
+  "used_count": 1,
+  "used_in_edits": [
+   "cotswold 2025/day 2/finished/Aug5_1.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_UQ",
@@ -1022,7 +1104,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Ug",
@@ -1050,7 +1134,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_VA",
@@ -1078,7 +1164,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Uw",
@@ -1106,7 +1194,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_VQ",
@@ -1134,7 +1224,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_UA",
@@ -1162,7 +1254,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_TQ",
@@ -1189,7 +1283,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "2s false start"
+  "notes": "2s false start",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Tw",
@@ -1221,7 +1317,9 @@
   "notes": "Handheld; looks up a lot",
   "activity": "picking fruit",
   "who": "anton",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Tg",
@@ -1252,7 +1350,9 @@
   "notes": "Starts talking to camera at the end",
   "activity": "picking fruit",
   "who": "anton",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_QQ",
@@ -1278,7 +1378,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "Tiny export fragment"
+  "notes": "Tiny export fragment",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Qg",
@@ -1305,7 +1407,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Finished edit (Aug 5 video)"
+  "notes": "Finished edit (Aug 5 video)",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_fg",
@@ -1332,7 +1436,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Stored sideways, needs rotation"
+  "notes": "Stored sideways, needs rotation",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_fQ",
@@ -1359,7 +1465,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Stored sideways, needs rotation; camera moves at end"
+  "notes": "Stored sideways, needs rotation; camera moves at end",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_fA",
@@ -1385,7 +1493,9 @@
    ]
   ],
   "quality": 1,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_gA",
@@ -1413,7 +1523,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Finished edit; filename duplicates a raw clip name"
+  "notes": "Finished edit; filename duplicates a raw clip name",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_vQ",
@@ -1442,7 +1554,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Foreground is dark"
+  "notes": "Foreground is dark",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_vA",
@@ -1471,7 +1585,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_ug",
@@ -1499,7 +1615,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_uw",
@@ -1528,7 +1646,11 @@
    ]
   ],
   "quality": 3,
-  "notes": "Handheld walking"
+  "notes": "Handheld walking",
+  "used_count": 1,
+  "used_in_edits": [
+   "cotswold 2025/day 5/finished/aug9.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_uQ",
@@ -1557,7 +1679,11 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "cotswold 2025/day 5/finished/aug9.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_tg",
@@ -1585,7 +1711,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_vg",
@@ -1617,7 +1745,11 @@
   "notes": "Handheld, some framing shifts; strong wellness content",
   "activity": "cold plunge",
   "who": "anton",
-  "action_quality": 4
+  "action_quality": 4,
+  "used_count": 1,
+  "used_in_edits": [
+   "cotswold 2025/day 5/finished/aug9.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_tQ",
@@ -1646,7 +1778,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Slight handheld drift"
+  "notes": "Slight handheld drift",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_tw",
@@ -1675,7 +1809,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Fire pit and cushions block foreground"
+  "notes": "Fire pit and cushions block foreground",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_sQ",
@@ -1702,7 +1838,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "Person blocks frame throughout"
+  "notes": "Person blocks frame throughout",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_rw",
@@ -1731,7 +1869,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_rQ",
@@ -1759,7 +1899,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_rg",
@@ -1788,7 +1930,11 @@
    ]
   ],
   "quality": 4,
-  "notes": "Handheld but appetising"
+  "notes": "Handheld but appetising",
+  "used_count": 1,
+  "used_in_edits": [
+   "cotswold 2025/day 5/finished/aug9.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_tA",
@@ -1815,7 +1961,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_sw",
@@ -1842,7 +1990,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_sg",
@@ -1869,7 +2019,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_qw",
@@ -1897,7 +2049,11 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "cotswold 2025/day 5/finished/aug8.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_qg",
@@ -1924,7 +2080,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "Tilted, cluttered"
+  "notes": "Tilted, cluttered",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_rA",
@@ -1951,7 +2109,12 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 2,
+  "used_in_edits": [
+   "cotswold 2025/day 5/finished/aug8.mov",
+   "montenegro/day 15/finished/Aug25.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_vw",
@@ -1981,7 +2144,11 @@
    ]
   ],
   "quality": 4,
-  "notes": "Static, long; someone walks out of frame at start"
+  "notes": "Static, long; someone walks out of frame at start",
+  "used_count": 1,
+  "used_in_edits": [
+   "cotswold 2025/day 5/finished/aug8.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_pw",
@@ -2008,7 +2175,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit"
+  "notes": "Finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_qA",
@@ -2035,7 +2204,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit, near-duplicate of aug8.mov"
+  "notes": "Finished edit, near-duplicate of aug8.mov",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_yg",
@@ -2062,7 +2233,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Finished edit"
+  "notes": "Finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_6A",
@@ -2090,7 +2263,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Stored sideways, needs rotation"
+  "notes": "Stored sideways, needs rotation",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_4w",
@@ -2121,7 +2296,9 @@
   "notes": "Bouncy, dim",
   "activity": "trampoline",
   "who": "anton",
-  "action_quality": 2
+  "action_quality": 2,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_5Q",
@@ -2152,7 +2329,9 @@
   "notes": "Very shaky, dark frames",
   "activity": "trampoline",
   "who": "anton",
-  "action_quality": 1
+  "action_quality": 1,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_1w",
@@ -2184,7 +2363,9 @@
   "notes": "",
   "activity": "wading",
   "who": "anton",
-  "action_quality": 4
+  "action_quality": 4,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_2A",
@@ -2216,7 +2397,9 @@
   "notes": "",
   "activity": "wading",
   "who": "anton",
-  "action_quality": 4
+  "action_quality": 4,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_4A",
@@ -2248,7 +2431,9 @@
   "notes": "",
   "activity": "wading",
   "who": "anton",
-  "action_quality": 4
+  "action_quality": 4,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_2w",
@@ -2279,7 +2464,9 @@
   "notes": "Low angle, foreground plants; ends pointing at water",
   "activity": "calisthenics",
   "who": "anton",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_4g",
@@ -2311,7 +2498,9 @@
   "notes": "",
   "activity": "wading",
   "who": "anton",
-  "action_quality": 4
+  "action_quality": 4,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_2Q",
@@ -2343,7 +2532,11 @@
   "notes": "",
   "activity": "wading",
   "who": "anton",
-  "action_quality": 4
+  "action_quality": 4,
+  "used_count": 1,
+  "used_in_edits": [
+   "cotswold 2025/day 6/finished/Aug10.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_1g",
@@ -2373,7 +2566,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_0w",
@@ -2402,7 +2597,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_3w",
@@ -2430,7 +2627,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_3g",
@@ -2457,7 +2656,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "Shaky, blurry handling"
+  "notes": "Shaky, blurry handling",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_2g",
@@ -2481,7 +2682,9 @@
    ]
   ],
   "quality": 1,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_3A",
@@ -2508,7 +2711,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "Shaky, handling at both ends"
+  "notes": "Shaky, handling at both ends",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_3Q",
@@ -2535,7 +2740,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "Dark, shaky"
+  "notes": "Dark, shaky",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_-A",
@@ -2562,7 +2769,11 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "cotswold 2025/day 6/finished/Aug10.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_0g",
@@ -2590,7 +2801,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Only 1.7s"
+  "notes": "Only 1.7s",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_1A",
@@ -2617,7 +2830,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Slight drift"
+  "notes": "Slight drift",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_1Q",
@@ -2644,7 +2859,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "Rotated/tilted for most of the clip"
+  "notes": "Rotated/tilted for most of the clip",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_5g",
@@ -2668,7 +2885,9 @@
    ]
   ],
   "quality": 1,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_5w",
@@ -2692,7 +2911,9 @@
    ]
   ],
   "quality": 1,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_4Q",
@@ -2716,7 +2937,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "Last frame could not be extracted; duration approximate"
+  "notes": "Last frame could not be extracted; duration approximate",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_5A",
@@ -2743,7 +2966,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Rotated after ~2.5s"
+  "notes": "Rotated after ~2.5s",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_7A",
@@ -2771,7 +2996,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Finished edit; includes sea/rock footage not in this folder"
+  "notes": "Finished edit; includes sea/rock footage not in this folder",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_6g",
@@ -2798,7 +3025,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Dim blue-hour light; in 'finished' folder but looks like an audio-fix export of a talking take"
+  "notes": "Dim blue-hour light; in 'finished' folder but looks like an audio-fix export of a talking take",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_6w",
@@ -2825,6 +3054,8 @@
    ]
   ],
   "quality": 2,
-  "notes": "Audio-fix export of talking take"
+  "notes": "Audio-fix export of talking take",
+  "used_count": 0,
+  "used_in_edits": []
  }
 ]

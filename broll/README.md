@@ -4,6 +4,8 @@
 
 `action.json` holds clips of Anton or friends doing an activity (kitesurfing, hiking, snowboarding, climbing...), rated on `action_quality` (how clearly the activity shows), with `activity` and `who` fields. Clips rated 1 (barely visible) are left out.
 
+**Usage:** `used_count` / `used_in_edits` say how many of Anton's finished edits (218 in these folders) already use each clip, found by `tools/clip_embed.py`. Both lists are sorted most-used first, and clips used in 2+ edits are included even if their quality score is low. Raw data in `usage.json`.
+
 Use `raw/` to find talking takes or lower-rated clips; use `catalog.json` when picking B-roll for an edit.
 
 `catalog.json` lists only the best clips from the Dropbox B-roll library, one entry per clip:

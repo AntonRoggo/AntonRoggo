@@ -1,313 +1,334 @@
 [
  {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAAByGw",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 16/Video 2025-12-20, 8 51 18 PM.mov",
-  "folder": "brazil 2025",
-  "shot": "playing arcade game",
-  "activity": "arcade game",
-  "who": "anton",
-  "action_quality": 2,
-  "description": "Anton plays a neon dance/arcade machine in a festive arcade, seen from behind.",
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-4A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6210.MOV",
+  "folder": "poland 2025",
+  "shot": "friends hiking misty forest",
+  "activity": "hiking",
+  "who": "friends",
+  "action_quality": 4,
+  "description": "Following friends up a rocky trail into a dark, misty beech forest.",
   "tags": [
-   "arcade",
-   "game",
-   "neon",
-   "night",
-   "fun",
-   "indoor",
-   "vibing"
-  ],
-  "location": "Gramado, Brazil",
-  "orientation": "vertical",
-  "duration": 37.25,
-  "usable": [
-   [
-    0,
-    37.25
-   ]
-  ],
-  "quality": 2,
-  "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACH6Q",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/friday/Video 2026-02-12, 10 51 25 AM.mov",
-  "folder": "brazil 2025",
-  "shot": "arm wrestling at cafe",
-  "activity": "arm wrestling",
-  "who": "anton + friends",
-  "action_quality": 3,
-  "description": "Anton arm-wrestles a shirtless friend at a yellow outdoor cafe table while people watch.",
-  "tags": [
-   "arm wrestling",
    "friends",
-   "cafe",
-   "outdoor",
-   "fun",
-   "competition",
-   "day"
+   "hiking",
+   "mist",
+   "forest",
+   "moody",
+   "trail",
+   "dark"
   ],
-  "location": "Rio de Janeiro, Brazil",
-  "orientation": "horizontal",
-  "duration": 35.22,
-  "usable": [
-   [
-    0,
-    35.2
-   ]
-  ],
-  "quality": 3,
-  "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACYSQ",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto summer 2026/sept 20/DJI_20260920183453_0111_D.MP4",
-  "folder": "Toronto summer 2026",
-  "shot": "bike pov ride",
-  "activity": "biking",
-  "who": "anton",
-  "action_quality": 4,
-  "description": "POV from e-bike handlebars riding down a quiet tree-lined city street under blue sky.",
-  "tags": [
-   "biking",
-   "pov",
-   "handlebars",
-   "street",
-   "city",
-   "trees",
-   "sunny",
-   "summer",
-   "motion"
-  ],
-  "location": "Toronto",
+  "location": "Ślęża, Poland",
   "orientation": "vertical",
-  "duration": 4.25,
+  "duration": 6.08,
   "usable": [
    [
     0,
-    4.25
+    6.08
    ]
   ],
   "quality": 4,
   "notes": "",
+  "used_count": 4,
+  "used_in_edits": [
+   "poland 2025/day 8/finished/aug3.mov",
+   "montenegro/day 18/finished/Aug31.mov",
+   "toronto fall 2026/day 2/finished/Oct 1.mov",
+   "brazil 2025/day 30/finished/jan 19.mp4"
+  ],
   "used_in": []
  },
  {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAABHGw",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/toronto fall 2026/day4/Video 2025-10-04, 5 41 03 PM.mov",
-  "folder": "toronto fall 2026",
-  "shot": "bike share ride pov",
-  "activity": "biking",
-  "who": "anton",
-  "action_quality": 4,
-  "description": "POV riding an orange bike-share bike down a sunny city bike lane with shops and trees.",
-  "tags": [
-   "cycling",
-   "bike share",
-   "pov",
-   "city",
-   "street",
-   "sunny",
-   "bike lane"
-  ],
-  "location": "Toronto, Canada",
-  "orientation": "vertical",
-  "duration": 6.8,
-  "usable": [
-   [
-    0,
-    6.8
-   ]
-  ],
-  "quality": 4,
-  "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAABMvg",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/toronto fall 2026/day 28/Video 2025-11-11, 9 15 35 AM.mov",
-  "folder": "toronto fall 2026",
-  "shot": "cycling in snow",
-  "activity": "biking",
-  "who": "anton",
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-XA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 7 30 06 PM.mov",
+  "folder": "poland 2025",
+  "shot": "friends walking in meadow",
+  "activity": "hiking",
+  "who": "friends",
   "action_quality": 3,
-  "description": "Anton rides an orange bike-share bike through a snowy bike lane past the docking station.",
+  "description": "Friends walk across a lush meadow toward misty wooded hills.",
   "tags": [
-   "cycling",
-   "bike share",
-   "snow",
-   "winter",
-   "city",
-   "street",
-   "morning"
+   "friends",
+   "meadow",
+   "walking",
+   "mist",
+   "hills",
+   "green",
+   "group"
   ],
-  "location": "Toronto, Canada",
+  "location": "Kraków region, Poland",
   "orientation": "vertical",
-  "duration": 21.57,
+  "duration": 2.73,
   "usable": [
    [
     0,
-    21.57
+    2.73
    ]
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 4,
+  "used_in_edits": [
+   "poland 2025/day 2/finished/july27.mov",
+   "montenegro/day 7/finished/Aug17.mp4",
+   "montenegro/day 7/finished/Aug17.mov",
+   "toronto fall 2026/day 6/finished/Oct6.mov"
+  ],
   "used_in": []
  },
  {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAABMvA",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/toronto fall 2026/day 28/Video 2025-11-11, 9 17 11 AM.mov",
-  "folder": "toronto fall 2026",
-  "shot": "selfie cycling in snowy street",
-  "activity": "biking",
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLow",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Dinner Party/Video 2026-03-26, 6 35 29 PM (1).mov",
+  "folder": "Toronto 2026",
+  "shot": "shucking oysters for friends",
+  "activity": "shucking oysters",
   "who": "anton",
   "action_quality": 3,
-  "description": "Selfie shot of Anton smiling while riding along a wet, snowy city street with a cyclist behind.",
-  "tags": [
-   "cycling",
-   "selfie",
-   "snow",
-   "winter",
-   "city",
-   "street",
-   "smiling"
-  ],
-  "location": "Toronto, Canada",
-  "orientation": "vertical",
-  "duration": 3.23,
-  "usable": [
-   [
-    0,
-    3.23
-   ]
-  ],
-  "quality": 3,
-  "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACYUQ",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto summer 2026/sept 20/DJI_20260920195925_0115_D.MP4",
-  "folder": "Toronto summer 2026",
-  "shot": "night bike ride",
-  "activity": "biking",
-  "who": "anton",
-  "action_quality": 2,
-  "description": "Low-angle selfie of Anton biking at night singing with earbuds, streetlights and trees passing; POV of handlebars.",
+  "description": "Anton shucks and hands out oysters to friends at the restaurant oyster party; a woman tries one.",
   "tags": [
    "anton",
-   "biking",
-   "night",
-   "streetlights",
-   "singing",
-   "selfie",
-   "city",
-   "motion"
+   "oysters",
+   "shucking",
+   "friends",
+   "dinner party",
+   "restaurant",
+   "social"
   ],
   "location": "Toronto",
   "orientation": "vertical",
-  "duration": 24.21,
+  "duration": 24.97,
   "usable": [
    [
     0,
-    24.21
+    24.97
    ]
   ],
   "quality": 3,
-  "notes": "Dark and motion blur; vibey.",
+  "notes": "Handheld, busy framing.",
+  "used_count": 4,
+  "used_in_edits": [
+   "Toronto 2026/Oyster Dinner Party/finished/Oyster Party April.mp4",
+   "Toronto 2026/Oyster Dinner Party/finished/Oyster Party April_1.mp4",
+   "Toronto 2026/Oyster Dinner Party/finished/Oyster Party April_2.mp4",
+   "Toronto 2026/Oyster Dinner Party/finished/Oyster Party April_3.mp4"
+  ],
   "used_in": []
  },
  {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACFMw",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 28 - slasa and surf/Video 2026-01-15, 5 06 43 PM.mov",
-  "folder": "brazil 2025",
-  "shot": "boat ride to kitesurf",
-  "activity": "boat trip",
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABAbg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/montenegro/day 2/Video 2025-08-12, 10 38 23 AM.mov",
+  "folder": "montenegro",
+  "shot": "swimming in clear sea",
+  "activity": "swimming",
   "who": "anton",
-  "action_quality": 2,
-  "description": "Riding in a small boat across a lagoon with kitesurfers and green hills.",
+  "action_quality": 4,
+  "description": "Shot from the rocks of Anton climbing down a metal ladder and swimming out into clear turquoise sea toward a small island, then back.",
   "tags": [
-   "boat",
-   "water",
-   "kitesurf",
+   "anton",
+   "swimming",
+   "sea",
+   "clear water",
+   "ladder",
+   "rocks",
+   "island",
+   "summer",
+   "morning swim"
+  ],
+  "location": "Montenegro",
+  "orientation": "vertical",
+  "duration": 30.47,
+  "usable": [
+   [
+    0.0,
+    30.47
+   ]
+  ],
+  "quality": 4,
+  "notes": "nice morning-swim sequence",
+  "used_count": 3,
+  "used_in_edits": [
+   "montenegro/day 20/finished/Sept3.mov",
+   "toronto fall 2026/day4/day 5/finished/Oct5V1.mov",
+   "toronto fall 2026/day4/day 5/finished/Oct5V2.mov"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACG2A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/feb 5 dancing/Video 2026-02-06, 10 17 48 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "dancing in a bar",
+  "activity": "dancing",
+  "who": "unclear",
+  "action_quality": 2,
+  "description": "Crowd dancing forró in a teal bar with a checkered floor.",
+  "tags": [
+   "dancing",
+   "dance hall",
+   "people",
+   "social",
+   "checkered floor",
+   "night",
+   "vibing"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "vertical",
+  "duration": 4.23,
+  "usable": [
+   [
+    0,
+    4.2
+   ]
+  ],
+  "quality": 3,
+  "notes": "",
+  "used_count": 2,
+  "used_in_edits": [
+   "brazil 2025/feb 5 dancing/finished/feb7.mp4",
+   "Toronto 2026/May 4 Batch/finished/watches.mp4"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACGUQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 36/Video 2026-01-28, 3 41 45 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "kitesurfing",
+  "activity": "kitesurfing",
+  "who": "unclear",
+  "action_quality": 3,
+  "description": "Kitesurfer carving past on a sunny lagoon with a red kite.",
+  "tags": [
+   "kitesurfing",
+   "lagoon",
+   "sunny",
+   "red kite",
    "hills",
-   "cloudy",
-   "pov",
-   "handheld"
+   "action"
   ],
   "location": "Brazil",
   "orientation": "vertical",
-  "duration": 10.03,
+  "duration": 12.1,
   "usable": [
    [
     5,
-    10
+    12.1
    ]
   ],
-  "quality": 2,
-  "notes": "shaky",
+  "quality": 3,
+  "notes": "",
+  "used_count": 2,
+  "used_in_edits": [
+   "brazil 2025/day 36/finished/jan28.mp4",
+   "Toronto 2026/May 4 Batch/finished/old people were right.mp4"
+  ],
   "used_in": []
  },
  {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACFMg",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 28 - slasa and surf/Video 2026-01-15, 5 07 52 PM.mov",
-  "folder": "brazil 2025",
-  "shot": "selfie on boat",
-  "activity": "boat trip",
-  "who": "anton",
-  "action_quality": 2,
-  "description": "Shirtless selfie on a boat on the lagoon, looking at the kites.",
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLUA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2326.MOV",
+  "folder": "Toronto 2026",
+  "shot": "snowboarding",
+  "activity": "snowboarding",
+  "who": "unclear",
+  "action_quality": 3,
+  "description": "Snowboarder carving down a steep slope edge lined with trees, overcast.",
   "tags": [
-   "boat",
-   "selfie",
-   "shirtless",
-   "water",
-   "blue sky",
-   "windy"
+   "snowboarding",
+   "snow",
+   "ski slope",
+   "winter",
+   "mountain",
+   "pine trees",
+   "action"
   ],
-  "location": "Brazil",
+  "location": "Whiteface Mountain, NY",
   "orientation": "vertical",
-  "duration": 11.4,
+  "duration": 8.11,
   "usable": [
    [
     0,
-    4
+    8.11
    ]
   ],
-  "quality": 2,
-  "notes": "",
+  "quality": 3,
+  "notes": "Rider small.",
+  "used_count": 2,
+  "used_in_edits": [
+   "Toronto 2026/Whiteface w Yaath/finished/edit.mp4",
+   "Toronto 2026/2 Am Call/finished/march 24.mp4"
+  ],
   "used_in": []
  },
  {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACFLA",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 28 - slasa and surf/Video 2026-01-15, 5 08 08 PM.mov",
-  "folder": "brazil 2025",
-  "shot": "boat ride to kitesurf",
-  "activity": "boat trip",
-  "who": "anton",
-  "action_quality": 2,
-  "description": "POV of the boat bow with kite gear crossing open water.",
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLUw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2342.MOV",
+  "folder": "Toronto 2026",
+  "shot": "snowboarding",
+  "activity": "snowboarding",
+  "who": "unclear",
+  "action_quality": 3,
+  "description": "Following snowboarder down a run with distant mountains, handheld while riding.",
   "tags": [
-   "boat",
-   "water",
-   "kite",
-   "pov",
-   "cloudy",
-   "hills"
+   "snowboarding",
+   "snow",
+   "ski slope",
+   "winter",
+   "mountain",
+   "pine trees",
+   "action"
   ],
-  "location": "Brazil",
+  "location": "Whiteface Mountain, NY",
   "orientation": "vertical",
-  "duration": 6.94,
+  "duration": 6.47,
   "usable": [
    [
-    2.5,
-    5.5
+    0,
+    6.47
+   ]
+  ],
+  "quality": 3,
+  "notes": "Shaky, tilted.",
+  "used_count": 2,
+  "used_in_edits": [
+   "Toronto 2026/Whiteface w Yaath/finished/edit.mp4",
+   "Toronto 2026/2 Am Call/finished/march 24.mp4"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLTA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2324.MOV",
+  "folder": "Toronto 2026",
+  "shot": "snowboarding",
+  "activity": "snowboarding",
+  "who": "unclear",
+  "action_quality": 2,
+  "description": "Snowboarder sitting on the snow sliding down a slope, partly leaving frame.",
+  "tags": [
+   "snowboarding",
+   "snow",
+   "ski slope",
+   "winter",
+   "mountain",
+   "pine trees",
+   "action"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 2.67,
+  "usable": [
+   [
+    0,
+    2.67
    ]
   ],
   "quality": 2,
-  "notes": "",
+  "notes": "Short.",
+  "used_count": 2,
+  "used_in_edits": [
+   "Toronto 2026/Whiteface w Yaath/finished/march22-insensitive.mp4",
+   "Toronto 2026/Whiteface w Yaath/finished/march22-normal.mp4"
+  ],
   "used_in": []
  },
  {
@@ -342,36 +363,10 @@
   ],
   "quality": 2,
   "notes": "whip in the middle",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAABOGA",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 5/Video 2025-11-26, 8 11 57 PM.mov",
-  "folder": "brazil 2025",
-  "shot": "night boat ride",
-  "activity": "boat trip",
-  "who": "unclear",
-  "action_quality": 2,
-  "description": "Silhouette at the bow of a boat with glittering waterfront lights.",
-  "tags": [
-   "night",
-   "boat",
-   "silhouette",
-   "lights",
-   "reflections",
-   "water"
+  "used_count": 1,
+  "used_in_edits": [
+   "brazil 2025/day 28 - slasa and surf/finished/salsa and surf day 28.mp4"
   ],
-  "location": "Brazil",
-  "orientation": "vertical",
-  "duration": 3.9,
-  "usable": [
-   [
-    0,
-    3.9
-   ]
-  ],
-  "quality": 2,
-  "notes": "dark, noisy",
   "used_in": []
  },
  {
@@ -404,325 +399,10 @@
   ],
   "quality": 3,
   "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAABEsQ",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/londons/day 5/Video 2025-09-19, 11 46 22 AM.mov",
-  "folder": "londons",
-  "shot": "friends on farm buggy",
-  "activity": "buggy ride",
-  "who": "friends",
-  "action_quality": 2,
-  "description": "Short shot of friends sitting in the back of a farm utility vehicle in a sunny field.",
-  "tags": [
-   "friends",
-   "farm buggy",
-   "field",
-   "farm",
-   "sunny",
-   "blue sky",
-   "fun"
+  "used_count": 1,
+  "used_in_edits": [
+   "londons/day 5/finished/sept19.mov"
   ],
-  "location": "England",
-  "orientation": "vertical",
-  "duration": 1.97,
-  "usable": [
-   [
-    0.0,
-    1.97
-   ]
-  ],
-  "quality": 3,
-  "notes": "very short",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAABEwg",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/londons/day 5/Video 2025-09-19, 2 08 26 PM.mov",
-  "folder": "londons",
-  "shot": "riding in farm buggy",
-  "activity": "buggy ride",
-  "who": "anton",
-  "action_quality": 2,
-  "description": "Brief POV from a farm buggy across a field toward distant cows.",
-  "tags": [
-   "farm buggy",
-   "pov",
-   "field",
-   "cows",
-   "farm",
-   "sunny"
-  ],
-  "location": "England",
-  "orientation": "vertical",
-  "duration": 2.33,
-  "usable": [
-   [
-    0.5,
-    2.33
-   ]
-  ],
-  "quality": 2,
-  "notes": "very short",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUKA",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260610131414_0218_D.MP4",
-  "folder": "Spain 2026",
-  "shot": "parallel bar dips outdoors",
-  "activity": "calisthenics",
-  "who": "anton",
-  "action_quality": 3,
-  "description": "Shirtless Anton does dips and walks along red parallel bars at a sunny outdoor gym in a park.",
-  "tags": [
-   "anton",
-   "calisthenics",
-   "dips",
-   "parallel bars",
-   "outdoor gym",
-   "park",
-   "sunny",
-   "fitness",
-   "shirtless"
-  ],
-  "location": "Serbia (likely Belgrade; filed under Spain 2026)",
-  "orientation": "horizontal",
-  "duration": 32.47,
-  "usable": [
-   [
-    0,
-    32.47
-   ]
-  ],
-  "quality": 3,
-  "notes": "static tripod; subject small and back to camera at times",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUKg",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260610131503_0219_D.MP4",
-  "folder": "Spain 2026",
-  "shot": "parallel bar dips outdoors",
-  "activity": "calisthenics",
-  "who": "anton",
-  "action_quality": 3,
-  "description": "Shirtless Anton performs dips on red parallel bars in a tree-lined outdoor gym, then walks up smiling to the camera.",
-  "tags": [
-   "anton",
-   "calisthenics",
-   "dips",
-   "parallel bars",
-   "outdoor gym",
-   "park",
-   "sunny",
-   "fitness",
-   "shirtless"
-  ],
-  "location": "Serbia (likely Belgrade; filed under Spain 2026)",
-  "orientation": "horizontal",
-  "duration": 42.84,
-  "usable": [
-   [
-    0,
-    36
-   ]
-  ],
-  "quality": 3,
-  "notes": "static wide; ends with Anton walking into camera",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACULg",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260610132759_0221_D.MP4",
-  "folder": "Spain 2026",
-  "shot": "pull-ups at outdoor gym",
-  "activity": "calisthenics",
-  "who": "anton",
-  "action_quality": 3,
-  "description": "Static wide shot of shirtless Anton doing pull-ups on a green bar under trees in an outdoor gym.",
-  "tags": [
-   "anton",
-   "calisthenics",
-   "pull-ups",
-   "outdoor gym",
-   "trees",
-   "shade",
-   "fitness",
-   "static"
-  ],
-  "location": "Serbia (likely Belgrade; filed under Spain 2026)",
-  "orientation": "horizontal",
-  "duration": 30.7,
-  "usable": [
-   [
-    0,
-    27
-   ]
-  ],
-  "quality": 3,
-  "notes": "subject small in frame, dappled shade",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUMA",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260610133039_0222_D.MP4",
-  "folder": "Spain 2026",
-  "shot": "handstand practice",
-  "activity": "calisthenics",
-  "who": "anton",
-  "action_quality": 3,
-  "description": "Shirtless Anton practises handstands and handstand holds on a concrete slab at a park calisthenics area.",
-  "tags": [
-   "anton",
-   "handstand",
-   "calisthenics",
-   "outdoor gym",
-   "park",
-   "sunny",
-   "fitness",
-   "static"
-  ],
-  "location": "Serbia (likely Belgrade; filed under Spain 2026)",
-  "orientation": "horizontal",
-  "duration": 67.05,
-  "usable": [
-   [
-    10,
-    55
-   ]
-  ],
-  "quality": 3,
-  "notes": "static wide shot",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACMoA",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/April 13/Video 2026-04-11, 3 08 01 PM.mov",
-  "folder": "Toronto 2026",
-  "shot": "dead hang",
-  "activity": "calisthenics",
-  "who": "anton",
-  "action_quality": 3,
-  "description": "Static shot of shirtless Anton in jeans dead-hanging from a wooden bar frame in sunny bare woods.",
-  "tags": [
-   "anton",
-   "dead hang",
-   "outdoor gym",
-   "woods",
-   "blue sky",
-   "static",
-   "fitness",
-   "shirtless"
-  ],
-  "location": "wooded cabin property (filed under Toronto 2026)",
-  "orientation": "vertical",
-  "duration": 44.38,
-  "usable": [
-   [
-    0,
-    44.38
-   ]
-  ],
-  "quality": 3,
-  "notes": "Long static take; subject partly behind post.",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_2w",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 1 36 48 PM.mov",
-  "folder": "cotswold 2025",
-  "shot": "push-ups by riverbank",
-  "activity": "calisthenics",
-  "who": "anton",
-  "action_quality": 3,
-  "description": "Shirtless Anton does push-ups on a muddy riverbank among plants, then the camera tilts into the water.",
-  "tags": [
-   "anton",
-   "push-ups",
-   "workout",
-   "riverbank",
-   "shirtless",
-   "nature",
-   "outdoor fitness"
-  ],
-  "location": "Cotswolds, England",
-  "orientation": "vertical",
-  "duration": 21.37,
-  "usable": [
-   [
-    0,
-    17
-   ]
-  ],
-  "quality": 3,
-  "notes": "Low angle, foreground plants; ends pointing at water",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACULA",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260610132728_0220_D.MP4",
-  "folder": "Spain 2026",
-  "shot": "pull-ups at outdoor gym",
-  "activity": "calisthenics",
-  "who": "anton",
-  "action_quality": 2,
-  "description": "Camera pans through a shaded green calisthenics rig as shirtless Anton hangs and does pull-ups.",
-  "tags": [
-   "anton",
-   "calisthenics",
-   "pull-ups",
-   "outdoor gym",
-   "trees",
-   "shade",
-   "fitness",
-   "green"
-  ],
-  "location": "Serbia (likely Belgrade; filed under Spain 2026)",
-  "orientation": "horizontal",
-  "duration": 13.31,
-  "usable": [
-   [
-    3,
-    10
-   ]
-  ],
-  "quality": 2,
-  "notes": "camera being set up at start; subject small",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACMoQ",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/April 13/Video 2026-04-11, 3 06 27 PM.mov",
-  "folder": "Toronto 2026",
-  "shot": "hanging from bar",
-  "activity": "calisthenics",
-  "who": "anton",
-  "action_quality": 2,
-  "description": "Low ground-level static shot of Anton hanging and doing pull-ups on an outdoor bar among bare trees, dry leaves in foreground.",
-  "tags": [
-   "anton",
-   "pull-ups",
-   "outdoor gym",
-   "woods",
-   "dry leaves",
-   "blue sky",
-   "static",
-   "low angle",
-   "fitness"
-  ],
-  "location": "wooded cabin property (filed under Toronto 2026)",
-  "orientation": "vertical",
-  "duration": 32.64,
-  "usable": [
-   [
-    2,
-    28
-   ]
-  ],
-  "quality": 3,
-  "notes": "Subject small in frame; someone walks into frame at end.",
   "used_in": []
  },
  {
@@ -756,6 +436,10 @@
   ],
   "quality": 3,
   "notes": "Subject small; first seconds empty with shadow.",
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto 2026/April 13/finished/April 12 2_1.mp4"
+  ],
   "used_in": []
  },
  {
@@ -786,158 +470,10 @@
   ],
   "quality": 2,
   "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-bw",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 7 39 34 PM.mov",
-  "folder": "poland 2025",
-  "shot": "exiting rock passage into forest",
-  "activity": "cave exploring",
-  "who": "friends",
-  "action_quality": 3,
-  "description": "Following a friend out of a narrow rock passage into green forest.",
-  "tags": [
-   "friends",
-   "rock crevice",
-   "forest",
-   "adventure",
-   "exploring",
-   "walking"
+  "used_count": 1,
+  "used_in_edits": [
+   "poland 2025/day 2/finished/july27.mov"
   ],
-  "location": "Kraków region, Poland",
-  "orientation": "vertical",
-  "duration": 18.87,
-  "usable": [
-   [
-    0,
-    18.87
-   ]
-  ],
-  "quality": 3,
-  "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-SA",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 10 52 17 AM.mov",
-  "folder": "poland 2025",
-  "shot": "walking through cave",
-  "activity": "cave exploring",
-  "who": "friends",
-  "action_quality": 2,
-  "description": "Friends climb stairs through a lit limestone cave passage.",
-  "tags": [
-   "cave",
-   "dragon's den",
-   "friends",
-   "walking",
-   "underground",
-   "krakow",
-   "dark"
-  ],
-  "location": "Kraków, Poland",
-  "orientation": "horizontal",
-  "duration": 5.33,
-  "usable": [
-   [
-    0,
-    5.33
-   ]
-  ],
-  "quality": 2,
-  "notes": "Dark, handheld",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-QQ",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 10 52 33 AM.mov",
-  "folder": "poland 2025",
-  "shot": "walking through cave",
-  "activity": "cave exploring",
-  "who": "friends",
-  "action_quality": 2,
-  "description": "Friends walk through a dim cave chamber with reddish rock walls.",
-  "tags": [
-   "cave",
-   "friends",
-   "walking",
-   "underground",
-   "dark",
-   "adventure"
-  ],
-  "location": "Kraków, Poland",
-  "orientation": "vertical",
-  "duration": 3.4,
-  "usable": [
-   [
-    0,
-    3.4
-   ]
-  ],
-  "quality": 2,
-  "notes": "Dark",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-bA",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 7 35 11 PM.mov",
-  "folder": "poland 2025",
-  "shot": "entering rock crevice cave",
-  "activity": "cave exploring",
-  "who": "friends",
-  "action_quality": 2,
-  "description": "Friends and a dog squeeze through a narrow limestone rock passage into a cave.",
-  "tags": [
-   "friends",
-   "cave",
-   "rock",
-   "adventure",
-   "dog",
-   "exploring",
-   "forest"
-  ],
-  "location": "Kraków region, Poland",
-  "orientation": "vertical",
-  "duration": 22.6,
-  "usable": [
-   [
-    0,
-    22.6
-   ]
-  ],
-  "quality": 2,
-  "notes": "Handheld, dog blocks frame at times",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-Zw",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 7 37 32 PM.mov",
-  "folder": "poland 2025",
-  "shot": "crawling through cave",
-  "activity": "cave exploring",
-  "who": "anton",
-  "action_quality": 2,
-  "description": "Anton crawls under a low limestone overhang in a cave, lit by a phone torch, grinning.",
-  "tags": [
-   "anton",
-   "cave",
-   "crawling",
-   "adventure",
-   "dark",
-   "exploring"
-  ],
-  "location": "Kraków region, Poland",
-  "orientation": "vertical",
-  "duration": 12.27,
-  "usable": [
-   [
-    4.5,
-    10
-   ]
-  ],
-  "quality": 2,
-  "notes": "Dark, torch flare at start",
   "used_in": []
  },
  {
@@ -968,6 +504,10 @@
   ],
   "quality": 2,
   "notes": "WhatsApp low resolution",
+  "used_count": 1,
+  "used_in_edits": [
+   "brazil 2025/day 19/finished/dec25.mov"
+  ],
   "used_in": []
  },
  {
@@ -998,126 +538,10 @@
   ],
   "quality": 3,
   "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAABgiQ",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 10/Video 2025-12-11, 6 48 20 PM.mov",
-  "folder": "brazil 2025",
-  "shot": "climbing coastal boulders",
-  "activity": "climbing",
-  "who": "anton",
-  "action_quality": 3,
-  "description": "High angle of Anton climbing between big granite boulders with white surf crashing below.",
-  "tags": [
-   "climbing",
-   "boulders",
-   "ocean",
-   "waves",
-   "coast",
-   "adventure",
-   "golden hour"
+  "used_count": 1,
+  "used_in_edits": [
+   "brazil 2025/day 10/finoshed/Video 2025-12-11, 4 56 18 PM.mp4"
   ],
-  "location": "Brazil",
-  "orientation": "vertical",
-  "duration": 11.94,
-  "usable": [
-   [
-    0,
-    11.94
-   ]
-  ],
-  "quality": 3,
-  "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAABORw",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 6/Video 2025-11-30, 1 18 51 PM.mov",
-  "folder": "brazil 2025",
-  "shot": "climbing by waterfall",
-  "activity": "climbing",
-  "who": "anton",
-  "action_quality": 3,
-  "description": "Anton climbs the rocks beside a tall waterfall.",
-  "tags": [
-   "waterfall",
-   "climbing",
-   "rocks",
-   "jungle",
-   "adventure",
-   "mist"
-  ],
-  "location": "Brazil",
-  "orientation": "vertical",
-  "duration": 19.34,
-  "usable": [
-   [
-    0,
-    19.3
-   ]
-  ],
-  "quality": 3,
-  "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAABOMw",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 6/Video 2025-11-30, 1 19 33 PM.mov",
-  "folder": "brazil 2025",
-  "shot": "friend at waterfall",
-  "activity": "climbing",
-  "who": "friends",
-  "action_quality": 2,
-  "description": "Friend with curly hair climbs down rocks smiling at a waterfall.",
-  "tags": [
-   "friend",
-   "waterfall",
-   "rocks",
-   "smiling",
-   "shirtless"
-  ],
-  "location": "Brazil",
-  "orientation": "vertical",
-  "duration": 3.57,
-  "usable": [
-   [
-    0,
-    3.6
-   ]
-  ],
-  "quality": 2,
-  "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACIcg",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-15, 4 29 49 PM.mov",
-  "folder": "brazil 2025",
-  "shot": "standing under waterfall",
-  "activity": "cold exposure",
-  "who": "anton",
-  "action_quality": 4,
-  "description": "Anton stands under a powerful waterfall in the rainforest.",
-  "tags": [
-   "waterfall",
-   "cold water",
-   "rainforest",
-   "nature",
-   "shower",
-   "adventure"
-  ],
-  "location": "Rio de Janeiro, Brazil",
-  "orientation": "vertical",
-  "duration": 17.49,
-  "usable": [
-   [
-    0,
-    17.4
-   ]
-  ],
-  "quality": 4,
-  "notes": "Fits the cold exposure theme.",
   "used_in": []
  },
  {
@@ -1149,94 +573,10 @@
   ],
   "quality": 4,
   "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACAGQ",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/Video 2025-12-24, 5 05 37 PM.mov",
-  "folder": "brazil 2025",
-  "shot": "standing under waterfall",
-  "activity": "cold exposure",
-  "who": "anton",
-  "action_quality": 3,
-  "description": "Anton stands on a rock in the spray beneath a waterfall.",
-  "tags": [
-   "waterfall",
-   "standing",
-   "rock",
-   "cold exposure",
-   "jungle"
+  "used_count": 1,
+  "used_in_edits": [
+   "brazil 2025/day 19/finished/dec25.mov"
   ],
-  "location": "Brazil",
-  "orientation": "vertical",
-  "duration": 3.08,
-  "usable": [
-   [
-    0,
-    3.08
-   ]
-  ],
-  "quality": 3,
-  "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAABOTw",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 6/Video 2025-11-30, 1 14 09 PM.mov",
-  "folder": "brazil 2025",
-  "shot": "sitting in natural pool",
-  "activity": "cold exposure",
-  "who": "anton",
-  "action_quality": 3,
-  "description": "Anton steps into a clear rock pool and sits down under a small waterfall.",
-  "tags": [
-   "waterfall",
-   "natural pool",
-   "rocks",
-   "jungle",
-   "nature",
-   "shirtless"
-  ],
-  "location": "Brazil",
-  "orientation": "vertical",
-  "duration": 8.43,
-  "usable": [
-   [
-    0,
-    8.4
-   ]
-  ],
-  "quality": 3,
-  "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACAEA",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/WhatsApp Video 2025-12-24 at 8.37.58 PM-2.mp4",
-  "folder": "brazil 2025",
-  "shot": "standing under waterfall",
-  "activity": "cold exposure",
-  "who": "anton",
-  "action_quality": 2,
-  "description": "Horizontal low-res clip of Anton climbing onto the rocks under a waterfall.",
-  "tags": [
-   "waterfall",
-   "rocks",
-   "jungle",
-   "horizontal",
-   "cold exposure"
-  ],
-  "location": "Brazil",
-  "orientation": "horizontal",
-  "duration": 18.09,
-  "usable": [
-   [
-    0,
-    18.09
-   ]
-  ],
-  "quality": 2,
-  "notes": "WhatsApp low resolution",
   "used_in": []
  },
  {
@@ -1269,6 +609,2037 @@
   ],
   "quality": 4,
   "notes": "Handheld, some framing shifts; strong wellness content",
+  "used_count": 1,
+  "used_in_edits": [
+   "cotswold 2025/day 5/finished/aug9.mov"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLbg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/2 Am Call/Video 2026-03-24, 10 07 08 AM.mov",
+  "folder": "Toronto 2026",
+  "shot": "cold shower",
+  "activity": "cold shower",
+  "who": "anton",
+  "action_quality": 3,
+  "description": "Shirtless Anton in a bathtub laughing under a cold shower, selfie angle, ends with camera dropping to his leg.",
+  "tags": [
+   "anton",
+   "cold shower",
+   "bathroom",
+   "morning",
+   "selfie",
+   "handheld",
+   "white tiles",
+   "wellness"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 4.37,
+  "usable": [
+   [
+    0,
+    3.0
+   ]
+  ],
+  "quality": 3,
+  "notes": "Shaky at end; last second is accidental.",
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto 2026/2 Am Call/finished/march 24.mp4"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACG3w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/feb 5 dancing/Video 2026-02-06, 10 17 58 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "dancing in a bar",
+  "activity": "dancing",
+  "who": "unclear",
+  "action_quality": 2,
+  "description": "Couples dancing on a checkered floor in a busy bar.",
+  "tags": [
+   "dancing",
+   "dance hall",
+   "people",
+   "social",
+   "checkered floor",
+   "night",
+   "vibing"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "vertical",
+  "duration": 5.97,
+  "usable": [
+   [
+    0,
+    6
+   ]
+  ],
+  "quality": 3,
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "brazil 2025/last day march 10/March 11.mp4"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACALw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/Video 2025-12-24, 3 41 58 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "hiking through jungle",
+  "activity": "hiking",
+  "who": "anton",
+  "action_quality": 3,
+  "description": "Anton climbs through thick green jungle vegetation by a stream, gesturing back at camera.",
+  "tags": [
+   "hiking",
+   "jungle",
+   "stream",
+   "shirtless",
+   "adventure",
+   "green"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 12.57,
+  "usable": [
+   [
+    0,
+    12.57
+   ]
+  ],
+  "quality": 3,
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "brazil 2025/day 19/finished/dec25.mov"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACAJg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/Video 2025-12-24, 3 43 59 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "wading through river pov",
+  "activity": "hiking",
+  "who": "anton",
+  "action_quality": 3,
+  "description": "POV looking down at legs and board shorts wading through rippling river water.",
+  "tags": [
+   "river",
+   "wading",
+   "pov",
+   "feet",
+   "water",
+   "hiking"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 3.94,
+  "usable": [
+   [
+    0,
+    3.94
+   ]
+  ],
+  "quality": 3,
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "brazil 2025/day 19/finished/dec25.mov"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-Tg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 6 12 19 PM.mov",
+  "folder": "poland 2025",
+  "shot": "walking in forest",
+  "activity": "hiking",
+  "who": "anton",
+  "action_quality": 3,
+  "description": "Anton in a dark raincoat looks up at the trees on a forest path, then walks toward camera and reaches for the phone.",
+  "tags": [
+   "anton",
+   "forest",
+   "walking",
+   "raincoat",
+   "nature",
+   "hike",
+   "green"
+  ],
+  "location": "Kraków region, Poland",
+  "orientation": "vertical",
+  "duration": 8.93,
+  "usable": [
+   [
+    0,
+    6
+   ]
+  ],
+  "quality": 3,
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "brazil 2025/day 30/finished/jan 19.mp4"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_DA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6199.MOV",
+  "folder": "poland 2025",
+  "shot": "friends walking misty forest",
+  "activity": "hiking",
+  "who": "friends",
+  "action_quality": 3,
+  "description": "Vertical static shot of a wet forest road with two friends walking away into the trees.",
+  "tags": [
+   "friends",
+   "forest",
+   "mist",
+   "walking",
+   "path",
+   "moody",
+   "static"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "vertical",
+  "duration": 7.83,
+  "usable": [
+   [
+    0,
+    7.83
+   ]
+  ],
+  "quality": 3,
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "poland 2025/day 8/finished/aug3.mov"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACIRg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-18, 4 33 43 AM.mov",
+  "folder": "brazil 2025",
+  "shot": "night hike in forest",
+  "activity": "hiking",
+  "who": "friends",
+  "action_quality": 2,
+  "description": "Friends hike a dark forest trail at night by torchlight; ends on a selfie.",
+  "tags": [
+   "night hike",
+   "forest",
+   "trail",
+   "friends",
+   "dark",
+   "adventure"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "vertical",
+  "duration": 11.23,
+  "usable": [
+   [
+    0,
+    8
+   ]
+  ],
+  "quality": 2,
+  "notes": "Dark and shaky.",
+  "used_count": 1,
+  "used_in_edits": [
+   "brazil 2025/feb 25/finished/oysters.mp4"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-aQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 7 41 10 PM.mov",
+  "folder": "poland 2025",
+  "shot": "friends walking through forest",
+  "activity": "hiking",
+  "who": "friends",
+  "action_quality": 2,
+  "description": "Vertical shot of tall beech trees with friends small on the trail below.",
+  "tags": [
+   "friends",
+   "forest",
+   "walking",
+   "hike",
+   "green",
+   "trees"
+  ],
+  "location": "Kraków region, Poland",
+  "orientation": "vertical",
+  "duration": 3.43,
+  "usable": [
+   [
+    0,
+    3.43
+   ]
+  ],
+  "quality": 3,
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "poland 2025/day 2/finished/july27.mov"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACFNA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 28 - slasa and surf/Video 2026-01-15, 6 11 59 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "kitesurfing",
+  "activity": "kitesurfing",
+  "who": "unclear",
+  "action_quality": 3,
+  "description": "Wide shot of a kitesurfer riding across the lagoon under dramatic clouds and green hills.",
+  "tags": [
+   "kitesurfing",
+   "water sports",
+   "lagoon",
+   "red kite",
+   "clouds",
+   "hills",
+   "wide"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 31.87,
+  "usable": [
+   [
+    0,
+    24
+   ]
+  ],
+  "quality": 3,
+  "notes": "subject small",
+  "used_count": 1,
+  "used_in_edits": [
+   "brazil 2025/day 28 - slasa and surf/finished/salsa and surf day 28.mp4"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACFFQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 28 - slasa and surf/Video 2026-01-15, 6 14 57 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "kitesurfing",
+  "activity": "kitesurfing",
+  "who": "unclear",
+  "action_quality": 3,
+  "description": "Kitesurfer riding toward camera with a red kite and hills behind.",
+  "tags": [
+   "kitesurfing",
+   "water sports",
+   "lagoon",
+   "red kite",
+   "action",
+   "clouds"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 5.37,
+  "usable": [
+   [
+    0,
+    5.4
+   ]
+  ],
+  "quality": 3,
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "brazil 2025/day 30/finished/jan 18_1.mp4"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACFjg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 33/Video 2026-01-20, 5 05 01 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "kitesurfing",
+  "activity": "kitesurfing",
+  "who": "unclear",
+  "action_quality": 3,
+  "description": "Long kitesurfing follow shot on the lagoon with mountains and bright sky.",
+  "tags": [
+   "kitesurfing",
+   "water sports",
+   "lagoon",
+   "sunny",
+   "pink kite",
+   "mountains",
+   "action"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 60.51,
+  "usable": [
+   [
+    0,
+    50
+   ]
+  ],
+  "quality": 3,
+  "notes": "some sun flare",
+  "used_count": 1,
+  "used_in_edits": [
+   "brazil 2025/feb 10/finished/feb10_1.mp4"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACGUA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 36/Video 2026-01-28, 3 33 02 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "kitesurfing",
+  "activity": "kitesurfing",
+  "who": "unclear",
+  "action_quality": 3,
+  "description": "Kitesurfers on a bright lagoon with a red kite and green hills.",
+  "tags": [
+   "kitesurfing",
+   "lagoon",
+   "sunny",
+   "red kite",
+   "hills",
+   "water sports"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 11.2,
+  "usable": [
+   [
+    0,
+    11.2
+   ]
+  ],
+  "quality": 3,
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "brazil 2025/last day march 10/March 11.mp4"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACNBQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Line Dancing/Video 2026-04-19, 6 36 18 PM.mov",
+  "folder": "Toronto 2026",
+  "shot": "line dancing crowd",
+  "activity": "line dancing",
+  "who": "unclear",
+  "action_quality": 2,
+  "description": "Handheld vertical shot of a crowd line dancing in a gym hall.",
+  "tags": [
+   "line dancing",
+   "dance class",
+   "crowd",
+   "gym hall",
+   "indoor",
+   "wood floor",
+   "handheld",
+   "vibing"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 24.9,
+  "usable": [
+   [
+    2,
+    24.9
+   ]
+  ],
+  "quality": 2,
+  "notes": "Low resolution (536x960), shaky.",
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto 2026/Line Dancing/finished/april 19 line dancing.mp4"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABw6w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 13/Video 2025-12-14, 8 55 03 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "mechanical bull ride",
+  "activity": "mechanical bull",
+  "who": "anton",
+  "action_quality": 2,
+  "description": "Anton rides a mechanical bull in a neon-lit bar at night, filmed from across the room.",
+  "tags": [
+   "mechanical bull",
+   "bar",
+   "nightlife",
+   "neon",
+   "fun",
+   "night"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 18.2,
+  "usable": [
+   [
+    0,
+    18.2
+   ]
+  ],
+  "quality": 2,
+  "notes": "dark, far away",
+  "used_count": 1,
+  "used_in_edits": [
+   "brazil 2025/day 13/finished/Dec 14.mp4"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABDBQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/montenegro/day 22/PXL_20240804_225943224.mp4",
+  "folder": "montenegro",
+  "shot": "rope swing jump into lake",
+  "activity": "rope swing",
+  "who": "friends",
+  "action_quality": 3,
+  "description": "Pixel phone clip from 2024: friends at a pine-lined lake shore in low sun, someone swings on a rope and jumps into the water.",
+  "tags": [
+   "lake",
+   "rope swing",
+   "jumping",
+   "friends",
+   "pine trees",
+   "summer",
+   "sun flare",
+   "swimming"
+  ],
+  "location": "Montenegro",
+  "orientation": "vertical",
+  "duration": 10.67,
+  "usable": [
+   [
+    0.0,
+    10.67
+   ]
+  ],
+  "quality": 3,
+  "notes": "older 2024 Pixel footage, probably not Montenegro",
+  "used_count": 1,
+  "used_in_edits": [
+   "montenegro/day 22/finished/Sept6.mov"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAByWA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 17/Video 2025-12-21, 1 03 33 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "running toward cows in field",
+  "activity": "running",
+  "who": "anton",
+  "action_quality": 3,
+  "description": "Anton runs off across a vast grassy field toward distant cows.",
+  "tags": [
+   "field",
+   "cows",
+   "running",
+   "shirtless",
+   "grassland",
+   "freedom"
+  ],
+  "location": "Cambará do Sul, Brazil",
+  "orientation": "vertical",
+  "duration": 11.0,
+  "usable": [
+   [
+    0,
+    11.0
+   ]
+  ],
+  "quality": 3,
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "brazil 2025/day 18/finished/dec23.mov"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTBg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4152.MOV",
+  "folder": "Spain 2026",
+  "shot": "climbing over rocks to sea",
+  "activity": "scrambling",
+  "who": "anton",
+  "action_quality": 4,
+  "description": "Shirtless Anton in blue shorts turns, then clambers across granite boulders toward the sea.",
+  "tags": [
+   "anton",
+   "rocks",
+   "boulders",
+   "sea",
+   "climbing",
+   "shirtless",
+   "sunny",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 12.7,
+  "usable": [
+   [
+    0,
+    12.7
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "Spain 2026/June 19th/finished/Big city lights.mp4"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Dg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6200.MOV",
+  "folder": "poland 2025",
+  "shot": "barefoot climbing rocky trail",
+  "activity": "scrambling",
+  "who": "anton",
+  "action_quality": 4,
+  "description": "Anton in a cloak climbs barefoot up a rocky boulder trail through the forest, shoes in hand, following friends.",
+  "tags": [
+   "anton",
+   "barefoot",
+   "hiking",
+   "rocks",
+   "forest",
+   "cloak",
+   "climbing"
+  ],
+  "location": "Ślęża, Poland",
+  "orientation": "vertical",
+  "duration": 8.79,
+  "usable": [
+   [
+    0,
+    8.79
+   ]
+  ],
+  "quality": 3,
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "toronto fall 2026/day 19/finished/oct26.mov"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTDg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4155.MOV",
+  "folder": "Spain 2026",
+  "shot": "climbing rocky islet",
+  "activity": "scrambling",
+  "who": "unclear",
+  "action_quality": 2,
+  "description": "Static shot of a small figure climbing a rocky islet beyond clear shallow water.",
+  "tags": [
+   "rocks",
+   "islet",
+   "climbing",
+   "sea",
+   "clear water",
+   "sunny",
+   "static",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 6.82,
+  "usable": [
+   [
+    0,
+    6.82
+   ]
+  ],
+  "quality": 3,
+  "notes": "subject very small",
+  "used_count": 1,
+  "used_in_edits": [
+   "Spain 2026/June 19th/finished/Big city lights.mp4"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACWzQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto summer 2026/August 5/DJI_20260801205435_0040_D.MP4",
+  "folder": "Toronto summer 2026",
+  "shot": "shucking oysters in park",
+  "activity": "shucking oysters",
+  "who": "anton",
+  "action_quality": 2,
+  "description": "Rotated footage of Anton at a green picnic table shucking oysters on a wooden board, then talking.",
+  "tags": [
+   "anton",
+   "oysters",
+   "shucking",
+   "picnic table",
+   "park",
+   "summer",
+   "sunny"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 74.44,
+  "usable": [
+   [
+    0,
+    74.44
+   ]
+  ],
+  "quality": 2,
+  "notes": "LRF preview plays rotated 90 degrees (orientation recorded as vertical); check the MP4.",
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto summer 2026/briny collab/briny collab.mp4"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLTw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2323.MOV",
+  "folder": "Toronto 2026",
+  "shot": "snowboarding",
+  "activity": "snowboarding",
+  "who": "unclear",
+  "action_quality": 4,
+  "description": "Snowboarder rides down a slope edge by pines and sprays snow onto the camera.",
+  "tags": [
+   "snowboarding",
+   "snow",
+   "ski slope",
+   "winter",
+   "mountain",
+   "pine trees",
+   "action"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 13.79,
+  "usable": [
+   [
+    0,
+    13.79
+   ]
+  ],
+  "quality": 3,
+  "notes": "Ends with snow spray on lens.",
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto 2026/Whiteface w Yaath/finished/edit.mp4"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLHQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 2 54 11 PM.mov",
+  "folder": "Toronto 2026",
+  "shot": "strapping in selfie",
+  "activity": "snowboarding",
+  "who": "anton",
+  "action_quality": 2,
+  "description": "Anton in helmet strapping into his lime snowboard on a ridge, selfie with valley behind.",
+  "tags": [
+   "anton",
+   "snowboarding",
+   "helmet",
+   "selfie",
+   "mountain view",
+   "winter",
+   "strapping in"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 8.77,
+  "usable": [
+   [
+    2,
+    7
+   ]
+  ],
+  "quality": 2,
+  "notes": "Handheld, tilted.",
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto 2026/2 Am Call/finished/march 24.mp4"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACGFw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 35/Video 2026-01-26, 3 34 44 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "running to the sea with surfboard",
+  "activity": "surfing",
+  "who": "anton",
+  "action_quality": 4,
+  "description": "Anton runs across the sand toward the ocean carrying a surfboard.",
+  "tags": [
+   "surfboard",
+   "running",
+   "beach",
+   "ocean",
+   "sunny",
+   "blue sky",
+   "from behind"
+  ],
+  "location": "Brazil",
+  "orientation": "horizontal",
+  "duration": 3.77,
+  "usable": [
+   [
+    0,
+    3.8
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "brazil 2025/feb 10/finished/feb10_1.mp4"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACJ6w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/March 6/Video 2026-03-06, 4 36 45 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "running into the sea",
+  "activity": "swimming",
+  "who": "anton",
+  "action_quality": 3,
+  "description": "Anton runs down the beach into the surf on a sunny day.",
+  "tags": [
+   "running",
+   "beach",
+   "ocean",
+   "sunny",
+   "from behind",
+   "swimming"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "vertical",
+  "duration": 13.77,
+  "usable": [
+   [
+    0,
+    9
+   ]
+  ],
+  "quality": 3,
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "brazil 2025/March 6/finished/march7.mp4"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTEA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4156.MOV",
+  "folder": "Spain 2026",
+  "shot": "swimmer in clear rocky bay",
+  "activity": "swimming",
+  "who": "unclear",
+  "action_quality": 2,
+  "description": "Static vertical view over boulders to clear shallow sea with a swimmer near rocky islets.",
+  "tags": [
+   "sea",
+   "swimmer",
+   "rocks",
+   "clear water",
+   "bay",
+   "sunny",
+   "static",
+   "summer"
+  ],
+  "location": "Spain (Costa Brava, likely)",
+  "orientation": "vertical",
+  "duration": 5.28,
+  "usable": [
+   [
+    0,
+    5.9
+   ]
+  ],
+  "quality": 3,
+  "notes": "swimmer small",
+  "used_count": 1,
+  "used_in_edits": [
+   "Spain 2026/June 19th/finished/Big city lights.mp4"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACADw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/WhatsApp Video 2025-12-24 at 8.37.59 PM.mp4",
+  "folder": "brazil 2025",
+  "shot": "swimming at waterfall",
+  "activity": "swimming",
+  "who": "anton",
+  "action_quality": 2,
+  "description": "Anton climbs on rocks at the base of a waterfall then swims back across the pool.",
+  "tags": [
+   "waterfall",
+   "swimming",
+   "pool",
+   "jungle",
+   "brazil"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 19.99,
+  "usable": [
+   [
+    0,
+    19.99
+   ]
+  ],
+  "quality": 2,
+  "notes": "WhatsApp low resolution",
+  "used_count": 1,
+  "used_in_edits": [
+   "brazil 2025/day 19/finished/dec25.mov"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_2Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 1 38 16 PM.mov",
+  "folder": "cotswold 2025",
+  "shot": "walking out of river toward camera",
+  "activity": "wading",
+  "who": "anton",
+  "action_quality": 4,
+  "description": "Shirtless Anton wades back down the river under willows toward camera, pushing through branches and smiling.",
+  "tags": [
+   "anton",
+   "river",
+   "wading",
+   "willow",
+   "shirtless",
+   "nature",
+   "summer",
+   "smiling"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 13.2,
+  "usable": [
+   [
+    0,
+    13.2
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "cotswold 2025/day 6/finished/Aug10.mov"
+  ],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAByGw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 16/Video 2025-12-20, 8 51 18 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "playing arcade game",
+  "activity": "arcade game",
+  "who": "anton",
+  "action_quality": 2,
+  "description": "Anton plays a neon dance/arcade machine in a festive arcade, seen from behind.",
+  "tags": [
+   "arcade",
+   "game",
+   "neon",
+   "night",
+   "fun",
+   "indoor",
+   "vibing"
+  ],
+  "location": "Gramado, Brazil",
+  "orientation": "vertical",
+  "duration": 37.25,
+  "usable": [
+   [
+    0,
+    37.25
+   ]
+  ],
+  "quality": 2,
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACH6Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/friday/Video 2026-02-12, 10 51 25 AM.mov",
+  "folder": "brazil 2025",
+  "shot": "arm wrestling at cafe",
+  "activity": "arm wrestling",
+  "who": "anton + friends",
+  "action_quality": 3,
+  "description": "Anton arm-wrestles a shirtless friend at a yellow outdoor cafe table while people watch.",
+  "tags": [
+   "arm wrestling",
+   "friends",
+   "cafe",
+   "outdoor",
+   "fun",
+   "competition",
+   "day"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "horizontal",
+  "duration": 35.22,
+  "usable": [
+   [
+    0,
+    35.2
+   ]
+  ],
+  "quality": 3,
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACYSQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto summer 2026/sept 20/DJI_20260920183453_0111_D.MP4",
+  "folder": "Toronto summer 2026",
+  "shot": "bike pov ride",
+  "activity": "biking",
+  "who": "anton",
+  "action_quality": 4,
+  "description": "POV from e-bike handlebars riding down a quiet tree-lined city street under blue sky.",
+  "tags": [
+   "biking",
+   "pov",
+   "handlebars",
+   "street",
+   "city",
+   "trees",
+   "sunny",
+   "summer",
+   "motion"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 4.25,
+  "usable": [
+   [
+    0,
+    4.25
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABHGw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/toronto fall 2026/day4/Video 2025-10-04, 5 41 03 PM.mov",
+  "folder": "toronto fall 2026",
+  "shot": "bike share ride pov",
+  "activity": "biking",
+  "who": "anton",
+  "action_quality": 4,
+  "description": "POV riding an orange bike-share bike down a sunny city bike lane with shops and trees.",
+  "tags": [
+   "cycling",
+   "bike share",
+   "pov",
+   "city",
+   "street",
+   "sunny",
+   "bike lane"
+  ],
+  "location": "Toronto, Canada",
+  "orientation": "vertical",
+  "duration": 6.8,
+  "usable": [
+   [
+    0,
+    6.8
+   ]
+  ],
+  "quality": 4,
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABMvg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/toronto fall 2026/day 28/Video 2025-11-11, 9 15 35 AM.mov",
+  "folder": "toronto fall 2026",
+  "shot": "cycling in snow",
+  "activity": "biking",
+  "who": "anton",
+  "action_quality": 3,
+  "description": "Anton rides an orange bike-share bike through a snowy bike lane past the docking station.",
+  "tags": [
+   "cycling",
+   "bike share",
+   "snow",
+   "winter",
+   "city",
+   "street",
+   "morning"
+  ],
+  "location": "Toronto, Canada",
+  "orientation": "vertical",
+  "duration": 21.57,
+  "usable": [
+   [
+    0,
+    21.57
+   ]
+  ],
+  "quality": 3,
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABMvA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/toronto fall 2026/day 28/Video 2025-11-11, 9 17 11 AM.mov",
+  "folder": "toronto fall 2026",
+  "shot": "selfie cycling in snowy street",
+  "activity": "biking",
+  "who": "anton",
+  "action_quality": 3,
+  "description": "Selfie shot of Anton smiling while riding along a wet, snowy city street with a cyclist behind.",
+  "tags": [
+   "cycling",
+   "selfie",
+   "snow",
+   "winter",
+   "city",
+   "street",
+   "smiling"
+  ],
+  "location": "Toronto, Canada",
+  "orientation": "vertical",
+  "duration": 3.23,
+  "usable": [
+   [
+    0,
+    3.23
+   ]
+  ],
+  "quality": 3,
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACYUQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto summer 2026/sept 20/DJI_20260920195925_0115_D.MP4",
+  "folder": "Toronto summer 2026",
+  "shot": "night bike ride",
+  "activity": "biking",
+  "who": "anton",
+  "action_quality": 2,
+  "description": "Low-angle selfie of Anton biking at night singing with earbuds, streetlights and trees passing; POV of handlebars.",
+  "tags": [
+   "anton",
+   "biking",
+   "night",
+   "streetlights",
+   "singing",
+   "selfie",
+   "city",
+   "motion"
+  ],
+  "location": "Toronto",
+  "orientation": "vertical",
+  "duration": 24.21,
+  "usable": [
+   [
+    0,
+    24.21
+   ]
+  ],
+  "quality": 3,
+  "notes": "Dark and motion blur; vibey.",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACFMw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 28 - slasa and surf/Video 2026-01-15, 5 06 43 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "boat ride to kitesurf",
+  "activity": "boat trip",
+  "who": "anton",
+  "action_quality": 2,
+  "description": "Riding in a small boat across a lagoon with kitesurfers and green hills.",
+  "tags": [
+   "boat",
+   "water",
+   "kitesurf",
+   "hills",
+   "cloudy",
+   "pov",
+   "handheld"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 10.03,
+  "usable": [
+   [
+    5,
+    10
+   ]
+  ],
+  "quality": 2,
+  "notes": "shaky",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACFMg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 28 - slasa and surf/Video 2026-01-15, 5 07 52 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "selfie on boat",
+  "activity": "boat trip",
+  "who": "anton",
+  "action_quality": 2,
+  "description": "Shirtless selfie on a boat on the lagoon, looking at the kites.",
+  "tags": [
+   "boat",
+   "selfie",
+   "shirtless",
+   "water",
+   "blue sky",
+   "windy"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 11.4,
+  "usable": [
+   [
+    0,
+    4
+   ]
+  ],
+  "quality": 2,
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACFLA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 28 - slasa and surf/Video 2026-01-15, 5 08 08 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "boat ride to kitesurf",
+  "activity": "boat trip",
+  "who": "anton",
+  "action_quality": 2,
+  "description": "POV of the boat bow with kite gear crossing open water.",
+  "tags": [
+   "boat",
+   "water",
+   "kite",
+   "pov",
+   "cloudy",
+   "hills"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 6.94,
+  "usable": [
+   [
+    2.5,
+    5.5
+   ]
+  ],
+  "quality": 2,
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABOGA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 5/Video 2025-11-26, 8 11 57 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "night boat ride",
+  "activity": "boat trip",
+  "who": "unclear",
+  "action_quality": 2,
+  "description": "Silhouette at the bow of a boat with glittering waterfront lights.",
+  "tags": [
+   "night",
+   "boat",
+   "silhouette",
+   "lights",
+   "reflections",
+   "water"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 3.9,
+  "usable": [
+   [
+    0,
+    3.9
+   ]
+  ],
+  "quality": 2,
+  "notes": "dark, noisy",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABEsQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/londons/day 5/Video 2025-09-19, 11 46 22 AM.mov",
+  "folder": "londons",
+  "shot": "friends on farm buggy",
+  "activity": "buggy ride",
+  "who": "friends",
+  "action_quality": 2,
+  "description": "Short shot of friends sitting in the back of a farm utility vehicle in a sunny field.",
+  "tags": [
+   "friends",
+   "farm buggy",
+   "field",
+   "farm",
+   "sunny",
+   "blue sky",
+   "fun"
+  ],
+  "location": "England",
+  "orientation": "vertical",
+  "duration": 1.97,
+  "usable": [
+   [
+    0.0,
+    1.97
+   ]
+  ],
+  "quality": 3,
+  "notes": "very short",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABEwg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/londons/day 5/Video 2025-09-19, 2 08 26 PM.mov",
+  "folder": "londons",
+  "shot": "riding in farm buggy",
+  "activity": "buggy ride",
+  "who": "anton",
+  "action_quality": 2,
+  "description": "Brief POV from a farm buggy across a field toward distant cows.",
+  "tags": [
+   "farm buggy",
+   "pov",
+   "field",
+   "cows",
+   "farm",
+   "sunny"
+  ],
+  "location": "England",
+  "orientation": "vertical",
+  "duration": 2.33,
+  "usable": [
+   [
+    0.5,
+    2.33
+   ]
+  ],
+  "quality": 2,
+  "notes": "very short",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUKA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260610131414_0218_D.MP4",
+  "folder": "Spain 2026",
+  "shot": "parallel bar dips outdoors",
+  "activity": "calisthenics",
+  "who": "anton",
+  "action_quality": 3,
+  "description": "Shirtless Anton does dips and walks along red parallel bars at a sunny outdoor gym in a park.",
+  "tags": [
+   "anton",
+   "calisthenics",
+   "dips",
+   "parallel bars",
+   "outdoor gym",
+   "park",
+   "sunny",
+   "fitness",
+   "shirtless"
+  ],
+  "location": "Serbia (likely Belgrade; filed under Spain 2026)",
+  "orientation": "horizontal",
+  "duration": 32.47,
+  "usable": [
+   [
+    0,
+    32.47
+   ]
+  ],
+  "quality": 3,
+  "notes": "static tripod; subject small and back to camera at times",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUKg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260610131503_0219_D.MP4",
+  "folder": "Spain 2026",
+  "shot": "parallel bar dips outdoors",
+  "activity": "calisthenics",
+  "who": "anton",
+  "action_quality": 3,
+  "description": "Shirtless Anton performs dips on red parallel bars in a tree-lined outdoor gym, then walks up smiling to the camera.",
+  "tags": [
+   "anton",
+   "calisthenics",
+   "dips",
+   "parallel bars",
+   "outdoor gym",
+   "park",
+   "sunny",
+   "fitness",
+   "shirtless"
+  ],
+  "location": "Serbia (likely Belgrade; filed under Spain 2026)",
+  "orientation": "horizontal",
+  "duration": 42.84,
+  "usable": [
+   [
+    0,
+    36
+   ]
+  ],
+  "quality": 3,
+  "notes": "static wide; ends with Anton walking into camera",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACULg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260610132759_0221_D.MP4",
+  "folder": "Spain 2026",
+  "shot": "pull-ups at outdoor gym",
+  "activity": "calisthenics",
+  "who": "anton",
+  "action_quality": 3,
+  "description": "Static wide shot of shirtless Anton doing pull-ups on a green bar under trees in an outdoor gym.",
+  "tags": [
+   "anton",
+   "calisthenics",
+   "pull-ups",
+   "outdoor gym",
+   "trees",
+   "shade",
+   "fitness",
+   "static"
+  ],
+  "location": "Serbia (likely Belgrade; filed under Spain 2026)",
+  "orientation": "horizontal",
+  "duration": 30.7,
+  "usable": [
+   [
+    0,
+    27
+   ]
+  ],
+  "quality": 3,
+  "notes": "subject small in frame, dappled shade",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACUMA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260610133039_0222_D.MP4",
+  "folder": "Spain 2026",
+  "shot": "handstand practice",
+  "activity": "calisthenics",
+  "who": "anton",
+  "action_quality": 3,
+  "description": "Shirtless Anton practises handstands and handstand holds on a concrete slab at a park calisthenics area.",
+  "tags": [
+   "anton",
+   "handstand",
+   "calisthenics",
+   "outdoor gym",
+   "park",
+   "sunny",
+   "fitness",
+   "static"
+  ],
+  "location": "Serbia (likely Belgrade; filed under Spain 2026)",
+  "orientation": "horizontal",
+  "duration": 67.05,
+  "usable": [
+   [
+    10,
+    55
+   ]
+  ],
+  "quality": 3,
+  "notes": "static wide shot",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACMoA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/April 13/Video 2026-04-11, 3 08 01 PM.mov",
+  "folder": "Toronto 2026",
+  "shot": "dead hang",
+  "activity": "calisthenics",
+  "who": "anton",
+  "action_quality": 3,
+  "description": "Static shot of shirtless Anton in jeans dead-hanging from a wooden bar frame in sunny bare woods.",
+  "tags": [
+   "anton",
+   "dead hang",
+   "outdoor gym",
+   "woods",
+   "blue sky",
+   "static",
+   "fitness",
+   "shirtless"
+  ],
+  "location": "wooded cabin property (filed under Toronto 2026)",
+  "orientation": "vertical",
+  "duration": 44.38,
+  "usable": [
+   [
+    0,
+    44.38
+   ]
+  ],
+  "quality": 3,
+  "notes": "Long static take; subject partly behind post.",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_2w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 1 36 48 PM.mov",
+  "folder": "cotswold 2025",
+  "shot": "push-ups by riverbank",
+  "activity": "calisthenics",
+  "who": "anton",
+  "action_quality": 3,
+  "description": "Shirtless Anton does push-ups on a muddy riverbank among plants, then the camera tilts into the water.",
+  "tags": [
+   "anton",
+   "push-ups",
+   "workout",
+   "riverbank",
+   "shirtless",
+   "nature",
+   "outdoor fitness"
+  ],
+  "location": "Cotswolds, England",
+  "orientation": "vertical",
+  "duration": 21.37,
+  "usable": [
+   [
+    0,
+    17
+   ]
+  ],
+  "quality": 3,
+  "notes": "Low angle, foreground plants; ends pointing at water",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACULA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/July 6/DJI_20260610132728_0220_D.MP4",
+  "folder": "Spain 2026",
+  "shot": "pull-ups at outdoor gym",
+  "activity": "calisthenics",
+  "who": "anton",
+  "action_quality": 2,
+  "description": "Camera pans through a shaded green calisthenics rig as shirtless Anton hangs and does pull-ups.",
+  "tags": [
+   "anton",
+   "calisthenics",
+   "pull-ups",
+   "outdoor gym",
+   "trees",
+   "shade",
+   "fitness",
+   "green"
+  ],
+  "location": "Serbia (likely Belgrade; filed under Spain 2026)",
+  "orientation": "horizontal",
+  "duration": 13.31,
+  "usable": [
+   [
+    3,
+    10
+   ]
+  ],
+  "quality": 2,
+  "notes": "camera being set up at start; subject small",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACMoQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/April 13/Video 2026-04-11, 3 06 27 PM.mov",
+  "folder": "Toronto 2026",
+  "shot": "hanging from bar",
+  "activity": "calisthenics",
+  "who": "anton",
+  "action_quality": 2,
+  "description": "Low ground-level static shot of Anton hanging and doing pull-ups on an outdoor bar among bare trees, dry leaves in foreground.",
+  "tags": [
+   "anton",
+   "pull-ups",
+   "outdoor gym",
+   "woods",
+   "dry leaves",
+   "blue sky",
+   "static",
+   "low angle",
+   "fitness"
+  ],
+  "location": "wooded cabin property (filed under Toronto 2026)",
+  "orientation": "vertical",
+  "duration": 32.64,
+  "usable": [
+   [
+    2,
+    28
+   ]
+  ],
+  "quality": 3,
+  "notes": "Subject small in frame; someone walks into frame at end.",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-bw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 7 39 34 PM.mov",
+  "folder": "poland 2025",
+  "shot": "exiting rock passage into forest",
+  "activity": "cave exploring",
+  "who": "friends",
+  "action_quality": 3,
+  "description": "Following a friend out of a narrow rock passage into green forest.",
+  "tags": [
+   "friends",
+   "rock crevice",
+   "forest",
+   "adventure",
+   "exploring",
+   "walking"
+  ],
+  "location": "Kraków region, Poland",
+  "orientation": "vertical",
+  "duration": 18.87,
+  "usable": [
+   [
+    0,
+    18.87
+   ]
+  ],
+  "quality": 3,
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-SA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 10 52 17 AM.mov",
+  "folder": "poland 2025",
+  "shot": "walking through cave",
+  "activity": "cave exploring",
+  "who": "friends",
+  "action_quality": 2,
+  "description": "Friends climb stairs through a lit limestone cave passage.",
+  "tags": [
+   "cave",
+   "dragon's den",
+   "friends",
+   "walking",
+   "underground",
+   "krakow",
+   "dark"
+  ],
+  "location": "Kraków, Poland",
+  "orientation": "horizontal",
+  "duration": 5.33,
+  "usable": [
+   [
+    0,
+    5.33
+   ]
+  ],
+  "quality": 2,
+  "notes": "Dark, handheld",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-QQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 10 52 33 AM.mov",
+  "folder": "poland 2025",
+  "shot": "walking through cave",
+  "activity": "cave exploring",
+  "who": "friends",
+  "action_quality": 2,
+  "description": "Friends walk through a dim cave chamber with reddish rock walls.",
+  "tags": [
+   "cave",
+   "friends",
+   "walking",
+   "underground",
+   "dark",
+   "adventure"
+  ],
+  "location": "Kraków, Poland",
+  "orientation": "vertical",
+  "duration": 3.4,
+  "usable": [
+   [
+    0,
+    3.4
+   ]
+  ],
+  "quality": 2,
+  "notes": "Dark",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-bA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 7 35 11 PM.mov",
+  "folder": "poland 2025",
+  "shot": "entering rock crevice cave",
+  "activity": "cave exploring",
+  "who": "friends",
+  "action_quality": 2,
+  "description": "Friends and a dog squeeze through a narrow limestone rock passage into a cave.",
+  "tags": [
+   "friends",
+   "cave",
+   "rock",
+   "adventure",
+   "dog",
+   "exploring",
+   "forest"
+  ],
+  "location": "Kraków region, Poland",
+  "orientation": "vertical",
+  "duration": 22.6,
+  "usable": [
+   [
+    0,
+    22.6
+   ]
+  ],
+  "quality": 2,
+  "notes": "Handheld, dog blocks frame at times",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-Zw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 7 37 32 PM.mov",
+  "folder": "poland 2025",
+  "shot": "crawling through cave",
+  "activity": "cave exploring",
+  "who": "anton",
+  "action_quality": 2,
+  "description": "Anton crawls under a low limestone overhang in a cave, lit by a phone torch, grinning.",
+  "tags": [
+   "anton",
+   "cave",
+   "crawling",
+   "adventure",
+   "dark",
+   "exploring"
+  ],
+  "location": "Kraków region, Poland",
+  "orientation": "vertical",
+  "duration": 12.27,
+  "usable": [
+   [
+    4.5,
+    10
+   ]
+  ],
+  "quality": 2,
+  "notes": "Dark, torch flare at start",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABgiQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 10/Video 2025-12-11, 6 48 20 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "climbing coastal boulders",
+  "activity": "climbing",
+  "who": "anton",
+  "action_quality": 3,
+  "description": "High angle of Anton climbing between big granite boulders with white surf crashing below.",
+  "tags": [
+   "climbing",
+   "boulders",
+   "ocean",
+   "waves",
+   "coast",
+   "adventure",
+   "golden hour"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 11.94,
+  "usable": [
+   [
+    0,
+    11.94
+   ]
+  ],
+  "quality": 3,
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABORw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 6/Video 2025-11-30, 1 18 51 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "climbing by waterfall",
+  "activity": "climbing",
+  "who": "anton",
+  "action_quality": 3,
+  "description": "Anton climbs the rocks beside a tall waterfall.",
+  "tags": [
+   "waterfall",
+   "climbing",
+   "rocks",
+   "jungle",
+   "adventure",
+   "mist"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 19.34,
+  "usable": [
+   [
+    0,
+    19.3
+   ]
+  ],
+  "quality": 3,
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABOMw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 6/Video 2025-11-30, 1 19 33 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "friend at waterfall",
+  "activity": "climbing",
+  "who": "friends",
+  "action_quality": 2,
+  "description": "Friend with curly hair climbs down rocks smiling at a waterfall.",
+  "tags": [
+   "friend",
+   "waterfall",
+   "rocks",
+   "smiling",
+   "shirtless"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 3.57,
+  "usable": [
+   [
+    0,
+    3.6
+   ]
+  ],
+  "quality": 2,
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACIcg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-15, 4 29 49 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "standing under waterfall",
+  "activity": "cold exposure",
+  "who": "anton",
+  "action_quality": 4,
+  "description": "Anton stands under a powerful waterfall in the rainforest.",
+  "tags": [
+   "waterfall",
+   "cold water",
+   "rainforest",
+   "nature",
+   "shower",
+   "adventure"
+  ],
+  "location": "Rio de Janeiro, Brazil",
+  "orientation": "vertical",
+  "duration": 17.49,
+  "usable": [
+   [
+    0,
+    17.4
+   ]
+  ],
+  "quality": 4,
+  "notes": "Fits the cold exposure theme.",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACAGQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/Video 2025-12-24, 5 05 37 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "standing under waterfall",
+  "activity": "cold exposure",
+  "who": "anton",
+  "action_quality": 3,
+  "description": "Anton stands on a rock in the spray beneath a waterfall.",
+  "tags": [
+   "waterfall",
+   "standing",
+   "rock",
+   "cold exposure",
+   "jungle"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 3.08,
+  "usable": [
+   [
+    0,
+    3.08
+   ]
+  ],
+  "quality": 3,
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABOTw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 6/Video 2025-11-30, 1 14 09 PM.mov",
+  "folder": "brazil 2025",
+  "shot": "sitting in natural pool",
+  "activity": "cold exposure",
+  "who": "anton",
+  "action_quality": 3,
+  "description": "Anton steps into a clear rock pool and sits down under a small waterfall.",
+  "tags": [
+   "waterfall",
+   "natural pool",
+   "rocks",
+   "jungle",
+   "nature",
+   "shirtless"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 8.43,
+  "usable": [
+   [
+    0,
+    8.4
+   ]
+  ],
+  "quality": 3,
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
+  "used_in": []
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACAEA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/WhatsApp Video 2025-12-24 at 8.37.58 PM-2.mp4",
+  "folder": "brazil 2025",
+  "shot": "standing under waterfall",
+  "activity": "cold exposure",
+  "who": "anton",
+  "action_quality": 2,
+  "description": "Horizontal low-res clip of Anton climbing onto the rocks under a waterfall.",
+  "tags": [
+   "waterfall",
+   "rocks",
+   "jungle",
+   "horizontal",
+   "cold exposure"
+  ],
+  "location": "Brazil",
+  "orientation": "horizontal",
+  "duration": 18.09,
+  "usable": [
+   [
+    0,
+    18.09
+   ]
+  ],
+  "quality": 2,
+  "notes": "WhatsApp low resolution",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -1302,38 +2673,8 @@
   ],
   "quality": 3,
   "notes": "filmed through reeds, slightly cluttered foreground",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLbg",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/2 Am Call/Video 2026-03-24, 10 07 08 AM.mov",
-  "folder": "Toronto 2026",
-  "shot": "cold shower",
-  "activity": "cold shower",
-  "who": "anton",
-  "action_quality": 3,
-  "description": "Shirtless Anton in a bathtub laughing under a cold shower, selfie angle, ends with camera dropping to his leg.",
-  "tags": [
-   "anton",
-   "cold shower",
-   "bathroom",
-   "morning",
-   "selfie",
-   "handheld",
-   "white tiles",
-   "wellness"
-  ],
-  "location": "Toronto",
-  "orientation": "vertical",
-  "duration": 4.37,
-  "usable": [
-   [
-    0,
-    3.0
-   ]
-  ],
-  "quality": 3,
-  "notes": "Shaky at end; last second is accidental.",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -1365,6 +2706,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -1396,6 +2739,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -1427,6 +2772,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -1457,6 +2804,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -1488,6 +2837,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -1519,6 +2870,8 @@
   ],
   "quality": 3,
   "notes": "long take",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -1550,6 +2903,8 @@
   ],
   "quality": 3,
   "notes": "long take",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -1582,6 +2937,8 @@
   ],
   "quality": 3,
   "notes": "Long static take of a third person.",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -1614,6 +2971,8 @@
   ],
   "quality": 3,
   "notes": "soft, warm cast",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -1646,6 +3005,8 @@
   ],
   "quality": 3,
   "notes": "soft, warm cast",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -1679,6 +3040,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -1710,6 +3073,8 @@
   ],
   "quality": 2,
   "notes": "soft, low light",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -1742,68 +3107,8 @@
   ],
   "quality": 3,
   "notes": "low light, soft",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACG2A",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/feb 5 dancing/Video 2026-02-06, 10 17 48 PM.mov",
-  "folder": "brazil 2025",
-  "shot": "dancing in a bar",
-  "activity": "dancing",
-  "who": "unclear",
-  "action_quality": 2,
-  "description": "Crowd dancing forró in a teal bar with a checkered floor.",
-  "tags": [
-   "dancing",
-   "dance hall",
-   "people",
-   "social",
-   "checkered floor",
-   "night",
-   "vibing"
-  ],
-  "location": "Florianópolis, Brazil",
-  "orientation": "vertical",
-  "duration": 4.23,
-  "usable": [
-   [
-    0,
-    4.2
-   ]
-  ],
-  "quality": 3,
-  "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACG3w",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/feb 5 dancing/Video 2026-02-06, 10 17 58 PM.mov",
-  "folder": "brazil 2025",
-  "shot": "dancing in a bar",
-  "activity": "dancing",
-  "who": "unclear",
-  "action_quality": 2,
-  "description": "Couples dancing on a checkered floor in a busy bar.",
-  "tags": [
-   "dancing",
-   "dance hall",
-   "people",
-   "social",
-   "checkered floor",
-   "night",
-   "vibing"
-  ],
-  "location": "Florianópolis, Brazil",
-  "orientation": "vertical",
-  "duration": 5.97,
-  "usable": [
-   [
-    0,
-    6
-   ]
-  ],
-  "quality": 3,
-  "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -1834,6 +3139,8 @@
   ],
   "quality": 4,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -1864,6 +3171,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -1895,6 +3204,8 @@
   ],
   "quality": 4,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -1925,6 +3236,8 @@
   ],
   "quality": 2,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -1954,37 +3267,8 @@
   ],
   "quality": 2,
   "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-4A",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6210.MOV",
-  "folder": "poland 2025",
-  "shot": "friends hiking misty forest",
-  "activity": "hiking",
-  "who": "friends",
-  "action_quality": 4,
-  "description": "Following friends up a rocky trail into a dark, misty beech forest.",
-  "tags": [
-   "friends",
-   "hiking",
-   "mist",
-   "forest",
-   "moody",
-   "trail",
-   "dark"
-  ],
-  "location": "Ślęża, Poland",
-  "orientation": "vertical",
-  "duration": 6.08,
-  "usable": [
-   [
-    0,
-    6.08
-   ]
-  ],
-  "quality": 4,
-  "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -2015,6 +3299,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -2046,6 +3332,8 @@
   ],
   "quality": 4,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -2076,6 +3364,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -2105,6 +3395,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -2136,6 +3428,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -2166,6 +3460,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -2197,36 +3493,8 @@
   ],
   "quality": 3,
   "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACALw",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/Video 2025-12-24, 3 41 58 PM.mov",
-  "folder": "brazil 2025",
-  "shot": "hiking through jungle",
-  "activity": "hiking",
-  "who": "anton",
-  "action_quality": 3,
-  "description": "Anton climbs through thick green jungle vegetation by a stream, gesturing back at camera.",
-  "tags": [
-   "hiking",
-   "jungle",
-   "stream",
-   "shirtless",
-   "adventure",
-   "green"
-  ],
-  "location": "Brazil",
-  "orientation": "vertical",
-  "duration": 12.57,
-  "usable": [
-   [
-    0,
-    12.57
-   ]
-  ],
-  "quality": 3,
-  "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -2257,36 +3525,8 @@
   ],
   "quality": 3,
   "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACAJg",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/Video 2025-12-24, 3 43 59 PM.mov",
-  "folder": "brazil 2025",
-  "shot": "wading through river pov",
-  "activity": "hiking",
-  "who": "anton",
-  "action_quality": 3,
-  "description": "POV looking down at legs and board shorts wading through rippling river water.",
-  "tags": [
-   "river",
-   "wading",
-   "pov",
-   "feet",
-   "water",
-   "hiking"
-  ],
-  "location": "Brazil",
-  "orientation": "vertical",
-  "duration": 3.94,
-  "usable": [
-   [
-    0,
-    3.94
-   ]
-  ],
-  "quality": 3,
-  "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -2318,6 +3558,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -2348,6 +3590,8 @@
   ],
   "quality": 3,
   "notes": "rotated second half",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -2377,6 +3621,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -2407,6 +3653,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -2437,6 +3685,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -2466,6 +3716,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -2496,6 +3748,8 @@
   ],
   "quality": 3,
   "notes": "shaky",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -2528,37 +3782,8 @@
   ],
   "quality": 3,
   "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-Tg",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 6 12 19 PM.mov",
-  "folder": "poland 2025",
-  "shot": "walking in forest",
-  "activity": "hiking",
-  "who": "anton",
-  "action_quality": 3,
-  "description": "Anton in a dark raincoat looks up at the trees on a forest path, then walks toward camera and reaches for the phone.",
-  "tags": [
-   "anton",
-   "forest",
-   "walking",
-   "raincoat",
-   "nature",
-   "hike",
-   "green"
-  ],
-  "location": "Kraków region, Poland",
-  "orientation": "vertical",
-  "duration": 8.93,
-  "usable": [
-   [
-    0,
-    6
-   ]
-  ],
-  "quality": 3,
-  "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -2589,6 +3814,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -2620,6 +3847,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -2650,37 +3879,8 @@
   ],
   "quality": 3,
   "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-XA",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 7 30 06 PM.mov",
-  "folder": "poland 2025",
-  "shot": "friends walking in meadow",
-  "activity": "hiking",
-  "who": "friends",
-  "action_quality": 3,
-  "description": "Friends walk across a lush meadow toward misty wooded hills.",
-  "tags": [
-   "friends",
-   "meadow",
-   "walking",
-   "mist",
-   "hills",
-   "green",
-   "group"
-  ],
-  "location": "Kraków region, Poland",
-  "orientation": "vertical",
-  "duration": 2.73,
-  "usable": [
-   [
-    0,
-    2.73
-   ]
-  ],
-  "quality": 3,
-  "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -2711,6 +3911,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -2741,6 +3943,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -2771,37 +3975,8 @@
   ],
   "quality": 4,
   "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_DA",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6199.MOV",
-  "folder": "poland 2025",
-  "shot": "friends walking misty forest",
-  "activity": "hiking",
-  "who": "friends",
-  "action_quality": 3,
-  "description": "Vertical static shot of a wet forest road with two friends walking away into the trees.",
-  "tags": [
-   "friends",
-   "forest",
-   "mist",
-   "walking",
-   "path",
-   "moody",
-   "static"
-  ],
-  "location": "Ślęża, Poland",
-  "orientation": "vertical",
-  "duration": 7.83,
-  "usable": [
-   [
-    0,
-    7.83
-   ]
-  ],
-  "quality": 3,
-  "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -2832,6 +4007,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -2864,6 +4041,8 @@
   ],
   "quality": 3,
   "notes": "hiker small",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -2895,36 +4074,8 @@
   ],
   "quality": 2,
   "notes": "Short, finger/blur at edge.",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACIRg",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/RIO DE JANIERO/sunday/Video 2026-02-18, 4 33 43 AM.mov",
-  "folder": "brazil 2025",
-  "shot": "night hike in forest",
-  "activity": "hiking",
-  "who": "friends",
-  "action_quality": 2,
-  "description": "Friends hike a dark forest trail at night by torchlight; ends on a selfie.",
-  "tags": [
-   "night hike",
-   "forest",
-   "trail",
-   "friends",
-   "dark",
-   "adventure"
-  ],
-  "location": "Rio de Janeiro, Brazil",
-  "orientation": "vertical",
-  "duration": 11.23,
-  "usable": [
-   [
-    0,
-    8
-   ]
-  ],
-  "quality": 2,
-  "notes": "Dark and shaky.",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -2955,6 +4106,8 @@
   ],
   "quality": 2,
   "notes": "rotated after 6s",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -2984,6 +4137,8 @@
   ],
   "quality": 2,
   "notes": "rotated at end",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -3013,6 +4168,8 @@
   ],
   "quality": 2,
   "notes": "shaky",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -3042,6 +4199,8 @@
   ],
   "quality": 2,
   "notes": "very short",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -3072,6 +4231,8 @@
   ],
   "quality": 2,
   "notes": "Stored vertical but content is sideways (needs rotation; framing is horizontal)",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -3102,6 +4263,8 @@
   ],
   "quality": 2,
   "notes": "Whip pan blur at ~1.7s",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -3131,6 +4294,8 @@
   ],
   "quality": 2,
   "notes": "Shaky",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -3161,6 +4326,8 @@
   ],
   "quality": 2,
   "notes": "Heads close in foreground",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -3190,36 +4357,8 @@
   ],
   "quality": 2,
   "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-aQ",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 2/Video 2025-07-26, 7 41 10 PM.mov",
-  "folder": "poland 2025",
-  "shot": "friends walking through forest",
-  "activity": "hiking",
-  "who": "friends",
-  "action_quality": 2,
-  "description": "Vertical shot of tall beech trees with friends small on the trail below.",
-  "tags": [
-   "friends",
-   "forest",
-   "walking",
-   "hike",
-   "green",
-   "trees"
-  ],
-  "location": "Kraków region, Poland",
-  "orientation": "vertical",
-  "duration": 3.43,
-  "usable": [
-   [
-    0,
-    3.43
-   ]
-  ],
-  "quality": 3,
-  "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -3251,6 +4390,8 @@
   ],
   "quality": 2,
   "notes": "Shaky",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -3280,6 +4421,8 @@
   ],
   "quality": 2,
   "notes": "Shaky",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -3314,6 +4457,8 @@
   ],
   "quality": 2,
   "notes": "whip pan mid-clip",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -3345,6 +4490,8 @@
   ],
   "quality": 3,
   "notes": "overcast",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -3376,6 +4523,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -3407,6 +4556,8 @@
   ],
   "quality": 4,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -3439,6 +4590,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -3471,67 +4624,8 @@
   ],
   "quality": 3,
   "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACFNA",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 28 - slasa and surf/Video 2026-01-15, 6 11 59 PM.mov",
-  "folder": "brazil 2025",
-  "shot": "kitesurfing",
-  "activity": "kitesurfing",
-  "who": "unclear",
-  "action_quality": 3,
-  "description": "Wide shot of a kitesurfer riding across the lagoon under dramatic clouds and green hills.",
-  "tags": [
-   "kitesurfing",
-   "water sports",
-   "lagoon",
-   "red kite",
-   "clouds",
-   "hills",
-   "wide"
-  ],
-  "location": "Brazil",
-  "orientation": "vertical",
-  "duration": 31.87,
-  "usable": [
-   [
-    0,
-    24
-   ]
-  ],
-  "quality": 3,
-  "notes": "subject small",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACFFQ",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 28 - slasa and surf/Video 2026-01-15, 6 14 57 PM.mov",
-  "folder": "brazil 2025",
-  "shot": "kitesurfing",
-  "activity": "kitesurfing",
-  "who": "unclear",
-  "action_quality": 3,
-  "description": "Kitesurfer riding toward camera with a red kite and hills behind.",
-  "tags": [
-   "kitesurfing",
-   "water sports",
-   "lagoon",
-   "red kite",
-   "action",
-   "clouds"
-  ],
-  "location": "Brazil",
-  "orientation": "vertical",
-  "duration": 5.37,
-  "usable": [
-   [
-    0,
-    5.4
-   ]
-  ],
-  "quality": 3,
-  "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -3562,97 +4656,8 @@
   ],
   "quality": 3,
   "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACFjg",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 33/Video 2026-01-20, 5 05 01 PM.mov",
-  "folder": "brazil 2025",
-  "shot": "kitesurfing",
-  "activity": "kitesurfing",
-  "who": "unclear",
-  "action_quality": 3,
-  "description": "Long kitesurfing follow shot on the lagoon with mountains and bright sky.",
-  "tags": [
-   "kitesurfing",
-   "water sports",
-   "lagoon",
-   "sunny",
-   "pink kite",
-   "mountains",
-   "action"
-  ],
-  "location": "Brazil",
-  "orientation": "vertical",
-  "duration": 60.51,
-  "usable": [
-   [
-    0,
-    50
-   ]
-  ],
-  "quality": 3,
-  "notes": "some sun flare",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACGUA",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 36/Video 2026-01-28, 3 33 02 PM.mov",
-  "folder": "brazil 2025",
-  "shot": "kitesurfing",
-  "activity": "kitesurfing",
-  "who": "unclear",
-  "action_quality": 3,
-  "description": "Kitesurfers on a bright lagoon with a red kite and green hills.",
-  "tags": [
-   "kitesurfing",
-   "lagoon",
-   "sunny",
-   "red kite",
-   "hills",
-   "water sports"
-  ],
-  "location": "Brazil",
-  "orientation": "vertical",
-  "duration": 11.2,
-  "usable": [
-   [
-    0,
-    11.2
-   ]
-  ],
-  "quality": 3,
-  "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACGUQ",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 36/Video 2026-01-28, 3 41 45 PM.mov",
-  "folder": "brazil 2025",
-  "shot": "kitesurfing",
-  "activity": "kitesurfing",
-  "who": "unclear",
-  "action_quality": 3,
-  "description": "Kitesurfer carving past on a sunny lagoon with a red kite.",
-  "tags": [
-   "kitesurfing",
-   "lagoon",
-   "sunny",
-   "red kite",
-   "hills",
-   "action"
-  ],
-  "location": "Brazil",
-  "orientation": "vertical",
-  "duration": 12.1,
-  "usable": [
-   [
-    5,
-    12.1
-   ]
-  ],
-  "quality": 3,
-  "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -3684,6 +4689,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -3716,6 +4723,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -3747,6 +4756,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -3779,6 +4790,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -3811,6 +4824,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -3843,6 +4858,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -3873,6 +4890,8 @@
   ],
   "quality": 2,
   "notes": "subject tiny",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -3902,6 +4921,8 @@
   ],
   "quality": 2,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -3932,6 +4953,8 @@
   ],
   "quality": 2,
   "notes": "low, choppy angle",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -3963,6 +4986,8 @@
   ],
   "quality": 2,
   "notes": "subject small",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -3994,6 +5019,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -4025,6 +5052,8 @@
   ],
   "quality": 2,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -4054,6 +5083,8 @@
   ],
   "quality": 2,
   "notes": "overcast, flat light",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -4087,68 +5118,8 @@
   ],
   "quality": 2,
   "notes": "Low resolution (640x360), people crossing in front.",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACNBQ",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Line Dancing/Video 2026-04-19, 6 36 18 PM.mov",
-  "folder": "Toronto 2026",
-  "shot": "line dancing crowd",
-  "activity": "line dancing",
-  "who": "unclear",
-  "action_quality": 2,
-  "description": "Handheld vertical shot of a crowd line dancing in a gym hall.",
-  "tags": [
-   "line dancing",
-   "dance class",
-   "crowd",
-   "gym hall",
-   "indoor",
-   "wood floor",
-   "handheld",
-   "vibing"
-  ],
-  "location": "Toronto",
-  "orientation": "vertical",
-  "duration": 24.9,
-  "usable": [
-   [
-    2,
-    24.9
-   ]
-  ],
-  "quality": 2,
-  "notes": "Low resolution (536x960), shaky.",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAABw6w",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 13/Video 2025-12-14, 8 55 03 PM.mov",
-  "folder": "brazil 2025",
-  "shot": "mechanical bull ride",
-  "activity": "mechanical bull",
-  "who": "anton",
-  "action_quality": 2,
-  "description": "Anton rides a mechanical bull in a neon-lit bar at night, filmed from across the room.",
-  "tags": [
-   "mechanical bull",
-   "bar",
-   "nightlife",
-   "neon",
-   "fun",
-   "night"
-  ],
-  "location": "Brazil",
-  "orientation": "vertical",
-  "duration": 18.2,
-  "usable": [
-   [
-    0,
-    18.2
-   ]
-  ],
-  "quality": 2,
-  "notes": "dark, far away",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -4180,6 +5151,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -4210,6 +5183,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -4240,6 +5215,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -4271,6 +5248,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -4302,6 +5281,8 @@
   ],
   "quality": 3,
   "notes": "Ends on accidental frames.",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -4332,6 +5313,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -4362,6 +5345,8 @@
   ],
   "quality": 2,
   "notes": "Short.",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -4391,6 +5376,8 @@
   ],
   "quality": 2,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -4420,6 +5407,8 @@
   ],
   "quality": 2,
   "notes": "Shaky.",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -4450,6 +5439,8 @@
   ],
   "quality": 2,
   "notes": "dark, handheld",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -4482,6 +5473,8 @@
   ],
   "quality": 3,
   "notes": "Selfie, handheld.",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -4514,6 +5507,8 @@
   ],
   "quality": 3,
   "notes": "Handheld; looks up a lot",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -4545,38 +5540,8 @@
   ],
   "quality": 3,
   "notes": "Starts talking to camera at the end",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAABDBQ",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/montenegro/day 22/PXL_20240804_225943224.mp4",
-  "folder": "montenegro",
-  "shot": "rope swing jump into lake",
-  "activity": "rope swing",
-  "who": "friends",
-  "action_quality": 3,
-  "description": "Pixel phone clip from 2024: friends at a pine-lined lake shore in low sun, someone swings on a rope and jumps into the water.",
-  "tags": [
-   "lake",
-   "rope swing",
-   "jumping",
-   "friends",
-   "pine trees",
-   "summer",
-   "sun flare",
-   "swimming"
-  ],
-  "location": "Montenegro",
-  "orientation": "vertical",
-  "duration": 10.67,
-  "usable": [
-   [
-    0.0,
-    10.67
-   ]
-  ],
-  "quality": 3,
-  "notes": "older 2024 Pixel footage, probably not Montenegro",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -4607,36 +5572,8 @@
   ],
   "quality": 4,
   "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAAByWA",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 17/Video 2025-12-21, 1 03 33 PM.mov",
-  "folder": "brazil 2025",
-  "shot": "running toward cows in field",
-  "activity": "running",
-  "who": "anton",
-  "action_quality": 3,
-  "description": "Anton runs off across a vast grassy field toward distant cows.",
-  "tags": [
-   "field",
-   "cows",
-   "running",
-   "shirtless",
-   "grassland",
-   "freedom"
-  ],
-  "location": "Cambará do Sul, Brazil",
-  "orientation": "vertical",
-  "duration": 11.0,
-  "usable": [
-   [
-    0,
-    11.0
-   ]
-  ],
-  "quality": 3,
-  "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -4669,6 +5606,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -4699,6 +5638,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -4728,6 +5669,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -4757,6 +5700,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -4787,6 +5732,8 @@
   ],
   "quality": 4,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -4817,6 +5764,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -4847,6 +5796,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -4876,6 +5827,8 @@
   ],
   "quality": 2,
   "notes": "camera bumped mid-clip",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -4906,6 +5859,8 @@
   ],
   "quality": 2,
   "notes": "cluttered foreground",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -4935,6 +5890,8 @@
   ],
   "quality": 2,
   "notes": "strong backlight, subject dark",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -4964,6 +5921,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -4995,69 +5954,8 @@
   ],
   "quality": 2,
   "notes": "shaky, awkward angles",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTBg",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4152.MOV",
-  "folder": "Spain 2026",
-  "shot": "climbing over rocks to sea",
-  "activity": "scrambling",
-  "who": "anton",
-  "action_quality": 4,
-  "description": "Shirtless Anton in blue shorts turns, then clambers across granite boulders toward the sea.",
-  "tags": [
-   "anton",
-   "rocks",
-   "boulders",
-   "sea",
-   "climbing",
-   "shirtless",
-   "sunny",
-   "summer"
-  ],
-  "location": "Spain (Costa Brava, likely)",
-  "orientation": "vertical",
-  "duration": 12.7,
-  "usable": [
-   [
-    0,
-    12.7
-   ]
-  ],
-  "quality": 4,
-  "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Dg",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_6200.MOV",
-  "folder": "poland 2025",
-  "shot": "barefoot climbing rocky trail",
-  "activity": "scrambling",
-  "who": "anton",
-  "action_quality": 4,
-  "description": "Anton in a cloak climbs barefoot up a rocky boulder trail through the forest, shoes in hand, following friends.",
-  "tags": [
-   "anton",
-   "barefoot",
-   "hiking",
-   "rocks",
-   "forest",
-   "cloak",
-   "climbing"
-  ],
-  "location": "Ślęża, Poland",
-  "orientation": "vertical",
-  "duration": 8.79,
-  "usable": [
-   [
-    0,
-    8.79
-   ]
-  ],
-  "quality": 3,
-  "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -5090,6 +5988,8 @@
   ],
   "quality": 3,
   "notes": "short",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -5121,38 +6021,8 @@
   ],
   "quality": 3,
   "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTDg",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4155.MOV",
-  "folder": "Spain 2026",
-  "shot": "climbing rocky islet",
-  "activity": "scrambling",
-  "who": "unclear",
-  "action_quality": 2,
-  "description": "Static shot of a small figure climbing a rocky islet beyond clear shallow water.",
-  "tags": [
-   "rocks",
-   "islet",
-   "climbing",
-   "sea",
-   "clear water",
-   "sunny",
-   "static",
-   "summer"
-  ],
-  "location": "Spain (Costa Brava, likely)",
-  "orientation": "vertical",
-  "duration": 6.82,
-  "usable": [
-   [
-    0,
-    6.82
-   ]
-  ],
-  "quality": 3,
-  "notes": "subject very small",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -5189,37 +6059,8 @@
   ],
   "quality": 3,
   "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLow",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Oyster Dinner Party/Video 2026-03-26, 6 35 29 PM (1).mov",
-  "folder": "Toronto 2026",
-  "shot": "shucking oysters for friends",
-  "activity": "shucking oysters",
-  "who": "anton",
-  "action_quality": 3,
-  "description": "Anton shucks and hands out oysters to friends at the restaurant oyster party; a woman tries one.",
-  "tags": [
-   "anton",
-   "oysters",
-   "shucking",
-   "friends",
-   "dinner party",
-   "restaurant",
-   "social"
-  ],
-  "location": "Toronto",
-  "orientation": "vertical",
-  "duration": 24.97,
-  "usable": [
-   [
-    0,
-    24.97
-   ]
-  ],
-  "quality": 3,
-  "notes": "Handheld, busy framing.",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -5252,6 +6093,8 @@
   ],
   "quality": 3,
   "notes": "First seconds Anton selfie.",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -5283,6 +6126,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -5315,37 +6160,8 @@
   ],
   "quality": 3,
   "notes": "Mix of talking and hands; close hands section ~30-60s.",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACWzQ",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto summer 2026/August 5/DJI_20260801205435_0040_D.MP4",
-  "folder": "Toronto summer 2026",
-  "shot": "shucking oysters in park",
-  "activity": "shucking oysters",
-  "who": "anton",
-  "action_quality": 2,
-  "description": "Rotated footage of Anton at a green picnic table shucking oysters on a wooden board, then talking.",
-  "tags": [
-   "anton",
-   "oysters",
-   "shucking",
-   "picnic table",
-   "park",
-   "summer",
-   "sunny"
-  ],
-  "location": "Toronto",
-  "orientation": "vertical",
-  "duration": 74.44,
-  "usable": [
-   [
-    0,
-    74.44
-   ]
-  ],
-  "quality": 2,
-  "notes": "LRF preview plays rotated 90 degrees (orientation recorded as vertical); check the MP4.",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -5377,6 +6193,8 @@
   ],
   "quality": 2,
   "notes": "Head blocks frame at times.",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -5414,37 +6232,8 @@
   ],
   "quality": 3,
   "notes": "preview sideways; underwater rocky reef at ~62s is nice",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLTw",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2323.MOV",
-  "folder": "Toronto 2026",
-  "shot": "snowboarding",
-  "activity": "snowboarding",
-  "who": "unclear",
-  "action_quality": 4,
-  "description": "Snowboarder rides down a slope edge by pines and sprays snow onto the camera.",
-  "tags": [
-   "snowboarding",
-   "snow",
-   "ski slope",
-   "winter",
-   "mountain",
-   "pine trees",
-   "action"
-  ],
-  "location": "Whiteface Mountain, NY",
-  "orientation": "vertical",
-  "duration": 13.79,
-  "usable": [
-   [
-    0,
-    13.79
-   ]
-  ],
-  "quality": 3,
-  "notes": "Ends with snow spray on lens.",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -5477,6 +6266,8 @@
   ],
   "quality": 4,
   "notes": "Nice valley view at end.",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -5508,37 +6299,8 @@
   ],
   "quality": 3,
   "notes": "Rider small; passes close at end.",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLUA",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2326.MOV",
-  "folder": "Toronto 2026",
-  "shot": "snowboarding",
-  "activity": "snowboarding",
-  "who": "unclear",
-  "action_quality": 3,
-  "description": "Snowboarder carving down a steep slope edge lined with trees, overcast.",
-  "tags": [
-   "snowboarding",
-   "snow",
-   "ski slope",
-   "winter",
-   "mountain",
-   "pine trees",
-   "action"
-  ],
-  "location": "Whiteface Mountain, NY",
-  "orientation": "vertical",
-  "duration": 8.11,
-  "usable": [
-   [
-    0,
-    8.11
-   ]
-  ],
-  "quality": 3,
-  "notes": "Rider small.",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -5570,6 +6332,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -5601,6 +6365,8 @@
   ],
   "quality": 3,
   "notes": "720p.",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -5632,6 +6398,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -5663,37 +6431,8 @@
   ],
   "quality": 3,
   "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLUw",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2342.MOV",
-  "folder": "Toronto 2026",
-  "shot": "snowboarding",
-  "activity": "snowboarding",
-  "who": "unclear",
-  "action_quality": 3,
-  "description": "Following snowboarder down a run with distant mountains, handheld while riding.",
-  "tags": [
-   "snowboarding",
-   "snow",
-   "ski slope",
-   "winter",
-   "mountain",
-   "pine trees",
-   "action"
-  ],
-  "location": "Whiteface Mountain, NY",
-  "orientation": "vertical",
-  "duration": 6.47,
-  "usable": [
-   [
-    0,
-    6.47
-   ]
-  ],
-  "quality": 3,
-  "notes": "Shaky, tilted.",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -5725,6 +6464,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -5756,37 +6497,8 @@
   ],
   "quality": 2,
   "notes": "Flat light, low contrast.",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLTA",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/IMG_2324.MOV",
-  "folder": "Toronto 2026",
-  "shot": "snowboarding",
-  "activity": "snowboarding",
-  "who": "unclear",
-  "action_quality": 2,
-  "description": "Snowboarder sitting on the snow sliding down a slope, partly leaving frame.",
-  "tags": [
-   "snowboarding",
-   "snow",
-   "ski slope",
-   "winter",
-   "mountain",
-   "pine trees",
-   "action"
-  ],
-  "location": "Whiteface Mountain, NY",
-  "orientation": "vertical",
-  "duration": 2.67,
-  "usable": [
-   [
-    0,
-    2.67
-   ]
-  ],
-  "quality": 2,
-  "notes": "Short.",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -5818,6 +6530,8 @@
   ],
   "quality": 2,
   "notes": "Fog, small subject.",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -5849,6 +6563,8 @@
   ],
   "quality": 2,
   "notes": "Fog, small subject.",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -5881,6 +6597,8 @@
   ],
   "quality": 2,
   "notes": "Very shaky; funny wipeout moment.",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -5913,6 +6631,8 @@
   ],
   "quality": 2,
   "notes": "Shaky; ends in snow.",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -5944,6 +6664,8 @@
   ],
   "quality": 2,
   "notes": "Fog, small subject.",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -5979,37 +6701,8 @@
   ],
   "quality": 2,
   "notes": "Long, mostly empty frames.",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLHQ",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 2 54 11 PM.mov",
-  "folder": "Toronto 2026",
-  "shot": "strapping in selfie",
-  "activity": "snowboarding",
-  "who": "anton",
-  "action_quality": 2,
-  "description": "Anton in helmet strapping into his lime snowboard on a ridge, selfie with valley behind.",
-  "tags": [
-   "anton",
-   "snowboarding",
-   "helmet",
-   "selfie",
-   "mountain view",
-   "winter",
-   "strapping in"
-  ],
-  "location": "Whiteface Mountain, NY",
-  "orientation": "vertical",
-  "duration": 8.77,
-  "usable": [
-   [
-    2,
-    7
-   ]
-  ],
-  "quality": 2,
-  "notes": "Handheld, tilted.",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -6041,6 +6734,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -6071,6 +6766,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -6102,6 +6799,8 @@
   ],
   "quality": 2,
   "notes": "long, handheld",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -6134,6 +6833,8 @@
   ],
   "quality": 4,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -6166,6 +6867,8 @@
   ],
   "quality": 4,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -6197,37 +6900,8 @@
   ],
   "quality": 3,
   "notes": "Overcast; a towel is in the foreground.",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACGFw",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 35/Video 2026-01-26, 3 34 44 PM.mov",
-  "folder": "brazil 2025",
-  "shot": "running to the sea with surfboard",
-  "activity": "surfing",
-  "who": "anton",
-  "action_quality": 4,
-  "description": "Anton runs across the sand toward the ocean carrying a surfboard.",
-  "tags": [
-   "surfboard",
-   "running",
-   "beach",
-   "ocean",
-   "sunny",
-   "blue sky",
-   "from behind"
-  ],
-  "location": "Brazil",
-  "orientation": "horizontal",
-  "duration": 3.77,
-  "usable": [
-   [
-    0,
-    3.8
-   ]
-  ],
-  "quality": 4,
-  "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -6259,6 +6933,8 @@
   ],
   "quality": 4,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -6289,6 +6965,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -6318,6 +6996,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -6348,6 +7028,8 @@
   ],
   "quality": 3,
   "notes": "The last 2 s point at the ground; a business sign is visible.",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -6379,6 +7061,8 @@
   ],
   "quality": 3,
   "notes": "surfer very small in frame",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -6410,6 +7094,8 @@
   ],
   "quality": 3,
   "notes": "surfer tiny; some reframing",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -6440,6 +7126,8 @@
   ],
   "quality": 3,
   "notes": "subject small",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -6470,6 +7158,8 @@
   ],
   "quality": 3,
   "notes": "subject small",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -6499,6 +7189,8 @@
   ],
   "quality": 2,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -6535,6 +7227,8 @@
   ],
   "quality": 3,
   "notes": "finger over lens around 22s; underwater floating shots are striking",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -6565,6 +7259,8 @@
   ],
   "quality": 4,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -6596,6 +7292,8 @@
   ],
   "quality": 4,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -6626,6 +7324,8 @@
   ],
   "quality": 4,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -6655,39 +7355,8 @@
   ],
   "quality": 4,
   "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAABAbg",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/montenegro/day 2/Video 2025-08-12, 10 38 23 AM.mov",
-  "folder": "montenegro",
-  "shot": "swimming in clear sea",
-  "activity": "swimming",
-  "who": "anton",
-  "action_quality": 4,
-  "description": "Shot from the rocks of Anton climbing down a metal ladder and swimming out into clear turquoise sea toward a small island, then back.",
-  "tags": [
-   "anton",
-   "swimming",
-   "sea",
-   "clear water",
-   "ladder",
-   "rocks",
-   "island",
-   "summer",
-   "morning swim"
-  ],
-  "location": "Montenegro",
-  "orientation": "vertical",
-  "duration": 30.47,
-  "usable": [
-   [
-    0.0,
-    30.47
-   ]
-  ],
-  "quality": 4,
-  "notes": "nice morning-swim sequence",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -6725,6 +7394,8 @@
   ],
   "quality": 3,
   "notes": "water drops on lens; underwater part nice",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -6756,6 +7427,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -6787,6 +7460,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -6818,6 +7493,8 @@
   ],
   "quality": 3,
   "notes": "murky water",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -6854,6 +7531,8 @@
   ],
   "quality": 3,
   "notes": "named 'hunting for oysters'; no LRF, 4K MP4",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -6887,36 +7566,8 @@
   ],
   "quality": 3,
   "notes": "Water drops on lens; handheld.",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACJ6w",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/March 6/Video 2026-03-06, 4 36 45 PM.mov",
-  "folder": "brazil 2025",
-  "shot": "running into the sea",
-  "activity": "swimming",
-  "who": "anton",
-  "action_quality": 3,
-  "description": "Anton runs down the beach into the surf on a sunny day.",
-  "tags": [
-   "running",
-   "beach",
-   "ocean",
-   "sunny",
-   "from behind",
-   "swimming"
-  ],
-  "location": "Florianópolis, Brazil",
-  "orientation": "vertical",
-  "duration": 13.77,
-  "usable": [
-   [
-    0,
-    9
-   ]
-  ],
-  "quality": 3,
-  "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -6947,6 +7598,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -6977,6 +7630,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -7007,6 +7662,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -7036,6 +7693,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -7065,6 +7724,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -7096,6 +7757,8 @@
   ],
   "quality": 2,
   "notes": "preview sideways; bubbly and chaotic",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -7128,6 +7791,8 @@
   ],
   "quality": 2,
   "notes": "tilted/sideways framing",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -7159,38 +7824,8 @@
   ],
   "quality": 2,
   "notes": "chaotic",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACTEA",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Spain 2026/June 19th/IMG_4156.MOV",
-  "folder": "Spain 2026",
-  "shot": "swimmer in clear rocky bay",
-  "activity": "swimming",
-  "who": "unclear",
-  "action_quality": 2,
-  "description": "Static vertical view over boulders to clear shallow sea with a swimmer near rocky islets.",
-  "tags": [
-   "sea",
-   "swimmer",
-   "rocks",
-   "clear water",
-   "bay",
-   "sunny",
-   "static",
-   "summer"
-  ],
-  "location": "Spain (Costa Brava, likely)",
-  "orientation": "vertical",
-  "duration": 5.28,
-  "usable": [
-   [
-    0,
-    5.9
-   ]
-  ],
-  "quality": 3,
-  "notes": "swimmer small",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -7221,6 +7856,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -7250,6 +7887,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -7279,6 +7918,8 @@
   ],
   "quality": 2,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -7308,35 +7949,8 @@
   ],
   "quality": 2,
   "notes": "WhatsApp low resolution",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAACADw",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 19/WhatsApp Video 2025-12-24 at 8.37.59 PM.mp4",
-  "folder": "brazil 2025",
-  "shot": "swimming at waterfall",
-  "activity": "swimming",
-  "who": "anton",
-  "action_quality": 2,
-  "description": "Anton climbs on rocks at the base of a waterfall then swims back across the pool.",
-  "tags": [
-   "waterfall",
-   "swimming",
-   "pool",
-   "jungle",
-   "brazil"
-  ],
-  "location": "Brazil",
-  "orientation": "vertical",
-  "duration": 19.99,
-  "usable": [
-   [
-    0,
-    19.99
-   ]
-  ],
-  "quality": 2,
-  "notes": "WhatsApp low resolution",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -7366,6 +7980,8 @@
   ],
   "quality": 2,
   "notes": "WhatsApp low resolution",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -7397,6 +8013,8 @@
   ],
   "quality": 2,
   "notes": "Bouncy, dim",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -7429,6 +8047,8 @@
   ],
   "quality": 4,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -7461,6 +8081,8 @@
   ],
   "quality": 4,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -7493,6 +8115,8 @@
   ],
   "quality": 4,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -7525,38 +8149,8 @@
   ],
   "quality": 4,
   "notes": "",
-  "used_in": []
- },
- {
-  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_2Q",
-  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/cotswold 2025/day 6/Video 2025-08-10, 1 38 16 PM.mov",
-  "folder": "cotswold 2025",
-  "shot": "walking out of river toward camera",
-  "activity": "wading",
-  "who": "anton",
-  "action_quality": 4,
-  "description": "Shirtless Anton wades back down the river under willows toward camera, pushing through branches and smiling.",
-  "tags": [
-   "anton",
-   "river",
-   "wading",
-   "willow",
-   "shirtless",
-   "nature",
-   "summer",
-   "smiling"
-  ],
-  "location": "Cotswolds, England",
-  "orientation": "vertical",
-  "duration": 13.2,
-  "usable": [
-   [
-    0,
-    13.2
-   ]
-  ],
-  "quality": 4,
-  "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -7590,6 +8184,8 @@
   ],
   "quality": 4,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -7621,6 +8217,8 @@
   ],
   "quality": 3,
   "notes": "short, subject small",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -7654,6 +8252,8 @@
   ],
   "quality": 3,
   "notes": "subject small",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -7684,6 +8284,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -7715,6 +8317,8 @@
   ],
   "quality": 3,
   "notes": "Close, cropped framing.",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  },
  {
@@ -7746,6 +8350,8 @@
   ],
   "quality": 3,
   "notes": "",
+  "used_count": 0,
+  "used_in_edits": [],
   "used_in": []
  }
 ]

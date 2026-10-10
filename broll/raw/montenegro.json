@@ -26,7 +26,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "filmed by someone else"
+  "notes": "filmed by someone else",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCyw",
@@ -55,7 +57,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCzw",
@@ -82,7 +86,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit"
+  "notes": "finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABC6A",
@@ -109,7 +115,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit"
+  "notes": "finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABC6Q",
@@ -138,7 +146,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit"
+  "notes": "finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCMQ",
@@ -167,7 +177,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCMw",
@@ -194,7 +206,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit"
+  "notes": "finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCWA",
@@ -224,7 +238,13 @@
    ]
   ],
   "quality": 3,
-  "notes": "shaky handheld, ends blurred"
+  "notes": "shaky handheld, ends blurred",
+  "used_count": 3,
+  "used_in_edits": [
+   "montenegro/day 18/finished/Aug31.mov",
+   "montenegro/day 24/finished/Sept 13.mov",
+   "londons/day 7/finished/sept23.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCVA",
@@ -253,7 +273,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCVg",
@@ -282,7 +304,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCVQ",
@@ -309,7 +333,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "short take"
+  "notes": "short take",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCVw",
@@ -336,7 +362,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCbg",
@@ -365,7 +393,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCaw",
@@ -396,7 +426,11 @@
    ]
   ],
   "quality": 4,
-  "notes": "pretty still-life"
+  "notes": "pretty still-life",
+  "used_count": 1,
+  "used_in_edits": [
+   "montenegro/day19/finished/sept2V2.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCcQ",
@@ -428,7 +462,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCcg",
@@ -460,7 +496,11 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "montenegro/day19/finished/sept2V1.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCcw",
@@ -491,7 +531,13 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 3,
+  "used_in_edits": [
+   "montenegro/day19/finished/sept2V1.mov",
+   "montenegro/day19/finished/sept2V2.mov",
+   "montenegro/day19/finished/sept2V3.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCbQ",
@@ -519,7 +565,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "short, camera swings at end"
+  "notes": "short, camera swings at end",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCbw",
@@ -547,7 +595,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "short"
+  "notes": "short",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCcA",
@@ -575,7 +625,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "short"
+  "notes": "short",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCag",
@@ -605,7 +657,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCbA",
@@ -635,7 +689,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCXA",
@@ -664,7 +720,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit"
+  "notes": "finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCXQ",
@@ -693,7 +751,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit"
+  "notes": "finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCXg",
@@ -721,7 +781,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit"
+  "notes": "finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAUA",
@@ -750,7 +812,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABATw",
@@ -779,7 +843,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "poles pass through frame"
+  "notes": "poles pass through frame",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABATg",
@@ -808,7 +874,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "blurry bush at 2-4s"
+  "notes": "blurry bush at 2-4s",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABATQ",
@@ -834,7 +902,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "boring, shaky"
+  "notes": "boring, shaky",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABATA",
@@ -862,7 +932,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "heads block the view"
+  "notes": "heads block the view",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABASQ",
@@ -889,7 +961,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "head blocks frame"
+  "notes": "head blocks frame",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABASw",
@@ -917,7 +991,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABASg",
@@ -943,7 +1019,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABASA",
@@ -971,7 +1049,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABARQ",
@@ -999,7 +1079,11 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "montenegro/day 1/finished/aug10.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABARg",
@@ -1026,7 +1110,11 @@
    ]
   ],
   "quality": 2,
-  "notes": "shaky start"
+  "notes": "shaky start",
+  "used_count": 1,
+  "used_in_edits": [
+   "montenegro/day 1/finished/aug10.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABARA",
@@ -1054,7 +1142,11 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "montenegro/day 1/finished/aug10.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAQg",
@@ -1082,7 +1174,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAPw",
@@ -1112,7 +1206,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAQw",
@@ -1140,7 +1236,11 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "montenegro/day 1/finished/aug10.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAPg",
@@ -1167,7 +1267,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "quick and shaky"
+  "notes": "quick and shaky",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAOw",
@@ -1195,7 +1297,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "short"
+  "notes": "short",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAPA",
@@ -1222,7 +1326,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "short"
+  "notes": "short",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAQA",
@@ -1250,7 +1356,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAQQ",
@@ -1278,7 +1386,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAMQ",
@@ -1307,7 +1417,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit"
+  "notes": "finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAMA",
@@ -1336,7 +1448,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit; exact duplicate of montenegro/day 1/finished/aug10.mov (same name/size)"
+  "notes": "finished edit; exact duplicate of montenegro/day 1/finished/aug10.mov (same name/size)",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAaQ",
@@ -1365,7 +1479,12 @@
    ]
   ],
   "quality": 3,
-  "notes": "cut mid-way to another angle"
+  "notes": "cut mid-way to another angle",
+  "used_count": 2,
+  "used_in_edits": [
+   "montenegro/day 2/finished/aug12.mov",
+   "montenegro/day 3/finished/aug13.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAZw",
@@ -1392,7 +1511,11 @@
    ]
   ],
   "quality": 2,
-  "notes": "cluttered framing"
+  "notes": "cluttered framing",
+  "used_count": 1,
+  "used_in_edits": [
+   "montenegro/day 3/finished/aug13.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAZg",
@@ -1420,7 +1543,11 @@
    ]
   ],
   "quality": 3,
-  "notes": "camera tips sideways after 3.5s"
+  "notes": "camera tips sideways after 3.5s",
+  "used_count": 1,
+  "used_in_edits": [
+   "montenegro/day 2/finished/aug12.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAYw",
@@ -1450,7 +1577,9 @@
    ]
   ],
   "quality": 4,
-  "notes": "short but pretty"
+  "notes": "short but pretty",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAZA",
@@ -1478,7 +1607,12 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 2,
+  "used_in_edits": [
+   "montenegro/day 2/finished/aug12.mov",
+   "montenegro/day 3/finished/aug13.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAbw",
@@ -1507,7 +1641,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "short; shadow on face"
+  "notes": "short; shadow on face",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAbA",
@@ -1535,7 +1671,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAbQ",
@@ -1564,7 +1702,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAaw",
@@ -1592,7 +1732,13 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 3,
+  "used_in_edits": [
+   "montenegro/day 2/finished/aug12.mov",
+   "montenegro/day 3/finished/aug13.mov",
+   "montenegro/day 5/finished/Aug14_1.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAbg",
@@ -1625,7 +1771,13 @@
   "notes": "nice morning-swim sequence",
   "activity": "swimming",
   "who": "anton",
-  "action_quality": 4
+  "action_quality": 4,
+  "used_count": 3,
+  "used_in_edits": [
+   "montenegro/day 20/finished/Sept3.mov",
+   "toronto fall 2026/day4/day 5/finished/Oct5V1.mov",
+   "toronto fall 2026/day4/day 5/finished/Oct5V2.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAdA",
@@ -1653,7 +1805,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAYg",
@@ -1677,7 +1831,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "0.87s, unusable"
+  "notes": "0.87s, unusable",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAcA",
@@ -1705,7 +1861,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAaA",
@@ -1734,7 +1892,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAZQ",
@@ -1763,7 +1923,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAVA",
@@ -1791,7 +1953,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit"
+  "notes": "finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAdw",
@@ -1819,7 +1983,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "camera wobbles around 55-75s"
+  "notes": "camera wobbles around 55-75s",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAiQ",
@@ -1844,7 +2010,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "too dark"
+  "notes": "too dark",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAdg",
@@ -1873,7 +2041,12 @@
    ]
   ],
   "quality": 3,
-  "notes": "short"
+  "notes": "short",
+  "used_count": 2,
+  "used_in_edits": [
+   "montenegro/day 3/finished/aug13.mov",
+   "brazil 2025/day 26 - dont let anybody spike your cortisol/finished/jan13.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAeg",
@@ -1901,7 +2074,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit"
+  "notes": "finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAiw",
@@ -1929,7 +2104,11 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "montenegro/day 5/finished/Aug14_1.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAjA",
@@ -1957,7 +2136,16 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 6,
+  "used_in_edits": [
+   "montenegro/day 3/finished/aug13.mov",
+   "montenegro/day 22/finished/Sept6.mov",
+   "montenegro/day 20/finished/Sept3.mov",
+   "toronto fall 2026/day 17/finished/oct24.mov",
+   "toronto fall 2026/day 21/finished/nov1.mov",
+   "brazil 2025/day 17/finished/Dec 22.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAkQ",
@@ -1986,7 +2174,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAjw",
@@ -2013,7 +2203,11 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "montenegro/day 5/finished/Aug14_1.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAjQ",
@@ -2041,7 +2235,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAkA",
@@ -2068,7 +2264,14 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 4,
+  "used_in_edits": [
+   "montenegro/day 5/finished/Aug14_1.mov",
+   "montenegro/day 6/Video 2025-08-11, 5 47 50 PM.mov",
+   "brazil 2025/day 30/finished/jan 19.mp4",
+   "Toronto 2026/May 4 Batch/finished/old people were right.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAgA",
@@ -2091,7 +2294,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "no video stream, could not be read; duration unknown"
+  "notes": "no video stream, could not be read; duration unknown",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAgQ",
@@ -2119,7 +2324,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit"
+  "notes": "finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABApw",
@@ -2147,7 +2354,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit with raw-style filename"
+  "notes": "finished edit with raw-style filename",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAtQ",
@@ -2176,7 +2385,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAtA",
@@ -2205,7 +2416,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAtw",
@@ -2234,7 +2447,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAtg",
@@ -2263,7 +2478,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "messy table"
+  "notes": "messy table",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAqA",
@@ -2291,7 +2508,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit with raw-style filename; exact duplicate of montenegro/day 6/Video 2025-08-11, 5 47 50 PM.mov (same name/size)"
+  "notes": "finished edit with raw-style filename; exact duplicate of montenegro/day 6/Video 2025-08-11, 5 47 50 PM.mov (same name/size)",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAyw",
@@ -2319,7 +2538,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAyQ",
@@ -2347,7 +2568,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAyg",
@@ -2375,7 +2598,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAuA",
@@ -2402,7 +2627,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "processed export (audiofix), not raw camera file"
+  "notes": "processed export (audiofix), not raw camera file",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAvA",
@@ -2429,7 +2656,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit"
+  "notes": "finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAug",
@@ -2455,7 +2684,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit, mp4 copy of Aug17.mov"
+  "notes": "finished edit, mp4 copy of Aug17.mov",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAuw",
@@ -2482,7 +2713,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit; exact duplicate of montenegro/day 7/finished/Aug17.mov (same name/size)"
+  "notes": "finished edit; exact duplicate of montenegro/day 7/finished/Aug17.mov (same name/size)",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAzg",
@@ -2512,7 +2745,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAzQ",
@@ -2541,7 +2776,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABA1Q",
@@ -2570,7 +2807,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABA1A",
@@ -2599,7 +2838,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABA1w",
@@ -2631,7 +2872,12 @@
    ]
   ],
   "quality": 4,
-  "notes": "lovely sunset moment"
+  "notes": "lovely sunset moment",
+  "used_count": 2,
+  "used_in_edits": [
+   "montenegro/day 8/finished/Aug18.mov",
+   "montenegro/day 18/finished/Aug29_1.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABA0g",
@@ -2660,7 +2906,11 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "montenegro/day 8/finished/Aug18.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABA0Q",
@@ -2688,7 +2938,9 @@
    ]
   ],
   "quality": 4,
-  "notes": "short"
+  "notes": "short",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABA0A",
@@ -2717,7 +2969,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAzw",
@@ -2745,7 +2999,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABA0w",
@@ -2773,7 +3029,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAvw",
@@ -2801,7 +3059,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit"
+  "notes": "finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABA5w",
@@ -2830,7 +3090,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABA3w",
@@ -2860,7 +3122,11 @@
    ]
   ],
   "quality": 3,
-  "notes": "very short"
+  "notes": "very short",
+  "used_count": 1,
+  "used_in_edits": [
+   "montenegro/day 9/finished/Aug19.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABA3g",
@@ -2885,7 +3151,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "about 0.2s, unusable; video could only be partly decoded"
+  "notes": "about 0.2s, unusable; video could only be partly decoded",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABA5A",
@@ -2915,7 +3183,24 @@
    ]
   ],
   "quality": 4,
-  "notes": "good drinking b-roll"
+  "notes": "good drinking b-roll",
+  "used_count": 14,
+  "used_in_edits": [
+   "montenegro/day 10/finished/Aug20.mov",
+   "montenegro/day 9/finished/Aug19.mov",
+   "montenegro/day 16/finished/Aug26.mov",
+   "montenegro/Day 21/finished/sept5_1.mov",
+   "montenegro/day19/finished/sept2V2.mov",
+   "montenegro/day19/finished/sept2V3.mov",
+   "montenegro/day 20/finished/Sept3.mov",
+   "londons/day 7/finished/sept23.mov",
+   "brazil 2025/day 17/finished/Dec 22.mov",
+   "brazil 2025/day 26 - dont let anybody spike your cortisol/finished/jan13.mp4",
+   "brazil 2025/day 37/finished/Feb 2.mp4",
+   "Toronto 2026/April 21/finished/APRIL 21.mp4",
+   "Toronto 2026/May 4 Batch/finished/getting reach-.mp4",
+   "Toronto 2026/Victoria Day/finished/lake ontario-.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABA3Q",
@@ -2945,7 +3230,11 @@
    ]
   ],
   "quality": 4,
-  "notes": "vivid colours"
+  "notes": "vivid colours",
+  "used_count": 1,
+  "used_in_edits": [
+   "montenegro/day 9/finished/Aug19.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABA4Q",
@@ -2974,7 +3263,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABA2Q",
@@ -3002,7 +3293,11 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "montenegro/day 9/finished/Aug19.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABA2w",
@@ -3030,7 +3325,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABA2g",
@@ -3058,7 +3355,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABA5g",
@@ -3082,7 +3381,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "nothing in frame"
+  "notes": "nothing in frame",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABA5Q",
@@ -3110,7 +3411,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABA4w",
@@ -3139,7 +3442,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "some movement"
+  "notes": "some movement",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABA4g",
@@ -3168,7 +3473,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABA4A",
@@ -3199,7 +3506,12 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 2,
+  "used_in_edits": [
+   "toronto fall 2026/day4/day 5/finished/Oct5V1.mov",
+   "toronto fall 2026/day4/day 5/finished/Oct5V2.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAxg",
@@ -3226,7 +3538,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit"
+  "notes": "finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABA_A",
@@ -3254,7 +3568,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABA_Q",
@@ -3282,7 +3598,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABA-w",
@@ -3309,7 +3627,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABA_g",
@@ -3336,7 +3656,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABA-g",
@@ -3363,7 +3685,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABA-Q",
@@ -3390,7 +3714,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABA_w",
@@ -3418,7 +3744,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBAA",
@@ -3445,7 +3773,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABA9g",
@@ -3473,7 +3803,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit"
+  "notes": "finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBHw",
@@ -3501,7 +3833,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "edit with raw-style filename; may not be Anton's own footage"
+  "notes": "edit with raw-style filename; may not be Anton's own footage",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBFQ",
@@ -3529,7 +3863,11 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "montenegro/day 11/finished/Aug21.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBEg",
@@ -3557,7 +3895,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBFA",
@@ -3586,7 +3926,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBEw",
@@ -3615,7 +3957,11 @@
    ]
   ],
   "quality": 2,
-  "notes": "handheld, framing wanders"
+  "notes": "handheld, framing wanders",
+  "used_count": 1,
+  "used_in_edits": [
+   "montenegro/day 11/finished/Aug21.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBHA",
@@ -3644,7 +3990,11 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "montenegro/day 11/finished/Aug21.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBGw",
@@ -3672,7 +4022,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBHQ",
@@ -3701,7 +4053,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBGg",
@@ -3729,7 +4083,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBGA",
@@ -3758,7 +4114,11 @@
    ]
   ],
   "quality": 2,
-  "notes": "subject small"
+  "notes": "subject small",
+  "used_count": 1,
+  "used_in_edits": [
+   "montenegro/day 11/finished/Aug21.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBFg",
@@ -3786,7 +4146,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "camera falls at the end"
+  "notes": "camera falls at the end",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBHg",
@@ -3815,7 +4177,9 @@
    ]
   ],
   "quality": 4,
-  "notes": "nice process shot"
+  "notes": "nice process shot",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBGQ",
@@ -3844,7 +4208,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBFw",
@@ -3873,7 +4239,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "handheld; body blocks frame at end"
+  "notes": "handheld; body blocks frame at end",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBAw",
@@ -3901,7 +4269,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit"
+  "notes": "finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBDQ",
@@ -3931,7 +4301,9 @@
    ]
   ],
   "quality": 4,
-  "notes": "scenic"
+  "notes": "scenic",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBDA",
@@ -3958,7 +4330,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBKQ",
@@ -3988,7 +4362,9 @@
    ]
   ],
   "quality": 4,
-  "notes": "scenic"
+  "notes": "scenic",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBLA",
@@ -4017,7 +4393,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABArg",
@@ -4046,7 +4424,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAsQ",
@@ -4075,7 +4455,11 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "montenegro/day 12/finished/Aug12.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBEA",
@@ -4103,7 +4487,11 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "montenegro/day 12/finished/Aug12.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBCw",
@@ -4132,7 +4520,9 @@
    ]
   ],
   "quality": 4,
-  "notes": "scenic"
+  "notes": "scenic",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAsA",
@@ -4159,7 +4549,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBKw",
@@ -4188,7 +4580,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "short"
+  "notes": "short",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABAsg",
@@ -4216,7 +4610,11 @@
    ]
   ],
   "quality": 3,
-  "notes": "short"
+  "notes": "short",
+  "used_count": 1,
+  "used_in_edits": [
+   "montenegro/day 12/finished/Aug12.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABArA",
@@ -4245,7 +4643,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBDw",
@@ -4274,7 +4674,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBKg",
@@ -4302,7 +4704,13 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 3,
+  "used_in_edits": [
+   "montenegro/day 12/finished/Aug12.mov",
+   "montenegro/day 18/finished/Aug31.mov",
+   "montenegro/day 24/finished/Sept 13.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBDg",
@@ -4330,7 +4738,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABArw",
@@ -4359,7 +4769,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABArQ",
@@ -4389,7 +4801,9 @@
    ]
   ],
   "quality": 4,
-  "notes": "scenic"
+  "notes": "scenic",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBLg",
@@ -4417,7 +4831,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit"
+  "notes": "finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBXw",
@@ -4445,7 +4861,14 @@
    ]
   ],
   "quality": 4,
-  "notes": "good work-life b-roll"
+  "notes": "good work-life b-roll",
+  "used_count": 4,
+  "used_in_edits": [
+   "montenegro/day 18/finished/Aug29_1.mov",
+   "montenegro/day19/finished/sept2V2.mov",
+   "montenegro/day19/finished/sept2V3.mov",
+   "toronto fall 2026/day 2/finished/Oct 1.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBYQ",
@@ -4476,7 +4899,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "camera drop mid-clip"
+  "notes": "camera drop mid-clip",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBXg",
@@ -4504,7 +4929,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "dark"
+  "notes": "dark",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBXQ",
@@ -4531,7 +4958,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBWw",
@@ -4558,7 +4987,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "blurry ending"
+  "notes": "blurry ending",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBWg",
@@ -4587,7 +5018,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBWQ",
@@ -4614,7 +5047,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBVw",
@@ -4637,7 +5072,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "unusable"
+  "notes": "unusable",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBXA",
@@ -4664,7 +5101,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBVg",
@@ -4691,7 +5130,11 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "montenegro/day 13/finished/Ayg23.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBVQ",
@@ -4719,7 +5162,11 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "montenegro/day 13/finished/Ayg23.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBVA",
@@ -4746,7 +5193,11 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "montenegro/day 13/finished/Ayg23.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBUQ",
@@ -4773,7 +5224,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBUw",
@@ -4801,7 +5254,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "camera drops at end"
+  "notes": "camera drops at end",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBYA",
@@ -4830,7 +5285,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBWA",
@@ -4858,7 +5315,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBYg",
@@ -4887,7 +5346,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBUg",
@@ -4916,7 +5377,11 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "montenegro/day 13/finished/Ayg23.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBYw",
@@ -4943,7 +5408,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "dark and shaky start"
+  "notes": "dark and shaky start",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBQg",
@@ -4971,7 +5438,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit"
+  "notes": "finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBcw",
@@ -4999,7 +5468,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit stored outside finished folder"
+  "notes": "finished edit stored outside finished folder",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBZQ",
@@ -5028,7 +5499,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBig",
@@ -5056,7 +5529,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "some wobbly moments"
+  "notes": "some wobbly moments",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBiA",
@@ -5083,7 +5558,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBiQ",
@@ -5110,7 +5587,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBeA",
@@ -5138,7 +5617,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit"
+  "notes": "finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBkg",
@@ -5168,7 +5649,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBkw",
@@ -5192,7 +5675,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "unusable"
+  "notes": "unusable",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBlA",
@@ -5220,7 +5705,13 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 3,
+  "used_in_edits": [
+   "montenegro/day 16/finished/Aug26.mov",
+   "montenegro/day19/finished/sept2V2.mov",
+   "montenegro/day19/finished/sept2V3.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBkQ",
@@ -5248,7 +5739,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBjw",
@@ -5276,7 +5769,11 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "montenegro/day 24/finished/Sept 13.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBkA",
@@ -5303,7 +5800,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBjg",
@@ -5331,7 +5830,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBjA",
@@ -5359,7 +5860,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBjQ",
@@ -5387,7 +5890,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABBfA",
@@ -5415,7 +5920,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit"
+  "notes": "finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCUg",
@@ -5439,7 +5946,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "unusable; exact duplicate of montenegro/day 16/Video 2025-08-26, 1 31 58 PM.mov (same name/size)"
+  "notes": "unusable; exact duplicate of montenegro/day 16/Video 2025-08-26, 1 31 58 PM.mov (same name/size)",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCUA",
@@ -5467,7 +5976,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "exact duplicate of montenegro/day 16/Video 2025-08-26, 1 32 06 PM.mov (same name/size)"
+  "notes": "exact duplicate of montenegro/day 16/Video 2025-08-26, 1 32 06 PM.mov (same name/size)",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCUQ",
@@ -5495,7 +6006,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "exact duplicate of montenegro/day 16/Video 2025-08-26, 1 45 08 PM.mov (same name/size)"
+  "notes": "exact duplicate of montenegro/day 16/Video 2025-08-26, 1 45 08 PM.mov (same name/size)",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCTg",
@@ -5523,7 +6036,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "exact duplicate of montenegro/day 16/Video 2025-08-26, 3 26 17 PM.mov (same name/size)"
+  "notes": "exact duplicate of montenegro/day 16/Video 2025-08-26, 3 26 17 PM.mov (same name/size)",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCTw",
@@ -5550,7 +6065,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "exact duplicate of montenegro/day 16/Video 2025-08-26, 4 43 23 PM.mov (same name/size)"
+  "notes": "exact duplicate of montenegro/day 16/Video 2025-08-26, 4 43 23 PM.mov (same name/size)",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCSg",
@@ -5578,7 +6095,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "exact duplicate of montenegro/day 16/Video 2025-08-26, 4 43 27 PM.mov (same name/size)"
+  "notes": "exact duplicate of montenegro/day 16/Video 2025-08-26, 4 43 27 PM.mov (same name/size)",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCTQ",
@@ -5608,7 +6127,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCSQ",
@@ -5638,7 +6159,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCRQ",
@@ -5668,7 +6191,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCSA",
@@ -5698,7 +6223,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCRg",
@@ -5728,7 +6255,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCRw",
@@ -5758,7 +6287,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCQw",
@@ -5787,7 +6318,11 @@
    ]
   ],
   "quality": 3,
-  "notes": "handheld, cluttered foreground"
+  "notes": "handheld, cluttered foreground",
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto 2026/May 4 Batch/finished/getting reach-.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCRA",
@@ -5816,7 +6351,12 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 2,
+  "used_in_edits": [
+   "montenegro/day 18/finished/Aug31.mov",
+   "toronto fall 2026/day 6/finished/Oct6.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCSw",
@@ -5841,7 +6381,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "too dark to use"
+  "notes": "too dark to use",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCNw",
@@ -5869,7 +6411,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit"
+  "notes": "finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCOA",
@@ -5897,7 +6441,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit"
+  "notes": "finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCPA",
@@ -5925,7 +6471,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit"
+  "notes": "finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCdQ",
@@ -5954,7 +6502,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABCZw",
@@ -5982,7 +6532,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit"
+  "notes": "finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABDBQ",
@@ -6014,7 +6566,11 @@
   "notes": "older 2024 Pixel footage, probably not Montenegro",
   "activity": "rope swing",
   "who": "friends",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 1,
+  "used_in_edits": [
+   "montenegro/day 22/finished/Sept6.mov"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABDBA",
@@ -6042,7 +6598,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "older 2024 Pixel footage, probably not Montenegro"
+  "notes": "older 2024 Pixel footage, probably not Montenegro",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABDAw",
@@ -6069,7 +6627,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABC-w",
@@ -6096,7 +6656,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit"
+  "notes": "finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABDBw",
@@ -6125,7 +6687,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "very short"
+  "notes": "very short",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABDCQ",
@@ -6152,7 +6716,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABDGQ",
@@ -6182,7 +6748,9 @@
    ]
   ],
   "quality": 4,
-  "notes": "long take, strong scene"
+  "notes": "long take, strong scene",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABDDw",
@@ -6212,7 +6780,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABDCw",
@@ -6240,7 +6810,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABDCg",
@@ -6270,7 +6842,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABDDg",
@@ -6299,7 +6873,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "second half framing drifts"
+  "notes": "second half framing drifts",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABDDQ",
@@ -6328,7 +6904,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABDEA",
@@ -6357,7 +6935,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABDFQ",
@@ -6386,7 +6966,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABDDA",
@@ -6409,7 +6991,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "0.8s"
+  "notes": "0.8s",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABDEQ",
@@ -6438,7 +7022,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABDEg",
@@ -6467,7 +7053,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABDFA",
@@ -6496,7 +7084,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABDFg",
@@ -6525,7 +7115,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABDGA",
@@ -6554,7 +7146,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABDEw",
@@ -6582,7 +7176,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABDFw",
@@ -6610,7 +7206,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABDng",
@@ -6637,7 +7235,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit"
+  "notes": "finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABDsA",
@@ -6666,7 +7266,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABDsw",
@@ -6695,7 +7297,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABDrw",
@@ -6724,7 +7328,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABDsQ",
@@ -6753,7 +7359,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABDsg",
@@ -6782,7 +7390,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABD6w",
@@ -6810,7 +7420,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit; footage looks like it is from elsewhere (London-style restaurants)"
+  "notes": "finished edit; footage looks like it is from elsewhere (London-style restaurants)",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAABDoQ",
@@ -6837,6 +7449,8 @@
    ]
   ],
   "quality": 2,
-  "notes": "finished edit"
+  "notes": "finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  }
 ]

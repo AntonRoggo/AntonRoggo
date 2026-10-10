@@ -24,7 +24,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACXUA",
@@ -50,7 +52,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit, alternate version."
+  "notes": "Finished edit, alternate version.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACXTg",
@@ -78,7 +82,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Raw take for AUG 16 edits."
+  "notes": "Raw take for AUG 16 edits.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACWxw",
@@ -107,7 +113,11 @@
    ]
   ],
   "quality": 3,
-  "notes": "Last second is a close selfie."
+  "notes": "Last second is a close selfie.",
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto summer 2026/briny collab/briny collab.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACWyQ",
@@ -134,7 +144,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "LRF preview plays rotated 90 degrees (orientation recorded as vertical); check the MP4."
+  "notes": "LRF preview plays rotated 90 degrees (orientation recorded as vertical); check the MP4.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACWyw",
@@ -162,7 +174,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "LRF preview plays rotated 90 degrees (orientation recorded as vertical); check the MP4."
+  "notes": "LRF preview plays rotated 90 degrees (orientation recorded as vertical); check the MP4.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACWzQ",
@@ -193,7 +207,11 @@
   "notes": "LRF preview plays rotated 90 degrees (orientation recorded as vertical); check the MP4.",
   "activity": "shucking oysters",
   "who": "anton",
-  "action_quality": 2
+  "action_quality": 2,
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto summer 2026/briny collab/briny collab.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACWzw",
@@ -225,7 +243,9 @@
   "notes": "First seconds Anton selfie.",
   "activity": "shucking oysters",
   "who": "friends",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACW2A",
@@ -256,7 +276,9 @@
   "notes": "",
   "activity": "shucking oysters",
   "who": "friends",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACW2g",
@@ -287,7 +309,9 @@
   "notes": "Head blocks frame at times.",
   "activity": "shucking oysters",
   "who": "friends",
-  "action_quality": 2
+  "action_quality": 2,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACW3A",
@@ -319,7 +343,9 @@
   "notes": "Mix of talking and hands; close hands section ~30-60s.",
   "activity": "shucking oysters",
   "who": "anton",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACW6A",
@@ -346,7 +372,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACW6g",
@@ -373,7 +401,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit (brand collab)."
+  "notes": "Finished edit (brand collab).",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACWmg",
@@ -401,7 +431,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Raw take for july 25 edit."
+  "notes": "Raw take for july 25 edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACWnQ",
@@ -428,7 +460,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACWpQ",
@@ -455,7 +489,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Byte-identical duplicate of Toronto summer 2026/finished/july 25 video.mp4. Finished edit."
+  "notes": "Byte-identical duplicate of Toronto summer 2026/finished/july 25 video.mp4. Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACWnA",
@@ -482,7 +518,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Near-identical to 'july 25 video.mp4' (different file)."
+  "notes": "Near-identical to 'july 25 video.mp4' (different file).",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACX5g",
@@ -512,7 +550,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Raw take for 'sept 14' edit."
+  "notes": "Raw take for 'sept 14' edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACX6A",
@@ -539,7 +579,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACYCQ",
@@ -568,7 +610,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking take."
+  "notes": "Talking take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACYCw",
@@ -596,7 +640,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking take."
+  "notes": "Talking take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACYDQ",
@@ -625,7 +671,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Handheld walk; grill at end."
+  "notes": "Handheld walk; grill at end.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACYDw",
@@ -654,7 +702,11 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto summer 2026/Sept 19/finished/sept19.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACYGA",
@@ -683,7 +735,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Wide-angle distortion in close-up."
+  "notes": "Wide-angle distortion in close-up.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACYGg",
@@ -711,7 +765,11 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto summer 2026/Sept 19/finished/sept19.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACYHA",
@@ -735,7 +793,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "Unusable."
+  "notes": "Unusable.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACYHw",
@@ -763,7 +823,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Ends with selfie/ground."
+  "notes": "Ends with selfie/ground.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACYIA",
@@ -792,7 +854,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Short, handheld."
+  "notes": "Short, handheld.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACYIg",
@@ -820,7 +884,11 @@
    ]
   ],
   "quality": 2,
-  "notes": "Dark, subject small."
+  "notes": "Dark, subject small.",
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto summer 2026/Sept 19/finished/sept19.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACYJA",
@@ -845,7 +913,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "Rotated sideways, dark."
+  "notes": "Rotated sideways, dark.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACYJg",
@@ -871,7 +941,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Very dark, noisy."
+  "notes": "Very dark, noisy.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACYKA",
@@ -898,7 +970,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACYOg",
@@ -925,7 +999,11 @@
    ]
   ],
   "quality": 2,
-  "notes": "Short."
+  "notes": "Short.",
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto summer 2026/sept 20/finished/sept20.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACYPA",
@@ -952,7 +1030,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "LRF preview plays rotated 90 degrees (orientation recorded as vertical); check the MP4."
+  "notes": "LRF preview plays rotated 90 degrees (orientation recorded as vertical); check the MP4.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACYPg",
@@ -981,7 +1061,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking take while biking."
+  "notes": "Talking take while biking.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACYQA",
@@ -1010,7 +1092,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking take while biking."
+  "notes": "Talking take while biking.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACYSQ",
@@ -1043,7 +1127,9 @@
   "notes": "",
   "activity": "biking",
   "who": "anton",
-  "action_quality": 4
+  "action_quality": 4,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACYSw",
@@ -1072,7 +1158,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking take while biking."
+  "notes": "Talking take while biking.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACYTQ",
@@ -1101,7 +1189,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking take while biking."
+  "notes": "Talking take while biking.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACYTw",
@@ -1130,7 +1220,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Raw take for sept20 edit."
+  "notes": "Raw take for sept20 edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACYUQ",
@@ -1162,7 +1254,9 @@
   "notes": "Dark and motion blur; vibey.",
   "activity": "biking",
   "who": "anton",
-  "action_quality": 2
+  "action_quality": 2,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACYUw",
@@ -1190,7 +1284,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACYWw",
@@ -1219,7 +1315,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking take; rock pan at ~29s usable as B-roll."
+  "notes": "Talking take; rock pan at ~29s usable as B-roll.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACYXQ",
@@ -1245,6 +1343,8 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  }
 ]

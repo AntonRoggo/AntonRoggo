@@ -27,7 +27,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "LRF preview has no rotation flag, frames appear sideways; content is vertical"
+  "notes": "LRF preview has no rotation flag, frames appear sideways; content is vertical",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACSwA",
@@ -56,7 +58,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "content vertical (preview sideways); subject leaves frame around 28s"
+  "notes": "content vertical (preview sideways); subject leaves frame around 28s",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACSwg",
@@ -85,7 +89,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACSxA",
@@ -114,7 +120,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACSxg",
@@ -143,7 +151,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUFQ",
@@ -171,7 +181,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "unflattering low angle, long ramble"
+  "notes": "unflattering low angle, long ramble",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUGQ",
@@ -198,7 +210,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "frames appear rotated; camera position changes mid-clip"
+  "notes": "frames appear rotated; camera position changes mid-clip",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUGw",
@@ -227,7 +241,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "walking selfie, wide-angle; Cyrillic-era apartment blocks"
+  "notes": "walking selfie, wide-angle; Cyrillic-era apartment blocks",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUJA",
@@ -257,7 +273,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "mostly selfie talk; berry stall shot around 44s usable as b-roll; shaky"
+  "notes": "mostly selfie talk; berry stall shot around 44s usable as b-roll; shaky",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUJg",
@@ -286,7 +304,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "wide view of pull-ups at end is the usable bit"
+  "notes": "wide view of pull-ups at end is the usable bit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUKA",
@@ -319,7 +339,9 @@
   "notes": "static tripod; subject small and back to camera at times",
   "activity": "calisthenics",
   "who": "anton",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUKg",
@@ -352,7 +374,9 @@
   "notes": "static wide; ends with Anton walking into camera",
   "activity": "calisthenics",
   "who": "anton",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACULA",
@@ -384,7 +408,9 @@
   "notes": "camera being set up at start; subject small",
   "activity": "calisthenics",
   "who": "anton",
-  "action_quality": 2
+  "action_quality": 2,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACULg",
@@ -416,7 +442,9 @@
   "notes": "subject small in frame, dappled shade",
   "activity": "calisthenics",
   "who": "anton",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUMA",
@@ -448,7 +476,9 @@
   "notes": "static wide shot",
   "activity": "calisthenics",
   "who": "anton",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUMg",
@@ -469,7 +499,9 @@
   "duration": 25.0,
   "usable": [],
   "quality": 1,
-  "notes": "accidental recording"
+  "notes": "accidental recording",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUNA",
@@ -497,7 +529,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "behind-the-scenes; Serbian wedding prep"
+  "notes": "behind-the-scenes; Serbian wedding prep",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUNg",
@@ -526,7 +560,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "shaky, tilting; frames rotated"
+  "notes": "shaky, tilting; frames rotated",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUOA",
@@ -556,7 +592,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "handheld, people's backs block shot"
+  "notes": "handheld, people's backs block shot",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUOg",
@@ -584,7 +622,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "shaky, heads block frame"
+  "notes": "shaky, heads block frame",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUPA",
@@ -613,7 +653,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "camera tilts sideways after ~19s"
+  "notes": "camera tilts sideways after ~19s",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUPg",
@@ -642,7 +684,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUQA",
@@ -669,7 +713,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "frames sideways in preview"
+  "notes": "frames sideways in preview",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUQg",
@@ -702,7 +748,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "balcony view at start and ~30s is nice b-roll"
+  "notes": "balcony view at start and ~30s is nice b-roll",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACURA",
@@ -723,7 +771,9 @@
   "duration": 4.29,
   "usable": [],
   "quality": 1,
-  "notes": "crooked framing, 4s"
+  "notes": "crooked framing, 4s",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACURg",
@@ -751,7 +801,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "frames sideways in preview; start blocked by finger"
+  "notes": "frames sideways in preview; start blocked by finger",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUSA",
@@ -771,7 +823,9 @@
   "duration": 5.76,
   "usable": [],
   "quality": 1,
-  "notes": "upside down in preview"
+  "notes": "upside down in preview",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUSg",
@@ -800,7 +854,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "opening pool shots (0-20s) usable as b-roll; rest is selfie talk"
+  "notes": "opening pool shots (0-20s) usable as b-roll; rest is selfie talk",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUTA",
@@ -829,7 +885,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "4s, swinging camera"
+  "notes": "4s, swinging camera",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUTg",
@@ -850,7 +908,9 @@
   "duration": 2.15,
   "usable": [],
   "quality": 1,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUUA",
@@ -880,7 +940,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "first 6s is beautiful cove b-roll; rest selfie talk"
+  "notes": "first 6s is beautiful cove b-roll; rest selfie talk",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUUg",
@@ -909,7 +971,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUVA",
@@ -936,7 +1000,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "preview upside down (MP4 rotation flag); shaky"
+  "notes": "preview upside down (MP4 rotation flag); shaky",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUVg",
@@ -966,7 +1032,9 @@
    ]
   ],
   "quality": 4,
-  "notes": "preview appears upside down (rotation flag)"
+  "notes": "preview appears upside down (rotation flag)",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUWA",
@@ -995,7 +1063,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Anton's face briefly in frame early; handheld"
+  "notes": "Anton's face briefly in frame early; handheld",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUWg",
@@ -1023,7 +1093,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "preview frames sideways"
+  "notes": "preview frames sideways",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUXA",
@@ -1052,7 +1124,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "slight wobble"
+  "notes": "slight wobble",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUXg",
@@ -1082,7 +1156,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "cove reveal around 16s usable"
+  "notes": "cove reveal around 16s usable",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUYA",
@@ -1119,7 +1195,9 @@
   "notes": "water drops on lens; underwater part nice",
   "activity": "swimming",
   "who": "anton",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUYg",
@@ -1148,7 +1226,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "water drops on lens"
+  "notes": "water drops on lens",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUZA",
@@ -1177,7 +1257,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUZg",
@@ -1200,7 +1282,9 @@
   "duration": 4.14,
   "usable": [],
   "quality": 1,
-  "notes": "4s, sun flare"
+  "notes": "4s, sun flare",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUaA",
@@ -1229,7 +1313,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUag",
@@ -1259,7 +1345,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "underwater selfie at end is the nicest part; activity footage at 58-67s (swimming underwater)"
+  "notes": "underwater selfie at end is the nicest part; activity footage at 58-67s (swimming underwater)",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUbA",
@@ -1288,7 +1376,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUbg",
@@ -1318,7 +1408,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "LRF preview has no rotation flag, frames appear sideways; content is vertical; exact duplicate (same name and size) of DJI_20260617145247_0253_D.MP4"
+  "notes": "LRF preview has no rotation flag, frames appear sideways; content is vertical; exact duplicate (same name and size) of DJI_20260617145247_0253_D.MP4",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUcA",
@@ -1347,7 +1439,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "content vertical (preview sideways); subject leaves frame around 28s; exact duplicate (same name and size) of DJI_20260617145400_0254_D.MP4"
+  "notes": "content vertical (preview sideways); subject leaves frame around 28s; exact duplicate (same name and size) of DJI_20260617145400_0254_D.MP4",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUcg",
@@ -1376,7 +1470,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "exact duplicate (same name and size) of DJI_20260617145506_0255_D.MP4"
+  "notes": "exact duplicate (same name and size) of DJI_20260617145506_0255_D.MP4",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUdA",
@@ -1405,7 +1501,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "exact duplicate (same name and size) of DJI_20260617145544_0256_D.MP4"
+  "notes": "exact duplicate (same name and size) of DJI_20260617145544_0256_D.MP4",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUdg",
@@ -1434,7 +1532,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "exact duplicate (same name and size) of DJI_20260617145622_0257_D.MP4"
+  "notes": "exact duplicate (same name and size) of DJI_20260617145622_0257_D.MP4",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUew",
@@ -1465,7 +1565,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUfQ",
@@ -1495,7 +1597,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "person walks into frame at end"
+  "notes": "person walks into frame at end",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUfw",
@@ -1525,7 +1629,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUgQ",
@@ -1554,7 +1660,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "camera repositioned several times; ending promenade view usable"
+  "notes": "camera repositioned several times; ending promenade view usable",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUgw",
@@ -1583,7 +1691,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUhQ",
@@ -1610,7 +1720,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUhw",
@@ -1639,7 +1751,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "wide-angle handheld"
+  "notes": "wide-angle handheld",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUiQ",
@@ -1668,7 +1782,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUiw",
@@ -1698,7 +1814,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUjQ",
@@ -1726,7 +1844,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "preview sideways; content vertical"
+  "notes": "preview sideways; content vertical",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUjw",
@@ -1755,7 +1875,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "preview rotated sideways; content vertical"
+  "notes": "preview rotated sideways; content vertical",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUkQ",
@@ -1783,7 +1905,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "preview sideways"
+  "notes": "preview sideways",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUkw",
@@ -1812,7 +1936,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "close finger in frame at start"
+  "notes": "close finger in frame at start",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUlQ",
@@ -1841,7 +1967,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUlw",
@@ -1870,7 +1998,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "preview sideways; content vertical"
+  "notes": "preview sideways; content vertical",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUmQ",
@@ -1899,7 +2029,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUmw",
@@ -1936,7 +2068,9 @@
   "notes": "preview sideways; underwater rocky reef at ~62s is nice",
   "activity": "snorkelling",
   "who": "anton",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUnQ",
@@ -1967,7 +2101,9 @@
   "notes": "preview sideways; bubbly and chaotic",
   "activity": "swimming",
   "who": "anton",
-  "action_quality": 2
+  "action_quality": 2,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUnw",
@@ -1996,7 +2132,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "subject small; set-up at start"
+  "notes": "subject small; set-up at start",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUoQ",
@@ -2024,7 +2162,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUow",
@@ -2057,7 +2197,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "wave shots usable as b-roll"
+  "notes": "wave shots usable as b-roll",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUpQ",
@@ -2093,7 +2235,9 @@
   "notes": "finger over lens around 22s; underwater floating shots are striking",
   "activity": "swimming",
   "who": "anton",
-  "action_quality": 4
+  "action_quality": 4,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUpw",
@@ -2122,7 +2266,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "table top shot at ~17s usable"
+  "notes": "table top shot at ~17s usable",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUqQ",
@@ -2151,7 +2297,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "knees in foreground"
+  "notes": "knees in foreground",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUqw",
@@ -2177,7 +2325,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "preview sideways; dull"
+  "notes": "preview sideways; dull",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUrQ",
@@ -2206,7 +2356,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUrw",
@@ -2234,7 +2386,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUsQ",
@@ -2263,7 +2417,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "empty platform shot at ~27s usable"
+  "notes": "empty platform shot at ~27s usable",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUsw",
@@ -2292,7 +2448,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUtA",
@@ -2312,7 +2470,9 @@
   "duration": 5.01,
   "usable": [],
   "quality": 1,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUtg",
@@ -2341,7 +2501,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "long ramble, sun flares"
+  "notes": "long ramble, sun flares",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUuA",
@@ -2370,7 +2532,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUug",
@@ -2399,7 +2563,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "sun flare"
+  "notes": "sun flare",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUvA",
@@ -2427,7 +2593,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "preview sideways, tilted"
+  "notes": "preview sideways, tilted",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUvg",
@@ -2453,7 +2621,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "camera set-up at start, low angle"
+  "notes": "camera set-up at start, low angle",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUwA",
@@ -2486,7 +2656,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "sun-over-sea shots usable"
+  "notes": "sun-over-sea shots usable",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUwg",
@@ -2515,7 +2687,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUxA",
@@ -2536,7 +2710,9 @@
   "duration": 10.44,
   "usable": [],
   "quality": 1,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUxg",
@@ -2565,7 +2741,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "4s, slightly tilted"
+  "notes": "4s, slightly tilted",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUyA",
@@ -2593,7 +2771,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUyg",
@@ -2622,7 +2802,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUzA",
@@ -2651,7 +2833,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACUzg",
@@ -2680,7 +2864,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "sun flare at end"
+  "notes": "sun flare at end",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACU0A",
@@ -2712,7 +2898,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "city view segments usable"
+  "notes": "city view segments usable",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACU0g",
@@ -2745,7 +2933,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "city views at ~8s and ~30s usable"
+  "notes": "city views at ~8s and ~30s usable",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACU1g",
@@ -2773,7 +2963,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACU2A",
@@ -2802,7 +2994,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACU2g",
@@ -2831,7 +3025,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACU3A",
@@ -2858,7 +3054,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "looks accidental, nothing happens"
+  "notes": "looks accidental, nothing happens",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACU3g",
@@ -2879,7 +3077,9 @@
   "duration": 19.79,
   "usable": [],
   "quality": 1,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACU4A",
@@ -2907,7 +3107,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "short"
+  "notes": "short",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACU4g",
@@ -2935,7 +3137,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "preview sideways; content vertical"
+  "notes": "preview sideways; content vertical",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACU5A",
@@ -2964,7 +3168,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACU5g",
@@ -2992,7 +3198,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "nice warm light"
+  "notes": "nice warm light",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACU6A",
@@ -3020,7 +3228,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACU6g",
@@ -3052,7 +3262,9 @@
   "notes": "tilted/sideways framing",
   "activity": "swimming",
   "who": "anton",
-  "action_quality": 2
+  "action_quality": 2,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACU7A",
@@ -3080,7 +3292,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACU7g",
@@ -3111,7 +3325,9 @@
   "notes": "chaotic",
   "activity": "swimming",
   "who": "anton",
-  "action_quality": 2
+  "action_quality": 2,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACU8A",
@@ -3139,7 +3355,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "beautiful light, backlit face"
+  "notes": "beautiful light, backlit face",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACU8g",
@@ -3166,7 +3384,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "preview sideways; content vertical"
+  "notes": "preview sideways; content vertical",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACU9A",
@@ -3193,7 +3413,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACU9g",
@@ -3220,7 +3442,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACU-A",
@@ -3252,7 +3476,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACU-g",
@@ -3279,7 +3505,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACU_A",
@@ -3306,7 +3534,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACU_g",
@@ -3335,7 +3565,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "low angle start; fish counter at end usable"
+  "notes": "low angle start; fish counter at end usable",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVAA",
@@ -3357,7 +3589,9 @@
   "duration": 36.67,
   "usable": [],
   "quality": 1,
-  "notes": "unflattering up-the-nose angle"
+  "notes": "unflattering up-the-nose angle",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVAg",
@@ -3386,7 +3620,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVBA",
@@ -3413,7 +3649,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "motion blur"
+  "notes": "motion blur",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVBg",
@@ -3441,7 +3679,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVCA",
@@ -3461,7 +3701,9 @@
   "duration": 1.84,
   "usable": [],
   "quality": 1,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVCg",
@@ -3483,7 +3725,9 @@
   "duration": 15.15,
   "usable": [],
   "quality": 1,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVDA",
@@ -3511,7 +3755,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "finger near lens"
+  "notes": "finger near lens",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVDg",
@@ -3539,7 +3785,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVEA",
@@ -3566,7 +3814,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVEg",
@@ -3594,7 +3844,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "towel in foreground"
+  "notes": "towel in foreground",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVFA",
@@ -3621,7 +3873,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVFg",
@@ -3649,7 +3903,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVGA",
@@ -3678,7 +3934,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVGg",
@@ -3707,7 +3965,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "umbrella intrudes at end"
+  "notes": "umbrella intrudes at end",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVHA",
@@ -3736,7 +3996,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "sun flares"
+  "notes": "sun flares",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVHg",
@@ -3764,7 +4026,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVIA",
@@ -3792,7 +4056,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVIg",
@@ -3820,7 +4086,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVJA",
@@ -3849,7 +4117,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "sunrise pan at 3-8s is nice b-roll"
+  "notes": "sunrise pan at 3-8s is nice b-roll",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVJg",
@@ -3878,7 +4148,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "tilts sideways after ~20s"
+  "notes": "tilts sideways after ~20s",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVKA",
@@ -3908,7 +4180,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVKg",
@@ -3936,7 +4210,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "no LRF; downloaded 4K MP4"
+  "notes": "no LRF; downloaded 4K MP4",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVLA",
@@ -3966,7 +4242,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVLg",
@@ -3995,7 +4273,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVMg",
@@ -4022,7 +4302,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "sunrise portion usable"
+  "notes": "sunrise portion usable",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVOg",
@@ -4049,7 +4331,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVQA",
@@ -4078,7 +4362,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVQg",
@@ -4107,7 +4393,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVRA",
@@ -4138,7 +4426,9 @@
   "notes": "",
   "activity": "swimming",
   "who": "anton",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVRg",
@@ -4169,7 +4459,9 @@
   "notes": "",
   "activity": "swimming",
   "who": "anton",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVSg",
@@ -4200,7 +4492,9 @@
   "notes": "murky water",
   "activity": "swimming",
   "who": "anton",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVTA",
@@ -4226,7 +4520,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "towel covers lens"
+  "notes": "towel covers lens",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVTg",
@@ -4253,7 +4549,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVUg",
@@ -4282,7 +4580,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVVA",
@@ -4309,7 +4609,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVVg",
@@ -4337,7 +4639,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVWA",
@@ -4365,7 +4669,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVXg",
@@ -4393,7 +4699,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVYA",
@@ -4422,7 +4730,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVYg",
@@ -4450,7 +4760,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "tilted, finger at end"
+  "notes": "tilted, finger at end",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVZg",
@@ -4486,7 +4798,9 @@
   "notes": "",
   "activity": "shucking oysters",
   "who": "anton",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVaQ",
@@ -4514,7 +4828,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVbQ",
@@ -4541,7 +4857,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVbw",
@@ -4568,7 +4886,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "preview sideways; content vertical"
+  "notes": "preview sideways; content vertical",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVcQ",
@@ -4596,7 +4916,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVcw",
@@ -4623,7 +4945,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVdQ",
@@ -4650,7 +4974,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "meat counter shots briefly usable; unflattering angle"
+  "notes": "meat counter shots briefly usable; unflattering angle",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVdw",
@@ -4671,7 +4997,9 @@
   "duration": 15.2,
   "usable": [],
   "quality": 1,
-  "notes": "up-the-nose angle"
+  "notes": "up-the-nose angle",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVeQ",
@@ -4693,7 +5021,9 @@
   "duration": 34.37,
   "usable": [],
   "quality": 1,
-  "notes": "up-the-nose angle"
+  "notes": "up-the-nose angle",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVew",
@@ -4720,7 +5050,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVfQ",
@@ -4747,7 +5079,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVfw",
@@ -4774,7 +5108,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "preview sideways; olives shot at end usable"
+  "notes": "preview sideways; olives shot at end usable",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVgQ",
@@ -4794,7 +5130,9 @@
   "duration": 4.37,
   "usable": [],
   "quality": 1,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVgw",
@@ -4820,7 +5158,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVhA",
@@ -4848,7 +5188,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "leaves block frame at start"
+  "notes": "leaves block frame at start",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVhg",
@@ -4876,7 +5218,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVOA",
@@ -4904,7 +5248,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "filed in Oyster Lover ROUTINE"
+  "notes": "filed in Oyster Lover ROUTINE",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVSA",
@@ -4940,7 +5286,9 @@
   "notes": "named 'hunting for oysters'; no LRF, 4K MP4",
   "activity": "swimming",
   "who": "anton",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVUA",
@@ -4967,7 +5315,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVWg",
@@ -4995,7 +5345,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVXA",
@@ -5016,7 +5368,9 @@
   "duration": 47.51,
   "usable": [],
   "quality": 1,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVZA",
@@ -5044,7 +5398,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVaw",
@@ -5072,7 +5428,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVPA",
@@ -5100,7 +5458,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVPg",
@@ -5128,7 +5488,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVMA",
@@ -5155,7 +5517,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVNg",
@@ -5182,7 +5546,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACS-Q",
@@ -5212,7 +5578,9 @@
    ]
   ],
   "quality": 4,
-  "notes": "iPhone 4K; near-identical to IMG_1503"
+  "notes": "iPhone 4K; near-identical to IMG_1503",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACS8Q",
@@ -5242,7 +5610,9 @@
    ]
   ],
   "quality": 4,
-  "notes": "iPhone 4K; near-identical to IMG_1502"
+  "notes": "iPhone 4K; near-identical to IMG_1502",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACTDA",
@@ -5272,7 +5642,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACTBA",
@@ -5303,7 +5675,9 @@
    ]
   ],
   "quality": 5,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACTAw",
@@ -5333,7 +5707,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACS_w",
@@ -5362,7 +5738,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACS8g",
@@ -5388,7 +5766,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "1.5s"
+  "notes": "1.5s",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACTBw",
@@ -5418,7 +5798,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACS_g",
@@ -5450,7 +5832,9 @@
   "notes": "hiker small",
   "activity": "hiking",
   "who": "unclear",
-  "action_quality": 2
+  "action_quality": 2,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACTDQ",
@@ -5480,7 +5864,9 @@
   "notes": "",
   "activity": "hiking",
   "who": "unclear",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACS9g",
@@ -5509,7 +5895,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACS-A",
@@ -5538,7 +5926,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACS-g",
@@ -5567,7 +5957,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACS_Q",
@@ -5596,7 +5988,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACTEQ",
@@ -5627,7 +6021,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACS9Q",
@@ -5657,7 +6053,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "awning corner in frame"
+  "notes": "awning corner in frame",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACS_A",
@@ -5686,7 +6084,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACTAg",
@@ -5715,7 +6115,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACTAQ",
@@ -5744,7 +6146,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACTCw",
@@ -5777,7 +6181,9 @@
   "notes": "",
   "activity": "wading",
   "who": "anton",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACS8A",
@@ -5807,7 +6213,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACTDw",
@@ -5836,7 +6244,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACTCg",
@@ -5865,7 +6275,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACTBg",
@@ -5897,7 +6309,11 @@
   "notes": "",
   "activity": "scrambling",
   "who": "anton",
-  "action_quality": 4
+  "action_quality": 4,
+  "used_count": 1,
+  "used_in_edits": [
+   "Spain 2026/June 19th/finished/Big city lights.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACS8w",
@@ -5928,7 +6344,9 @@
   "notes": "short, subject small",
   "activity": "wading",
   "who": "anton",
-  "action_quality": 2
+  "action_quality": 2,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACS9w",
@@ -5961,7 +6379,9 @@
   "notes": "subject small",
   "activity": "wading",
   "who": "anton",
-  "action_quality": 2
+  "action_quality": 2,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACTDg",
@@ -5993,7 +6413,11 @@
   "notes": "subject very small",
   "activity": "scrambling",
   "who": "unclear",
-  "action_quality": 2
+  "action_quality": 2,
+  "used_count": 1,
+  "used_in_edits": [
+   "Spain 2026/June 19th/finished/Big city lights.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACTEA",
@@ -6025,7 +6449,11 @@
   "notes": "swimmer small",
   "activity": "swimming",
   "who": "unclear",
-  "action_quality": 2
+  "action_quality": 2,
+  "used_count": 1,
+  "used_in_edits": [
+   "Spain 2026/June 19th/finished/Big city lights.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACS-w",
@@ -6056,7 +6484,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACTCA",
@@ -6087,7 +6517,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACTCQ",
@@ -6118,7 +6550,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACTBQ",
@@ -6147,7 +6581,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACTEw",
@@ -6169,7 +6605,9 @@
   "duration": 14.87,
   "usable": [],
   "quality": 1,
-  "notes": "finished edit, not raw b-roll"
+  "notes": "finished edit, not raw b-roll",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACTFA",
@@ -6191,7 +6629,9 @@
   "duration": 14.87,
   "usable": [],
   "quality": 1,
-  "notes": "finished edit (alt version)"
+  "notes": "finished edit (alt version)",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACTFQ",
@@ -6213,7 +6653,9 @@
   "duration": 14.57,
   "usable": [],
   "quality": 1,
-  "notes": "finished edit"
+  "notes": "finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACTFg",
@@ -6236,7 +6678,9 @@
   "duration": 28.5,
   "usable": [],
   "quality": 1,
-  "notes": "finished edit"
+  "notes": "finished edit",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVqA",
@@ -6264,7 +6708,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVqg",
@@ -6292,7 +6738,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVrA",
@@ -6320,7 +6768,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVrg",
@@ -6348,7 +6798,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVtw",
@@ -6376,7 +6828,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVuQ",
@@ -6404,7 +6858,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVuw",
@@ -6432,7 +6888,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "preview sideways; content vertical"
+  "notes": "preview sideways; content vertical",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVvQ",
@@ -6452,7 +6910,9 @@
   "duration": 1.96,
   "usable": [],
   "quality": 1,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVvw",
@@ -6480,7 +6940,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVwQ",
@@ -6508,7 +6970,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVww",
@@ -6536,7 +7000,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVxQ",
@@ -6564,7 +7030,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVxw",
@@ -6592,7 +7060,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVyQ",
@@ -6620,7 +7090,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVyw",
@@ -6648,7 +7120,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVzQ",
@@ -6676,7 +7150,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACVzw",
@@ -6704,7 +7180,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACV0Q",
@@ -6732,7 +7210,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACV0w",
@@ -6760,7 +7240,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACV1Q",
@@ -6788,7 +7270,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACV1w",
@@ -6816,7 +7300,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACV2Q",
@@ -6844,7 +7330,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACV2w",
@@ -6864,7 +7352,9 @@
   "duration": 85.01,
   "usable": [],
   "quality": 1,
-  "notes": "85s accidental"
+  "notes": "85s accidental",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACV3Q",
@@ -6892,7 +7382,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACV3w",
@@ -6920,7 +7412,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACV4Q",
@@ -6948,7 +7442,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACV4w",
@@ -6976,7 +7472,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACV5Q",
@@ -7004,7 +7502,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACV5w",
@@ -7032,6 +7532,8 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  }
 ]

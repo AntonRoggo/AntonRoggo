@@ -25,7 +25,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit with burned-in captions; not raw B-roll."
+  "notes": "Finished edit with burned-in captions; not raw B-roll.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLaQ",
@@ -54,7 +56,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLaw",
@@ -82,7 +86,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLbQ",
@@ -110,7 +116,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLbA",
@@ -138,7 +146,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLbg",
@@ -170,7 +180,11 @@
   "notes": "Shaky at end; last second is accidental.",
   "activity": "cold shower",
   "who": "anton",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto 2026/2 Am Call/finished/march 24.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMgg",
@@ -197,7 +211,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMgw",
@@ -224,7 +240,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit, alternate version."
+  "notes": "Finished edit, alternate version.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMfg",
@@ -252,7 +270,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMfQ",
@@ -279,7 +299,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMew",
@@ -306,7 +328,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMeQ",
@@ -333,7 +357,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMdQ",
@@ -360,7 +386,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMeg",
@@ -387,7 +415,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMfA",
@@ -414,7 +444,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMdg",
@@ -442,7 +474,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take; goofing at end."
+  "notes": "Talking-head take; goofing at end.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMcw",
@@ -469,7 +503,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMdA",
@@ -496,7 +532,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMeA",
@@ -523,7 +561,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMdw",
@@ -550,7 +590,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMcg",
@@ -577,7 +619,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMcA",
@@ -604,7 +648,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMcQ",
@@ -631,7 +677,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMpg",
@@ -658,7 +706,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMpw",
@@ -684,7 +734,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMqA",
@@ -711,7 +763,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit, alternate version."
+  "notes": "Finished edit, alternate version.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMqQ",
@@ -737,7 +791,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMoQ",
@@ -770,7 +826,9 @@
   "notes": "Subject small in frame; someone walks into frame at end.",
   "activity": "calisthenics",
   "who": "anton",
-  "action_quality": 2
+  "action_quality": 2,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMoA",
@@ -802,7 +860,9 @@
   "notes": "Long static take; subject partly behind post.",
   "activity": "calisthenics",
   "who": "anton",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMnA",
@@ -828,7 +888,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "Empty / accidental."
+  "notes": "Empty / accidental.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMog",
@@ -861,7 +923,11 @@
   "notes": "Subject small; first seconds empty with shadow.",
   "activity": "calisthenics",
   "who": "anton",
-  "action_quality": 2
+  "action_quality": 2,
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto 2026/April 13/finished/April 12 2_1.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMnw",
@@ -891,7 +957,11 @@
    ]
   ],
   "quality": 3,
-  "notes": "Tilted selfie framing."
+  "notes": "Tilted selfie framing.",
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto 2026/April 13/finished/april 12 1.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMow",
@@ -920,7 +990,11 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finger over lens at start; subject far away."
+  "notes": "Finger over lens at start; subject far away.",
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto 2026/April 13/finished/april 12 1.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMmg",
@@ -948,7 +1022,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMmw",
@@ -975,7 +1051,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMlQ",
@@ -1002,7 +1080,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMlg",
@@ -1029,7 +1109,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMmQ",
@@ -1056,7 +1138,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMlA",
@@ -1082,7 +1166,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMnQ",
@@ -1109,7 +1195,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMng",
@@ -1136,7 +1224,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMlw",
@@ -1164,7 +1254,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "Shaky, tilted."
+  "notes": "Shaky, tilted.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMmA",
@@ -1191,7 +1283,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Short."
+  "notes": "Short.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMuw",
@@ -1219,7 +1313,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMtw",
@@ -1248,7 +1344,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Talking take; end has a nice Coke-sip moment usable as B-roll (~19-21s)."
+  "notes": "Talking take; end has a nice Coke-sip moment usable as B-roll (~19-21s).",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMuQ",
@@ -1277,7 +1375,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMuA",
@@ -1307,7 +1407,11 @@
    ]
   ],
   "quality": 4,
-  "notes": "Slight handheld drift."
+  "notes": "Slight handheld drift.",
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto 2026/April 14/finished/April14.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACNJA",
@@ -1333,7 +1437,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACNIg",
@@ -1361,7 +1467,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACNHg",
@@ -1388,7 +1496,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACNHw",
@@ -1415,7 +1525,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACNIQ",
@@ -1442,7 +1554,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACNIA",
@@ -1469,7 +1583,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACO3w",
@@ -1496,7 +1612,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACO4Q",
@@ -1525,7 +1643,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACO4A",
@@ -1552,7 +1672,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACO4g",
@@ -1580,7 +1702,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACO3A",
@@ -1608,7 +1732,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACO2Q",
@@ -1635,7 +1761,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACO3Q",
@@ -1662,7 +1790,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACO2A",
@@ -1689,7 +1819,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACO2w",
@@ -1717,7 +1849,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACO2g",
@@ -1745,7 +1879,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMOw",
@@ -1772,7 +1908,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMOg",
@@ -1798,7 +1936,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit, alternate version."
+  "notes": "Finished edit, alternate version.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMNA",
@@ -1826,7 +1966,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMNw",
@@ -1854,7 +1996,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take; moving framing."
+  "notes": "Talking-head take; moving framing.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMMw",
@@ -1883,7 +2027,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMNQ",
@@ -1910,7 +2056,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "Unflattering low angle, shaky."
+  "notes": "Unflattering low angle, shaky.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMNg",
@@ -1938,7 +2086,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMOA",
@@ -1965,7 +2115,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMXw",
@@ -1992,7 +2144,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMSw",
@@ -2021,7 +2175,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Talking take; oyster-slurp moment (~22-25s) could work as B-roll."
+  "notes": "Talking take; oyster-slurp moment (~22-25s) could work as B-roll.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACK2g",
@@ -2048,7 +2204,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACK2Q",
@@ -2074,7 +2232,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit, alternate version."
+  "notes": "Finished edit, alternate version.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACK3A",
@@ -2101,7 +2261,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACK7A",
@@ -2130,7 +2292,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACK8g",
@@ -2158,7 +2322,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACK8w",
@@ -2186,7 +2352,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACK8Q",
@@ -2213,7 +2381,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACK6g",
@@ -2240,7 +2410,11 @@
    ]
   ],
   "quality": 2,
-  "notes": "Very short."
+  "notes": "Very short.",
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto 2026/Day 2/finished/march 15.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACK6w",
@@ -2269,7 +2443,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Short, tilted."
+  "notes": "Short, tilted.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACK7g",
@@ -2300,7 +2476,9 @@
   "notes": "Short, finger/blur at edge.",
   "activity": "hiking",
   "who": "anton",
-  "action_quality": 2
+  "action_quality": 2,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACK8A",
@@ -2327,7 +2505,11 @@
    ]
   ],
   "quality": 1,
-  "notes": "Accidental swing at start."
+  "notes": "Accidental swing at start.",
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto 2026/Day 2/finished/march 15.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACK7w",
@@ -2356,7 +2538,11 @@
    ]
   ],
   "quality": 3,
-  "notes": "Short; ends with camera tilt."
+  "notes": "Short; ends with camera tilt.",
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto 2026/Day 2/finished/march 15.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACNDQ",
@@ -2382,7 +2568,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACNCQ",
@@ -2410,7 +2598,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACNBw",
@@ -2438,7 +2628,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "Blurry moments; ends with camera fumble."
+  "notes": "Blurry moments; ends with camera fumble.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACNCA",
@@ -2466,7 +2658,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Ends with camera fumble."
+  "notes": "Ends with camera fumble.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACNCg",
@@ -2495,7 +2689,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Talking take; walk-up could work as intro."
+  "notes": "Talking take; walk-up could work as intro.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACNBg",
@@ -2528,7 +2724,9 @@
   "notes": "Low resolution (640x360), people crossing in front.",
   "activity": "line dancing",
   "who": "unclear",
-  "action_quality": 2
+  "action_quality": 2,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACNBQ",
@@ -2560,7 +2758,11 @@
   "notes": "Low resolution (536x960), shaky.",
   "activity": "line dancing",
   "who": "unclear",
-  "action_quality": 2
+  "action_quality": 2,
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto 2026/Line Dancing/finished/april 19 line dancing.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACNCw",
@@ -2588,7 +2790,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPKw",
@@ -2615,7 +2819,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPLg",
@@ -2643,7 +2849,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPLQ",
@@ -2670,7 +2878,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPiQ",
@@ -2698,7 +2908,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPLw",
@@ -2725,7 +2937,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPLA",
@@ -2754,7 +2968,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPKg",
@@ -2781,7 +2997,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPUg",
@@ -2809,7 +3027,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPUQ",
@@ -2837,7 +3057,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Handheld; first half is selfie talk."
+  "notes": "Handheld; first half is selfie talk.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPUA",
@@ -2864,7 +3086,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPUw",
@@ -2891,7 +3115,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPTw",
@@ -2921,7 +3147,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Byte-identical duplicate of Toronto 2026/Victoria Day/Video 2026-05-10, 6 46 36 PM.mov. Talking take, static tripod shot."
+  "notes": "Byte-identical duplicate of Toronto 2026/Victoria Day/Video 2026-05-10, 6 46 36 PM.mov. Talking take, static tripod shot.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPTA",
@@ -2952,7 +3180,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Byte-identical duplicate of Toronto 2026/Victoria Day/Video 2026-05-10, 6 47 21 PM.mov. Low angle, tripod."
+  "notes": "Byte-identical duplicate of Toronto 2026/Victoria Day/Video 2026-05-10, 6 47 21 PM.mov. Low angle, tripod.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPTg",
@@ -2982,7 +3212,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Byte-identical duplicate of Toronto 2026/Victoria Day/Video 2026-05-10, 6 48 10 PM.mov. Talking take, static tripod shot."
+  "notes": "Byte-identical duplicate of Toronto 2026/Victoria Day/Video 2026-05-10, 6 48 10 PM.mov. Talking take, static tripod shot.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPTQ",
@@ -3012,7 +3244,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Byte-identical duplicate of Toronto 2026/Victoria Day/Video 2026-05-10, 6 49 41 PM.mov. Talking take, static tripod shot."
+  "notes": "Byte-identical duplicate of Toronto 2026/Victoria Day/Video 2026-05-10, 6 49 41 PM.mov. Talking take, static tripod shot.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPJg",
@@ -3040,7 +3274,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPIg",
@@ -3066,7 +3302,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "Too short / false start."
+  "notes": "Too short / false start.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPIA",
@@ -3095,7 +3333,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPJQ",
@@ -3124,7 +3364,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPKA",
@@ -3153,7 +3395,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPHw",
@@ -3182,7 +3426,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPJA",
@@ -3211,7 +3457,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking take; unstable framing."
+  "notes": "Talking take; unstable framing.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPIQ",
@@ -3240,7 +3488,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPIw",
@@ -3269,7 +3519,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPGQ",
@@ -3298,7 +3550,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPHg",
@@ -3327,7 +3581,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPHQ",
@@ -3356,7 +3612,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPJw",
@@ -3385,7 +3643,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPGg",
@@ -3414,7 +3674,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPHA",
@@ -3443,7 +3705,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPFw",
@@ -3472,7 +3736,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPGw",
@@ -3500,7 +3766,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPGA",
@@ -3527,7 +3795,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOMw",
@@ -3558,7 +3828,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Bench edge in bottom right corner; subjects tiny."
+  "notes": "Bench edge in bottom right corner; subjects tiny.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACONA",
@@ -3586,7 +3858,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Bench edge in corner."
+  "notes": "Bench edge in corner.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOMg",
@@ -3615,7 +3889,12 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 2,
+  "used_in_edits": [
+   "Toronto 2026/April 29 Batch/finished/the american dream.mp4",
+   "Toronto 2026/April 29 Batch/finished/what if you spent your weekend.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOLw",
@@ -3643,7 +3922,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOMQ",
@@ -3675,7 +3956,11 @@
    ]
   ],
   "quality": 3,
-  "notes": "Includes dashboard shot mid-clip."
+  "notes": "Includes dashboard shot mid-clip.",
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto 2026/April 29 Batch/finished/the american dream.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOMA",
@@ -3707,7 +3992,9 @@
   "notes": "Selfie, handheld.",
   "activity": "oyster farming",
   "who": "anton",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOKA",
@@ -3736,7 +4023,12 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 2,
+  "used_in_edits": [
+   "Toronto 2026/April 29 Batch/finished/the american dream.mp4",
+   "Toronto 2026/April 29 Batch/finished/what if you spent your weekend.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOJA",
@@ -3765,7 +4057,9 @@
    ]
   ],
   "quality": 4,
-  "notes": "Great for seed-oil content."
+  "notes": "Great for seed-oil content.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOIQ",
@@ -3793,7 +4087,11 @@
    ]
   ],
   "quality": 3,
-  "notes": "Short."
+  "notes": "Short.",
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto 2026/April 29 Batch/finished/the world can be crumbling.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOKw",
@@ -3822,7 +4120,12 @@
    ]
   ],
   "quality": 3,
-  "notes": "Awning edge at top."
+  "notes": "Awning edge at top.",
+  "used_count": 2,
+  "used_in_edits": [
+   "Toronto 2026/April 29 Batch/finished/the american dream.mp4",
+   "Toronto 2026/April 29 Batch/finished/what if you spent your weekend.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOJQ",
@@ -3851,7 +4154,9 @@
    ]
   ],
   "quality": 4,
-  "notes": "Handheld slight sway."
+  "notes": "Handheld slight sway.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOJg",
@@ -3880,7 +4185,11 @@
    ]
   ],
   "quality": 3,
-  "notes": "Subjects small."
+  "notes": "Subjects small.",
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto 2026/April 29 Batch/finished/the american dream.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOIg",
@@ -3909,7 +4218,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Subjects small."
+  "notes": "Subjects small.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOIA",
@@ -3938,7 +4249,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Subjects small."
+  "notes": "Subjects small.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOHg",
@@ -3967,7 +4280,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Subjects tiny."
+  "notes": "Subjects tiny.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOHw",
@@ -3996,7 +4311,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOGw",
@@ -4025,7 +4342,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOHA",
@@ -4054,7 +4373,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOGA",
@@ -4083,7 +4404,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "1080p."
+  "notes": "1080p.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOHQ",
@@ -4112,7 +4435,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Subject small."
+  "notes": "Subject small.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOGg",
@@ -4141,7 +4466,9 @@
    ]
   ],
   "quality": 4,
-  "notes": "Nice close framing."
+  "notes": "Nice close framing.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOGQ",
@@ -4171,7 +4498,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Selfie angle."
+  "notes": "Selfie angle.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOFw",
@@ -4199,7 +4528,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOFg",
@@ -4228,7 +4559,11 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto 2026/April 29 Batch/finished/the world can be crumbling.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOFQ",
@@ -4256,7 +4591,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Feet/legs in frame."
+  "notes": "Feet/legs in frame.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOEw",
@@ -4285,7 +4622,9 @@
    ]
   ],
   "quality": 4,
-  "notes": "Selfie framing."
+  "notes": "Selfie framing.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOEg",
@@ -4312,7 +4651,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Short."
+  "notes": "Short.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOFA",
@@ -4340,7 +4681,12 @@
    ]
   ],
   "quality": 4,
-  "notes": "Selfie angle; talking at the end."
+  "notes": "Selfie angle; talking at the end.",
+  "used_count": 2,
+  "used_in_edits": [
+   "Toronto 2026/April 29 Batch/finished/the american dream.mp4",
+   "Toronto 2026/April 29 Batch/finished/what if you spent your weekend.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOLA",
@@ -4370,7 +4716,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Byte-identical duplicate of Toronto 2026/Remaining Broll May 11/Video 2026-04-25, 7 24 34 AM.mov. Selfie, shaky end."
+  "notes": "Byte-identical duplicate of Toronto 2026/Remaining Broll May 11/Video 2026-04-25, 7 24 34 AM.mov. Selfie, shaky end.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOLg",
@@ -4397,7 +4745,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Slight pan, plain subject."
+  "notes": "Slight pan, plain subject.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOLQ",
@@ -4425,7 +4775,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Byte-identical duplicate of Toronto 2026/Remaining Broll May 11/Video 2026-04-25, 7 32 35 AM.mov. Handheld."
+  "notes": "Byte-identical duplicate of Toronto 2026/Remaining Broll May 11/Video 2026-04-25, 7 32 35 AM.mov. Handheld.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOKg",
@@ -4453,7 +4805,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Byte-identical duplicate of Toronto 2026/Remaining Broll May 11/Video 2026-04-25, 7 32 52 AM.mov."
+  "notes": "Byte-identical duplicate of Toronto 2026/Remaining Broll May 11/Video 2026-04-25, 7 32 52 AM.mov.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOKQ",
@@ -4482,7 +4836,9 @@
    ]
   ],
   "quality": 4,
-  "notes": "Strong leading lines."
+  "notes": "Strong leading lines.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACOJw",
@@ -4508,7 +4864,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "Accidental / filler."
+  "notes": "Accidental / filler.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLrw",
@@ -4535,7 +4893,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLsA",
@@ -4560,7 +4920,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "Broken export: 'Media pending' placeholders."
+  "notes": "Broken export: 'Media pending' placeholders.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLsQ",
@@ -4585,7 +4947,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "Ending has 'Media pending' placeholder."
+  "notes": "Ending has 'Media pending' placeholder.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLsg",
@@ -4611,7 +4975,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLpQ",
@@ -4639,7 +5005,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Long horizontal talking take."
+  "notes": "Long horizontal talking take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLpA",
@@ -4665,7 +5033,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "Video plays rotated 90 degrees; needs rotation fix."
+  "notes": "Video plays rotated 90 degrees; needs rotation fix.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLoQ",
@@ -4693,7 +5063,13 @@
    ]
   ],
   "quality": 3,
-  "notes": "Handheld."
+  "notes": "Handheld.",
+  "used_count": 3,
+  "used_in_edits": [
+   "Toronto 2026/Oyster Dinner Party/finished/Oyster Party April.mp4",
+   "Toronto 2026/Oyster Dinner Party/finished/Oyster Party April_2.mp4",
+   "Toronto 2026/Oyster Dinner Party/finished/Oyster Party April_3.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLow",
@@ -4724,7 +5100,14 @@
   "notes": "Handheld, busy framing.",
   "activity": "shucking oysters",
   "who": "anton",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 4,
+  "used_in_edits": [
+   "Toronto 2026/Oyster Dinner Party/finished/Oyster Party April.mp4",
+   "Toronto 2026/Oyster Dinner Party/finished/Oyster Party April_1.mp4",
+   "Toronto 2026/Oyster Dinner Party/finished/Oyster Party April_2.mp4",
+   "Toronto 2026/Oyster Dinner Party/finished/Oyster Party April_3.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLog",
@@ -4752,7 +5135,14 @@
    ]
   ],
   "quality": 3,
-  "notes": "Handheld."
+  "notes": "Handheld.",
+  "used_count": 4,
+  "used_in_edits": [
+   "Toronto 2026/Oyster Dinner Party/finished/Oyster Party April.mp4",
+   "Toronto 2026/Oyster Dinner Party/finished/Oyster Party April_1.mp4",
+   "Toronto 2026/Oyster Dinner Party/finished/Oyster Party April_2.mp4",
+   "Toronto 2026/Oyster Dinner Party/finished/Oyster Party April_3.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLoA",
@@ -4780,7 +5170,14 @@
    ]
   ],
   "quality": 3,
-  "notes": "Short."
+  "notes": "Short.",
+  "used_count": 4,
+  "used_in_edits": [
+   "Toronto 2026/Oyster Dinner Party/finished/Oyster Party April.mp4",
+   "Toronto 2026/Oyster Dinner Party/finished/Oyster Party April_1.mp4",
+   "Toronto 2026/Oyster Dinner Party/finished/Oyster Party April_2.mp4",
+   "Toronto 2026/Oyster Dinner Party/finished/Oyster Party April_3.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACM6w",
@@ -4807,7 +5204,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACM6A",
@@ -4834,7 +5233,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Long talking take."
+  "notes": "Long talking take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACM3Q",
@@ -4862,7 +5263,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Pan ends on pavement."
+  "notes": "Pan ends on pavement.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACM4Q",
@@ -4887,7 +5290,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "Rotated sideways and unusable."
+  "notes": "Rotated sideways and unusable.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACM1w",
@@ -4915,7 +5320,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACM3A",
@@ -4943,7 +5350,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking take."
+  "notes": "Talking take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACM1g",
@@ -4972,7 +5381,11 @@
    ]
   ],
   "quality": 3,
-  "notes": "Short, handheld."
+  "notes": "Short, handheld.",
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto 2026/Oyster Party 2/finished/April 17.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACM2A",
@@ -5002,7 +5415,11 @@
    ]
   ],
   "quality": 4,
-  "notes": "Handheld but lively; good social moment."
+  "notes": "Handheld but lively; good social moment.",
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto 2026/Oyster Party 2/finished/April 17.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMzA",
@@ -5030,7 +5447,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMzw",
@@ -5059,7 +5478,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACM2w",
@@ -5088,7 +5509,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACM2Q",
@@ -5117,7 +5540,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMzQ",
@@ -5146,7 +5571,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACM1Q",
@@ -5175,7 +5602,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACM0Q",
@@ -5204,7 +5633,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACM3g",
@@ -5233,7 +5664,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACM5A",
@@ -5261,7 +5694,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Byte-identical duplicate of Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 34 56 PM.mov. Short; camera drops at end."
+  "notes": "Byte-identical duplicate of Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 34 56 PM.mov. Short; camera drops at end.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACMzg",
@@ -5289,7 +5724,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Short; camera drops at end."
+  "notes": "Short; camera drops at end.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACM4g",
@@ -5316,7 +5753,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Very short, shaky."
+  "notes": "Very short, shaky.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACM0g",
@@ -5343,7 +5782,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Byte-identical duplicate of Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 35 17 PM (1).mov. Very short, shaky."
+  "notes": "Byte-identical duplicate of Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 35 17 PM (1).mov. Very short, shaky.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACM4w",
@@ -5371,7 +5812,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Short."
+  "notes": "Short.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACM0A",
@@ -5399,7 +5842,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Byte-identical duplicate of Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 35 29 PM (1).mov. Short."
+  "notes": "Byte-identical duplicate of Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 35 29 PM (1).mov. Short.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACM5Q",
@@ -5426,7 +5871,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Byte-identical duplicate of Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 35 50 PM.mov. Short, shaky end."
+  "notes": "Byte-identical duplicate of Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 35 50 PM.mov. Short, shaky end.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACM0w",
@@ -5453,7 +5900,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Short, shaky end."
+  "notes": "Short, shaky end.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACM5g",
@@ -5480,7 +5929,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Distorted wide-angle arm."
+  "notes": "Distorted wide-angle arm.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACM1A",
@@ -5507,7 +5958,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Byte-identical duplicate of Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 36 09 PM (1).mov. Distorted wide-angle arm."
+  "notes": "Byte-identical duplicate of Toronto 2026/Oyster Party 2/Video 2026-04-17, 12 36 09 PM (1).mov. Distorted wide-angle arm.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACM5w",
@@ -5535,7 +5988,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Talking take; walks out of frame at end."
+  "notes": "Talking take; walks out of frame at end.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACL8Q",
@@ -5562,7 +6017,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACL8A",
@@ -5589,7 +6046,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACL7A",
@@ -5618,7 +6077,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking take."
+  "notes": "Talking take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACL7Q",
@@ -5647,7 +6108,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking take; empty frame around 34s."
+  "notes": "Talking take; empty frame around 34s.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACL6Q",
@@ -5675,7 +6138,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Odd action; context unclear."
+  "notes": "Odd action; context unclear.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACL7g",
@@ -5704,7 +6169,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking take."
+  "notes": "Talking take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACL6g",
@@ -5732,7 +6199,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking take."
+  "notes": "Talking take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLjQ",
@@ -5759,7 +6228,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLjg",
@@ -5786,7 +6257,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLjw",
@@ -5817,7 +6290,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "In a 'finished' folder but looks like raw B-roll with no captions."
+  "notes": "In a 'finished' folder but looks like raw B-roll with no captions.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLig",
@@ -5846,7 +6321,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLhw",
@@ -5875,7 +6352,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLhQ",
@@ -5904,7 +6383,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLiA",
@@ -5933,7 +6414,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking-head take."
+  "notes": "Talking-head take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLiQ",
@@ -5962,7 +6445,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "Unflattering low angle, shaky."
+  "notes": "Unflattering low angle, shaky.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLiw",
@@ -5991,7 +6476,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Long walking talk."
+  "notes": "Long walking talk.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLgg",
@@ -6020,7 +6507,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Pans slightly."
+  "notes": "Pans slightly.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLgQ",
@@ -6048,7 +6537,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Lens flare streaks; car and person pass in front."
+  "notes": "Lens flare streaks; car and person pass in front.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLgw",
@@ -6077,7 +6568,11 @@
    ]
   ],
   "quality": 3,
-  "notes": "Handheld."
+  "notes": "Handheld.",
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto 2026/Pho W Ivan/finished/march 25.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLhg",
@@ -6104,7 +6599,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking take."
+  "notes": "Talking take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLhA",
@@ -6131,7 +6628,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking take."
+  "notes": "Talking take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPdQ",
@@ -6161,7 +6660,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Selfie, shaky end."
+  "notes": "Selfie, shaky end.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPdA",
@@ -6189,7 +6690,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Handheld."
+  "notes": "Handheld.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPcg",
@@ -6217,7 +6720,11 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto 2026/May 4 Batch/finished/larping oyster farmer.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACPcw",
@@ -6244,7 +6751,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Byte-identical duplicate of Toronto 2026/April 29 Batch/finished/the world can be crumbling.mp4. Finished edit."
+  "notes": "Byte-identical duplicate of Toronto 2026/April 29 Batch/finished/the world can be crumbling.mp4. Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACQRQ",
@@ -6274,7 +6783,11 @@
    ]
   ],
   "quality": 4,
-  "notes": "DJI; someone's leg in frame at start."
+  "notes": "DJI; someone's leg in frame at start.",
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto 2026/Victoria Day/finished/lake ontario-.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACQRg",
@@ -6307,7 +6820,9 @@
   "notes": "Water drops on lens; handheld.",
   "activity": "swimming",
   "who": "anton",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACQSQ",
@@ -6334,7 +6849,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACQSA",
@@ -6361,7 +6878,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACQSg",
@@ -6389,7 +6908,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACQSw",
@@ -6416,7 +6937,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACQTA",
@@ -6443,7 +6966,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACQWA",
@@ -6473,7 +6998,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking take, static tripod shot."
+  "notes": "Talking take, static tripod shot.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACQVQ",
@@ -6504,7 +7031,11 @@
    ]
   ],
   "quality": 3,
-  "notes": "Low angle, tripod."
+  "notes": "Low angle, tripod.",
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto 2026/Victoria Day/finished/Park 2.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACQVw",
@@ -6534,7 +7065,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking take, static tripod shot."
+  "notes": "Talking take, static tripod shot.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACQVg",
@@ -6564,7 +7097,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking take, static tripod shot."
+  "notes": "Talking take, static tripod shot.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACQWQ",
@@ -6592,7 +7127,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking take (source of 'eurolife' edit)."
+  "notes": "Talking take (source of 'eurolife' edit).",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACQVA",
@@ -6621,7 +7158,9 @@
    ]
   ],
   "quality": 4,
-  "notes": "Short; slight handheld drift."
+  "notes": "Short; slight handheld drift.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACK2A",
@@ -6649,7 +7188,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking take (source of steak frites edit)."
+  "notes": "Talking take (source of steak frites edit).",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLWg",
@@ -6675,7 +7216,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLWA",
@@ -6702,7 +7245,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLWQ",
@@ -6729,7 +7274,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Finished edit."
+  "notes": "Finished edit.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLTg",
@@ -6760,7 +7307,9 @@
   "notes": "Rider small; passes close at end.",
   "activity": "snowboarding",
   "who": "unclear",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLTQ",
@@ -6791,7 +7340,9 @@
   "notes": "Flat light, low contrast.",
   "activity": "snowboarding",
   "who": "unclear",
-  "action_quality": 2
+  "action_quality": 2,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLTw",
@@ -6822,7 +7373,11 @@
   "notes": "Ends with snow spray on lens.",
   "activity": "snowboarding",
   "who": "unclear",
-  "action_quality": 4
+  "action_quality": 4,
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto 2026/Whiteface w Yaath/finished/edit.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLTA",
@@ -6853,7 +7408,12 @@
   "notes": "Short.",
   "activity": "snowboarding",
   "who": "unclear",
-  "action_quality": 2
+  "action_quality": 2,
+  "used_count": 2,
+  "used_in_edits": [
+   "Toronto 2026/Whiteface w Yaath/finished/march22-insensitive.mp4",
+   "Toronto 2026/Whiteface w Yaath/finished/march22-normal.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLUA",
@@ -6884,7 +7444,12 @@
   "notes": "Rider small.",
   "activity": "snowboarding",
   "who": "unclear",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 2,
+  "used_in_edits": [
+   "Toronto 2026/Whiteface w Yaath/finished/edit.mp4",
+   "Toronto 2026/2 Am Call/finished/march 24.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLVA",
@@ -6916,7 +7481,9 @@
   "notes": "Nice valley view at end.",
   "activity": "snowboarding",
   "who": "unclear",
-  "action_quality": 4
+  "action_quality": 4,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLVQ",
@@ -6947,7 +7514,9 @@
   "notes": "",
   "activity": "snowboarding",
   "who": "unclear",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLUg",
@@ -6978,7 +7547,9 @@
   "notes": "720p.",
   "activity": "snowboarding",
   "who": "unclear",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLUQ",
@@ -7009,7 +7580,9 @@
   "notes": "",
   "activity": "snowboarding",
   "who": "unclear",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLVg",
@@ -7040,7 +7613,9 @@
   "notes": "",
   "activity": "snowboarding",
   "who": "unclear",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLUw",
@@ -7071,7 +7646,12 @@
   "notes": "Shaky, tilted.",
   "activity": "snowboarding",
   "who": "unclear",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 2,
+  "used_in_edits": [
+   "Toronto 2026/Whiteface w Yaath/finished/edit.mp4",
+   "Toronto 2026/2 Am Call/finished/march 24.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLQQ",
@@ -7099,7 +7679,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking take."
+  "notes": "Talking take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLPQ",
@@ -7125,7 +7707,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "Dark and shaky."
+  "notes": "Dark and shaky.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLQA",
@@ -7152,7 +7736,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Dim lighting."
+  "notes": "Dim lighting.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLKQ",
@@ -7183,7 +7769,9 @@
   "notes": "Fog, small subject.",
   "activity": "snowboarding",
   "who": "unclear",
-  "action_quality": 2
+  "action_quality": 2,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLKw",
@@ -7214,7 +7802,9 @@
   "notes": "Fog, small subject.",
   "activity": "snowboarding",
   "who": "unclear",
-  "action_quality": 2
+  "action_quality": 2,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLLg",
@@ -7245,7 +7835,9 @@
   "notes": "Mostly empty fog.",
   "activity": "snowboarding",
   "who": "unclear",
-  "action_quality": 1
+  "action_quality": 1,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLOw",
@@ -7277,7 +7869,9 @@
   "notes": "Very shaky; funny wipeout moment.",
   "activity": "snowboarding",
   "who": "anton",
-  "action_quality": 2
+  "action_quality": 2,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLMg",
@@ -7309,7 +7903,9 @@
   "notes": "Shaky; ends in snow.",
   "activity": "snowboarding",
   "who": "anton",
-  "action_quality": 2
+  "action_quality": 2,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLJQ",
@@ -7332,7 +7928,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "Accidental."
+  "notes": "Accidental.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLKg",
@@ -7360,7 +7958,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking take (source of march22 edits)."
+  "notes": "Talking take (source of march22 edits).",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLKA",
@@ -7389,7 +7989,9 @@
    ]
   ],
   "quality": 4,
-  "notes": "Smooth lift motion."
+  "notes": "Smooth lift motion.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLJg",
@@ -7417,7 +8019,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Last ~6s camera rotates sideways."
+  "notes": "Last ~6s camera rotates sideways.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLIw",
@@ -7446,7 +8050,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLJA",
@@ -7474,7 +8080,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "1080p."
+  "notes": "1080p.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLIA",
@@ -7502,7 +8110,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLIQ",
@@ -7530,7 +8140,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "1080p; moving pan."
+  "notes": "1080p; moving pan.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLIg",
@@ -7561,7 +8173,9 @@
   "notes": "Fog, small subject.",
   "activity": "snowboarding",
   "who": "unclear",
-  "action_quality": 2
+  "action_quality": 2,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLOA",
@@ -7596,7 +8210,9 @@
   "notes": "Long, mostly empty frames.",
   "activity": "snowboarding",
   "who": "unclear",
-  "action_quality": 2
+  "action_quality": 2,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLLQ",
@@ -7627,7 +8243,9 @@
   "notes": "Mostly empty slope.",
   "activity": "snowboarding",
   "who": "unclear",
-  "action_quality": 1
+  "action_quality": 1,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLJw",
@@ -7658,7 +8276,9 @@
   "notes": "",
   "activity": "snowboarding",
   "who": "unclear",
-  "action_quality": 3
+  "action_quality": 3,
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLHg",
@@ -7687,7 +8307,12 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 2,
+  "used_in_edits": [
+   "Toronto 2026/Whiteface w Yaath/finished/march22-normal.mp4",
+   "Toronto 2026/Whiteface w Yaath/finished/edit.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLHA",
@@ -7716,7 +8341,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Camera settles; person enters at end."
+  "notes": "Camera settles; person enters at end.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLHw",
@@ -7745,7 +8372,9 @@
    ]
   ],
   "quality": 4,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLGg",
@@ -7774,7 +8403,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLHQ",
@@ -7805,7 +8436,11 @@
   "notes": "Handheld, tilted.",
   "activity": "snowboarding",
   "who": "anton",
-  "action_quality": 2
+  "action_quality": 2,
+  "used_count": 1,
+  "used_in_edits": [
+   "Toronto 2026/2 Am Call/finished/march 24.mp4"
+  ]
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLPg",
@@ -7832,7 +8467,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "Too dark."
+  "notes": "Too dark.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLPA",
@@ -7860,7 +8497,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "Too dark."
+  "notes": "Too dark.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLGQ",
@@ -7894,7 +8533,9 @@
    ]
   ],
   "quality": 4,
-  "notes": "Person blocks shot mid-clip."
+  "notes": "Person blocks shot mid-clip.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLGw",
@@ -7922,7 +8563,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "1080p, pan."
+  "notes": "1080p, pan.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLGA",
@@ -7951,7 +8594,9 @@
    ]
   ],
   "quality": 4,
-  "notes": "Slight tilt."
+  "notes": "Slight tilt.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLOg",
@@ -7979,7 +8624,9 @@
    ]
   ],
   "quality": 3,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLPw",
@@ -8007,7 +8654,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Talking take."
+  "notes": "Talking take.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLNw",
@@ -8033,7 +8682,9 @@
    ]
   ],
   "quality": 1,
-  "notes": "Blurry and shaky."
+  "notes": "Blurry and shaky.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLOQ",
@@ -8061,7 +8712,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Windshield reflections."
+  "notes": "Windshield reflections.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLNQ",
@@ -8089,7 +8742,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Windshield reflections."
+  "notes": "Windshield reflections.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLMw",
@@ -8117,7 +8772,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Windshield, passing cars."
+  "notes": "Windshield, passing cars.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLNg",
@@ -8145,7 +8802,9 @@
    ]
   ],
   "quality": 3,
-  "notes": "Cars block the sign early."
+  "notes": "Cars block the sign early.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLNA",
@@ -8173,7 +8832,9 @@
    ]
   ],
   "quality": 2,
-  "notes": ""
+  "notes": "",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLLw",
@@ -8200,7 +8861,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Short; duration approximate (last frame unreadable)."
+  "notes": "Short; duration approximate (last frame unreadable).",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLMQ",
@@ -8227,7 +8890,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Second half rotated/accidental."
+  "notes": "Second half rotated/accidental.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLMA",
@@ -8254,7 +8919,9 @@
    ]
   ],
   "quality": 2,
-  "notes": "Flat grey light."
+  "notes": "Flat grey light.",
+  "used_count": 0,
+  "used_in_edits": []
  },
  {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACLLA",
@@ -8281,6 +8948,8 @@
    ]
   ],
   "quality": 2,
-  "notes": "Person's boot in corner."
+  "notes": "Person's boot in corner.",
+  "used_count": 0,
+  "used_in_edits": []
  }
 ]
