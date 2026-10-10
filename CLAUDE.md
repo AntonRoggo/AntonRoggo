@@ -10,6 +10,8 @@ This repo is the source of truth for Anton's personal-brand content: how videos 
 | Boost audio only | `boost_audio.py`, skill `boost-audio` |
 | Schedule an approved video on every platform | skill `publish-metricool`, settings in `publishing/config.json`, history in `publishing/log.md` |
 | Brand voice, audience, content pillars, visual style | `brand/` |
+| Lessons from Anton's feedback on past edits (read before every edit) | `brand/editing-lessons.md` |
+| Activity clips (Anton/friends doing things) | `broll/action.json` |
 | B-roll catalogue (best clips only, tagged) | `broll/catalog.json` |
 | Raw footage and B-roll | Dropbox: `/[01] Clients/[03] Anton/ANTON MASTER BROLL` |
 
@@ -21,4 +23,6 @@ This repo is the source of truth for Anton's personal-brand content: how videos 
 - Never post without Anton's explicit approval of that specific video. Posts go out 10 minutes after approval, Eastern time.
 - Read files from Dropbox with the Dropbox connector (`download_link` gives a temporary URL). Never move, rename or delete Dropbox files without asking.
 - Don't commit videos, fonts or other large media. Put working files in `input/` and `output/` (git-ignored).
+- Before every edit, read `brand/editing-lessons.md` and follow every rule in it. After the edit, check the video against each rule before showing it.
+- When Anton gives feedback on an edit, turn each point into a short, general rule in `brand/editing-lessons.md` (not just a fix for that one video), commit it, then fix the video.
 - When Anton states a new preference ("always...", "never...", "I like..."), record it in the right file here and commit it, so future sessions know it.

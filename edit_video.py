@@ -8,12 +8,18 @@ Guidelines:
   * Audio as loud as possible without clipping (see boost_audio.py).
 
 Usage:
-  python3 edit_video.py input/clip.mp4 [-o output/clip_edited.mp4] [--model small]
+  python3 edit_video.py input/clip.mp4 [-o output/clip_edited.mp4] [--model small] [--broll plan.json]
+
+The first run writes <out>.timeline.json (words with times on the edited timeline). Pick
+B-roll/action clips from broll/ for those moments, write a plan
+[{"file": "input/broll/x.mov", "start": 3.2, "end": 5.0, "clip_in": 1.5}, ...] and re-run
+with --broll; the transcript is cached so it isn't redone.
 
 Requires ffmpeg and `pip install faster-whisper`. Put the Proxima Nova
 Semibold font file (.otf/.ttf) in ./fonts.
 """
 import argparse
+import json
 import re
 import subprocess
 import sys
@@ -221,7 +227,23 @@ def check_font():
     return False
 
 
-def render(src, keep, ass_path, out):
+def broll_filters(plan, width, height, first_input):
+    """Overlay filters for B-roll/action clips. Plan times are on the edited timeline."""
+    chain, last = [], "vc"
+    for j, b in enumerate(plan):
+        n = first_input + j
+        dur = b["end"] - b["start"]
+        cin = b.get("clip_in", 0)
+        chain.append(f"[{n}:v]trim={cin:.3f}:{cin + dur:.3f},setpts=PTS-STARTPTS+{b['start']:.3f}/TB,"
+                     f"scale={width}:{height}:force_original_aspect_ratio=increase,"
+                     f"crop={width}:{height},setsar=1[b{j}];")
+        chain.append(f"[{last}][b{j}]overlay=enable='between(t,{b['start']:.3f},{b['end']:.3f})'"
+                     f":eof_action=pass[o{j}];")
+        last = f"o{j}"
+    return "".join(chain), last
+
+
+def render(src, keep, ass_path, out, plan=(), size=None):
     parts, labels = [], ""
     for i, (a, b) in enumerate(keep):
         parts.append(f"[0:v]trim={a:.3f}:{b:.3f},setpts=PTS-STARTPTS[v{i}];")
@@ -231,12 +253,14 @@ def render(src, keep, ass_path, out):
         labels += f"[v{i}][a{i}]"
     ass = str(ass_path).replace("\\", "/").replace(":", r"\:")
     fonts = str(FONTS_DIR).replace(":", r"\:")
-    graph = ("".join(parts) + f"{labels}concat=n={len(keep)}:v=1:a=1[vc][ac];"
-             f"[vc]ass='{ass}':fontsdir='{fonts}'[vo]")
+    over, last = broll_filters(plan, *size, 1) if plan else ("", "vc")
+    graph = ("".join(parts) + f"{labels}concat=n={len(keep)}:v=1:a=1[vc][ac];" + over +
+             f"[{last}]ass='{ass}':fontsdir='{fonts}'[vo]")
     script = out.with_suffix(".filtergraph.txt")
     script.write_text(graph)
     try:
-        run(["ffmpeg", "-y", "-hide_banner", "-i", str(src),
+        extra = sum([["-i", str(b["file"])] for b in plan], [])
+        run(["ffmpeg", "-y", "-hide_banner", "-i", str(src), *extra,
              "-filter_complex_script", str(script),
              "-map", "[vo]", "-map", "[ac]",
              "-c:v", "libx264", "-preset", "medium", "-crf", "18",
@@ -252,6 +276,8 @@ def main():
     ap.add_argument("-o", "--output", type=Path)
     ap.add_argument("--model", default="small",
                     help="whisper model size (tiny/base/small/medium/large-v3)")
+    ap.add_argument("--broll", type=Path,
+                    help="JSON list of {file, start, end, clip_in} overlays, times on the edited timeline")
     args = ap.parse_args()
 
     out = args.output or ROOT / "output" / f"{args.input.stem}_edited.mp4"
@@ -259,8 +285,14 @@ def main():
     check_font()
 
     width, height, duration = probe(args.input)
-    print("Transcribing...")
-    words = transcribe(args.input, args.model)
+    cache = out.with_suffix(".words.json")
+    if cache.exists():
+        words = json.loads(cache.read_text())
+        print(f"Using cached transcript {cache}")
+    else:
+        print("Transcribing...")
+        words = transcribe(args.input, args.model)
+        cache.write_text(json.dumps(words))
     drop = mark_mistakes(words)
     silences = detect_silences(args.input, duration)
     keep, kept = build_keep(words, drop, silences, duration)
@@ -273,9 +305,16 @@ def main():
 
     ass_path = out.with_suffix(".ass")
     write_captions(kept, keep, width, height, ass_path)
+    # transcript on the edited timeline, for planning B-roll
+    timeline = [{"text": w["text"], "start": round(remap(w["start"], keep) or 0, 2),
+                 "end": round(remap(w["end"], keep) or 0, 2)} for w in kept]
+    out.with_suffix(".timeline.json").write_text(json.dumps(timeline, indent=0))
+    plan = json.loads(args.broll.read_text()) if args.broll else []
+    if plan:
+        print(f"Overlaying {len(plan)} B-roll/action clips")
     print("Rendering...")
     rough = out.with_name(f"{out.stem}_rough{out.suffix}")
-    render(args.input, keep, ass_path, rough)
+    render(args.input, keep, ass_path, rough, plan, (width, height))
     print("Boosting audio...")
     try:
         boost(rough, out)

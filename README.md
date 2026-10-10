@@ -7,6 +7,11 @@
 - **Cut silences** longer than 1 second
 - **Audio boosted** as loud as possible without clipping (-12 LUFS, peaks capped at -1 dBTP), with a 15ms fade on every cut so there are no pops
 
+## B-roll
+
+The first run writes `output/<name>_edited.timeline.json` (the words with their times after cuts). Pick clips from `broll/catalog.json` / `broll/action.json`, download them to `input/broll/`, write a plan like
+`[{"file": "input/broll/oj.mov", "start": 3.2, "end": 5.0, "clip_in": 1.5}]` and run again with `--broll plan.json`. Clips are scaled to fill the frame; captions stay on top.
+
 ## Setup
 
 ```bash
