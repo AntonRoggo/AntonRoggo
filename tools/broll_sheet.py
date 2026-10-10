@@ -27,13 +27,13 @@ try:
     frames = []
     for i, t in enumerate(times):
         f = out_dir / f"{name}_{i}.jpg"
-        subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-ss", str(t), "-i", str(clip),
+        subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-ss", str(t), "-i", str(clip),
                         "-frames:v", "1", "-vf",
                         f"scale=-2:240,drawtext=text='{t}s':x=6:y=6:fontsize=20:fontcolor=yellow:box=1:boxcolor=black@0.6",
                         str(f)], check=True)
         frames.append(f)
     inputs = sum([["-i", str(f)] for f in frames], [])
-    subprocess.run(["ffmpeg", "-loglevel", "error", "-y", *inputs, "-filter_complex",
+    subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", *inputs, "-filter_complex",
                     "".join(f"[{i}]" for i in range(6)) + "hstack=inputs=6", str(sheet)], check=True)
     for f in frames:
         f.unlink()
