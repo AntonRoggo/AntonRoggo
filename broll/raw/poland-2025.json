@@ -2632,5 +2632,1367 @@
   ],
   "quality": 3,
   "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-qw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 4/Video 2025-07-28, 4 14 01 PM.mov",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "street toward cathedral",
+  "description": "Horizontal shot down a colourful street on Ostrów Tumski toward the cathedral spires, a passer-by crossing.",
+  "tags": [
+   "street",
+   "cathedral",
+   "wroclaw",
+   "architecture",
+   "colourful",
+   "city"
+  ],
+  "location": "Wrocław, Poland",
+  "orientation": "horizontal",
+  "duration": 5.07,
+  "usable": [
+   [
+    0,
+    2.5
+   ]
+  ],
+  "quality": 2,
+  "notes": "Person crosses foreground; reframes at end"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-sg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 4/Video 2025-07-28, 4 44 10 PM.mov",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "botanical garden pond",
+  "description": "Vertical shot of a lily-pad pond with purple loosestrife and trees in a botanical garden; phone tilts sideways at the end.",
+  "tags": [
+   "pond",
+   "lily pads",
+   "botanical garden",
+   "flowers",
+   "nature",
+   "green",
+   "calm"
+  ],
+  "location": "Wrocław, Poland",
+  "orientation": "vertical",
+  "duration": 6.9,
+  "usable": [
+   [
+    0,
+    4.5
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-rQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 4/Video 2025-07-28, 4 44 24 PM.mov",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "leaning on bridge railing",
+  "description": "Anton in white linen leans on a wooden footbridge railing in a lush garden, looking up and around, then walks off.",
+  "tags": [
+   "anton",
+   "bridge",
+   "garden",
+   "white linen",
+   "contemplative",
+   "green",
+   "nature"
+  ],
+  "location": "Wrocław, Poland",
+  "orientation": "vertical",
+  "duration": 8.93,
+  "usable": [
+   [
+    0,
+    6
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-tA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 4/Video 2025-07-28, 4 44 39 PM.mov",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "leaning on bridge railing",
+  "description": "Anton leans on a wooden bridge railing over a pond smiling, with a friend partly in frame left.",
+  "tags": [
+   "anton",
+   "bridge",
+   "pond",
+   "garden",
+   "white linen",
+   "smiling"
+  ],
+  "location": "Wrocław, Poland",
+  "orientation": "vertical",
+  "duration": 11.63,
+  "usable": [
+   [
+    0,
+    11.63
+   ]
+  ],
+  "quality": 2,
+  "notes": "Friend cut off at frame edge"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-qA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 4/Video 2025-07-28, 4 47 23 PM.mov",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "cascading stream",
+  "description": "Close horizontal shot of water rushing over dark rocks in a small cascade.",
+  "tags": [
+   "water",
+   "stream",
+   "cascade",
+   "rocks",
+   "nature",
+   "motion",
+   "close up"
+  ],
+  "location": "Wrocław, Poland",
+  "orientation": "horizontal",
+  "duration": 5.0,
+  "usable": [
+   [
+    0,
+    5.0
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-qQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 4/Video 2025-07-28, 4 48 52 PM.mov",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "relaxing on garden bench",
+  "description": "Horizontal shot of Anton leaning back on a garden bench by an iron table, looking up at the trees.",
+  "tags": [
+   "anton",
+   "bench",
+   "garden",
+   "relaxing",
+   "white linen",
+   "calm",
+   "nature"
+  ],
+  "location": "Wrocław, Poland",
+  "orientation": "horizontal",
+  "duration": 4.96,
+  "usable": [
+   [
+    0,
+    4.96
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-pQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 4/Video 2025-07-28, 4 49 00 PM.mov",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "relaxing on garden bench",
+  "description": "Wider horizontal shot of Anton reclining on a garden bench under trees, gazing upward.",
+  "tags": [
+   "anton",
+   "bench",
+   "garden",
+   "relaxing",
+   "white linen",
+   "calm"
+  ],
+  "location": "Wrocław, Poland",
+  "orientation": "horizontal",
+  "duration": 4.29,
+  "usable": [
+   [
+    0,
+    4.29
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-pA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 4/Video 2025-07-28, 4 49 27 PM.mov",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "relaxing on garden bench",
+  "description": "Vertical shot of Anton sitting back on a park bench beneath arching trees.",
+  "tags": [
+   "anton",
+   "bench",
+   "garden",
+   "relaxing",
+   "white linen",
+   "green"
+  ],
+  "location": "Wrocław, Poland",
+  "orientation": "vertical",
+  "duration": 5.92,
+  "usable": [
+   [
+    0,
+    5.92
+   ]
+  ],
+  "quality": 3,
+  "notes": "Table dominates foreground"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-og",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 4/Video 2025-07-28, 4 49 37 PM.mov",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "relaxing on garden bench",
+  "description": "Vertical shot of Anton cross-legged on a garden bench with arms spread, eyes closed in the greenery.",
+  "tags": [
+   "anton",
+   "bench",
+   "garden",
+   "relaxing",
+   "meditative",
+   "green",
+   "calm"
+  ],
+  "location": "Wrocław, Poland",
+  "orientation": "vertical",
+  "duration": 4.81,
+  "usable": [
+   [
+    0,
+    4.81
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-oQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 4/Video 2025-07-28, 4 50 03 PM.mov",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "pov crossed legs on bench",
+  "description": "POV of crossed legs on a garden bench by a table, then pans to the gravel path and trees.",
+  "tags": [
+   "pov",
+   "legs",
+   "bench",
+   "garden",
+   "relaxing",
+   "path"
+  ],
+  "location": "Wrocław, Poland",
+  "orientation": "vertical",
+  "duration": 5.63,
+  "usable": [
+   [
+    0,
+    5.63
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-oA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 4/Video 2025-07-28, 5 27 42 PM.mov",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "flower beds and cathedral",
+  "description": "Static vertical shot of a lawn edged with orange and yellow flower beds, trees and the cathedral roof behind.",
+  "tags": [
+   "flowers",
+   "garden",
+   "lawn",
+   "cathedral",
+   "colourful",
+   "static",
+   "botanical garden"
+  ],
+  "location": "Wrocław, Poland",
+  "orientation": "vertical",
+  "duration": 4.3,
+  "usable": [
+   [
+    0,
+    4.3
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-nQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 4/Video 2025-07-28, 5 27 50 PM.mov",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "flower beds and cathedral",
+  "description": "Horizontal static shot of colourful flower beds and trees with the cathedral beyond.",
+  "tags": [
+   "flowers",
+   "garden",
+   "lawn",
+   "cathedral",
+   "colourful",
+   "static",
+   "botanical garden"
+  ],
+  "location": "Wrocław, Poland",
+  "orientation": "horizontal",
+  "duration": 5.67,
+  "usable": [
+   [
+    0,
+    5.67
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-ng",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 4/Video 2025-07-28, 5 28 48 PM.mov",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "walking barefoot on lawn",
+  "description": "Anton walks barefoot across a lawn beside flower beds toward the cathedral, turns and walks back toward camera.",
+  "tags": [
+   "anton",
+   "barefoot",
+   "walking",
+   "lawn",
+   "garden",
+   "grounding",
+   "white linen"
+  ],
+  "location": "Wrocław, Poland",
+  "orientation": "vertical",
+  "duration": 21.53,
+  "usable": [
+   [
+    0,
+    21.53
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-mw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 4/Video 2025-07-28, 5 34 27 PM.mov",
+  "folder": "poland 2025",
+  "kind": "talking",
+  "shot": "talking by garden pond",
+  "description": "Anton in white linen talks to camera by a botanical garden pond with water lilies.",
+  "tags": [
+   "anton",
+   "talking head",
+   "garden",
+   "pond",
+   "white linen"
+  ],
+  "location": "Wrocław, Poland",
+  "orientation": "vertical",
+  "duration": 7.13,
+  "usable": [
+   [
+    0,
+    7.13
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-nA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 4/Video 2025-07-28, 5 37 53 PM.mov",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "garden path to cathedral",
+  "description": "Static vertical shot of a garden path with flowers, cypress trees and the cathedral spire behind.",
+  "tags": [
+   "garden",
+   "path",
+   "cathedral",
+   "flowers",
+   "trees",
+   "static",
+   "botanical garden"
+  ],
+  "location": "Wrocław, Poland",
+  "orientation": "vertical",
+  "duration": 4.4,
+  "usable": [
+   [
+    0,
+    4.4
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-mA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 4/Video 2025-07-28, 6 48 44 PM.mov",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "black dog walking toward camera",
+  "description": "A black shepherd dog trots across the grass toward the camera in a park.",
+  "tags": [
+   "dog",
+   "animal",
+   "park",
+   "grass",
+   "green",
+   "walking"
+  ],
+  "location": "Wrocław, Poland",
+  "orientation": "vertical",
+  "duration": 7.73,
+  "usable": [
+   [
+    0,
+    7.73
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-lg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 4/Video 2025-07-28, 6 48 53 PM.mov",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "friend walking with dog",
+  "description": "A friend walks past with a black dog on the grass.",
+  "tags": [
+   "friend",
+   "dog",
+   "park",
+   "grass",
+   "walking"
+  ],
+  "location": "Wrocław, Poland",
+  "orientation": "vertical",
+  "duration": 3.2,
+  "usable": [
+   [
+    0,
+    3.2
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-iw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 5/finished/july29.mov",
+  "folder": "poland 2025",
+  "kind": "other",
+  "shot": "finished edit botanical gardens",
+  "description": "Finished short ('why don't you have...'): garden talk, barefoot lawn, botanical garden pond and flower beds.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "botanical garden",
+   "flowers",
+   "walking"
+  ],
+  "location": "Wrocław, Poland",
+  "orientation": "vertical",
+  "duration": 7.73,
+  "usable": [
+   [
+    0,
+    7.73
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-jA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 5/finished/july31.mov",
+  "folder": "poland 2025",
+  "kind": "other",
+  "shot": "finished edit polish dream",
+  "description": "Finished short ('american dream / the polish dream') with river talk, pierogi and garden shots.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "pierogi",
+   "river",
+   "garden"
+  ],
+  "location": "Wrocław, Poland",
+  "orientation": "vertical",
+  "duration": 10.7,
+  "usable": [
+   [
+    0,
+    10.7
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-yg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 6/IMG_5920.MOV",
+  "folder": "poland 2025",
+  "kind": "talking",
+  "shot": "talking with oysters",
+  "description": "Under-a-second fragment of Anton holding a plate of oysters at a restaurant.",
+  "tags": [
+   "anton",
+   "talking head",
+   "oysters",
+   "restaurant"
+  ],
+  "location": "Poland",
+  "orientation": "vertical",
+  "duration": 0.9,
+  "usable": [
+   [
+    0,
+    0.9
+   ]
+  ],
+  "quality": 1,
+  "notes": "0.9s fragment"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-yQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 6/IMG_5921.MOV",
+  "folder": "poland 2025",
+  "kind": "talking",
+  "shot": "talking with oysters",
+  "description": "Anton in a beige jacket holds a plate of oysters and talks to camera in a restaurant.",
+  "tags": [
+   "anton",
+   "talking head",
+   "oysters",
+   "seafood",
+   "restaurant",
+   "beige jacket"
+  ],
+  "location": "Poland",
+  "orientation": "vertical",
+  "duration": 7.63,
+  "usable": [
+   [
+    0,
+    7.63
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-zA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 6/IMG_5922.MOV",
+  "folder": "poland 2025",
+  "kind": "talking",
+  "shot": "talking with oysters",
+  "description": "Handheld start then Anton talking to camera at the oyster table.",
+  "tags": [
+   "anton",
+   "talking head",
+   "oysters",
+   "restaurant"
+  ],
+  "location": "Poland",
+  "orientation": "vertical",
+  "duration": 3.37,
+  "usable": [
+   [
+    0,
+    3.37
+   ]
+  ],
+  "quality": 1,
+  "notes": "Handling at start"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-4w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 6/IMG_5923.MOV",
+  "folder": "poland 2025",
+  "kind": "talking",
+  "shot": "talking with oysters",
+  "description": "Another take of Anton presenting a plate of oysters and talking.",
+  "tags": [
+   "anton",
+   "talking head",
+   "oysters",
+   "seafood",
+   "restaurant"
+  ],
+  "location": "Poland",
+  "orientation": "vertical",
+  "duration": 5.2,
+  "usable": [
+   [
+    0,
+    5.2
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-zg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 6/IMG_5924.MOV",
+  "folder": "poland 2025",
+  "kind": "other",
+  "shot": "accidental clip",
+  "description": "Camera pointing at a wooden table top for 16 seconds.",
+  "tags": [
+   "accidental",
+   "table"
+  ],
+  "location": "Poland",
+  "orientation": "vertical",
+  "duration": 15.87,
+  "usable": [
+   [
+    0,
+    15.87
+   ]
+  ],
+  "quality": 1,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-yw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 6/IMG_5925.MOV",
+  "folder": "poland 2025",
+  "kind": "talking",
+  "shot": "eating oysters",
+  "description": "Anton eats oysters with a small fork at a restaurant, chatting to camera.",
+  "tags": [
+   "anton",
+   "oysters",
+   "eating",
+   "seafood",
+   "restaurant",
+   "talking"
+  ],
+  "location": "Poland",
+  "orientation": "vertical",
+  "duration": 20.27,
+  "usable": [
+   [
+    0,
+    20.27
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-zw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 6/IMG_5926.MOV",
+  "folder": "poland 2025",
+  "kind": "other",
+  "shot": "accidental black clip",
+  "description": "7.5 seconds of an almost entirely black frame.",
+  "tags": [
+   "accidental",
+   "black",
+   "dark"
+  ],
+  "location": "Poland",
+  "orientation": "horizontal",
+  "duration": 7.5,
+  "usable": [
+   [
+    0,
+    7.5
+   ]
+  ],
+  "quality": 1,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-xg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 6/IMG_5927.MOV",
+  "folder": "poland 2025",
+  "kind": "talking",
+  "shot": "talking at restaurant over steak",
+  "description": "Short take of Anton in a linen shirt talking at a restaurant table over a steak dish.",
+  "tags": [
+   "anton",
+   "talking head",
+   "restaurant",
+   "steak",
+   "linen shirt"
+  ],
+  "location": "Gdańsk, Poland",
+  "orientation": "vertical",
+  "duration": 1.93,
+  "usable": [
+   [
+    0,
+    1.93
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-0A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 6/IMG_5928.MOV",
+  "folder": "poland 2025",
+  "kind": "talking",
+  "shot": "eating steak and talking",
+  "description": "Anton eats a steak with sauce at a terrace restaurant while talking to camera.",
+  "tags": [
+   "anton",
+   "talking head",
+   "eating",
+   "steak",
+   "restaurant",
+   "linen shirt"
+  ],
+  "location": "Gdańsk, Poland",
+  "orientation": "vertical",
+  "duration": 12.77,
+  "usable": [
+   [
+    0,
+    12.77
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-1A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 6/IMG_6134.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "gdansk crane riverside",
+  "description": "Static vertical shot of the riverside promenade with the medieval Gdańsk Crane and walkers under clouds.",
+  "tags": [
+   "gdansk",
+   "crane",
+   "riverside",
+   "promenade",
+   "landmark",
+   "city",
+   "cloudy",
+   "static"
+  ],
+  "location": "Gdańsk, Poland",
+  "orientation": "vertical",
+  "duration": 2.9,
+  "usable": [
+   [
+    0,
+    2.9
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-xw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 6/IMG_6135.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "oysters overhead",
+  "description": "Overhead of a plate of dressed oysters with lime on a rustic wooden table; brief blurry pick-up mid-clip.",
+  "tags": [
+   "oysters",
+   "seafood",
+   "food",
+   "overhead",
+   "wooden table",
+   "lime"
+  ],
+  "location": "Gdańsk, Poland",
+  "orientation": "vertical",
+  "duration": 7.69,
+  "usable": [
+   [
+    0,
+    2.5
+   ],
+   [
+    4.5,
+    7.7
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-yA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 6/IMG_6136.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "oysters overhead",
+  "description": "Overhead of two plates of oysters and drinks on a wooden restaurant table.",
+  "tags": [
+   "oysters",
+   "seafood",
+   "food",
+   "overhead",
+   "wooden table",
+   "drinks"
+  ],
+  "location": "Gdańsk, Poland",
+  "orientation": "vertical",
+  "duration": 3.58,
+  "usable": [
+   [
+    0,
+    3.58
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-zQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 6/IMG_6137.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "fish dinner overhead",
+  "description": "Overhead of a plate of seared fish, mash, green beans and carrots with hands holding cutlery.",
+  "tags": [
+   "fish",
+   "dinner",
+   "food",
+   "overhead",
+   "healthy",
+   "vegetables",
+   "plate"
+  ],
+  "location": "Gdańsk, Poland",
+  "orientation": "vertical",
+  "duration": 3.11,
+  "usable": [
+   [
+    0,
+    3.11
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-0g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 6/IMG_6138.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "gdansk waterfront houses",
+  "description": "Static vertical view across the Motława river to colourful Gdańsk waterfront houses.",
+  "tags": [
+   "gdansk",
+   "waterfront",
+   "river",
+   "houses",
+   "city",
+   "cloudy",
+   "static"
+  ],
+  "location": "Gdańsk, Poland",
+  "orientation": "vertical",
+  "duration": 4.06,
+  "usable": [
+   [
+    0,
+    4.06
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-0w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 6/IMG_6147.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "pov feet in waves",
+  "description": "POV looking down at bare feet in wet sand as a gentle wave washes over them at dusk.",
+  "tags": [
+   "pov",
+   "feet",
+   "beach",
+   "waves",
+   "sea",
+   "grounding",
+   "dusk",
+   "calm"
+  ],
+  "location": "Baltic coast, Poland",
+  "orientation": "vertical",
+  "duration": 3.34,
+  "usable": [
+   [
+    0,
+    3.34
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-1w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 6/IMG_6148.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "pov feet in waves",
+  "description": "POV of bare feet on the shoreline as a wave rushes over; camera whips up at the end.",
+  "tags": [
+   "pov",
+   "feet",
+   "beach",
+   "waves",
+   "sea",
+   "grounding",
+   "dusk"
+  ],
+  "location": "Baltic coast, Poland",
+  "orientation": "vertical",
+  "duration": 3.34,
+  "usable": [
+   [
+    0,
+    2.8
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-2A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 6/IMG_6149.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "baltic sea at dusk",
+  "description": "Static vertical shot of the calm Baltic Sea under clouds with a pink sunset strip on the horizon.",
+  "tags": [
+   "sea",
+   "dusk",
+   "sunset",
+   "clouds",
+   "calm",
+   "horizon",
+   "static",
+   "blue"
+  ],
+  "location": "Baltic coast, Poland",
+  "orientation": "vertical",
+  "duration": 3.58,
+  "usable": [
+   [
+    0,
+    3.58
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-2g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 6/IMG_6150.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "walking barefoot on beach at dusk",
+  "description": "Anton in a beige jacket stands at the water's edge looking out to sea at dusk, then walks along the shore.",
+  "tags": [
+   "anton",
+   "beach",
+   "sea",
+   "dusk",
+   "barefoot",
+   "walking",
+   "contemplative",
+   "blue hour"
+  ],
+  "location": "Baltic coast, Poland",
+  "orientation": "vertical",
+  "duration": 11.5,
+  "usable": [
+   [
+    0,
+    6
+   ],
+   [
+    7.5,
+    9.5
+   ]
+  ],
+  "quality": 4,
+  "notes": "Camera pans to empty sea mid-clip and at end"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-0Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 6/IMG_6153.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "sunset over bay",
+  "description": "Horizontal static shot of dark clouds over a calm bay with an orange sunset glow on the horizon.",
+  "tags": [
+   "sunset",
+   "sea",
+   "bay",
+   "clouds",
+   "dramatic",
+   "dusk",
+   "static"
+  ],
+  "location": "Baltic coast, Poland",
+  "orientation": "horizontal",
+  "duration": 4.73,
+  "usable": [
+   [
+    0,
+    4.73
+   ]
+  ],
+  "quality": 3,
+  "notes": "Dark/moody"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-6g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 6/finished/july30.mov",
+  "folder": "poland 2025",
+  "kind": "other",
+  "shot": "finished edit wroclaw ice cream",
+  "description": "Finished short ('we're in Wrocław'): best ice cream shop, taste test by the river.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "ice cream",
+   "wroclaw",
+   "taste test"
+  ],
+  "location": "Wrocław, Poland",
+  "orientation": "vertical",
+  "duration": 12.4,
+  "usable": [
+   [
+    0,
+    12.4
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-5w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 6/finished/july31.mov",
+  "folder": "poland 2025",
+  "kind": "other",
+  "shot": "finished edit gdansk evening",
+  "description": "Finished short ('living the...'): oysters, evening beach walk, taste test and steak.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "oysters",
+   "beach",
+   "steak",
+   "food"
+  ],
+  "location": "Gdańsk, Poland",
+  "orientation": "vertical",
+  "duration": 17.37,
+  "usable": [
+   [
+    0,
+    17.37
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-5Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 6/finished/july31_1.mov",
+  "folder": "poland 2025",
+  "kind": "other",
+  "shot": "finished edit gdansk evening",
+  "description": "Duplicate export of the Gdańsk evening finished short.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "oysters",
+   "beach",
+   "steak"
+  ],
+  "location": "Gdańsk, Poland",
+  "orientation": "vertical",
+  "duration": 17.37,
+  "usable": [
+   [
+    0,
+    17.37
+   ]
+  ],
+  "quality": 3,
+  "notes": "Same size as july31.mov, likely exact duplicate"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-7w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 7/IMG_5937.MOV",
+  "folder": "poland 2025",
+  "kind": "talking",
+  "shot": "talking in park avenue",
+  "description": "Anton in a navy tee and white shorts talks to camera on a gravel park path under willows.",
+  "tags": [
+   "anton",
+   "talking head",
+   "park",
+   "willow",
+   "navy tee",
+   "gravel path"
+  ],
+  "location": "Poland",
+  "orientation": "vertical",
+  "duration": 7.97,
+  "usable": [
+   [
+    0,
+    7.97
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-8Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 7/IMG_5938.MOV",
+  "folder": "poland 2025",
+  "kind": "talking",
+  "shot": "talking in park avenue",
+  "description": "Another take of Anton talking on the willow-lined park path.",
+  "tags": [
+   "anton",
+   "talking head",
+   "park",
+   "willow",
+   "navy tee"
+  ],
+  "location": "Poland",
+  "orientation": "vertical",
+  "duration": 11.8,
+  "usable": [
+   [
+    0,
+    11.8
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-3A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 7/IMG_5939.MOV",
+  "folder": "poland 2025",
+  "kind": "talking",
+  "shot": "talking in park avenue",
+  "description": "Closer take of Anton talking under willows in a park.",
+  "tags": [
+   "anton",
+   "talking head",
+   "park",
+   "willow",
+   "navy tee"
+  ],
+  "location": "Poland",
+  "orientation": "vertical",
+  "duration": 5.27,
+  "usable": [
+   [
+    0,
+    5.27
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-2w",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 7/IMG_5940.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "barefoot walk through park",
+  "description": "Long handheld walk: Anton barefoot on a gravel park path looking up, ivy-covered wall, misty garden and rain on paths, ending on Anton by a bench.",
+  "tags": [
+   "anton",
+   "park",
+   "barefoot",
+   "walking",
+   "rain",
+   "ivy",
+   "garden",
+   "mist"
+  ],
+  "location": "Poland",
+  "orientation": "vertical",
+  "duration": 43.84,
+  "usable": [
+   [
+    0,
+    6
+   ]
+  ],
+  "quality": 2,
+  "notes": "Mixed handheld; misty/blurry lens in the middle"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-7g",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 7/IMG_6180.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "coffee with sugar bowl",
+  "description": "Close shot of a cappuccino, crystal sugar bowl and water bottle on a cafe table with a friend's hand.",
+  "tags": [
+   "coffee",
+   "cappuccino",
+   "cafe",
+   "table",
+   "sugar",
+   "close up"
+  ],
+  "location": "Poland",
+  "orientation": "vertical",
+  "duration": 3.14,
+  "usable": [
+   [
+    0,
+    3.14
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-3Q",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 7/IMG_6181.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "closing laptop and removing headphones",
+  "description": "Anton in a cafe takes off headphones, closes his laptop and sits back talking.",
+  "tags": [
+   "anton",
+   "laptop",
+   "headphones",
+   "cafe",
+   "remote work",
+   "logging off"
+  ],
+  "location": "Poland",
+  "orientation": "vertical",
+  "duration": 3.74,
+  "usable": [
+   [
+    0,
+    3.74
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA-9A",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 7/finished/aug2.mov",
+  "folder": "poland 2025",
+  "kind": "other",
+  "shot": "finished edit log off and live",
+  "description": "Finished short ('if you're on a screen... hit the park... grab dinner'): park talk, closing laptop, barefoot park, bench.",
+  "tags": [
+   "finished edit",
+   "captions",
+   "park",
+   "laptop",
+   "lifestyle"
+  ],
+  "location": "Poland",
+  "orientation": "vertical",
+  "duration": 12.3,
+  "usable": [
+   [
+    0,
+    12.3
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_Bg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_5943.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "posing in forest with cloak",
+  "description": "Anton barefoot in a dark cloak stands with one foot on a rock in a green forest, posing like a wanderer.",
+  "tags": [
+   "anton",
+   "forest",
+   "cloak",
+   "barefoot",
+   "rock",
+   "pose",
+   "green",
+   "humour"
+  ],
+  "location": "Poland",
+  "orientation": "vertical",
+  "duration": 2.67,
+  "usable": [
+   [
+    0,
+    2.67
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAAA_EA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/poland 2025/day 8/IMG_5944.MOV",
+  "folder": "poland 2025",
+  "kind": "broll",
+  "shot": "posing in forest with cloak",
+  "description": "Anton in a cloak poses with a foot on a mossy rock in a bright green forest.",
+  "tags": [
+   "anton",
+   "forest",
+   "cloak",
+   "barefoot",
+   "rock",
+   "pose",
+   "green"
+  ],
+  "location": "Poland",
+  "orientation": "vertical",
+  "duration": 2.63,
+  "usable": [
+   [
+    0,
+    2.63
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
  }
 ]

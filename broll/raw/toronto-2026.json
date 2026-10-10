@@ -7221,5 +7221,962 @@
   ],
   "quality": 2,
   "notes": "Shaky; ends in snow."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLJQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 11 59 06 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "other",
+  "shot": "accidental recording",
+  "description": "Under-a-second accidental clip of a finger over the lens.",
+  "tags": [
+   "accidental",
+   "blur"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 0.7,
+  "usable": [
+   [
+    0,
+    0
+   ]
+  ],
+  "quality": 1,
+  "notes": "Accidental."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLKg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 11 59 47 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "gondola talk",
+  "description": "Anton in a gondola talks to camera holding grass-fed meat sticks, snowy trees outside.",
+  "tags": [
+   "anton",
+   "talking head",
+   "gondola",
+   "meat sticks",
+   "snack",
+   "winter",
+   "ski trip"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 23.03,
+  "usable": [
+   [
+    0,
+    20
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking take (source of march22 edits)."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLKA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 12 26 06 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "snowy forest from chairlift",
+  "description": "Horizontal view from a chairlift over snow-dusted pine forest and misty mountainside.",
+  "tags": [
+   "chairlift",
+   "snowy forest",
+   "pine trees",
+   "mountain",
+   "mist",
+   "winter",
+   "horizontal",
+   "moving"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "horizontal",
+  "duration": 6.3,
+  "usable": [
+   [
+    0,
+    6.3
+   ]
+  ],
+  "quality": 4,
+  "notes": "Smooth lift motion."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLJg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 12 26 16 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "chairlift view",
+  "description": "Horizontal chairlift ride over frosted pines with view down the lift line to the valley; camera flips at end.",
+  "tags": [
+   "chairlift",
+   "snowy forest",
+   "mountain view",
+   "valley",
+   "winter",
+   "horizontal",
+   "moving"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "horizontal",
+  "duration": 18.41,
+  "usable": [
+   [
+    0,
+    12
+   ]
+  ],
+  "quality": 3,
+  "notes": "Last ~6s camera rotates sideways."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLIw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 12 26 37 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "chairlift line",
+  "description": "Vertical view of chairlift towers and chairs climbing a snowy run toward cloud-covered mountains.",
+  "tags": [
+   "chairlift",
+   "ski resort",
+   "snow",
+   "pine trees",
+   "mountains",
+   "clouds",
+   "winter",
+   "moving"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 6.8,
+  "usable": [
+   [
+    0,
+    6.8
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLJA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 12 26 55 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "chairlift riders ahead",
+  "description": "Following a chair of skiers ahead on the lift over a snowy, foggy slope.",
+  "tags": [
+   "chairlift",
+   "skiers",
+   "snow",
+   "fog",
+   "pine trees",
+   "winter",
+   "ski resort"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 6.84,
+  "usable": [
+   [
+    0,
+    6.84
+   ]
+  ],
+  "quality": 3,
+  "notes": "1080p."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLIA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 12 27 08 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "chairlift over snow",
+  "description": "Chairlift cable and chair ahead above deep snow and frosted pines in fog.",
+  "tags": [
+   "chairlift",
+   "snow",
+   "fog",
+   "pine trees",
+   "winter",
+   "ski resort",
+   "moving"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 6.0,
+  "usable": [
+   [
+    0,
+    6.0
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLIQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 12 29 04 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "frosted pine forest",
+  "description": "Pan across a hillside of snow-frosted pine trees in light fog.",
+  "tags": [
+   "snowy forest",
+   "pine trees",
+   "frost",
+   "winter",
+   "fog",
+   "mountain",
+   "pan"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 13.37,
+  "usable": [
+   [
+    0,
+    13.37
+   ]
+  ],
+  "quality": 3,
+  "notes": "1080p; moving pan."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLIg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 12 38 24 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "snowboarding",
+  "description": "Distant snowboarder riding down a foggy slope then wiping out near camera.",
+  "tags": [
+   "snowboarding",
+   "snow",
+   "ski slope",
+   "winter",
+   "mountain",
+   "pine trees",
+   "overcast"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 16.5,
+  "usable": [
+   [
+    0,
+    16.5
+   ]
+  ],
+  "quality": 2,
+  "notes": "Fog, small subject."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLOA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 12 42 20 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "snowboarding",
+  "description": "Snowboarder descending a foggy run between trees; ends on valley view.",
+  "tags": [
+   "snowboarding",
+   "snow",
+   "ski slope",
+   "winter",
+   "mountain",
+   "pine trees",
+   "overcast"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 41.17,
+  "usable": [
+   [
+    20,
+    26
+   ],
+   [
+    36,
+    41
+   ]
+  ],
+  "quality": 2,
+  "notes": "Long, mostly empty frames."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLLQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 12 45 57 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "snowboarding",
+  "description": "Static view of a snowy ridge where a snowboarder briefly appears; mostly empty.",
+  "tags": [
+   "snowboarding",
+   "snow",
+   "ski slope",
+   "winter",
+   "mountain",
+   "pine trees",
+   "overcast"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 34.17,
+  "usable": [
+   [
+    0,
+    34.17
+   ]
+  ],
+  "quality": 1,
+  "notes": "Mostly empty slope."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLJw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 12 46 50 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "snowboarding",
+  "description": "Snowboarder carves past camera on a ridge then down a tree-lined run.",
+  "tags": [
+   "snowboarding",
+   "snow",
+   "ski slope",
+   "winter",
+   "mountain",
+   "pine trees",
+   "overcast"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 17.3,
+  "usable": [
+   [
+    0,
+    17.3
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLHg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 12 52 05 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "snowboard pov resting",
+  "description": "POV sitting with lime snowboard, looking out at ski runs and cloudy mountains, sun behind clouds.",
+  "tags": [
+   "snowboard",
+   "pov",
+   "legs",
+   "mountain view",
+   "ski resort",
+   "winter",
+   "clouds",
+   "resting"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 4.07,
+  "usable": [
+   [
+    0,
+    4.07
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLHA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 12 52 16 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "snowboard pov resting",
+  "description": "Horizontal POV sitting down on the slope, legs and lime board in front of a ski-run mountain vista.",
+  "tags": [
+   "snowboard",
+   "pov",
+   "legs",
+   "mountain view",
+   "ski resort",
+   "winter",
+   "clouds",
+   "resting"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "horizontal",
+  "duration": 3.8,
+  "usable": [
+   [
+    0,
+    3.8
+   ]
+  ],
+  "quality": 3,
+  "notes": "Camera settles; person enters at end."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLHw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 12 52 23 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "snowboard pov resting",
+  "description": "Horizontal POV of lime snowboard and legs resting on the slope with a valley and ski runs view.",
+  "tags": [
+   "snowboard",
+   "pov",
+   "legs",
+   "mountain view",
+   "ski resort",
+   "winter",
+   "clouds",
+   "resting"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "horizontal",
+  "duration": 5.0,
+  "usable": [
+   [
+    0,
+    5.0
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLGg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 12 52 35 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "snowboard pov resting",
+  "description": "POV of legs on lime snowboard looking out at clouds and distant ski runs.",
+  "tags": [
+   "snowboard",
+   "pov",
+   "legs",
+   "mountain view",
+   "ski resort",
+   "winter",
+   "clouds",
+   "resting"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 4.5,
+  "usable": [
+   [
+    0,
+    4.5
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLHQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 2 54 11 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "strapping in selfie",
+  "description": "Anton in helmet strapping into his lime snowboard on a ridge, selfie with valley behind.",
+  "tags": [
+   "anton",
+   "snowboarding",
+   "helmet",
+   "selfie",
+   "mountain view",
+   "winter",
+   "strapping in"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 8.77,
+  "usable": [
+   [
+    2,
+    7
+   ]
+  ],
+  "quality": 2,
+  "notes": "Handheld, tilted."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLPg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 3 10 27 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "other",
+  "shot": "car trunk at night",
+  "description": "Dark horizontal clip of an open car trunk at night lit by tail lights.",
+  "tags": [
+   "car",
+   "trunk",
+   "night",
+   "dark",
+   "red light",
+   "horizontal"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "horizontal",
+  "duration": 8.5,
+  "usable": [
+   [
+    0,
+    0
+   ]
+  ],
+  "quality": 1,
+  "notes": "Too dark."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLPA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 3 10 39 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "other",
+  "shot": "night selfie by car",
+  "description": "Dark red-lit horizontal selfie of Anton by a car at night.",
+  "tags": [
+   "anton",
+   "night",
+   "dark",
+   "red light",
+   "car",
+   "selfie",
+   "horizontal"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "horizontal",
+  "duration": 6.6,
+  "usable": [
+   [
+    0,
+    0
+   ]
+  ],
+  "quality": 1,
+  "notes": "Too dark."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLGQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 3 39 59 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "summit mountain vista",
+  "description": "Horizontal pan over a vast snowy Adirondack mountain range under clouds; a friend in helmet and backpack crosses the frame.",
+  "tags": [
+   "mountain range",
+   "summit",
+   "vista",
+   "adirondacks",
+   "winter",
+   "clouds",
+   "epic",
+   "horizontal",
+   "pan"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "horizontal",
+  "duration": 12.51,
+  "usable": [
+   [
+    0,
+    6
+   ],
+   [
+    9,
+    12.51
+   ]
+  ],
+  "quality": 4,
+  "notes": "Person blocks shot mid-clip."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLGw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 3 40 15 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "summit vista with rider",
+  "description": "Vertical pan across snowy mountain range to a snowboarder in black standing on the summit.",
+  "tags": [
+   "mountain range",
+   "summit",
+   "snowboarder",
+   "vista",
+   "winter",
+   "clouds",
+   "pan"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 13.57,
+  "usable": [
+   [
+    0,
+    13.57
+   ]
+  ],
+  "quality": 3,
+  "notes": "1080p, pan."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLGA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 3 40 37 PM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "summit vista",
+  "description": "Horizontal static of a snowy summit edge overlooking cloud-capped mountain ranges.",
+  "tags": [
+   "mountain range",
+   "summit",
+   "vista",
+   "snow",
+   "clouds",
+   "winter",
+   "horizontal",
+   "static"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "horizontal",
+  "duration": 4.5,
+  "usable": [
+   [
+    0,
+    4.5
+   ]
+  ],
+  "quality": 4,
+  "notes": "Slight tilt."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLOg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 6 02 39 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "gas station at night",
+  "description": "Horizontal handheld: brightly lit gas station canopy with a pickup truck, then pan to a roadside convenience store/Subway at night.",
+  "tags": [
+   "gas station",
+   "night",
+   "road trip",
+   "convenience store",
+   "lights",
+   "winter",
+   "horizontal"
+  ],
+  "location": "Upstate New York",
+  "orientation": "horizontal",
+  "duration": 10.11,
+  "usable": [
+   [
+    0,
+    10.11
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLPw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 6 02 59 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "talking",
+  "shot": "night gas station talk",
+  "description": "Horizontal selfie of Anton talking and smiling at a gas station at night.",
+  "tags": [
+   "anton",
+   "talking head",
+   "selfie",
+   "night",
+   "gas station",
+   "road trip",
+   "horizontal"
+  ],
+  "location": "Upstate New York",
+  "orientation": "horizontal",
+  "duration": 29.6,
+  "usable": [
+   [
+    0,
+    29.6
+   ]
+  ],
+  "quality": 2,
+  "notes": "Talking take."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLNw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 7 44 32 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "snowy woods from car",
+  "description": "Blurry view from a moving car window of snowy woods (possibly deer), camera fumbling.",
+  "tags": [
+   "car window",
+   "snowy woods",
+   "driving",
+   "winter",
+   "motion blur"
+  ],
+  "location": "Upstate New York",
+  "orientation": "vertical",
+  "duration": 3.65,
+  "usable": [
+   [
+    2,
+    3
+   ]
+  ],
+  "quality": 1,
+  "notes": "Blurry and shaky."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLOQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 7 45 41 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "driving snowy highway",
+  "description": "Dashboard view driving a two-lane highway through snowy pine forest, overcast.",
+  "tags": [
+   "driving",
+   "road trip",
+   "snowy road",
+   "pine forest",
+   "winter",
+   "dashboard",
+   "overcast"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 6.8,
+  "usable": [
+   [
+    0,
+    6.8
+   ]
+  ],
+  "quality": 3,
+  "notes": "Windshield reflections."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLNQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 7 45 51 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "driving snowy highway",
+  "description": "Horizontal dashboard view driving a road lined with snow-covered pines.",
+  "tags": [
+   "driving",
+   "road trip",
+   "snowy road",
+   "pine forest",
+   "winter",
+   "horizontal",
+   "dashboard"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "horizontal",
+  "duration": 6.33,
+  "usable": [
+   [
+    0,
+    6.33
+   ]
+  ],
+  "quality": 3,
+  "notes": "Windshield reflections."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLMw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 8 31 40 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "whiteface entrance sign",
+  "description": "Through the windshield: Whiteface ski resort entrance sign with cars passing, snowy.",
+  "tags": [
+   "whiteface",
+   "ski resort",
+   "sign",
+   "entrance",
+   "car",
+   "winter",
+   "overcast"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 7.3,
+  "usable": [
+   [
+    0,
+    7.3
+   ]
+  ],
+  "quality": 2,
+  "notes": "Windshield, passing cars."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLNg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 8 31 55 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "arriving at whiteface",
+  "description": "Horizontal drive past the stone Whiteface entrance sign in snow.",
+  "tags": [
+   "whiteface",
+   "ski resort",
+   "sign",
+   "driving",
+   "arrival",
+   "winter",
+   "horizontal"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "horizontal",
+  "duration": 7.7,
+  "usable": [
+   [
+    3,
+    7.7
+   ]
+  ],
+  "quality": 3,
+  "notes": "Cars block the sign early."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLNA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 8 36 43 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "gearing up in parking lot",
+  "description": "Friend changing into snow pants by an open car trunk in a snowy parking lot.",
+  "tags": [
+   "ski trip",
+   "parking lot",
+   "gearing up",
+   "car",
+   "snow",
+   "friend",
+   "winter"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 8.43,
+  "usable": [
+   [
+    0,
+    8.43
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLLw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 9 29 26 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "lift line walk",
+  "description": "Walking toward the ski lift line with skiers, friend carrying a purple snowboard.",
+  "tags": [
+   "ski resort",
+   "lift line",
+   "skiers",
+   "snowboard",
+   "winter",
+   "walking"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 4.0,
+  "usable": [
+   [
+    0,
+    4.0
+   ]
+  ],
+  "quality": 2,
+  "notes": "Short; duration approximate (last frame unreadable)."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLMQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 9 31 26 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "base lodge lift line",
+  "description": "Ski base area with lift line and mountain under blue sky, then camera flips sideways.",
+  "tags": [
+   "ski resort",
+   "lift line",
+   "skiers",
+   "mountain",
+   "blue sky",
+   "winter"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 5.77,
+  "usable": [
+   [
+    0,
+    3.0
+   ]
+  ],
+  "quality": 2,
+  "notes": "Second half rotated/accidental."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLMA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 9 44 44 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "foggy ski slope",
+  "description": "Static view of a wide groomed slope in fog with skiers far below.",
+  "tags": [
+   "ski slope",
+   "fog",
+   "skiers",
+   "snow",
+   "winter",
+   "static"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "vertical",
+  "duration": 3.9,
+  "usable": [
+   [
+    0,
+    3.9
+   ]
+  ],
+  "quality": 2,
+  "notes": "Flat grey light."
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACLLA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/Toronto 2026/Whiteface w Yaath/Video 2026-03-21, 9 44 51 AM.mov",
+  "folder": "Toronto 2026",
+  "kind": "broll",
+  "shot": "foggy ski slope",
+  "description": "Horizontal static of a foggy slope with skiers and frosted pines.",
+  "tags": [
+   "ski slope",
+   "fog",
+   "skiers",
+   "pine trees",
+   "winter",
+   "horizontal"
+  ],
+  "location": "Whiteface Mountain, NY",
+  "orientation": "horizontal",
+  "duration": 3.3,
+  "usable": [
+   [
+    0,
+    3.3
+   ]
+  ],
+  "quality": 2,
+  "notes": "Person's boot in corner."
  }
 ]
