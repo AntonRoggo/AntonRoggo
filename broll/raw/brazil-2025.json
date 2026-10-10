@@ -6289,6 +6289,659 @@
   "notes": "finished edit with burned-in captions"
  },
  {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABNVw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 2/Video 2025-11-19, 5 31 07 PM.mov",
+  "folder": "brazil 2025",
+  "kind": "broll",
+  "shot": "busy market hall",
+  "description": "Static shot down a long, crowded indoor market aisle lined with stalls.",
+  "tags": [
+   "market",
+   "crowd",
+   "indoor",
+   "stalls",
+   "shopping",
+   "static"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 3.1,
+  "usable": [
+   [
+    0,
+    3.1
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABNVA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 2/Video 2025-11-19, 5 47 44 PM.mov",
+  "folder": "brazil 2025",
+  "kind": "broll",
+  "shot": "butcher counter crowd",
+  "description": "Shoppers queue at a brightly lit butcher counter in a market.",
+  "tags": [
+   "market",
+   "butcher",
+   "meat",
+   "crowd",
+   "shopping"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 2.47,
+  "usable": [
+   [
+    0,
+    2.47
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABNVQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 2/Video 2025-11-19, 5 47 55 PM.mov",
+  "folder": "brazil 2025",
+  "kind": "broll",
+  "shot": "meat display case",
+  "description": "Handheld slide past a curved glass case of fresh meat cuts.",
+  "tags": [
+   "meat",
+   "butcher",
+   "market",
+   "display",
+   "food"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 5.03,
+  "usable": [
+   [
+    0,
+    5.03
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABNWA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 2/Video 2025-11-19, 5 51 57 PM.mov",
+  "folder": "brazil 2025",
+  "kind": "talking",
+  "shot": "market aisle talk",
+  "description": "Anton in a cream shirt and shorts talks while walking toward camera down a busy market aisle.",
+  "tags": [
+   "talking",
+   "market",
+   "walking",
+   "cream shirt",
+   "crowd",
+   "travel"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 6.71,
+  "usable": [
+   [
+    0,
+    6.71
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABNUw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 2/Video 2025-11-19, 5 56 16 PM.mov",
+  "folder": "brazil 2025",
+  "kind": "broll",
+  "shot": "market restaurant tables",
+  "description": "Warmly lit restaurant tables under arches inside a market, diners eating.",
+  "tags": [
+   "restaurant",
+   "market",
+   "diners",
+   "warm light",
+   "indoor"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "vertical",
+  "duration": 3.17,
+  "usable": [
+   [
+    0,
+    3.17
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABNUg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 2/Video 2025-11-19, 5 56 33 PM.mov",
+  "folder": "brazil 2025",
+  "kind": "broll",
+  "shot": "butcher stall with price signs",
+  "description": "Shoppers at a busy butcher stall with big yellow price signs.",
+  "tags": [
+   "market",
+   "butcher",
+   "price signs",
+   "crowd",
+   "meat"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 4.57,
+  "usable": [
+   [
+    0,
+    4.57
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABNUA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 2/Video 2025-11-19, 5 57 52 PM.mov",
+  "folder": "brazil 2025",
+  "kind": "talking",
+  "shot": "market aisle talk",
+  "description": "Anton walks through a market aisle talking and gesturing, stalls behind.",
+  "tags": [
+   "talking",
+   "market",
+   "walking",
+   "cream shirt",
+   "travel"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 4.5,
+  "usable": [
+   [
+    0,
+    4.5
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABNTw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 2/Video 2025-11-19, 6 05 02 PM.mov",
+  "folder": "brazil 2025",
+  "kind": "broll",
+  "shot": "crowded market hall",
+  "description": "Wide static shot of a packed market hall with shoppers and stalls.",
+  "tags": [
+   "market",
+   "crowd",
+   "indoor",
+   "shopping",
+   "static"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 2.9,
+  "usable": [
+   [
+    0,
+    2.9
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABNTQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 2/Video 2025-11-19, 6 05 21 PM.mov",
+  "folder": "brazil 2025",
+  "kind": "broll",
+  "shot": "historic market square",
+  "description": "Static shot of a yellow colonial market building and a large tree on a busy square.",
+  "tags": [
+   "historic",
+   "market",
+   "square",
+   "colonial",
+   "tree",
+   "sunny",
+   "florianopolis"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "vertical",
+  "duration": 4.13,
+  "usable": [
+   [
+    0,
+    4.13
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABNUQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 2/Video 2025-11-19, 6 06 55 PM.mov",
+  "folder": "brazil 2025",
+  "kind": "talking",
+  "shot": "pedestrian street talk",
+  "description": "Anton walks toward camera talking on a cobbled pedestrian street lined with historic buildings.",
+  "tags": [
+   "talking",
+   "street",
+   "walking",
+   "historic",
+   "city",
+   "cream shirt"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "vertical",
+  "duration": 8.67,
+  "usable": [
+   [
+    0,
+    8.67
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABNTA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 2/Video 2025-11-19, 6 07 12 PM.mov",
+  "folder": "brazil 2025",
+  "kind": "broll",
+  "shot": "busy pedestrian street",
+  "description": "Static shot of crowds walking along a pedestrian shopping street with festive decorations.",
+  "tags": [
+   "street",
+   "crowd",
+   "city",
+   "pedestrians",
+   "shopping",
+   "christmas"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "vertical",
+  "duration": 3.43,
+  "usable": [
+   [
+    0,
+    3.43
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABNSQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 2/Video 2025-11-19, 6 32 11 PM.mov",
+  "folder": "brazil 2025",
+  "kind": "broll",
+  "shot": "sunset over waterfront",
+  "description": "Static shot of a dramatic cloudy sunset over a palm-lined waterfront plaza.",
+  "tags": [
+   "sunset",
+   "waterfront",
+   "palms",
+   "clouds",
+   "golden hour",
+   "static",
+   "city"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "vertical",
+  "duration": 4.37,
+  "usable": [
+   [
+    0,
+    4.37
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABNSA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 2/Video 2025-11-19, 6 47 58 PM.mov",
+  "folder": "brazil 2025",
+  "kind": "broll",
+  "shot": "market courtyard",
+  "description": "Low static shot across a covered market courtyard with yellow arches.",
+  "tags": [
+   "market",
+   "courtyard",
+   "arches",
+   "yellow",
+   "indoor"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "vertical",
+  "duration": 6.7,
+  "usable": [
+   [
+    0,
+    6.7
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABNRg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 2/Video 2025-11-19, 7 08 14 PM.mov",
+  "folder": "brazil 2025",
+  "kind": "broll",
+  "shot": "oysters platter and gratinated oysters",
+  "description": "Overhead shots of a platter of fresh oysters with lime, then oysters baked with cheese.",
+  "tags": [
+   "oysters",
+   "seafood",
+   "food",
+   "lime",
+   "cheese",
+   "restaurant",
+   "overhead"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "vertical",
+  "duration": 4.17,
+  "usable": [
+   [
+    0,
+    4.17
+   ]
+  ],
+  "quality": 4,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABNWQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 2/Video 2025-11-19, 7 08 27 PM.mov",
+  "folder": "brazil 2025",
+  "kind": "talking",
+  "shot": "restaurant oysters talk",
+  "description": "Anton in a cream shirt talks and eats oysters at a market restaurant table loaded with seafood.",
+  "tags": [
+   "talking",
+   "oysters",
+   "restaurant",
+   "seafood",
+   "eating",
+   "cream shirt"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "vertical",
+  "duration": 63.63,
+  "usable": [
+   [
+    0,
+    63.63
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABNRQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 2/Video 2025-11-19, 7 20 56 PM.mov",
+  "folder": "brazil 2025",
+  "kind": "other",
+  "shot": "accidental clip",
+  "description": "Split-second clip of a friend eating oysters.",
+  "tags": [
+   "accidental",
+   "oysters",
+   "restaurant"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "vertical",
+  "duration": 0.33,
+  "usable": [],
+  "quality": 1,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABNSg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 2/Video 2025-11-19, 7 20 57 PM.mov",
+  "folder": "brazil 2025",
+  "kind": "broll",
+  "shot": "friend eating oysters",
+  "description": "A friend in a blue shirt eats oysters at a busy market restaurant table.",
+  "tags": [
+   "oysters",
+   "eating",
+   "friend",
+   "restaurant",
+   "seafood"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "vertical",
+  "duration": 27.4,
+  "usable": [
+   [
+    0,
+    27.4
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAABNRw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 2/Video 2025-11-19, 7 51 13 PM.mov",
+  "folder": "brazil 2025",
+  "kind": "broll",
+  "shot": "festive plaza at night",
+  "description": "Blurry start, then a plaza at night with lit trees and a reindeer light sculpture.",
+  "tags": [
+   "night",
+   "plaza",
+   "christmas lights",
+   "trees",
+   "city"
+  ],
+  "location": "Florianópolis, Brazil",
+  "orientation": "vertical",
+  "duration": 8.9,
+  "usable": [
+   [
+    4.5,
+    8.9
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACAaw",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 20 - no interesting hobbies/finished/Dec 30.mov",
+  "folder": "brazil 2025",
+  "kind": "other",
+  "shot": "finished edit: no interesting hobbies",
+  "description": "Finished captioned edit of shirtless Anton talking selfie-style about scrolling and choices.",
+  "tags": [
+   "finished edit",
+   "talking",
+   "shirtless",
+   "selfie",
+   "captions"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 27.57,
+  "usable": [
+   [
+    0,
+    27.57
+   ]
+  ],
+  "quality": 3,
+  "notes": "finished edit with burned-in captions"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACAew",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 20 - no interesting hobbies/Video 2025-12-30, 7 27 31 PM.mov",
+  "folder": "brazil 2025",
+  "kind": "talking",
+  "shot": "shirtless selfie talk indoors",
+  "description": "Shirtless Anton talks to camera selfie-style in warm indoor light.",
+  "tags": [
+   "talking",
+   "selfie",
+   "shirtless",
+   "indoor",
+   "warm light"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 57.6,
+  "usable": [
+   [
+    0,
+    57.6
+   ]
+  ],
+  "quality": 3,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACDmQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 21 - brazil bike trip/finished/Jan 1.mp4",
+  "folder": "brazil 2025",
+  "kind": "other",
+  "shot": "finished edit: motorcycle to New Year's Eve",
+  "description": "Finished captioned edit: Anton talking, fireworks, motorcycle taxi ride and kids on bikes, 'I'm not complaining'.",
+  "tags": [
+   "finished edit",
+   "motorcycle",
+   "fireworks",
+   "new year",
+   "captions"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 22.63,
+  "usable": [
+   [
+    0,
+    22.63
+   ]
+  ],
+  "quality": 3,
+  "notes": "finished edit with burned-in captions"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACDvg",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 21 - brazil bike trip/Video 2025-12-31, 10 17 52 PM.mov",
+  "folder": "brazil 2025",
+  "kind": "broll",
+  "shot": "gas station motorcycle stop",
+  "description": "Handheld view at a gas station as an attendant fuels a motorcycle at night.",
+  "tags": [
+   "motorcycle",
+   "gas station",
+   "night",
+   "travel"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 9.4,
+  "usable": [
+   [
+    0,
+    9.4
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACDvQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 21 - brazil bike trip/Video 2025-12-31, 10 18 12 PM.mov",
+  "folder": "brazil 2025",
+  "kind": "broll",
+  "shot": "helmet selfie",
+  "description": "Low-angle selfie of Anton in a motorcycle helmet under night lights.",
+  "tags": [
+   "helmet",
+   "motorcycle",
+   "selfie",
+   "night"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 3.07,
+  "usable": [
+   [
+    0,
+    3.07
+   ]
+  ],
+  "quality": 2,
+  "notes": ""
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACDwA",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 21 - brazil bike trip/Video 2025-12-31, 10 21 11 PM.mov",
+  "folder": "brazil 2025",
+  "kind": "broll",
+  "shot": "motorcycle taxi ride at night",
+  "description": "Shaky POV from the back of a motorcycle taxi riding through city streets at night.",
+  "tags": [
+   "motorcycle",
+   "pov",
+   "night",
+   "city",
+   "ride"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 14.21,
+  "usable": [
+   [
+    5,
+    10
+   ]
+  ],
+  "quality": 1,
+  "notes": "very shaky"
+ },
+ {
+  "dropbox_id": "id:wdILo7p6X3AAAAAAAACDwQ",
+  "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/day 21 - brazil bike trip/Video 2025-12-31, 10 21 29 PM.mov",
+  "folder": "brazil 2025",
+  "kind": "broll",
+  "shot": "motorcycle taxi ride at night",
+  "description": "POV riding pillion on a motorcycle taxi through lit city streets at night.",
+  "tags": [
+   "motorcycle",
+   "pov",
+   "night",
+   "city",
+   "ride",
+   "new year"
+  ],
+  "location": "Brazil",
+  "orientation": "vertical",
+  "duration": 37.05,
+  "usable": [
+   [
+    0,
+    37.05
+   ]
+  ],
+  "quality": 2,
+  "notes": "dark, handheld"
+ },
+ {
   "dropbox_id": "id:wdILo7p6X3AAAAAAAACBkg",
   "path": "/[01] Clients/[03] Anton/ANTON MASTER BROLL/brazil 2025/youtube potential clips/Video 2025-12-24, 3 41 58 PM.mov",
   "folder": "brazil 2025",
