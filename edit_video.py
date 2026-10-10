@@ -121,6 +121,13 @@ def mark_mistakes(words):
         if restart is None:
             k += 1
             continue
+        # A real retake is a short false start. If the first attempt is long or already
+        # finished a sentence, it's deliberate repetition: keep it.
+        span = [words[i]["text"] for i in idx[k:restart]]
+        finished = sum(t.rstrip().endswith((".", "?", "!")) for t in span[:-1])
+        if len(span) > 12 or finished >= 1:
+            k += 1
+            continue
         # drop the abandoned take (and anything said between, e.g. "sorry")
         drop.update(range(idx[k], idx[restart]))
         k = restart
