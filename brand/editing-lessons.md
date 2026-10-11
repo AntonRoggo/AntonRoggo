@@ -20,3 +20,6 @@ Format: `- [date, video] Rule. (What went wrong / what he said.)`
 - [2026-10-11, Short Form feedback] Mix the audio so background noise is low and his voice is clear (denoise before loudness; never use processing that lifts the background in pauses).
 - [2026-10-11, Short Form feedback] J-cuts must have NO pause at the cut: trim tight to the words and overlap the audio (next clip's sound crossfades in over the last ~0.1s of the previous one), then the picture follows.
 - [2026-10-11, Short Form feedback] No split-second flashes back to camera between B-roll shots. B-roll starts and ends exactly when a caption starts (cut on words); any gap under 1.5s between B-roll shots (or before the end) gets filled by the previous shot.
+- [2026-10-11, UofT feedback] No B-roll in the first ~3 seconds: the hook stays on his face, not overlaid.
+- [2026-10-11, UofT feedback] No long pauses between sentences: any pause over ~0.35s is cut with a J-cut. Detect pauses from the audio, not word timestamps (the speech model stretches words over the silence after them).
+- [2026-10-11, B-roll feedback] B-roll must cover every frame of its slot: joins between B-roll shots and back to camera must be frame-exact (build the picture from whole-frame pieces, not overlay windows).

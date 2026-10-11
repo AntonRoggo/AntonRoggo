@@ -37,7 +37,8 @@ STROKE_COLOR = "&H00000000"   # black
 STROKE_PX = 4
 FONT_SIZE_PX = 70
 WORDS_PER_CAPTION = 3       # words on screen at a time
-MAX_SILENCE = 1.0             # seconds; any longer pause is cut
+MAX_SILENCE = 1.0             # seconds; silences this long are found by ffmpeg silencedetect
+MAX_PAUSE = 0.35              # any pause between words longer than this is cut (with a J-cut)
 # -----------------------------------------------------------------------------
 
 AUDIO_OVERLAP = 0.10        # at every cut the next clip's audio crossfades in over the last 0.1s of the previous one
@@ -148,6 +149,36 @@ def detect_silences(path, duration):
     return list(zip(starts, ends))
 
 
+def detect_pauses(path, min_pause=MAX_PAUSE):
+    """Pauses in his speech, from the audio itself (word timestamps hide pauses, because the
+    speech model stretches words over the silence after them). Loudness is measured on a
+    noise-reduced copy so room noise doesn't count as talking."""
+    import numpy as np
+    from boost_audio import DENOISE_MODEL
+    sr, hop = 16000, 320  # 20 ms frames
+    raw = subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-i", str(path), "-vn",
+                          "-af", f"highpass=f=80,arnndn=m={DENOISE_MODEL}", "-ac", "1", "-ar", str(sr),
+                          "-f", "f32le", "-"], capture_output=True, check=True).stdout
+    a = np.frombuffer(raw, dtype=np.float32)
+    n = len(a) // hop
+    db = 20 * np.log10(np.sqrt((a[:n * hop].reshape(n, hop) ** 2).mean(1)) + 1e-9)
+    quiet = db < np.percentile(db, 90) - 25  # 25 dB under his speaking level
+    pauses, start = [], None
+    for i, q in enumerate(np.append(quiet, False)):
+        if q and start is None:
+            start = i
+        elif not q and start is not None:
+            if (i - start) * hop / sr >= min_pause:
+                pauses.append((start * hop / sr, i * hop / sr))
+            start = None
+    return pauses
+
+
+def cut_pauses(keep, pauses):
+    """Remove pauses from the kept ranges, leaving PAD_OUT after speech and PAD_IN before it."""
+    return subtract(keep, [(a + PAD_OUT - PAD, b - PAD_IN + PAD) for a, b in pauses])
+
+
 def subtract(keep, cuts):
     out = []
     for a, b in keep:
@@ -178,7 +209,7 @@ def build_keep(words, drop, silences, duration):
         keep = []
         for w in kept:
             s, e = max(0.0, w["start"] - PAD_IN), min(duration, w["end"] + PAD_OUT)
-            if keep and s - keep[-1][1] <= MAX_SILENCE:
+            if keep and s - keep[-1][1] <= MAX_PAUSE:
                 keep[-1] = (keep[-1][0], max(keep[-1][1], e))
             else:
                 keep.append((s, e))
@@ -363,6 +394,7 @@ def check_font():
 
 MIN_FACE_GAP = 1.5   # never cut back to Anton for less than this between/after B-roll
 MIN_BROLL = 0.8      # shortest B-roll shot worth showing
+HOOK_SECONDS = 3.0   # the hook stays on his face: no B-roll before the first caption after this
 
 
 def clip_duration(path):
@@ -407,9 +439,12 @@ def snap_plan(plan, captions, total):
             b["end"] = find(b["end_at"], b["start"] + 0.01)
         cursor = b["start"]
         resolved.append(b)
+    hook_end = min([t for t in caption_starts if t >= HOOK_SECONDS] or [total])
     out = []
     for b in sorted(resolved, key=lambda b: b["start"]):
         b = dict(b, start=snap(b["start"]), end=snap(b["end"]))
+        if b["start"] < hook_end:  # keep the hook on camera
+            b["start"] = hook_end
         if out and b["start"] < out[-1]["end"]:
             b["start"] = out[-1]["end"]
         if b["end"] - b["start"] >= MIN_BROLL:
@@ -428,20 +463,46 @@ def snap_plan(plan, captions, total):
     return out
 
 
-def broll_filters(plan, width, height, first_input):
-    """Overlay filters for B-roll/action clips. Plan times are on the edited timeline."""
-    chain, last = [], "vc"
-    for j, b in enumerate(plan):
-        n = first_input + j
-        dur = b["end"] - b["start"]
-        cin = b.get("clip_in", 0)
-        chain.append(f"[{n}:v]trim={cin:.3f}:{cin + dur:.3f},setpts=PTS-STARTPTS+{b['start']:.3f}/TB,"
-                     f"scale={width}:{height}:force_original_aspect_ratio=increase,"
-                     f"crop={width}:{height},setsar=1[b{j}];")
-        chain.append(f"[{last}][b{j}]overlay=enable='between(t,{b['start']:.3f},{b['end']:.3f})'"
-                     f":eof_action=pass[o{j}];")
-        last = f"o{j}"
-    return "".join(chain), last
+def broll_filters(plan, width, height, first_input, fps, total):
+    """Picture with B-roll, built as back-to-back pieces of whole frames.
+
+    The camera track [vc] is cut into the stretches between B-roll shots, every B-roll clip
+    is conformed to the same frame rate and trimmed to an exact frame count, and everything
+    is concatenated. Joins are frame-exact, so no frame of the camera shot can slip in.
+    """
+    frame = lambda t: int(round(t * fps))
+    total_f = frame(total)
+    pieces, cursor = [], 0
+    for b in plan:
+        s, e = frame(b["start"]), min(frame(b["end"]), total_f)
+        if s > cursor:
+            pieces.append(("cam", cursor, s, None))
+        if e > s:
+            pieces.append(("broll", s, e, b))
+        cursor = max(cursor, e)
+    if cursor < total_f:
+        pieces.append(("cam", cursor, total_f, None))
+    cams = [p for p in pieces if p[0] == "cam"]
+    chain = [f"[vc]fps={fps:.6f},split={len(cams)}" + "".join(f"[c{i}]" for i in range(len(cams))) + ";"
+             if len(cams) > 1 else f"[vc]fps={fps:.6f}[c0];" if cams else "[vc]nullsink;"]
+    labels, ci, bi = "", 0, 0
+    for kind, s, e, b in pieces:
+        if kind == "cam":
+            chain.append(f"[c{ci}]trim=start_frame={s}:end_frame={e},setpts=PTS-STARTPTS[p{ci}c];")
+            labels += f"[p{ci}c]"
+            ci += 1
+        else:
+            n = first_input + bi
+            cin = b.get("clip_in", 0)
+            chain.append(f"[{n}:v]trim=start={cin:.3f},setpts=PTS-STARTPTS,fps={fps:.6f},"
+                         f"tpad=stop_mode=clone:stop_duration=2,"
+                         f"scale={width}:{height}:force_original_aspect_ratio=increase,"
+                         f"crop={width}:{height},setsar=1,"
+                         f"trim=end_frame={e - s},setpts=PTS-STARTPTS[p{bi}b];")
+            labels += f"[p{bi}b]"
+            bi += 1
+    chain.append(f"{labels}concat=n={len(pieces)}:v=1:a=0[vb];")
+    return "".join(chain), "vb"
 
 
 def jcut_video(keep, fps=30.0, j=J_CUT, overlap=AUDIO_OVERLAP):
@@ -501,7 +562,8 @@ def render(src, keep, ass_path, out, plan=(), size=None):
         alabels += f"[a{i}]"
     ass = str(ass_path).replace("\\", "/").replace(":", r"\:")
     fonts = str(FONTS_DIR).replace(":", r"\:")
-    over, last = broll_filters(plan, *size, 1) if plan else ("", "vc")
+    total = sum(b - a for a, b in keep) - AUDIO_OVERLAP * (len(keep) - 1)
+    over, last = broll_filters(plan, *size, 1, fps, total) if plan else ("", "vc")
     # picture and sound are joined separately so J-cut segments can differ in length
     graph = ("".join(parts) + f"{labels}concat=n={len(keep)}:v=1:a=0[vc];"
              + audio_join(len(keep)) + over +
@@ -556,6 +618,9 @@ def main():
             drop.add(i)
     silences = detect_silences(args.input, duration)
     keep, kept = build_keep(words, drop, silences, duration)
+    pauses = detect_pauses(args.input)
+    keep = cut_pauses(keep, pauses)
+    print(f"Pauses > {MAX_PAUSE}s cut: {len(pauses)}")
     forced = [tuple(float(v) for v in r.split("-")) for r in args.keep]
     if forced:
         merged = []
