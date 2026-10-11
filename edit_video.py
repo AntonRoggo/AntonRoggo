@@ -20,6 +20,7 @@ Semibold font file (.otf/.ttf) in ./fonts.
 """
 import argparse
 import json
+import os
 import re
 import subprocess
 import sys
@@ -629,9 +630,14 @@ def add_music(video, music, start_at, out, gain_db=MUSIC_DB):
              f"atrim=end={dur:.3f},afade=t=out:st={max(0, dur - 0.5):.3f}:d=0.5[m];"
              f"[0:a][m]amix=inputs=2:normalize=0:duration=first,"
              f"alimiter=limit={LIMIT:.4f}:attack=5:release=50:level=false[a]")
+    # mix to a wav first: muxing straight onto copied video drops the last ~0.1 s of audio
+    mix = Path(out).with_suffix(".mix.wav")
     run(["ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-i", str(video), "-i", str(music),
-         "-filter_complex", graph, "-map", "0:v", "-map", "[a]", "-c:v", "copy",
+         "-filter_complex", graph, "-map", "[a]", str(mix)])
+    run(["ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-i", str(video), "-i", str(mix),
+         "-map", "0:v", "-map", "1:a", "-c:v", "copy",
          "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", str(out)])
+    mix.unlink(missing_ok=True)
 
 
 def audio_join(n, overlap=AUDIO_OVERLAP):
@@ -767,7 +773,8 @@ def main():
             boost(rough, voiced)
             print(f"Adding music: first beat at {plan[0]['start']:.2f}s (first B-roll), {MUSIC_DB} dB")
             add_music(voiced, args.music, plan[0]["start"], out)
-            voiced.unlink(missing_ok=True)
+            if not os.environ.get("KEEP_VOICE"):
+                voiced.unlink(missing_ok=True)
         else:
             boost(rough, out)
     finally:
