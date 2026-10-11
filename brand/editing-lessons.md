@@ -14,3 +14,7 @@ Format: `- [date, video] Rule. (What went wrong / what he said.)`
 - [2026-10-10, Short Form batch] When he talks about doing something (e.g. "shoot some guns"), cut to footage of HIM doing it. Identify him by what he's wearing in the talking take (taco/gun day: light sage-green linen shirt), not by guesses.
 - [2026-10-10, Short Form batch] Never cut the payoff even if it's silent: the pool shot after "watch this", the bite in a taste test. Use `--keep` for those moments; trim the dead walking/chewing around them.
 - [2026-10-10, Short Form batch] Cut on-camera asides and outtakes ("I shouldn't have said that", "am I in the frame?") with `--drop` when the automatic mistake detection misses them.
+- [2026-10-11, Short Form feedback] Captions follow sentence flow first: never put the first word of the next sentence on the current caption ("life's not that complicated" / "eat some tacos", not "...complicated eat"). 3 words is a maximum, not a target.
+- [2026-10-11, Short Form feedback] Captions centred on screen, not in the lower third. If centred would cover his face, place them just below his chin.
+- [2026-10-11, Short Form feedback] Captions are all lowercase with no punctuation.
+- [2026-10-11, Short Form feedback] Mix the audio so background noise is low and his voice is clear (denoise before loudness; never use processing that lifts the background in pauses).
