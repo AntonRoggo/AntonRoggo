@@ -3,10 +3,11 @@
 
 Chain (two passes):
   1. highpass 80 Hz        - removes rumble that eats headroom
-  2. slow leveller         - evens out quiet and loud sections gradually
-  3. gentle compressor     - tames individual loud words so nothing jumps out
-  4. loudnorm (measured)   - linear gain to the loudness target, no pumping
-  5. true-peak limiter     - ceiling just under 0 dBFS so nothing clips
+  2. RNNoise denoiser      - background (crowd, room, wind) pushed well under the voice
+  3. gentle compressor     - evens out words without lifting background in pauses
+  4. presence EQ           - clearer voice
+  5. loudnorm (measured)   - linear gain to the loudness target, no pumping
+  6. true-peak limiter     - ceiling just under 0 dBFS so nothing clips
 
 The video stream is copied untouched.
 
@@ -23,10 +24,16 @@ TARGET_LUFS = -12.0    # loud, social-media level
 TRUE_PEAK = -1.0       # dBTP; headroom so AAC encoding doesn't push peaks over 0
 LIMIT = 10 ** (TRUE_PEAK / 20)  # linear ceiling for the limiter
 
+DENOISE_MODEL = Path(__file__).resolve().parent / "tools" / "models" / "cb.rnnn"
+DENOISE_MIX = 0.9  # 1.0 = remove all background; 0.9 keeps a little room sound so it stays natural
+
 PRE = ("highpass=f=80,"
-       # slow leveller: lifts quiet sections over ~15 s windows, so no pumping
-       "dynaudnorm=f=500:g=31:p=0.9:m=8:r=0,"
-       "acompressor=threshold=-18dB:ratio=3:attack=15:release=250:makeup=1:knee=6")
+       # neural speech denoiser (RNNoise): pulls crowd/room noise down under the voice
+       f"arnndn=m={DENOISE_MODEL}:mix={DENOISE_MIX},"
+       # gentle compression evens out words without lifting the background in pauses
+       "acompressor=threshold=-20dB:ratio=2:attack=10:release=200:makeup=1:knee=6,"
+       # voice clarity: a little presence, a little less boxiness
+       "equalizer=f=3000:t=q:w=1.2:g=2,equalizer=f=250:t=q:w=1:g=-1.5")
 
 
 def measure(src):

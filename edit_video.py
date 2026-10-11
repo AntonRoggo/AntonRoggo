@@ -201,14 +201,110 @@ def ass_time(t):
     return f"{h}:{m:02d}:{s:02d}.{cs:02d}"
 
 
-def write_captions(kept, keep, width, height, out_path):
+def caption_text(word):
+    """Caption style: lowercase, no punctuation (hyphens become spaces)."""
+    return re.sub(r"[^\w\s]", "", word.replace("-", " ").lower()).strip()
+
+
+def caption_chunks(timed, max_words=WORDS_PER_CAPTION):
+    """Group words into captions that never cross a sentence or phrase boundary.
+
+    Each sentence/phrase (split at . ? ! , ; :) is cut into the fewest chunks of at most
+    `max_words`, balanced so a 4-word phrase becomes 2+2 rather than 3+1.
+    """
+    phrases, cur = [], []
+    for item in timed:
+        cur.append(item)
+        if item[2].rstrip().endswith((".", "?", "!", ",", ";", ":")):
+            phrases.append(cur)
+            cur = []
+    if cur:
+        phrases.append(cur)
+    weak = {"a", "an", "the", "of", "to", "and", "in", "on", "at", "some", "like", "for", "with",
+            "but", "or", "your", "my"}
+
+    def score(sizes, ph):
+        pen, i = 0.0, 0
+        for size in sizes:
+            last = caption_text(ph[i + size - 1][2])
+            pen += 2.0 if last in weak else 0.0     # don't end a caption on a filler word
+            pen += 0.5 * abs(size - len(ph) / len(sizes))
+            pen += 1.5 if size == 1 and len(ph) > 1 else 0.0  # no orphaned single words
+            i += size
+        return pen
+
+    def splits(n, parts):
+        if parts == 1:
+            return [[n]] if 1 <= n <= max_words else []
+        return [[k] + rest for k in range(1, max_words + 1) for rest in splits(n - k, parts - 1)]
+
+    chunks = []
+    for ph in phrases:
+        parts = -(-len(ph) // max_words)
+        best = min(splits(len(ph), parts), key=lambda sz: score(sz, ph))
+        i = 0
+        for size in best:
+            chunks.append(ph[i:i + size])
+            i += size
+    return chunks
+
+
+def unremap(t, keep):
+    """Edited-timeline time -> source time."""
+    offset = 0.0
+    for a, b in keep:
+        if t <= offset + (b - a):
+            return a + (t - offset)
+        offset += b - a
+    return keep[-1][1]
+
+
+_face_model = None
+
+
+def face_box(src, t, width, height):
+    """Largest frontal face (x, y, w, h) in output pixels at source time t, or None."""
+    global _face_model
+    import cv2
+    import numpy as np
+    if _face_model is None:
+        _face_model = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
+    raw = subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-ss", f"{t:.2f}", "-i", str(src),
+                          "-frames:v", "1", "-vf", f"scale={width}:{height}", "-f", "rawvideo",
+                          "-pix_fmt", "gray", "-"], capture_output=True).stdout
+    if len(raw) != width * height:
+        return None
+    img = np.frombuffer(raw, dtype=np.uint8).reshape(height, width)
+    faces = _face_model.detectMultiScale(img, scaleFactor=1.1, minNeighbors=6,
+                                         minSize=(int(width * 0.12), int(width * 0.12)))
+    if len(faces) == 0:
+        return None
+    return max(faces, key=lambda f: f[2] * f[3])
+
+
+def caption_y(src, t_edit, keep, plan, width, height, font_size):
+    """Vertical centre for a caption: middle of the frame, or just below the chin if the
+    middle would cover his face. B-roll moments have no face to avoid."""
+    centre = height / 2
+    half = font_size * 0.65
+    if src is None or any(b["start"] + J_CUT <= t_edit <= b["end"] for b in plan):
+        return centre
+    box = face_box(src, unremap(t_edit, keep), width, height)
+    if box is None:
+        return centre
+    x, y, w, h = box
+    chin = y + h * 1.12  # detector box stops around the mouth; chin sits a bit lower
+    if centre + half < y or centre - half > chin:
+        return centre
+    return min(chin + half + 12, height * 0.85)
+
+
+def write_captions(kept, keep, width, height, out_path, src=None, plan=()):
     font_size = FONT_SIZE_PX
-    # bottom-anchored, offset so the line sits centred in the lower third
-    margin_v = round(height / 6 - font_size / 2)
     lines = [
         "[Script Info]", "ScriptType: v4.00+",
         f"PlayResX: {width}", f"PlayResY: {height}",
-        "ScaledBorderAndShadow: yes", "WrapStyle: 0", "",
+        "ScaledBorderAndShadow: yes", "WrapStyle: 2", "",
         "[V4+ Styles]",
         "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, "
         "OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, "
@@ -216,7 +312,7 @@ def write_captions(kept, keep, width, height, out_path):
         "Alignment, MarginL, MarginR, MarginV, Encoding",
         f"Style: Default,{FONT_NAME},{font_size},{FONT_COLOR},{FONT_COLOR},"
         f"{STROKE_COLOR},&H00000000,0,0,0,0,100,100,0,0,1,{STROKE_PX},0,"
-        f"2,{round(width * 0.08)},{round(width * 0.08)},{margin_v},1",
+        f"5,{round(width * 0.06)},{round(width * 0.06)},0,1",
         "", "[Events]",
         "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, "
         "Effect, Text",
@@ -229,13 +325,24 @@ def write_captions(kept, keep, width, height, out_path):
         s = s if s is not None else e
         e = e if e is not None else s + 0.2
         timed.append((s, e, w["text"]))
-    for k in range(0, len(timed), WORDS_PER_CAPTION):
-        chunk = timed[k:k + WORDS_PER_CAPTION]
+    chunks = caption_chunks(timed)
+    events = []
+    for k, chunk in enumerate(chunks):
+        text = " ".join(t for t in (caption_text(w) for _, _, w in chunk) if t)
+        if not text:
+            continue
         start = chunk[0][0]
-        end = timed[k + WORDS_PER_CAPTION][0] if k + WORDS_PER_CAPTION < len(timed) else chunk[-1][1]
-        end = min(end, chunk[-1][1] + 0.6)
-        text = " ".join(t for _, _, t in chunk).replace("{", "(").replace("}", ")")
-        lines.append(f"Dialogue: 0,{ass_time(start)},{ass_time(end)},Default,,0,0,0,,{text}")
+        nxt = chunks[k + 1][0][0] if k + 1 < len(chunks) else None
+        end = nxt if nxt is not None and nxt - chunk[-1][1] < 0.6 else chunk[-1][1] + 0.3
+        y = caption_y(src, (start + chunk[-1][1]) / 2, keep, plan, width, height, font_size)
+        events.append([start, end, y, text])
+    # keep the caption steady: within a run of nearby positions, use the lowest one
+    for i in range(1, len(events)):
+        if abs(events[i][2] - events[i - 1][2]) < 80 and events[i][0] - events[i - 1][1] < 0.3:
+            events[i][2] = events[i - 1][2] = max(events[i][2], events[i - 1][2])
+    for start, end, y, text in events:
+        lines.append(f"Dialogue: 0,{ass_time(start)},{ass_time(end)},Default,,0,0,0,,"
+                     f"{{\\an5\\pos({width // 2},{round(y)})}}{text}")
     out_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
@@ -365,12 +472,12 @@ def main():
     print(f"Duration {duration:.1f}s -> {new_len:.1f}s ({len(keep)} segments)")
 
     ass_path = out.with_suffix(".ass")
-    write_captions(kept, keep, width, height, ass_path)
+    plan = json.loads(args.broll.read_text()) if args.broll else []
+    write_captions(kept, keep, width, height, ass_path, args.input, plan)
     # transcript on the edited timeline, for planning B-roll
     timeline = [{"text": w["text"], "start": round(remap(w["start"], keep) or 0, 2),
                  "end": round(remap(w["end"], keep) or 0, 2)} for w in kept]
     out.with_suffix(".timeline.json").write_text(json.dumps(timeline, indent=0))
-    plan = json.loads(args.broll.read_text()) if args.broll else []
     if plan:
         print(f"Overlaying {len(plan)} B-roll/action clips")
     print("Rendering...")

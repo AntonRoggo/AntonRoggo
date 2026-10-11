@@ -14,7 +14,7 @@ python3 boost_audio.py <input> [-o <output>]
 Default output is `<name>_loud.<ext>` next to the input. The video stream is copied, only audio is re-encoded.
 
 What it does:
-- High-pass at 80 Hz, a slow leveller that evens out quiet and loud sections over ~15 s windows, then a gentle 3:1 compressor that tames individual loud words.
+- High-pass at 80 Hz, an RNNoise speech denoiser (model in `tools/models/cb.rnnn`, 90% mix) that pushes background noise well under the voice, a gentle 2:1 compressor, and a small presence boost for clarity. Don't add a slow leveller back: it lifts the background in pauses.
 - Two-pass `loudnorm` in linear mode to -12 LUFS: one steady gain change, so there's no pumping.
 - True-peak limiter with a -1 dBTP ceiling. That's as close to 0 as is safe: AAC/MP3 encoding pushes peaks up slightly, so a 0 dB ceiling would clip after export.
 
