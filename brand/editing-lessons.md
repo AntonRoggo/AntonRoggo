@@ -23,3 +23,8 @@ Format: `- [date, video] Rule. (What went wrong / what he said.)`
 - [2026-10-11, UofT feedback] No B-roll in the first ~3 seconds: the hook stays on his face, not overlaid.
 - [2026-10-11, UofT feedback] No long pauses between sentences: any pause over ~0.35s is cut with a J-cut. Detect pauses from the audio, not word timestamps (the speech model stretches words over the silence after them).
 - [2026-10-11, B-roll feedback] B-roll must cover every frame of its slot: joins between B-roll shots and back to camera must be frame-exact (build the picture from whole-frame pieces, not overlay windows).
+- [2026-10-11, UofT feedback] Never show a silent shot of his face (e.g. after "don't let your life get boring"). Clips are trimmed to where his voice actually starts/stops; if there must be a silent moment, extend the B-roll over it instead.
+- [2026-10-11, UofT feedback] Watch the exact seconds of every B-roll clip you use, not just the clip's opening frames. Never use a shot of the floor/path; "introduce some variety" got kitesurfing instead.
+- [2026-10-11, UofT feedback] "Try the good food" type lines: a clip of HIM eating (alone), not just food or a group.
+- [2026-10-11, fish feedback] Talking pieces are conversational: only cut pauses longer than ~0.7s, unless B-roll covers the cut (then cut tighter / J-cut heavily). Too many cuts feel choppy.
+- [2026-10-11, UofT feedback] The 3-second no-B-roll hook rule can be overridden when Anton asks for a specific clip there (plan entry "in_hook": true).

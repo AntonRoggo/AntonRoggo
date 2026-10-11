@@ -38,7 +38,7 @@ STROKE_PX = 4
 FONT_SIZE_PX = 70
 WORDS_PER_CAPTION = 3       # words on screen at a time
 MAX_SILENCE = 1.0             # seconds; silences this long are found by ffmpeg silencedetect
-MAX_PAUSE = 0.35              # any pause between words longer than this is cut (with a J-cut)
+MAX_PAUSE = 0.7               # pauses between words longer than this are cut (with a J-cut); shorter ones stay, so it stays conversational
 # -----------------------------------------------------------------------------
 
 AUDIO_OVERLAP = 0.10        # at every cut the next clip's audio crossfades in over the last 0.1s of the previous one
@@ -149,29 +149,57 @@ def detect_silences(path, duration):
     return list(zip(starts, ends))
 
 
-def detect_pauses(path, min_pause=MAX_PAUSE):
-    """Pauses in his speech, from the audio itself (word timestamps hide pauses, because the
-    speech model stretches words over the silence after them). Loudness is measured on a
-    noise-reduced copy so room noise doesn't count as talking."""
+_speech_cache = {}
+
+
+def speech_mask(path):
+    """Per-20ms-frame 'is he talking' mask from a noise-reduced copy of the audio."""
+    if path in _speech_cache:
+        return _speech_cache[path]
     import numpy as np
     from boost_audio import DENOISE_MODEL
-    sr, hop = 16000, 320  # 20 ms frames
+    sr, hop = 16000, 320
     raw = subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-i", str(path), "-vn",
                           "-af", f"highpass=f=80,arnndn=m={DENOISE_MODEL}", "-ac", "1", "-ar", str(sr),
                           "-f", "f32le", "-"], capture_output=True, check=True).stdout
     a = np.frombuffer(raw, dtype=np.float32)
     n = len(a) // hop
     db = 20 * np.log10(np.sqrt((a[:n * hop].reshape(n, hop) ** 2).mean(1)) + 1e-9)
-    quiet = db < np.percentile(db, 90) - 25  # 25 dB under his speaking level
+    talking = db >= np.percentile(db, 90) - 25  # within 25 dB of his speaking level
+    _speech_cache[path] = (talking, hop / sr)
+    return _speech_cache[path]
+
+
+def detect_pauses(path, min_pause=MAX_PAUSE):
+    """Pauses in his speech, from the audio itself (word timestamps hide pauses, because the
+    speech model stretches words over the silence after them)."""
+    talking, step = speech_mask(path)
     pauses, start = [], None
-    for i, q in enumerate(np.append(quiet, False)):
-        if q and start is None:
+    for i, t in enumerate(list(talking) + [True]):
+        if not t and start is None:
             start = i
-        elif not q and start is not None:
-            if (i - start) * hop / sr >= min_pause:
-                pauses.append((start * hop / sr, i * hop / sr))
+        elif t and start is not None:
+            if (i - start) * step >= min_pause:
+                pauses.append((start * step, i * step))
             start = None
     return pauses
+
+
+def trim_to_speech(keep, path):
+    """Pull each clip's start/end in to where he actually starts/stops talking (+ the usual
+    padding), so no clip opens or closes on a silent shot of his face."""
+    talking, step = speech_mask(path)
+    out = []
+    for a, b in keep:
+        i0, i1 = int(a / step), min(int(b / step), len(talking))
+        idx = [i for i in range(i0, i1) if talking[i]]
+        if not idx:
+            continue
+        s = max(a, idx[0] * step - PAD_IN)
+        e = min(b, (idx[-1] + 1) * step + PAD_OUT)
+        if e - s > 0.1:
+            out.append((s, e))
+    return out
 
 
 def cut_pauses(keep, pauses):
@@ -433,6 +461,7 @@ def snap_plan(plan, captions, total):
     timeline seconds) or, preferably, words: "start_at": "and shoot" starts at the caption
     beginning with those words; "end_at": "lets do" ends where that caption starts
     ("end_at": "END" = end of video). Word anchors survive changes to the cut rules.
+    "in_hook": true allows a clip inside the first HOOK_SECONDS (only when Anton asks for it).
 
     - every B-roll start/end snaps to the nearest caption start (or the video end)
     - gaps shorter than MIN_FACE_GAP between clips, or before the end, are filled by
@@ -467,7 +496,7 @@ def snap_plan(plan, captions, total):
     out = []
     for b in sorted(resolved, key=lambda b: b["start"]):
         b = dict(b, start=snap(b["start"]), end=snap(b["end"]))
-        if b["start"] < hook_end:  # keep the hook on camera
+        if b["start"] < hook_end and not b.get("in_hook"):  # keep the hook on camera
             b["start"] = hook_end
         if out and b["start"] < out[-1]["end"]:
             b["start"] = out[-1]["end"]
@@ -654,7 +683,7 @@ def main():
     silences = detect_silences(args.input, duration)
     keep, kept = build_keep(words, drop, silences, duration)
     pauses = detect_pauses(args.input)
-    keep = cut_pauses(keep, pauses)
+    keep = trim_to_speech(cut_pauses(keep, pauses), args.input)
     print(f"Pauses > {MAX_PAUSE}s cut: {len(pauses)}")
     forced = [tuple(float(v) for v in r.split("-")) for r in args.keep]
     if forced:
