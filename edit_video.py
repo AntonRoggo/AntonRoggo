@@ -350,7 +350,7 @@ def timed_words(kept, keep):
         if r:
             # the speech model stretches a word over any silence/chewing after it ("a" lasting
             # 1.6 s); cap it at a natural speaking length so pauses show up between words
-            letters = len(re.sub(r"[^\w]", "", w["text"]))
+            letters = len(re.sub(r"[^a-zA-Z]", "", w["text"])) + 4 * len(re.sub(r"\D", "", w["text"]))  # "48" is said "forty-eight"
             out.append((r[0], min(r[1], r[0] + 0.25 + 0.09 * letters), w["text"]))
     return out
 
