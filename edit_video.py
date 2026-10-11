@@ -370,8 +370,13 @@ def clip_duration(path):
     return float(out.stdout.strip())
 
 
-def snap_plan(plan, caption_starts, total):
+def snap_plan(plan, captions, total):
     """Make B-roll cut on words and never flash back to camera for a split second.
+
+    `captions` is [(start_time, text)]. A plan entry can give times ("start"/"end", edited
+    timeline seconds) or, preferably, words: "start_at": "and shoot" starts at the caption
+    beginning with those words; "end_at": "lets do" ends where that caption starts
+    ("end_at": "END" = end of video). Word anchors survive changes to the cut rules.
 
     - every B-roll start/end snaps to the nearest caption start (or the video end)
     - gaps shorter than MIN_FACE_GAP between clips, or before the end, are filled by
@@ -380,10 +385,30 @@ def snap_plan(plan, caption_starts, total):
     """
     if not plan:
         return []
+    caption_starts = [t for t, _ in captions]
     marks = sorted(set(caption_starts) | {total})
     snap = lambda t: min(marks, key=lambda m: abs(m - t))
+
+    def find(phrase, after):
+        if phrase.upper() == "END":
+            return total
+        phrase = caption_text(phrase)
+        for t, text in captions:
+            if t >= after - 1e-6 and text.startswith(phrase):
+                return t
+        raise SystemExit(f"B-roll anchor not found in captions: '{phrase}'")
+
+    resolved, cursor = [], 0.0
+    for b in plan:
+        b = dict(b)
+        if "start_at" in b:
+            b["start"] = find(b["start_at"], cursor)
+        if "end_at" in b:
+            b["end"] = find(b["end_at"], b["start"] + 0.01)
+        cursor = b["start"]
+        resolved.append(b)
     out = []
-    for b in sorted(plan, key=lambda b: b["start"]):
+    for b in sorted(resolved, key=lambda b: b["start"]):
         b = dict(b, start=snap(b["start"]), end=snap(b["end"]))
         if out and b["start"] < out[-1]["end"]:
             b["start"] = out[-1]["end"]
@@ -552,9 +577,10 @@ def main():
     if plan:
         timed = [(remap(w["start"], keep), remap(w["end"], keep), w["text"]) for w in kept]
         timed = [t for t in timed if t[0] is not None]
-        starts = [round(c[0][0], 3) for c in caption_chunks(timed)]
+        captions = [(round(c[0][0], 3), " ".join(t for t in (caption_text(w) for _, _, w in c) if t))
+                    for c in caption_chunks(timed)]
         total = sum(b - a for a, b in keep) - AUDIO_OVERLAP * (len(keep) - 1)
-        plan = snap_plan(plan, starts, round(total, 3))
+        plan = snap_plan(plan, captions, round(total, 3))
         out.with_suffix(".broll_final.json").write_text(json.dumps(plan, indent=1))
     write_captions(kept, keep, width, height, ass_path, args.input, plan)
     # transcript on the edited timeline, for planning B-roll

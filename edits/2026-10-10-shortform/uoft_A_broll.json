@@ -1,4 +1,4 @@
-[{"file": "input/shortform/uoft/0124.mp4", "start": 4.3, "end": 6.8, "clip_in": 0.3},
- {"file": "input/shortform/uoft/0117.mp4", "start": 6.8, "end": 9.5, "clip_in": 10.0},
- {"file": "input/shortform/broll/dinner_long_table.mov", "start": 9.5, "end": 12.6, "clip_in": 0.5},
- {"file": "input/shortform/broll/oyster_picnic_toast.mov", "start": 12.6, "end": 15.1, "clip_in": 3.0}]
+[{"file": "input/shortform/uoft/0124.mp4", "start_at": "be a tourist", "end_at": "seek out", "clip_in": 0.3},
+ {"file": "input/shortform/uoft/0117.mp4", "start_at": "seek out", "end_at": "find the best", "clip_in": 10.0},
+ {"file": "input/shortform/broll/dinner_long_table.mov", "start_at": "find the best", "end_at": "have a picnic", "clip_in": 0.3},
+ {"file": "input/shortform/broll/oyster_picnic_toast.mov", "start_at": "have a picnic", "end_at": "dont let", "clip_in": 3.0}]

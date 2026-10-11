@@ -1,5 +1,5 @@
-[{"file": "input/shortform/uoft/0124.mp4", "start": 0.9, "end": 2.7, "clip_in": 0.5},
- {"file": "input/shortform/uoft/0119.mp4", "start": 2.7, "end": 5.2, "clip_in": 1.0},
- {"file": "input/shortform/broll/dinner_long_table.mov", "start": 5.2, "end": 8.7, "clip_in": 0.3},
- {"file": "input/shortform/broll/oyster_picnic_toast.mov", "start": 8.7, "end": 10.4, "clip_in": 3.0},
- {"file": "input/shortform/uoft/0125.mp4", "start": 14.6, "end": 16.2, "clip_in": 3.6}]
+[{"file": "input/shortform/uoft/0124.mp4", "start_at": "in your", "end_at": "find the most", "clip_in": 0.5},
+ {"file": "input/shortform/uoft/0119.mp4", "start_at": "find the most", "end_at": "go out", "clip_in": 1.0},
+ {"file": "input/shortform/broll/dinner_long_table.mov", "start_at": "go out", "end_at": "have a picnic", "clip_in": 0.3},
+ {"file": "input/shortform/broll/oyster_picnic_toast.mov", "start_at": "have a picnic", "end_at": "dont let", "clip_in": 3.0},
+ {"file": "input/shortform/uoft/0125.mp4", "start_at": "introduce", "end_at": "END", "clip_in": 3.4}]

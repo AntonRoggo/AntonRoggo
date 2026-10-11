@@ -21,8 +21,9 @@ import subprocess
 from pathlib import Path
 
 TARGET_LUFS = -12.0    # loud, social-media level
-TRUE_PEAK = -1.0       # dBTP; headroom so AAC encoding doesn't push peaks over 0
-LIMIT = 10 ** (TRUE_PEAK / 20)  # linear ceiling for the limiter
+TRUE_PEAK = -1.0       # dBTP target after encoding
+LIMIT = 10 ** (-1.8 / 20)  # limiter ceiling (sample peak), lower than TRUE_PEAK to leave
+                           # room for inter-sample peaks and AAC encoding overshoot
 
 DENOISE_MODEL = Path(__file__).resolve().parent / "tools" / "models" / "cb.rnnn"
 PROCESS_DELAY = 0.015  # seconds of latency added by the denoiser + limiter
@@ -40,18 +41,19 @@ PRE = ("highpass=f=80,"
 def measure(src):
     err = subprocess.run(
         ["ffmpeg", "-hide_banner", "-nostats", "-i", str(src), "-vn", "-af",
-         f"{PRE},loudnorm=I={TARGET_LUFS}:TP={TRUE_PEAK}:LRA=11:print_format=json",
+         f"{PRE},loudnorm=I={TARGET_LUFS}:TP=0:LRA=20:print_format=json",
          "-f", "null", "-"], text=True, capture_output=True, check=True).stderr
     return json.loads(re.search(r"\{[^{}]*\"input_i\"[^{}]*\}", err).group(0))
 
 
 def audio_filter(m):
-    return (f"{PRE},loudnorm=I={TARGET_LUFS}:TP={TRUE_PEAK}:LRA=11:"
+    return (f"{PRE},loudnorm=I={TARGET_LUFS}:TP=0:LRA=20:"
             f"measured_I={m['input_i']}:measured_TP={m['input_tp']}:"
             f"measured_LRA={m['input_lra']}:measured_thresh={m['input_thresh']}:"
             f"offset={m['target_offset']}:linear=true,"
-            f"alimiter=limit={LIMIT:.4f}:attack=5:release=50:level=false,"
+            # resample BEFORE limiting, so nothing after the limiter can create new peaks
             f"aresample=48000,"
+            f"alimiter=limit={LIMIT:.4f}:attack=5:release=50:level=false,"
             # RNNoise (10 ms) + limiter (5 ms) delay the sound slightly: trim it back into sync
             f"atrim=start={PROCESS_DELAY},asetpts=PTS-STARTPTS")
 
