@@ -552,33 +552,41 @@ def audio_join(n, overlap=AUDIO_OVERLAP):
 
 
 def render(src, keep, ass_path, out, plan=(), size=None):
-    parts, labels, alabels = [], "", ""
+    """Render the edit. Each camera segment is cut to its own 1080p file first (exact frame
+    counts, low memory even with 4K sources and many cuts), then the segments, B-roll and
+    captions are put together with the crossfaded audio."""
+    import tempfile
     fps = source_fps(src)
-    for i, ((a, b), (vs, ve)) in enumerate(zip(keep, jcut_video(keep, fps))):
-        parts.append(f"[0:v]trim={vs:.3f}:{ve:.3f},setpts=PTS-STARTPTS,"
-                     f"scale={size[0]}:{size[1]},setsar=1[v{i}];")
-        parts.append(f"[0:a]atrim={a:.3f}:{b:.3f},asetpts=PTS-STARTPTS[a{i}];")
-        labels += f"[v{i}]"
-        alabels += f"[a{i}]"
-    ass = str(ass_path).replace("\\", "/").replace(":", r"\:")
-    fonts = str(FONTS_DIR).replace(":", r"\:")
-    total = sum(b - a for a, b in keep) - AUDIO_OVERLAP * (len(keep) - 1)
-    over, last = broll_filters(plan, *size, 1, fps, total) if plan else ("", "vc")
-    # picture and sound are joined separately so J-cut segments can differ in length
-    graph = ("".join(parts) + f"{labels}concat=n={len(keep)}:v=1:a=0[vc];"
-             + audio_join(len(keep)) + over +
-             f"[{last}]ass='{ass}':fontsdir='{fonts}'[vo]")
-    script = out.with_suffix(".filtergraph.txt")
-    script.write_text(graph)
-    try:
+    with tempfile.TemporaryDirectory(dir=out.parent) as tmp:
+        tmp = Path(tmp)
+        listing = []
+        for i, (vs, ve) in enumerate(jcut_video(keep, fps)):
+            frames = int(round((ve - vs) * fps))
+            if frames <= 0:
+                continue
+            piece = tmp / f"seg{i:03d}.mp4"
+            run(["ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-ss", f"{vs:.4f}", "-i", str(src),
+                 "-frames:v", str(frames), "-an",
+                 "-vf", f"scale={size[0]}:{size[1]},setsar=1,fps={fps:.6f}",
+                 "-c:v", "libx264", "-preset", "veryfast", "-crf", "12", "-pix_fmt", "yuv420p", str(piece)])
+            listing.append(f"file '{piece.name}'")
+        (tmp / "list.txt").write_text("\n".join(listing) + "\n")
+        alabels = "".join(
+            f"[1:a]atrim={a:.4f}:{b:.4f},asetpts=PTS-STARTPTS[a{i}];" for i, (a, b) in enumerate(keep))
+        ass = str(ass_path).replace("\\", "/").replace(":", r"\:")
+        fonts = str(FONTS_DIR).replace(":", r"\:")
+        total = sum(b - a for a, b in keep) - AUDIO_OVERLAP * (len(keep) - 1)
+        over, last = broll_filters(plan, *size, 2, fps, total) if plan else ("", "vc")
+        graph = (f"[0:v]setpts=PTS-STARTPTS[vc];" + alabels + audio_join(len(keep)) + over +
+                 f"[{last}]ass='{ass}':fontsdir='{fonts}'[vo]")
+        script = tmp / "graph.txt"
+        script.write_text(graph)
         extra = sum([["-i", str(b["file"])] for b in plan], [])
-        run(["ffmpeg", "-y", "-hide_banner", "-i", str(src), *extra,
-             "-filter_complex_script", str(script),
+        run(["ffmpeg", "-nostdin", "-y", "-hide_banner", "-f", "concat", "-safe", "0", "-i", str(tmp / "list.txt"),
+             "-i", str(src), *extra, "-filter_complex_script", str(script),
              "-map", "[vo]", "-map", "[ac]",
              "-c:v", "libx264", "-preset", "medium", "-crf", "18",
              "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", str(out)])
-    finally:
-        script.unlink(missing_ok=True)
 
 
 def main():
