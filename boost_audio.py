@@ -25,6 +25,7 @@ TRUE_PEAK = -1.0       # dBTP; headroom so AAC encoding doesn't push peaks over 
 LIMIT = 10 ** (TRUE_PEAK / 20)  # linear ceiling for the limiter
 
 DENOISE_MODEL = Path(__file__).resolve().parent / "tools" / "models" / "cb.rnnn"
+PROCESS_DELAY = 0.015  # seconds of latency added by the denoiser + limiter
 DENOISE_MIX = 0.9  # 1.0 = remove all background; 0.9 keeps a little room sound so it stays natural
 
 PRE = ("highpass=f=80,"
@@ -50,7 +51,9 @@ def audio_filter(m):
             f"measured_LRA={m['input_lra']}:measured_thresh={m['input_thresh']}:"
             f"offset={m['target_offset']}:linear=true,"
             f"alimiter=limit={LIMIT:.4f}:attack=5:release=50:level=false,"
-            f"aresample=48000")
+            f"aresample=48000,"
+            # RNNoise (10 ms) + limiter (5 ms) delay the sound slightly: trim it back into sync
+            f"atrim=start={PROCESS_DELAY},asetpts=PTS-STARTPTS")
 
 
 def boost(src, out):
@@ -62,7 +65,7 @@ def boost(src, out):
     cmd = ["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-i", str(src),
            "-af", audio_filter(m), "-c:a", "aac", "-b:a", "192k"]
     if has_video:
-        cmd += ["-map", "0:v:0", "-map", "0:a:0", "-c:v", "copy", "-movflags", "+faststart"]
+        cmd += ["-map", "0:v:0", "-map", "0:a:0", "-c:v", "copy", "-shortest", "-movflags", "+faststart"]
     subprocess.run(cmd + [str(out)], check=True)
     return m
 

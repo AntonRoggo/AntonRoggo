@@ -11,4 +11,5 @@ run poolbar_0144 $I/poolbar/0144.mp4 --hint "In Texas, the 80s, pool hall." --ke
 run freddy_0139 $I/freddy/0139.mp4 --drop 8.75-9.8
 run uoft_A_0126_DRAFT $I/lrf/uoft_0126.lrf --hint "Be a tourist in your own city." --broll $O/uoft_A_broll.json
 run uoft_B_0127_DRAFT $I/lrf/uoft_0127.lrf --hint "Be a tourist in your own city." --broll $O/uoft_B_broll.json
+run taco_0175_DRAFT $I/lrf/taco_0175.lrf --drop 0-6.6 --keep 22.3-25.0 --broll $O/taco_broll.json
 echo ALLDONE

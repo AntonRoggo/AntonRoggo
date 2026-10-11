@@ -40,9 +40,12 @@ WORDS_PER_CAPTION = 3       # words on screen at a time
 MAX_SILENCE = 1.0             # seconds; any longer pause is cut
 # -----------------------------------------------------------------------------
 
-J_CUT = 0.2                 # seconds the next clip's audio leads its picture at every cut
+AUDIO_OVERLAP = 0.10        # at every cut the next clip's audio crossfades in over the last 0.1s of the previous one
+J_CUT = 0.1                 # extra delay before the picture follows (picture cuts AUDIO_OVERLAP + J_CUT after the new audio starts)
 CUT_FADE = 0.015            # seconds of audio fade at every cut, stops pops
-PAD = 0.12                    # breathing room kept around speech at each cut
+PAD = 0.12                    # padding used when cutting out long silences
+PAD_IN = 0.05                 # audio kept before the first word of a clip
+PAD_OUT = 0.10                # audio kept after the last word of a clip (overlaps the next clip)
 SILENCE_DB = -35              # threshold for ffmpeg silencedetect
 FILLERS = {"um", "uh", "uhm", "umm", "erm", "er", "ah", "hmm", "mm"}
 
@@ -174,7 +177,7 @@ def build_keep(words, drop, silences, duration):
     else:
         keep = []
         for w in kept:
-            s, e = max(0.0, w["start"] - PAD), min(duration, w["end"] + PAD)
+            s, e = max(0.0, w["start"] - PAD_IN), min(duration, w["end"] + PAD_OUT)
             if keep and s - keep[-1][1] <= MAX_SILENCE:
                 keep[-1] = (keep[-1][0], max(keep[-1][1], e))
             else:
@@ -189,7 +192,7 @@ def remap(t, keep):
     for a, b in keep:
         if a <= t <= b:
             return offset + (t - a)
-        offset += b - a
+        offset += b - a - AUDIO_OVERLAP
     return None
 
 
@@ -253,9 +256,9 @@ def unremap(t, keep):
     """Edited-timeline time -> source time."""
     offset = 0.0
     for a, b in keep:
-        if t <= offset + (b - a):
+        if t <= offset + (b - a - AUDIO_OVERLAP):
             return a + (t - offset)
-        offset += b - a
+        offset += b - a - AUDIO_OVERLAP
     return keep[-1][1]
 
 
@@ -287,7 +290,7 @@ def caption_y(src, t_edit, keep, plan, width, height, font_size):
     middle would cover his face. B-roll moments have no face to avoid."""
     centre = height / 2
     half = font_size * 0.65
-    if src is None or any(b["start"] + J_CUT <= t_edit <= b["end"] for b in plan):
+    if src is None or any(b["start"] <= t_edit <= b["end"] for b in plan):
         return centre
     box = face_box(src, unremap(t_edit, keep), width, height)
     if box is None:
@@ -358,12 +361,53 @@ def check_font():
     return False
 
 
+MIN_FACE_GAP = 1.5   # never cut back to Anton for less than this between/after B-roll
+MIN_BROLL = 0.8      # shortest B-roll shot worth showing
+
+
+def clip_duration(path):
+    out = run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(path)])
+    return float(out.stdout.strip())
+
+
+def snap_plan(plan, caption_starts, total):
+    """Make B-roll cut on words and never flash back to camera for a split second.
+
+    - every B-roll start/end snaps to the nearest caption start (or the video end)
+    - gaps shorter than MIN_FACE_GAP between clips, or before the end, are filled by
+      running the earlier clip on
+    - a clip that would run out before its slot ends starts earlier in the clip instead
+    """
+    if not plan:
+        return []
+    marks = sorted(set(caption_starts) | {total})
+    snap = lambda t: min(marks, key=lambda m: abs(m - t))
+    out = []
+    for b in sorted(plan, key=lambda b: b["start"]):
+        b = dict(b, start=snap(b["start"]), end=snap(b["end"]))
+        if out and b["start"] < out[-1]["end"]:
+            b["start"] = out[-1]["end"]
+        if b["end"] - b["start"] >= MIN_BROLL:
+            out.append(b)
+    for i, b in enumerate(out):
+        nxt = out[i + 1]["start"] if i + 1 < len(out) else total
+        if nxt - b["end"] < MIN_FACE_GAP:
+            b["end"] = nxt
+    for b in out:
+        length = clip_duration(b["file"])
+        need = b["end"] - b["start"]
+        if b.get("clip_in", 0) + need > length:
+            b["clip_in"] = max(0.0, length - need - 0.05)
+            if need > length:  # clip too short for the slot: freeze is worse than ending early
+                b["end"] = b["start"] + length - 0.05
+    return out
+
+
 def broll_filters(plan, width, height, first_input):
     """Overlay filters for B-roll/action clips. Plan times are on the edited timeline."""
     chain, last = [], "vc"
     for j, b in enumerate(plan):
         n = first_input + j
-        b = dict(b, start=b["start"] + J_CUT)  # J-cut: hear the line, then see the clip
         dur = b["end"] - b["start"]
         cin = b.get("clip_in", 0)
         chain.append(f"[{n}:v]trim={cin:.3f}:{cin + dur:.3f},setpts=PTS-STARTPTS+{b['start']:.3f}/TB,"
@@ -375,27 +419,59 @@ def broll_filters(plan, width, height, first_input):
     return "".join(chain), last
 
 
-def jcut_video(keep, j=J_CUT):
-    """Video in/out points for J-cuts: each cut's picture lands j seconds after its audio.
+def jcut_video(keep, fps=30.0, j=J_CUT, overlap=AUDIO_OVERLAP):
+    """Video in/out points for J-cuts.
 
-    Audio keeps the `keep` ranges. Each segment's picture is shifted j seconds later, so at
-    every cut you still see the end of the previous shot while hearing the next one. The
-    first segment starts and the last ends on the audio cut, so lengths match exactly.
+    Audio segments are crossfaded with `overlap` seconds of overlap, so the next clip's
+    sound starts while the previous clip is still finishing (no gap). The picture switches
+    `overlap + j` seconds after the new audio starts. Inside each segment picture and sound
+    come from the same source moment, so lips stay in sync.
+
+    Cut points are placed on whole frames of the OUTPUT timeline, so frame rounding never
+    accumulates into drift across many cuts.
     """
-    # A constant shift keeps lips in sync: inside every segment, picture and sound come from
-    # the same source moment; only the cut points differ.
-    last = len(keep) - 1
-    return [(a + (j if i > 0 else 0), b + (j if i < last else 0)) for i, (a, b) in enumerate(keep)]
+    frame = 1.0 / fps
+    starts, t = [], 0.0          # audio start of each segment on the output timeline
+    for a, b in keep:
+        starts.append(t)
+        t += b - a - overlap
+    total = t + overlap
+    cuts = [0.0] + [round((starts[i] + overlap + j) / frame) * frame for i in range(1, len(keep))]
+    cuts.append(round(total / frame) * frame)
+    out = []
+    for i, (a, b) in enumerate(keep):
+        vs = a + (cuts[i] - starts[i])
+        ve = a + (cuts[i + 1] - starts[i])
+        out.append((vs, ve))
+    return out
+
+
+def source_fps(path):
+    out = run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries",
+               "stream=avg_frame_rate", "-of", "default=nw=1:nk=1", str(path)]).stdout.split()[0]
+    num, _, den = out.partition("/")
+    return float(num) / float(den or 1)
+
+
+def audio_join(n, overlap=AUDIO_OVERLAP):
+    """Crossfade every cut: the next clip's audio overlaps the end of the previous one."""
+    if n == 1:
+        return "[a0]anull[ac];"
+    chain, prev = [], "a0"
+    for i in range(1, n):
+        out = "ac" if i == n - 1 else f"x{i}"
+        chain.append(f"[{prev}][a{i}]acrossfade=d={overlap}:c1=tri:c2=tri[{out}];")
+        prev = out
+    return "".join(chain)
 
 
 def render(src, keep, ass_path, out, plan=(), size=None):
     parts, labels, alabels = [], "", ""
-    for i, ((a, b), (vs, ve)) in enumerate(zip(keep, jcut_video(keep))):
+    fps = source_fps(src)
+    for i, ((a, b), (vs, ve)) in enumerate(zip(keep, jcut_video(keep, fps))):
         parts.append(f"[0:v]trim={vs:.3f}:{ve:.3f},setpts=PTS-STARTPTS,"
                      f"scale={size[0]}:{size[1]},setsar=1[v{i}];")
-        fade_out = max(0.0, b - a - CUT_FADE)
-        parts.append(f"[0:a]atrim={a:.3f}:{b:.3f},asetpts=PTS-STARTPTS,"
-                     f"afade=t=in:d={CUT_FADE},afade=t=out:st={fade_out:.3f}:d={CUT_FADE}[a{i}];")
+        parts.append(f"[0:a]atrim={a:.3f}:{b:.3f},asetpts=PTS-STARTPTS[a{i}];")
         labels += f"[v{i}]"
         alabels += f"[a{i}]"
     ass = str(ass_path).replace("\\", "/").replace(":", r"\:")
@@ -403,7 +479,7 @@ def render(src, keep, ass_path, out, plan=(), size=None):
     over, last = broll_filters(plan, *size, 1) if plan else ("", "vc")
     # picture and sound are joined separately so J-cut segments can differ in length
     graph = ("".join(parts) + f"{labels}concat=n={len(keep)}:v=1:a=0[vc];"
-             f"{alabels}concat=n={len(keep)}:v=0:a=1[ac];" + over +
+             + audio_join(len(keep)) + over +
              f"[{last}]ass='{ass}':fontsdir='{fonts}'[vo]")
     script = out.with_suffix(".filtergraph.txt")
     script.write_text(graph)
@@ -468,11 +544,18 @@ def main():
     removed = [words[i]["text"] for i in sorted(drop)]
     print(f"Dropped {len(removed)} mistake/filler words: {' '.join(removed)}")
     print(f"Silences > {MAX_SILENCE}s found: {len(silences)}")
-    new_len = sum(b - a for a, b in keep)
+    new_len = sum(b - a for a, b in keep) - AUDIO_OVERLAP * (len(keep) - 1)
     print(f"Duration {duration:.1f}s -> {new_len:.1f}s ({len(keep)} segments)")
 
     ass_path = out.with_suffix(".ass")
     plan = json.loads(args.broll.read_text()) if args.broll else []
+    if plan:
+        timed = [(remap(w["start"], keep), remap(w["end"], keep), w["text"]) for w in kept]
+        timed = [t for t in timed if t[0] is not None]
+        starts = [round(c[0][0], 3) for c in caption_chunks(timed)]
+        total = sum(b - a for a, b in keep) - AUDIO_OVERLAP * (len(keep) - 1)
+        plan = snap_plan(plan, starts, round(total, 3))
+        out.with_suffix(".broll_final.json").write_text(json.dumps(plan, indent=1))
     write_captions(kept, keep, width, height, ass_path, args.input, plan)
     # transcript on the edited timeline, for planning B-roll
     timeline = [{"text": w["text"], "start": round(remap(w["start"], keep) or 0, 2),
