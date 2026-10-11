@@ -1,4 +1,4 @@
-[{"file": "input/shortform/uoft/0117.mp4", "start_at": "find the most", "end_at": "go out", "clip_in": 10.0, "in_hook": true},
+[{"file": "input/shortform/broll/lake_ontario_shore.mp4", "start_at": "find the most", "end_at": "go out", "clip_in": 7.5, "in_hook": true},
  {"file": "input/shortform/broll/oysters_slurp.mov", "start_at": "go out", "end_at": "have a picnic", "clip_in": 0.5},
  {"file": "input/shortform/broll/oyster_picnic_toast.mov", "start_at": "have a picnic", "end_at": "dont let", "clip_in": 3.0},
  {"file": "input/shortform/broll/kitesurf_anton.mov", "start_at": "introduce", "end_at": "END", "clip_in": 49.0}]

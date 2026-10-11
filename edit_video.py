@@ -595,6 +595,45 @@ def source_fps(path):
     return float(num) / float(den or 1)
 
 
+MUSIC_DB = -8.0  # music level (Anton's usual: the song at -8 dB)
+
+
+def first_beat(path):
+    """Time of the first beat (first strong onset) in a song, by spectral flux."""
+    import numpy as np
+    sr, hop = 22050, 512
+    a = load_audio(path, sr)
+    n = len(a) // hop
+    fr = a[:n * hop].reshape(n, hop)
+    spec = np.abs(np.fft.rfft(fr * np.hanning(hop), axis=1))
+    flux = np.r_[0, np.maximum(spec[1:] - spec[:-1], 0).sum(1)]
+    thr = 0.3 * flux.max()
+    for i in range(1, n - 1):
+        if flux[i] > thr and flux[i] >= flux[i - 1] and flux[i] >= flux[i + 1]:
+            return i * hop / sr
+    return 0.0
+
+
+def add_music(video, music, start_at, out, gain_db=MUSIC_DB):
+    """Mix a song under the finished edit so its first beat lands exactly at `start_at`
+    (the first B-roll frame). Fades out over the last 0.5 s; limiter keeps peaks safe."""
+    from boost_audio import LIMIT
+    beat = first_beat(music)
+    dur = float(run(["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                     "-of", "csv=p=0", str(video)]).stdout)
+    if start_at >= beat:
+        place = f"adelay={int(round((start_at - beat) * 1000))}:all=1"
+    else:
+        place = f"atrim=start={beat - start_at:.3f},asetpts=PTS-STARTPTS"
+    graph = (f"[1:a]aresample=48000,{place},volume={gain_db}dB,"
+             f"atrim=end={dur:.3f},afade=t=out:st={max(0, dur - 0.5):.3f}:d=0.5[m];"
+             f"[0:a][m]amix=inputs=2:normalize=0:duration=first,"
+             f"alimiter=limit={LIMIT:.4f}:attack=5:release=50:level=false[a]")
+    run(["ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-i", str(video), "-i", str(music),
+         "-filter_complex", graph, "-map", "0:v", "-map", "[a]", "-c:v", "copy",
+         "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", str(out)])
+
+
 def audio_join(n, overlap=AUDIO_OVERLAP):
     """Crossfade every cut: the next clip's audio overlaps the end of the previous one."""
     if n == 1:
@@ -658,6 +697,8 @@ def main():
                     help="words/phrases to help transcription (names, slang), e.g. 'Mate, tallow, cheeky pint'")
     ap.add_argument("--keep", action="append", default=[], metavar="START-END",
                     help="source-time range to always keep, even if silent (e.g. the trick shot, a bite)")
+    ap.add_argument("--music", type=Path,
+                    help="song to lay under the edit; its first beat lands on the first B-roll frame")
     ap.add_argument("--broll", type=Path,
                     help="JSON list of {file, start, end, clip_in} overlays, times on the edited timeline")
     args = ap.parse_args()
@@ -721,7 +762,14 @@ def main():
     render(args.input, keep, ass_path, rough, plan, (width, height))
     print("Boosting audio...")
     try:
-        boost(rough, out)
+        if args.music and plan:
+            voiced = out.with_name(f"{out.stem}_voice{out.suffix}")
+            boost(rough, voiced)
+            print(f"Adding music: first beat at {plan[0]['start']:.2f}s (first B-roll), {MUSIC_DB} dB")
+            add_music(voiced, args.music, plan[0]["start"], out)
+            voiced.unlink(missing_ok=True)
+        else:
+            boost(rough, out)
     finally:
         rough.unlink(missing_ok=True)
     print(f"Done: {out}  (captions: {ass_path})")

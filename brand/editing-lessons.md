@@ -28,3 +28,5 @@ Format: `- [date, video] Rule. (What went wrong / what he said.)`
 - [2026-10-11, UofT feedback] "Try the good food" type lines: a clip of HIM eating (alone), not just food or a group.
 - [2026-10-11, fish feedback] Talking pieces are conversational: only cut pauses longer than ~0.7s, unless B-roll covers the cut (then cut tighter / J-cut heavily). Too many cuts feel choppy.
 - [2026-10-11, UofT feedback] The 3-second no-B-roll hook rule can be overridden when Anton asks for a specific clip there (plan entry "in_hook": true).
+- [2026-10-11, UofT feedback] Never use clips in `broll/banned.json` (e.g. the UofT library interior shot, the bike-path/floor shot). Pick aesthetic shots for "beautiful spots" lines (e.g. Lake Ontario pebble beach, red autumn tree).
+- [2026-10-11, music] Videos with B-roll get music: "charmed - stella" (Dropbox `[04] Video Editing Resources/audio/songs/`), at -8 dB, with the song's first beat landing exactly on the first B-roll frame (`--music`).
