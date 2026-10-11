@@ -282,7 +282,8 @@ def caption_chunks(timed, max_words=WORDS_PER_CAPTION):
     """
     phrases, cur = [], []
     for item in timed:
-        if cur and item[0] - cur[-1][1] >= THINK_GAP:   # silent beat: never show words early
+        # silent beat, or a slow build-up ("equals... 8"): never show a word before he says it
+        if cur and (item[0] - cur[-1][1] >= THINK_GAP or item[0] - cur[-1][0] >= 0.7):
             phrases.append(cur)
             cur = []
         cur.append(item)
