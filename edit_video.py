@@ -269,14 +269,21 @@ def caption_text(word):
     return re.sub(r"[^\w\s]", "", word.replace("-", " ").lower()).strip()
 
 
+THINK_GAP = 0.6   # a silence this long inside a sentence (chewing, thinking) shows "..."
+
+
 def caption_chunks(timed, max_words=WORDS_PER_CAPTION):
     """Group words into captions that never cross a sentence or phrase boundary.
 
-    Each sentence/phrase (split at . ? ! , ; :) is cut into the fewest chunks of at most
+    Each sentence/phrase (split at . ? ! , ; : and at silent beats of THINK_GAP or more)
+    is cut into the fewest chunks of at most
     `max_words`, balanced so a 4-word phrase becomes 2+2 rather than 3+1.
     """
     phrases, cur = [], []
     for item in timed:
+        if cur and item[0] - cur[-1][1] >= THINK_GAP:   # silent beat: never show words early
+            phrases.append(cur)
+            cur = []
         cur.append(item)
         if item[2].rstrip().endswith((".", "?", "!", ",", ";", ":")):
             phrases.append(cur)
@@ -340,7 +347,10 @@ def timed_words(kept, keep):
     for w in kept:
         r = remap_word(w, keep)
         if r:
-            out.append((r[0], r[1], w["text"]))
+            # the speech model stretches a word over any silence/chewing after it ("a" lasting
+            # 1.6 s); cap it at a natural speaking length so pauses show up between words
+            letters = len(re.sub(r"[^\w]", "", w["text"]))
+            out.append((r[0], min(r[1], r[0] + 0.25 + 0.09 * letters), w["text"]))
     return out
 
 
@@ -423,6 +433,12 @@ def write_captions(kept, keep, width, height, out_path, src=None, plan=()):
         end = nxt if nxt is not None and nxt - chunk[-1][1] < 0.6 else chunk[-1][1] + 0.3
         y = caption_y(src, (start + chunk[-1][1]) / 2, keep, plan, width, height, font_size)
         events.append([start, end, y, text])
+        # a pause mid-sentence (he's chewing / thinking before the punchline) shows "..."
+        # until he speaks again, so the next words are never revealed early
+        if nxt is not None and nxt - chunk[-1][1] >= THINK_GAP + 0.2 and \
+                not chunk[-1][2].rstrip().endswith((".", "?", "!")):
+            events[-1][1] = chunk[-1][1] + 0.2
+            events.append([chunk[-1][1] + 0.2, nxt, y, "..."])
     # keep the caption steady: within a run of nearby positions, use the lowest one
     for i in range(1, len(events)):
         if abs(events[i][2] - events[i - 1][2]) < 80 and events[i][0] - events[i - 1][1] < 0.3:
@@ -446,6 +462,7 @@ def check_font():
 
 
 MIN_FACE_GAP = 1.5   # never cut back to Anton for less than this between/after B-roll
+MIN_END_FACE = 1.0   # the closing line can go back to his face if it's at least this long
 MIN_BROLL = 0.8      # shortest B-roll shot worth showing
 HOOK_SECONDS = 3.0   # the hook stays on his face: no B-roll before the first caption after this
 
@@ -514,10 +531,10 @@ def snap_plan(plan, captions, total, cuts=()):
         changed = False
         for i, b in enumerate(out):
             nxt = out[i + 1]["start"] if i + 1 < len(out) else total
-            if 0 < nxt - b["end"] < MIN_FACE_GAP:
+            if 0 < nxt - b["end"] < (MIN_FACE_GAP if i + 1 < len(out) else MIN_END_FACE):
                 b["end"], changed = nxt, True
                 continue
-            later = [c for c in inner if b["end"] + 1e-6 < c < min(nxt, b["end"] + MIN_FACE_GAP)]
+            later = [c for c in inner if b["end"] + 1e-6 < c < min(nxt - 1e-6, b["end"] + MIN_FACE_GAP)]
             if later:
                 b["end"], changed = later[-1], True
             prev = out[i - 1]["end"] if i else (0.0 if b.get("in_hook") else hook_end)
