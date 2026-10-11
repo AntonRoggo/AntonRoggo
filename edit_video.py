@@ -283,6 +283,38 @@ def caption_chunks(timed, max_words=WORDS_PER_CAPTION):
     return chunks
 
 
+def remap_word(w, keep):
+    """Edited-timeline (start, end) for a word. The speech model often places a word's start
+    a little before the speech, inside a cut pause; such times snap to the nearest kept
+    moment instead of being lost. Returns None if the whole word was cut."""
+    offset, spans = 0.0, []
+    for a, b in keep:
+        spans.append((a, b, offset))
+        offset += b - a - AUDIO_OVERLAP
+    def to_out(t, forward):
+        for a, b, o in spans:
+            if a <= t <= b:
+                return o + (t - a)
+        if forward:  # start in a cut: jump to the next kept segment
+            nxt = [(a, o) for a, b, o in spans if a > t]
+            return nxt[0][1] if nxt else None
+        prev = [(b, o, a) for a, b, o in spans if b < t]  # end in a cut: back to previous end
+        return prev[-1][1] + (prev[-1][0] - prev[-1][2]) if prev else None
+    s, e = to_out(w["start"], True), to_out(w["end"], False)
+    if s is None or e is None or e < s:
+        return None
+    return s, e
+
+
+def timed_words(kept, keep):
+    out = []
+    for w in kept:
+        r = remap_word(w, keep)
+        if r:
+            out.append((r[0], r[1], w["text"]))
+    return out
+
+
 def unremap(t, keep):
     """Edited-timeline time -> source time."""
     offset = 0.0
@@ -351,15 +383,7 @@ def write_captions(kept, keep, width, height, out_path, src=None, plan=()):
         "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, "
         "Effect, Text",
     ]
-    timed = []
-    for w in kept:
-        s, e = remap(w["start"], keep), remap(w["end"], keep)
-        if s is None and e is None:
-            continue
-        s = s if s is not None else e
-        e = e if e is not None else s + 0.2
-        timed.append((s, e, w["text"]))
-    chunks = caption_chunks(timed)
+    chunks = caption_chunks(timed_words(kept, keep))
     events = []
     for k, chunk in enumerate(chunks):
         text = " ".join(t for t in (caption_text(w) for _, _, w in chunk) if t)
@@ -651,8 +675,7 @@ def main():
     ass_path = out.with_suffix(".ass")
     plan = json.loads(args.broll.read_text()) if args.broll else []
     if plan:
-        timed = [(remap(w["start"], keep), remap(w["end"], keep), w["text"]) for w in kept]
-        timed = [t for t in timed if t[0] is not None]
+        timed = timed_words(kept, keep)
         captions = [(round(c[0][0], 3), " ".join(t for t in (caption_text(w) for _, _, w in c) if t))
                     for c in caption_chunks(timed)]
         total = sum(b - a for a, b in keep) - AUDIO_OVERLAP * (len(keep) - 1)
@@ -660,8 +683,7 @@ def main():
         out.with_suffix(".broll_final.json").write_text(json.dumps(plan, indent=1))
     write_captions(kept, keep, width, height, ass_path, args.input, plan)
     # transcript on the edited timeline, for planning B-roll
-    timeline = [{"text": w["text"], "start": round(remap(w["start"], keep) or 0, 2),
-                 "end": round(remap(w["end"], keep) or 0, 2)} for w in kept]
+    timeline = [{"text": t, "start": round(a, 2), "end": round(b, 2)} for a, b, t in timed_words(kept, keep)]
     out.with_suffix(".timeline.json").write_text(json.dumps(timeline, indent=0))
     if plan:
         print(f"Overlaying {len(plan)} B-roll/action clips")
