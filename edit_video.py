@@ -269,6 +269,7 @@ def caption_text(word):
     return re.sub(r"[^\w\s]", "", word.replace("-", " ").lower()).strip()
 
 
+MIN_CAPTION = 0.3   # shortest time a caption stays on screen
 THINK_GAP = 0.6   # a silence this long inside a sentence (chewing, thinking) shows "..."
 
 
@@ -439,6 +440,14 @@ def write_captions(kept, keep, width, height, out_path, src=None, plan=()):
                 not chunk[-1][2].rstrip().endswith((".", "?", "!")):
             events[-1][1] = chunk[-1][1] + 0.2
             events.append([chunk[-1][1] + 0.2, nxt, y, "..."])
+    # no caption flashes by: give each at least MIN_CAPTION seconds, taken from the next one
+    # (the speech model sometimes stamps several words at the same instant)
+    for i in range(len(events) - 1):
+        cur, nxt_ev = events[i], events[i + 1]
+        if cur[1] - cur[0] < MIN_CAPTION and nxt_ev[0] - cur[1] < 0.05:
+            new = cur[0] + MIN_CAPTION
+            if nxt_ev[1] - new >= MIN_CAPTION:
+                cur[1] = nxt_ev[0] = new
     # keep the caption steady: within a run of nearby positions, use the lowest one
     for i in range(1, len(events)):
         if abs(events[i][2] - events[i - 1][2]) < 80 and events[i][0] - events[i - 1][1] < 0.3:
