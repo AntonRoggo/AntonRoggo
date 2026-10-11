@@ -455,7 +455,7 @@ def clip_duration(path):
     return float(out.stdout.strip())
 
 
-def snap_plan(plan, captions, total):
+def snap_plan(plan, captions, total, cuts=()):
     """Make B-roll cut on words and never flash back to camera for a split second.
 
     `captions` is [(start_time, text)]. A plan entry can give times ("start"/"end", edited
@@ -467,6 +467,8 @@ def snap_plan(plan, captions, total):
     - every B-roll start/end snaps to the nearest caption start (or the video end)
     - gaps shorter than MIN_FACE_GAP between clips, or before the end, are filled by
       running the earlier clip on
+    - a jump cut less than MIN_FACE_GAP after a clip ends (or before it starts) is covered
+      by moving that edge to the cut (`cuts` = picture cut times from picture_cuts)
     - a clip that would run out before its slot ends starts earlier in the clip instead
     """
     if not plan:
@@ -503,10 +505,29 @@ def snap_plan(plan, captions, total):
             b["start"] = out[-1]["end"]
         if b["end"] - b["start"] >= MIN_BROLL:
             out.append(b)
-    for i, b in enumerate(out):
-        nxt = out[i + 1]["start"] if i + 1 < len(out) else total
-        if nxt - b["end"] < MIN_FACE_GAP:
-            b["end"] = nxt
+    # B-roll swallows any short camera piece next to it: if the picture jump-cuts to another
+    # take less than MIN_FACE_GAP after a B-roll ends (or before it starts), the B-roll runs
+    # to that cut, so the camera never flashes up for a split second. Ending on a J-cut is
+    # fine: the next line's audio is already playing under the B-roll.
+    inner = [c for c in cuts[1:-1]] if cuts else []
+    for _ in range(len(out) + 2):
+        changed = False
+        for i, b in enumerate(out):
+            nxt = out[i + 1]["start"] if i + 1 < len(out) else total
+            if 0 < nxt - b["end"] < MIN_FACE_GAP:
+                b["end"], changed = nxt, True
+                continue
+            later = [c for c in inner if b["end"] + 1e-6 < c < min(nxt, b["end"] + MIN_FACE_GAP)]
+            if later:
+                b["end"], changed = later[-1], True
+            prev = out[i - 1]["end"] if i else (0.0 if b.get("in_hook") else hook_end)
+            earlier = [c for c in inner if max(prev, b["start"] - MIN_FACE_GAP) - 1e-6 <= c < b["start"] - 1e-6]
+            if earlier and i and b["start"] - prev < MIN_FACE_GAP + 1e-6:
+                b["start"], changed = prev, True
+            elif earlier:
+                b["start"], changed = earlier[0], True
+        if not changed:
+            break
     for b in out:
         length = clip_duration(b["file"])
         need = b["end"] - b["start"]
@@ -562,6 +583,20 @@ def broll_filters(plan, width, height, first_input, fps, total):
     return "".join(chain), "vb"
 
 
+def picture_cuts(keep, fps=30.0, j=J_CUT, overlap=AUDIO_OVERLAP):
+    """Audio start of every segment, and the output times where the picture changes
+    (0, every J-cut, the end), on whole frames of the output timeline."""
+    frame = 1.0 / fps
+    starts, t = [], 0.0
+    for a, b in keep:
+        starts.append(t)
+        t += b - a - overlap
+    total = t + overlap
+    cuts = [0.0] + [round((starts[i] + overlap + j) / frame) * frame for i in range(1, len(keep))]
+    cuts.append(round(total / frame) * frame)
+    return starts, cuts
+
+
 def jcut_video(keep, fps=30.0, j=J_CUT, overlap=AUDIO_OVERLAP):
     """Video in/out points for J-cuts.
 
@@ -573,14 +608,7 @@ def jcut_video(keep, fps=30.0, j=J_CUT, overlap=AUDIO_OVERLAP):
     Cut points are placed on whole frames of the OUTPUT timeline, so frame rounding never
     accumulates into drift across many cuts.
     """
-    frame = 1.0 / fps
-    starts, t = [], 0.0          # audio start of each segment on the output timeline
-    for a, b in keep:
-        starts.append(t)
-        t += b - a - overlap
-    total = t + overlap
-    cuts = [0.0] + [round((starts[i] + overlap + j) / frame) * frame for i in range(1, len(keep))]
-    cuts.append(round(total / frame) * frame)
+    starts, cuts = picture_cuts(keep, fps, j, overlap)
     out = []
     for i, (a, b) in enumerate(keep):
         vs = a + (cuts[i] - starts[i])
@@ -707,6 +735,8 @@ def main():
                     help="song to lay under the edit; its first beat lands on the first B-roll frame")
     ap.add_argument("--broll", type=Path,
                     help="JSON list of {file, start, end, clip_in} overlays, times on the edited timeline")
+    ap.add_argument("--plan-only", action="store_true",
+                    help="work out cuts, captions and B-roll timing, but don't render")
     args = ap.parse_args()
 
     out = args.output or ROOT / "output" / f"{args.input.stem}_edited.mp4"
@@ -755,12 +785,15 @@ def main():
         captions = [(round(c[0][0], 3), " ".join(t for t in (caption_text(w) for _, _, w in c) if t))
                     for c in caption_chunks(timed)]
         total = sum(b - a for a, b in keep) - AUDIO_OVERLAP * (len(keep) - 1)
-        plan = snap_plan(plan, captions, round(total, 3))
+        plan = snap_plan(plan, captions, round(total, 3), picture_cuts(keep, source_fps(args.input))[1])
         out.with_suffix(".broll_final.json").write_text(json.dumps(plan, indent=1))
     write_captions(kept, keep, width, height, ass_path, args.input, plan)
     # transcript on the edited timeline, for planning B-roll
     timeline = [{"text": t, "start": round(a, 2), "end": round(b, 2)} for a, b, t in timed_words(kept, keep)]
     out.with_suffix(".timeline.json").write_text(json.dumps(timeline, indent=0))
+    out.with_suffix(".keep.json").write_text(json.dumps([[round(a, 3), round(b, 3)] for a, b in keep]))
+    if args.plan_only:
+        return
     if plan:
         print(f"Overlaying {len(plan)} B-roll/action clips")
     print("Rendering...")
