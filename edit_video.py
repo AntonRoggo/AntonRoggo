@@ -470,8 +470,11 @@ def broll_filters(plan, width, height, first_input, fps, total):
     is conformed to the same frame rate and trimmed to an exact frame count, and everything
     is concatenated. Joins are frame-exact, so no frame of the camera shot can slip in.
     """
-    frame = lambda t: int(round(t * fps))
-    total_f = frame(total)
+    import math
+    # a caption appears on the first frame at/after its start time; cut the picture on that
+    # same frame so B-roll and caption change together
+    frame = lambda t: int(math.ceil(t * fps - 1e-6))
+    total_f = int(round(total * fps))
     pieces, cursor = [], 0
     for b in plan:
         s, e = frame(b["start"]), min(frame(b["end"]), total_f)
