@@ -31,21 +31,34 @@ def lufs(p, start=None, end=None):
 ap = argparse.ArgumentParser()
 ap.add_argument("finished"); ap.add_argument("cta"); ap.add_argument("out")
 ap.add_argument("--cut-at", type=float)
+ap.add_argument("--bed", help="music to keep playing under the CTA (tools/music_bed.py), starts at the cut")
+ap.add_argument("--voice-ref", help="the edit's voice on its own (demucs vocals); CTA voice is matched to it")
 a = ap.parse_args()
 w, h, fps, dur = probe(a.finished)
 end = min(a.cut_at or dur, dur)
 end = int(end * fps) / fps                       # whole frames
-gain = lufs(a.finished, max(0, end - 12), end) - lufs(a.cta)
+ref = a.voice_ref or a.finished
+gain = lufs(ref, max(0, end - 12), end) - lufs(a.cta)
 xf = 0.12
 fade = 0.08 if a.cut_at else 0.3   # cutting mid-talk: short fade so the last word stays
 graph = (f"[0:v]trim=end={end:.4f},setpts=PTS-STARTPTS,fps={fps:.6f},scale={w}:{h},setsar=1[v0];"
          f"[1:v]fps={fps:.6f},scale={w}:{h}:force_original_aspect_ratio=increase,crop={w}:{h},setsar=1[v1];"
          f"[v0][v1]concat=n=2:v=1:a=0[v];"
-         f"[0:a]atrim=end={end:.4f},asetpts=PTS-STARTPTS,aresample=48000,"
-         f"afade=t=out:st={max(0, end - fade):.4f}:d={fade}[a0];"
-         f"[1:a]aresample=48000,volume={gain:.2f}dB,apad=pad_dur={xf}[a1];"
-         f"[a0][a1]acrossfade=d={xf}:c1=tri:c2=tri,alimiter=limit=0.85:level=false[a]")
-run(["ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-i", a.finished, "-i", a.cta,
+         f"[0:a]atrim=end={end:.4f},asetpts=PTS-STARTPTS,aresample=48000,")
+if a.bed:
+    # music carries on: the bed continues the edit's music sample-for-sample from the cut,
+    # so the join is a plain butt splice with 15 ms fades (no dip, no click)
+    graph += (f"afade=t=out:st={end - 0.015:.4f}:d=0.015[a0];"
+              f"[1:a]aresample=48000,volume={gain:.2f}dB[cv];"
+              f"[2:a]aresample=48000[bed];"
+              f"[cv][bed]amix=inputs=2:normalize=0:duration=first,afade=t=in:d=0.015[a1];"
+              f"[a0][a1]concat=n=2:v=0:a=1,alimiter=limit=0.85:level=false[a]")
+else:
+    graph += (f"afade=t=out:st={max(0, end - fade):.4f}:d={fade}[a0];"
+              f"[1:a]aresample=48000,volume={gain:.2f}dB,apad=pad_dur={xf}[a1];"
+              f"[a0][a1]acrossfade=d={xf}:c1=tri:c2=tri,alimiter=limit=0.85:level=false[a]")
+inputs = ["-i", a.finished, "-i", a.cta] + (["-i", a.bed] if a.bed else [])
+run(["ffmpeg", "-nostdin", "-y", "-loglevel", "error"] + inputs + [
      "-filter_complex", graph, "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-crf", "18",
      "-preset", "medium", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k",
      "-movflags", "+faststart", a.out])
