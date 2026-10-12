@@ -449,10 +449,12 @@ def write_captions(kept, keep, width, height, out_path, src=None, plan=()):
             new = cur[0] + MIN_CAPTION
             if nxt_ev[1] - new >= MIN_CAPTION:
                 cur[1] = nxt_ev[0] = new
-    # keep the caption steady: within a run of nearby positions, use the lowest one
-    for i in range(1, len(events)):
-        if abs(events[i][2] - events[i - 1][2]) < 80 and events[i][0] - events[i - 1][1] < 0.3:
-            events[i][2] = events[i - 1][2] = max(events[i][2], events[i - 1][2])
+    # captions never jump around: one height for the whole video, the lowest any caption
+    # needs to clear his face (centre if his face is never in the way)
+    if events:
+        steady = max(e[2] for e in events)
+        for e in events:
+            e[2] = steady
     for start, end, y, text in events:
         lines.append(f"Dialogue: 0,{ass_time(start)},{ass_time(end)},Default,,0,0,0,,"
                      f"{{\\an5\\pos({width // 2},{round(y)})}}{text}")
