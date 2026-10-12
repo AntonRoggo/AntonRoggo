@@ -33,5 +33,31 @@
     "facebook": "411308168725498",
     "twitter": "AntonRoggo",
     "linkedin": "urn:li:person:Nk4IFjy2oc"
-  }
+  },
+  "brands": {
+    "anton": {
+      "label": "Anton Roggo",
+      "blog_id": "6537632",
+      "instagram": "antonroggo"
+    },
+    "portside": {
+      "label": "Portside Catch",
+      "blog_id": "6539855",
+      "instagram": "portsidecatch",
+      "note": "Metricool brand timezone is Europe/Madrid; we still schedule in America/New_York"
+    }
+  },
+  "strategy": {
+    "instagram_type": "TRIAL_REEL",
+    "rule": "New edits go out first as Instagram trial reels (non-followers only). After 24-72 h, the best performers are published publicly; goal is one public post a day.",
+    "max_posts_per_day_per_account": 3,
+    "slots_et": [
+      "10:52",
+      "12:52",
+      "14:52"
+    ],
+    "old_oyster_videos": "Portside Catch brand, trial reels",
+    "new_videos": "Anton Roggo brand, trial reels, one take per A/B video"
+  },
+  "giveaway_caption_2026_10": "Comment 'oyster' to win 75 oysters and an at-home shucking kit and follow @portsidecatch and @briny.co to enter ;)"
 }
