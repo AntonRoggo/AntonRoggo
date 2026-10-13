@@ -46,8 +46,8 @@ AUDIO_OVERLAP = 0.10        # at every cut the next clip's audio crossfades in o
 J_CUT = 0.1                 # extra delay before the picture follows (picture cuts AUDIO_OVERLAP + J_CUT after the new audio starts)
 CUT_FADE = 0.015            # seconds of audio fade at every cut, stops pops
 PAD = 0.12                    # padding used when cutting out long silences
-PAD_IN = 0.05                 # audio kept before the first word of a clip
-PAD_OUT = 0.10                # audio kept after the last word of a clip (overlaps the next clip)
+PAD_IN = 0.15                 # audio kept before the first word of a clip (soft starts like "h" need room)
+PAD_OUT = 0.30                # audio kept after the last word (the 0.1 s crossfade happens inside this, never on the word)
 SILENCE_DB = -35              # threshold for ffmpeg silencedetect
 FILLERS = {"um", "uh", "uhm", "umm", "erm", "er", "ah", "hmm", "mm"}
 
@@ -166,7 +166,7 @@ def speech_mask(path):
     a = np.frombuffer(raw, dtype=np.float32)
     n = len(a) // hop
     db = 20 * np.log10(np.sqrt((a[:n * hop].reshape(n, hop) ** 2).mean(1)) + 1e-9)
-    talking = db >= np.percentile(db, 90) - 25  # within 25 dB of his speaking level
+    talking = db >= np.percentile(db, 90) - 32  # within 32 dB of his speaking level
     _speech_cache[path] = (talking, hop / sr)
     return _speech_cache[path]
 
