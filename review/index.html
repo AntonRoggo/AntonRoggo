@@ -287,6 +287,7 @@ kbd { font-family: var(--f-mono); font-size: 10.5px; border: 1px solid var(--lin
     const verBar = h("div", { class: "bar" }, h("span", { class: "lbl" }, "version"),
       vs.map(x => h("button", { class: "pill mono", "aria-pressed": String(ver && x.n === ver.n), onclick: () => { S.ver = x.n; S.verFollow = x.n === vs[vs.length - 1].n; renderMain(); } }, "v" + x.n)),
       h("span", { class: "status " + (v.status || "") }, approved ? STATUS[v.status] + " v" + (v.approvedVersion || "") : STATUS[v.status] || v.status || ""),
+      v.scheduled && v.status !== "posted" ? h("span", { class: "status mono", title: v.scheduled.platform || "" }, "Posts " + (v.scheduled.at || "")) : null,
       h("span", { class: "spacer" }),
       h("button", { class: "btn" + (nOpen ? " notes-btn" : ""), disabled: !nOpen || !S.db, onclick: openApply }, nOpen ? "Apply " + nOpen + (nOpen === 1 ? " note" : " notes") : "Apply notes"),
       h("button", { class: "btn" + (S.compare ? " on" : ""), disabled: vs.length < 2, onclick: () => { S.compare = !S.compare; renderMain(); } }, "Compare"),
@@ -539,14 +540,23 @@ kbd { font-family: var(--f-mono); font-size: 10.5px; border: 1px solid var(--lin
   function openApprove() {
     const v = video(S.videoId), ver = curVersion(v); if (!v || !ver) return;
     const nOpen = openNotes(v.id).length;
+    // already in Metricool: approving the version that's in the post changes nothing there
+    const inPost = v.scheduled && (v.scheduled.version || 1) === ver.n;
+    const what = inPost ? "This version is already scheduled (" + v.scheduled.at + "). Approving marks it reviewed; nothing else changes."
+      : v.scheduled ? "This is your sign-off on this exact version. Claude swaps it into the post already scheduled for " + v.scheduled.at + "."
+      : "This is your sign-off on this exact version. Claude uploads it to Dropbox and schedules it on your platforms following the publishing plan (trial reels first).";
     const close = modal(
       h("h2", {}, "Approve v" + ver.n + " of " + (v.groupTitle || v.title) + " · " + (v.cut || "") + "?"),
-      h("p", {}, "This is your sign-off on this exact version. Claude uploads it to Dropbox and schedules it on your platforms following the publishing plan (trial reels first)."),
+      h("p", {}, what),
       nOpen ? h("p", { class: "err" }, nOpen + (nOpen === 1 ? " note is" : " notes are") + " still open on this cut and won't be applied.") : null,
       h("div", { class: "row" }, h("button", { class: "btn", onclick: () => close() }, "Not yet"),
         h("button", { class: "btn go", onclick: async e => {
           e.target.disabled = true;
           try {
+            if (inPost) {
+              await S.db.doc("videos/" + v.id).update({ status: "approved", approvedVersion: ver.n, approvedAt: Date.now(), updatedAt: Date.now() });
+              close(); toast("Approved v" + ver.n); renderAll(); return;
+            }
             const req = { kind: "approve", video: v.id, version: ver.n, status: "pending", createdAt: Date.now() };
             const ref = await S.db.collection("requests").add(req);
             await S.db.doc("videos/" + v.id).update({ status: "approved", approvedVersion: ver.n, approvedAt: Date.now(), updatedAt: Date.now() });

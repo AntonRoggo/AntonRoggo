@@ -15,7 +15,7 @@ Tools: `Artifact` (read the page, upload videos with `asset: true`) and `Artifac
 
 | Collection | Doc id | Fields |
 |---|---|---|
-| `videos` | `<yyyy-mm-dd>-<script-slug>-<cut-slug>`, e.g. `2026-10-13-wet-bill-hook-a` | `title`, `group` (`<yyyy-mm-dd>-<script-slug>`, shared by all cuts of one script), `groupTitle` ("Wet bill"), `cut` ("Hook A"), `status` (`review` / `revising` / `approved` / `posted`), `versions` (array, below), `approvedVersion`, `approvedAt`, `source` (Dropbox path/ids of the footage), `recipe` (path in `edits/`), `final` (what was posted), `createdAt`, `updatedAt` (ms since epoch) |
+| `videos` | `<yyyy-mm-dd>-<script-slug>-<cut-slug>`, e.g. `2026-10-13-wet-bill-hook-a` | `title`, `group` (`<yyyy-mm-dd>-<script-slug>`, shared by all cuts of one script), `groupTitle` ("Wet bill"), `cut` ("Hook A"), `status` (`review` / `revising` / `approved` / `posted`), `versions` (array, below), `approvedVersion`, `approvedAt`, `source` (Dropbox path/ids of the footage), `recipe` (path in `edits/`), `scheduled` (an existing Metricool post: `platform`, `at`, `postId`, `uuid`, `plannerUrl` from `publishing/log.md`, and `version`, the version in that post, 1 when missing), `final` (what was posted), `createdAt`, `updatedAt` (ms since epoch) |
 | `videos.versions[]` | | `n` (1, 2, ...), `asset` (artifact asset id of the review copy), `master` (Dropbox path of the full-quality render), `duration`, `width`, `height`, `fps`, `createdAt`, `changes` (one line per change, shown to Anton above the player), `file` |
 | `notes` | auto | `video`, `version`, `t` (seconds, 0.1 s), `text`, `status` (`open` → `sent` → `done` / `wontfix`), `request`, `reply` (one sentence: what you changed, or why not), `fixedIn` (version number), `lesson` (the rule it became), `createdAt` |
 | `requests` | auto | `kind` (`revise` / `approve`), `video`, `version`, `notes` (ids), `status` (`pending` → `started` → `working` → `done` / `failed`), `session`, `result`, `createdAt` |
@@ -43,13 +43,15 @@ Find it: the prompt names the request id; otherwise `ArtifactData` `query` `requ
 3. Rebuild from the recipe with the fixes, check against every lesson, update the recipe files.
 4. Upload as v`n+1` (section A, steps 3-5) with `changes` listing what changed, one line per note.
 5. Close each note: `status: "done"`, `fixedIn: n+1`, `reply` (one plain sentence on what you changed), `lesson` (the rule). If you deliberately didn't change something, `status: "wontfix"` with the reason in `reply`. Never leave a sent note without a reply.
-6. Request → `done`, `result: "v<n+1>"`. Video `status` → `review`.
+6. Request → `done`, `result: "v<n+1>"`. Video `status` → `review`. If the video has `scheduled` and v`n+1` can't be approved before `scheduled.at`, put that in `result` so Anton knows the old version will go out unless he approves in time.
 
 ### Approve (`kind: "approve"`)
 
 The click is Anton's explicit approval of that exact version. Check the video doc still says `status: "approved"` and `approvedVersion` equals the request's `version`; if he reopened it or the version differs, mark the request `failed` with `result` explaining why and stop.
 
-1. Publish the version's `master` with the `publish-metricool` skill, using `python3 tools/dropbox_api.py share "<master>"` for the public link. Follow `publishing/config.json` (strategy, slots, captions). Never post a re-render or the review copy instead of the approved master. If the version has no `master` (made before this rule), re-render from the recipe and say so in `result`.
+If the video has `scheduled` (it was already in Metricool before it was reviewed), approving a new version replaces the media of that same post with `updateScheduledPost` (same time, same caption; write the new id/uuid and `version` back into `scheduled` and `publishing/log.md`); never create a second post. If the post already went out, say so in `result` and ask Anton in chat whether to post the new version separately.
+
+1. Otherwise, publish the version's `master` with the `publish-metricool` skill, using `python3 tools/dropbox_api.py share "<master>"` for the public link. Follow `publishing/config.json` (strategy, slots, captions). Never post a re-render or the review copy instead of the approved master. If the version has no `master` (made before this rule), re-render from the recipe and say so in `result`.
 2. Video → `status: "posted"`, `final` (file + platforms + times). Request → `done`, `result` (what was scheduled, from `publishing/log.md`).
 
 ### Finish every request

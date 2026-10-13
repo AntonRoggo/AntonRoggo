@@ -37,8 +37,8 @@ if size <= a.max_mb * 1e6 and a.input.endswith(".mp4"):
 else:
     # 4% headroom for the container; cap at 12 Mbps (more is wasted on a phone screen)
     video_k = min(12000, int(a.max_mb * 8e3 * 0.96 / dur) - audio_k)
+    log = out + ".2pass"   # per output, so several copies can encode at once
     for attempt in range(3):
-        log = os.path.join(os.path.dirname(out) or ".", "ffmpeg2pass")
         common = ["-c:v", "libx264", "-preset", "medium", "-b:v", f"{video_k}k",
                   "-maxrate", f"{int(video_k * 1.5)}k", "-bufsize", f"{video_k * 2}k",
                   "-pix_fmt", "yuv420p", "-passlogfile", log]
@@ -49,7 +49,7 @@ else:
             break
         video_k = int(video_k * 0.85)
     for f in os.listdir(os.path.dirname(out) or "."):
-        if f.startswith("ffmpeg2pass"):
+        if f.startswith(os.path.basename(log)):
             os.remove(os.path.join(os.path.dirname(out) or ".", f))
 
 bytes_ = os.path.getsize(out)

@@ -40,6 +40,9 @@ for vid, v in videos.items():
     for k, label in (("source", "Source footage"), ("recipe", "Recipe"), ("final", "Final file")):
         if v.get(k):
             lines.append(f"- {label}: {v[k]}")
+    if v.get("scheduled"):
+        sc = v["scheduled"]
+        lines.append(f"- Scheduled: {sc.get('platform')}, {sc.get('at')} (Metricool post {sc.get('postId')}, v{sc.get('version', 1)})")
     mine = [dict(n, id=i) for i, n in notes.items() if n.get("video") == vid]
     for ver in v.get("versions", []):
         n = ver.get("n")
