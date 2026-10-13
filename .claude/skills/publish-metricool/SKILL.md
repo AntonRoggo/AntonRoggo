@@ -5,7 +5,7 @@ description: Schedule an approved edited video on every connected social platfor
 
 # Publish an approved video via Metricool
 
-Only run this for a video the user has explicitly approved in this conversation (e.g. "approve clip_edited.mp4", "this one's good, post it"). Approval of one video never covers another. If it's unclear which file they mean, ask.
+Only run this for a video the user has explicitly approved in this conversation (e.g. "approve clip_edited.mp4", "this one's good, post it"). Approval of one video never covers another. If it's unclear which file they mean, ask. Pressing **Approve vN** in the review tool also counts: it approves that exact version, and the session handling that request (see the `review` skill) runs this skill on that version's `master` file.
 
 ## Requirements
 
@@ -15,7 +15,7 @@ Only run this for a video the user has explicitly approved in this conversation 
 
 ## Steps
 
-1. **Check the file.** It must be in `output/` and must be an `edit_video.py` output (captions, cuts and audio boost already applied). Check it with `ffprobe`: duration, resolution, and that it's vertical (9:16) when posting Reels/Shorts/TikTok.
+1. **Check the file.** It must be in `output/` (or, for a review-tool approval, the approved version's `master`, downloaded from Dropbox) and must be an `edit_video.py` output (captions, cuts and audio boost already applied). Check it with `ffprobe`: duration, resolution, and that it's vertical (9:16) when posting Reels/Shorts/TikTok.
 2. **Get the brand.** Call `getBrandSettings` and pick the brand whose blogId is `config.blog_id`. Use its timezone unless `config.timezone` is set. Note which networks are actually connected to that brand. Use every network that is both connected and in `config.platforms`, and report any configured platform that isn't connected.
 3. **Write the caption.** Base it on the transcript (`output/<name>_edited.ass` holds the caption text) and follow `config.caption`. Make a version per platform where limits differ: YouTube needs a title (≤100 chars) and the "made for kids" setting (`config.youtube.made_for_kids`); TikTok and Instagram captions should keep hashtags at the end.
 4. **Pick the time.** If `config.schedule.mode` is `on_approval`, schedule every platform for `config.schedule.delay_minutes` minutes from now (Metricool rejects times in the past, so never use the current minute). If it's `best_time`, call `getBestTimeToPostByNetwork` for each network and take the best slot in the next `config.schedule.within_days` days. If it's `slots`, use the next free slot from `config.schedule.slots` that doesn't already have a post (check `getScheduledPosts`). Always in `config.timezone`, always in the future.

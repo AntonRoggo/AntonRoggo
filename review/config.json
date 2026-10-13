@@ -1,0 +1,10 @@
+{
+  "artifact_url": "https://claude.ai/artifact/97kLh4HK4GNoqoNkihHSM2",
+  "page_source": "review/index.html",
+  "capabilities": {
+    "db": {},
+    "assets": {},
+    "mcp": {"servers": [{"server": "Claude Code Remote", "tools": ["create_session"]}]}
+  },
+  "note": "Live settings (branch, auto-start, environment) are in the tool's database at config/main; this file records where the tool is and how it was published."
+}
