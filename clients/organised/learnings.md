@@ -1,0 +1,15 @@
+# Organised — learnings
+
+- [2026-10-13, W1] Results reported second-hand (e.g. "My sister... Her iron levels went up 63%") are flagged "use with care". Use first-hand reviews as on-screen proof.
+- [2026-10-12, "This is iron deficiency" brief] Customer reviews that name a number (Sarah: "ferritin levels went from 17 to 30") go in as crops of the original review screenshot with the passage highlighted, never as paraphrase.
+- [2026-06-15, Creative Strategist Application] Tobacco / Bliss Point: the first generic, fear-based version underperformed. Anton rebuilt the hook as a founder story ("I cooked a meal for my four picky-eater little brothers..."), because the account's top performers were "all founder-story-led".
+- [2026-06-15, Creative Strategist Application] Giving the parent an external villain (Marlboro's owner engineering a "bliss point" into kids' food, so "not your fault") gets past the defensiveness a "your kids eat junk" message triggers.
+- [2026-05-29, Creative Strategist CV] The highest-performing angle cluster was "Strong Families and Energy": £109K spend across variants at 1.7–2.4x ROAS.
+- [2026-05-28, Feedback Loop 2 "Iron Deficiency"] Best ROAS of the hero set (1.67, CPA £40.38, £49,018 spend, 1,214 purchases) despite the lowest hook rate (35.24%) and CTR (1.56%). The lesson: "attention isn't conversion". It wins because it closes a loop the avatar is already living in (they already take iron, and it isn't working).
+- [2026-05-28, Feedback Loop 3 "Hong Kong"] The highest hook rate (56.31%) and CTR (2.38%) made it the spend winner (£98,236), but ROAS was 1.05 at £71.24 CPA. A strong hook with weak conversion is "the clearest 'execution problem' case in the account", so fix the body/offer rather than the hook. The next test was a "curiosity / juxtaposition swing".
+- [2026-05-28, Feedback Loop 1 "What You Cook"] Founder Story / Family was a clear KPI winner (ROAS 1.56, CPA £42.73 vs £45 benchmark, hook 40.17%, hold 35.19%, CTR 2.04%) and scaled into one of the highest-spending creatives in the account.
+- [2026-05-28, Ad Brief "3 Red Flags"] A 48.79% hook rate but only 19.05% hook-to-hold (benchmark ≥ 30%): it stopped people but lost them in the body. Result: ROAS 1.51, CPA £44.49 on £36,835.49 spend.
+- [2026-03-12, organised-core-avatars] The "parent who wants their child healthy" avatar is the core one: 6 of the top 14 scripts target it, at every spend level.
+- [2026-03-04, Product Review Analysis] Taste is the strongest reason customers choose and stay: 141 of 362 Trustpilot reviews (39.0%). Taste cues ("tastes like the milk at the bottom of a cereal bowl") are worth keeping in every script.
+- [2026-02-06, ORG - Desire Deep Research] The biggest barriers to family adoption are no age-based dosing guidance and "one pouch per month is insufficient for a family of four". Expect objections on dose and cost for the whole family.
+- [2026-01-28, [03] ORG - Desires Sheet] Price sensitivity shows up even in satisfied reviews ("The only reason I rate 4 stars is because it is quite expensive"). Pill burden ("Six capsules is a lot") is the main weakness of capsule competitors like Heart & Soil.
