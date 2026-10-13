@@ -283,7 +283,9 @@ def caption_chunks(timed, max_words=WORDS_PER_CAPTION):
     phrases, cur = [], []
     for item in timed:
         # silent beat, or a slow build-up ("equals... 8"): never show a word before he says it
-        if cur and (item[0] - cur[-1][1] >= THINK_GAP or item[0] - cur[-1][0] >= 0.7):
+        # "so"/"because" start a new clause: never leave them on the end of the previous caption
+        starts_clause = caption_text(item[2]) in ("so", "because", "cause")
+        if cur and (item[0] - cur[-1][1] >= THINK_GAP or item[0] - cur[-1][0] >= 0.7 or starts_clause):
             phrases.append(cur)
             cur = []
         cur.append(item)

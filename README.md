@@ -16,7 +16,7 @@ The first run writes `output/<name>_edited.timeline.json` (the words with their 
 ## Setup
 
 ```bash
-pip install faster-whisper   # ffmpeg must also be installed
+pip install faster-whisper "opencv-python-headless<5"   # ffmpeg must also be installed; OpenCV 5 dropped the face detector used for caption placement
 ```
 
 Proxima Nova is a licensed font, so it isn't included. Put `ProximaNova-Semibold.otf` (or `.ttf`) in `fonts/`.
