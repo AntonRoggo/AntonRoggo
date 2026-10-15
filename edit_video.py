@@ -93,6 +93,29 @@ def transcribe(path, model_size, hint=""):
     return words
 
 
+def fix_words(words, spec):
+    """Apply a --fix 'START-END=TEXT' override: the words whose midpoint falls in the source range are
+    replaced by TEXT, spread over the time those words covered (by character length). The cached
+    transcript stays as transcribed; the fix is applied on every run."""
+    rng, text = spec.split("=", 1)
+    a, b = (float(v) for v in rng.split("-"))
+    hit = [i for i, w in enumerate(words) if a <= (w["start"] + w["end"]) / 2 <= b]
+    new = text.split()
+    if not new:
+        return [w for i, w in enumerate(words) if i not in hit]
+    t0 = words[hit[0]]["start"] if hit else a
+    t1 = words[hit[-1]]["end"] if hit else b
+    total = sum(len(t) for t in new)
+    fixed, t = [], t0
+    for tok in new:
+        d = (t1 - t0) * len(tok) / total
+        fixed.append({"text": tok, "start": round(t, 3), "end": round(t + d, 3)})
+        t += d
+    first = hit[0] if hit else sum(1 for w in words if w["start"] < a)
+    rest = [w for i, w in enumerate(words) if i not in hit]
+    return rest[:first] + fixed + rest[first:]
+
+
 def norm(text):
     return re.sub(r"[^a-z0-9']", "", text.lower())
 
@@ -787,6 +810,12 @@ def main():
                     help="song to lay under the edit; its first beat lands on the first B-roll frame")
     ap.add_argument("--broll", type=Path,
                     help="JSON list of {file, start, end, clip_in} overlays, times on the edited timeline")
+    ap.add_argument("--fix", action="append", default=[], metavar="START-END=TEXT",
+                    help="replace the transcribed words in a source-time range with what he actually says "
+                         "(caption fix when the speech model mishears), e.g. --fix '22.3-25.7=What? Oh boy.'")
+    ap.add_argument("--end", type=float, metavar="SEC",
+                    help="source time where the video ends: everything after it is cut, and the picture/audio "
+                         "run on to it (e.g. 1s after his last word), e.g. --end 48.3")
     ap.add_argument("--plan-only", action="store_true",
                     help="work out cuts, captions and B-roll timing, but don't render")
     args = ap.parse_args()
