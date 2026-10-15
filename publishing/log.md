@@ -17,3 +17,19 @@
 | 2026-10-12 | portside_5_big_oyster_guy.mp4 | Instagram trial reel (Portside Catch) | 2026-10-14 13:47 ET | 394406420 | -8568295136336851926 | https://app.metricool.com/planner/calendar?blogId=6539855&openWithPostUuid=-8568295136336851926 |
 | 2026-10-12 | portside_6_patios_are_open.mp4 | Instagram trial reel (Portside Catch) | 2026-10-14 15:47 ET | 394406507 | 233168426818424608 | https://app.metricool.com/planner/calendar?blogId=6539855&openWithPostUuid=233168426818424608 |
 | 2026-10-12 | portside_7_oyster_nutrition.mp4 | Instagram trial reel (Portside Catch) | 2026-10-15 11:47 ET | 394406585 | -3561235103887242128 | https://app.metricool.com/planner/calendar?blogId=6539855&openWithPostUuid=-3561235103887242128 |
+
+**2026-10-14 update:** after Anton's feedback ("editing is pretty terrible"), all 15 posts above were switched to **drafts** (unpublished). The Portside drafts still carry the old clipped CTA.
+
+### AntonRoggo copies of the Portside videos (fixed, unclipped CTA, giveaway caption, Instagram trial reels)
+
+| Scheduled on | File | Platform | Publishes at | Post id | uuid |
+|---|---|---|---|---|---|
+| 2026-10-14 | anton_9_oyster_party_park.mp4 | Instagram trial reel (Anton Roggo) | 2026-10-14 21:40 ET | 396418702 | 620117810644404228 |
+| 2026-10-14 | anton_10_larping_oyster_farmer.mp4 | Instagram trial reel (Anton Roggo) | 2026-10-14 21:55 ET | 396420002 | -4977561330899662328 |
+| 2026-10-14 | anton_11_france_oyster_review.mp4 | Instagram trial reel (Anton Roggo) | 2026-10-14 22:10 ET | 396420017 | 2809436486963971937 |
+| 2026-10-14 | anton_12_500_oysters.mp4 | Instagram trial reel (Anton Roggo) | 2026-10-14 22:25 ET | 396420027 | 7936474654437363664 |
+| 2026-10-14 | anton_13_big_oyster_guy.mp4 | Instagram trial reel (Anton Roggo) | 2026-10-14 22:40 ET | 396420039 | -1345114182983596788 |
+| 2026-10-14 | anton_14_patios_are_open.mp4 | Instagram trial reel (Anton Roggo) | 2026-10-15 10:52 ET | 396420055 | 7296196130202404481 |
+| 2026-10-14 | anton_15_oyster_nutrition.mp4 | Instagram trial reel (Anton Roggo) | 2026-10-15 12:52 ET | 396420069 | 8041145031143866503 |
+
+Planner: https://app.metricool.com/planner/calendar?blogId=6537632&openWithPostUuid=<uuid>
