@@ -15,6 +15,7 @@ Anton's own e-commerce brand: a protein bar for people who spend their weekends 
 ## Rules (Anton's words win; newest wins)
 
 - [2026-10-15, design kickoff] Nature and outdoor inspired, clean and premium. Mountains on the packaging. ("very nature- and outdoor-inspired, but maybe with a clean, premium look… I see mountains on the packaging.")
+- [2026-10-15, design tools] Anton designs in Figma. Figma variables mirror `design/tokens.json` (same names: snow, spruce, larch, space-m...). When he changes a colour or font in Figma, read it with the Figma connector (`get_variable_defs`, `get_screenshot`) and update the design system and `design/` to match. Figma file pages: Design language, Packaging, Website, Instagram, References.
 - The design system artifact is the live source; after changing it, copy `tokens.json` and the README back to `design/` (README as `brand-book.md`) and commit.
 - Every new design (pack, page, post) is built from the design system's tokens and rules. If a design needs something the system lacks, add it to the system first.
 
