@@ -1,206 +1,198 @@
-# Oyster farm voiceover scripts (Oct 2026)
+# Oyster farm voiceover scripts (v2, Oct 15 2026)
 
 ## Teleprompter
 
-Read each script straight through, calm and confident, about 25-40 seconds each. No visual notes here; those are in the editor notes further down.
+Read straight through at your normal talking speed, quick and loose like your first day-in-the-life video. Say the first line a bit faster than the rest. Leave a one-beat pause wherever a line is on its own.
 
-### 1. Day in the life of an oyster farmer, part 2
+### 1. Day in the life of an oyster farmer, part 2 (about 28s)
 
 Day in the life of an oyster farmer, part two.  
-Sunrise.  
-Walk past ten-foot stacks of cages to the dock.  
-Low tide today, so we take the boat straight out to the lease.  
+Sunrise, walk past the cages to the dock.  
+Low tide, so we take the boat straight out.  
 When the water drops, you can walk the whole farm.  
 Kyle hauls the lines in by hand.  
-Open a cage and it's packed.  
-Oysters, crabs, tiny shrimp.  
-It's a whole reef.  
-Only the market-size ones go in the basket.  
-Pass them up to the boat, and the dolphins follow us home.  
-A thousand oysters up the dock, straight into the cooler.  
+Open a cage...  
+and this one came with a crab.  
+Every cage is a little reef. Crabs, shrimp, baby fish.  
+Only the big ones go in the basket.  
+Pass them up to the boat...  
+and the dolphins follow us home.  
+A thousand oysters up the dock, straight on ice.  
 Thirty minutes out of the water, I'm eating one.  
 Comment "fresh" and I'll send you where to get these.
 
-### 2. "I should probably gatekeep this" (ocean lease)
+### 2. "I should probably gatekeep this" (about 14s)
 
 Oyster farm.  
 Nine out of ten.  
-I should probably gatekeep this... but in North Carolina you can lease nearly nine acres of ocean for under a thousand dollars a year.  
-Ten bucks an acre for the bottom.  
-A hundred for the water above it.  
-Kyle has right under a million oysters growing out here.  
-They take about thirteen months to hit market size, and the ocean does most of the work.  
-Your office has a view of a parking lot.  
-His has dolphins.  
-Comment "farm" if you want the full breakdown.
+I should probably gatekeep this, but in North Carolina you can lease nine acres of ocean for under a thousand bucks a year.  
+So I flew down to see it.  
+Let's go.
 
-### 3. Friday night: the bar vs. 60 oysters
+### 3. The bar vs. 60 oysters (about 22s)
 
 Your friends spend sixty bucks at the bar every Friday.  
 I spend it on sixty oysters.  
 Oysters are the most zinc-dense food on the planet.  
-Your body needs zinc for testosterone, and most guys don't get enough.  
-Alcohol burns through it.  
-One version of you wakes up Saturday hungover.  
-The other wakes up on a boat at sunrise.  
-Same sixty dollars.  
-Completely different man in a year.  
-Comment "oysters" and I'll send you where I get mine.
+Zinc is what your body uses to make testosterone.  
+Alcohol burns right through it.  
+So one version of you wakes up Saturday hungover...  
+the other wakes up on a boat at sunrise.  
+Same sixty bucks.  
+Completely different man in a year.
 
-### 4. Five things nobody tells you about oysters
+### 4. Five things nobody tells you about oysters (about 26s)
 
 Five things nobody tells you about oysters.  
-One: a single oyster filters fifty gallons of water a day.  
-Two: every cage is a reef.  
-Crabs, shrimp, baby fish live inside.  
-Three: they don't have a central nervous system, so a lot of vegans eat them.  
-Four: a good one is two and a half inches and sounds like a marble when you tap it.  
-Five: the ones at your grocery store have been out of the water for days.  
+One. A single oyster filters fifty gallons of water a day.  
+Two. Every cage is a reef. Crabs, shrimp, baby fish live inside.  
+Three. They have no central nervous system, so a lot of vegans eat them.  
+Four. A good one sounds like a marble when you tap it.  
+Five. The ones at your grocery store have been out of the water for days.  
 These were out for thirty minutes.  
-Follow for more.  
-Comment "fresh" to try them.
+Follow for part two.
 
-### 5. I started a business with a stranger on the internet
+### 5. "Wealthy people never eat oysters" (reply, about 25s)
 
-I started a business with a stranger on the internet.  
+People keep saying wealthy people never eat oysters because they filter dirty water.  
+Here's the part they skip.  
+Oysters only get sold from water the state tests before anyone's allowed to harvest.  
+This is that water.  
+Dolphins live here.  
+And that filtering?  
+It's why the water's this clean in the first place.  
+One oyster cleans fifty gallons a day.  
+So yeah, I'll keep eating them.  
+Comment "fresh" if you want some from right here.
+
+### 6. I started a business with a stranger on the internet, episode 1 (about 22s)
+
+I started an oyster business with a stranger I met on the internet.  
+Episode one.  
 A few months ago I was posting oyster videos from my apartment.  
 Then a guy I'd never met messaged me.  
-Two weeks later I'm in the Outer Banks at five a.m.  
-Wading through a million oysters with dolphins swimming past.  
-Now we ship them, straight from this water to your door.  
+Two weeks later, I'm in the Outer Banks at five a.m...  
+wading through a million oysters...  
+with dolphins swimming past.  
 Say yes to the weird stuff.  
-That's where life gets good.  
-Comment "oysters" if you want some.
+Follow along, this is just the start.
 
-### 6. Where your oysters actually come from
+### 7. Where your oysters actually come from (about 18s)
 
 This is where your oysters come from.  
-Grown in the Outer Banks, in water so clean the dolphins live here.  
+The Outer Banks, North Carolina.  
 Picked by hand at low tide.  
 On ice within the hour.  
-They show up at your door with ice packs, the harvest tag, and a card from Kyle, the farmer who grew them.  
-Subscribers get a free shucker.  
+At your door with the harvest tag and a card from Kyle, the farmer who grew them.  
 Comment "fresh" and I'll send you the link.
 
 ---
 
-## Editor notes: which clip goes under each line
+## Editor notes
 
-All the footage is from the Portside Catch farm in the Outer Banks, NC, shot on Apr 23 2026. It's catalogued in `broll/raw/portside-catch-broll.json`. Clip names below are `<Dropbox subfolder> / <time in the filename>` inside `/[01] Clients/[07] Portside Catch/Portside Catch Broll`.
+### Pacing rules taken from 9 winning videos (Sandcastles, Oct 15)
 
-The facts come from Kyle's explainer takes, so they're his numbers.
+| Video | Views | What the timing shows |
+|---|---|---|
+| Anton, "Day in the life of an oyster farmer" | 81k / 50k | 164 words in 41s, about 4 words a second. The hook takes 1s, the first action shot lands by 2s, and the call to action takes the last 3s. |
+| @douggrindstaff, oyster farm "8.5" | 947k | 14s in total. The hook is about 35 words spoken in 7s (fast). Then 7s of footage over music with no voiceover. |
+| @kamokapearl, pearl farming | 16.2M | The hook ("These oysters have been growing… finally ready to be harvested") lasts 5s. After that, a new reveal with a price lands every 4-5s. |
+| @zachandhailee, shucking | 5.2M | "I just discovered the best way…" takes 3s. A surprise lands at 11s ("this one came with a crab"). It ends on a rating. |
+| @nattyfarmsmy, "I quit my job… episode 7" | 6.8M | 24s in total. The hook plus the episode number take 4s. The rest is calm, about 3 words a second. |
+| @eronmoselle, origin "episode 0" | 249k | The hook ("I left my corporate job… to become a farmer") lasts 4s. It's built as a weekly series. |
+| @eronmoselle, "5 reasons I left Toronto" | 728k | A numbered list with a new point every 7-10s. |
+| @omarwiseman_, "wealthy people never eat oysters" | 2.3M | Says the opposite of what people expect about oysters: toxins, the 50-gallon filtering. A new idea every 5-8s. Script 5 is a reply to it. |
+| @theevelynrothstein, the same "never eat oysters" script | 782k | Same structure. Proves the topic travels. |
 
-### What the research says (Sandcastles, Oct 15)
+The rules the scripts now follow:
 
-- **Your own best farm video is "Day in the life of an oyster farmer."** It got 81k views on Instagram (May 14) and 50k on TikTok. It's told in order: wake up, check the docks, low or high tide, deadlift the cages, sort them, the perk of eating one whenever you want, dolphins on the way back, straight into the cooler, then "comment fresh".
-- **Doug's video got 947k views (May 16, @douggrindstaff).** The hook was: "Oyster farm. 8.5. I should probably gatekeep this, but you can lease an acre of ocean for $26 a year." A surprising, specific number in the first 3 seconds, then a jump cut to proof footage.
-- **"Buying 60 oysters every Friday instead of blacking out at the bar"** got 1.45M views (Oct 3, @twilhealth). It compares the same $60 spent two ways: oysters and zinc against a hangover.
-- **Your own top videos are oysters as a mood and health habit.** "Sometimes life calls for 48 oysters" got 177k, and "Patios are open, linen is on, oysties on the table" got 45k.
-- **Shucking hooks work.** "I found the best way to open oysters" got 5.2M views, so close-ups of the oyster being opened stop people scrolling.
+1. **The hook is said in 1-5s, and faster than the rest.** It names a specific number or contrast: "nine acres for under $1,000", "sixty bucks", "fifty gallons".
+2. **The body runs at about 3-4 words a second,** with a new shot every 2-3s.
+3. **A surprise lands at about 10s,** like the crab in a cage or the dolphins. It's set up with "..." so you pause, and the picture shows it.
+4. **Winners are short.** Most of these winners run 14-28s, so the scripts were cut by 20-80 words each.
+5. **The call to action is one line in the last 2-3s,** or "follow for part two" or "episode one" to keep people coming back.
 
-### 1. Day in the life of an oyster farmer, part 2
+### Clips under each line
 
-This is the proven format, re-shot with the new footage.
+Clip names are `<subfolder> / <time in the filename>` inside `/[01] Clients/[07] Portside Catch/Portside Catch Broll`. Every clip is logged in `broll/raw/portside-catch-broll.json`.
 
-| VO | Clip |
-|---|---|
-| Day in the life of an oyster farmer, part two. | Anton / 7 43 15 AM (you grinning at the stern) |
-| Sunrise. Walk past ten-foot stacks of cages to the dock. | Doug Footage / 7 08 29 AM |
-| Low tide today, so we take the boat straight out to the lease. | Anton / 7 41 15 AM |
-| When the water drops, you can walk the whole farm. | Doug Footage / 8 43 07 AM (pan across cage rows) |
-| Kyle hauls the lines in by hand. | Doug Footage / 7 59 31 AM |
-| Open a cage and it's packed. Oysters, crabs, tiny shrimp. It's a whole reef. | Anton / 9 57 16 AM (blue crab at about 20s) → Doug Footage / 10 08 00 AM |
-| Only the market-size ones go in the basket. | Doug Footage / 10 00 55 AM |
-| Pass them up to the boat... | Doug Footage / 10 27 19 AM (best action clip) |
-| ...and the dolphins follow us home. | Doug Footage / 10 44 41 AM (fin at about 1s) |
-| A thousand oysters up the dock... | Doug Footage / 11 09 11 AM |
-| ...straight into the cooler. | Doug Footage / 11 13 56 AM |
-| Thirty minutes out of the water, I'm eating one. | Anton / 12 28 49 PM → 12 47 22 PM ("I'll take 12 more") |
-| Comment "fresh" and I'll send you where to get these. | Anton / 12 47 22 PM (cheers) |
+**1. Day in the life part 2**
+- Opening line: Anton / 7 43 15 AM (you grinning at the stern).
+- Sunrise and the dock: Doug Footage / 7 08 29 AM.
+- Low tide and the boat: Anton / 7 41 15 AM.
+- Walking the farm: Doug Footage / 8 43 07 AM.
+- Kyle hauling the lines: Doug Footage / 7 59 31 AM.
+- Opening the cage, then the crab: Anton / 9 57 16 AM. Start just before the crab shows at about 20s, so the reveal lands on "crab".
+- The reef line: Doug Footage / 10 08 00 AM.
+- Basket: Doug Footage / 10 00 55 AM.
+- Passing baskets up: Doug Footage / 10 27 19 AM.
+- Dolphins: Doug Footage / 10 44 41 AM (fin at about 1s).
+- Dock and ice: Doug Footage / 11 09 11 AM, then 11 13 56 AM.
+- Eating one: Anton / 12 28 49 PM, then 12 47 22 PM.
 
-### 2. "I should probably gatekeep this" (ocean lease)
+**2. Gatekeep (Doug's shape)**
+- Hook on Anton / 7 43 34 AM (at the stern, looking at camera).
+- On "Let's go", cut to music with 7s of fast cuts: 8 43 07, 9 45 29, 10 27 19, 10 44 41 dolphins, 11 09 11 (all Doug Footage).
 
-This uses Doug's 947k format.
+**3. Bar vs. oysters**
+- Open on Anton / 12 47 22 PM (cheers).
+- Zinc line: Anton / 12 29 27 PM (shucking).
+- Testosterone line: Doug Footage / 8 52 23 AM.
+- Alcohol line: Toronto oyster party clips.
+- Hungover line: Anton / 7 39 25 AM (sun glare).
+- Boat at sunrise: Anton / 7 43 15 AM.
+- End: Doug Footage / 10 27 19 AM, then Anton / 12 35 01 PM.
 
-| VO | Clip |
-|---|---|
-| Oyster farm. Nine out of ten. I should probably gatekeep this... | Anton / 7 43 34 AM (you at the stern, looking at camera) |
-| ...but in North Carolina you can lease nearly nine acres of ocean for under a thousand dollars a year. | Doug Footage / 8 43 07 AM |
-| Ten bucks an acre for the bottom. A hundred for the water above it. | Doug Footage / 8 51 28 AM (you wading out) |
-| Kyle has right under a million oysters growing out here. | Doug Footage / 9 45 29 AM (cage full of oysters) |
-| They take about thirteen months to hit market size... | Doug Footage / 8 52 23 AM (cluster in gloved hands) |
-| ...and the ocean does most of the work. | Doug Footage / 10 44 41 AM (dolphins) |
-| Your office has a view of a parking lot. His has dolphins. | Anton / 3 19 57 PM (marina, flag) |
-| Comment "farm" if you want the full breakdown. | Doug Footage / 10 27 19 AM |
+**4. Five things**
+- Opening: Anton / 12 28 49 PM.
+- 1: Doug Footage / 8 43 07 AM.
+- 2: Doug Footage / 10 08 00 AM, then Anton / 9 57 16 AM.
+- 3: Doug Footage / 9 40 33 AM.
+- 4: Doug Footage / 8 52 23 AM.
+- 5: Doug Footage / 11 13 56 AM, then Anton / 12 47 22 PM.
+- Each number appears on screen as you say it.
 
-There are also real takes of Kyle saying "$900 for nine acres" (Doug Footage / 8 42 32 AM) and the lease breakdown (Anton / 8 37 12 AM). You could cut in one of his lines for proof.
+**5. Wealthy people reply**
+- Opening: Anton / 12 29 27 PM (shucking).
+- "This is that water": Doug Footage / 8 43 07 AM.
+- Dolphins: Doug Footage / 10 44 41 AM.
+- Filtering line: Doug Footage / 10 08 00 AM.
+- End: Anton / 12 47 22 PM.
+- Optionally open with a stitch of the omar or evelyn clip if the platform allows it.
 
-### 3. Friday night: the bar vs. 60 oysters
+**6. Stranger business, episode 1**
+- Opening line: Doug Footage / 9 14 37 AM. This is your own take saying almost exactly this line, so it can be used instead of the voiceover.
+- Apartment line: Toronto balcony "holding box of oysters".
+- Messaged line: Anton / 7 18 42 AM.
+- Outer Banks line: Doug Footage / 7 08 40 AM.
+- Wading line: Doug Footage / 8 51 28 AM.
+- Dolphins: 10 44 41 AM.
+- Ending: Anton / 7 43 15 AM.
 
-This uses the 1.45M format and fits your health pillar.
+**7. Where your oysters come from**
+- Opening: Doug Footage / 9 45 29 AM.
+- Outer Banks line: Doug Footage / 10 44 41 AM.
+- Hand picking: Doug Footage / 10 00 55 AM.
+- Ice: Doug Footage / 11 13 56 AM.
+- Door line: Anton / 1 19 30 PM (unboxing take).
+- End: Anton / 12 47 22 PM.
 
-| VO | Clip |
-|---|---|
-| Your friends spend sixty bucks at the bar every Friday. I spend it on sixty oysters. | Anton / 12 47 22 PM (cheers with dressed oysters) |
-| Oysters are the most zinc-dense food on the planet. | Anton / 12 29 27 PM (shucking close-up) |
-| Your body needs zinc for testosterone, and most guys don't get enough. | Doug Footage / 8 52 23 AM |
-| Alcohol burns through it. | Toronto oyster party clips (catalog: "oyster party table") |
-| One version of you wakes up Saturday hungover. | Anton / 7 39 25 AM (open water, sun glare) |
-| The other wakes up on a boat at sunrise. | Anton / 7 43 15 AM |
-| Same sixty dollars. Completely different man in a year. | Doug Footage / 10 27 19 AM → Anton / 12 35 01 PM (pouring sauce) |
-| Comment "oysters" and I'll send you where I get mine. | Anton / 12 47 22 PM |
+### Facts check
+These lines come from Kyle's takes:
+- 50 gallons a day
+- no central nervous system
+- sounds like a marble
+- thirty minutes out of the water
+- the lease cost: 8.8 acres for $880
 
-### 4. Five things nobody tells you about oysters
+Two lines don't come from Kyle:
+- **"Most zinc-dense food on the planet"** is widely cited (oysters top the USDA zinc lists).
+- **The state testing line** reflects US shellfish sanitation rules: harvest areas are classified and sampled by the state (NC Shellfish Sanitation).
 
-This is a fact stack. Each fact comes from Kyle's takes.
-
-| VO | Clip |
-|---|---|
-| Five things nobody tells you about oysters. | Anton / 12 28 49 PM (opening one) |
-| One: a single oyster filters fifty gallons of water a day. | Doug Footage / 8 43 07 AM |
-| Two: every cage is a reef. Crabs, shrimp, baby fish live inside. | Doug Footage / 10 08 00 AM → Anton / 9 57 16 AM (crab) |
-| Three: they don't have a central nervous system, so a lot of vegans eat them. | Doug Footage / 9 40 33 AM |
-| Four: a good one is two and a half inches and sounds like a marble when you tap it. | Doug Footage / 8 52 23 AM |
-| Five: the ones at your grocery store have been out of the water for days. These were out for thirty minutes. | Doug Footage / 11 13 56 AM → Anton / 12 47 22 PM |
-| Follow for more. Comment "fresh" to try them. | Anton / 12 47 22 PM |
-
-### 5. I started a business with a stranger on the internet
-
-This is a story format. It opens on your real take, then the voiceover carries it.
-
-| VO / take | Clip |
-|---|---|
-| (Take) "I started a business with a stranger on the internet." | Doug Footage / 9 14 37 AM |
-| A few months ago I was posting oyster videos from my apartment. | Toronto oyster clips (catalog: "holding box of oysters" on the balcony) |
-| Then a guy I'd never met messaged me. | Anton / 7 18 42 AM (crew prepping the boat at sunrise) |
-| Two weeks later I'm in the Outer Banks at five a.m. | Doug Footage / 7 08 40 AM (marsh boardwalk at dawn) |
-| Wading through a million oysters... | Doug Footage / 8 51 28 AM |
-| ...with dolphins swimming past. | Doug Footage / 10 44 41 AM |
-| Now we ship them, straight from this water to your door. | Doug Footage / 11 09 11 AM → 11 13 56 AM |
-| Say yes to the weird stuff. That's where life gets good. | Anton / 7 43 15 AM |
-| Comment "oysters" if you want some. | Anton / 12 47 22 PM |
-
-It ends on the Lifestyle Legends idea of freedom and adventure, so it works on your account as well as Portside's.
-
-### 6. Where your oysters actually come from
-
-This one is for the Portside Catch account (product).
-
-| VO | Clip |
-|---|---|
-| This is where your oysters come from. | Doug Footage / 9 45 29 AM |
-| Grown in the Outer Banks, in water so clean the dolphins live here. | Doug Footage / 10 44 41 AM |
-| Picked by hand at low tide. | Doug Footage / 10 00 55 AM |
-| On ice within the hour. | Doug Footage / 11 13 56 AM |
-| They show up at your door with ice packs, the harvest tag, and a card from Kyle, the farmer who grew them. | Anton / 1 19 30 PM (unboxing take) |
-| Subscribers get a free shucker. | Anton / 12 28 49 PM |
-| Comment "fresh" and I'll send you the link. | Anton / 12 47 22 PM |
-
-### Shots we don't have yet (for the next farm trip)
-
-- The crane lifting cages at high tide. Script 1 would gain the high-tide/low-tide contrast that made the first version work.
-- Sorting or grading by size, such as a tumbler.
-- A clean close-up of slurping a raw oyster on the boat, straight from the water.
-- Packing and labelling the boxes.
-- A sunset or golden-hour shot at the farm. Everything we have is one clear morning.
-- Waking up and stretching in bed at the farm house, for the "day in the life" opening.
+### Shots we don't have yet
+- The crane at high tide.
+- Sorting by size.
+- A raw-oyster slurp on the boat.
+- Packing boxes.
+- A sunset at the farm.
+- Waking up at the farm house.
