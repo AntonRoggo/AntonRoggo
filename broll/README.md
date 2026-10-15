@@ -2,6 +2,8 @@
 
 **Status (Oct 2026):** 2,492 videos from the 12 ANTON MASTER BROLL folders created since July 2025 were viewed and logged in `raw/` (every clip, any kind: broll, talking, other). `catalog.json` holds the 249 best B-roll clips (quality 4-5, duplicates removed). Not yet covered: `toronto summer 2025`, `ALL BROLL`, and older folders. Skipped as too large: `brazil 2025/day 6/finished/dec 5.mov` (a finished edit).
 
+Also covered: `/[01] Clients/[07] Portside Catch/Portside Catch Broll` (264 videos: oyster-farm day in North Carolina with farmer Kyle on Apr 23 2026 in `Anton/` and `Doug Footage/`, plus Anton's oyster-eating reels with Betty in `Anton and Betty Oyster Broll/`), logged in `raw/portside-catch-broll.json` with what is said in each talking take in `notes`. Its quality 4-5 B-roll and action clips are in `catalog.json` / `action.json` (folder `Portside Catch Broll/...`).
+
 `action.json` holds clips of Anton or friends doing an activity (kitesurfing, hiking, snowboarding, climbing...), rated on `action_quality` (how clearly the activity shows), with `activity` and `who` fields. Clips rated 1 (barely visible) are left out.
 
 **Usage:** `used_count` / `used_in_edits` say how many of Anton's finished edits (218 in these folders) already use each clip, found by `tools/clip_embed.py`. Both lists are sorted most-used first, and clips used in 2+ edits are included even if their quality score is low. Raw data in `usage.json`.
