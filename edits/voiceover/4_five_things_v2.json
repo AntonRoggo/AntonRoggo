@@ -109,5 +109,7 @@
   "file": "input/shortform/music/charmed - stella.mp3",
   "db": -8
  },
- "note": "v2 after Anton's notes: HDR tone mapping, headline, no pauses between lines, demucs-cleaned voice"
+ "note": "v2 after Anton's notes: HDR tone mapping, headline, no pauses between lines, demucs-cleaned voice",
+ "denoise": "strong",
+ "voice_gain": "linear"
 }

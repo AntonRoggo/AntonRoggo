@@ -1,0 +1,143 @@
+{
+ "note": "v2 (Anton's 8 notes on v1). Voice = demucs vocals stem of input/voiceovers/3_friday_night.m4a (python3 -m demucs --two-stems=vocals -n htdemucs --segment 7, then mono 48 kHz), so background noise is gone and speech detection trims tight; then RNNoise + gate in the tool.",
+ "voice": "output/voiceover/work/fn/vocals.wav",
+ "voice_src": "input/voiceovers/3_friday_night.m4a",
+ "words": "output/voiceover/work/3_friday_night.cwords.json",
+ "out": "output/voiceover/3_friday_night_v2.mp4",
+ "max_pause": 0.3,
+ "pad_in": 0.12,
+ "pad_out": 0.2,
+ "overlap": 0.1,
+ "gate_db": -45,
+ "segments": [
+  {
+   "src": [
+    8.15,
+    12.9
+   ],
+   "note": "Boys, are we spending 60 bucks at the bar every Friday, or are we spending them on oysters? (3rd take)"
+  },
+  {
+   "src": [
+    17.3,
+    21.5
+   ],
+   "note": "Go out with your friends, grab a nice dinner, and save the money."
+  },
+  {
+   "src": [
+    24.1,
+    25.9
+   ],
+   "note": "Load up on that zinc."
+  },
+  {
+   "src": [
+    30.4,
+    32.5
+   ],
+   "note": "Max out your testosterone."
+  },
+  {
+   "src": [
+    44.5,
+    48.1
+   ],
+   "note": "And Saturday, instead of waking up hungover, you wake up bricked. (3rd take)"
+  },
+  {
+   "src": [
+    57.5,
+    64.7
+   ],
+   "note": "CTA, 2nd take: If you want to win a fresh batch of oysters, we'll ship it straight to your door overnight. Comment oysters for the giveaway link."
+  }
+ ],
+ "fix": {
+  "7.08": "",
+  "62.82": "comment",
+  "62.92": ""
+ },
+ "shots": [
+  {
+   "file": "input/vo_broll/px/fn_bar_rio.mp4",
+   "at": 0,
+   "in": 4.0,
+   "note": "Rio: Anton with a drink walking past a busy bar (brazil 2025/RIO/sunday 6 26 01 PM)"
+  },
+  {
+   "file": "input/vo_broll/px/a1247_22.mp4",
+   "at": "every friday",
+   "in": 5.9,
+   "note": "Anton + Doug cheers and slurp oysters at the farm (Portside Anton 12 47 22 PM)"
+  },
+  {
+   "file": "input/vo_broll/px/fn_water_bite.mp4",
+   "at": "them on oysters",
+   "in": 56.55,
+   "note": "Anton slurps an oyster out on the water (Portside Anton 8 22 38 AM)"
+  },
+  {
+   "file": "input/vo_broll/px/fn_dinner_tor.mp4",
+   "at": "go out",
+   "in": 0.0,
+   "note": "Toronto oyster dinner party long table (used 4x)"
+  },
+  {
+   "file": "input/vo_broll/px/fn_dinner_mne.mp4",
+   "at": "grab a",
+   "in": 5.0,
+   "note": "Montenegro seafood dinner with friends (used 3x)"
+  },
+  {
+   "file": "input/vo_broll/px/fn_rio_eat.mp4",
+   "at": "and save",
+   "in": 12.1,
+   "note": "Rio restaurant: Anton eats an oyster at dinner"
+  },
+  {
+   "file": "input/vo_broll/px/fn_patio.mp4",
+   "at": "load up",
+   "in": 20.6,
+   "note": "Patio: Anton tips back an oyster (Portside Anton and Betty 12 12 25 PM)"
+  },
+  {
+   "file": "input/vo_broll/px/fn_dips_rio.mp4",
+   "at": "max out",
+   "in": 2.5,
+   "note": "Ipanema beach gym dips"
+  },
+  {
+   "file": "input/vo_broll/px/a0739_25.mp4",
+   "at": "and saturday",
+   "in": 4.9,
+   "zoom": 1.2,
+   "y": 0.2
+  },
+  {
+   "file": "input/vo_broll/px/fn_b0739_55.mp4",
+   "at": "you wake",
+   "in": 4.6,
+   "note": "steady: Anton and crew sitting on the boat (Portside Anton 7 39 55 AM)"
+  },
+  {
+   "file": "input/vo_broll/px/d1027_19.mp4",
+   "at": "if you",
+   "in": 1.0
+  },
+  {
+   "file": "input/vo_broll/px/a1319_30.mp4",
+   "at": "well ship",
+   "in": 39.0
+  },
+  {
+   "file": "input/vo_broll/px/a1247_22.mp4",
+   "at": "comment oysters",
+   "in": 17.3
+  }
+ ],
+ "music": {
+  "file": "input/shortform/music/charmed - stella.mp3",
+  "db": -8
+ }
+}

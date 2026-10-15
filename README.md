@@ -52,6 +52,16 @@ teleprompter, with retakes and pauses) laid over B-roll. Everything comes from a
   for healthy skin, slightly richer blues and greener greens. `blue` = natural plus cooler mids and
   shadows and cyan-greens pulled toward blue, so brown-green shallow water reads blue. Presets live
   in `GRADES` in the tool; a raw ffmpeg filter string also works.
+- `headline`: title on screen for the whole video (list videos, "five things..."), caption style at
+  58 px, max 2 lines, centred at y=350 (`headline_size` / `headline_y` to change).
+- Noisy voiceovers (knife sounds, chatter): separate the voice with
+  `demucs -n htdemucs --two-stems=vocals`, then point `voice_clean` (the sound) and `detect` (where
+  speech and pauses are found) at the vocals file; `speech_db: 22` finds pauses the default misses,
+  `gate_db` gates the gaps. Voiceovers run tight: `max_pause` ~0.25 so no pause between lines.
+- Hiss or "static" between lines: `"denoise": "strong"` (full-strength RNNoise twice, firmer
+  compressor) and `"voice_gain": "linear"` (one fixed gain + limiter to -12 LUFS, for the voice and
+  the final mix). Without it, loudnorm drops into its dynamic mode whenever the gain would push peaks
+  past 0 dBTP, and that mode lifts the background in every pause. Add `gate_db` (e.g. -34) on top.
 
 ```bash
 python3 tools/voiceover_edit.py edits/voiceover/2_gatekeep.json --preview   # captions + shot times
