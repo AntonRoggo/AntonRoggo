@@ -1,0 +1,113 @@
+{
+ "voice": "input/voiceovers/4_five_things.m4a",
+ "voice_clean": "output/voiceover/work/4_five_things.vocals.wav",
+ "detect": "output/voiceover/work/4_five_things.vocals.wav",
+ "words": "output/voiceover/work/4_five_things.cwords.json",
+ "out": "output/voiceover/4_five_things_v2.mp4",
+ "headline": "five things no one tells you about oysters",
+ "max_pause": 0.3,
+ "speech_db": 22,
+ "pad_in": 0.15,
+ "pad_out": 0.3,
+ "overlap": 0.1,
+ "gate_db": -38,
+ "segments": [
+  {
+   "src": [
+    3.85,
+    20.4
+   ],
+   "note": "Five things nobody tells you about oysters. One... Two... Three, ... so a lot of vegans eat them."
+  },
+  {
+   "src": [
+    25.0,
+    28.1
+   ],
+   "note": "Four. A good one sounds like a marble when you tap it. (2nd take; the first broke off at 'like a...')"
+  },
+  {
+   "src": [
+    31.45,
+    44.1
+   ],
+   "note": "Five, the grocery store ones... These were out for 30 minutes and we shipped them to you overnight. CTA (giveaway)"
+  }
+ ],
+ "fix": {
+  "3.74": "5",
+  "6.44": "1",
+  "10.22": "2",
+  "16.74": "3",
+  "24.98": "4",
+  "31.32": "5"
+ },
+ "shots": [
+  {
+   "file": "input/vo_broll/px/a1228_49.mp4",
+   "at": 0,
+   "in": 5.0
+  },
+  {
+   "file": "input/vo_broll/px/d0843_07.mp4",
+   "at": 2.55,
+   "in": 0.0
+  },
+  {
+   "file": "input/vo_broll/px/d0759_31.mp4",
+   "at": "can filter",
+   "in": 2.5
+  },
+  {
+   "file": "input/vo_broll/px/d1008_00.mp4",
+   "at": 6.33,
+   "in": 0.0,
+   "note": "v2: wide shot of the two of them working a cage in the water (was a glove close-up)"
+  },
+  {
+   "file": "input/vo_broll/px/a0957_16.mp4",
+   "at": "crabs",
+   "in": 19.9
+  },
+  {
+   "file": "input/vo_broll/px/d0940_33.mp4",
+   "at": 12.85,
+   "in": 7.0
+  },
+  {
+   "file": "input/vo_broll/px/a1229_27.mp4",
+   "at": "so a lot",
+   "in": 5.0
+  },
+  {
+   "file": "input/vo_broll/px/d0852_23.mp4",
+   "at": 16.53,
+   "in": 1.8
+  },
+  {
+   "file": "input/vo_broll/px/d1113_56.mp4",
+   "at": 19.53,
+   "in": 0.0
+  },
+  {
+   "file": "input/vo_broll/px/a1247_22.mp4",
+   "at": "these were",
+   "in": 4.5
+  },
+  {
+   "file": "input/vo_broll/px/a1319_30.mp4",
+   "at": "and we",
+   "in": 39.0
+  },
+  {
+   "file": "input/vo_broll/px/d1027_19.mp4",
+   "at": "if you want",
+   "in": 1.0
+  }
+ ],
+ "music": {
+  "file": "input/shortform/music/charmed - stella.mp3",
+  "db": -8
+ },
+ "note": "v2 after Anton's notes: HDR tone mapping, headline, no pauses between lines, demucs-cleaned voice"
+}

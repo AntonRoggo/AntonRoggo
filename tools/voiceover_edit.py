@@ -20,6 +20,21 @@ Plan (times are seconds; "src" times are in the voiceover file):
   ],                                                    #   unless "free": true, e.g. music-only cuts)
                                       # optional per shot: "zoom": 1.2, "y": 0.3 (punch-in, vertical anchor 0-1)
   "tail": 7.0,                        # seconds of music-only picture after the voice ends
+  "pad_in": 0.15, "pad_out": 0.3,     # optional: speech padding kept at every cut (defaults: edit_video.py)
+  "overlap": 0.1,                     # optional: audio crossfade at every join (bigger = snappier joins)
+  "max_pause": 0.7,                   # optional: pauses longer than this inside a segment are cut
+  "voice_clean": "output/.../vocals.wav",   # optional: same recording with the noise already removed
+                                      #   (e.g. demucs --two-stems vocals); used for the sound, while
+                                      #   speech detection and timing still come from "voice"
+  "detect": "output/.../vocals.wav",  # optional: file to find speech/pauses in (default "voice"); use
+                                      #   the cleaned voice when background noise hides the pauses
+  "speech_db": 22,                    # optional: speech = within this many dB of his speaking level
+                                      #   (default 32, edit_video.py); lower finds shorter pauses
+  "gate_db": -30,                     # optional: noise gate after denoising (threshold in dBFS of the
+                                      #   -12 LUFS voice); residual noise between words drops ~20 dB
+  "headline": "five things no one tells you about oysters",   # optional: title for the whole video,
+                                      #   caption style but smaller, max 2 lines, in the upper area
+                                      #   ("headline_size" px, default 58; "headline_y" centre, default 350)
   "music": {"file": "input/shortform/music/charmed - stella.mp3", "db": -8,
             "after": {"at": 14.2, "db": -1}}   # optional: music level change (e.g. music carries the end)
 }
@@ -76,9 +91,27 @@ def norm_chain(m, final=False):
             f"linear=true,{lim}")
 
 
+def seed_speech_mask(path, speech_db):
+    """edit_video.speech_mask with a stricter 'is he talking' threshold (seeds its cache, so
+    detect_pauses/trim_to_speech use it). Needed when the pauses aren't quiet enough for the default."""
+    import numpy as np
+    sr, hop = 16000, 320
+    raw = subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-i", str(path), "-vn",
+                          "-af", f"highpass=f=80,arnndn=m={DENOISE_MODEL}", "-ac", "1", "-ar", str(sr),
+                          "-f", "f32le", "-"], capture_output=True, check=True).stdout
+    a = np.frombuffer(raw, dtype=np.float32)
+    n = len(a) // hop
+    db = 20 * np.log10(np.sqrt((a[:n * hop].reshape(n, hop) ** 2).mean(1)) + 1e-9)
+    ev._speech_cache[path] = (db >= np.percentile(db, 90) - speech_db, hop / sr)
+
+
 def build_segments(plan, voice):
     """Source ranges of the voice track, trimmed to speech and with long pauses removed.
     Returns [(a, b, hold)] where hold is extra silence after that range."""
+    if plan.get("speech_db"):
+        seed_speech_mask(voice, plan["speech_db"])
+    ev.PAD_IN = plan.get("pad_in", ev.PAD_IN)       # (module globals read by trim_to_speech/cut_pauses)
+    ev.PAD_OUT = plan.get("pad_out", ev.PAD_OUT)
     max_pause = plan.get("max_pause", ev.MAX_PAUSE)
     pauses = ev.detect_pauses(voice, max_pause)
     out = []
@@ -94,8 +127,12 @@ def build_segments(plan, voice):
     return out
 
 
-def offsets(segs, ov=ev.AUDIO_OVERLAP):
+OVERLAP = ev.AUDIO_OVERLAP     # set from the plan's "overlap" in main()
+
+
+def offsets(segs, ov=None):
     """Output start time of every segment (crossfaded joins; holds add silence)."""
+    ov = OVERLAP if ov is None else ov
     t, offs = 0.0, []
     for a, b, hold in segs:
         offs.append(t)
@@ -134,19 +171,22 @@ def map_words(words, segs, fix):
     return out
 
 
-def render_voice(voice, segs, out_wav):
-    """Denoise the whole recording first (so RNNoise has context), then cut and crossfade."""
+def render_voice(voice, segs, out_wav, ov=ev.AUDIO_OVERLAP, gate_db=None):
+    """Denoise the whole recording first (so RNNoise has context), then cut and crossfade.
+    gate_db: optional noise gate on the cleaned voice (pulls leftover noise between words down)."""
+    gate = (f",agate=threshold={10 ** (gate_db / 20):.5f}:range={10 ** (-20 / 20):.4f}:ratio=4:attack=3:"
+            f"release=120:knee=4" if gate_db is not None else "")
     with tempfile.TemporaryDirectory() as tmp:
         clean = Path(tmp) / "clean.wav"
         m = loudnorm_json(voice, PRE)
         run(["ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-i", str(voice), "-vn", "-af",
-             f"{PRE},{norm_chain(m)},atrim=start=0.015,asetpts=PTS-STARTPTS", "-ac", "1", "-ar", str(SR), str(clean)])
+             f"{PRE},{norm_chain(m)}{gate},atrim=start=0.015,asetpts=PTS-STARTPTS", "-ac", "1", "-ar", str(SR), str(clean)])
         f = ev.CUT_FADE
         parts = []
         for i, (a, b, hold) in enumerate(segs):
             parts.append(f"[0:a]atrim={a:.4f}:{b:.4f},asetpts=PTS-STARTPTS,afade=t=in:d={f},"
                          f"afade=t=out:st={b - a - f:.4f}:d={f}" + (f",apad=pad_dur={hold:.3f}" if hold else "") + f"[a{i}];")
-        graph = "".join(parts) + ev.audio_join(len(segs))
+        graph = "".join(parts) + ev.audio_join(len(segs), ov)
         run(["ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-i", str(clean), "-filter_complex", graph,
              "-map", "[ac]", "-ar", str(SR), str(out_wav)])
 
@@ -234,6 +274,26 @@ def music_track(music, total, voice_end, out_wav):
     return beat
 
 
+HEADLINE_SIZE = 58     # px: smaller than the 70 px captions
+HEADLINE_Y = 350       # centre of the headline block (upper area, clear of the IG top bar and the captions)
+
+
+def add_headline(ass, text, total, size=HEADLINE_SIZE, y=HEADLINE_Y):
+    """Put a title on screen for the whole video (list videos: "five things..."), in the caption
+    style (lowercase, no punctuation, white with the black stroke), at most 2 balanced lines."""
+    words = [w for w in (ev.caption_text(w) for w in text.split()) if w]
+    if not words:
+        return
+    if len(" ".join(words)) > 22 and len(words) > 1:   # wrap into the two most balanced lines
+        k = min(range(1, len(words)), key=lambda i: abs(len(" ".join(words[:i])) - len(" ".join(words[i:]))))
+        body = " ".join(words[:k]) + r"\N" + " ".join(words[k:])
+    else:
+        body = " ".join(words)
+    line = (f"Dialogue: 1,{ev.ass_time(0)},{ev.ass_time(total)},Default,,0,0,0,,"
+            f"{{\\an5\\pos({W // 2},{y})\\fs{size}\\bord{ev.STROKE_PX}}}{body}")
+    ass.write_text(ass.read_text(encoding="utf-8").rstrip("\n") + "\n" + line + "\n", encoding="utf-8")
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("plan", type=Path)
@@ -244,7 +304,9 @@ def main():
     out = ROOT / plan["out"]
     out.parent.mkdir(parents=True, exist_ok=True)
     words = json.loads((ROOT / plan["words"]).read_text())
-    segs = build_segments(plan, voice)
+    global OVERLAP
+    OVERLAP = plan.get("overlap", ev.AUDIO_OVERLAP)
+    segs = build_segments(plan, ROOT / plan["detect"] if plan.get("detect") else voice)
     _, voice_len = offsets(segs)
     total = round((voice_len + plan.get("tail", 0.0)) * FPS) / FPS
     timed = map_words(words, segs, plan.get("fix", {}))
@@ -263,9 +325,13 @@ def main():
         return
     ass = out.with_suffix(".ass")
     ev.write_captions(kept, keep, W, H, ass)
+    if plan.get("headline"):
+        add_headline(ass, plan["headline"], total, plan.get("headline_size", HEADLINE_SIZE),
+                     plan.get("headline_y", HEADLINE_Y))
     with tempfile.TemporaryDirectory(dir=out.parent) as tmp:
         vwav, mwav, mix = Path(tmp) / "voice.wav", Path(tmp) / "music.wav", Path(tmp) / "mix.wav"
-        render_voice(voice, segs, vwav)
+        render_voice(ROOT / plan["voice_clean"] if plan.get("voice_clean") else voice, segs, vwav,
+                     OVERLAP, plan.get("gate_db"))
         graph = f"[0:a]aresample={SR},apad,atrim=end={total:.4f}[v];"
         inputs = ["-i", str(vwav)]
         if plan.get("music"):

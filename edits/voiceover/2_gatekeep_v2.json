@@ -1,0 +1,134 @@
+{
+ "voice": "input/voiceovers/2_gatekeep.m4a",
+ "words": "output/voiceover/work/2_gatekeep.cwords.json",
+ "out": "output/voiceover/2_gatekeep_v2.mp4",
+ "pad_in": 0.12,
+ "pad_out": 0.18,
+ "overlap": 0.12,
+ "segments": [
+  {
+   "src": [
+    0.9,
+    6.7
+   ],
+   "note": "I should probably gatekeep this, but the best job on the market might just be an oyster farmer."
+  },
+  {
+   "src": [
+    12.4,
+    18.8
+   ],
+   "note": "We flew down to North Carolina and you could lease nine acres of ocean for under a thousand bucks a year."
+  },
+  {
+   "src": [
+    20.3,
+    23.72
+   ],
+   "note": "And the day consists of swimming around (first take; the repeated 'and the day consists of' at 23.8-25.0 is dropped)"
+  },
+  {
+   "src": [
+    25.09,
+    26.2
+   ],
+   "keep_start": true,
+   "note": "getting sun,"
+  },
+  {
+   "src": [
+    26.25,
+    29.4
+   ],
+   "note": "eating oysters, and getting in the water. (0.4 s pause after 'sun' removed)"
+  },
+  {
+   "src": [
+    36.3,
+    42.7
+   ],
+   "note": "This is hard to beat. We're giving away oysters from this farm. If you want to win them, comment oysters and I'll send you the link. (second take; first take 32.8-35.9 abandoned mid-CTA)"
+  }
+ ],
+ "shots": [
+  {
+   "file": "input/vo_broll/px/a0743_34.mp4",
+   "at": 0,
+   "in": 2.9,
+   "note": "hook: Anton and friend on the boat heading out (Anton 7 43 34 AM)"
+  },
+  {
+   "file": "input/vo_broll/gk_px/d0851_34.mp4",
+   "at": "but the best",
+   "in": 1.0,
+   "note": "note 1: wide, Anton wading out to the cage rows (Doug 8 51 34 AM)"
+  },
+  {
+   "file": "input/vo_broll/gk_px/d0944_42.mp4",
+   "at": "might just be",
+   "in": 4.6,
+   "note": "note 2: Anton and friend lift a heavy cage out of the water (Doug 9 44 42 AM)"
+  },
+  {
+   "file": "input/vo_broll/gk_px/d0915_49.mp4",
+   "at": "we flew down",
+   "in": 0.0,
+   "note": "Anton and friend standing on the cages out on the farm (Doug 9 15 49 AM)"
+  },
+  {
+   "file": "input/vo_broll/gk_px/a0850_33.mp4",
+   "at": "lease nine acres",
+   "in": 0.9,
+   "note": "wide: long cage rows on open water (Anton 8 50 33 AM)"
+  },
+  {
+   "file": "input/vo_broll/gk_px/d0948_22.mp4",
+   "at": "under a thousand",
+   "in": 8.1,
+   "note": "hauling cages on a rope (Doug 9 48 22 AM)"
+  },
+  {
+   "file": "input/vo_broll/gk_px/d0914_08.mp4",
+   "at": "and the",
+   "in": 0.3,
+   "note": "swimming around: Anton and friend wading out onto the cages (Doug 9 14 08 AM)"
+  },
+  {
+   "file": "input/vo_broll/gk_px/a0850_49.mp4",
+   "at": "getting sun",
+   "in": 0.2,
+   "note": "sun on the water, work boat at the cage line (Anton 8 50 49 AM)"
+  },
+  {
+   "file": "input/vo_broll/gk_px/a0822_38.mp4",
+   "at": "eating oysters",
+   "in": 56.6,
+   "note": "Anton eats an oyster out on the water (Anton 8 22 38 AM)"
+  },
+  {
+   "file": "input/vo_broll/px/d1027_19.mp4",
+   "at": "and getting",
+   "in": 0.0,
+   "note": "in the water, lifting full baskets up to the boat, grinning (Doug 10 27 19 AM)"
+  },
+  {
+   "file": "input/vo_broll/px/d1109_11.mp4",
+   "at": "from this farm",
+   "in": 13.0,
+   "note": "Anton drives 1000 oysters up the dock (Doug 11 09 11 AM)"
+  },
+  {
+   "file": "input/vo_broll/px/a1247_22.mp4",
+   "at": "to win them",
+   "in": 4.4,
+   "note": "Anton and friend cheers and eat dressed oysters (Anton 12 47 22 PM)"
+  }
+ ],
+ "music": {
+  "file": "input/shortform/music/charmed - stella.mp3",
+  "db": -8,
+  "fade": 0.9
+ },
+ "gate_db": -30,
+ "tail": 0.4
+}

@@ -95,25 +95,31 @@ def transcribe(path, model_size, hint=""):
 
 def fix_words(words, spec):
     """Apply a --fix 'START-END=TEXT' override: the words whose midpoint falls in the source range are
-    replaced by TEXT, spread over the time those words covered (by character length). The cached
-    transcript stays as transcribed; the fix is applied on every run."""
+    replaced by TEXT. A token may carry its own source times ('boy@23.75-24.05'); otherwise, if the
+    word count matches, each new word takes the old word's times, else the words are spread over the
+    time the old words covered. The cached transcript stays as transcribed; the fix is applied on
+    every run."""
     rng, text = spec.split("=", 1)
     a, b = (float(v) for v in rng.split("-"))
     hit = [i for i, w in enumerate(words) if a <= (w["start"] + w["end"]) / 2 <= b]
-    new = text.split()
-    if not new:
-        return [w for i, w in enumerate(words) if i not in hit]
+    toks = [t.split("@") for t in text.split()]
     t0 = words[hit[0]]["start"] if hit else a
     t1 = words[hit[-1]]["end"] if hit else b
-    total = sum(len(t) for t in new)
-    fixed, t = [], t0
-    for tok in new:
-        d = (t1 - t0) * len(tok) / total
-        fixed.append({"text": tok, "start": round(t, 3), "end": round(t + d, 3)})
-        t += d
-    first = hit[0] if hit else sum(1 for w in words if w["start"] < a)
+    fixed = []
+    if all(len(t) == 2 for t in toks):
+        for tok, span in toks:
+            s, e = (float(v) for v in span.split("-"))
+            fixed.append({"text": tok, "start": s, "end": e})
+    elif len(toks) == len(hit):
+        fixed = [{"text": t[0], "start": words[i]["start"], "end": words[i]["end"]} for t, i in zip(toks, hit)]
+    elif toks:
+        total, t = sum(len(x[0]) for x in toks), t0
+        for x in toks:
+            d = (t1 - t0) * len(x[0]) / total
+            fixed.append({"text": x[0], "start": round(t, 3), "end": round(t + d, 3)})
+            t += d
     rest = [w for i, w in enumerate(words) if i not in hit]
-    return rest[:first] + fixed + rest[first:]
+    return sorted(rest + fixed, key=lambda w: w["start"])
 
 
 def norm(text):
