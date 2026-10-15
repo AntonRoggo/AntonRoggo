@@ -3,11 +3,11 @@
  "voice": "output/voiceover/work/fn/vocals.wav",
  "voice_src": "input/voiceovers/3_friday_night.m4a",
  "words": "output/voiceover/work/3_friday_night.cwords.json",
- "out": "output/voiceover/3_friday_night_v2.mp4",
- "max_pause": 0.3,
- "pad_in": 0.12,
- "pad_out": 0.2,
- "overlap": 0.1,
+ "out": "output/voiceover/3_friday_night_v3.mp4",
+ "max_pause": 0.2,
+ "pad_in": 0.1,
+ "pad_out": 0.15,
+ "overlap": 0.15,
  "gate_db": -45,
  "segments": [
   {
@@ -139,5 +139,6 @@
  "music": {
   "file": "input/shortform/music/charmed - stella.mp3",
   "db": -8
- }
+ },
+ "v3_notes": "Anton: apply the voiceover J-cut rule (zero space between sentences)."
 }

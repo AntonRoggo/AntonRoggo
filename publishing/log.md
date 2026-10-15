@@ -40,3 +40,6 @@ Planner: https://app.metricool.com/planner/calendar?blogId=6537632&openWithPostU
 | 2026-10-15 | anton_7_pool_hall.mp4 (v2 re-edit, approved in review tool) | Instagram trial reel (Anton Roggo) | 2026-10-15 16:52 ET | 397192414 | 3375726199817325981 |
 | 2026-10-15 | anton_6_fish_and_chips.mp4 (v2 re-edit, approved) | Instagram trial reel (Anton Roggo) | 2026-10-16 10:52 ET | 397195730 | 188443427135507383 |
 | 2026-10-15 | anton_2_taco_texas.mp4 (v2 re-edit, approved) | Instagram trial reel (Anton Roggo) | 2026-10-16 12:52 ET | 397196033 | -1074629200018125000 |
+| 2026-10-15 | anton_5_terry_blacks_bbq_v3.mp4 (approved v3) | Instagram trial reel (Anton Roggo) | 2026-10-16 14:52 ET | 397265804 | 1027797754993068515 |
+| 2026-10-15 | anton_4_booked_out_restaurant_v3.mp4 (approved v3) | Instagram trial reel (Anton Roggo) | 2026-10-17 10:52 ET | 397266474 | -5025684355425350436 |
+| 2026-10-15 | 4_five_things_v2 (approved v2, voiceover) | Instagram trial reel (Anton Roggo) | 2026-10-17 12:52 ET | 397266659 | -573180345982236934 |

@@ -1,10 +1,10 @@
 {
  "voice": "input/voiceovers/2_gatekeep.m4a",
  "words": "output/voiceover/work/2_gatekeep.cwords.json",
- "out": "output/voiceover/2_gatekeep_v2.mp4",
- "pad_in": 0.12,
- "pad_out": 0.18,
- "overlap": 0.12,
+ "out": "output/voiceover/2_gatekeep_v3.mp4",
+ "pad_in": 0.1,
+ "pad_out": 0.15,
+ "overlap": 0.15,
  "segments": [
   {
    "src": [
@@ -130,5 +130,7 @@
   "fade": 0.9
  },
  "gate_db": -30,
- "tail": 0.4
+ "tail": 0.4,
+ "max_pause": 0.2,
+ "v3_notes": "Anton: apply the voiceover J-cut rule (zero space between sentences)."
 }

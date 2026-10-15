@@ -1,7 +1,7 @@
 {
  "voice": "input/voiceovers/1_day_in_the_life.m4a",
  "words": "output/voiceover/work/1_day_in_the_life.cwords.json",
- "out": "output/voiceover/1_day_in_the_life_v2.mp4",
+ "out": "output/voiceover/1_day_in_the_life_v3.mp4",
  "segments": [
   {
    "src": [
@@ -195,10 +195,13 @@
   "file": "input/shortform/music/charmed - stella.mp3",
   "db": -8
  },
- "max_pause": 0.5,
+ "max_pause": 0.2,
  "grade": "natural",
  "overlap": 0.15,
  "denoise": "strong",
  "voice_gain": "linear",
- "gate_db": -34
+ "gate_db": -34,
+ "pad_in": 0.1,
+ "pad_out": 0.15,
+ "v3_notes": "Anton: apply the voiceover J-cut rule (zero space between sentences)."
 }
