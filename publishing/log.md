@@ -43,3 +43,15 @@ Planner: https://app.metricool.com/planner/calendar?blogId=6537632&openWithPostU
 | 2026-10-15 | anton_5_terry_blacks_bbq_v3.mp4 (approved v3) | Instagram trial reel (Anton Roggo) | 2026-10-16 14:52 ET | 397265804 | 1027797754993068515 |
 | 2026-10-15 | anton_4_booked_out_restaurant_v3.mp4 (approved v3) | Instagram trial reel (Anton Roggo) | 2026-10-17 10:52 ET | 397266474 | -5025684355425350436 |
 | 2026-10-15 | 4_five_things_v2 (approved v2, voiceover) | Instagram trial reel (Anton Roggo) | 2026-10-17 12:52 ET | 397266659 | -573180345982236934 |
+
+**2026-10-15 19:15 ET:** Anton said "schedule everything we make for today". Everything moved to tonight as Instagram trial reels on Anton Roggo (giveaway caption):
+| Video | Publishes at | Post id | uuid |
+|---|---|---|---|
+| Fish and chips v2 | 2026-10-15 19:00 ET | 397282866 | 188443427135507383 |
+| Texas taco v2 | 19:30 | 397284222 | -1074629200018125000 |
+| Terry Black's v3 | 19:50 | 397284253 | 1027797754993068515 |
+| Booked-out restaurant v3 | 20:10 | 397284268 | -5025684355425350436 |
+| Five things v2 (voiceover) | 20:30 | 397284289 | -573180345982236934 |
+| Where your oysters come from v3 (voiceover) | 20:50 | 397286284 | 2577096658871599221 |
+| Day in the life pt 2 v3 (voiceover) | 21:10 | 397286339 | -6525623105686845678 |
+| Bar vs 60 oysters v3, Gatekeep v3 | pending render, ~21:30 / 21:50 | | |
