@@ -839,6 +839,10 @@ def main():
         print("Transcribing...")
         words = transcribe(args.input, args.model, args.hint)
         cache.write_text(json.dumps(words))
+    for f in args.fix:
+        words = fix_words(words, f)
+    if args.end is not None:
+        words = [w for w in words if (w["start"] + w["end"]) / 2 <= args.end]
     span = lambda r: tuple(float(v) for v in r.split("-"))
     quoted = [span(r) for r in args.quote]
     words = [dict(w, text=QUOTE_TAG + w["text"]) if any(a <= (w["start"] + w["end"]) / 2 <= b
@@ -865,6 +869,9 @@ def main():
         keep = merged
     if cuts:  # exact cuts win over everything (subtract() shrinks each cut by PAD, so widen first)
         keep = subtract(keep, [(a - PAD, b + PAD) for a, b in cuts])
+    if args.end is not None:  # the video ends exactly here: picture and audio run on to it
+        keep = [(a, min(b, args.end)) for a, b in keep if a < args.end]
+        keep[-1] = (keep[-1][0], min(args.end, duration))
 
     removed = [words[i]["text"] for i in sorted(drop)]
     print(f"Dropped {len(removed)} mistake/filler words: {' '.join(removed)}")

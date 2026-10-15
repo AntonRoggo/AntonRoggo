@@ -60,3 +60,5 @@ Format: `- [date, video] Rule. (What went wrong / what he said.)`
 - [2026-10-15, day-in-the-life feedback] Colour grade every edit for a healthy, natural look: water slightly bluer, greens a little greener, skin not pale. Use one consistent grade across the video, applied after the HDR→Rec.709 tone mapping.
 - [2026-10-15, same] Prefer steady, well-framed shots. Skip clips where the camera walks in so close the framing is lost.
 - [2026-10-15, same] Scene-setting lines ("sunrise") can use pure scenery B-roll with nobody in it. Pick the most beautiful one.
+- [2026-10-15, Terry Black's feedback] Captions must match what he actually says. In noisy places the speech model invents words ("let me tell you" / "I'm a dog" where he says "I'm a boy"): re-listen to any short or low-confidence stretch and correct it with `--fix START-END=TEXT` (source times), never ship a guessed caption.
+- [2026-10-15, Terry Black's feedback] End on the last real line (e.g. "cheers"), about 1 s after it, and cut sign-offs like "all right, that's today's video" (`--end SEC`, source time).
