@@ -567,6 +567,18 @@ def snap_plan(plan, captions, total, cuts=()):
     return out
 
 
+def hdr_to_sdr(path):
+    """iPhone/DJI HDR clips (HLG or PQ, BT.2020) look washed out and overexposed if they're
+    just rescaled: tone-map them to Rec.709 first. Returns a filter prefix ('' for SDR)."""
+    trc = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries",
+                          "stream=color_transfer", "-of", "csv=p=0", str(path)],
+                         capture_output=True, text=True).stdout.strip()
+    if trc not in ("arib-std-b67", "smpte2084"):
+        return ""
+    return (f"zscale=tin={trc}:min=bt2020nc:pin=bt2020:t=linear:npl=203,format=gbrpf32le,zscale=p=bt709,"
+            "tonemap=hable:desat=0:peak=4,zscale=t=bt709:m=bt709:r=tv,format=yuv420p,")
+
+
 def broll_filters(plan, width, height, first_input, fps, total):
     """Picture with B-roll, built as back-to-back pieces of whole frames.
 
@@ -601,7 +613,7 @@ def broll_filters(plan, width, height, first_input, fps, total):
         else:
             n = first_input + bi
             cin = b.get("clip_in", 0)
-            chain.append(f"[{n}:v]trim=start={cin:.3f},setpts=PTS-STARTPTS,fps={fps:.6f},"
+            chain.append(f"[{n}:v]{hdr_to_sdr(b['file'])}trim=start={cin:.3f},setpts=PTS-STARTPTS,fps={fps:.6f},"
                          f"tpad=stop_mode=clone:stop_duration=2,"
                          f"scale={width}:{height}:force_original_aspect_ratio=increase,"
                          f"crop={width}:{height},setsar=1,"

@@ -176,6 +176,17 @@ def snap_shots(plan, captions, total):
     return shots
 
 
+def hdr_to_sdr(path):
+    """iPhone/DJI HDR clips (HLG or PQ, BT.2020) look washed out and overexposed if they're
+    just rescaled: tone-map them to Rec.709 first. Returns a filter prefix ('' for SDR)."""
+    trc = run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=color_transfer",
+               "-of", "csv=p=0", str(path)]).stdout.strip()
+    if trc not in ("arib-std-b67", "smpte2084"):
+        return ""
+    return (f"zscale=tin={trc}:min=bt2020nc:pin=bt2020:t=linear:npl=203,format=gbrpf32le,zscale=p=bt709,"
+            "tonemap=hable:desat=0:peak=4,zscale=t=bt709:m=bt709:r=tv,format=yuv420p,")
+
+
 def picture(shots, total, tmp):
     """Every shot trimmed to whole frames and concatenated (frame-exact joins)."""
     frame = lambda t: int(math.ceil(t * FPS - 1e-6))
@@ -194,7 +205,7 @@ def picture(shots, total, tmp):
         p = Path(tmp) / f"shot{i:02d}.mp4"
         z, ya = s.get("zoom", 1.0), s.get("y", 0.5)   # punch-in (e.g. to crop a finger off the edge)
         zw, zh = int(round(W * z / 2) * 2), int(round(H * z / 2) * 2)
-        vf = (f"fps={FPS},scale={zw}:{zh}:force_original_aspect_ratio=increase,"
+        vf = (hdr_to_sdr(s["file"]) + f"fps={FPS},scale={zw}:{zh}:force_original_aspect_ratio=increase,"
               f"crop={W}:{H}:(iw-{W})/2:(ih-{H})*{ya},setsar=1,"
               f"tpad=stop_mode=clone:stop_duration=3,trim=end_frame={n},setpts=PTS-STARTPTS")
         run(["ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-ss", f"{s.get('in', 0):.4f}", "-i", s["file"],

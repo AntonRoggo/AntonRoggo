@@ -44,3 +44,7 @@ Format: `- [date, video] Rule. (What went wrong / what he said.)`
 - [2026-10-15, same] Open a location with an establishing shot of us in it (for the farm: us out on the water / on the boat), not a detail shot.
 - [2026-10-15, same] Match the shot to the words literally: "we take them out with the crane" shows the crane lifting a cage out of the water; "eating" shows us eating there, in that place.
 - [2026-10-15, same] Pick clean-looking shots: skip overexposed or washed-out clips (or fix their exposure and colour), and frame away from mud and mess. Choose the wider, cleaner angle when one exists.
+- [2026-10-15, "five things" feedback] Phone footage is often HDR (HLG/PQ, BT.2020). Always tone-map it to Rec.709 before editing, or it looks washed out and overexposed. Both `edit_video.py` (B-roll) and `tools/voiceover_edit.py` now do this automatically; check any new pipeline for it.
+- [2026-10-15, same] Voiceover edits run tight: no pauses between lines (unlike talking-head edits, where short pauses stay). Lines butt up against each other with J-cut-style overlaps, keeping only the ~0.15 s / 0.3 s padding so no word is clipped.
+- [2026-10-15, same] Master voiceover audio properly: remove background noise (knife/cutting sounds, chatter, room tone) so only his voice remains, then -12 LUFS / -1 dBTP. Listen to the whole track for leftover noise before showing it.
+- [2026-10-15, same] List videos ("5 things...") get a headline on screen for the whole video at the top: the title in the caption style, e.g. "five things no one tells you about oysters".
