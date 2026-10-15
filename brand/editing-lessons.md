@@ -54,3 +54,5 @@ Format: `- [date, video] Rule. (What went wrong / what he said.)`
 - [2026-10-15, gatekeep feedback] Shots move the story forward step by step: on the boat, then walking out into the water to the cages, then the work, then eating. Every new shot is the next step in the story, so it's clear where we are (an oyster farm).
 - [2026-10-15, same] Voiceovers are very snappy: no dead space between words or sentences, anywhere. This includes long music-only stretches, which feel like dead space; don't end a voiceover video on a silent montage.
 - [2026-10-15, same] Use everything he recorded for the script. Don't drop lines or the CTA to make it shorter or to copy another creator's format; if it seems too long, ask first.
+- [2026-10-15, booked-out feedback] When he mispronounces a word on purpose or by accident (e.g. "oysters"), the caption puts that word in quotation marks. This is the one exception to the no-punctuation rule.
+- [2026-10-15, same] A long pause before the CTA ("if you want to win...") gets J-cut out like any other pause; the CTA follows straight on.
