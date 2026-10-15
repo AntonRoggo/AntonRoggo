@@ -264,9 +264,14 @@ def ass_time(t):
     return f"{h}:{m:02d}:{s:02d}.{cs:02d}"
 
 
+QUOTE_TAG = "\u2063"  # invisible marker on a word that --quote puts in quotation marks
+
+
 def caption_text(word):
-    """Caption style: lowercase, no punctuation (hyphens become spaces)."""
-    return re.sub(r"[^\w\s]", "", word.replace("-", " ").lower()).strip()
+    """Caption style: lowercase, no punctuation (hyphens become spaces). The one exception: a
+    mispronounced word marked with --quote is shown in quotation marks ("oysters")."""
+    text = re.sub(r"[^\w\s]", "", word.replace("-", " ").lower()).strip()
+    return f"\u201c{text}\u201d" if QUOTE_TAG in word and text else text
 
 
 MIN_CAPTION = 0.3   # shortest time a caption stays on screen
@@ -772,6 +777,12 @@ def main():
                     help="words/phrases to help transcription (names, slang), e.g. 'Mate, tallow, cheeky pint'")
     ap.add_argument("--keep", action="append", default=[], metavar="START-END",
                     help="source-time range to always keep, even if silent (e.g. the trick shot, a bite)")
+    ap.add_argument("--cut", action="append", default=[], metavar="START-END",
+                    help="source-time range removed exactly, words and all (a pause or lead-in the "
+                         "audio detection misses, e.g. in a noisy restaurant), e.g. --cut 56.15-64.3")
+    ap.add_argument("--quote", action="append", default=[], metavar="START-END",
+                    help="source-time range whose words are captioned in quotation marks "
+                         "(a mispronounced word), e.g. --quote 70.0-70.9")
     ap.add_argument("--music", type=Path,
                     help="song to lay under the edit; its first beat lands on the first B-roll frame")
     ap.add_argument("--broll", type=Path,
@@ -793,8 +804,13 @@ def main():
         print("Transcribing...")
         words = transcribe(args.input, args.model, args.hint)
         cache.write_text(json.dumps(words))
+    span = lambda r: tuple(float(v) for v in r.split("-"))
+    quoted = [span(r) for r in args.quote]
+    words = [dict(w, text=QUOTE_TAG + w["text"]) if any(a <= (w["start"] + w["end"]) / 2 <= b
+             for a, b in quoted) else w for w in words]
     drop = mark_mistakes(words)
-    manual = [tuple(float(v) for v in r.split("-")) for r in args.drop]
+    cuts = [span(r) for r in args.cut]
+    manual = [span(r) for r in args.drop] + cuts
     for i, w in enumerate(words):
         if any(a <= (w["start"] + w["end"]) / 2 <= b for a, b in manual):
             drop.add(i)
@@ -812,6 +828,8 @@ def main():
             else:
                 merged.append((a, b))
         keep = merged
+    if cuts:  # exact cuts win over everything (subtract() shrinks each cut by PAD, so widen first)
+        keep = subtract(keep, [(a - PAD, b + PAD) for a, b in cuts])
 
     removed = [words[i]["text"] for i in sorted(drop)]
     print(f"Dropped {len(removed)} mistake/filler words: {' '.join(removed)}")
