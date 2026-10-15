@@ -21,9 +21,9 @@ Plan (times are seconds; "src" times are in the voiceover file):
                                       # optional per shot: "zoom": 1.2, "y": 0.3 (punch-in, vertical anchor 0-1),
                                       #   "grade": "blue" (overrides the plan's grade for that shot)
   "tail": 7.0,                        # seconds of music-only picture after the voice ends
-  "pad_in": 0.15, "pad_out": 0.3,     # optional: speech padding kept at every cut (defaults: edit_video.py)
+  "pad_in": 0.10, "pad_out": 0.15,   # optional: speech padding kept at every cut (voiceover defaults: tight)
   "overlap": 0.1,                     # optional: audio crossfade at every join (bigger = snappier joins)
-  "max_pause": 0.7,                   # optional: pauses longer than this inside a segment are cut
+  "max_pause": 0.2,                   # optional: pauses longer than this inside a segment are cut
   "voice_clean": "output/.../vocals.wav",   # optional: same recording with the noise already removed
                                       #   (e.g. demucs --two-stems vocals); used for the sound, while
                                       #   speech detection and timing still come from "voice"
@@ -111,14 +111,19 @@ def seed_speech_mask(path, speech_db):
     ev._speech_cache[path] = (db >= np.percentile(db, 90) - speech_db, hop / sr)
 
 
+# Voiceovers are cut super tight (Anton, 2026-10-15): zero space between sentences, every join
+# J-cut. Talking-head edits keep their looser defaults; plans can still override these.
+VO_PAD_IN, VO_PAD_OUT, VO_OVERLAP, VO_MAX_PAUSE = 0.10, 0.15, 0.15, 0.2
+
+
 def build_segments(plan, voice):
     """Source ranges of the voice track, trimmed to speech and with long pauses removed.
     Returns [(a, b, hold)] where hold is extra silence after that range."""
     if plan.get("speech_db"):
         seed_speech_mask(voice, plan["speech_db"])
-    ev.PAD_IN = plan.get("pad_in", ev.PAD_IN)       # (module globals read by trim_to_speech/cut_pauses)
-    ev.PAD_OUT = plan.get("pad_out", ev.PAD_OUT)
-    max_pause = plan.get("max_pause", ev.MAX_PAUSE)
+    ev.PAD_IN = plan.get("pad_in", VO_PAD_IN)       # (module globals read by trim_to_speech/cut_pauses)
+    ev.PAD_OUT = plan.get("pad_out", VO_PAD_OUT)
+    max_pause = plan.get("max_pause", VO_MAX_PAUSE)
     pauses = ev.detect_pauses(voice, max_pause)
     out = []
     for seg in plan["segments"]:
@@ -347,7 +352,7 @@ def main():
     out.parent.mkdir(parents=True, exist_ok=True)
     words = json.loads((ROOT / plan["words"]).read_text())
     global OVERLAP
-    OVERLAP = plan.get("overlap", ev.AUDIO_OVERLAP)
+    OVERLAP = plan.get("overlap", VO_OVERLAP)
     segs = build_segments(plan, ROOT / plan["detect"] if plan.get("detect") else voice)
     _, voice_len = offsets(segs)
     total = round((voice_len + plan.get("tail", 0.0)) * FPS) / FPS

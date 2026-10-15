@@ -3,8 +3,8 @@
  "voice_clean": "output/voiceover/work/demucs7/htdemucs/7_where_from/vocals.wav",
  "detect": "output/voiceover/work/demucs7/htdemucs/7_where_from/vocals.wav",
  "words": "output/voiceover/work/7_where_from.cwords.json",
- "out": "output/voiceover/7_where_from_v2.mp4",
- "max_pause": 0.45,
+ "out": "output/voiceover/7_where_from_v3.mp4",
+ "max_pause": 0.2,
  "gate_db": -38,
  "segments": [
   {
@@ -53,9 +53,9 @@
    "in": 0.3
   },
   {
-   "file": "input/vo_broll/px/a1429_43_crop.mp4",
+   "file": "input/vo_broll/px/d1039_10.mp4",
    "at": "when its",
-   "in": 0.5
+   "in": 0.0
   },
   {
    "file": "input/vo_broll/px/d1113_56.mp4",
@@ -106,5 +106,10 @@
   "and the waters": "note 5: Doug 8 51 11 AM, lone figure among the cage rows in open water, no mud",
   "colour": "HLG proxies/clips are tone-mapped to Rec.709 by the tool (51ece24)",
   "proxies": "new proxies (1080x1920, HLG tags kept so the tool tone-maps): d0944_42 = Doug 9 44 42 AM from 4.0s; d0933_08 = Doug 9 33 08 AM from 2.0s; d0851_11 = Doug 8 51 11 AM from 0; a0740_10 = Anton 7 40 10 AM from 0; a0822_38_eat = Anton 8 22 38 AM from 55.0s; a1429_43_crop = Anton 2026-04-24 2 29 43 PM from 2.5s, crop 1512x2688 at x=648,y=0"
- }
+ },
+ "pad_in": 0.1,
+ "pad_out": 0.15,
+ "overlap": 0.15,
+ "grade": "natural",
+ "v3_notes": "Anton v2 notes: zero space between sentences (pad 0.1/0.15, overlap 0.15, max_pause 0.2); crane selfie crop (too cropped) -> boat crane with baskets of oysters on deck (Doug 10 39 10 AM); natural grade."
 }
