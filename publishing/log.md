@@ -33,3 +33,8 @@
 | 2026-10-14 | anton_15_oyster_nutrition.mp4 | Instagram trial reel (Anton Roggo) | 2026-10-15 12:52 ET | 396420069 | 8041145031143866503 |
 
 Planner: https://app.metricool.com/planner/calendar?blogId=6537632&openWithPostUuid=<uuid>
+
+### 2026-10-15
+| Scheduled on | File | Platform | Publishes at | Post id | uuid |
+|---|---|---|---|---|---|
+| 2026-10-15 | anton_7_pool_hall.mp4 (v2 re-edit, approved in review tool) | Instagram trial reel (Anton Roggo) | 2026-10-15 16:52 ET | 397192414 | 3375726199817325981 |
