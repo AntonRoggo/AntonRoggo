@@ -40,3 +40,7 @@ Format: `- [date, video] Rule. (What went wrong / what he said.)`
 - [2026-10-13, download happiness feedback] Talking must sound finished and natural: never clip the ends (or soft starts) of words. Keep ~0.15 s before and ~0.3 s after speech at every cut; the J-cut crossfade must fall in that padding, not on the word.
 
 - (2026-10-15) Voiceover scripts for Anton come as a clean teleprompter first: only the words he reads, one sentence per line, no clip names or visual direction. Put the shot list (which clip goes under each line) in a separate "Editor notes" section below.
+- [2026-10-15, "where your oysters come from" feedback] Give viewers context, not tight close-ups of the item. Prefer wide or medium shots of people doing the thing (lifting cages, the crane hauling a cage out of the water, eating an oyster out on the water) over tight shots of hands or cages. Each shot should show where we are and what is happening.
+- [2026-10-15, same] Open a location with an establishing shot of us in it (for the farm: us out on the water / on the boat), not a detail shot.
+- [2026-10-15, same] Match the shot to the words literally: "we take them out with the crane" shows the crane lifting a cage out of the water; "eating" shows us eating there, in that place.
+- [2026-10-15, same] Pick clean-looking shots: skip overexposed or washed-out clips (or fix their exposure and colour), and frame away from mud and mess. Choose the wider, cleaner angle when one exists.
