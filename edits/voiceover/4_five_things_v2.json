@@ -5,10 +5,10 @@
  "words": "output/voiceover/work/4_five_things.cwords.json",
  "out": "output/voiceover/4_five_things_v2.mp4",
  "headline": "five things no one tells you about oysters",
- "max_pause": 0.3,
+ "max_pause": 0.25,
  "speech_db": 22,
- "pad_in": 0.15,
- "pad_out": 0.3,
+ "pad_in": 0.12,
+ "pad_out": 0.22,
  "overlap": 0.1,
  "gate_db": -38,
  "segments": [

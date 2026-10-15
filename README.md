@@ -45,6 +45,13 @@ teleprompter, with retakes and pauses) laid over B-roll. Everything comes from a
   numbers, `""` to merge a word into the previous one.
 - `music` (song at -8 dB, first beat on frame 1, optional `"after"` level change) and `tail`
   (seconds of music-only picture after the voice).
+- `grade`: colour grade applied to every shot after the HDR→Rec.709 tone mapping. On by default
+  (`"natural"`); `"none"` turns it off, and a shot can override it (`"grade": "blue"` for water shots).
+  `natural` = gentle S-curve that keeps black and white points (no crushed blacks or blown
+  highlights), ~1.1x saturation (vibrance first, so skin isn't overdone), a little warmth in the mids
+  for healthy skin, slightly richer blues and greener greens. `blue` = natural plus cooler mids and
+  shadows and cyan-greens pulled toward blue, so brown-green shallow water reads blue. Presets live
+  in `GRADES` in the tool; a raw ffmpeg filter string also works.
 
 ```bash
 python3 tools/voiceover_edit.py edits/voiceover/2_gatekeep.json --preview   # captions + shot times

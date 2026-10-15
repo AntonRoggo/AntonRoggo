@@ -18,7 +18,8 @@ Plan (times are seconds; "src" times are in the voiceover file):
     {"file": "...", "at": "so i flew", "in": 2.1},       # "at" = caption that starts with these words,
     {"file": "...", "at": 12.4, "in": 0.5}               #   or an output time (snapped to a caption start
   ],                                                    #   unless "free": true, e.g. music-only cuts)
-                                      # optional per shot: "zoom": 1.2, "y": 0.3 (punch-in, vertical anchor 0-1)
+                                      # optional per shot: "zoom": 1.2, "y": 0.3 (punch-in, vertical anchor 0-1),
+                                      #   "grade": "blue" (overrides the plan's grade for that shot)
   "tail": 7.0,                        # seconds of music-only picture after the voice ends
   "pad_in": 0.15, "pad_out": 0.3,     # optional: speech padding kept at every cut (defaults: edit_video.py)
   "overlap": 0.1,                     # optional: audio crossfade at every join (bigger = snappier joins)
@@ -32,9 +33,14 @@ Plan (times are seconds; "src" times are in the voiceover file):
                                       #   (default 32, edit_video.py); lower finds shorter pauses
   "gate_db": -30,                     # optional: noise gate after denoising (threshold in dBFS of the
                                       #   -12 LUFS voice); residual noise between words drops ~20 dB
+  "denoise": "strong",                # optional: full-strength RNNoise twice + firmer compressor
+  "voice_gain": "linear",             # optional: fixed gain + limiter to -12 LUFS instead of loudnorm
+                                      #   (which can go dynamic and lift the noise in every pause)
   "headline": "five things no one tells you about oysters",   # optional: title for the whole video,
                                       #   caption style but smaller, max 2 lines, in the upper area
                                       #   ("headline_size" px, default 58; "headline_y" centre, default 350)
+  "grade": "natural",                 # optional colour grade after tone mapping (default "natural";
+                                      #   "blue" = bluer water, "none" = off); shots can override it
   "music": {"file": "input/shortform/music/charmed - stella.mp3", "db": -8,
             "after": {"at": 14.2, "db": -1}}   # optional: music level change (e.g. music carries the end)
 }
@@ -171,16 +177,31 @@ def map_words(words, segs, fix):
     return out
 
 
-def render_voice(voice, segs, out_wav, ov=ev.AUDIO_OVERLAP, gate_db=None):
+# "denoise": "strong": RNNoise at full strength, twice, and a firmer compressor (for recordings with
+# hiss/rumble left between words after the default PRE chain). Same EQ as boost_audio.PRE.
+PRE_STRONG = (f"highpass=f=90,arnndn=m={DENOISE_MODEL}:mix=1,arnndn=m={DENOISE_MODEL}:mix=1,"
+              "acompressor=threshold=-24dB:ratio=3:attack=5:release=150:makeup=1:knee=6,"
+              "equalizer=f=3000:t=q:w=1.2:g=2,equalizer=f=250:t=q:w=1:g=-1.5")
+
+
+def render_voice(voice, segs, out_wav, ov=ev.AUDIO_OVERLAP, gate_db=None, denoise=None, linear=False):
     """Denoise the whole recording first (so RNNoise has context), then cut and crossfade.
-    gate_db: optional noise gate on the cleaned voice (pulls leftover noise between words down)."""
+    gate_db: optional noise gate on the cleaned voice (pulls leftover noise between words down).
+    denoise: "strong" uses PRE_STRONG instead of boost_audio.PRE.
+    linear: bring the voice to -12 LUFS with one fixed gain + limiter. (loudnorm silently falls back to
+    its dynamic mode when the gain would push peaks over 0 dBTP, and that mode lifts the background
+    in every pause: heard as static coming in between lines.)"""
     gate = (f",agate=threshold={10 ** (gate_db / 20):.5f}:range={10 ** (-20 / 20):.4f}:ratio=4:attack=3:"
             f"release=120:knee=4" if gate_db is not None else "")
+    pre = PRE_STRONG if denoise == "strong" else PRE
     with tempfile.TemporaryDirectory() as tmp:
         clean = Path(tmp) / "clean.wav"
-        m = loudnorm_json(voice, PRE)
+        m = loudnorm_json(voice, pre)
+        norm = (f"volume={TARGET_LUFS - float(m['input_i']):.2f}dB,aresample={SR * 4},"
+                f"alimiter=limit={LIMIT:.4f}:attack=5:release=50:level=false,aresample={SR}"
+                if linear else norm_chain(m))
         run(["ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-i", str(voice), "-vn", "-af",
-             f"{PRE},{norm_chain(m)}{gate},atrim=start=0.015,asetpts=PTS-STARTPTS", "-ac", "1", "-ar", str(SR), str(clean)])
+             f"{pre},{norm}{gate},atrim=start=0.015,asetpts=PTS-STARTPTS", "-ac", "1", "-ar", str(SR), str(clean)])
         f = ev.CUT_FADE
         parts = []
         for i, (a, b, hold) in enumerate(segs):
@@ -227,8 +248,29 @@ def hdr_to_sdr(path):
             "tonemap=hable:desat=0:peak=4,zscale=t=bt709:m=bt709:r=tv,format=yuv420p,")
 
 
-def picture(shots, total, tmp):
-    """Every shot trimmed to whole frames and concatenated (frame-exact joins)."""
+# Colour grades, applied after the HDR->Rec.709 tone mapping (plan "grade", per shot "grade"; "none" = off).
+# "natural" (default): a gentle S-curve that keeps pure black/white where they are (no crushed blacks or
+# blown highlights), ~1.1x saturation (vibrance first, so already-rich colours and skin aren't overdone),
+# a touch of warmth in the mids for healthy skin, slightly richer blues and greener greens.
+# "blue": natural plus bluer water/sky (cool shadows and mids, cyan-greens pulled toward blue).
+GRADES = {
+    "none": "",
+    "natural": ("curves=all='0/0 0.25/0.235 0.5/0.5 0.75/0.765 1/1',vibrance=intensity=0.12,eq=saturation=1.06,"
+                "colorbalance=rm=0.025:bm=-0.025:rh=0.01:bh=-0.01,huesaturation=colors=c+b:saturation=0.12,"
+                "huesaturation=colors=g+y:hue=6:saturation=0.06"),
+}
+GRADES["blue"] = (GRADES["natural"] + ",colorbalance=rs=-0.03:bs=0.05:rm=-0.04:gm=-0.01:bm=0.06,"
+                  "huesaturation=colors=c+g:hue=-12:saturation=0.08,huesaturation=colors=c+b:saturation=0.10")
+
+
+def grade_filter(name):
+    """Filter chain for a grade name (or a raw ffmpeg filter string), wrapped in RGB conversion."""
+    chain = GRADES.get(name, name) if name else ""
+    return f"format=gbrp,{chain},format=yuv420p," if chain else ""
+
+
+def picture(shots, total, tmp, grade="natural"):
+    """Every shot trimmed to whole frames and concatenated (frame-exact joins), tone-mapped and graded."""
     frame = lambda t: int(math.ceil(t * FPS - 1e-6))
     total_f = int(round(total * FPS))
     listing = []
@@ -246,7 +288,7 @@ def picture(shots, total, tmp):
         z, ya = s.get("zoom", 1.0), s.get("y", 0.5)   # punch-in (e.g. to crop a finger off the edge)
         zw, zh = int(round(W * z / 2) * 2), int(round(H * z / 2) * 2)
         vf = (hdr_to_sdr(s["file"]) + f"fps={FPS},scale={zw}:{zh}:force_original_aspect_ratio=increase,"
-              f"crop={W}:{H}:(iw-{W})/2:(ih-{H})*{ya},setsar=1,"
+              f"crop={W}:{H}:(iw-{W})/2:(ih-{H})*{ya},setsar=1," + grade_filter(s.get("grade", grade)) +
               f"tpad=stop_mode=clone:stop_duration=3,trim=end_frame={n},setpts=PTS-STARTPTS")
         run(["ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-ss", f"{s.get('in', 0):.4f}", "-i", s["file"],
              "-an", "-vf", vf, "-c:v", "libx264", "-preset", "veryfast", "-crf", "12", "-pix_fmt", "yuv420p", str(p)])
@@ -331,7 +373,7 @@ def main():
     with tempfile.TemporaryDirectory(dir=out.parent) as tmp:
         vwav, mwav, mix = Path(tmp) / "voice.wav", Path(tmp) / "music.wav", Path(tmp) / "mix.wav"
         render_voice(ROOT / plan["voice_clean"] if plan.get("voice_clean") else voice, segs, vwav,
-                     OVERLAP, plan.get("gate_db"))
+                     OVERLAP, plan.get("gate_db"), plan.get("denoise"), plan.get("voice_gain") == "linear")
         graph = f"[0:a]aresample={SR},apad,atrim=end={total:.4f}[v];"
         inputs = ["-i", str(vwav)]
         if plan.get("music"):
@@ -344,8 +386,10 @@ def main():
              "-ac", "2", str(Path(tmp) / "raw_mix.wav")])
         m = loudnorm_json(Path(tmp) / "raw_mix.wav")
         run(["ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-i", str(Path(tmp) / "raw_mix.wav"), "-af",
-             norm_chain(m, final=True), str(mix)])
-        listing = picture(shots, total, tmp)
+             (f"volume={TARGET_LUFS - float(m['input_i']):.2f}dB,aresample={SR * 4},alimiter=limit="
+              f"{10 ** (-2.2 / 20):.4f}:attack=5:release=50:level=false,aresample={SR}"
+              if plan.get("voice_gain") == "linear" else norm_chain(m, final=True)), str(mix)])
+        listing = picture(shots, total, tmp, plan.get("grade", "natural"))
         assf = str(ass).replace("\\", "/").replace(":", r"\:")
         fonts = str(ev.FONTS_DIR).replace(":", r"\:")
         run(["ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(listing),
