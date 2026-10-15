@@ -1,7 +1,7 @@
 {
  "voice": "input/voiceovers/7_where_from.m4a",
  "words": "output/voiceover/work/7_where_from.cwords.json",
- "out": "output/voiceover/7_where_from.mp4",
+ "out": "output/voiceover/7_where_from_v2.mp4",
  "segments": [
   {
    "src": [
@@ -34,24 +34,24 @@
  },
  "shots": [
   {
-   "file": "input/vo_broll/px/d0945_29.mp4",
+   "file": "input/vo_broll/raw2/d0944_42.mov",
    "at": 0,
-   "in": 4.2
+   "in": 4.8
   },
   {
-   "file": "input/vo_broll/px/d0708_29.mp4",
+   "file": "input/vo_broll/raw2/a0740_10.mov",
    "at": "the outer banks",
-   "in": 0.0
+   "in": 0.3
   },
   {
-   "file": "input/vo_broll/px/d1000_55.mp4",
+   "file": "input/vo_broll/raw2/d0933_08.mov",
    "at": "hand picked",
-   "in": 0.0
+   "in": 2.3
   },
   {
-   "file": "input/vo_broll/px/d1039_10.mp4",
+   "file": "input/vo_broll/px/a1429_43_crop.mp4",
    "at": "when its",
-   "in": 1.0
+   "in": 0.5
   },
   {
    "file": "input/vo_broll/px/d1113_56.mp4",
@@ -64,14 +64,14 @@
    "in": 39.0
   },
   {
-   "file": "input/vo_broll/px/a1229_27.mp4",
+   "file": "input/vo_broll/raw2/a0822_38.mov",
    "at": "sweet and",
-   "in": 4.5
+   "in": 56.3
   },
   {
-   "file": "input/vo_broll/px/d0843_07.mp4",
+   "file": "input/vo_broll/raw2/d0851_11.mov",
    "at": "and the waters",
-   "in": 0.0
+   "in": 0.5
   },
   {
    "file": "input/vo_broll/px/d1044_41.mp4",
@@ -92,5 +92,15 @@
  "music": {
   "file": "input/shortform/music/charmed - stella.mp3",
   "db": -8
+ },
+ "max_pause": 0.45,
+ "v2_notes": {
+  "0": "note 1: Doug 9 44 42 AM, Anton and friend lift a heavy cage out of the water (replaces tight cage close-up)",
+  "the outer banks": "note 2: Anton 7 40 10 AM, wide of the boat heading out with Anton and crew (establishing)",
+  "hand picked": "context: Doug 9 33 08 AM, Kyle and Anton filling a basket at the cage in open water (replaces tight glove close-up)",
+  "when its": "note 3: Anton 2026-04-24 2 29 43 PM, crane hook hauling the cage on the barge, cropped away from the selfie face (a1429_43_crop.mp4 = crop 1512x2688 at x=648 from 2.5s)",
+  "sweet and": "note 4: Anton 8 22 38 AM, Anton eating an oyster out on the water (muted)",
+  "and the waters": "note 5: Doug 8 51 11 AM, lone figure among the cage rows in open water, no mud",
+  "colour": "HLG proxies/clips are tone-mapped to Rec.709 by the tool (51ece24)"
  }
 }
