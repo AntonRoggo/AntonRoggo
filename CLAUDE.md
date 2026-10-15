@@ -10,6 +10,7 @@ This repo is the source of truth for Anton's personal-brand content: how videos 
 | Boost audio only | `boost_audio.py`, skill `boost-audio` |
 | Review loop: upload edits, read Anton's timestamped notes, apply them, handle approvals | skill `review`, review tool page `review/index.html` (URL in `review/config.json`), history in `reviews/` |
 | Schedule an approved video on every platform | skill `publish-metricool`, settings in `publishing/config.json`, history in `publishing/log.md` |
+| GoatBar.co (Anton's protein bar brand): design language, references, product, site, Instagram | `goatbar/CLAUDE.md` (start there) |
 | Brand voice, audience, content pillars, visual style | `brand/` |
 | Lessons from Anton's feedback on past edits (read before every edit) | `brand/editing-lessons.md` |
 | Activity clips (Anton/friends doing things) | `broll/action.json` |
