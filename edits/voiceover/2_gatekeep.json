@@ -1,0 +1,94 @@
+{
+ "voice": "input/voiceovers/2_gatekeep.m4a",
+ "words": "output/voiceover/work/2_gatekeep.cwords.json",
+ "out": "output/voiceover/2_gatekeep.mp4",
+ "segments": [
+  {
+   "src": [
+    1.0,
+    6.8
+   ],
+   "note": "I should probably gatekeep this, but the best job on the market might just be an oyster farmer (ad-lib hook)"
+  },
+  {
+   "src": [
+    12.6,
+    18.8
+   ],
+   "note": "We flew down to North Carolina and you could lease nine acres of ocean for under a thousand bucks a year"
+  }
+ ],
+ "shots": [
+  {
+   "file": "input/vo_broll/px/a0743_34.mp4",
+   "at": 0,
+   "in": 2.9
+  },
+  {
+   "file": "input/vo_broll/px/a0743_15.mp4",
+   "at": "but the best",
+   "in": 4.0
+  },
+  {
+   "file": "input/vo_broll/px/d0945_29.mp4",
+   "at": "might just be",
+   "in": 3.9
+  },
+  {
+   "file": "input/vo_broll/px/d0708_29.mp4",
+   "at": "we flew",
+   "in": 0.0
+  },
+  {
+   "file": "input/vo_broll/px/d0759_31.mp4",
+   "at": "and you could",
+   "in": 8.6
+  },
+  {
+   "file": "input/vo_broll/px/a0741_15.mp4",
+   "at": "under a thousand",
+   "in": 2.2
+  },
+  {
+   "file": "input/vo_broll/px/d0843_07.mp4",
+   "at": 11.42,
+   "free": true,
+   "in": 0.0
+  },
+  {
+   "file": "input/vo_broll/px/d1000_55.mp4",
+   "at": 12.71,
+   "free": true,
+   "in": 0.2
+  },
+  {
+   "file": "input/vo_broll/px/d1027_19.mp4",
+   "at": 13.93,
+   "free": true,
+   "in": 1.2
+  },
+  {
+   "file": "input/vo_broll/px/d1044_41.mp4",
+   "at": 15.14,
+   "free": true,
+   "in": 0.3
+  },
+  {
+   "file": "input/vo_broll/px/d1109_11.mp4",
+   "at": 16.35,
+   "free": true,
+   "in": 13.0
+  }
+ ],
+ "tail": 7.0,
+ "music": {
+  "file": "input/shortform/music/charmed - stella.mp3",
+  "db": -8,
+  "fade": 1.0,
+  "after": {
+   "at": 11.0,
+   "db": -2,
+   "ramp": 0.4
+  }
+ }
+}

@@ -30,6 +30,31 @@ python3 edit_video.py input/my_clip.mp4
 
 Use `--model medium` or `--model large-v3` for more accurate transcription.
 
+## Voiceover over B-roll
+
+`tools/voiceover_edit.py` edits videos with no talking head: a voiceover (Anton reading the
+teleprompter, with retakes and pauses) laid over B-roll. Everything comes from a plan JSON
+(examples in `edits/voiceover/`):
+
+- `segments`: the source ranges of the voiceover to keep, in order (the best, usually last, take of
+  each line; `"hold": 0.4` adds a silent beat for a "..."). Each is trimmed to the speech
+  (0.15 s before, 0.3 s after), pauses over 0.7 s inside are cut, joins crossfade over 0.1 s.
+- `shots`: B-roll, each running until the next starts. `"at"` is the caption it starts on (frame-exact)
+  or a time (`"free": true` for music-only cuts); `"in"` is the clip time; optional `"zoom"`/`"y"` punch-in.
+- `fix`: caption text for a word (by its source start time or text), e.g. `{"6.44": "1"}` to show
+  numbers, `""` to merge a word into the previous one.
+- `music` (song at -8 dB, first beat on frame 1, optional `"after"` level change) and `tail`
+  (seconds of music-only picture after the voice).
+
+```bash
+python3 tools/voiceover_edit.py edits/voiceover/2_gatekeep.json --preview   # captions + shot times
+python3 tools/voiceover_edit.py edits/voiceover/2_gatekeep.json             # render
+```
+
+Transcribe the voiceover first with faster-whisper (word timestamps) per speech chunk; the plan's
+`words` points at that JSON. Voice gets RNNoise + -12 LUFS; the final mix is -12 LUFS, -1 dBTP.
+Captions use the edit_video.py house style.
+
 ## Boost audio only
 
 ```bash

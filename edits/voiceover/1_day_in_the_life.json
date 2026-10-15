@@ -1,0 +1,193 @@
+{
+ "voice": "input/voiceovers/1_day_in_the_life.m4a",
+ "words": "output/voiceover/work/1_day_in_the_life.cwords.json",
+ "out": "output/voiceover/1_day_in_the_life.mp4",
+ "segments": [
+  {
+   "src": [
+    4.33,
+    10.9
+   ],
+   "keep_start": true,
+   "note": "Day in the life of an oyster farmer, part two. It's sunrise, so we're walking past the dock and going straight out."
+  },
+  {
+   "src": [
+    20.75,
+    25.6
+   ],
+   "note": "This morning's low tide, so we take out the boat and you could walk the entire farm. (2nd take)"
+  },
+  {
+   "src": [
+    38.45,
+    41.25
+   ],
+   "hold": 0.25,
+   "note": "We haul the cages by hand and open them up... (beat)"
+  },
+  {
+   "src": [
+    43.0,
+    44.9
+   ],
+   "note": "This one came with a little crab."
+  },
+  {
+   "src": [
+    46.07,
+    49.95
+   ],
+   "note": "Every cage is a little reef. There's crabs, shrimps, baby fish."
+  },
+  {
+   "src": [
+    52.17,
+    56.95
+   ],
+   "note": "But we're here for the oysters. Only the big ones go in the basket. The rest are left to grow."
+  },
+  {
+   "src": [
+    59.73,
+    63.1
+   ],
+   "note": "We pass them up to the boat and we need to take them home ASAP."
+  },
+  {
+   "src": [
+    74.95,
+    77.9
+   ],
+   "note": "But before we go, let's have the world's freshest oyster. (3rd take)"
+  },
+  {
+   "src": [
+    88.4,
+    92.75
+   ],
+   "note": "We've got thousands of oysters up on the dock. We're gonna put them straight in the refrigerator."
+  },
+  {
+   "src": [
+    105.45,
+    112.2
+   ],
+   "note": "CTA (2nd take): If you want a chance to win a bucket of fresh oysters the morning they're harvested, comment oysters and we'll send you the link to the giveaway."
+  }
+ ],
+ "fix": {
+  "6.50": "2",
+  "107.66": "oysters,",
+  "109.50": "comment",
+  "109.62": ""
+ },
+ "shots": [
+  {
+   "file": "input/vo_broll/px/a0743_15.mp4",
+   "at": 0,
+   "in": 4.0
+  },
+  {
+   "file": "input/vo_broll/px/d0708_29.mp4",
+   "at": "its sunrise",
+   "in": 0.0
+  },
+  {
+   "file": "input/vo_broll/px/a0739_25.mp4",
+   "at": "and going",
+   "in": 3.0,
+   "zoom": 1.25,
+   "y": 0.15
+  },
+  {
+   "file": "input/vo_broll/px/a0741_15.mp4",
+   "at": "this mornings",
+   "in": 2.2
+  },
+  {
+   "file": "input/vo_broll/px/d0843_07.mp4",
+   "at": "and you",
+   "in": 0.0
+  },
+  {
+   "file": "input/vo_broll/px/d0759_31.mp4",
+   "at": "we haul",
+   "in": 9.5
+  },
+  {
+   "file": "input/vo_broll/px/a0957_16.mp4",
+   "at": "hand and open",
+   "in": 17.42
+  },
+  {
+   "file": "input/vo_broll/px/d1008_00.mp4",
+   "at": "every cage",
+   "in": 16.0
+  },
+  {
+   "file": "input/vo_broll/px/d0945_29.mp4",
+   "at": "but were here",
+   "in": 4.2
+  },
+  {
+   "file": "input/vo_broll/px/d1000_55.mp4",
+   "at": "only the big",
+   "in": 4.9
+  },
+  {
+   "file": "input/vo_broll/px/d0940_33.mp4",
+   "at": "the rest",
+   "in": 1.4
+  },
+  {
+   "file": "input/vo_broll/px/d1027_19.mp4",
+   "at": "we pass",
+   "in": 0.8
+  },
+  {
+   "file": "input/vo_broll/px/d1044_41.mp4",
+   "at": "them home",
+   "in": 0.5
+  },
+  {
+   "file": "input/vo_broll/px/a1228_49.mp4",
+   "at": "but before",
+   "in": 5.2
+  },
+  {
+   "file": "input/vo_broll/px/a1247_22.mp4",
+   "at": "worlds freshest",
+   "in": 5.6
+  },
+  {
+   "file": "input/vo_broll/px/d1109_11.mp4",
+   "at": "weve got",
+   "in": 11.5
+  },
+  {
+   "file": "input/vo_broll/px/d1113_56.mp4",
+   "at": "were gonna",
+   "in": 0.0
+  },
+  {
+   "file": "input/vo_broll/px/a1319_30.mp4",
+   "at": "if you want",
+   "in": 39.0
+  },
+  {
+   "file": "input/vo_broll/px/a1229_27.mp4",
+   "at": "the morning",
+   "in": 4.0
+  },
+  {
+   "file": "input/vo_broll/px/a1247_22.mp4",
+   "at": "comment oysters",
+   "in": 17.0
+  }
+ ],
+ "music": {
+  "file": "input/shortform/music/charmed - stella.mp3",
+  "db": -8
+ }
+}

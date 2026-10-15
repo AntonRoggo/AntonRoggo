@@ -1,0 +1,116 @@
+{
+ "voice": "input/voiceovers/3_friday_night.m4a",
+ "words": "output/voiceover/work/3_friday_night.cwords.json",
+ "out": "output/voiceover/3_friday_night.mp4",
+ "segments": [
+  {
+   "src": [
+    8.15,
+    12.9
+   ],
+   "note": "Boys, are we spending 60 bucks at the bar every Friday, or are we spending them on oysters? (3rd take)"
+  },
+  {
+   "src": [
+    17.3,
+    21.5
+   ],
+   "note": "Go out with your friends, grab a nice dinner, and save the money."
+  },
+  {
+   "src": [
+    24.1,
+    25.9
+   ],
+   "note": "Load up on that zinc."
+  },
+  {
+   "src": [
+    30.4,
+    32.5
+   ],
+   "note": "Max out your testosterone."
+  },
+  {
+   "src": [
+    44.5,
+    48.1
+   ],
+   "note": "And Saturday, instead of waking up hungover, you wake up bricked. (3rd take)"
+  },
+  {
+   "src": [
+    57.5,
+    64.7
+   ],
+   "note": "CTA, 2nd take: If you want to win a fresh batch of oysters, we'll ship it straight to your door overnight. Comment oysters for the giveaway link."
+  }
+ ],
+ "fix": {
+  "62.82": "comment",
+  "62.92": ""
+ },
+ "shots": [
+  {
+   "file": "input/vo_broll/px/a1247_22.mp4",
+   "at": 0,
+   "in": 3.8
+  },
+  {
+   "file": "input/vo_broll/px/a1228_49.mp4",
+   "at": "or are",
+   "in": 5.4
+  },
+  {
+   "file": "input/vo_broll/px/t1847_33.mp4",
+   "at": "go out",
+   "in": 1.4
+  },
+  {
+   "file": "input/vo_broll/px/a1235_01.mp4",
+   "at": "grab a",
+   "in": 2.3
+  },
+  {
+   "file": "input/vo_broll/px/a1229_27.mp4",
+   "at": "load up",
+   "in": 3.4
+  },
+  {
+   "file": "input/vo_broll/px/d0852_23.mp4",
+   "at": "max out",
+   "in": 2.0
+  },
+  {
+   "file": "input/vo_broll/px/a0739_25.mp4",
+   "at": "and saturday",
+   "in": 4.9,
+   "zoom": 1.2,
+   "y": 0.2
+  },
+  {
+   "file": "input/vo_broll/px/a0743_15.mp4",
+   "at": "you wake",
+   "in": 4.0
+  },
+  {
+   "file": "input/vo_broll/px/d1027_19.mp4",
+   "at": "if you",
+   "in": 1.0
+  },
+  {
+   "file": "input/vo_broll/px/a1319_30.mp4",
+   "at": "well ship",
+   "in": 39.0
+  },
+  {
+   "file": "input/vo_broll/px/a1247_22.mp4",
+   "at": "comment oysters",
+   "in": 17.3
+  }
+ ],
+ "music": {
+  "file": "input/shortform/music/charmed - stella.mp3",
+  "db": -8
+ }
+}

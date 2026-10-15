@@ -1,0 +1,96 @@
+{
+ "voice": "input/voiceovers/7_where_from.m4a",
+ "words": "output/voiceover/work/7_where_from.cwords.json",
+ "out": "output/voiceover/7_where_from.mp4",
+ "segments": [
+  {
+   "src": [
+    6.45,
+    18.9
+   ],
+   "keep_start": true,
+   "note": "This is where our oysters come from. The Outer Banks in North Carolina. Hand-picked at low tide. When it's high tide, we take them out with the crane, on the ice within an hour and at your door overnight."
+  },
+  {
+   "src": [
+    23.85,
+    29.9
+   ],
+   "note": "These are sweet and briny, and the water's so clean, the dolphins are swimming with us. (2nd take of 'These are the freshest, saltiest oysters')"
+  },
+  {
+   "src": [
+    34.6,
+    39.95
+   ],
+   "note": "CTA: If you want a chance to win a fresh batch of oysters, comment oysters and I'll send you the link."
+  }
+ ],
+ "fix": {
+  "11.26": "picked",
+  "11.48": "at",
+  "14.72": "crane,",
+  "16.64": "hour,"
+ },
+ "shots": [
+  {
+   "file": "input/vo_broll/px/d0945_29.mp4",
+   "at": 0,
+   "in": 4.2
+  },
+  {
+   "file": "input/vo_broll/px/d0708_29.mp4",
+   "at": "the outer banks",
+   "in": 0.0
+  },
+  {
+   "file": "input/vo_broll/px/d1000_55.mp4",
+   "at": "hand picked",
+   "in": 0.0
+  },
+  {
+   "file": "input/vo_broll/px/d1039_10.mp4",
+   "at": "when its",
+   "in": 1.0
+  },
+  {
+   "file": "input/vo_broll/px/d1113_56.mp4",
+   "at": "on the ice",
+   "in": 0.0
+  },
+  {
+   "file": "input/vo_broll/px/a1319_30.mp4",
+   "at": "your door",
+   "in": 39.0
+  },
+  {
+   "file": "input/vo_broll/px/a1229_27.mp4",
+   "at": "sweet and",
+   "in": 4.5
+  },
+  {
+   "file": "input/vo_broll/px/d0843_07.mp4",
+   "at": "and the waters",
+   "in": 0.0
+  },
+  {
+   "file": "input/vo_broll/px/d1044_41.mp4",
+   "at": "the dolphins",
+   "in": 0.3
+  },
+  {
+   "file": "input/vo_broll/px/d1027_19.mp4",
+   "at": "if you want",
+   "in": 1.0
+  },
+  {
+   "file": "input/vo_broll/px/a1247_22.mp4",
+   "at": "comment oysters",
+   "in": 5.0
+  }
+ ],
+ "music": {
+  "file": "input/shortform/music/charmed - stella.mp3",
+  "db": -8
+ }
+}
