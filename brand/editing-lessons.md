@@ -56,3 +56,4 @@ Format: `- [date, video] Rule. (What went wrong / what he said.)`
 - [2026-10-15, same] Use everything he recorded for the script. Don't drop lines or the CTA to make it shorter or to copy another creator's format; if it seems too long, ask first.
 - [2026-10-15, booked-out feedback] When he mispronounces a word on purpose or by accident (e.g. "oysters"), the caption puts that word in quotation marks. This is the one exception to the no-punctuation rule.
 - [2026-10-15, same] A long pause before the CTA ("if you want to win...") gets J-cut out like any other pause; the CTA follows straight on.
+- [2026-10-15, Terry Black's feedback] End on the natural sign-off ("cheers") plus about 1 s, and cut filler outros like "that's today's video". Check unclear words by ear (he said "boy"); don't trust the transcript when it sounds odd.

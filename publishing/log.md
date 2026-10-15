@@ -38,3 +38,5 @@ Planner: https://app.metricool.com/planner/calendar?blogId=6537632&openWithPostU
 | Scheduled on | File | Platform | Publishes at | Post id | uuid |
 |---|---|---|---|---|---|
 | 2026-10-15 | anton_7_pool_hall.mp4 (v2 re-edit, approved in review tool) | Instagram trial reel (Anton Roggo) | 2026-10-15 16:52 ET | 397192414 | 3375726199817325981 |
+| 2026-10-15 | anton_6_fish_and_chips.mp4 (v2 re-edit, approved) | Instagram trial reel (Anton Roggo) | 2026-10-16 10:52 ET | 397195730 | 188443427135507383 |
+| 2026-10-15 | anton_2_taco_texas.mp4 (v2 re-edit, approved) | Instagram trial reel (Anton Roggo) | 2026-10-16 12:52 ET | 397196033 | -1074629200018125000 |
