@@ -54,4 +54,9 @@ Planner: https://app.metricool.com/planner/calendar?blogId=6537632&openWithPostU
 | Five things v2 (voiceover) | 20:30 | 397284289 | -573180345982236934 |
 | Where your oysters come from v3 (voiceover) | 20:50 | 397286284 | 2577096658871599221 |
 | Day in the life pt 2 v3 (voiceover) | 21:10 | 397286339 | -6525623105686845678 |
-| Bar vs 60 oysters v3, Gatekeep v3 | pending render, ~21:30 / 21:50 | | |
+| Bar vs 60 oysters v3 (voiceover, approved) | 21:30 | 397298493 | |
+| Gatekeep v3 (voiceover) | **draft**, 2026-10-16 00:10 ET; goes live only when Anton approves v3 | 397350307 | -5464765197629436479 |
+
+Day in the life and bar v3 were first saved as drafts, then switched live after Anton approved them in the review tool.
+
+**23:50 ET:** Anton asked to move approved drafts past midnight. No approved video was left in drafts. The only drafts are Gatekeep v3 (unapproved, set for 00:10) and the old v1 edits (download happiness 394453142, tourist 394453678, I'll tag you 394453775), which aren't approved and stay as drafts.
