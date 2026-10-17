@@ -60,3 +60,5 @@ Planner: https://app.metricool.com/planner/calendar?blogId=6537632&openWithPostU
 Day in the life and bar v3 were first saved as drafts, then switched live after Anton approved them in the review tool.
 
 **23:50 ET:** Anton asked to move approved drafts past midnight. No approved video was left in drafts. The only drafts are Gatekeep v3 (unapproved, set for 00:10) and the old v1 edits (download happiness 394453142, tourist 394453678, I'll tag you 394453775), which aren't approved and stay as drafts.
+
+**2026-10-17 11:51 ET:** Anton approved Gatekeep v3 (review request dq8vigf5pxagft5a4mmw). Its draft was switched live: Instagram trial reel (Anton Roggo), 2026-10-17 12:02 ET, post 398588267, uuid -5464765197629436479.
