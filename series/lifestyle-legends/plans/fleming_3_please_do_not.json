@@ -1,0 +1,38 @@
+{
+  "footage": "input/fleming_3_please_do_not",
+  "label": {
+    "text": "Failed attempt at\nbeing a stockbroker",
+    "until": "please"
+  },
+  "keep_case": [
+    "Ian",
+    "Fleming",
+    "James",
+    "Bond",
+    "Jamaica",
+    "Goldeneye",
+    "Casino",
+    "Royale",
+    "Foreign",
+    "Office",
+    "London"
+  ],
+  "sequence": [
+    {
+      "talk": "01_coldopen.mp4",
+      "cut": false
+    },
+    {
+      "talk": "02_talk.mp4"
+    }
+  ],
+  "popups": [
+    {
+      "file": "fleming.jpg",
+      "at": "Ian",
+      "seconds": 2.5,
+      "width": 0.6,
+      "border": 6
+    }
+  ]
+}

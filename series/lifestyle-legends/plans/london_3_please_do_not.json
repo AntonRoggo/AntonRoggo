@@ -1,0 +1,41 @@
+{
+  "footage": "input/london_3_please_do_not",
+  "label": {
+    "text": "Failed attempt at\ngetting a real job",
+    "until": "please"
+  },
+  "keep_case": [
+    "Jack",
+    "London",
+    "Razzle",
+    "Dazzle",
+    "San",
+    "Francisco",
+    "Bay",
+    "Prince",
+    "Oyster",
+    "Pirates",
+    "Call",
+    "Wild",
+    "Japan",
+    "Hawaii"
+  ],
+  "sequence": [
+    {
+      "talk": "01_coldopen.mp4",
+      "cut": false
+    },
+    {
+      "talk": "02_talk.mp4"
+    }
+  ],
+  "popups": [
+    {
+      "file": "london.jpg",
+      "at": "Jack",
+      "seconds": 2.5,
+      "width": 0.6,
+      "border": 6
+    }
+  ]
+}

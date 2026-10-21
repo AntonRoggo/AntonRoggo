@@ -14,6 +14,7 @@ Requires ffmpeg and `pip install faster-whisper`. Put the Proxima Nova
 Semibold font file (.otf/.ttf) in ./fonts.
 """
 import argparse
+import functools
 import re
 import subprocess
 import sys
@@ -52,10 +53,24 @@ def probe(path):
     return int(vals["width"]), int(vals["height"]), float(vals["duration"])
 
 
-def transcribe(path, model_size):
+def load_audio(path):
+    """Decode to 16 kHz mono float32 with ffmpeg (avoids PyAV version clashes)."""
+    import numpy as np
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", str(path), "-f", "f32le",
+                          "-ac", "1", "-ar", "16000", "-"],
+                         check=True, capture_output=True).stdout
+    return np.frombuffer(raw, np.float32)
+
+
+@functools.lru_cache(maxsize=None)
+def whisper_model(model_size):
     from faster_whisper import WhisperModel
-    model = WhisperModel(model_size, device="auto", compute_type="int8")
-    segments, _ = model.transcribe(str(path), word_timestamps=True,
+    return WhisperModel(model_size, device="auto", compute_type="int8")
+
+
+def transcribe(path, model_size):
+    model = whisper_model(model_size)
+    segments, _ = model.transcribe(load_audio(path), word_timestamps=True,
                                    vad_filter=False,
                                    initial_prompt="Um, uh, so, like, I mean...")
     words = []

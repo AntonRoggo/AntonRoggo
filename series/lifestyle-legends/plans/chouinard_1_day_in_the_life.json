@@ -1,0 +1,40 @@
+{
+  "footage": "input/chouinard_1_day_in_the_life",
+  "keep_case": [
+    "Yvon",
+    "Chouinard",
+    "Patagonia",
+    "Yosemite",
+    "Earth"
+  ],
+  "sequence": [
+    {
+      "talk": "01_hook.mp4"
+    },
+    {
+      "talk": "02_close.mp4"
+    }
+  ],
+  "cutaways": [
+    {
+      "file": "sleep.mp4",
+      "at": "dirt",
+      "seconds": 1.5
+    },
+    {
+      "file": "climb.mp4",
+      "at": "climb",
+      "seconds": 1.5
+    },
+    {
+      "file": "surf.mp4",
+      "at": "surf",
+      "seconds": 2.0
+    },
+    {
+      "file": "trunk.mp4",
+      "at": "sell",
+      "seconds": 2.0
+    }
+  ]
+}

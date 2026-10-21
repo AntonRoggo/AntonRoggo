@@ -1,0 +1,54 @@
+{
+  "footage": "input/london_1_day_in_the_life",
+  "keep_case": [
+    "Jack",
+    "London",
+    "Razzle",
+    "Dazzle",
+    "San",
+    "Francisco",
+    "Bay",
+    "Prince",
+    "Oyster",
+    "Pirates",
+    "Call",
+    "Wild",
+    "Japan",
+    "Hawaii"
+  ],
+  "sequence": [
+    {
+      "talk": "01_hook.mp4"
+    },
+    {
+      "talk": "02_close.mp4"
+    }
+  ],
+  "cutaways": [
+    {
+      "file": "boat.mp4",
+      "at": "boat",
+      "seconds": 1.5
+    },
+    {
+      "file": "oysters.mp4",
+      "at": "oysters",
+      "seconds": 1.5
+    },
+    {
+      "file": "sail.mp4",
+      "at": "sail",
+      "seconds": 1.5
+    },
+    {
+      "file": "cold.mp4",
+      "at": "gold",
+      "seconds": 1.5
+    },
+    {
+      "file": "write.mp4",
+      "at": "write",
+      "seconds": 2.0
+    }
+  ]
+}

@@ -32,6 +32,19 @@ python3 boost_audio.py some_video.mp4   # -> some_video_loud.mp4
 
 Or ask Claude to "boost the audio" on a file: the `boost-audio` skill in `.claude/skills/` runs this.
 
+## Lifestyle Legends reels (multi-clip)
+
+`edit_legend.py` cuts a reel from several clips in the style of the top-performing reels. It handles talk clips, b-roll, full-screen cutaways and screenshot pop-ups anchored to spoken words, a white "FAILED ATTEMPT AT…" label, and small mid-frame captions. Each edit is driven by a plan file:
+
+```bash
+python3 edit_legend.py series/lifestyle-legends/plans/fleming_1_day_in_the_life.json --draft
+# -> output/fleming_1_day_in_the_life.mp4  (+ .ass caption file)
+```
+
+- Scripts: `series/lifestyle-legends/SCRIPTS.md` (3 formats × Chouinard, Fleming, London)
+- Style guide and reference video: `series/lifestyle-legends/EDITING_STYLE.md`
+- Put each script's footage in `input/<plan name>/`. The `edit-legend` skill runs the whole thing.
+
 ## Publishing (Metricool)
 
 Once you approve an edited video, the `publish-metricool` skill schedules it on every platform connected in Metricool. Settings are in `publishing/config.json` and every scheduled post is logged in `publishing/log.md`. This needs the Metricool connector.
