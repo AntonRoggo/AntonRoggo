@@ -1,0 +1,85 @@
+{
+  "footage": "input/chouinard_a_origin",
+  "series_tag": "Lifestyle Legends · Ep 03",
+  "highlight": [
+    "forge",
+    "pitons",
+    "cat",
+    "Patagonia",
+    "surfing"
+  ],
+  "sequence": [
+    {
+      "talk": "01_talk.mp4"
+    }
+  ],
+  "panels": [
+    {
+      "at": "forge",
+      "file": "forge.jpg",
+      "label": "1957"
+    },
+    {
+      "at": "This",
+      "full": "talk"
+    },
+    {
+      "at": "Yvon",
+      "file": "young.jpg",
+      "label": "Yvon Chouinard"
+    },
+    {
+      "at": "falconry",
+      "file": "yosemite.jpg",
+      "label": "Yosemite"
+    },
+    {
+      "at": "blacksmith",
+      "file": "pitons.jpg",
+      "label": "Homemade pitons"
+    },
+    {
+      "at": "sold",
+      "file": "car_boot.mp4",
+      "label": "$1.50 each"
+    },
+    {
+      "at": "cans",
+      "file": "cat_food.jpg",
+      "label": "The diet"
+    },
+    {
+      "at": "biggest",
+      "full": "talk"
+    },
+    {
+      "at": "wrecking",
+      "file": "scarred_rock.jpg",
+      "label": "Damaging the rock"
+    },
+    {
+      "at": "clothes",
+      "file": "patagonia.jpg",
+      "label": "1973: Patagonia"
+    },
+    {
+      "at": "rule",
+      "full": "surf.mp4",
+      "label": "Company policy"
+    },
+    {
+      "at": "gave#2",
+      "file": "headline.png",
+      "label": "2022"
+    },
+    {
+      "at": "never",
+      "full": "talk"
+    }
+  ],
+  "end_card": {
+    "at": "Follow",
+    "title": "Lifestyle Legends",
+    "sub": "Next: Ernest Hemingway"
+  }
+}

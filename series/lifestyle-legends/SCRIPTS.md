@@ -1,187 +1,384 @@
 # Lifestyle Legends: 9 scripts
 
-There are three formats, each copied from one of your outliers, written for each of three legends: Yvon Chouinard, Ian Fleming and Jack London. Each script has a matching plan in `plans/`, so once you've filmed it the editor can cut it:
+There are three versions for each of three legends, one per format in [FORMAT.md](FORMAT.md):
+
+- **A. The Origin Story**
+- **B. Guess the Legend**
+- **C. In Their Footsteps**
+
+Each script has a plan in `plans/`, so once you've filmed it the editor can cut it:
 
 ```bash
-python3 edit_legend.py series/lifestyle-legends/plans/<plan name>.json
+python3 edit_legend.py series/lifestyle-legends/plans/<plan name>.json --draft
 ```
 
-Put the footage for each script in `input/<plan name>/`, using the file names given in the script. The edit rules are in [EDITING_STYLE.md](EDITING_STYLE.md).
+Put the footage for each script in `input/<plan name>/`, using the file names below. In the "On screen" column:
+
+- **top** is the story panel above you.
+- **full screen** covers the whole frame.
+- **pill** is the blue label naming the beat.
+
+Each panel starts on the first word of its line and stays up until the next one.
 
 Before posting, check every fact marked ✓. They're from memory and haven't been checked against sources.
 
-## The three formats
+**Images.** Archive photos from before 1931 are generally public domain in the US; use Wikimedia Commons or the Library of Congress, and check each licence. For Fleming and Chouinard, most photos are still under copyright. Use your own footage of places and objects, film yourself holding the book, buy a licence, or use an illustrated scene (that's what Lens on Legends does). Never use a fake photoreal image of a real person.
 
-| | Format | Copied from | Length | Shape |
-|---|---|---|---|---|
-| **A** | "A day in the life if you're [legend]" | It's simple really (1.18M, 51×), Sunday night lights (21×) | 12–20 s | Hook on camera, then 4–6 quick actions, each shown as it's said, ending on one contrarian line |
-| **B** | "Sometimes life calls for [absurd thing]" | 48 oysters (180K, 69×, 9% engagement) | 35–45 s | One seated take with an absurd prop. Then "Why???", the NPC problem, "How do you break free?", the legend's story as the "science" with screenshot pop-ups, "So what's the takeaway here?" and "Namaste." |
-| **C** | "Please do not [X]" | Please do not spike my cortisol (124K, 5.5×) | 12–20 s | A 2 s skit cold open under a white "FAILED ATTEMPT AT…" label, then you in paradise telling the legend's story as an exasperated aside, ending on the day of the week |
 
-Deliver all three formats deadpan. You believe every word.
+## Jack London
 
----
+### A. The Origin Story: `london_a_origin`
 
-## Yvon Chouinard
-
-### A. Day in the life (`chouinard_1_day_in_the_life`)
-
-| File | Say | On screen |
-|---|---|---|
-| `01_hook.mp4`: selfie at a beach or crag at sunrise, board or rope on your shoulder | "A day in the life if you're Yvon Chouinard." | caption |
-| | "Wake up in the dirt." | cutaway `sleep.mp4`: you crawling out of a sleeping bag or van |
-| | "Climb all morning." | cutaway `climb.mp4`: bouldering or a ridge scramble |
-| | "Surf when the swell shows up." | cutaway `surf.mp4`: paddling out or catching a wave |
-| | "Make your own gear and sell it out of your car." | cutaway `trunk.mp4`: opening a car boot full of gear |
-| `02_close.mp4`: sitting on the sand or at a café, wet hair | "Accidentally build Patagonia. Let your people go surfing." | caption |
-
-✓ Verify: lived out of his car; forged and sold his own climbing gear (pitons) out of it.
-
-### B. Sometimes life calls for (`chouinard_2_sometimes_life_calls_for`)
-
-`01_talk.mp4`: one seated take at a camp table, fleece on, with a can of cat food and a camping stove in front of you.
+**Length:** about 80 s (236 words). **Film:** One take to camera on a dock or harbour wall, golden hour. Then a surf clip of you for the Hawaii beat.
 
 | Say | On screen |
 |---|---|
-| "Sometimes life calls for cat food." | caption |
-| "Why???" | |
-| "Rent is due. I have a LinkedIn. I'm an NPC." | |
-| "How do you break free?" | |
-| "Okay. Yvon Chouinard. The sixties, living in Yosemite on like a dollar a day." | pop-up `yosemite.jpg`: an archive photo of Camp 4 or El Capitan |
-| "He ate cat food so he could keep climbing." | |
-| "Taught himself blacksmithing, sold climbing gear out of the back of his car." | pop-up `gear.jpg`: old pitons or a forge |
-| "That turned into Patagonia." | pop-up `patagonia.jpg`: the logo or a shopfront |
-| "Then in 2022 he gave the whole company away. Earth is now the only shareholder." | pop-up `headline.png`: a screenshot of the news headline |
-| "So what's the takeaway here?" | |
-| "Eat the cat food. Climb the rock. The billion-dollar company shows up later." | |
-| "Don't actually eat the cat food." | |
-| "Namaste." | |
+| At fifteen, Jack London borrowed three hundred dollars and became a pirate. | top `portrait.jpg` · pill **JACK LONDON** |
+| This is Lifestyle Legends: the people who lived first and figured out the work later. | you, full screen |
+| Jack grew up broke in Oakland, working ten-hour shifts in a cannery for ten cents an hour. | top `cannery.jpg` · pill **AGE 14: CANNERY WORKER** |
+| So he borrowed three hundred dollars from the woman who'd nursed him as a baby, bought a little sloop called the Razzle Dazzle, and started raiding oyster beds in San Francisco Bay at night. | top `sloop.jpg` · pill **THE RAZZLE DAZZLE**<br>top `oysters_night.mp4` · pill **OYSTER PIRATE** |
+| The waterfront called him the Prince of the Oyster Pirates. |  |
+| At seventeen he sailed to Japan on a sealing ship. | top `sealing_ship.jpg` · pill **1893: SEALING SHIP TO JAPAN** |
+| At eighteen he was riding freight trains across America, and got thrown in jail for vagrancy. | top `freight_train.jpg` · pill **AGE 18: HOBO** |
+| At twenty-one he went north for the Klondike gold rush. | top `klondike.jpg` · pill **1897: KLONDIKE GOLD RUSH** |
+| He found no gold. He came home with scurvy, no money, and a head full of stories. | you, full screen |
+| So he made himself write a thousand words a day, and editors kept sending them back. | top `notebook.mp4` · pill **1,000 WORDS A DAY** |
+| Then The Call of the Wild came out, and he became one of the most famous writers in the world. | top `call_of_the_wild.jpg` · pill **1903: THE CALL OF THE WILD** |
+| And the part nobody tells you? Already famous, he sailed to Hawaii and learned to surf at Waikiki. | top `waikiki_1907.jpg` · pill **1907: LEARNS TO SURF**<br>full screen `surf.mp4` |
+| He wrote one of the first articles that made the world care about surfing. |  |
+| He didn't plan a career. He lived first, and wrote it down later. | you, full screen |
+| Follow for the next legend: the worst stockbroker in London, who invented James Bond. |  |
 
-✓ Verify: the cat-food story; living on about $1 a day; Patagonia given away in 2022 ("Earth is now our only shareholder").
+End card from "Follow": **LIFESTYLE LEGENDS** / NEXT: IAN FLEMING
 
-### C. Please do not (`chouinard_3_please_do_not`)
+<details><summary>Footage and images to gather</summary>
 
-| File | Say | On screen |
-|---|---|---|
-| `01_coldopen.mp4`: laptop open on a bench by the surf; you look at the screen, then at the waves | "Alright, let's answer some emails." | label: **FAILED ATTEMPT AT NOT GOING SURFING** |
-| `02_talk.mp4`: sitting on the sand after a surf, board beside you | "Please do not ask me to come into the office." | the label disappears here |
-| | "The founder of Patagonia literally wrote a book called Let My People Go Surfing." | pop-up `book.jpg`: you holding the book |
-| | "Surf's up, you go surfing. That's company policy." | |
-| | "I'm just following the policy, man." | |
-| | "It's a Tuesday." | |
+- `01_talk.mp4`: you talking to camera
+- `portrait.jpg`: Portrait of young Jack London (public domain, Wikimedia Commons)
+- `cannery.jpg`: 1890s cannery workers (Library of Congress)
+- `sloop.jpg`: Old oyster sloop on San Francisco Bay
+- `oysters_night.mp4`: YOU: shucking oysters on a dock at night by torchlight
+- `sealing_ship.jpg`: 1890s sealing schooner
+- `freight_train.jpg`: Hobos on a freight train, 1890s
+- `klondike.jpg`: Chilkoot Pass, 1898 (public domain)
+- `notebook.mp4`: YOU: writing in a notebook, close on the pen
+- `call_of_the_wild.jpg`: 1903 first-edition cover (public domain)
+- `waikiki_1907.jpg`: Waikiki surfers, early 1900s (public domain)
+- `surf.mp4`: YOU: paddling out and catching a wave
 
-✓ Verify: Patagonia's "let my people go surfing" flexible-time policy.
+</details>
+
+✓ Check before posting: the $300 loan from Virginia Prentiss at 15 and the Razzle Dazzle; cannery wages (10 cents an hour, 10+ hour shifts); sealing voyage at 17 (1893); 30 days for vagrancy at 18 (1894); Klondike 1897 and scurvy; 1,000 words a day; Waikiki 1907 and his surfing article 'A Royal Sport'.
+
+### B. Guess the Legend: `london_b_guess`
+
+**Length:** about 50 s (121 words). **Film:** One take to camera, anywhere with character (a dock, a bar, a beach). Lean in like you're quizzing a friend.
+
+| Say | On screen |
+|---|---|
+| Can you guess this legend from the story of his life? Comment the second you know. | top `portrait.jpg` (pixelated) · pill **GUESS THE LEGEND** |
+| Age fourteen: working in a cannery for ten cents an hour. | top `cannery.jpg` · pill **AGE 14** |
+| Age fifteen: buys a boat with borrowed money and steals oysters at night. | top `sloop.jpg` · pill **AGE 15** |
+| Then switches sides and joins the fish patrol, catching the pirates he used to sail with. | top `fish_patrol.jpg` · pill **SWITCHES SIDES** |
+| Age seventeen: sails to Japan on a sealing ship. | top `sealing_ship.jpg` · pill **AGE 17** |
+| Age eighteen: thirty days in jail for vagrancy. | top `jail.jpg` · pill **AGE 18** |
+| Age twenty-one: the Klondike. No gold. Scurvy. | top `klondike.jpg` · pill **AGE 21** |
+| Age twenty-seven: writes a book about a dog that sells millions. | top `sled_dog.jpg` · pill **AGE 27** |
+| Age thirty-one: learns to surf in Hawaii. | top `waikiki_1907.jpg` · pill **AGE 31** |
+| Still nothing? You probably read his book in school. | top `call_of_the_wild.jpg` (pixelated) · pill **LAST CLUE** |
+| It's Jack London. | top `portrait.jpg` · pill **JACK LONDON** |
+| Comment when you got it, and follow for the next one. | you, full screen |
+
+End card from "follow": **GUESS THE LEGEND** / NEXT: A SPY NOVELIST
+
+<details><summary>Footage and images to gather</summary>
+
+- `01_talk.mp4`: you talking to camera
+- `portrait.jpg`: Portrait of Jack London, face pixelated by the editor
+- `cannery.jpg`: 1890s cannery workers
+- `sloop.jpg`: Old oyster sloop
+- `fish_patrol.jpg`: California Fish Patrol boat or 1890s patrol photo
+- `sealing_ship.jpg`: 1890s sealing schooner
+- `jail.jpg`: 1890s jail or penitentiary photo
+- `klondike.jpg`: Chilkoot Pass, 1898
+- `sled_dog.jpg`: Historic sled-dog photo
+- `waikiki_1907.jpg`: Waikiki surfers, early 1900s
+- `call_of_the_wild.jpg`: 1903 cover with the title pixelated
+
+</details>
+
+✓ Check before posting: ages for each beat (born January 1876); California Fish Patrol after the oyster piracy.
+
+### C. In Their Footsteps: `london_c_footsteps`
+
+**Length:** about 75 s (156 words). **Film:** Two talk takes: 01 on a dock at night with oysters, 02 next morning on the beach with a board. Plus b-roll of you on a boat, writing, and surfing.
+
+| Say | On screen |
+|---|---|
+| I'm shucking oysters on a dock at midnight because of a writer who used to steal them. |  |
+| In 1891, a fifteen-year-old named Jack London raided oyster beds like these in San Francisco Bay. | top `portrait.jpg` · pill **JACK LONDON** |
+| He did it in a sloop called the Razzle Dazzle, bought with three hundred borrowed dollars. | top `sloop.jpg` · pill **THE RAZZLE DAZZLE** |
+| Then he went to sea, rode the rails, chased gold in the Klondike, and came home broke. | full screen `boat.mp4` |
+| Everything he lived, he wrote down. A thousand words a day. | top `notebook.mp4` · pill **1,000 WORDS A DAY** |
+| So that's the plan for this trip: live it first, write it down after. | you, full screen |
+| And the next morning, I'm doing what he did once he was already famous. |  |
+| In 1907 he sailed to Hawaii and learned to surf at Waikiki. | top `waikiki_1907.jpg` · pill **WAIKIKI, 1907** |
+| He got so sunburned he was stuck in bed, and went straight back out. | full screen `surf.mp4` |
+| Here's what I think he figured out. The adventure wasn't a break from the work. It was the work. | you, full screen |
+| Follow for the next legend's footsteps. |  |
+
+End card from "Follow": **LIFESTYLE LEGENDS** / NEXT: IAN FLEMING'S JAMAICA
+
+<details><summary>Footage and images to gather</summary>
+
+- `01_dock_night.mp4`: you talking to camera
+- `02_beach_morning.mp4`: you talking to camera
+- `portrait.jpg`: Portrait of young Jack London
+- `sloop.jpg`: Old oyster sloop
+- `boat.mp4`: YOU: on a boat or sailing, wide shot
+- `notebook.mp4`: YOU: writing in a notebook on the dock
+- `waikiki_1907.jpg`: Waikiki surfers, early 1900s
+- `surf.mp4`: YOU: catching a wave
+
+</details>
+
+✓ Check before posting: 1891 oyster piracy at 15; the sunburn after his first surf sessions in 1907.
 
 ---
 
 ## Ian Fleming
 
-### A. Day in the life (`fleming_1_day_in_the_life`)
+### A. The Origin Story: `fleming_a_origin`
 
-| File | Say | On screen |
-|---|---|---|
-| `01_hook.mp4`: selfie on a sea wall or terrace, mask on your forehead | "A day in the life if you're Ian Fleming." | caption |
-| | "Wake up on the water. Swim the reef." | cutaway `snorkel.mp4`: underwater or snorkel shot |
-| | "Spear a fish." | cutaway `spear.mp4`: a speargun, or a fish at the market |
-| | "Write two thousand words." | cutaway `write.mp4`: a typewriter or notebook on a terrace |
-| | "Lunch." | cutaway `lunch.mp4`: a plate and a view |
-| | "Nap." | cutaway `nap.mp4`: hammock or sunbed |
-| `02_close.mp4`: linen shirt, martini or espresso, straight to camera | "Invent James Bond." | caption |
-
-✓ Verify: his Jamaica routine of swimming, then about 2,000 words a morning; spearfishing at Goldeneye.
-
-### B. Sometimes life calls for (`fleming_2_sometimes_life_calls_for`)
-
-`01_talk.mp4`: one seated take at a desk or café table, laptop open, snorkel mask on your face.
+**Length:** about 85 s (225 words). **Film:** One take to camera by the sea, linen shirt. Plus a snorkel clip of you for the routine beat.
 
 | Say | On screen |
 |---|---|
-| "Sometimes life calls for a snorkel at your desk." | caption |
-| "Why???" | |
-| "It's Monday. Forty-seven tabs open. I'm an NPC." | |
-| "How do you break free?" | |
-| "Okay. Ian Fleming." | pop-up `fleming.jpg`: portrait |
-| "Dropped out of military academy. Failed the Foreign Office exam." | |
-| "Became a stockbroker. Called himself the worst stockbroker in the world." | |
-| "Then he moved to Jamaica and built a house on the water called Goldeneye." | pop-up `goldeneye.jpg` |
-| "Every morning: swim the reef, write two thousand words, nap." | |
-| "Wrote Casino Royale at forty-three." | pop-up `casino_royale.jpg`: you holding a copy |
-| "Look at the chart. One of the biggest film franchises of all time." | pop-up `chart.png`: a real box-office chart screenshot |
-| "So what's the takeaway here?" | |
-| "Swim first. Write later. Be a terrible stockbroker." | |
-| "Namaste." | |
+| Ian Fleming. The man who invented James Bond. By forty, he'd failed at almost everything. | top `portrait.jpg` · pill **IAN FLEMING** |
+| This is Lifestyle Legends: the people who lived first and figured out the work later. | you, full screen |
+| His big brother was the famous one, a best-selling travel writer. Ian was the problem child. | top `family.jpg` · pill **THE FAMOUS BROTHER** |
+| He left military academy early. He failed the Foreign Office exam. | top `sandhurst.jpg` · pill **STRIKE ONE, STRIKE TWO** |
+| He became a stockbroker, and later called himself the worst stockbroker in the world. | top `stock_exchange.jpg` · pill **THE WORST STOCKBROKER** |
+| Then the war came. He became the right-hand man to the head of British naval intelligence, planning operations straight out of a spy novel. | top `admiralty.jpg` · pill **NAVAL INTELLIGENCE** |
+| In 1944 he visited Jamaica, and told a friend he'd live there one day. | top `jamaica_map.jpg` · pill **JAMAICA, 1944** |
+| Two years later he built a house on the water and called it Goldeneye. | top `goldeneye.jpg` · pill **GOLDENEYE** |
+| He even got his newspaper to give him two months off every winter to go there. | you, full screen |
+| Every morning: swim the reef, then write about two thousand words. | full screen `snorkel.mp4` · pill **THE ROUTINE** |
+| At forty-three, he sat down at Goldeneye and wrote Casino Royale. | top `casino_royale.jpg` · pill **1952: CASINO ROYALE** |
+| He named his spy after the author of a bird book on his shelf, because he wanted the dullest name he could find. | top `birds_book.jpg` · pill **BIRDS OF THE WEST INDIES** |
+| Fourteen Bond books. Every one written in the Jamaican winter. | top `bond_books.jpg` · pill **14 BOND BOOKS** |
+| He failed at the careers everyone wanted for him, then built one around the life he wanted. | you, full screen |
+| Follow for the next legend: the climber who ate cat food and built Patagonia. |  |
 
-✓ Verify: left Sandhurst early; failed the Foreign Office exam; the "worst stockbroker" quote; *Casino Royale* written at Goldeneye in early 1952, when he was 43; use a real source for the chart.
+End card from "Follow": **LIFESTYLE LEGENDS** / NEXT: YVON CHOUINARD
 
-### C. Please do not (`fleming_3_please_do_not`)
+<details><summary>Footage and images to gather</summary>
 
-| File | Say | On screen |
-|---|---|---|
-| `01_coldopen.mp4`: collared shirt, a stock app on your phone; you stare at it, then at the sea | "Alright, let's check the markets." | label: **FAILED ATTEMPT AT BEING A STOCKBROKER** |
-| `02_talk.mp4`: on the rocks after a swim, dripping | "Please do not make me check the markets." | the label disappears here |
-| | "I just went for a swim in the sea." | |
-| | "Ian Fleming was the worst stockbroker in London." | pop-up `fleming.jpg` |
-| | "He quit, moved to Jamaica, and wrote James Bond in a beach house." | |
-| | "I'm just following the process, man." | |
-| | "It's a Sunday." | |
+- `01_talk.mp4`: you talking to camera
+- `portrait.jpg`: Portrait of Ian Fleming (check licence) or an illustrated portrait
+- `family.jpg`: 1920s English country house or family photo
+- `sandhurst.jpg`: Royal Military College, Sandhurst (old postcard)
+- `stock_exchange.jpg`: 1930s London Stock Exchange
+- `admiralty.jpg`: The Admiralty building, London, 1940s
+- `jamaica_map.jpg`: Old map of Jamaica
+- `goldeneye.jpg`: Goldeneye house or the cove at Oracabessa
+- `snorkel.mp4`: YOU: snorkelling over a reef
+- `casino_royale.jpg`: YOU holding a copy of Casino Royale
+- `birds_book.jpg`: The bird book by ornithologist James Bond
+- `bond_books.jpg`: YOU: a stack of the paperbacks
 
----
+</details>
 
-## Jack London
+✓ Check before posting: left Sandhurst early; failed the Foreign Office exam; the 'worst stockbroker' self-description; assistant to Admiral Godfrey, Director of Naval Intelligence; 1944 Jamaica visit; Goldeneye built 1946; Sunday Times contract with two months off each winter; Casino Royale written early 1952, age 43; named after ornithologist James Bond, 'the dullest name'; 14 Bond books written at Goldeneye.
 
-### A. Day in the life (`london_1_day_in_the_life`)
+### B. Guess the Legend: `fleming_b_guess`
 
-| File | Say | On screen |
-|---|---|---|
-| `01_hook.mp4`: selfie on a dock or harbour wall | "A day in the life if you're Jack London." | caption |
-| | "Age fifteen. Borrow three hundred bucks. Buy a boat." | cutaway `boat.mp4`: a small sailboat or dinghy |
-| | "Steal oysters at midnight." | cutaway `oysters.mp4`: shucking oysters at night by torchlight |
-| | "Sail to Japan." | cutaway `sail.mp4`: sailing or open water |
-| | "Go to the gold rush. Find no gold. Get scurvy." | cutaway `cold.mp4`: grey, cold, miserable water or a mountain |
-| | "Come home broke. Write The Call of the Wild." | cutaway `write.mp4`: notebook or typewriter |
-| `02_close.mp4`: board under your arm, just out of the surf | "Then learn to surf." | caption |
-
-✓ Verify: the $300 loan at 15; sealing voyage to Japan at 17; Klondike gold rush and scurvy; *The Call of the Wild* in 1903; learned to surf at Waikiki in 1907.
-
-### B. Sometimes life calls for (`london_2_sometimes_life_calls_for`)
-
-`01_talk.mp4`: one seated take at the same kind of oyster bar as your 69× video, with a mountain of oysters on the table. This is the sequel.
+**Length:** about 50 s (123 words). **Film:** One take to camera. A martini on the table is a nice silent clue.
 
 | Say | On screen |
 |---|---|
-| "Sometimes life calls for 48 oysters. Again." | caption |
-| "Why???" | |
-| "It's raining. I doomscrolled. I'm an NPC again." | |
-| "How do you break free?" | |
-| "Piracy." | |
-| "Okay. Jack London. Age fifteen." | pop-up `london.jpg`: young Jack London (old photos are generally public domain; check) |
-| "Borrowed three hundred dollars, bought a boat called the Razzle Dazzle." | pop-up `sloop.jpg`: an old oyster sloop photo or illustration |
-| "Raided oyster beds in San Francisco Bay at night." | |
-| "They called him the Prince of the Oyster Pirates." | |
-| "Then he wrote The Call of the Wild. One of the most famous writers in the world." | pop-up `call_of_the_wild.jpg`: the 1903 cover |
-| "So what's the takeaway here?" | |
-| "Eat 48 oysters. Become a pirate. Write it down later." | |
-| "Namaste." | |
+| Can you guess this legend from the story of his life? Comment the second you know. | top `portrait.jpg` (pixelated) · pill **GUESS THE LEGEND** |
+| Rich family. Famous older brother. He's the disappointment. | top `family.jpg` · pill **THE DISAPPOINTMENT** |
+| Leaves military academy early. Strike one. | top `sandhurst.jpg` · pill **STRIKE ONE** |
+| Fails the Foreign Office exam. Strike two. | top `foreign_office.jpg` · pill **STRIKE TWO** |
+| Becomes a stockbroker, and says he's the worst one in the world. Strike three. | top `stock_exchange.jpg` · pill **STRIKE THREE** |
+| Then the war: he's planning secret operations for naval intelligence. | top `admiralty.jpg` · pill **WORLD WAR II** |
+| After the war, he builds a house above a reef in Jamaica. | top `goldeneye.jpg` · pill **THE HIDEOUT** |
+| He swims every morning, and writes every morning. | full screen `snorkel.mp4` |
+| At forty-three, he writes his first novel in about two months. | top `typewriter.jpg` · pill **FIRST NOVEL** |
+| Last clue: his main character likes his martini shaken, not stirred. | top `martini.jpg` · pill **LAST CLUE** |
+| It's Ian Fleming. The man who invented James Bond. | top `portrait.jpg` · pill **IAN FLEMING** |
+| Comment when you got it, and follow for the next one. | you, full screen |
 
-✓ Verify: the *Razzle Dazzle* name and the "Prince of the Oyster Pirates" nickname.
+End card from "follow": **GUESS THE LEGEND** / NEXT: A CLIMBER TURNED BILLIONAIRE
 
-### C. Please do not (`london_3_please_do_not`)
+<details><summary>Footage and images to gather</summary>
 
-| File | Say | On screen |
-|---|---|---|
-| `01_coldopen.mp4`: collared shirt and a coffee, walking toward a building | "Alright, off to the office." | label: **FAILED ATTEMPT AT GETTING A REAL JOB** |
-| `02_talk.mp4`: sitting on the beach, surfboard beside you | "Please do not tell me to get a real job." | the label disappears here |
-| | "Jack London was an oyster pirate, a sailor, a hobo, and a gold miner before he wrote a single book." | pop-up `london.jpg` |
-| | "Then he went to Hawaii and learned to surf." | |
-| | "I'm still in the research phase, man." | |
-| | "It's a Wednesday." | |
+- `01_talk.mp4`: you talking to camera
+- `portrait.jpg`: Portrait of Ian Fleming, face pixelated
+- `family.jpg`: 1920s English country house
+- `sandhurst.jpg`: Sandhurst, old postcard
+- `foreign_office.jpg`: The Foreign Office, London
+- `stock_exchange.jpg`: 1930s London Stock Exchange
+- `admiralty.jpg`: The Admiralty, 1940s
+- `goldeneye.jpg`: The cove at Oracabessa, Jamaica
+- `snorkel.mp4`: YOU: snorkelling over a reef
+- `typewriter.jpg`: Old typewriter on a terrace
+- `martini.jpg`: YOU: a martini on the bar
+
+</details>
+
+✓ Check before posting: Casino Royale written in about two months (Jan–Mar 1952).
+
+### C. In Their Footsteps: `fleming_c_footsteps`
+
+**Length:** about 70 s (127 words). **Film:** A full 'Fleming day' somewhere with a reef: talk takes in the morning and evening, b-roll of the swim, writing on a terrace, lunch and a nap.
+
+| Say | On screen |
+|---|---|
+| I'm about to live one day exactly like the man who wrote James Bond. |  |
+| His name was Ian Fleming, and he wrote Casino Royale at a house on the water in Jamaica called Goldeneye. | top `portrait.jpg` · pill **IAN FLEMING**<br>top `goldeneye.jpg` · pill **GOLDENEYE, JAMAICA** |
+| His routine was simple. Wake up, swim the reef. | full screen `snorkel.mp4` · pill **STEP 1: SWIM** |
+| Then he'd sit down and write about two thousand words before lunch. | top `writing.mp4` · pill **STEP 2: 2,000 WORDS** |
+| Lunch. A long nap. A little more work in the evening. | full screen `lunch_nap.mp4` · pill **STEP 3: LUNCH, NAP** |
+| That's it. That's the schedule that built fourteen Bond books. | top `bond_books.jpg` · pill **14 BOOKS** |
+| So, I did it. Here's my two thousand words, written with salt still in my hair. | top `my_pages.mp4` · pill **MY 2,000 WORDS** |
+| Honest review: the swim makes the writing easier. Your brain shows up already awake. | you, full screen |
+| Fleming didn't separate the life from the work. The sea is all over those books. |  |
+| Follow for the next legend's footsteps. |  |
+
+End card from "Follow": **LIFESTYLE LEGENDS** / NEXT: CHOUINARD'S SURF RULE
+
+<details><summary>Footage and images to gather</summary>
+
+- `01_morning.mp4`: you talking to camera
+- `02_evening.mp4`: you talking to camera
+- `portrait.jpg`: Portrait of Ian Fleming (check licence)
+- `goldeneye.jpg`: The cove at Oracabessa
+- `snorkel.mp4`: YOU: snorkelling over a reef
+- `writing.mp4`: YOU: writing on a terrace, sea behind
+- `lunch_nap.mp4`: YOU: lunch with a view, then a hammock
+- `bond_books.jpg`: YOU: a stack of the paperbacks
+- `my_pages.mp4`: YOU: flipping through your written pages
+
+</details>
+
+✓ Check before posting: his routine (morning swim, about 2,000 words, nap, evening revision) from his essay 'How to Write a Thriller'; only say the 'honest review' line if it's true for you.
 
 ---
 
-## Captions to post with them
+## Yvon Chouinard
 
-- **A:** "A day in the life if you're [legend] 🌊 Lifestyle Legends. Who's next? 👇"
-- **B:** "Sometimes life calls for [prop]. The science is clear. Namaste 🙏 (Lifestyle Legends)"
-- **C:** "Failed attempt at [X]. [Legend] would understand. (Lifestyle Legends)"
+### A. The Origin Story: `chouinard_a_origin`
 
-Every caption should end by pointing to the newsletter: "Full story in the newsletter, link in bio."
+**Length:** about 85 s (206 words). **Film:** One take to camera at a crag or a surf break. Plus clips of you: car boot full of gear, and surfing.
+
+| Say | On screen |
+|---|---|
+| In 1957, a broke eighteen-year-old climber bought a used forge from a junkyard. Sixty-five years later, he gave away a three-billion-dollar company. | top `forge.jpg` · pill **1957** |
+| This is Lifestyle Legends: the people who lived first and figured out the work later. | you, full screen |
+| Yvon Chouinard was the kid who only spoke French at school in California, and got picked on for it. | top `young.jpg` · pill **YVON CHOUINARD** |
+| He found falconry, then climbing, and then he basically lived in Yosemite. | top `yosemite.jpg` · pill **YOSEMITE** |
+| He couldn't afford gear, so he taught himself to blacksmith and made his own pitons. | top `pitons.jpg` · pill **HOMEMADE PITONS** |
+| He sold them out of the back of his car, a dollar fifty each, and lived on about a dollar a day. | top `car_boot.mp4` · pill **$1.50 EACH** |
+| At one point, that meant eating cans of cat food. | top `cat_food.jpg` · pill **THE DIET** |
+| By 1970 his little company was the biggest climbing hardware supplier in America. | you, full screen |
+| Then he noticed his pitons were wrecking the rock he loved, so he stopped selling his best product. | top `scarred_rock.jpg` · pill **DAMAGING THE ROCK** |
+| He started selling clothes instead. He called it Patagonia. | top `patagonia.jpg` · pill **1973: PATAGONIA** |
+| And the company rule? When the surf's up, go surfing. | full screen `surf.mp4` · pill **COMPANY POLICY** |
+| In 2022, he gave the whole company away. He said Earth is now the only shareholder. | top `headline.png` · pill **2022** |
+| He never wanted to be a businessman. He just wanted to keep climbing. | you, full screen |
+| Follow for the next legend: the writer who went fishing every afternoon. |  |
+
+End card from "Follow": **LIFESTYLE LEGENDS** / NEXT: ERNEST HEMINGWAY
+
+<details><summary>Footage and images to gather</summary>
+
+- `01_talk.mp4`: you talking to camera
+- `forge.jpg`: An old coal forge and anvil
+- `young.jpg`: Photo of young Chouinard (licensed) or an illustration
+- `yosemite.jpg`: El Capitan or Camp 4, old photo
+- `pitons.jpg`: Old steel pitons
+- `car_boot.mp4`: YOU: opening a car boot full of climbing gear
+- `cat_food.jpg`: A dented tin of cat food
+- `scarred_rock.jpg`: Close-up of a scarred granite crack
+- `patagonia.jpg`: Patagonia shopfront or logo
+- `surf.mp4`: YOU: surfing
+- `headline.png`: Screenshot of the news headline
+
+</details>
+
+✓ Check before posting: 1957 used forge from a junkyard; spoke only French at school and was an outsider; falconry led to climbing; pitons at $1.50, living on about $1 a day; the cat food story; biggest US climbing hardware supplier by 1970; phasing out pitons (1972 'clean climbing'); Patagonia 1973; 2022 transfer, ~$3B.
+
+### B. Guess the Legend: `chouinard_b_guess`
+
+**Length:** about 50 s (129 words). **Film:** One take to camera in a fleece, outdoors.
+
+| Say | On screen |
+|---|---|
+| Can you guess this legend from the story of his life? Comment the second you know. | top `portrait.jpg` (pixelated) · pill **GUESS THE LEGEND** |
+| Grows up a French-speaking outsider in Southern California. | top `1940s_california.jpg` · pill **THE OUTSIDER** |
+| Gets into falconry, which gets him into climbing. | top `falcon.jpg` · pill **FALCONRY** |
+| Teaches himself blacksmithing to make his own climbing gear. | top `forge.jpg` · pill **SELF-TAUGHT BLACKSMITH** |
+| Sells it from the back of his car. Lives on a dollar a day. Eats cat food. | top `cat_food.jpg` · pill **THE DIET** |
+| Builds the biggest climbing hardware company in America, then quits making his best seller because it's damaging the rock. | top `scarred_rock.jpg` · pill **QUITS HIS BEST SELLER** |
+| Brings back a rugby shirt from Scotland, and starts selling clothes. | top `rugby_shirt.jpg` · pill **THE RUGBY SHIRT** |
+| Writes a book called Let My People Go Surfing. | top `book.jpg` (pixelated) · pill **THE BOOK** |
+| Last clue: in 2022, he gives the entire company away to fight climate change. | top `headline.png` (pixelated) · pill **LAST CLUE** |
+| It's Yvon Chouinard. The founder of Patagonia. | top `portrait.jpg` · pill **YVON CHOUINARD** |
+| Comment when you got it, and follow for the next one. | you, full screen |
+
+End card from "follow": **GUESS THE LEGEND** / NEXT: A TEENAGE PIRATE
+
+<details><summary>Footage and images to gather</summary>
+
+- `01_talk.mp4`: you talking to camera
+- `portrait.jpg`: Portrait of Chouinard, face pixelated
+- `1940s_california.jpg`: 1940s Southern California street
+- `falcon.jpg`: A falcon on a glove
+- `forge.jpg`: An old coal forge and anvil
+- `cat_food.jpg`: A dented tin of cat food
+- `scarred_rock.jpg`: Scarred granite crack
+- `rugby_shirt.jpg`: A striped 1970s rugby shirt
+- `book.jpg`: YOU: holding the book, company name covered
+- `headline.png`: News headline, company name pixelated
+
+</details>
+
+✓ Check before posting: the 1970 rugby shirt from Scotland that started the clothing line.
+
+### C. In Their Footsteps: `chouinard_c_footsteps`
+
+**Length:** about 70 s (131 words). **Film:** A 'surf's up' workday: talk takes at dawn and afternoon, b-roll of the surf, laptop work still wet, and a climb.
+
+| Say | On screen |
+|---|---|
+| The founder of Patagonia had one company rule, and today I'm following it. |  |
+| His name is Yvon Chouinard, and the rule is the title of his book: Let My People Go Surfing. | top `portrait.jpg` · pill **YVON CHOUINARD**<br>top `book.jpg` · pill **THE RULE** |
+| When the surf's up, you go surfing. You fit the work around it. | full screen `surf_dawn.mp4` · pill **DAWN PATROL** |
+| He built that rule from years of climbing in Yosemite and surfing in Malibu, back when he sold homemade gear out of his car. | top `yosemite.jpg` · pill **YOSEMITE, 1960S** |
+| So: surf first. | you, full screen |
+| Then the laptop, still salty. | top `laptop.mp4` · pill **THEN WORK** |
+| Then a climb in the afternoon. | full screen `climb.mp4` |
+| Here's what surprised me: I got more done in four hours than on a normal day. | you, full screen |
+| Chouinard's trick is flexibility. Chase the good conditions, and fit the work around them. | top `portrait.jpg` · pill **THE TRICK** |
+| He built a three-billion-dollar company that way, then gave it all away. | top `headline.png` · pill **2022: GIVES IT AWAY** |
+| Follow for the next legend's footsteps. |  |
+
+End card from "Follow": **LIFESTYLE LEGENDS** / NEXT: HEMINGWAY'S KEY WEST
+
+<details><summary>Footage and images to gather</summary>
+
+- `01_dawn.mp4`: you talking to camera
+- `02_afternoon.mp4`: you talking to camera
+- `portrait.jpg`: Photo of Chouinard (licensed) or an illustration
+- `book.jpg`: YOU: holding the book
+- `surf_dawn.mp4`: YOU: dawn surf session
+- `yosemite.jpg`: El Capitan or Camp 4, old photo
+- `laptop.mp4`: YOU: working on a laptop in a wetsuit or towel
+- `climb.mp4`: YOU: bouldering or a scramble
+- `headline.png`: Screenshot of the news headline
+
+</details>
+
+✓ Check before posting: Patagonia's flextime ('let my people go surfing') policy; only say the 'four hours' line if it's true for you.

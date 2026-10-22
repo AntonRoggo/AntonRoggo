@@ -1,0 +1,71 @@
+{
+  "footage": "input/chouinard_c_footsteps",
+  "series_tag": "Lifestyle Legends · Ep 03 · In his footsteps",
+  "highlight": [
+    "surf's",
+    "surfing",
+    "Patagonia"
+  ],
+  "sequence": [
+    {
+      "talk": "01_dawn.mp4"
+    },
+    {
+      "talk": "02_afternoon.mp4"
+    }
+  ],
+  "panels": [
+    {
+      "at": "Yvon",
+      "file": "portrait.jpg",
+      "label": "Yvon Chouinard"
+    },
+    {
+      "at": "book",
+      "file": "book.jpg",
+      "label": "The rule"
+    },
+    {
+      "at": "surf's",
+      "full": "surf_dawn.mp4",
+      "label": "Dawn patrol"
+    },
+    {
+      "at": "climbing",
+      "file": "yosemite.jpg",
+      "label": "Yosemite, 1960s"
+    },
+    {
+      "at": "So",
+      "full": "talk"
+    },
+    {
+      "at": "laptop",
+      "file": "laptop.mp4",
+      "label": "Then work"
+    },
+    {
+      "at": "climb",
+      "full": "climb.mp4"
+    },
+    {
+      "at": "Here's",
+      "full": "talk"
+    },
+    {
+      "at": "trick",
+      "file": "portrait.jpg",
+      "label": "The trick"
+    },
+    {
+      "at": "gave",
+      "file": "headline.png",
+      "label": "2022: gives it away"
+    }
+  ],
+  "end_card": {
+    "at": "Follow",
+    "title": "Lifestyle Legends",
+    "sub": "Next: Hemingway's Key West"
+  }
+}

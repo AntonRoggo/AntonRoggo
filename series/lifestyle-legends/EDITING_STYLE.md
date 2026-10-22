@@ -1,83 +1,74 @@
 # Lifestyle Legends: editing style
 
-Every Lifestyle Legends reel is cut to match your own best-performing reels. `edit_legend.py` applies this style automatically from a plan file.
+The look comes from the top story-about-a-famous-person reels on Sandcastles (see [FORMAT.md](FORMAT.md)), not from your own videos. `edit_legend.py` applies it from a plan file.
 
 ## Reference video
 
-**"It's simple really"**: https://www.instagram.com/reel/DZF3QURNzQw/
-1.18M views, 51× your average. A 9-second day in the life: hook on the sea wall, the dive, the swim, then "sit at the cafe and do absolutely nothing."
+**Layout:** "Can you guess this footballer from the story of their career?" by @jackgrimse, https://www.instagram.com/reel/DdjfzUURsA3/ (97K views, 12× the channel average).
+It's a split screen: the story visual on top with a blue label naming the beat, the storyteller talking to camera underneath, and captions on the seam between them. It's the easiest layout to make and edit week after week, and it suits all three formats.
 
-Each format also has a reference for the parts it adds:
+**Captions and ending:** Lens on Legends, Dua Lipa, https://www.instagram.com/reel/DYul8wohxIL/ (735K views, 259×). Heavy uppercase captions with keywords in colour, the subject's name tagged at the start, and a branded series card at the end.
 
-| Format | Reference | Views / outlier | What it adds |
+## What I measured
+
+I downloaded the references and measured them for cuts, loudness, layout and frame grabs.
+
+| | Guess the footballer | Lens on Legends | Alan Bond (glasshouse) |
 |---|---|---|---|
-| A. Day in the life | It's simple really ([reel](https://www.instagram.com/reel/DZF3QURNzQw/)) | 1.18M / 51× | the base style |
-|  | Sunday night lights ([reel](https://www.instagram.com/reel/DdiCL9OgLst/)) | 50K / 21× | a fast list of actions, one shot per action |
-| B. Sometimes life calls for… | 48 oysters ([reel](https://www.instagram.com/reel/DcG_wOLABVr/)) | 180K / 69×, 9% engagement | screenshot "evidence" pop-ups over a seated take |
-| C. Please do not… | Please do not spike my cortisol ([reel](https://www.instagram.com/reel/DZF3HAYtJ63/)) | 124K / 5.5× | skit cold open under a white label |
+| Length | 62 s | 2 min+ | 2 min 49 s |
+| Hard cuts | 11, plus a new top image each sentence (about 2.5 s) | 29, a new image every ~4 s | 1 (motion-graphics dossier) |
+| Layout | header strip 5%, top panel 42%, talking head 53% | full-screen illustrated scenes | monochrome cards on black |
+| Captions | uppercase, bold, white with black stroke, on the seam | uppercase, heavy, one keyword in green, ~80% down | typewriter text in the frame |
+| Labels | blue pill naming the beat, bottom of the top panel | the subject's name tag on the first shot | dates and dollar figures, large |
+| Audio | -14 LUFS, LRA 2.0: voice over a music bed | -14 LUFS, LRA 2.6: voice over music | -14 LUFS, LRA 4.2 |
+| Ending | the reveal, then "comment when you figured it out" | branded "LENS ON LEGENDS" card | CTA card |
 
-## What the reference reels have in common
+## The Lifestyle Legends look
 
-I measured these from the downloaded reels (cut detection, transcripts, loudness, frame grabs).
+**The layout (1080×1920)**
+- **Header strip** (96 px): paper-coloured, with the series tag "LIFESTYLE LEGENDS · EP 01".
+- **Top panel** (806 px): the story visual. It can be an archive photo, a map, a book cover or a clip of you doing the thing. Photos get a slow 8% zoom, alternating in and out, so nothing is ever static.
+- **Bottom** (1018 px): you talking to camera. The editor crops your full frame from 12% down, so frame yourself head to chest.
+- **Pill label:** white capitals on a blue pill (#3D5AFE) at the bottom of the top panel, naming the beat ("AGE 15", "THE RAZZLE DAZZLE", "1903: THE CALL OF THE WILD").
 
-**Camera**
-- Ultra-wide action-cam or 0.5× look, held at arm's length or propped at waist height and slightly low.
-- You're in frame from the head to the knees, with the location filling the rest of the frame.
-- Golden-hour light, sea or a café behind you, linen or swim shorts.
-- Vertical 9:16. The originals are 1440×2560; the editor delivers 1080×1920.
-
-**Pacing**
-- The first word lands at 0.0 s: no intro, no logo, no establishing shot.
-- Speech runs at 2.4–3.8 words per second. The 48 oysters skit runs at about 1.7 because the deadpan beats are left in. Pauses under 1 s stay; anything longer is cut.
-- Length depends on the format:
-  - Day in the life: 9–20 s
-  - Please do not: 12–20 s
-  - Sometimes life calls for: 35–45 s
-
-**Cuts**
-- Only 1–4 cuts per video. Most of it is one continuous take.
-- Cut only when the action or place changes (the dive, the café). Use hard cuts only: no transitions, zooms, shakes or effects.
-- B-roll runs full screen for 1.5–3 s while your voice continues over it.
+**Full-screen moments**
+- **You, full screen:** the series line, the moral, and any line where your face is the point.
+- **B-roll, full screen:** you doing the legend's thing (the swim, the surf), with your voice over it.
 
 **Captions**
-- Semibold sans (Proxima Nova Semibold), about 66 px on a 1080-wide frame ("and go for a swim" spans about half the width). That's small, like Instagram's native captions, not the big bouncing style.
-- White fill, a thin black stroke (4 px) and a soft shadow.
-- Centred mid-frame, at about 50% of the height, roughly at chest level.
-- One short phrase on screen at a time, 2–4 words, broken where you'd naturally pause.
-- Written lowercase as spoken ("wake up", "and go for a swim"). Full stops and commas are dropped; "why???" keeps its question marks.
-- Captions stay on over b-roll and disappear while a pop-up card is on screen.
+- Uppercase and heavy, about 56 px, white with a 5 px black stroke and a soft shadow.
+- 2–4 words at a time, broken at natural pauses.
+- In the split screen they sit on the seam; when you're full screen they sit 70% down.
+- Numbers, years and the plan's `highlight` words turn yellow.
 
-**Label** (format C only)
-- A white box with black capital letters, two lines, above the captions: "FAILED ATTEMPT AT NOT SPIKING CORTISOL".
-- It stays on through the cold open and disappears when the real talk starts.
+**Guess the Legend**
+- `censor` pixelates faces and give-away titles until the reveal, when the same photo is shown unpixelated.
 
-**Pop-ups** (format B)
-- A screenshot (study headline, chart, photo or book cover) shown as a card at 55–85% of the frame width, just below the middle of the frame.
-- It stays 2–3 s, cutting in and out with no animation. A thin border is optional.
+**Pacing**
+- A new top panel every sentence or two, roughly every 2.5–5 s.
+- Hard cuts only: no transitions, zoom punches or sound effects.
+
+**Ending**
+- From "Follow…" to the end, a dark overlay with a series card: **LIFESTYLE LEGENDS** and, in yellow, "NEXT: IAN FLEMING".
 
 **Sound**
-- Your voice with natural ambience (sea, café). The reels have no silent gaps, so there's always a bed of room or outdoor sound.
-- The references sit at about -14 LUFS with peaks around -1 dBFS. The house pipeline goes to -12 LUFS / -1 dBTP, which is slightly louder and still clean.
-- Music is optional and off unless the plan adds it. If you add a track, it's ducked under your voice.
+- Voice first. Add an optional music bed (cinematic piano or ambient) ducked under the voice.
+- The final mix goes to -12 LUFS / -1 dBTP, slightly louder than the references' -14, which Instagram turns down to match anyway.
 
 ## How the editor does it
 
-`edit_legend.py` reads a plan from `series/lifestyle-legends/plans/` and runs these steps:
+`python3 edit_legend.py series/lifestyle-legends/plans/<plan>.json [--draft]` runs these steps:
 
-1. **Talk clips.** Each one is transcribed. Fillers, stutters, retakes and silences over 1 s are cut, using the same rules as `edit_video.py`. A clip marked `"cut": false` is kept whole, which is used for skit cold opens.
-2. **B-roll clips** in the sequence are trimmed (`in`/`out`) and joined in order. Their natural sound is kept.
-3. **Cutaways** are laid full screen over the talk, starting at a spoken word (`"at": "swim"`). Your voice keeps playing underneath.
-4. **Pop-ups** are placed as cards at a spoken word, and captions are hidden while each one is up.
-5. **The label** shows from the start until a word (`"until": "please"`) or a time.
-6. **Captions** are added in the style above. The `.ass` caption file is kept next to the video so wording can be fixed by hand.
-7. **Audio** goes through `boost_audio.py`: -12 LUFS, -1 dBTP, a 15 ms fade on every cut.
-
-After every run, the editor prints the edited transcript with timestamps. If a cutaway lands in the wrong place, change its `at` word, using `swim#2` for the second time "swim" is said, or set `at` to a number of seconds.
+1. **Talk clips.** Each one is transcribed. Fillers, stutters, retakes and pauses over 1 s are cut, using the same rules as `edit_video.py`.
+2. **Panels.** Each panel starts at its spoken word (`"at": "Klondike"`; `"surf#2"` means the second time "surf" is said) and holds until the next panel. Before the first panel you're full screen.
+3. **The picture.** Photos get the zoom and any `censor` pixelation. Clips are trimmed and held to length. The split screen, pills, header tag, captions and end card are composed on top.
+4. **Audio.** The music is ducked under your voice, and the mix is boosted to -12 LUFS.
+5. **Check.** The editor prints the edited transcript and every panel's start and end time, so you can fix a cue and re-run.
 
 ## Shooting checklist
 
-- [ ] Film on the wide lens, vertical, with the camera at chest to waist height.
-- [ ] Start talking the instant you hit record, and say the hook first.
-- [ ] Film each action (dive, surf, shucking oysters, typing) as its own 3–5 s clip. These become the cutaways.
-- [ ] Get pop-up images as screenshots or photos you're allowed to use. Public-domain archive photos on Wikimedia Commons are fine; check the licence on each. For book covers, film yourself holding the book.
-- [ ] Name the files as the script says and put them in `input/<plan name>/`.
+- [ ] Talk takes: vertical, wide lens, head to chest, outdoors, with good light on your face. Keep your head in the top half of the frame, because that's the part that shows in the split screen.
+- [ ] Say the hook the instant you hit record.
+- [ ] B-roll of you doing the legend's thing, 5–10 s per clip.
+- [ ] Gather the images listed under each script. Name the files exactly as the script says and put them in `input/<plan name>/`.
+- [ ] Run `--draft` first, check the panel times it prints, then render the final.

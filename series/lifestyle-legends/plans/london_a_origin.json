@@ -1,0 +1,89 @@
+{
+  "footage": "input/london_a_origin",
+  "series_tag": "Lifestyle Legends · Ep 01",
+  "highlight": [
+    "pirate",
+    "pirates",
+    "scurvy",
+    "surf",
+    "Klondike"
+  ],
+  "sequence": [
+    {
+      "talk": "01_talk.mp4"
+    }
+  ],
+  "panels": [
+    {
+      "at": "Jack",
+      "file": "portrait.jpg",
+      "label": "Jack London"
+    },
+    {
+      "at": "This",
+      "full": "talk"
+    },
+    {
+      "at": "Oakland",
+      "file": "cannery.jpg",
+      "label": "Age 14: cannery worker"
+    },
+    {
+      "at": "sloop",
+      "file": "sloop.jpg",
+      "label": "The Razzle Dazzle"
+    },
+    {
+      "at": "raiding",
+      "file": "oysters_night.mp4",
+      "label": "Oyster pirate"
+    },
+    {
+      "at": "Japan",
+      "file": "sealing_ship.jpg",
+      "label": "1893: sealing ship to Japan"
+    },
+    {
+      "at": "freight",
+      "file": "freight_train.jpg",
+      "label": "Age 18: hobo"
+    },
+    {
+      "at": "Klondike",
+      "file": "klondike.jpg",
+      "label": "1897: Klondike gold rush"
+    },
+    {
+      "at": "found",
+      "full": "talk"
+    },
+    {
+      "at": "himself",
+      "file": "notebook.mp4",
+      "label": "1,000 words a day"
+    },
+    {
+      "at": "Call",
+      "file": "call_of_the_wild.jpg",
+      "label": "1903: The Call of the Wild"
+    },
+    {
+      "at": "Hawaii",
+      "file": "waikiki_1907.jpg",
+      "label": "1907: learns to surf"
+    },
+    {
+      "at": "surf",
+      "full": "surf.mp4"
+    },
+    {
+      "at": "plan",
+      "full": "talk"
+    }
+  ],
+  "end_card": {
+    "at": "Follow",
+    "title": "Lifestyle Legends",
+    "sub": "Next: Ian Fleming"
+  }
+}

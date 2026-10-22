@@ -1,0 +1,63 @@
+{
+  "footage": "input/fleming_c_footsteps",
+  "series_tag": "Lifestyle Legends · Ep 02 · In his footsteps",
+  "highlight": [
+    "swim",
+    "2,000",
+    "Bond"
+  ],
+  "sequence": [
+    {
+      "talk": "01_morning.mp4"
+    },
+    {
+      "talk": "02_evening.mp4"
+    }
+  ],
+  "panels": [
+    {
+      "at": "Ian",
+      "file": "portrait.jpg",
+      "label": "Ian Fleming"
+    },
+    {
+      "at": "Goldeneye",
+      "file": "goldeneye.jpg",
+      "label": "Goldeneye, Jamaica"
+    },
+    {
+      "at": "swim",
+      "full": "snorkel.mp4",
+      "label": "Step 1: swim"
+    },
+    {
+      "at": "sit",
+      "file": "writing.mp4",
+      "label": "Step 2: 2,000 words"
+    },
+    {
+      "at": "Lunch#2",
+      "full": "lunch_nap.mp4",
+      "label": "Step 3: lunch, nap"
+    },
+    {
+      "at": "schedule",
+      "file": "bond_books.jpg",
+      "label": "14 books"
+    },
+    {
+      "at": "Here's",
+      "file": "my_pages.mp4",
+      "label": "My 2,000 words"
+    },
+    {
+      "at": "Honest",
+      "full": "talk"
+    }
+  ],
+  "end_card": {
+    "at": "Follow",
+    "title": "Lifestyle Legends",
+    "sub": "Next: Chouinard's surf rule"
+  }
+}

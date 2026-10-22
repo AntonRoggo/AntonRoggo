@@ -34,15 +34,22 @@ Or ask Claude to "boost the audio" on a file: the `boost-audio` skill in `.claud
 
 ## Lifestyle Legends reels (multi-clip)
 
-`edit_legend.py` cuts a reel from several clips in the style of the top-performing reels. It handles talk clips, b-roll, full-screen cutaways and screenshot pop-ups anchored to spoken words, a white "FAILED ATTEMPT AT…" label, and small mid-frame captions. Each edit is driven by a plan file:
+`edit_legend.py` cuts a split-screen storyteller reel, a format based on the top "story about a famous person" reels on Sandcastles:
+- story photos and clips on top, with a blue pill label naming each beat
+- you talking to camera underneath
+- uppercase captions on the seam
+- full-screen moments, guess-who pixelation, and a series end card
+
+Each edit is driven by a plan file, and every panel starts on a spoken word:
 
 ```bash
-python3 edit_legend.py series/lifestyle-legends/plans/fleming_1_day_in_the_life.json --draft
-# -> output/fleming_1_day_in_the_life.mp4  (+ .ass caption file)
+python3 edit_legend.py series/lifestyle-legends/plans/london_a_origin.json --draft
+# -> output/london_a_origin.mp4  (+ .ass caption file)
 ```
 
-- Scripts: `series/lifestyle-legends/SCRIPTS.md` (3 formats × Chouinard, Fleming, London)
+- Format and research: `series/lifestyle-legends/FORMAT.md`
 - Style guide and reference video: `series/lifestyle-legends/EDITING_STYLE.md`
+- Scripts: `series/lifestyle-legends/SCRIPTS.md` (Origin Story, Guess the Legend and In Their Footsteps for London, Fleming and Chouinard)
 - Put each script's footage in `input/<plan name>/`. The `edit-legend` skill runs the whole thing.
 
 ## Publishing (Metricool)

@@ -1,0 +1,92 @@
+{
+  "footage": "input/chouinard_b_guess",
+  "series_tag": "Lifestyle Legends · Guess who #3",
+  "highlight": [
+    "guess",
+    "cat"
+  ],
+  "sequence": [
+    {
+      "talk": "01_talk.mp4"
+    }
+  ],
+  "panels": [
+    {
+      "at": "guess",
+      "file": "portrait.jpg",
+      "label": "Guess the legend",
+      "censor": [
+        0.25,
+        0.05,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "at": "Grows",
+      "file": "1940s_california.jpg",
+      "label": "The outsider"
+    },
+    {
+      "at": "falconry",
+      "file": "falcon.jpg",
+      "label": "Falconry"
+    },
+    {
+      "at": "blacksmithing",
+      "file": "forge.jpg",
+      "label": "Self-taught blacksmith"
+    },
+    {
+      "at": "Sells",
+      "file": "cat_food.jpg",
+      "label": "The diet"
+    },
+    {
+      "at": "quits",
+      "file": "scarred_rock.jpg",
+      "label": "Quits his best seller"
+    },
+    {
+      "at": "rugby",
+      "file": "rugby_shirt.jpg",
+      "label": "The rugby shirt"
+    },
+    {
+      "at": "Writes",
+      "file": "book.jpg",
+      "label": "The book",
+      "censor": [
+        0.0,
+        0.7,
+        1.0,
+        0.3
+      ]
+    },
+    {
+      "at": "Last",
+      "file": "headline.png",
+      "label": "Last clue",
+      "censor": [
+        0.0,
+        0.0,
+        1.0,
+        0.4
+      ]
+    },
+    {
+      "at": "Yvon",
+      "file": "portrait.jpg",
+      "label": "Yvon Chouinard"
+    },
+    {
+      "at": "got",
+      "full": "talk"
+    }
+  ],
+  "end_card": {
+    "at": "follow",
+    "title": "Guess the Legend",
+    "sub": "Next: a teenage pirate"
+  }
+}
