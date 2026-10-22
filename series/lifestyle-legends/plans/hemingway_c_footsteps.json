@@ -1,0 +1,60 @@
+{
+  "footage": "input/hemingway_c_footsteps",
+  "series_tag": "Lifestyle Legends · Ep 03 · In his footsteps",
+  "highlight": [
+    "true",
+    "Paris"
+  ],
+  "sequence": [
+    {
+      "talk": "01_street.mp4"
+    },
+    {
+      "talk": "02_afternoon.mp4"
+    }
+  ],
+  "panels": [
+    {
+      "at": "1921",
+      "file": "hemingway_hadley.jpg",
+      "label": "Paris, 1921"
+    },
+    {
+      "at": "Step",
+      "full": "apartment.mp4",
+      "label": "Step 1: 74 rue du Cardinal Lemoine"
+    },
+    {
+      "at": "two",
+      "file": "cafe_writing.mp4",
+      "label": "Step 2: one true sentence"
+    },
+    {
+      "at": "stop",
+      "full": "talk"
+    },
+    {
+      "at": "three",
+      "full": "gardens.mp4",
+      "label": "Step 3: the gardens"
+    },
+    {
+      "at": "four",
+      "file": "bookshop.mp4",
+      "label": "Step 4: Shakespeare and Company"
+    },
+    {
+      "at": "Here's",
+      "full": "talk"
+    }
+  ],
+  "end_card": {
+    "at": "Follow",
+    "title": "Lifestyle Legends",
+    "sub": "Next week: a new legend"
+  },
+  "title": {
+    "text": "One day as broke\nHemingway in Paris",
+    "until": "1921"
+  }
+}

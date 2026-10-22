@@ -1,0 +1,95 @@
+{
+  "footage": "input/hemingway_a_origin",
+  "series_tag": "Lifestyle Legends · Ep 03",
+  "highlight": [
+    "shrapnel",
+    "Pilar",
+    "Nobel",
+    "obituaries",
+    "true"
+  ],
+  "sequence": [
+    {
+      "talk": "01_talk.mp4"
+    }
+  ],
+  "panels": [
+    {
+      "at": "Ernest",
+      "file": "portrait_1918.jpg",
+      "label": "Ernest Hemingway, 18"
+    },
+    {
+      "at": "This",
+      "full": "talk"
+    },
+    {
+      "at": "hunting",
+      "file": "michigan.jpg",
+      "label": "Northern Michigan"
+    },
+    {
+      "at": "reporter",
+      "file": "newsroom.jpg",
+      "label": "Age 18: reporter"
+    },
+    {
+      "at": "army",
+      "file": "ambulance.jpg",
+      "label": "Red Cross ambulance"
+    },
+    {
+      "at": "shell#2",
+      "full": "talk"
+    },
+    {
+      "at": "hospital",
+      "file": "nurse.jpg",
+      "label": "The nurse"
+    },
+    {
+      "at": "heartbreak",
+      "file": "farewell.jpg",
+      "label": "A Farewell to Arms"
+    },
+    {
+      "at": "broke",
+      "file": "paris_1920s.jpg",
+      "label": "Paris, 1920s"
+    },
+    {
+      "at": "bulls",
+      "file": "pamplona.jpg",
+      "label": "Pamplona"
+    },
+    {
+      "at": "marlin",
+      "full": "fishing.mp4",
+      "label": "The Pilar"
+    },
+    {
+      "at": "Old",
+      "file": "old_man.jpg",
+      "label": "The Old Man and the Sea"
+    },
+    {
+      "at": "Nobel",
+      "file": "nobel.jpg",
+      "label": "1954: Nobel Prize"
+    },
+    {
+      "at": "nobody",
+      "file": "obituary.jpg",
+      "label": "Reads his own obituary"
+    },
+    {
+      "at": "rule",
+      "full": "talk"
+    }
+  ],
+  "end_card": {
+    "at": "Follow",
+    "title": "Lifestyle Legends",
+    "sub": "Next week: a new legend"
+  }
+}

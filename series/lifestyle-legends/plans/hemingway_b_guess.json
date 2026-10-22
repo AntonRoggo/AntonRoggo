@@ -1,0 +1,97 @@
+{
+  "footage": "input/hemingway_b_guess",
+  "series_tag": "Lifestyle Legends · Guess who #3",
+  "highlight": [
+    "guess",
+    "Nobel"
+  ],
+  "sequence": [
+    {
+      "talk": "01_talk.mp4"
+    }
+  ],
+  "panels": [
+    {
+      "at": "imagine",
+      "file": "portrait.jpg",
+      "label": "Guess the legend",
+      "censor": [
+        0.25,
+        0.05,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "at": "Grows",
+      "file": "michigan.jpg",
+      "label": "The woods"
+    },
+    {
+      "at": "newspaper",
+      "file": "newsroom.jpg",
+      "label": "Age 18"
+    },
+    {
+      "at": "ambulances",
+      "file": "ambulance.jpg",
+      "label": "The war"
+    },
+    {
+      "at": "nurse",
+      "file": "nurse.jpg",
+      "label": "The nurse"
+    },
+    {
+      "at": "Paris",
+      "file": "paris_1920s.jpg",
+      "label": "Paris"
+    },
+    {
+      "at": "bulls",
+      "file": "pamplona.jpg",
+      "label": "Pamplona"
+    },
+    {
+      "at": "marlin",
+      "full": "fishing.mp4",
+      "label": "The boat"
+    },
+    {
+      "at": "survives",
+      "file": "obituary.jpg",
+      "label": "The obituary",
+      "censor": [
+        0.0,
+        0.0,
+        1.0,
+        0.45
+      ]
+    },
+    {
+      "at": "Nobel",
+      "file": "old_man.jpg",
+      "label": "Last clue",
+      "censor": [
+        0.0,
+        0.0,
+        1.0,
+        0.3
+      ]
+    },
+    {
+      "at": "Ernest",
+      "file": "portrait.jpg",
+      "label": "Ernest Hemingway"
+    },
+    {
+      "at": "got",
+      "full": "talk"
+    }
+  ],
+  "end_card": {
+    "at": "follow",
+    "title": "Guess the Legend",
+    "sub": "Next: another legend"
+  }
+}

@@ -78,5 +78,5 @@ References: Stevenson Trail (11% engagement), Hever Castle, Harry DuBois. This i
 - **Weekly rhythm:** Origin Story on Monday, Guess the Legend on Thursday (same person, so you research once and post twice), and In Their Footsteps whenever the location works.
 - **Episode numbers** go in the header strip (`Ep 01`, `Ep 02`…), as in the "Part 187" series.
 - **The newsletter** gets the long version of each Origin Story, plus the Community Legend of the week.
-- **The line-up:** Jacques Cousteau (Ep 01), Yvon Chouinard (Ep 02), then one of five for Ep 03 (see [SCRIPTS.md](SCRIPTS.md)).
-- **After that**, all lived-first: Ernest Hemingway, Robert Louis Stevenson, Anthony Bourdain, Duke Kahanamoku, John Muir, Patrick Leigh Fermor, Peter Mayle and Jimmy Buffett.
+- **The line-up:** Jacques Cousteau (Ep 01), Yvon Chouinard (Ep 02), Ernest Hemingway (Ep 03). See [SCRIPTS.md](SCRIPTS.md).
+- **The bench:** Robert Louis Stevenson, Jack London (scripted), Ian Fleming (scripted), Anthony Bourdain, then Duke Kahanamoku, John Muir, Patrick Leigh Fermor, Peter Mayle and Jimmy Buffett.

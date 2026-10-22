@@ -4,7 +4,8 @@ There are three legends, each with one script per format. How each format is edi
 
 - **Legend 1: Jacques Cousteau.** The Riviera is his home water.
 - **Legend 2: Yvon Chouinard.**
-- **Legend 3: pick one of five.** The options are below. Jack London and Ian Fleming already have scripts.
+- **Legend 3: Ernest Hemingway.** He lived it, then wrote it.
+- **The bench**, for Ep 04 and beyond, is at the end. Jack London and Ian Fleming already have scripts.
 
 The three formats:
 - **A. The Origin Story**
@@ -27,7 +28,7 @@ Each panel starts on the first word of its line and stays up until the next one.
 
 Before posting, check every fact marked ✓. They're from memory and haven't been checked against sources.
 
-**Images.** Archive photos from before 1931 are generally public domain in the US; use Wikimedia Commons or the Library of Congress, and check each licence. For Cousteau, Fleming and Chouinard, most photos are still under copyright. Use your own footage of places and objects, film yourself holding the book, buy a licence, or use an illustrated scene (that's what Lens on Legends does). Never use a fake photoreal image of a real person.
+**Images.** Archive photos from before 1931 are generally public domain in the US; use Wikimedia Commons or the Library of Congress, and check each licence. Hemingway's WWI-era photos are generally public domain; check each one. For Cousteau, Chouinard, Fleming and later Hemingway photos, most are still under copyright. Use your own footage of places and objects, film yourself holding the book, buy a licence, or use an illustrated scene (that's what Lens on Legends does). Never use a fake photoreal image of a real person.
 
 
 ## Legend 1: Jacques Cousteau
@@ -170,7 +171,7 @@ End card from "Follow": **LIFESTYLE LEGENDS** / NEXT: CHOUINARD'S SURF RULE
 
 ### A. The Origin Story: `chouinard_a_origin`
 
-**Length:** about 90 s (196 words). **Film:** One take to camera at a crag or a surf break. Plus clips of you: a car boot full of gear, and surfing.
+**Length:** about 90 s (209 words). **Film:** One take to camera at a crag or a surf break. Plus clips of you: a car boot full of gear, and surfing.
 
 **Built on:** Lens on Legends, Dua Lipa + Let's Talk About It: a two-sentence hook from tiny to huge, the series line, short sentences, the detail nobody tells, a callback. See [BREAKDOWNS.md](BREAKDOWNS.md).
 
@@ -190,9 +191,9 @@ End card from "Follow": **LIFESTYLE LEGENDS** / NEXT: CHOUINARD'S SURF RULE
 | In 2022, he gave the whole company away to fight climate change. Earth is now the only shareholder. | top `headline.png` · pill **2022** |
 | The part nobody tells you: he always said he hated being called a businessman. | you, full screen |
 | The kid with the junkyard forge just wanted to keep climbing. |  |
-| Follow for the next legend. |  |
+| Follow for the next legend: the writer who got blown up at eighteen, and won the Nobel Prize. |  |
 
-End card from "Follow": **LIFESTYLE LEGENDS** / NEXT WEEK: A NEW LEGEND
+End card from "Follow": **LIFESTYLE LEGENDS** / NEXT: ERNEST HEMINGWAY
 
 <details><summary>Footage and images to gather</summary>
 
@@ -232,7 +233,7 @@ End card from "Follow": **LIFESTYLE LEGENDS** / NEXT WEEK: A NEW LEGEND
 | It's Yvon Chouinard. The founder of Patagonia. | top `portrait.jpg` · pill **YVON CHOUINARD** |
 | Comment when you got it, and follow for the next one. | you, full screen |
 
-End card from "follow": **GUESS THE LEGEND** / NEXT: ANOTHER LEGEND
+End card from "follow": **GUESS THE LEGEND** / NEXT: A WRITER WHO FISHED FOR MARLIN
 
 <details><summary>Footage and images to gather</summary>
 
@@ -272,7 +273,7 @@ End card from "follow": **GUESS THE LEGEND** / NEXT: ANOTHER LEGEND
 | He built a company that way, then gave it all away. | top `headline.png` · pill **2022: GIVES IT AWAY** |
 | Follow for the next legend's footsteps. |  |
 
-End card from "Follow": **LIFESTYLE LEGENDS** / NEXT WEEK: A NEW LEGEND
+End card from "Follow": **LIFESTYLE LEGENDS** / NEXT: HEMINGWAY'S PARIS
 
 <details><summary>Footage and images to gather</summary>
 
@@ -291,20 +292,149 @@ End card from "Follow": **LIFESTYLE LEGENDS** / NEXT WEEK: A NEW LEGEND
 
 ---
 
-## Legend 3: pick one of five
+## Legend 3: Ernest Hemingway
+
+### A. The Origin Story: `hemingway_a_origin`
+
+**Length:** about 100 s (269 words). **Film:** One take to camera on a boat or a harbour wall, slow and deliberate. Plus a clip of you deep-sea fishing or on a boat.
+
+**Built on:** Lens on Legends, Dua Lipa: an age-and-shock hook, short sentences, a new picture every line, a payoff flurry, the detail nobody tells, and a moral that turns the series line around. See [BREAKDOWNS.md](BREAKDOWNS.md).
+
+| Say | On screen |
+|---|---|
+| At eighteen, Ernest Hemingway was blown up by a mortar shell in Italy, with more than two hundred pieces of shrapnel in his legs. | top `portrait_1918.jpg` · pill **ERNEST HEMINGWAY, 18** |
+| Everything he went on to write, he lived first. |  |
+| This is Lifestyle Legends: the people who lived first and figured out the work later. | you, full screen |
+| And Hemingway is the purest case. He only wrote what he'd lived. |  |
+| He grew up hunting and fishing in the woods of northern Michigan with his father. | top `michigan.jpg` · pill **NORTHERN MICHIGAN** |
+| Straight out of high school, he became a newspaper reporter. The style guide said: use short sentences. He never forgot it. | top `newsroom.jpg` · pill **AGE 18: REPORTER** |
+| The army turned him down for a bad eye, so he went to Italy to drive ambulances for the Red Cross. | top `ambulance.jpg` · pill **RED CROSS AMBULANCE** |
+| That's where the shell found him. | you, full screen |
+| In the hospital, he fell in love with his nurse. She turned him down by letter. | top `nurse.jpg` · pill **THE NURSE** |
+| That war, and that heartbreak, became A Farewell to Arms. | top `farewell.jpg` · pill **A FAREWELL TO ARMS** |
+| In his twenties he was broke in Paris, so hungry he'd take the long way round to avoid the smell of the bakeries. | top `paris_1920s.jpg` · pill **PARIS, 1920S** |
+| He ran with the bulls in Pamplona, and wrote The Sun Also Rises. | top `pamplona.jpg` · pill **PAMPLONA** |
+| He fished for marlin off Key West and Cuba on his own boat, the Pilar. | full screen `fishing.mp4` · pill **THE PILAR** |
+| Out of that came The Old Man and the Sea, a Pulitzer, and then the Nobel Prize. | top `old_man.jpg` · pill **THE OLD MAN AND THE SEA**<br>top `nobel.jpg` · pill **1954: NOBEL PRIZE** |
+| And the part nobody tells you: in 1954 he survived two plane crashes in two days, and got to read his own obituaries. | top `obituary.jpg` · pill **READS HIS OWN OBITUARY** |
+| His rule for writing was simple: write one true sentence. | you, full screen |
+| He didn't figure out the work later. For him, the living was the work. |  |
+| Follow for the next legend. |  |
+
+End card from "Follow": **LIFESTYLE LEGENDS** / NEXT WEEK: A NEW LEGEND
+
+<details><summary>Footage and images to gather</summary>
+
+- `01_talk.mp4`: you talking to camera
+- `portrait_1918.jpg`: Hemingway in uniform in Milan, 1918 (public domain)
+- `michigan.jpg`: Michigan lake and woods, early 1900s
+- `newsroom.jpg`: 1910s newspaper newsroom
+- `ambulance.jpg`: WWI Red Cross ambulance in Italy
+- `nurse.jpg`: WWI Red Cross nurses in Milan, 1918
+- `farewell.jpg`: First-edition cover (check licence) or YOU holding a copy
+- `paris_1920s.jpg`: Paris street or café, 1920s
+- `pamplona.jpg`: Running of the bulls, 1920s
+- `fishing.mp4`: YOU: deep-sea fishing or out on a boat
+- `old_man.jpg`: YOU holding a copy of the book
+- `nobel.jpg`: Nobel medal image or 1954 headline
+- `obituary.jpg`: 1954 newspaper headline reporting him dead
+
+</details>
+
+✓ Check before posting: wounded at Fossalta di Piave on 8 July 1918, aged 18; 'more than two hundred' shrapnel fragments; Kansas City Star style sheet ('use short sentences'); rejected by the army for poor eyesight; nurse Agnes von Kurowsky turning him down by letter; the hunger-in-Paris detail from A Moveable Feast; Pilar, bought 1934; Pulitzer 1953, Nobel 1954; the two 1954 plane crashes and premature obituaries; the 'one true sentence' line (A Moveable Feast).
+
+### B. Guess the Legend: `hemingway_b_guess`
+
+**Length:** about 50 s (117 words). **Film:** One take to camera, no pauses. A fishing rod or an old typewriter beside you is a nice silent clue.
+
+**Built on:** Guess the footballer: one breathless present-tense run-on, a new image every clue, the reveal at about 90%, then 'comment when you knew'. See [BREAKDOWNS.md](BREAKDOWNS.md).
+
+| Say | On screen |
+|---|---|
+| Can you imagine living this writer's life? Comment the second you know who it is. | top `portrait.jpg` (pixelated) · pill **GUESS THE LEGEND** |
+| Grows up hunting and fishing in the Michigan woods, | top `michigan.jpg` · pill **THE WOODS** |
+| becomes a newspaper reporter at eighteen, | top `newsroom.jpg` · pill **AGE 18** |
+| drives ambulances in a world war and gets hit by a mortar shell, | top `ambulance.jpg` · pill **THE WAR** |
+| falls for his nurse, who dumps him by letter, | top `nurse.jpg` · pill **THE NURSE** |
+| lives broke in Paris with the most famous writers of the twenties, | top `paris_1920s.jpg` · pill **PARIS** |
+| runs with the bulls in Pamplona, | top `pamplona.jpg` · pill **PAMPLONA** |
+| fishes for marlin off Cuba on his own boat, | full screen `fishing.mp4` · pill **THE BOAT** |
+| survives two plane crashes in two days and reads his own obituary, | top `obituary.jpg` (pixelated) · pill **THE OBITUARY** |
+| and wins the Nobel Prize for a story about an old fisherman. | top `old_man.jpg` (pixelated) · pill **LAST CLUE** |
+| It's Ernest Hemingway. | top `portrait.jpg` · pill **ERNEST HEMINGWAY** |
+| Comment when you got it, and follow for the next one. | you, full screen |
+
+End card from "follow": **GUESS THE LEGEND** / NEXT: ANOTHER LEGEND
+
+<details><summary>Footage and images to gather</summary>
+
+- `01_talk.mp4`: you talking to camera
+- `portrait.jpg`: Portrait of Hemingway, face pixelated by the editor
+- `michigan.jpg`: Michigan lake and woods, early 1900s
+- `newsroom.jpg`: 1910s newsroom
+- `ambulance.jpg`: WWI Red Cross ambulance
+- `nurse.jpg`: WWI Red Cross nurses
+- `paris_1920s.jpg`: Paris café, 1920s
+- `pamplona.jpg`: Running of the bulls, 1920s
+- `fishing.mp4`: YOU: deep-sea fishing
+- `obituary.jpg`: 1954 headline, name pixelated
+- `old_man.jpg`: Book cover with the author's name pixelated
+
+</details>
+
+✓ Check before posting: the same facts as version A.
+
+### C. In Their Footsteps: `hemingway_c_footsteps`
+
+**Length:** about 80 s (145 words). **Film:** One day in Paris, the A Moveable Feast route: talk takes on the street, outside 74 rue du Cardinal Lemoine (the plaque), writing in a café, the Luxembourg Gardens, the bookshop. Can't get to Paris? Do his Key West day on your coast instead: write standing up at dawn, fish all afternoon.
+
+**Built on:** Stevenson Trail + Hever Castle: a title over a selfie hook in the real place, the legend as the reason for the day, B-roll every 1.5–3 s, evidence shots (plaques, the bookshop), and what you learned. See [BREAKDOWNS.md](BREAKDOWNS.md).
+
+**Opening title** (until "1921"): *One day as broke / Hemingway in Paris*
+
+| Say | On screen |
+|---|---|
+| I came to Paris to live one day exactly like a broke, twenty-two-year-old Ernest Hemingway. |  |
+| In 1921 he moved here with his wife Hadley and almost no money. | top `hemingway_hadley.jpg` · pill **PARIS, 1921** |
+| Step one: his first apartment, 74 rue du Cardinal Lemoine. No hot water, and a shared toilet on the landing. | full screen `apartment.mp4` · pill **STEP 1: 74 RUE DU CARDINAL LEMOINE** |
+| Step two: write in a café. His rule: write one true sentence, then the next one. | top `cafe_writing.mp4` · pill **STEP 2: ONE TRUE SENTENCE** |
+| And stop while you still know what happens next, so tomorrow is easy. | you, full screen |
+| Step three: the Luxembourg Gardens. He walked here when he was too broke to eat, because there was nothing to smell. | full screen `gardens.mp4` · pill **STEP 3: THE GARDENS** |
+| Step four: the bookshop. Shakespeare and Company lent him books when he couldn't afford them. | top `bookshop.mp4` · pill **STEP 4: SHAKESPEARE AND COMPANY** |
+| Here's what I learned. He wasn't waiting for a big life to write about. He went out and got one, then sat down and wrote it. | you, full screen |
+| Follow for the next legend's footsteps. |  |
+
+End card from "Follow": **LIFESTYLE LEGENDS** / NEXT WEEK: A NEW LEGEND
+
+<details><summary>Footage and images to gather</summary>
+
+- `01_street.mp4`: you talking to camera
+- `02_afternoon.mp4`: you talking to camera
+- `hemingway_hadley.jpg`: Ernest and Hadley Hemingway, early 1920s (check licence)
+- `apartment.mp4`: YOU: in front of the building and its plaque
+- `cafe_writing.mp4`: YOU: writing in a notebook at a café table
+- `gardens.mp4`: YOU: walking through the Luxembourg Gardens
+- `bookshop.mp4`: YOU: outside and inside Shakespeare and Company
+
+</details>
+
+✓ Check before posting: arrived in Paris in December 1921, aged 22; 74 rue du Cardinal Lemoine flat with no hot water and a toilet on the landing; the 'stop while you know what happens next' habit; walking the Luxembourg Gardens when hungry (A Moveable Feast); Sylvia Beach's original Shakespeare and Company was at 12 rue de l'Odéon; today's shop on the Seine is a later one that carries the name, so say that on camera or film the old address.
+
+---
+
+## The bench: Ep 04 and beyond
+
+Hemingway took the third slot. These are next in line:
 
 | | Legend | Why they fit | Data signal | Status |
 |---|---|---|---|---|
-| 1 | **Robert Louis Stevenson** | Sickly kid from a family of lighthouse engineers. Trained as a lawyer and never really practised. In 1878 he walked the Cévennes with a donkey, then wrote *Treasure Island* and *Jekyll and Hyde*, sailed the Pacific, and ended his life in Samoa. | The Stevenson Trail walk (@heleneinbetween) is **65× with 11% engagement**, the strongest In Their Footsteps result in the data. The route is in France, a day's drive from the Riviera. | Not scripted yet |
-| 2 | **Jack London** | Oyster pirate at 15, sailor, hobo and gold-rusher, then a bestselling author who learned to surf at Waikiki. | A *Call of the Wild* film-clip reel did **53.7M views (15×)**, so the story pulls on its own. The oysters and surfing tie straight into your world. | **3 scripts ready** (below) |
-| 3 | **Ian Fleming** | Failed at everything his family wanted, then wrote James Bond at 43 after a morning swim in Jamaica. | Bond is the biggest name recognition of the five. I found no direct Fleming reel in the data to compare. | **3 scripts ready** (below) |
-| 4 | **Ernest Hemingway** | Ambulance driver wounded at 18, Paris in the 1920s, then marlin fishing in Key West and Cuba. *The Old Man and the Sea* won him the Nobel. | A Hemingway film clip did **13M views (13×)**. One caveat: he was writing from 17, so his story is "lived it, then wrote it", not "work came later". | Not scripted yet |
-| 5 | **Anthony Bourdain** | Line cook into his 40s. *Kitchen Confidential* came out when he was 44. His first raw oyster, as a boy in France, changed his life, which suits your oyster audience. | A Bourdain tribute reel did **3.2M views (9×)**. His death needs care: never make it the twist. | Not scripted yet |
-
-**My pick: Robert Louis Stevenson.** He has the best proven format in the data and a trail you can actually walk, which is a ready-made In Their Footsteps episode. If you want to film this week, **Jack London** is the runner-up, and his scripts are ready below.
+| 1 | **Robert Louis Stevenson** | Sickly kid from a family of lighthouse engineers. Trained as a lawyer and never really practised. Walked the Cévennes with a donkey, then wrote *Treasure Island* and ended his life in Samoa. | The Stevenson Trail walk is **65× with 11% engagement**, the strongest In Their Footsteps result in the data. The trail is in France. | Not scripted yet |
+| 2 | **Jack London** | Oyster pirate at 15, sailor, hobo and gold-rusher, then a bestselling author who learned to surf at Waikiki. | A *Call of the Wild* film-clip reel did **53.7M views (15×)**. | **3 scripts ready** (below) |
+| 3 | **Ian Fleming** | Failed at everything his family wanted, then wrote James Bond at 43 after a morning swim in Jamaica. | Bond has the biggest name recognition. | **3 scripts ready** (below) |
+| 4 | **Anthony Bourdain** | Line cook into his 40s; *Kitchen Confidential* at 44. His first oyster in France changed his life. | A Bourdain tribute reel did **3.2M views (9×)**. His death needs care: never make it the twist. | Not scripted yet |
 
 
-### Ready to film: Jack London
+### Bench, ready to film: Jack London
 
 #### A. The Origin Story: `london_a_origin`
 
@@ -425,7 +555,7 @@ End card from "Follow": **LIFESTYLE LEGENDS** / NEXT WEEK: A NEW LEGEND
 
 ---
 
-### Ready to film: Ian Fleming
+### Bench, ready to film: Ian Fleming
 
 #### A. The Origin Story: `fleming_a_origin`
 
