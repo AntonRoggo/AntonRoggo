@@ -1,0 +1,64 @@
+{
+  "footage": "input/cousteau_c_footsteps",
+  "series_tag": "Lifestyle Legends · Ep 01 · In his footsteps",
+  "highlight": [
+    "goggles",
+    "Aqua-Lung",
+    "ocean"
+  ],
+  "sequence": [
+    {
+      "talk": "01_mourillon.mp4"
+    },
+    {
+      "talk": "02_monaco.mp4"
+    }
+  ],
+  "panels": [
+    {
+      "at": "1936",
+      "file": "portrait_navy.jpg",
+      "label": "Le Mourillon, 1936"
+    },
+    {
+      "at": "goggles",
+      "file": "goggles.jpg",
+      "label": "The goggles"
+    },
+    {
+      "at": "brought",
+      "full": "talk"
+    },
+    {
+      "at": "This#2",
+      "full": "underwater.mp4"
+    },
+    {
+      "at": "Seven",
+      "file": "aqualung.jpg",
+      "label": "1943: the Aqua-Lung"
+    },
+    {
+      "at": "followed",
+      "full": "coast_drive.mp4"
+    },
+    {
+      "at": "Oceanographic",
+      "file": "museum.mp4",
+      "label": "Oceanographic Museum, Monaco"
+    },
+    {
+      "at": "man",
+      "full": "talk"
+    }
+  ],
+  "end_card": {
+    "at": "Follow",
+    "title": "Lifestyle Legends",
+    "sub": "Next: Chouinard's surf rule"
+  },
+  "title": {
+    "text": "Following Cousteau\nalong the Riviera",
+    "until": "1936"
+  }
+}

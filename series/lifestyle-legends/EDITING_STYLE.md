@@ -11,6 +11,8 @@ It's a split screen: the story visual on top with a blue label naming the beat, 
 
 ## What I measured
 
+The full shot-by-shot breakdown of all seven references is in [BREAKDOWNS.md](BREAKDOWNS.md).
+
 I downloaded the references and measured them for cuts, loudness, layout and frame grabs.
 
 | | Guess the footballer | Lens on Legends | Alan Bond (glasshouse) |

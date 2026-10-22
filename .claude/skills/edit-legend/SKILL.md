@@ -34,6 +34,7 @@ Don't publish from here. Publishing goes through the `publish-metricool` skill, 
   "footage": "input/london_b_guess",
   "series_tag": "Lifestyle Legends · Guess who #1",
   "highlight": ["guess", "jail"],
+  "title": {"text": "Following Cousteau\nalong the Riviera", "until": "1936"},
   "aroll_crop_y": 0.12,
   "sequence": [{"talk": "01_talk.mp4"}, {"broll": "dive.mp4", "in": 1, "out": 4}],
   "panels": [
@@ -51,5 +52,6 @@ Don't publish from here. Publishing goes through the `publish-metricool` skill, 
 - Photos get a slow zoom automatically. For video panels, `in` sets the start point within the clip.
 - `censor` takes `[x, y, w, h]` as fractions of the panel, or a list of those boxes. It pixelates photos only.
 - Captions are uppercase. Numbers and `highlight` words turn yellow.
+- `title` is the big opening title used by the In Their Footsteps format. It stays up until the `until` word, or for 5 s if there's no `until`.
 
 The style constants (panel sizes, colours, caption size) are at the top of `edit_legend.py`. The nine scripts and their plans are generated from one source, `series/lifestyle-legends/tools/gen_scripts.py`. To change a line or a panel, edit it there and run `python3 series/lifestyle-legends/tools/gen_scripts.py`. The generator checks every cue word against its line, then rewrites `SCRIPTS.md` and `plans/`. Don't hand-edit the generated files.

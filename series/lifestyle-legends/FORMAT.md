@@ -48,6 +48,8 @@ This format is built from Sandcastles' global data: the top-outlier reels across
 
 ## The three formats
 
+The shot-by-shot editing breakdown of every reference is in [BREAKDOWNS.md](BREAKDOWNS.md).
+
 ### A. The Origin Story (60–90 s)
 The full arc above, told from the start of their life to the payoff. Uses the split screen throughout, with photos on top and you on the bottom. Go full screen for the series line and the moral.
 References: Let's Talk About It, Favreau, Lens on Legends, Alan Bond.
@@ -76,4 +78,5 @@ References: Stevenson Trail (11% engagement), Hever Castle, Harry DuBois. This i
 - **Weekly rhythm:** Origin Story on Monday, Guess the Legend on Thursday (same person, so you research once and post twice), and In Their Footsteps whenever the location works.
 - **Episode numbers** go in the header strip (`Ep 01`, `Ep 02`…), as in the "Part 187" series.
 - **The newsletter** gets the long version of each Origin Story, plus the Community Legend of the week.
-- **Next legends**, all lived-first: Ernest Hemingway, Robert Louis Stevenson (his donkey walk is exactly the In Their Footsteps format), Anthony Bourdain, Jacques Cousteau, Duke Kahanamoku, John Muir, Patrick Leigh Fermor, Peter Mayle and Jimmy Buffett.
+- **The line-up:** Jacques Cousteau (Ep 01), Yvon Chouinard (Ep 02), then one of five for Ep 03 (see [SCRIPTS.md](SCRIPTS.md)).
+- **After that**, all lived-first: Ernest Hemingway, Robert Louis Stevenson, Anthony Bourdain, Duke Kahanamoku, John Muir, Patrick Leigh Fermor, Peter Mayle and Jimmy Buffett.

@@ -23,6 +23,8 @@ A plan (JSON) lists your talk clips in order and the panels that go on top:
               {"at": "Namaste", "full": "talk"}        you, full screen
               {"at": "surf", "full": "surf.mp4"}       b-roll, full screen
             "censor": [x, y, w, h] pixelates part of a photo (fractions)
+  title     {"text": "Following Cousteau\nalong the Riviera", "until": "1936"}
+            big opening title (default 5 s)
   end_card  {"at": "follow", "title": "...", "sub": "..."} over the ending
   music     optional bed, ducked under the voice
 
@@ -65,6 +67,8 @@ ACCENT = "&H0000D4FF&"        # yellow for numbers and highlight words
 PILL_SIZE = 46                # white capitals on a blue pill
 PILL_COLOR = "&H00FE5A3D"     # #3D5AFE
 TAG_SIZE = 32
+TITLE_SIZE = 72               # opening title over the first seconds (footsteps format)
+TITLE_Y = 0.14
 ZOOM = 0.08                   # slow push on every photo (alternates in/out)
 CENSOR_BLOCKS = 18            # pixel size of the "guess who" blur
 MUSIC_VOLUME = 0.12
@@ -304,7 +308,7 @@ def caption_events(words, highlight):
     return events
 
 
-def write_ass(path, captions, texts, timeline, tag, end_card):
+def write_ass(path, captions, texts, timeline, tag, end_card, title=None):
     cx = W // 2
     head = [
         "[Script Info]", "ScriptType: v4.00+", f"PlayResX: {W}", f"PlayResY: {H}",
@@ -322,6 +326,8 @@ def write_ass(path, captions, texts, timeline, tag, end_card):
         f"&H00000000,-1,0,0,0,100,100,6,0,1,0,0,5,40,40,0,1",
         f"Style: Card,{FONT_NAME},96,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,"
         f"-1,0,0,0,100,100,4,0,1,0,0,5,60,60,0,1",
+        f"Style: Title,{FONT_NAME},{TITLE_SIZE},&H00FFFFFF,&H00FFFFFF,&H00000000,"
+        f"&H70000000,-1,0,0,0,100,100,0,0,1,0,4,5,40,40,0,1",
         "", "[Events]",
         "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text",
     ]
@@ -350,6 +356,10 @@ def write_ass(path, captions, texts, timeline, tag, end_card):
                           f"{at(cx, SEAM_Y - 96)}{p['label'].upper()}")
         elif entry["kind"] == "full" and p.get("label"):
             ev.append(f"Dialogue: 1,{a},{b},Pill,,0,0,0,,{at(cx, H * 0.16)}{p['label'].upper()}")
+    if title:                          # big opening title, as in the footsteps refs
+        text = title["text"].replace("\n", "\\N")
+        ev.append(f"Dialogue: 3,{ass_time(title['start'])},{ass_time(title['end'])},Title,,"
+                  f"0,0,0,,{at(cx, H * TITLE_Y)}{text}")
     if end_card:
         a, b = ass_time(end_card["start"]), ass_time(end_card["end"])
         box = "m 0 0 l {0} 0 {0} {1} 0 {1}".format(W, H)
@@ -448,10 +458,16 @@ def main():
         t = anchor_time(plan["end_card"].get("at", max(0, total - 3)), words, "end card")
         if t is not None:
             end_card = {**plan["end_card"], "start": t, "end": total}
+    title = None
+    if plan.get("title"):
+        t = plan["title"]
+        end = (anchor_time(t["until"], words, "title") if "until" in t else None) \
+            or float(t.get("end", 5.0))
+        title = {"text": t["text"], "start": 0.0, "end": min(end, total)}
     highlight = {norm(h) for h in plan.get("highlight", [])}
     ass_path = out.with_suffix(".ass")
     write_ass(ass_path, caption_events(words, highlight), texts, timeline,
-              plan.get("series_tag"), end_card)
+              plan.get("series_tag"), end_card, title)
     music = ({**plan["music"], "file": footage / plan["music"]["file"]}
              if plan.get("music") else None)
 

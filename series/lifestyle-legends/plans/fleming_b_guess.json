@@ -1,6 +1,6 @@
 {
   "footage": "input/fleming_b_guess",
-  "series_tag": "Lifestyle Legends · Guess who #2",
+  "series_tag": "Lifestyle Legends · Guess who #3",
   "highlight": [
     "guess",
     "strike"
@@ -79,6 +79,6 @@
   "end_card": {
     "at": "follow",
     "title": "Guess the Legend",
-    "sub": "Next: a climber turned billionaire"
+    "sub": "Next: another legend"
   }
 }

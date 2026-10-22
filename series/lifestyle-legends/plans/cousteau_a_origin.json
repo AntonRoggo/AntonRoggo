@@ -1,0 +1,99 @@
+{
+  "footage": "input/cousteau_a_origin",
+  "series_tag": "Lifestyle Legends · Ep 01",
+  "highlight": [
+    "goggles",
+    "Aqua-Lung",
+    "Calypso",
+    "Oscar",
+    "ocean",
+    "sky"
+  ],
+  "sequence": [
+    {
+      "talk": "01_talk.mp4"
+    }
+  ],
+  "panels": [
+    {
+      "at": "Jacques",
+      "file": "portrait_navy.jpg",
+      "label": "Jacques Cousteau"
+    },
+    {
+      "at": "This",
+      "full": "talk"
+    },
+    {
+      "at": "sickly",
+      "file": "school.jpg",
+      "label": "The troublemaker"
+    },
+    {
+      "at": "saved",
+      "file": "camera.jpg",
+      "label": "Age 13: first camera"
+    },
+    {
+      "at": "joined",
+      "file": "naval_aviation.jpg",
+      "label": "The French Navy"
+    },
+    {
+      "at": "crash",
+      "full": "talk"
+    },
+    {
+      "at": "swimming",
+      "full": "swim.mp4",
+      "label": "The rehab"
+    },
+    {
+      "at": "summer",
+      "file": "goggles.jpg",
+      "label": "1936: the goggles"
+    },
+    {
+      "at": "face",
+      "full": "underwater.mp4"
+    },
+    {
+      "at": "wrote",
+      "full": "talk"
+    },
+    {
+      "at": "engineer",
+      "file": "aqualung.jpg",
+      "label": "1943: the Aqua-Lung"
+    },
+    {
+      "at": "minesweeper",
+      "file": "calypso.jpg",
+      "label": "Calypso"
+    },
+    {
+      "at": "Silent",
+      "file": "silent_world.jpg",
+      "label": "Cannes + Oscar"
+    },
+    {
+      "at": "TV",
+      "file": "red_cap.jpg",
+      "label": "The red cap"
+    },
+    {
+      "at": "nobody",
+      "file": "older.jpg",
+      "label": "The protector"
+    },
+    {
+      "at": "wanted#2",
+      "full": "talk"
+    }
+  ],
+  "end_card": {
+    "at": "Follow",
+    "title": "Lifestyle Legends",
+    "sub": "Next: Yvon Chouinard"
+  }
+}

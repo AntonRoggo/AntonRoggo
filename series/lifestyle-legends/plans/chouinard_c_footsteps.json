@@ -1,6 +1,6 @@
 {
   "footage": "input/chouinard_c_footsteps",
-  "series_tag": "Lifestyle Legends · Ep 03 · In his footsteps",
+  "series_tag": "Lifestyle Legends · Ep 02 · In his footsteps",
   "highlight": [
     "surf's",
     "surfing",
@@ -16,7 +16,7 @@
   ],
   "panels": [
     {
-      "at": "Yvon",
+      "at": "His#2",
       "file": "portrait.jpg",
       "label": "Yvon Chouinard"
     },
@@ -29,11 +29,6 @@
       "at": "surf's",
       "full": "surf_dawn.mp4",
       "label": "Dawn patrol"
-    },
-    {
-      "at": "climbing",
-      "file": "yosemite.jpg",
-      "label": "Yosemite, 1960s"
     },
     {
       "at": "So",
@@ -66,6 +61,10 @@
   "end_card": {
     "at": "Follow",
     "title": "Lifestyle Legends",
-    "sub": "Next: Hemingway's Key West"
+    "sub": "Next week: a new legend"
+  },
+  "title": {
+    "text": "Living by Patagonia's\none rule for a day",
+    "until": "name"
   }
 }

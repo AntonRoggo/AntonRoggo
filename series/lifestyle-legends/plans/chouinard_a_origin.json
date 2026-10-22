@@ -1,12 +1,12 @@
 {
   "footage": "input/chouinard_a_origin",
-  "series_tag": "Lifestyle Legends · Ep 03",
+  "series_tag": "Lifestyle Legends · Ep 02",
   "highlight": [
     "forge",
-    "pitons",
     "cat",
     "Patagonia",
-    "surfing"
+    "surf's",
+    "Earth"
   ],
   "sequence": [
     {
@@ -15,7 +15,7 @@
   ],
   "panels": [
     {
-      "at": "forge",
+      "at": "Yvon",
       "file": "forge.jpg",
       "label": "1957"
     },
@@ -24,9 +24,9 @@
       "full": "talk"
     },
     {
-      "at": "Yvon",
+      "at": "French",
       "file": "young.jpg",
-      "label": "Yvon Chouinard"
+      "label": "The outsider"
     },
     {
       "at": "falconry",
@@ -34,7 +34,7 @@
       "label": "Yosemite"
     },
     {
-      "at": "blacksmith",
+      "at": "afford",
       "file": "pitons.jpg",
       "label": "Homemade pitons"
     },
@@ -44,7 +44,7 @@
       "label": "$1.50 each"
     },
     {
-      "at": "cans",
+      "at": "lived#2",
       "file": "cat_food.jpg",
       "label": "The diet"
     },
@@ -53,9 +53,9 @@
       "full": "talk"
     },
     {
-      "at": "wrecking",
+      "at": "scarring",
       "file": "scarred_rock.jpg",
-      "label": "Damaging the rock"
+      "label": "Scarring the rock"
     },
     {
       "at": "clothes",
@@ -73,13 +73,13 @@
       "label": "2022"
     },
     {
-      "at": "never",
+      "at": "nobody",
       "full": "talk"
     }
   ],
   "end_card": {
     "at": "Follow",
     "title": "Lifestyle Legends",
-    "sub": "Next: Ernest Hemingway"
+    "sub": "Next week: a new legend"
   }
 }

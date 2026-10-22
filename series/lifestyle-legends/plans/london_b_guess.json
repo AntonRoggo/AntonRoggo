@@ -1,6 +1,6 @@
 {
   "footage": "input/london_b_guess",
-  "series_tag": "Lifestyle Legends · Guess who #1",
+  "series_tag": "Lifestyle Legends · Guess who #3",
   "highlight": [
     "guess",
     "jail",
@@ -87,6 +87,6 @@
   "end_card": {
     "at": "follow",
     "title": "Guess the Legend",
-    "sub": "Next: a spy novelist"
+    "sub": "Next: another legend"
   }
 }

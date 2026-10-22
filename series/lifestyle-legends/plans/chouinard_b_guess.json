@@ -1,6 +1,6 @@
 {
   "footage": "input/chouinard_b_guess",
-  "series_tag": "Lifestyle Legends · Guess who #3",
+  "series_tag": "Lifestyle Legends · Guess who #2",
   "highlight": [
     "guess",
     "cat"
@@ -12,7 +12,7 @@
   ],
   "panels": [
     {
-      "at": "guess",
+      "at": "imagine",
       "file": "portrait.jpg",
       "label": "Guess the legend",
       "censor": [
@@ -23,7 +23,7 @@
       ]
     },
     {
-      "at": "Grows",
+      "at": "outsider",
       "file": "1940s_california.jpg",
       "label": "The outsider"
     },
@@ -38,7 +38,7 @@
       "label": "Self-taught blacksmith"
     },
     {
-      "at": "Sells",
+      "at": "sells",
       "file": "cat_food.jpg",
       "label": "The diet"
     },
@@ -53,7 +53,7 @@
       "label": "The rugby shirt"
     },
     {
-      "at": "Writes",
+      "at": "book",
       "file": "book.jpg",
       "label": "The book",
       "censor": [
@@ -64,7 +64,7 @@
       ]
     },
     {
-      "at": "Last",
+      "at": "entire",
       "file": "headline.png",
       "label": "Last clue",
       "censor": [
@@ -87,6 +87,6 @@
   "end_card": {
     "at": "follow",
     "title": "Guess the Legend",
-    "sub": "Next: a teenage pirate"
+    "sub": "Next: another legend"
   }
 }

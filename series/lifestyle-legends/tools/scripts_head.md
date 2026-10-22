@@ -1,7 +1,12 @@
-# Lifestyle Legends: 9 scripts
+# Lifestyle Legends: scripts
 
-There are three versions for each of three legends, one per format in [FORMAT.md](FORMAT.md):
+There are three legends, each with one script per format. How each format is edited is broken down in [BREAKDOWNS.md](BREAKDOWNS.md).
 
+- **Legend 1: Jacques Cousteau.** The Riviera is his home water.
+- **Legend 2: Yvon Chouinard.**
+- **Legend 3: pick one of five.** The options are below. Jack London and Ian Fleming already have scripts.
+
+The three formats:
 - **A. The Origin Story**
 - **B. Guess the Legend**
 - **C. In Their Footsteps**
@@ -22,5 +27,5 @@ Each panel starts on the first word of its line and stays up until the next one.
 
 Before posting, check every fact marked ✓. They're from memory and haven't been checked against sources.
 
-**Images.** Archive photos from before 1931 are generally public domain in the US; use Wikimedia Commons or the Library of Congress, and check each licence. For Fleming and Chouinard, most photos are still under copyright. Use your own footage of places and objects, film yourself holding the book, buy a licence, or use an illustrated scene (that's what Lens on Legends does). Never use a fake photoreal image of a real person.
+**Images.** Archive photos from before 1931 are generally public domain in the US; use Wikimedia Commons or the Library of Congress, and check each licence. For Cousteau, Fleming and Chouinard, most photos are still under copyright. Use your own footage of places and objects, film yourself holding the book, buy a licence, or use an illustrated scene (that's what Lens on Legends does). Never use a fake photoreal image of a real person.
 
