@@ -3,8 +3,7 @@
   "series_tag": "Lifestyle Legends · Ep 02 · In his footsteps",
   "highlight": [
     "surf's",
-    "surfing",
-    "Patagonia"
+    "surfing"
   ],
   "sequence": [
     {
@@ -16,46 +15,43 @@
   ],
   "panels": [
     {
-      "at": "His#2",
-      "file": "portrait.jpg",
-      "label": "Yvon Chouinard"
-    },
-    {
-      "at": "book",
+      "at": "Yvon",
       "file": "book.jpg",
-      "label": "The rule"
+      "label": "Let My People Go Surfing"
     },
     {
-      "at": "surf's",
-      "full": "surf_dawn.mp4",
-      "label": "Dawn patrol"
+      "at": "Here's",
+      "full": "forecast.mp4"
     },
     {
-      "at": "So",
-      "full": "talk"
+      "at": "dawn",
+      "full": "surf_dawn.mp4"
     },
     {
-      "at": "laptop",
+      "at": "laptop#2",
       "file": "laptop.mp4",
       "label": "Then work"
     },
     {
-      "at": "climb",
+      "at": "climbing",
       "full": "climb.mp4"
     },
     {
-      "at": "Here's",
+      "at": "mornings",
+      "full": "morning_broll.mp4"
+    },
+    {
+      "at": "skipping",
       "full": "talk"
     },
     {
-      "at": "trick",
-      "file": "portrait.jpg",
-      "label": "The trick"
+      "at": "reread",
+      "file": "headline.png",
+      "label": "2022: he gives it away"
     },
     {
-      "at": "gave",
-      "file": "headline.png",
-      "label": "2022: gives it away"
+      "at": "inbox",
+      "full": "talk"
     }
   ],
   "end_card": {
@@ -64,7 +60,7 @@
     "sub": "Next: Hemingway's Paris"
   },
   "title": {
-    "text": "Living by Patagonia's\none rule for a day",
-    "until": "name"
+    "text": "Living by Patagonia's\none rule",
+    "until": "Here's"
   }
 }

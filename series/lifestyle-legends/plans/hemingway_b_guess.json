@@ -2,7 +2,6 @@
   "footage": "input/hemingway_b_guess",
   "series_tag": "Lifestyle Legends · Guess who #3",
   "highlight": [
-    "guess",
     "Nobel"
   ],
   "sequence": [
@@ -12,7 +11,7 @@
   ],
   "panels": [
     {
-      "at": "imagine",
+      "at": 0,
       "file": "portrait.jpg",
       "label": "Guess the legend",
       "censor": [
@@ -23,53 +22,53 @@
       ]
     },
     {
-      "at": "Grows",
+      "at": "growing",
       "file": "michigan.jpg",
       "label": "The woods"
     },
     {
-      "at": "newspaper",
+      "at": "skips",
       "file": "newsroom.jpg",
-      "label": "Age 18"
+      "label": "The reporter"
     },
     {
-      "at": "ambulances",
+      "at": "turned",
       "file": "ambulance.jpg",
       "label": "The war"
     },
     {
-      "at": "nurse",
+      "at": "mortar",
+      "file": "hospital_1918.jpg",
+      "label": "The shell",
+      "censor": [
+        0.25,
+        0.05,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "at": "falls",
       "file": "nurse.jpg",
       "label": "The nurse"
     },
     {
-      "at": "Paris",
+      "at": "moves",
       "file": "paris_1920s.jpg",
       "label": "Paris"
     },
     {
-      "at": "bulls",
+      "at": "runs",
       "file": "pamplona.jpg",
       "label": "Pamplona"
     },
     {
-      "at": "marlin",
+      "at": "boat",
       "full": "fishing.mp4",
       "label": "The boat"
     },
     {
-      "at": "survives",
-      "file": "obituary.jpg",
-      "label": "The obituary",
-      "censor": [
-        0.0,
-        0.0,
-        1.0,
-        0.45
-      ]
-    },
-    {
-      "at": "Nobel",
+      "at": "chapter",
       "file": "old_man.jpg",
       "label": "Last clue",
       "censor": [
@@ -80,18 +79,14 @@
       ]
     },
     {
-      "at": "Ernest",
+      "at": "By#4",
       "file": "portrait.jpg",
       "label": "Ernest Hemingway"
-    },
-    {
-      "at": "got",
-      "full": "talk"
     }
   ],
   "end_card": {
-    "at": "follow",
+    "at": "Comment",
     "title": "Guess the Legend",
-    "sub": "Next: another legend"
+    "sub": "Comment when you got it"
   }
 }

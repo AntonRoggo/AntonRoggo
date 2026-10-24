@@ -1,0 +1,45 @@
+{
+  "footage": "input/hemingway_a_short",
+  "series_tag": "Lifestyle Legends · Ep 03 · short",
+  "highlight": [
+    "shrapnel",
+    "Nobel"
+  ],
+  "sequence": [
+    {
+      "talk": "01_talk.mp4"
+    }
+  ],
+  "panels": [
+    {
+      "at": 0,
+      "file": "portrait_1918.jpg",
+      "label": "Ernest Hemingway"
+    },
+    {
+      "at": "mortar",
+      "file": "ambulance.jpg",
+      "label": "1918: wounded"
+    },
+    {
+      "at": "found",
+      "file": "hospital_1918.jpg",
+      "label": "The hospital"
+    },
+    {
+      "at": "Drawing",
+      "file": "farewell.jpg",
+      "label": "A Farewell to Arms"
+    },
+    {
+      "at": "living",
+      "file": "nobel.jpg",
+      "label": "1954: Nobel Prize"
+    }
+  ],
+  "end_card": {
+    "at": "Follow",
+    "title": "Lifestyle Legends",
+    "sub": "Full story on the page"
+  }
+}

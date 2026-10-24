@@ -2,8 +2,8 @@
   "footage": "input/hemingway_a_origin",
   "series_tag": "Lifestyle Legends · Ep 03",
   "highlight": [
+    "adventure",
     "shrapnel",
-    "Pilar",
     "Nobel",
     "obituaries",
     "true"
@@ -15,23 +15,22 @@
   ],
   "panels": [
     {
-      "at": "Ernest",
+      "at": 0,
       "file": "portrait_1918.jpg",
-      "label": "Ernest Hemingway, 18"
+      "label": "Ernest Hemingway"
     },
     {
-      "at": "This",
+      "at": "learned",
       "full": "talk"
     },
     {
-      "at": "hunting",
-      "file": "michigan.jpg",
-      "label": "Northern Michigan"
+      "at": "series",
+      "full": "talk"
     },
     {
-      "at": "reporter",
-      "file": "newsroom.jpg",
-      "label": "Age 18: reporter"
+      "at": "kid",
+      "file": "michigan.jpg",
+      "label": "The dream: adventure"
     },
     {
       "at": "army",
@@ -39,23 +38,14 @@
       "label": "Red Cross ambulance"
     },
     {
-      "at": "shell#2",
-      "full": "talk"
+      "at": "fingertips",
+      "file": "hospital_1918.jpg",
+      "label": "1918: wounded"
     },
     {
-      "at": "hospital",
-      "file": "nurse.jpg",
-      "label": "The nurse"
-    },
-    {
-      "at": "heartbreak",
-      "file": "farewell.jpg",
-      "label": "A Farewell to Arms"
-    },
-    {
-      "at": "broke",
+      "at": "Rather",
       "file": "paris_1920s.jpg",
-      "label": "Paris, 1920s"
+      "label": "Broke in Paris"
     },
     {
       "at": "bulls",
@@ -68,22 +58,36 @@
       "label": "The Pilar"
     },
     {
-      "at": "Old",
+      "at": "what#2",
+      "full": "talk"
+    },
+    {
+      "at": "Farewell",
+      "file": "farewell.jpg",
+      "label": "A Farewell to Arms"
+    },
+    {
+      "at": "Sun",
+      "file": "sun_also_rises.jpg",
+      "label": "The Sun Also Rises"
+    },
+    {
+      "at": "Gulf",
       "file": "old_man.jpg",
       "label": "The Old Man and the Sea"
     },
     {
-      "at": "Nobel",
+      "at": "last#2",
       "file": "nobel.jpg",
       "label": "1954: Nobel Prize"
     },
     {
-      "at": "nobody",
+      "at": "survived",
       "file": "obituary.jpg",
       "label": "Reads his own obituary"
     },
     {
-      "at": "rule",
+      "at": "Life#2",
       "full": "talk"
     }
   ],

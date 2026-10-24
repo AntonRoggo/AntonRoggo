@@ -2,8 +2,11 @@
 
 Run from anywhere: python3 series/lifestyle-legends/tools/gen_scripts.py
 
-Every panel anchor is checked against the script text with the editor's own
-word matcher, so the plans line up with what's said.
+Every script is built line for line on a winning reel's transcript: each line
+of ours sits next to the winner's line it copies. Every script has three
+hooks taken from proven winning hooks. Panel cue words are checked against the
+script with the editor's own word matcher, for all three hooks, so the plan
+works whichever hook you film.
 """
 import json
 import sys
@@ -14,31 +17,129 @@ sys.path.insert(0, str(REPO))
 from edit_legend import find_word  # noqa: E402
 
 SERIES = "Lifestyle Legends"
-SERIES_LINE = ("This is Lifestyle Legends: the people who lived first "
-               "and figured out the work later.")
 CENSOR = [0.25, 0.05, 0.5, 0.5]
 
-# reference reels each format is built on, shown at the top of every script
-REFS = {
-    "The Origin Story": [
-        ("Lens on Legends: Dua Lipa", "https://www.instagram.com/reel/DYul8wohxIL/", "main reference, 259×"),
-        ("Let's Talk About It", "https://www.instagram.com/reel/DaWEza9y-Dg/", "the series line, 3,241×"),
-        ("Jon Favreau", "https://www.instagram.com/reel/DDSdkJGoVRs/", "text-post version, 556×"),
-    ],
-    "Guess the Legend": [
-        ("Guess the footballer", "https://www.instagram.com/reel/DdjfzUURsA3/", "main reference, 12×"),
-    ],
-    "In Their Footsteps": [
-        ("Stevenson Trail", "https://www.tiktok.com/@heleneinbetween/video/7646771334520769805", "main reference, 65×"),
-        ("Hever Castle", "https://www.tiktok.com/@history_alice/video/7672324997637082390", "evidence shots, 13×"),
-        ("Harry DuBois", "https://www.instagram.com/reel/DcEVwdNxIA5/", "title + list hook, 14×"),
-    ],
+# --- the winning reels each script copies --------------------------------------
+SKELETONS = {
+    "lets_talk": dict(
+        name="Let's Talk About It (@sydney.yancy.ugc)", url="https://www.instagram.com/reel/DaWEza9y-Dg/",
+        stats="6.0M views · 3,241× · 10% engagement", length="about 2 min", wps=2.5,
+        reveal="name in the first second",
+        shape="one dream → the thing that killed it → one pivot → proof → the lesson. Five or six facts, one thread",
+        look="Look and pacing from [Lens on Legends: Dua Lipa](https://www.instagram.com/reel/DYul8wohxIL/) (259×): a new picture every sentence, uppercase captions, a branded end card"),
+    "favreau": dict(
+        name="Jon Favreau (@winning.therapy)", url="https://www.instagram.com/reel/DDSdkJGoVRs/",
+        stats="5.8M views · 556×", length="26 s (106 words)", wps=4.0,
+        reveal="name in the first sentence",
+        shape="seven sentences: setup → setback → stuck → decision → the move → 'it wasn't just X' → result and lesson",
+        look="Post it as a talking head, or as a text post over a clip, like the winner"),
+    "guess": dict(
+        name="Guess the footballer (@jackgrimse)", url="https://www.instagram.com/reel/DdjfzUURsA3/",
+        stats="97K views · 12×", length="62 s", wps=3.1,
+        reveal="name hidden until 90% of the way through",
+        shape="one breathless present-tense run-on. Each clause starts with a verb and is one step. No ages, no pauses",
+        look="Split screen: clue image on top with a blue pill, you underneath, captions on the seam"),
+    "helene": dict(
+        name="Stevenson Trail (@heleneinbetween)", url="https://www.tiktok.com/@heleneinbetween/video/7646771334520769805",
+        stats="578K views · 65× · 11% engagement", length="99 s", wps=3.3,
+        reveal="the legend is the reason, not the subject: named in passing at ~10 s, paid off at his landmark at ~85 s",
+        shape="contrast hook → 'no X, no Y, just me' → how it works → the day → the senses → 'this is not roughing it' → what changed for me → his landmark → the moral",
+        look="Full-screen B-roll every 1.5–3 s, you on camera ~25%, big title over the first seconds"),
 }
-BREAKDOWN_ANCHOR = {"The Origin Story": "a-the-origin-story",
-                    "Guess the Legend": "b-guess-the-legend",
-                    "In Their Footsteps": "c-in-their-footsteps"}
 
-# panel helpers: (anchor, kind, file, label, desc, extra)
+# --- proven hooks (madlib, reel, link, stats) ----------------------------------
+HOOKS = {
+    "lets_talk": ("[Name]. More popularly known as [nickname]. [Age], [status].",
+                  "Let's Talk About It", "https://www.instagram.com/reel/DaWEza9y-Dg/", "6.0M · 3,241×"),
+    "lens": ("At [age], [subject] [did a major life-changing thing].",
+             "Lens on Legends: Dua Lipa", "https://www.instagram.com/reel/DYul8wohxIL/", "735K · 259×"),
+    "babbu": ("The local community calls them [title], but the world knows them by [name].",
+              "Babbu Maan (@currentyug)", "https://www.instagram.com/reel/DdZDoR5hjBn/", "2.3M · 67×"),
+    "aoi": ("Did you know [subject] who holds [achievement] actually [surprising background]?",
+            "Ronaldo, Part 187 (@aoieducation)", "https://tiktok.com/@aoieducation/video/7648258694446124296", "3.6M · 8×"),
+    "favreau": ("In [year], [person] [got X], thinking it would be [his big break]. But…",
+                "Jon Favreau", "https://www.instagram.com/reel/DDSdkJGoVRs/", "5.8M · 556×"),
+    "bond": ("In [year], this was the [superlative] man in [place]. [Years] earlier, [opposite].",
+             "Alan Bond (@glasshouse.aus)", "https://www.instagram.com/reel/DdpupJ_BinY/", "58K · 67×"),
+    "venture": ("This [kind of person] [humble start] and built [huge result].",
+                "Rohan Oza (@theventure)", "https://www.instagram.com/reel/DcW8st3Rd1p/", "243K · 9.8×"),
+    "guess": ("Can you imagine experiencing this [type]'s rollercoaster [career]…",
+              "Guess the footballer", "https://www.instagram.com/reel/DdjfzUURsA3/", "97K · 12×"),
+    "guess_caption": ("Can you guess this [type] from the story of their [career]…",
+                      "Guess the footballer (caption)", "https://www.instagram.com/reel/DdjfzUURsA3/", "97K · 12×"),
+    "historic": ("In [year], a [future legend] [did something ordinary], completely unnoticed…",
+                 "DiCaprio in Paris (@historic)", "https://www.instagram.com/reel/DTL2tXCgGar/", "2.2M · 17.8×"),
+    "helene": ("This is totally normal in [place A] and doesn't even exist in [place B].",
+               "Stevenson Trail", "https://www.tiktok.com/@heleneinbetween/video/7646771334520769805", "578K · 65×"),
+    "alice": ("This is one of the most important [rooms] in [history].",
+              "Hever Castle (@history_alice)", "https://www.tiktok.com/@history_alice/video/7672324997637082390", "471K · 13×"),
+    "helene_caption": ("I picked this [trip] because of a [book].",
+                       "Stevenson Trail (caption)", "https://www.tiktok.com/@heleneinbetween/video/7646771334520769805", "578K · 65×"),
+}
+
+# --- the winners' lines, beat by beat ------------------------------------------
+LETS_TALK = [
+    ("Hook", "Jordan Howlett. More popularly known as Jordan the Stallion. He's 28 years old and easily one of the most recognizable content creators on the planet."),
+    ("Personal stake", "And last week I learned a little bit about his background and I can't stop thinking about it, his story is wild."),
+    ("Series line", "This is Let's Talk About It. A series where I share the unique stories of people who inspire me… So let's talk about it."),
+    ("The dream", "As a kid Jordan had dreams of being a professional baseball player."),
+    ("The grind", "In college he was broke and sleeping in a 97 Chevy Suburban but was still playing D1 baseball and being scouted by the MLB."),
+    ("The dream dies", "His dream was at his fingertips until COVID came, canceled his final season… and his dream was over."),
+    ("The pivot", "Rather than shutting down, he used the experience to make a YouTube documentary called Dear Baseball and emailed 150 people a day to get noticed."),
+    ("The question", "And who was he noticed by? None other than LeBron."),
+    ("The breakthrough", "Less than a week later he started creating content revealing the secrets of fast food recipes and he went viral."),
+    ("Proof: a number", "His videos are generating around 90 million views a month."),
+    ("Proof: names", "Celebrities like Kevin Hart, Method Man, Donald Glover, Will Smith, Tom Holland have all worked with him… not the other way around."),
+    ("The lesson", "Life is going to hand you negative circumstances, career enders, and you can let it define you or you can rewrite your story."),
+    ("The lesson, part 2", "In a world that favors instant gratification what really gets results is hard work, determination, tenacity and an unwavering belief in yourself."),
+    ("Follow (Lens on Legends)", "Follow Lens on Legends for more untold stories about the icons who didn't just make history, they rewrote the rules to get there."),
+]
+FAVREAU = [
+    ("Setup", "In 1993, Jon Favreau landed a small but memorable role in the hit film Rudy, thinking it would be his big break."),
+    ("Setback", "But after the movie's success, work didn't follow."),
+    ("Stuck", "He found himself stuck, unable to land substantial roles, questioning his future in Hollywood."),
+    ("Decision", "Frustrated, Favreau decided to take control of his career."),
+    ("The move", "Drawing from his struggles, he wrote Swingers, a low-budget film about friendship, heartbreak, and navigating the grind of Hollywood."),
+    ("Reframe", "It wasn't just a script—it was a lifeline."),
+    ("Result and lesson", "By betting on himself, Favreau created a cult classic that launched his career, proving that sometimes the only way forward is to create your own opportunities."),
+    ("Sign-off (ours)", "(none in the winner)"),
+]
+GUESS = [
+    ("Hook", "Can you imagine experiencing this footballer's rollercoaster career,"),
+    ("Hard start", "growing up in government housing after his dad walked out on the family,"),
+    ("First break", "focuses on football and earns a scholarship to Man City's youth academy,"),
+    ("Leaves home", "goes on loan to a London club in search of first-team football,"),
+    ("Struggle, then rise", "struggles to fit in at first, but his game speaks for itself and starts generating national attention,"),
+    ("Conflict", "returns to Manchester because of the owner's ego at his loan club,"),
+    ("Earns it", "battles for a place in Pep Guardiola's squad and earns a spot in the starting XI by the end of the season,"),
+    ("Twist", "provides the assist that sends his former club down, but joins permanently in the summer and brings them back to the Premier League."),
+    ("Peak", "An England call-up awaits, and in the coming seasons he helps his club win the FA Cup… and qualify for the Champions League in the process."),
+    ("Chapter ends", "This chapter ends when he is sold to FC Barcelona for a club-record fee."),
+    ("Reveal", "By now, you probably know that this is the story of Jamie Tartt."),
+    ("CTA", "Comment below when you figured it out."),
+]
+HELENE = [
+    ("Hook", "This is totally normal in Europe and doesn't even exist in the USA: inn-to-inn hiking."),
+    ("No X, just me", "No tent, no backpack full of gear, just me, my snacks, my tripod, and 156 miles of France on Stevenson's Trail."),
+    ("How it works", "Here's how it works. You stay in family-run village inns and small hotels along the way."),
+    ("How it works, part 2", "Every morning you leave your bag at reception, a Sherpa service moves all your stuff while you walk with just snacks and water."),
+    ("The day", "I'd walk anywhere from 8 to 20 miles per day, stopping for picnic lunches of crusty baguettes… and afternoon coffee in village cafés."),
+    ("The evening", "Then I'd arrive at my next village inn, take a hot shower, and enjoy a proper French dinner every single night."),
+    ("The senses", "Walking Stevenson's Trail is like walking through idyllic France, through volcanic plateaus, fields of poppies, past stone houses dripping with climbing roses…"),
+    ("Reframe", "This is not roughing it. It was challenging, but getting a hot shower and a five-course French meal every night was magnificent."),
+    ("Proof", "I loved long-distance walking so much that this was my second one…"),
+    ("The turn", "But here's what really changed my life. Long-distance walking gave me a passion I never knew I had…"),
+    ("His landmark", "On my final day the trail dropped me… into the town of Saint-Jean-du-Gard, the same village where Robert Louis Stevenson ended his own journey in 1878."),
+    ("The feeling", "Standing there, I couldn't believe what I'd done."),
+    ("Transformation", "Two years ago I'd never call myself a hiker. Now I've walked hundreds of miles, lost 60 pounds…"),
+    ("The moral", "That's the power of choosing yourself."),
+    ("Follow (ours)", "(none in the winner)"),
+]
+WINNERS = {"lets_talk": LETS_TALK, "favreau": FAVREAU, "guess": GUESS, "helene": HELENE}
+VERSIONS = {"lets_talk": ("A", "The Origin Story"), "favreau": ("A-short", "The Origin Story, short cut"),
+            "guess": ("B", "Guess the Legend"), "helene": ("C", "In Their Footsteps")}
+
+
 def top(at, file, label, desc, **extra):
     return {"at": at, "file": file, "label": label, "desc": desc, **extra}
 
@@ -50,542 +151,350 @@ def full(at, file="talk", label=None, desc=None, **extra):
     return d
 
 
+SERIES_LINE = ("This is Lifestyle Legends, a series where I share the stories of people "
+               "who lived first and figured out the work later. So let's get into it.")
+STAKE = "And last week I learned what his life looked like before any of that, and I can't stop thinking about it. His story is wild."
+ME = "✎ "   # a personal line: say it only if it's true for you, or swap in your version
+
 SCRIPTS = [
-# ------------------------------------------------------- JACQUES COUSTEAU
-dict(id="cousteau_a_origin", legend="Jacques Cousteau", version="A", ep="Ep 01", group="main",
-     fmt="The Origin Story", length="about 95 s",
-     ref="Lens on Legends, Dua Lipa: one bold fact first, short declarative sentences, a payoff flurry, the detail nobody tells, and a callback to the hook",
-     film="One take to camera on the rocks above the sea, slow and serious. Plus two clips of you: swimming in the Med, and an underwater POV with goggles or a mask.",
-     talk=["01_talk.mp4"],
-     highlight=["goggles", "Aqua-Lung", "Calypso", "Oscar", "ocean", "sky"],
+# =============================================================== COUSTEAU
+dict(id="cousteau_a_origin", legend="Jacques Cousteau", ep="Ep 01", skeleton="lets_talk",
+     film="One take to camera on the rocks above the sea. Plus two clips of you: swimming in the Med, and an underwater POV with goggles.",
+     talk=["01_talk.mp4"], highlight=["fly", "goggles", "Calypso", "Oscar", "ocean", "sky"],
+     hooks=[("Jacques Cousteau. Better known as the man in the red cap. He basically invented scuba diving, and he's still the most famous ocean explorer who ever lived.", "lets_talk"),
+            ("At twenty-six, he crashed his car, broke both arms, and lost his dream of flying.", "lens"),
+            ("The French Navy knew him as a pilot who'd never fly. The world knows him as Jacques Cousteau.", "babbu")],
      lines=[
-        ("At twenty-six, Jacques Cousteau crashed his car, broke both arms, and lost his dream of being a pilot.",
-         [top("Jacques", "portrait_navy.jpg", "Jacques Cousteau", "Young Cousteau in naval uniform (check licence) or an illustration")]),
-        (SERIES_LINE, [full("This")]),
-        ("He was a sickly kid, and a troublemaker. He got thrown out of school for breaking seventeen windows.",
-         [top("sickly", "school.jpg", "The troublemaker", "1920s French school or boarding school, old postcard")]),
-        ("At thirteen, he saved up for a movie camera, and took it apart to see how it worked.",
-         [top("saved", "camera.jpg", "Age 13: first camera", "1920s Pathé home movie camera")]),
-        ("He joined the French Navy to fly planes.",
-         [top("joined", "naval_aviation.jpg", "The French Navy", "1930s French naval aviation photo")]),
-        ("Then the crash ended all of it.", [full("crash")]),
-        ("To get his arms working again, he started swimming every day in the Mediterranean.",
-         [full("swimming", "swim.mp4", "The rehab", "YOU: swimming laps in the Mediterranean")]),
-        ("One summer morning in 1936, a friend handed him a pair of swimming goggles.",
-         [top("summer", "goggles.jpg", "1936: the goggles", "Vintage swimming goggles on a rock")]),
-        ("He put his face under the water, and that was it.",
-         [full("face", "underwater.mp4", desc="YOU: underwater POV, fish and rocks")]),
-        ("He wrote: sometimes we are lucky enough to know that our lives have been changed.",
-         [full("wrote")]),
-        ("There was one problem. You could only stay down as long as you could hold your breath.", []),
-        ("So during the war, he and an engineer named Emile Gagnan built a way to breathe underwater. They called it the Aqua-Lung.",
-         [top("engineer", "aqualung.jpg", "1943: the Aqua-Lung", "Early Aqua-Lung regulator and tanks")]),
-        ("Every scuba tank on earth comes from that idea.", []),
-        ("Then he got hold of an old minesweeper, named it Calypso, and sailed it around the world with a camera.",
-         [top("minesweeper", "calypso.jpg", "Calypso", "The ship Calypso")]),
-        ("His film The Silent World won the top prize at Cannes, and an Oscar.",
-         [top("Silent", "silent_world.jpg", "Cannes + Oscar", "Poster or book cover of The Silent World")]),
-        ("Then the TV shows, the red cap, and a whole generation who wanted to explore the ocean.",
-         [top("TV", "red_cap.jpg", "The red cap", "A red wool cap on a ship's rail (YOU can shoot this)")]),
-        ("And the part nobody tells you: he became one of the loudest voices fighting to protect the sea he'd spent his life filming.",
-         [top("nobody", "older.jpg", "The protector", "Older Cousteau (check licence) or open ocean")]),
-        ("He wanted the sky. He got the whole ocean instead.", [full("wanted")]),
+        [top(0, "portrait.jpg", "Jacques Cousteau", "Cousteau in the red cap (check licence) or an illustration")],
+        (STAKE, [full("learned")]),
+        (SERIES_LINE, [full("series")]),
+        ("As a kid, Jacques wanted to fly.", [top("kid", "naval_aviation.jpg", "The dream: flying", "1930s French naval aviation photo")]),
+        ("He was a sickly kid who got thrown out of school, but he still made it into the French Naval Academy, training to be a pilot.",
+         [top("sickly", "naval_academy.jpg", "French Naval Academy", "École navale, 1930s postcard")]),
+        ("His dream was at his fingertips, until a car crash broke both his arms, and his flying career was over before it started.",
+         [top("fingertips", "old_car.jpg", "1936: the crash", "1930s car on a mountain road")]),
+        ("Rather than giving up, he swam in the Mediterranean every single day to get his arms working again.",
+         [full("Rather", "swim.mp4", "The rehab", "YOU: swimming in the Mediterranean")]),
+        ("And who changed everything? A friend, who handed him a pair of swimming goggles.",
+         [top("changed", "goggles.jpg", "The goggles", "Vintage swimming goggles on a rock")]),
+        ("He put his face in the water, saw a world nobody had ever filmed, and a few years later he co-invented the Aqua-Lung so he could stay down there.",
+         [full("put", "underwater.mp4", desc="YOU: underwater POV, fish and rocks"),
+          top("later", "aqualung.jpg", "1943: the Aqua-Lung", "Early Aqua-Lung regulator and tanks")]),
+        ("Every scuba diver on earth is breathing through a version of that idea.", []),
+        ("He sailed the world on his ship Calypso, won an Oscar and the top prize at Cannes, and a whole generation grew up wanting to explore the ocean because of him.",
+         [top("sailed", "calypso.jpg", "Calypso", "The ship Calypso"),
+          top("Oscar", "silent_world.jpg", "Cannes + Oscar", "Poster or book cover of The Silent World")]),
+        ("Life is going to take away the thing you planned on. You can let it end you, or you can put your face in the water and find the next thing.",
+         [full("Life")]),
+        ("He wanted the sky. He got the whole ocean instead.", []),
         ("Follow for the next legend: the climber who ate cat food and built Patagonia.", []),
      ],
      end_card=dict(at="Follow", title=SERIES, sub="Next: Yvon Chouinard"),
-     verify=["the 1936 car accident and the end of his naval-aviation training", "expelled for breaking 17 windows",
-             "buying a movie camera at 13 and taking it apart", "goggles from Philippe Tailliez at Le Mourillon, 1936",
-             "the 'lucky enough' quote from The Silent World", "Aqua-Lung with Émile Gagnan, 1943",
-             "Calypso, a former minesweeper", "The Silent World: Palme d'Or 1956, Oscar 1957",
-             "his campaigns against dumping waste in the sea"]),
+     verify=["expelled from school (the 17 broken windows story)", "École navale, training for naval aviation",
+             "the 1936 car crash that broke both arms and ended his flying", "rehab swimming and the goggles from Philippe Tailliez",
+             "Aqua-Lung with Émile Gagnan, 1943", "Calypso; The Silent World won the 1956 Palme d'Or and the 1957 Oscar"]),
 
-dict(id="cousteau_b_guess", legend="Jacques Cousteau", version="B", ep="Guess who #1", group="main",
-     fmt="Guess the Legend", length="about 50 s",
-     ref="Guess the footballer: one breathless present-tense run-on, a new image every clue, the reveal at about 90%, then 'comment when you knew'",
-     film="One take to camera, no pauses, leaning in like you're quizzing a friend. A red cap in your hand is the silent last clue.",
-     talk=["01_talk.mp4"],
-     highlight=["guess", "goggles", "Oscar"],
+dict(id="cousteau_a_short", legend="Jacques Cousteau", ep="Ep 01 · short", skeleton="favreau",
+     film="One take to camera, 30 seconds, or post it as a text card over an ocean clip.",
+     talk=["01_talk.mp4"], highlight=["goggles", "Aqua-Lung", "ocean"],
+     hooks=[("In 1936, Jacques Cousteau was training to be a navy pilot, thinking his life was set.", "favreau"),
+            ("In 1956, this was the most famous man under the sea. Twenty years earlier, he couldn't lift his arms.", "bond"),
+            ("This navy cadet broke both his arms, and ended up inventing scuba diving.", "venture")],
      lines=[
-        ("Can you imagine living this explorer's life? Comment the second you know who it is.",
-         [top("imagine", "portrait.jpg", "Guess the legend", "Portrait of Cousteau, face pixelated by the editor", censor=CENSOR)]),
-        ("A sickly kid who gets thrown out of school for breaking windows,",
-         [top("sickly", "school.jpg", "The troublemaker", "1920s French school, old postcard")]),
-        ("buys his first movie camera at thirteen,",
-         [top("buys", "camera.jpg", "Age 13", "1920s home movie camera")]),
-        ("joins the navy to become a pilot,",
-         [top("navy", "naval_aviation.jpg", "The navy", "1930s naval aviation photo")]),
-        ("then a car crash breaks both his arms and ends it.",
-         [top("crash", "old_car.jpg", "The crash", "1930s car on a mountain road")]),
-        ("He swims in the sea every day to recover,",
-         [full("swims", "swim.mp4", "The rehab", "YOU: swimming in the sea")]),
-        ("puts on a pair of goggles, and never looks back.",
-         [top("goggles", "goggles.jpg", "The goggles", "Vintage swimming goggles")]),
-        ("During the war, he helps invent a way to breathe underwater,",
-         [top("war", "aqualung.jpg", "The invention", "Early scuba regulator")]),
-        ("sails an old minesweeper around the world with a camera,",
-         [top("minesweeper", "calypso.jpg", "The ship", "The ship, name on the hull pixelated", censor=[0.0, 0.3, 1.0, 0.3])]),
-        ("and wins an Oscar for showing everyone what's down there.",
-         [top("Oscar", "oscar.jpg", "The Oscar", "An Oscar statuette or 1950s premiere photo")]),
-        ("Last clue: the red cap.",
-         [top("Last", "red_cap.jpg", "Last clue", "YOU: holding a red wool cap")]),
-        ("It's Jacques Cousteau.",
-         [top("Jacques", "portrait.jpg", "Jacques Cousteau", "The same portrait, no pixelation")]),
-        ("Comment when you got it, and follow for the next one.", [full("got")]),
+        [top(0, "portrait_navy.jpg", "Jacques Cousteau", "Young Cousteau in naval uniform (check licence) or an illustration")],
+        ("But a car crash broke both his arms, and ended it.", [top("crash", "old_car.jpg", "The crash", "1930s car on a mountain road")]),
+        ("He found himself swimming every morning, just to make his arms work again.", [full("found", "swim.mp4", desc="YOU: swimming in the sea")]),
+        ("Then a friend handed him goggles, and he decided that's where his life was going.", [top("friend", "goggles.jpg", "The goggles", "Vintage swimming goggles")]),
+        ("Drawing on what he saw down there, he co-invented the Aqua-Lung, the scuba tank as we know it.", [top("Drawing", "aqualung.jpg", "The Aqua-Lung", "Early Aqua-Lung")]),
+        ("It wasn't just an invention. It was a door into a new world.", [full("door", "underwater.mp4", desc="YOU: underwater POV")]),
+        ("By following the thing that found him, Cousteau became the most famous ocean explorer ever, proving that sometimes the plan falling apart is the plan.",
+         [top("following", "portrait.jpg", "Jacques Cousteau", "Cousteau in the red cap")]),
+        ("Follow for more Lifestyle Legends.", []),
      ],
-     end_card=dict(at="follow", title="Guess the Legend", sub="Next: a climber turned billionaire"),
-     verify=["the same facts as version A"]),
+     end_card=dict(at="Follow", title=SERIES, sub="Full story on the page"),
+     verify=["same facts as the long version"]),
 
-dict(id="cousteau_c_footsteps", legend="Jacques Cousteau", version="C", ep="Ep 01 · In his footsteps", group="main",
-     fmt="In Their Footsteps", length="about 75 s",
-     ref="Stevenson Trail + Hever Castle: a title over a selfie hook in the real place, B-roll every 1.5–3 s, you back on camera at the emotional beats, ending at the legend's landmark",
-     film="Two days on the Riviera. 01 at Le Mourillon beach in Toulon (selfie, goggles in hand), 02 outside the Oceanographic Museum in Monaco. Plus underwater POV and the drive along the coast.",
-     talk=["01_mourillon.mp4", "02_monaco.mp4"],
-     title=dict(text="Following Cousteau\nalong the Riviera", until="1936"),
-     highlight=["goggles", "Aqua-Lung", "ocean"],
+dict(id="cousteau_b_guess", legend="Jacques Cousteau", ep="Guess who #1", skeleton="guess",
+     film="One take to camera, no pauses. A red cap in your hand is the silent last clue.",
+     talk=["01_talk.mp4"], highlight=["goggles", "Oscar", "Cannes"],
+     hooks=[("Can you imagine experiencing this explorer's rollercoaster life,", "guess"),
+            ("Can you guess this legend from the story of his life,", "guess_caption"),
+            ("In the 1920s, nobody knew this sickly French schoolboy would end up famous,", "historic")],
      lines=[
-        ("This little beach in Toulon is where Jacques Cousteau first put his face in the sea.", []),
-        ("In 1936 he was a navy officer with two broken arms, swimming here every day to get them working again.",
-         [top("1936", "portrait_navy.jpg", "Le Mourillon, 1936", "Young Cousteau in naval uniform (check licence) or an illustration")]),
-        ("A friend gave him a pair of goggles. He looked down, and that was it.",
-         [top("goggles", "goggles.jpg", "The goggles", "Vintage goggles on these rocks")]),
-        ("So I brought goggles.", [full("brought")]),
-        ("This is what he saw.",
-         [full("This", "underwater.mp4", desc="YOU: underwater POV off Le Mourillon")]),
-        ("Seven years later, he and an engineer invented the Aqua-Lung, and took it into this same sea.",
-         [top("Seven", "aqualung.jpg", "1943: the Aqua-Lung", "Early Aqua-Lung regulator and tanks")]),
-        ("Then I followed the coast to Monaco.",
-         [full("followed", "coast_drive.mp4", desc="YOU: driving or on the train along the coast")]),
-        ("Cousteau ran the Oceanographic Museum here for more than thirty years.",
-         [top("Oceanographic", "museum.mp4", "Oceanographic Museum, Monaco", "YOU: walking up to the museum")]),
-        ("The man who wanted to fly ended up with the whole ocean.", [full("man")]),
-        ("Honestly, I get it. Put your face in the water for five minutes and tell me you don't.", []),
+        [top(0, "portrait.jpg", "Guess the legend", "Portrait of Cousteau, face pixelated by the editor", censor=CENSOR)],
+        ("growing up a sickly kid in France who gets thrown out of school for breaking windows,", [top("growing", "school.jpg", "The troublemaker", "1920s French school, old postcard")]),
+        ("saves up for a movie camera and takes it apart to see how it works,", [top("saves", "camera.jpg", "First camera", "1920s home movie camera")]),
+        ("joins the navy in search of a life flying planes,", [top("joins", "naval_aviation.jpg", "The navy", "1930s naval aviation photo")]),
+        ("makes it through training, but a car crash breaks both his arms and ends it,", [top("training", "old_car.jpg", "The crash", "1930s car on a mountain road")]),
+        ("swims in the Mediterranean every day just to get his arms working again,", [full("swims", "swim.mp4", "The rehab", "YOU: swimming in the sea")]),
+        ("borrows a pair of goggles, looks under the water, and decides that's his life now,", [top("borrows", "goggles.jpg", "The goggles", "Vintage swimming goggles")]),
+        ("helps invent a way to breathe underwater in the middle of a world war, and takes it straight into the same sea.", [top("helps", "aqualung.jpg", "The invention", "Early scuba regulator")]),
+        ("A ship awaits, and in the coming years he films the ocean like nobody before him, and wins an Oscar and the top prize at Cannes in the process.",
+         [top("ship", "calypso.jpg", "The ship", "The ship, name on the hull pixelated", censor=[0.0, 0.3, 1.0, 0.3])]),
+        ("This chapter ends with a red cap, a TV show, and a whole generation wanting to explore the sea.", [top("chapter", "red_cap.jpg", "Last clue", "YOU: holding a red wool cap")]),
+        ("By now, you probably know that this is the story of Jacques Cousteau.", [top("By", "portrait.jpg", "Jacques Cousteau", "The same portrait, no pixelation")]),
+        ("Comment below when you figured it out.", []),
+     ],
+     end_card=dict(at="Comment", title="Guess the Legend", sub="Comment when you got it"),
+     verify=["same facts as the long version"]),
+
+dict(id="cousteau_c_footsteps", legend="Jacques Cousteau", ep="Ep 01 · In his footsteps", skeleton="helene",
+     film="Two days on the Riviera: Le Mourillon beach in Toulon (selfie with goggles, underwater POV, the old port), then the Oceanographic Museum in Monaco.",
+     talk=["01_mourillon.mp4", "02_monaco.mp4"], highlight=["goggles", "ocean"],
+     title=dict(text="Following Cousteau\nalong the Riviera", until="Here's"),
+     hooks=[("This is totally normal in the south of France and almost nobody knows it: a free beach where the father of scuba diving first looked under the sea.", "helene"),
+            ("This is one of the most important beaches in the history of the ocean.", "alice"),
+            ("I came to this beach because of a man in a red cap.", "helene_caption")],
+     lines=[
+        [],
+        ("No boat, no dive shop, no tank. Just me, a pair of goggles, and the beach in Toulon where Jacques Cousteau first looked under the water in 1936.",
+         [top("Jacques", "portrait_navy.jpg", "Le Mourillon, 1936", "Young Cousteau in naval uniform (check licence) or an illustration")]),
+        ("Here's how it works. Le Mourillon is a public beach in Toulon, and the rocks start right off the sand.", [full("Here's", "beach.mp4", "Le Mourillon, Toulon", "YOU: walking onto the beach")]),
+        ("You walk in with goggles, swim out ten metres, put your face down, and that's it.", [full("walk", "underwater.mp4", desc="YOU: underwater POV off the rocks")]),
+        (ME + "I'd swim in the morning, eat lunch in the old port, and read about what he saw down here in the afternoon.", [full("eat", "port.mp4", desc="YOU: lunch in Toulon's old port")]),
+        (ME + "Then I'd sit on the harbour wall with a coffee and dry off in the sun.", []),
+        ("Swimming here is like looking through a window: fish, rocks covered in weed, light coming down in lines, a whole world two metres under the tourists.", [full("window", "underwater2.mp4", desc="YOU: more underwater shots")]),
+        ("This is not a dive trip. It's a pair of goggles and five minutes, and it changed his whole life.", []),
+        (ME + "I swim in this sea almost every day, and I'd never once bothered to look down.", [full("bothered")]),
+        ("But here's what really got me. He only started swimming because a crash had wrecked his arms, and he needed them back.", []),
+        ("On my last day I followed the coast to Monaco, to the Oceanographic Museum, the same building Cousteau ran for more than thirty years.",
+         [top("Monaco", "museum.mp4", "Oceanographic Museum, Monaco", "YOU: walking up to the museum")]),
+        ("Standing there, I couldn't believe it all started with a pair of goggles on that little beach.", []),
+        (ME + "A week ago I'd never put my face in the water. Now I can't stop.", [full("week")]),
+        ("That's the power of looking down.", []),
         ("Follow for the next legend's footsteps.", []),
      ],
      end_card=dict(at="Follow", title=SERIES, sub="Next: Chouinard's surf rule"),
-     verify=["Le Mourillon, Toulon as the 1936 goggles beach", "the Aqua-Lung's first sea dives off the Provence coast",
-             "director of the Oceanographic Museum of Monaco, 1957–1988"]),
+     verify=["Le Mourillon, Toulon as the 1936 goggles beach", "director of the Oceanographic Museum of Monaco, 1957–1988"]),
 
-# ----------------------------------------------------------- YVON CHOUINARD
-dict(id="chouinard_a_origin", legend="Yvon Chouinard", version="A", ep="Ep 02", group="main",
-     fmt="The Origin Story", length="about 90 s",
-     ref="Lens on Legends, Dua Lipa + Let's Talk About It: a two-sentence hook from tiny to huge, the series line, short sentences, the detail nobody tells, a callback",
+# =============================================================== CHOUINARD
+dict(id="chouinard_a_origin", legend="Yvon Chouinard", ep="Ep 02", skeleton="lets_talk",
      film="One take to camera at a crag or a surf break. Plus clips of you: a car boot full of gear, and surfing.",
-     talk=["01_talk.mp4"],
-     highlight=["forge", "cat", "Patagonia", "surf's", "Earth"],
+     talk=["01_talk.mp4"], highlight=["climb", "cat", "forge", "Patagonia", "surf's"],
+     hooks=[("Yvon Chouinard. Better known as the man who built Patagonia, then gave the whole three-billion-dollar company away.", "lets_talk"),
+            ("At eighteen, he was living on a dollar a day and eating cat food, just so he could keep climbing.", "lens"),
+            ("This broke climber made his own gear in a junkyard forge, and built a three-billion-dollar company.", "venture")],
      lines=[
-        ("At eighteen, Yvon Chouinard bought a used forge from a junkyard. Sixty-five years later, he gave away a three-billion-dollar company.",
-         [top("Yvon", "forge.jpg", "1957", "An old coal forge and anvil")]),
-        (SERIES_LINE, [full("This")]),
-        ("He was the French kid in a California school who barely spoke English.",
-         [top("French", "young.jpg", "The outsider", "Photo of young Chouinard (licensed) or a 1940s California schoolyard")]),
-        ("He found falconry. Falconry led him to climbing. Climbing led him to Yosemite.",
-         [top("falconry", "yosemite.jpg", "Yosemite", "El Capitan or Camp 4, old photo")]),
-        ("He couldn't afford gear. So he taught himself to blacksmith, and made his own.",
-         [top("afford", "pitons.jpg", "Homemade pitons", "Old steel pitons")]),
-        ("He sold it from the back of his car. A dollar fifty each.",
+        [top(0, "portrait.jpg", "Yvon Chouinard", "Photo of Chouinard (licensed) or an illustration")],
+        (STAKE, [full("learned")]),
+        (SERIES_LINE, [full("series")]),
+        ("As a kid, Yvon found climbing, and all he wanted was to live in Yosemite.", [top("kid", "yosemite.jpg", "The dream: Yosemite", "El Capitan or Camp 4, old photo")]),
+        ("He was broke, living on about a dollar a day, sometimes eating dented tins of cat food, but he was still climbing every big wall he could.",
+         [top("dented", "cat_food.jpg", "A dollar a day", "A dented tin of cat food")]),
+        ("His dream was at his fingertips, but he couldn't afford the gear, and the gear he could buy wasn't good enough for those walls.",
+         [top("fingertips", "old_pitons.jpg", "The problem", "Old soft-iron pitons")]),
+        ("Rather than quitting, he bought a used forge from a junkyard, taught himself to blacksmith, and made his own.",
+         [top("Rather", "forge.jpg", "The junkyard forge", "An old coal forge and anvil")]),
+        ("And who wanted them? Everyone he climbed with.", [full("wanted")]),
+        ("He sold them out of the back of his car for a dollar fifty each, and by 1970 he was the biggest climbing gear supplier in America.",
          [top("sold", "car_boot.mp4", "$1.50 each", "YOU: opening a car boot full of climbing gear")]),
-        ("He lived on about a dollar a day. Sometimes that meant cat food.",
-         [top("lived", "cat_food.jpg", "The diet", "A dented tin of cat food")]),
-        ("By 1970, he was the biggest climbing gear supplier in America.", [full("biggest")]),
-        ("Then he saw his gear was scarring the rock he loved. So he stopped selling it.",
-         [top("scarring", "scarred_rock.jpg", "Scarring the rock", "Close-up of a scarred granite crack")]),
-        ("He started selling clothes instead. He called the company Patagonia.",
-         [top("clothes", "patagonia.jpg", "1973: Patagonia", "Patagonia shopfront or logo")]),
-        ("The rule at work? When the surf's up, go surfing.",
-         [full("rule", "surf.mp4", "Company policy", "YOU: surfing")]),
-        ("In 2022, he gave the whole company away to fight climate change. Earth is now the only shareholder.",
-         [top("gave", "headline.png", "2022", "Screenshot of the news headline")]),
-        ("The part nobody tells you: he always said he hated being called a businessman.", [full("nobody")]),
-        ("The kid with the junkyard forge just wanted to keep climbing.", []),
-        ("Follow for the next legend: the writer who got blown up at eighteen, and won the Nobel Prize.", []),
+        ("That little gear business turned into Patagonia, worth around three billion dollars.", [top("business", "patagonia.jpg", "Patagonia", "Patagonia shopfront or logo")]),
+        ("It ran on one rule: when the surf's up, go surfing. And in 2022 he gave the whole thing away to fight climate change.",
+         [full("ran", "surf.mp4", "Company policy", "YOU: surfing"), top("climate", "headline.png", "2022: gives it away", "Screenshot of the news headline")]),
+        ("Life is going to tell you to grow up and get serious. You can listen, or you can keep doing the thing you love until it turns into the work.", [full("Life")]),
+        ("Chouinard never wanted a business. He just wanted to keep climbing.", []),
+        ("Follow for the next legend: the writer who got blown up at eighteen and won the Nobel Prize.", []),
      ],
      end_card=dict(at="Follow", title=SERIES, sub="Next: Ernest Hemingway"),
-     verify=["1957 used forge from a junkyard (he was 18)", "spoke only French at school in California",
-             "falconry led to climbing", "pitons at $1.50, living on about $1 a day", "the cat food story",
-             "biggest US climbing hardware supplier by 1970", "phasing out pitons (1972 'clean climbing')",
-             "Patagonia 1973", "2022 transfer, ~$3B, 'Earth is now our only shareholder'",
-             "his line about hating to admit being a businessman (Let My People Go Surfing)"]),
+     verify=["living on about $1 a day and the cat food story", "the used forge from a junkyard (1957)",
+             "pitons at $1.50 from his car", "biggest US climbing hardware supplier by 1970",
+             "Patagonia's flextime rule", "2022 transfer, ~$3B", "the 'billionaire' and age claims if you add any"]),
 
-dict(id="chouinard_b_guess", legend="Yvon Chouinard", version="B", ep="Guess who #2", group="main",
-     fmt="Guess the Legend", length="about 50 s",
-     ref="Guess the footballer: one breathless present-tense run-on, a new image every clue, the reveal at about 90%, then 'comment when you knew'",
-     film="One take to camera in a fleece, outdoors, no pauses.",
-     talk=["01_talk.mp4"],
-     highlight=["guess", "cat"],
+dict(id="chouinard_a_short", legend="Yvon Chouinard", ep="Ep 02 · short", skeleton="favreau",
+     film="One take to camera, 30 seconds, or a text card over a climbing or surf clip.",
+     talk=["01_talk.mp4"], highlight=["cat", "forge", "Patagonia"],
+     hooks=[("In 1957, Yvon Chouinard was a broke climber living in Yosemite, thinking he could climb forever.", "favreau"),
+            ("In 2022, this man gave away a three-billion-dollar company. Sixty-five years earlier, he was eating cat food.", "bond"),
+            ("This climber ate cat food to stay in Yosemite, and ended up giving away a three-billion-dollar company.", "venture")],
      lines=[
-        ("Can you imagine living this climber's life? Comment the second you know who it is.",
-         [top("imagine", "portrait.jpg", "Guess the legend", "Portrait of Chouinard, face pixelated", censor=CENSOR)]),
-        ("A French-speaking outsider in a California school,",
-         [top("outsider", "1940s_california.jpg", "The outsider", "1940s Southern California street")]),
-        ("gets into falconry, which gets him into climbing,",
-         [top("falconry", "falcon.jpg", "Falconry", "A falcon on a glove")]),
-        ("teaches himself blacksmithing to make his own gear,",
-         [top("blacksmithing", "forge.jpg", "Self-taught blacksmith", "An old coal forge and anvil")]),
-        ("sells it from the back of his car, lives on a dollar a day, eats cat food,",
-         [top("sells", "cat_food.jpg", "The diet", "A dented tin of cat food")]),
-        ("builds the biggest climbing gear company in America, then quits his best seller because it's damaging the rock,",
-         [top("quits", "scarred_rock.jpg", "Quits his best seller", "Scarred granite crack")]),
-        ("brings home a rugby shirt from Scotland and starts selling clothes,",
-         [top("rugby", "rugby_shirt.jpg", "The rugby shirt", "A striped 1970s rugby shirt")]),
-        ("writes a book called Let My People Go Surfing,",
-         [top("book", "book.jpg", "The book", "YOU: holding the book, company name covered", censor=[0.0, 0.7, 1.0, 0.3])]),
-        ("and in 2022 gives the entire company away to fight climate change.",
-         [top("entire", "headline.png", "Last clue", "News headline, company name pixelated", censor=[0.0, 0.0, 1.0, 0.4])]),
-        ("It's Yvon Chouinard. The founder of Patagonia.",
-         [top("Yvon", "portrait.jpg", "Yvon Chouinard", "The same portrait, no pixelation")]),
-        ("Comment when you got it, and follow for the next one.", [full("got")]),
+        [top(0, "yosemite.jpg", "Yvon Chouinard", "El Capitan or Camp 4, old photo")],
+        ("But the gear he could afford wasn't good enough for the walls he wanted.", [top("afford", "old_pitons.jpg", "The problem", "Old soft-iron pitons")]),
+        ("He found himself living on a dollar a day, sometimes eating cat food.", [top("found", "cat_food.jpg", "A dollar a day", "A dented tin of cat food")]),
+        ("Frustrated, he decided to make his own.", []),
+        ("He bought a used forge from a junkyard, taught himself to blacksmith, and sold gear from his car.", [top("junkyard", "forge.jpg", "The junkyard forge", "An old coal forge and anvil")]),
+        ("It wasn't just gear. It was his ticket to keep climbing.", [full("ticket", "climb.mp4", desc="YOU: climbing")]),
+        ("By refusing to give up the life he loved, Chouinard built Patagonia, proving that the best businesses start as a way to keep doing what you love.",
+         [top("refusing", "patagonia.jpg", "Patagonia", "Patagonia shopfront or logo")]),
+        ("Follow for more Lifestyle Legends.", []),
      ],
-     end_card=dict(at="follow", title="Guess the Legend", sub="Next: a writer who fished for marlin"),
-     verify=["the 1970 rugby shirt from Scotland that started the clothing line"]),
+     end_card=dict(at="Follow", title=SERIES, sub="Full story on the page"),
+     verify=["same facts as the long version"]),
 
-dict(id="chouinard_c_footsteps", legend="Yvon Chouinard", version="C", ep="Ep 02 · In his footsteps", group="main",
-     fmt="In Their Footsteps", length="about 70 s",
-     ref="Harry DuBois + Stevenson Trail: a stacked-accomplishments hook under a big title, you living it in fast B-roll, back on camera for what you learned",
-     film="A 'surf's up' workday: talk takes at dawn and in the afternoon, B-roll of the surf, laptop work while still wet, and a climb.",
-     talk=["01_dawn.mp4", "02_afternoon.mp4"],
-     title=dict(text="Living by Patagonia's\none rule for a day", until="name"),
-     highlight=["surf's", "surfing", "Patagonia"],
+dict(id="chouinard_b_guess", legend="Yvon Chouinard", ep="Guess who #2", skeleton="guess",
+     film="One take to camera in a fleece, outdoors, no pauses.",
+     talk=["01_talk.mp4"], highlight=["cat"],
+     hooks=[("Can you imagine experiencing this climber's rollercoaster life,", "guess"),
+            ("Can you guess this legend from the story of his life,", "guess_caption"),
+            ("In the 1950s, this broke climber was sleeping in the dirt in Yosemite, completely unknown,", "historic")],
      lines=[
-        ("He forged his own climbing gear, ate cat food to stay in Yosemite, and built a three-billion-dollar company around one rule. Today I'm following it.", []),
-        ("His name is Yvon Chouinard, and the rule is the title of his book: Let My People Go Surfing.",
-         [top("His", "portrait.jpg", "Yvon Chouinard", "Photo of Chouinard (licensed) or an illustration"),
-          top("book", "book.jpg", "The rule", "YOU: holding the book")]),
-        ("When the surf's up, you go surfing. You fit the work around it.",
-         [full("surf's", "surf_dawn.mp4", "Dawn patrol", "YOU: dawn surf session")]),
-        ("So: surf first.", [full("So")]),
-        ("Then the laptop, still salty.",
-         [top("laptop", "laptop.mp4", "Then work", "YOU: working on a laptop in a towel")]),
-        ("Then a climb in the afternoon.",
-         [full("climb", "climb.mp4", desc="YOU: bouldering or a scramble")]),
-        ("Here's what surprised me: I got more done in four hours than on a normal day.", [full("Here's")]),
-        ("Chouinard's trick is flexibility. Chase the good conditions, and fit the work around them.",
-         [top("trick", "portrait.jpg", "The trick", "Same Chouinard photo")]),
-        ("He built a company that way, then gave it all away.",
-         [top("gave", "headline.png", "2022: gives it away", "Screenshot of the news headline")]),
+        [top(0, "portrait.jpg", "Guess the legend", "Portrait of Chouinard, face pixelated", censor=CENSOR)],
+        ("growing up a French-speaking outsider at a California school,", [top("growing", "1940s_california.jpg", "The outsider", "1940s Southern California street")]),
+        ("falls into falconry, which drops him straight into climbing,", [top("falls", "falcon.jpg", "Falconry", "A falcon on a glove")]),
+        ("heads for Yosemite in search of the biggest walls in America,", [top("heads", "yosemite.jpg", "Yosemite", "El Capitan, old photo")]),
+        ("lives on a dollar a day and eats cat food, but his climbing speaks for itself,", [top("lives", "cat_food.jpg", "A dollar a day", "A dented tin of cat food")]),
+        ("can't stand the gear you can buy, so he teaches himself to blacksmith and forges his own,", [top("stand", "forge.jpg", "Self-taught blacksmith", "An old coal forge and anvil")]),
+        ("sells it out of the back of his car and ends up running the biggest climbing gear company in America,", [top("sells", "car_boot.mp4", "From his car", "YOU: car boot full of gear")]),
+        ("then quits his best-selling product because it's damaging the rock, and starts selling clothes instead.", [top("quits", "scarred_rock.jpg", "Quits his best seller", "Scarred granite crack")]),
+        ("A rugby shirt from Scotland awaits, and in the coming decades his clothing company is worth billions, with surfing written into company policy in the process.",
+         [top("rugby", "rugby_shirt.jpg", "The rugby shirt", "A striped 1970s rugby shirt")]),
+        ("This chapter ends when he gives the entire company away to fight climate change.", [top("chapter", "headline.png", "Last clue", "News headline, company name pixelated", censor=[0.0, 0.0, 1.0, 0.4])]),
+        ("By now, you probably know that this is the story of Yvon Chouinard.", [top("By", "portrait.jpg", "Yvon Chouinard", "The same portrait, no pixelation")]),
+        ("Comment below when you figured it out.", []),
+     ],
+     end_card=dict(at="Comment", title="Guess the Legend", sub="Comment when you got it"),
+     verify=["the 1970 rugby shirt from Scotland that started the clothing line", "phasing out pitons because they scarred the rock"]),
+
+dict(id="chouinard_c_footsteps", legend="Yvon Chouinard", ep="Ep 02 · In his footsteps", skeleton="helene",
+     film="A week (or a day) living by the rule: dawn surf, laptop while still salty, an afternoon climb. Film the forecast check on your phone.",
+     talk=["01_dawn.mp4", "02_afternoon.mp4"], highlight=["surf's", "surfing"],
+     title=dict(text="Living by Patagonia's\none rule", until="Here's"),
+     hooks=[("This is totally normal at one company and doesn't exist anywhere else: when the surf's up, you go surfing.", "helene"),
+            ("This is one of the most famous rules in business history, and this week I'm living by it.", "alice"),
+            ("I'm living by this rule this week because of a book.", "helene_caption")],
+     lines=[
+        [],
+        ("No alarm, no commute, no meetings before ten. Just me, my board, my laptop, and one rule from Yvon Chouinard's book, Let My People Go Surfing.",
+         [top("Yvon", "book.jpg", "Let My People Go Surfing", "YOU: holding the book")]),
+        ("Here's how it works. You check the surf forecast when you wake up.", [full("Here's", "forecast.mp4", desc="YOU: checking the forecast on your phone in bed")]),
+        ("If it's good, you go. The work waits until you're back, and it gets done around the waves.", []),
+        (ME + "I'd surf at dawn, work on the laptop still salty, and go climbing in the afternoon.",
+         [full("dawn", "surf_dawn.mp4", desc="YOU: dawn surf"), top("laptop", "laptop.mp4", "Then work", "YOU: working on a laptop in a towel"),
+          full("climbing", "climb.mp4", desc="YOU: climbing")]),
+        (ME + "Then I'd finish the day's work at sunset, with nothing left on the list.", []),
+        ("Living by this rule is like getting your mornings back: cold water, an empty line-up, coffee on the tailgate, the whole day still in front of you.",
+         [full("mornings", "morning_broll.mp4", desc="YOU: line-up, coffee, tailgate")]),
+        (ME + "This isn't skipping work. It's harder, honestly, because you have to be done before the wind comes up.", [full("skipping")]),
+        (ME + "I did it for a full week.", []),
+        (ME + "But here's what really changed my mind. I got more done in four hours than I usually get done in eight.", []),
+        ("On my last day I reread the chapter where he explains it, the same rule he ran a three-billion-dollar company on, right up until he gave it away.",
+         [top("reread", "headline.png", "2022: he gives it away", "Screenshot of the news headline")]),
+        ("Sitting there with wet hair, I couldn't believe I'd ever done it the other way.", []),
+        (ME + "A week ago my mornings belonged to my inbox. Now they belong to the ocean.", [full("inbox")]),
+        ("That's the power of letting yourself go surfing.", []),
         ("Follow for the next legend's footsteps.", []),
      ],
      end_card=dict(at="Follow", title=SERIES, sub="Next: Hemingway's Paris"),
-     verify=["Patagonia's flextime ('let my people go surfing') policy",
-             "only say the 'four hours' line if it's true for you"]),
-# ------------------------------------------------------- ERNEST HEMINGWAY
-dict(id="hemingway_a_origin", legend="Ernest Hemingway", version="A", ep="Ep 03", group="main",
-     fmt="The Origin Story", length="about 100 s",
-     ref="Lens on Legends, Dua Lipa: an age-and-shock hook, short sentences, a new picture every line, a payoff flurry, the detail nobody tells, and a moral that turns the series line around",
-     film="One take to camera on a boat or a harbour wall, slow and deliberate. Plus a clip of you deep-sea fishing or on a boat.",
-     talk=["01_talk.mp4"],
-     highlight=["shrapnel", "Pilar", "Nobel", "obituaries", "true"],
+     verify=["Patagonia's flextime policy, explained in Let My People Go Surfing", "every ✎ line must be true for you"]),
+
+# =============================================================== HEMINGWAY
+dict(id="hemingway_a_origin", legend="Ernest Hemingway", ep="Ep 03", skeleton="lets_talk",
+     film="One take to camera on a boat or a harbour wall. Plus a clip of you deep-sea fishing or on a boat.",
+     talk=["01_talk.mp4"], highlight=["adventure", "shrapnel", "Nobel", "obituaries", "true"],
+     hooks=[("Ernest Hemingway. Better known as the man who wrote The Old Man and the Sea. Nobel Prize, Pulitzer Prize, and one of the most famous writers who ever lived.", "lets_talk"),
+            ("At eighteen, he was blown up by a mortar shell in Italy, with more than two hundred pieces of shrapnel in his legs.", "lens"),
+            ("Did you know the writer who won the Nobel Prize for a book about fishing actually got blown up in a war at eighteen?", "aoi")],
      lines=[
-        ("At eighteen, Ernest Hemingway was blown up by a mortar shell in Italy, with more than two hundred pieces of shrapnel in his legs.",
-         [top("Ernest", "portrait_1918.jpg", "Ernest Hemingway, 18", "Hemingway in uniform in Milan, 1918 (public domain)")]),
-        ("Everything he went on to write, he lived first.", []),
-        (SERIES_LINE, [full("This")]),
-        ("And Hemingway is the purest case. He only wrote what he'd lived.", []),
-        ("He grew up hunting and fishing in the woods of northern Michigan with his father.",
-         [top("hunting", "michigan.jpg", "Northern Michigan", "Michigan lake and woods, early 1900s")]),
-        ("Straight out of high school, he became a newspaper reporter. The style guide said: use short sentences. He never forgot it.",
-         [top("reporter", "newsroom.jpg", "Age 18: reporter", "1910s newspaper newsroom")]),
-        ("The army turned him down for a bad eye, so he went to Italy to drive ambulances for the Red Cross.",
-         [top("army", "ambulance.jpg", "Red Cross ambulance", "WWI Red Cross ambulance in Italy")]),
-        ("That's where the shell found him.", [full("shell")]),
-        ("In the hospital, he fell in love with his nurse. She turned him down by letter.",
-         [top("hospital", "nurse.jpg", "The nurse", "WWI Red Cross nurses in Milan, 1918")]),
-        ("That war, and that heartbreak, became A Farewell to Arms.",
-         [top("heartbreak", "farewell.jpg", "A Farewell to Arms", "First-edition cover (check licence) or YOU holding a copy")]),
-        ("In his twenties he was broke in Paris, so hungry he'd take the long way round to avoid the smell of the bakeries.",
-         [top("broke", "paris_1920s.jpg", "Paris, 1920s", "Paris street or café, 1920s")]),
-        ("He ran with the bulls in Pamplona, and wrote The Sun Also Rises.",
-         [top("bulls", "pamplona.jpg", "Pamplona", "Running of the bulls, 1920s")]),
-        ("He fished for marlin off Key West and Cuba on his own boat, the Pilar.",
-         [full("marlin", "fishing.mp4", "The Pilar", "YOU: deep-sea fishing or out on a boat")]),
-        ("Out of that came The Old Man and the Sea, a Pulitzer, and then the Nobel Prize.",
-         [top("Old", "old_man.jpg", "The Old Man and the Sea", "YOU holding a copy of the book"),
-          top("Nobel", "nobel.jpg", "1954: Nobel Prize", "Nobel medal image or 1954 headline")]),
-        ("And the part nobody tells you: in 1954 he survived two plane crashes in two days, and got to read his own obituaries.",
-         [top("nobody", "obituary.jpg", "Reads his own obituary", "1954 newspaper headline reporting him dead")]),
-        ("His rule for writing was simple: write one true sentence.", [full("rule")]),
-        ("He didn't figure out the work later. For him, the living was the work.", []),
+        [top(0, "portrait_1918.jpg", "Ernest Hemingway", "Hemingway in uniform in Milan, 1918 (public domain)")],
+        (STAKE, [full("learned")]),
+        (SERIES_LINE, [full("series")]),
+        ("As a kid, Ernest grew up hunting and fishing in the Michigan woods, and he wanted adventure more than anything.", [top("kid", "michigan.jpg", "The dream: adventure", "Michigan lake and woods, early 1900s")]),
+        ("The army turned him down for a bad eye, but he still got to the war, driving ambulances for the Red Cross in Italy.", [top("army", "ambulance.jpg", "Red Cross ambulance", "WWI Red Cross ambulance in Italy")]),
+        ("His adventure was at his fingertips, until a mortar shell exploded next to him and put more than two hundred pieces of shrapnel in his legs.",
+         [top("fingertips", "hospital_1918.jpg", "1918: wounded", "Hemingway in the Milan hospital, 1918 (public domain)")]),
+        ("Rather than going home and settling down, he went looking for more: broke in Paris, the bulls in Pamplona, marlin fishing off Cuba on his own boat.",
+         [top("Rather", "paris_1920s.jpg", "Broke in Paris", "Paris café, 1920s"), top("bulls", "pamplona.jpg", "Pamplona", "Running of the bulls, 1920s"),
+          full("marlin", "fishing.mp4", "The Pilar", "YOU: deep-sea fishing or out on a boat")]),
+        ("And what did he do with all of it? He wrote it down.", [full("what")]),
+        ("The war became A Farewell to Arms. Pamplona became The Sun Also Rises. The Gulf Stream became The Old Man and the Sea.",
+         [top("Farewell", "farewell.jpg", "A Farewell to Arms", "YOU holding a copy"), top("Sun", "sun_also_rises.jpg", "The Sun Also Rises", "YOU holding a copy"),
+          top("Gulf", "old_man.jpg", "The Old Man and the Sea", "YOU holding a copy")]),
+        ("That last one won him the Pulitzer, and then the Nobel Prize.", [top("last", "nobel.jpg", "1954: Nobel Prize", "Nobel medal or 1954 headline")]),
+        ("He even survived two plane crashes in two days, and got to read his own obituaries.", [top("survived", "obituary.jpg", "Reads his own obituary", "1954 headline reporting him dead")]),
+        ("Life is going to tell you to wait until you've got something to say. You can wait, or you can go and live something worth saying.", [full("Life")]),
+        ("Hemingway lived it first. Then he wrote one true sentence about it.", []),
         ("Follow for the next legend.", []),
      ],
      end_card=dict(at="Follow", title=SERIES, sub="Next week: a new legend"),
-     verify=["wounded at Fossalta di Piave on 8 July 1918, aged 18", "'more than two hundred' shrapnel fragments",
-             "Kansas City Star style sheet ('use short sentences')", "rejected by the army for poor eyesight",
-             "nurse Agnes von Kurowsky turning him down by letter", "the hunger-in-Paris detail from A Moveable Feast",
-             "Pilar, bought 1934", "Pulitzer 1953, Nobel 1954", "the two 1954 plane crashes and premature obituaries",
-             "the 'one true sentence' line (A Moveable Feast)"]),
+     verify=["wounded at Fossalta di Piave, 8 July 1918, aged 18", "'more than two hundred' fragments", "rejected by the army for his eyesight",
+             "the books-from-life pairings", "Pulitzer 1953, Nobel 1954", "the two 1954 plane crashes and premature obituaries"]),
 
-dict(id="hemingway_b_guess", legend="Ernest Hemingway", version="B", ep="Guess who #3", group="main",
-     fmt="Guess the Legend", length="about 50 s",
-     ref="Guess the footballer: one breathless present-tense run-on, a new image every clue, the reveal at about 90%, then 'comment when you knew'",
+dict(id="hemingway_a_short", legend="Ernest Hemingway", ep="Ep 03 · short", skeleton="favreau",
+     film="One take to camera, 30 seconds, or a text card over an old war or ocean clip.",
+     talk=["01_talk.mp4"], highlight=["shrapnel", "Nobel"],
+     hooks=[("In 1918, Ernest Hemingway went to war as an ambulance driver, thinking it would be the adventure of his life.", "favreau"),
+            ("In 1954, this man won the Nobel Prize. Thirty-six years earlier, he was lying in a field in Italy, full of shrapnel.", "bond"),
+            ("This eighteen-year-old ambulance driver got blown up in a war, and turned it into the Nobel Prize.", "venture")],
+     lines=[
+        [top(0, "portrait_1918.jpg", "Ernest Hemingway", "Hemingway in uniform, 1918 (public domain)")],
+        ("But a mortar shell exploded next to him, and filled his legs with shrapnel.", [top("mortar", "ambulance.jpg", "1918: wounded", "WWI Red Cross ambulance in Italy")]),
+        ("He found himself in a Milan hospital, in love with a nurse who'd turn him down by letter.", [top("found", "hospital_1918.jpg", "The hospital", "Hemingway in the Milan hospital, 1918")]),
+        ("Instead of going home quiet, he decided to live everything he could.", []),
+        ("Drawing on all of it, he wrote it down: the war became A Farewell to Arms.", [top("Drawing", "farewell.jpg", "A Farewell to Arms", "YOU holding a copy")]),
+        ("It wasn't just writing. It was his life, one true sentence at a time.", []),
+        ("By living it first, Hemingway won the Nobel Prize, proving that the best stories are the ones you go out and get.", [top("living", "nobel.jpg", "1954: Nobel Prize", "Nobel medal or 1954 headline")]),
+        ("Follow for more Lifestyle Legends.", []),
+     ],
+     end_card=dict(at="Follow", title=SERIES, sub="Full story on the page"),
+     verify=["the nurse (Agnes von Kurowsky) turning him down by letter", "same facts as the long version"]),
+
+dict(id="hemingway_b_guess", legend="Ernest Hemingway", ep="Guess who #3", skeleton="guess",
      film="One take to camera, no pauses. A fishing rod or an old typewriter beside you is a nice silent clue.",
-     talk=["01_talk.mp4"],
-     highlight=["guess", "Nobel"],
+     talk=["01_talk.mp4"], highlight=["Nobel"],
+     hooks=[("Can you imagine experiencing this writer's rollercoaster life,", "guess"),
+            ("Can you guess this legend from the story of his life,", "guess_caption"),
+            ("In the 1920s, this broke young American walked around Paris completely unknown,", "historic")],
      lines=[
-        ("Can you imagine living this writer's life? Comment the second you know who it is.",
-         [top("imagine", "portrait.jpg", "Guess the legend", "Portrait of Hemingway, face pixelated by the editor", censor=CENSOR)]),
-        ("Grows up hunting and fishing in the Michigan woods,",
-         [top("Grows", "michigan.jpg", "The woods", "Michigan lake and woods, early 1900s")]),
-        ("becomes a newspaper reporter at eighteen,",
-         [top("newspaper", "newsroom.jpg", "Age 18", "1910s newsroom")]),
-        ("drives ambulances in a world war and gets hit by a mortar shell,",
-         [top("ambulances", "ambulance.jpg", "The war", "WWI Red Cross ambulance")]),
-        ("falls for his nurse, who dumps him by letter,",
-         [top("nurse", "nurse.jpg", "The nurse", "WWI Red Cross nurses")]),
-        ("lives broke in Paris with the most famous writers of the twenties,",
-         [top("Paris", "paris_1920s.jpg", "Paris", "Paris café, 1920s")]),
-        ("runs with the bulls in Pamplona,",
-         [top("bulls", "pamplona.jpg", "Pamplona", "Running of the bulls, 1920s")]),
-        ("fishes for marlin off Cuba on his own boat,",
-         [full("marlin", "fishing.mp4", "The boat", "YOU: deep-sea fishing")]),
-        ("survives two plane crashes in two days and reads his own obituary,",
-         [top("survives", "obituary.jpg", "The obituary", "1954 headline, name pixelated", censor=[0.0, 0.0, 1.0, 0.45])]),
-        ("and wins the Nobel Prize for a story about an old fisherman.",
-         [top("Nobel", "old_man.jpg", "Last clue", "Book cover with the author's name pixelated", censor=[0.0, 0.0, 1.0, 0.3])]),
-        ("It's Ernest Hemingway.",
-         [top("Ernest", "portrait.jpg", "Ernest Hemingway", "The same portrait, no pixelation")]),
-        ("Comment when you got it, and follow for the next one.", [full("got")]),
+        [top(0, "portrait.jpg", "Guess the legend", "Portrait of Hemingway, face pixelated", censor=CENSOR)],
+        ("growing up hunting and fishing in the Michigan woods, desperate for adventure,", [top("growing", "michigan.jpg", "The woods", "Michigan lake and woods, early 1900s")]),
+        ("skips college and lands a job as a newspaper reporter,", [top("skips", "newsroom.jpg", "The reporter", "1910s newsroom")]),
+        ("gets turned down by the army, so goes to war driving ambulances in search of the real thing,", [top("turned", "ambulance.jpg", "The war", "WWI Red Cross ambulance")]),
+        ("gets hit by a mortar shell, but keeps going, and comes home with a medal for bravery,", [top("mortar", "hospital_1918.jpg", "The shell", "Milan hospital, 1918, face pixelated", censor=CENSOR)]),
+        ("falls for his nurse, who dumps him by letter,", [top("falls", "nurse.jpg", "The nurse", "WWI Red Cross nurses")]),
+        ("moves to Paris with no money and writes in cafés every morning,", [top("moves", "paris_1920s.jpg", "Paris", "Paris café, 1920s")]),
+        ("runs with the bulls in Pamplona, then turns the whole trip into a bestselling novel.", [top("runs", "pamplona.jpg", "Pamplona", "Running of the bulls, 1920s")]),
+        ("A boat awaits, and in the coming years he fishes for marlin off Cuba, survives two plane crashes in two days, and reads his own obituary in the process.",
+         [full("boat", "fishing.mp4", "The boat", "YOU: deep-sea fishing")]),
+        ("This chapter ends when he wins the Nobel Prize for a story about an old fisherman.", [top("chapter", "old_man.jpg", "Last clue", "Book cover with the author's name pixelated", censor=[0.0, 0.0, 1.0, 0.3])]),
+        ("By now, you probably know that this is the story of Ernest Hemingway.", [top("By", "portrait.jpg", "Ernest Hemingway", "The same portrait, no pixelation")]),
+        ("Comment below when you figured it out.", []),
      ],
-     end_card=dict(at="follow", title="Guess the Legend", sub="Next: another legend"),
-     verify=["the same facts as version A"]),
+     end_card=dict(at="Comment", title="Guess the Legend", sub="Comment when you got it"),
+     verify=["the Italian Silver Medal of Military Valour", "same facts as the long version"]),
 
-dict(id="hemingway_c_footsteps", legend="Ernest Hemingway", version="C", ep="Ep 03 · In his footsteps", group="main",
-     fmt="In Their Footsteps", length="about 80 s",
-     ref="Stevenson Trail + Hever Castle: a title over a selfie hook in the real place, the legend as the reason for the day, B-roll every 1.5–3 s, evidence shots (plaques, the bookshop), and what you learned",
-     film="One day in Paris, the A Moveable Feast route: talk takes on the street, outside 74 rue du Cardinal Lemoine (the plaque), writing in a café, the Luxembourg Gardens, the bookshop. Can't get to Paris? Do his Key West day on your coast instead: write standing up at dawn, fish all afternoon.",
-     talk=["01_street.mp4", "02_afternoon.mp4"],
-     title=dict(text="One day as broke\nHemingway in Paris", until="1921"),
-     highlight=["true", "Paris"],
+dict(id="hemingway_c_footsteps", legend="Ernest Hemingway", ep="Ep 03 · In his footsteps", skeleton="helene",
+     film="A few days in Paris on the A Moveable Feast route: 74 rue du Cardinal Lemoine (the plaque), writing in a café, the Luxembourg Gardens, Shakespeare and Company, and a last morning at La Closerie des Lilas.",
+     talk=["01_street.mp4", "02_closerie.mp4"], highlight=["true", "Paris"],
+     title=dict(text="Writing like broke\nHemingway in Paris", until="Here's"),
+     hooks=[("This is totally normal in Paris and doesn't exist anywhere else: you can still sit and write in the café where Hemingway wrote his first novel.", "helene"),
+            ("This is one of the most important café tables in the history of books.", "alice"),
+            ("I came to Paris because of one sentence from Hemingway.", "helene_caption")],
      lines=[
-        ("I came to Paris to live one day exactly like a broke, twenty-two-year-old Ernest Hemingway.", []),
-        ("In 1921 he moved here with his wife Hadley and almost no money.",
-         [top("1921", "hemingway_hadley.jpg", "Paris, 1921", "Ernest and Hadley Hemingway, early 1920s (check licence)")]),
-        ("Step one: his first apartment, 74 rue du Cardinal Lemoine. No hot water, and a shared toilet on the landing.",
-         [full("Step", "apartment.mp4", "Step 1: 74 rue du Cardinal Lemoine", "YOU: in front of the building and its plaque")]),
-        ("Step two: write in a café. His rule: write one true sentence, then the next one.",
-         [top("two", "cafe_writing.mp4", "Step 2: one true sentence", "YOU: writing in a notebook at a café table")]),
-        ("And stop while you still know what happens next, so tomorrow is easy.", [full("stop")]),
-        ("Step three: the Luxembourg Gardens. He walked here when he was too broke to eat, because there was nothing to smell.",
-         [full("three", "gardens.mp4", "Step 3: the gardens", "YOU: walking through the Luxembourg Gardens")]),
-        ("Step four: the bookshop. Shakespeare and Company lent him books when he couldn't afford them.",
-         [top("four", "bookshop.mp4", "Step 4: Shakespeare and Company", "YOU: outside and inside Shakespeare and Company")]),
-        ("Here's what I learned. He wasn't waiting for a big life to write about. He went out and got one, then sat down and wrote it.",
-         [full("Here's")]),
+        [],
+        ("No laptop, no phone, no plan. Just me, a notebook, and the Paris that Ernest Hemingway lived in when he was twenty-two and broke.",
+         [top("Ernest", "hemingway_hadley.jpg", "Paris, 1921", "Ernest and Hadley Hemingway, early 1920s (check licence)")]),
+        ("Here's how it works. You start at his first apartment, 74 rue du Cardinal Lemoine, where he lived with no hot water.",
+         [full("Here's", "apartment.mp4", "74 rue du Cardinal Lemoine", "YOU: in front of the building and its plaque")]),
+        ("Then you walk to a café, order one coffee, and do what he did: write one true sentence, then the next one.", [top("walk", "cafe_writing.mp4", "One true sentence", "YOU: writing in a notebook at a café")]),
+        (ME + "I'd write all morning, walk the Luxembourg Gardens at lunch like he did when he was too broke to eat, and spend the afternoon at Shakespeare and Company.",
+         [full("Luxembourg", "gardens.mp4", desc="YOU: walking the Luxembourg Gardens"), top("Shakespeare", "bookshop.mp4", "Shakespeare and Company", "YOU: outside and inside the bookshop")]),
+        ("Then I'd stop writing while I still knew what came next, like he said to, so the next morning was easy.", [full("stop")]),
+        ("Walking his Paris is like walking through his book: zinc bars, chestnut trees, the river, old men playing chess in the gardens.", [full("zinc", "paris_broll.mp4", desc="YOU: Paris B-roll")]),
+        ("This isn't a tourist trail. It's a notebook and a city, and it's exactly what made him.", []),
+        (ME + "I wrote more in those few days than I have all year.", [full("days")]),
+        ("But here's what really got me. He wasn't waiting for a big life to write about. He was out getting one.", []),
+        ("On my last morning I sat at La Closerie des Lilas, the same café where Hemingway wrote much of his first novel.",
+         [top("Closerie", "closerie.mp4", "La Closerie des Lilas", "YOU: at a table at La Closerie des Lilas")]),
+        ("Sitting there, I couldn't believe it was still just a café.", []),
+        (ME + "A week ago I hadn't written anything in years. Now I've got a notebook full.", [full("notebook#2")]),
+        ("That's the power of one true sentence.", []),
         ("Follow for the next legend's footsteps.", []),
      ],
      end_card=dict(at="Follow", title=SERIES, sub="Next week: a new legend"),
-     verify=["arrived in Paris in December 1921, aged 22", "74 rue du Cardinal Lemoine flat with no hot water and a toilet on the landing",
-             "the 'stop while you know what happens next' habit", "walking the Luxembourg Gardens when hungry (A Moveable Feast)",
-             "Sylvia Beach's original Shakespeare and Company was at 12 rue de l'Odéon; today's shop on the Seine is a later one that carries the name, so say that on camera or film the old address"]),
-
-# ---------------------------------------------------------------- JACK LONDON
-dict(id="london_a_origin", legend="Jack London", version="A", ep="Ep 04", group="option",
-     fmt="The Origin Story", length="about 80 s",
-     film="One take to camera on a dock or harbour wall, golden hour. Then a surf clip of you for the Hawaii beat.",
-     talk=["01_talk.mp4"],
-     highlight=["pirate", "pirates", "scurvy", "surf", "Klondike"],
-     lines=[
-        ("At fifteen, Jack London borrowed three hundred dollars and became a pirate.",
-         [top("Jack", "portrait.jpg", "Jack London", "Portrait of young Jack London (public domain, Wikimedia Commons)")]),
-        (SERIES_LINE, [full("This")]),
-        ("Jack grew up broke in Oakland, working ten-hour shifts in a cannery for ten cents an hour.",
-         [top("Oakland", "cannery.jpg", "Age 14: cannery worker", "1890s cannery workers (Library of Congress)")]),
-        ("So he borrowed three hundred dollars from the woman who'd nursed him as a baby, bought a little sloop called the Razzle Dazzle, and started raiding oyster beds in San Francisco Bay at night.",
-         [top("sloop", "sloop.jpg", "The Razzle Dazzle", "Old oyster sloop on San Francisco Bay"),
-          top("raiding", "oysters_night.mp4", "Oyster pirate", "YOU: shucking oysters on a dock at night by torchlight")]),
-        ("The waterfront called him the Prince of the Oyster Pirates.", []),
-        ("At seventeen he sailed to Japan on a sealing ship.",
-         [top("Japan", "sealing_ship.jpg", "1893: sealing ship to Japan", "1890s sealing schooner")]),
-        ("At eighteen he was riding freight trains across America, and got thrown in jail for vagrancy.",
-         [top("freight", "freight_train.jpg", "Age 18: hobo", "Hobos on a freight train, 1890s")]),
-        ("At twenty-one he went north for the Klondike gold rush.",
-         [top("Klondike", "klondike.jpg", "1897: Klondike gold rush", "Chilkoot Pass, 1898 (public domain)")]),
-        ("He found no gold. He came home with scurvy, no money, and a head full of stories.",
-         [full("found")]),
-        ("So he made himself write a thousand words a day, and editors kept sending them back.",
-         [top("himself", "notebook.mp4", "1,000 words a day", "YOU: writing in a notebook, close on the pen")]),
-        ("Then The Call of the Wild came out, and he became one of the most famous writers in the world.",
-         [top("Call", "call_of_the_wild.jpg", "1903: The Call of the Wild", "1903 first-edition cover (public domain)")]),
-        ("And the part nobody tells you? Already famous, he sailed to Hawaii and learned to surf at Waikiki.",
-         [top("Hawaii", "waikiki_1907.jpg", "1907: learns to surf", "Waikiki surfers, early 1900s (public domain)"),
-          full("surf", "surf.mp4", desc="YOU: paddling out and catching a wave")]),
-        ("He wrote one of the first articles that made the world care about surfing.", []),
-        ("He didn't plan a career. He lived first, and wrote it down later.", [full("plan")]),
-        ("Follow for the next legend.", []),
-     ],
-     end_card=dict(at="Follow", title=SERIES, sub="Next week: a new legend"),
-     verify=["the $300 loan from Virginia Prentiss at 15 and the Razzle Dazzle",
-             "cannery wages (10 cents an hour, 10+ hour shifts)", "sealing voyage at 17 (1893)",
-             "30 days for vagrancy at 18 (1894)", "Klondike 1897 and scurvy",
-             "1,000 words a day", "Waikiki 1907 and his surfing article 'A Royal Sport'"]),
-
-dict(id="london_b_guess", legend="Jack London", version="B", ep="Guess who #4", group="option",
-     fmt="Guess the Legend", length="about 50 s",
-     film="One take to camera, anywhere with character (a dock, a bar, a beach). Lean in like you're quizzing a friend.",
-     talk=["01_talk.mp4"],
-     highlight=["guess", "jail", "scurvy"],
-     lines=[
-        ("Can you guess this legend from the story of his life? Comment the second you know.",
-         [top("guess", "portrait.jpg", "Guess the legend", "Portrait of Jack London, face pixelated by the editor", censor=CENSOR)]),
-        ("Age fourteen: working in a cannery for ten cents an hour.",
-         [top("cannery", "cannery.jpg", "Age 14", "1890s cannery workers")]),
-        ("Age fifteen: buys a boat with borrowed money and steals oysters at night.",
-         [top("boat", "sloop.jpg", "Age 15", "Old oyster sloop")]),
-        ("Then switches sides and joins the fish patrol, catching the pirates he used to sail with.",
-         [top("switches", "fish_patrol.jpg", "Switches sides", "California Fish Patrol boat or 1890s patrol photo")]),
-        ("Age seventeen: sails to Japan on a sealing ship.",
-         [top("Japan", "sealing_ship.jpg", "Age 17", "1890s sealing schooner")]),
-        ("Age eighteen: thirty days in jail for vagrancy.",
-         [top("jail", "jail.jpg", "Age 18", "1890s jail or penitentiary photo")]),
-        ("Age twenty-one: the Klondike. No gold. Scurvy.",
-         [top("Klondike", "klondike.jpg", "Age 21", "Chilkoot Pass, 1898")]),
-        ("Age twenty-seven: writes a book about a dog that sells millions.",
-         [top("dog", "sled_dog.jpg", "Age 27", "Historic sled-dog photo")]),
-        ("Age thirty-one: learns to surf in Hawaii.",
-         [top("surf", "waikiki_1907.jpg", "Age 31", "Waikiki surfers, early 1900s")]),
-        ("Still nothing? You probably read his book in school.",
-         [top("Still", "call_of_the_wild.jpg", "Last clue", "1903 cover with the title pixelated", censor=[0.1, 0.05, 0.8, 0.35])]),
-        ("It's Jack London.",
-         [top("Jack", "portrait.jpg", "Jack London", "The same portrait, no pixelation")]),
-        ("Comment when you got it, and follow for the next one.", [full("got")]),
-     ],
-     end_card=dict(at="follow", title="Guess the Legend", sub="Next: another legend"),
-     verify=["ages for each beat (born January 1876)", "California Fish Patrol after the oyster piracy"]),
-
-dict(id="london_c_footsteps", legend="Jack London", version="C", ep="Ep 04 · In his footsteps", group="option",
-     fmt="In Their Footsteps", length="about 75 s",
-     film="Two talk takes: 01 on a dock at night with oysters, 02 next morning on the beach with a board. Plus b-roll of you on a boat, writing, and surfing.",
-     talk=["01_dock_night.mp4", "02_beach_morning.mp4"],
-     highlight=["oysters", "surf", "work"],
-     lines=[
-        ("I'm shucking oysters on a dock at midnight because of a writer who used to steal them.", []),
-        ("In 1891, a fifteen-year-old named Jack London raided oyster beds like these in San Francisco Bay.",
-         [top("Jack", "portrait.jpg", "Jack London", "Portrait of young Jack London")]),
-        ("He did it in a sloop called the Razzle Dazzle, bought with three hundred borrowed dollars.",
-         [top("sloop", "sloop.jpg", "The Razzle Dazzle", "Old oyster sloop")]),
-        ("Then he went to sea, rode the rails, chased gold in the Klondike, and came home broke.",
-         [full("sea", "boat.mp4", desc="YOU: on a boat or sailing, wide shot")]),
-        ("Everything he lived, he wrote down. A thousand words a day.",
-         [top("Everything", "notebook.mp4", "1,000 words a day", "YOU: writing in a notebook on the dock")]),
-        ("So that's the plan for this trip: live it first, write it down after.", [full("plan")]),
-        ("And the next morning, I'm doing what he did once he was already famous.", []),
-        ("In 1907 he sailed to Hawaii and learned to surf at Waikiki.",
-         [top("Hawaii", "waikiki_1907.jpg", "Waikiki, 1907", "Waikiki surfers, early 1900s")]),
-        ("He got so sunburned he was stuck in bed, and went straight back out.",
-         [full("sunburned", "surf.mp4", desc="YOU: catching a wave")]),
-        ("Here's what I think he figured out. The adventure wasn't a break from the work. It was the work.",
-         [full("Here's")]),
-        ("Follow for the next legend's footsteps.", []),
-     ],
-     end_card=dict(at="Follow", title=SERIES, sub="Next week: a new legend"),
-     verify=["1891 oyster piracy at 15", "the sunburn after his first surf sessions in 1907"]),
-
-# --------------------------------------------------------------- IAN FLEMING
-dict(id="fleming_a_origin", legend="Ian Fleming", version="A", ep="Ep 04", group="option",
-     fmt="The Origin Story", length="about 85 s",
-     film="One take to camera by the sea, linen shirt. Plus a snorkel clip of you for the routine beat.",
-     talk=["01_talk.mp4"],
-     highlight=["failed", "stockbroker", "Goldeneye", "Bond"],
-     lines=[
-        ("Ian Fleming. The man who invented James Bond. By forty, he'd failed at almost everything.",
-         [top("Ian", "portrait.jpg", "Ian Fleming", "Portrait of Ian Fleming (check licence) or an illustrated portrait")]),
-        (SERIES_LINE, [full("This")]),
-        ("His big brother was the famous one, a best-selling travel writer. Ian was the problem child.",
-         [top("brother", "family.jpg", "The famous brother", "1920s English country house or family photo")]),
-        ("He left military academy early. He failed the Foreign Office exam.",
-         [top("military", "sandhurst.jpg", "Strike one, strike two", "Royal Military College, Sandhurst (old postcard)")]),
-        ("He became a stockbroker, and later called himself the worst stockbroker in the world.",
-         [top("stockbroker", "stock_exchange.jpg", "The worst stockbroker", "1930s London Stock Exchange")]),
-        ("Then the war came. He became the right-hand man to the head of British naval intelligence, planning operations straight out of a spy novel.",
-         [top("war", "admiralty.jpg", "Naval intelligence", "The Admiralty building, London, 1940s")]),
-        ("In 1944 he visited Jamaica, and told a friend he'd live there one day.",
-         [top("visited", "jamaica_map.jpg", "Jamaica, 1944", "Old map of Jamaica")]),
-        ("Two years later he built a house on the water and called it Goldeneye.",
-         [top("Goldeneye", "goldeneye.jpg", "Goldeneye", "Goldeneye house or the cove at Oracabessa")]),
-        ("He even got his newspaper to give him two months off every winter to go there.", [full("newspaper")]),
-        ("Every morning: swim the reef, then write about two thousand words.",
-         [full("swim", "snorkel.mp4", "The routine", "YOU: snorkelling over a reef")]),
-        ("At forty-three, he sat down at Goldeneye and wrote Casino Royale.",
-         [top("Casino", "casino_royale.jpg", "1952: Casino Royale", "YOU holding a copy of Casino Royale")]),
-        ("He named his spy after the author of a bird book on his shelf, because he wanted the dullest name he could find.",
-         [top("bird", "birds_book.jpg", "Birds of the West Indies", "The bird book by ornithologist James Bond")]),
-        ("Fourteen Bond books. Every one written in the Jamaican winter.",
-         [top("Bond books", "bond_books.jpg", "14 Bond books", "YOU: a stack of the paperbacks")]),
-        ("He failed at the careers everyone wanted for him, then built one around the life he wanted.",
-         [full("careers")]),
-        ("Follow for the next legend.", []),
-     ],
-     end_card=dict(at="Follow", title=SERIES, sub="Next week: a new legend"),
-     verify=["left Sandhurst early; failed the Foreign Office exam", "the 'worst stockbroker' self-description",
-             "assistant to Admiral Godfrey, Director of Naval Intelligence", "1944 Jamaica visit; Goldeneye built 1946",
-             "Sunday Times contract with two months off each winter", "Casino Royale written early 1952, age 43",
-             "named after ornithologist James Bond, 'the dullest name'", "14 Bond books written at Goldeneye"]),
-
-dict(id="fleming_b_guess", legend="Ian Fleming", version="B", ep="Guess who #4", group="option",
-     fmt="Guess the Legend", length="about 50 s",
-     film="One take to camera. A martini on the table is a nice silent clue.",
-     talk=["01_talk.mp4"],
-     highlight=["guess", "strike"],
-     lines=[
-        ("Can you guess this legend from the story of his life? Comment the second you know.",
-         [top("guess", "portrait.jpg", "Guess the legend", "Portrait of Ian Fleming, face pixelated", censor=CENSOR)]),
-        ("Rich family. Famous older brother. He's the disappointment.",
-         [top("Rich", "family.jpg", "The disappointment", "1920s English country house")]),
-        ("Leaves military academy early. Strike one.",
-         [top("military", "sandhurst.jpg", "Strike one", "Sandhurst, old postcard")]),
-        ("Fails the Foreign Office exam. Strike two.",
-         [top("Fails", "foreign_office.jpg", "Strike two", "The Foreign Office, London")]),
-        ("Becomes a stockbroker, and says he's the worst one in the world. Strike three.",
-         [top("stockbroker", "stock_exchange.jpg", "Strike three", "1930s London Stock Exchange")]),
-        ("Then the war: he's planning secret operations for naval intelligence.",
-         [top("war", "admiralty.jpg", "World War II", "The Admiralty, 1940s")]),
-        ("After the war, he builds a house above a reef in Jamaica.",
-         [top("house", "goldeneye.jpg", "The hideout", "The cove at Oracabessa, Jamaica")]),
-        ("He swims every morning, and writes every morning.",
-         [full("swims", "snorkel.mp4", desc="YOU: snorkelling over a reef")]),
-        ("At forty-three, he writes his first novel in about two months.",
-         [top("novel", "typewriter.jpg", "First novel", "Old typewriter on a terrace")]),
-        ("Last clue: his main character likes his martini shaken, not stirred.",
-         [top("Last", "martini.jpg", "Last clue", "YOU: a martini on the bar")]),
-        ("It's Ian Fleming. The man who invented James Bond.",
-         [top("Ian", "portrait.jpg", "Ian Fleming", "The same portrait, no pixelation")]),
-        ("Comment when you got it, and follow for the next one.", [full("got")]),
-     ],
-     end_card=dict(at="follow", title="Guess the Legend", sub="Next: another legend"),
-     verify=["Casino Royale written in about two months (Jan–Mar 1952)"]),
-
-dict(id="fleming_c_footsteps", legend="Ian Fleming", version="C", ep="Ep 04 · In his footsteps", group="option",
-     fmt="In Their Footsteps", length="about 70 s",
-     film="A full 'Fleming day' somewhere with a reef: talk takes in the morning and evening, b-roll of the swim, writing on a terrace, lunch and a nap.",
-     talk=["01_morning.mp4", "02_evening.mp4"],
-     highlight=["swim", "2,000", "Bond"],
-     lines=[
-        ("I'm about to live one day exactly like the man who wrote James Bond.", []),
-        ("His name was Ian Fleming, and he wrote Casino Royale at a house on the water in Jamaica called Goldeneye.",
-         [top("Ian", "portrait.jpg", "Ian Fleming", "Portrait of Ian Fleming (check licence)"),
-          top("Goldeneye", "goldeneye.jpg", "Goldeneye, Jamaica", "The cove at Oracabessa")]),
-        ("His routine was simple. Wake up, swim the reef.",
-         [full("swim", "snorkel.mp4", "Step 1: swim", "YOU: snorkelling over a reef")]),
-        ("Then he'd sit down and write about two thousand words before lunch.",
-         [top("sit", "writing.mp4", "Step 2: 2,000 words", "YOU: writing on a terrace, sea behind")]),
-        ("Lunch. A long nap. A little more work in the evening.",
-         [full("Lunch", "lunch_nap.mp4", "Step 3: lunch, nap", "YOU: lunch with a view, then a hammock")]),
-        ("That's it. That's the schedule that built fourteen Bond books.",
-         [top("schedule", "bond_books.jpg", "14 books", "YOU: a stack of the paperbacks")]),
-        ("So, I did it. Here's my two thousand words, written with salt still in my hair.",
-         [top("Here's", "my_pages.mp4", "My 2,000 words", "YOU: flipping through your written pages")]),
-        ("Honest review: the swim makes the writing easier. Your brain shows up already awake.", [full("Honest")]),
-        ("Fleming didn't separate the life from the work. The sea is all over those books.", []),
-        ("Follow for the next legend's footsteps.", []),
-     ],
-     end_card=dict(at="Follow", title=SERIES, sub="Next week: a new legend"),
-     verify=["his routine (morning swim, about 2,000 words, nap, evening revision) from his essay 'How to Write a Thriller'",
-             "only say the 'honest review' line if it's true for you"]),
+     verify=["74 rue du Cardinal Lemoine flat with no hot water", "writing much of The Sun Also Rises at La Closerie des Lilas",
+             "walking the Luxembourg Gardens when hungry (A Moveable Feast)",
+             "Sylvia Beach's original Shakespeare and Company was at 12 rue de l'Odéon; today's shop on the Seine is a later one that carries the name, so don't say he went to that one",
+             "every ✎ line must be true for you"]),
 ]
 
 
+# --------------------------------------------------------------------------
 def anchor_for(at, words, lo, hi):
     """Return at or at#n so that it resolves inside tokens [lo, hi)."""
-    for n in range(1, 30):
-        cand = at if n == 1 else f"{at}#{n}"
+    if isinstance(at, (int, float)):
+        return at
+    base, _, n0 = str(at).partition("#")
+    for n in range(int(n0 or 1), 30):
+        cand = base if n == 1 else f"{base}#{n}"
         i = find_word(cand, words)
         if i is None:
             break
@@ -594,20 +503,35 @@ def anchor_for(at, words, lo, hi):
     raise SystemExit(f"anchor '{at}' not found in its line")
 
 
-def build(script):
+def tokens(hook, script):
+    lines = [hook] + [l.replace(ME, "") for l, _ in script["lines"][1:]]
     words, ranges = [], []
-    for line, _ in script["lines"]:
+    for line in lines:
         toks = line.split()
         ranges.append((len(words), len(words) + len(toks)))
         words += [{"text": t} for t in toks]
+    return words, ranges
+
+
+def build(script):
+    hook_panels = script["lines"][0]
+    variants = [tokens(h, script) for h, _ in script["hooks"]]
+    words, ranges = variants[0]
     panels = []
-    for (line, ps), (lo, hi) in zip(script["lines"], ranges):
+    body = script["lines"][1:]
+    for p in hook_panels:
+        panels.append({k: v for k, v in p.items() if k != "desc" and v is not None})
+    for (_, ps), (lo, hi), idx in zip(body, ranges[1:], range(1, len(ranges))):
         for p in ps:
             p = {k: v for k, v in p.items() if k != "desc" and v is not None}
             p["at"] = anchor_for(p["at"], words, lo, hi)
+            for w2, r2 in variants[1:]:        # must land on the same line whichever hook is filmed
+                i = find_word(p["at"], w2)
+                if i is None or not (r2[idx][0] <= i < r2[idx][1]):
+                    raise SystemExit(f"{script['id']}: cue '{p['at']}' moves with another hook; pick another word")
             panels.append(p)
     ec = dict(script["end_card"])
-    ec["at"] = anchor_for(ec["at"], words, *ranges[-1]) if ec["at"] in script["lines"][-1][0] \
+    ec["at"] = anchor_for(ec["at"], words, *ranges[-1]) if ec["at"].lower() in body[-1][0].lower() \
         else anchor_for(ec["at"], words, *ranges[-2])
     plan = {
         "footage": f"input/{script['id']}",
@@ -624,41 +548,57 @@ def build(script):
     return plan, len(words)
 
 
+def screen(ps):
+    cells = []
+    for p in ps:
+        if p.get("full") == "talk":
+            cells.append("you, full screen")
+        elif p.get("full"):
+            lab = f" · **{p['label'].upper()}**" if p.get("label") else ""
+            cells.append(f"full `{p['full']}`{lab}")
+        else:
+            cz = " (pixelated)" if p.get("censor") else ""
+            cells.append(f"top `{p['file']}`{cz} · **{p['label'].upper()}**")
+    return "<br>".join(cells)
+
+
 def md(script, n_words):
-    out = [f"### {script['version']}. {script['fmt']}: `{script['id']}`", ""]
-    out.append(f"**Length:** {script['length']} ({n_words} words). **Film:** {script['film']}")
+    sk = SKELETONS[script["skeleton"]]
+    version, fmt = VERSIONS[script["skeleton"]]
+    secs = round(n_words / sk["wps"])
+    out = [f"### {version}. {fmt}: `{script['id']}`", ""]
+    out.append(f"**Built line for line on:** [{sk['name']}]({sk['url']}), {sk['stats']}. "
+               f"The winner runs {sk['length']}, with the {sk['reveal']}. Shape: {sk['shape']}.")
     out.append("")
-    refs = " · ".join(f"[{name}]({url}) ({note})" for name, url, note in REFS[script["fmt"]])
-    out.append(f"**Watch first:** {refs}. "
-               f"[Editing breakdown](BREAKDOWNS.md#{BREAKDOWN_ANCHOR[script['fmt']]})")
+    out.append(f"**Yours:** {n_words} words, about {secs} s. {sk['look']}. **Film:** {script['film']}")
     out.append("")
-    if script.get("ref"):
-        out.append(f"**What to copy:** {script['ref']}.")
-        out.append("")
     if script.get("title"):
         t = script["title"]["text"].replace(chr(10), " / ")
-        out.append(f"**Opening title** (until \"{script['title']['until']}\"): *{t}*")
+        out.append(f"**Opening title:** *{t}*")
         out.append("")
-    out.append("| Say | On screen |")
-    out.append("|---|---|")
-    for line, ps in script["lines"]:
-        cells = []
-        for p in ps:
-            if p.get("full") == "talk":
-                cells.append("you, full screen")
-            elif p.get("full"):
-                lab = f" · pill **{p['label'].upper()}**" if p.get("label") else ""
-                cells.append(f"full screen `{p['full']}`{lab}")
-            else:
-                cz = " (pixelated)" if p.get("censor") else ""
-                cells.append(f"top `{p['file']}`{cz} · pill **{p['label'].upper()}**")
-        out.append(f"| {line} | {'<br>'.join(cells)} |")
+    out.append("**Three hooks.** Film all three; the plan works with any of them.")
+    out.append("")
+    out.append("| # | Hook | Copied from |")
+    out.append("|---|---|---|")
+    for i, (h, src) in enumerate(script["hooks"], 1):
+        madlib, name, url, stats = HOOKS[src]
+        out.append(f"| {i} | \"{h}\" | [{name}]({url}), {stats}: *{madlib}* |")
+    out.append("")
+    out.append("| Beat | The winner said | You say | On screen |")
+    out.append("|---|---|---|---|")
+    winner = WINNERS[script["skeleton"]]
+    hook_cell = "*(your hook)*"
+    rows = [(hook_cell, script["lines"][0])] + [(l, ps) for l, ps in script["lines"][1:]]
+    for i, (line, ps) in enumerate(rows):
+        beat, said = winner[i] if i < len(winner) else ("(extra)", "")
+        out.append(f"| {beat} | *{said}* | {line} | {screen(ps)} |")
     out.append("")
     ec = script["end_card"]
-    out.append(f"End card from \"{ec['at']}\": **{ec['title'].upper()}** / {ec['sub'].upper()}")
+    out.append(f"End card from \"{ec['at']}\": **{ec['title'].upper()}** / {ec['sub'].upper()}. "
+               f"Lines marked ✎ are personal: say them only if they're true for you, or swap in your version.")
     out.append("")
     files = {}
-    for _, ps in script["lines"]:
+    for ps in [script["lines"][0]] + [ps for _, ps in script["lines"][1:]]:
         for p in ps:
             f = p.get("file") or (p["full"] if p.get("full") != "talk" else None)
             if f and f not in files:
@@ -681,23 +621,19 @@ def main():
     plans_dir = REPO / "series/lifestyle-legends/plans"
     for old in plans_dir.glob("*.json"):
         old.unlink()
-    sections, groups = {}, {}
+    sections = {}
     for s in SCRIPTS:
+        winner = WINNERS[s["skeleton"]]
+        assert len(s["lines"]) <= len(winner), f"{s['id']}: more lines than the winner"
         plan, n = build(s)
         (plans_dir / f"{s['id']}.json").write_text(json.dumps(plan, indent=2, ensure_ascii=False) + "\n")
         sections.setdefault(s["legend"], []).append(md(s, n))
-        groups[s["legend"]] = s.get("group", "option")
     here = Path(__file__).parent
     head = (here / "scripts_head.md").read_text()
-    options = (here / "option_three.md").read_text()
-    main_legends = [l for l in sections if groups[l] == "main"]
-    ready = [l for l in sections if groups[l] != "main"]
-    body = "\n---\n\n".join(f"## Legend {i}: {legend}\n\n" + "\n".join(sections[legend])
-                              for i, legend in enumerate(main_legends, 1))
-    body += "\n---\n\n" + options + "\n" + "\n---\n\n".join(
-        f"### Bench, ready to film: {legend}\n\n" + "\n".join(sections[legend]).replace("\n### ", "\n#### ").replace("### ", "#### ", 1)
-        for legend in ready)
-    (REPO / "series/lifestyle-legends/SCRIPTS.md").write_text(head + "\n" + body)
+    bench = (here / "option_three.md").read_text()
+    body = "\n---\n\n".join(f"## Legend {i}: {legend}\n\n" + "\n".join(parts)
+                              for i, (legend, parts) in enumerate(sections.items(), 1))
+    (REPO / "series/lifestyle-legends/SCRIPTS.md").write_text(head + "\n" + body + "\n---\n\n" + bench)
     print(f"{len(SCRIPTS)} scripts, plans in {plans_dir}")
 
 

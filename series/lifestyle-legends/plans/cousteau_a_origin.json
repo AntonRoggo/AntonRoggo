@@ -2,8 +2,8 @@
   "footage": "input/cousteau_a_origin",
   "series_tag": "Lifestyle Legends · Ep 01",
   "highlight": [
+    "fly",
     "goggles",
-    "Aqua-Lung",
     "Calypso",
     "Oscar",
     "ocean",
@@ -16,78 +16,64 @@
   ],
   "panels": [
     {
-      "at": "Jacques",
-      "file": "portrait_navy.jpg",
+      "at": 0,
+      "file": "portrait.jpg",
       "label": "Jacques Cousteau"
     },
     {
-      "at": "This",
+      "at": "learned",
       "full": "talk"
+    },
+    {
+      "at": "series",
+      "full": "talk"
+    },
+    {
+      "at": "kid",
+      "file": "naval_aviation.jpg",
+      "label": "The dream: flying"
     },
     {
       "at": "sickly",
-      "file": "school.jpg",
-      "label": "The troublemaker"
+      "file": "naval_academy.jpg",
+      "label": "French Naval Academy"
     },
     {
-      "at": "saved",
-      "file": "camera.jpg",
-      "label": "Age 13: first camera"
+      "at": "fingertips",
+      "file": "old_car.jpg",
+      "label": "1936: the crash"
     },
     {
-      "at": "joined",
-      "file": "naval_aviation.jpg",
-      "label": "The French Navy"
-    },
-    {
-      "at": "crash",
-      "full": "talk"
-    },
-    {
-      "at": "swimming",
+      "at": "Rather",
       "full": "swim.mp4",
       "label": "The rehab"
     },
     {
-      "at": "summer",
+      "at": "changed",
       "file": "goggles.jpg",
-      "label": "1936: the goggles"
+      "label": "The goggles"
     },
     {
-      "at": "face",
+      "at": "put",
       "full": "underwater.mp4"
     },
     {
-      "at": "wrote",
-      "full": "talk"
-    },
-    {
-      "at": "engineer",
+      "at": "later#2",
       "file": "aqualung.jpg",
       "label": "1943: the Aqua-Lung"
     },
     {
-      "at": "minesweeper",
+      "at": "sailed",
       "file": "calypso.jpg",
       "label": "Calypso"
     },
     {
-      "at": "Silent",
+      "at": "Oscar",
       "file": "silent_world.jpg",
       "label": "Cannes + Oscar"
     },
     {
-      "at": "TV",
-      "file": "red_cap.jpg",
-      "label": "The red cap"
-    },
-    {
-      "at": "nobody",
-      "file": "older.jpg",
-      "label": "The protector"
-    },
-    {
-      "at": "wanted#2",
+      "at": "Life#2",
       "full": "talk"
     }
   ],

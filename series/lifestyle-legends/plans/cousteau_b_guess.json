@@ -2,9 +2,9 @@
   "footage": "input/cousteau_b_guess",
   "series_tag": "Lifestyle Legends · Guess who #1",
   "highlight": [
-    "guess",
     "goggles",
-    "Oscar"
+    "Oscar",
+    "Cannes"
   ],
   "sequence": [
     {
@@ -13,7 +13,7 @@
   ],
   "panels": [
     {
-      "at": "imagine",
+      "at": 0,
       "file": "portrait.jpg",
       "label": "Guess the legend",
       "censor": [
@@ -24,22 +24,22 @@
       ]
     },
     {
-      "at": "sickly",
+      "at": "growing",
       "file": "school.jpg",
       "label": "The troublemaker"
     },
     {
-      "at": "buys",
+      "at": "saves",
       "file": "camera.jpg",
-      "label": "Age 13"
+      "label": "First camera"
     },
     {
-      "at": "navy",
+      "at": "joins",
       "file": "naval_aviation.jpg",
       "label": "The navy"
     },
     {
-      "at": "crash",
+      "at": "training",
       "file": "old_car.jpg",
       "label": "The crash"
     },
@@ -49,17 +49,17 @@
       "label": "The rehab"
     },
     {
-      "at": "goggles",
+      "at": "borrows",
       "file": "goggles.jpg",
       "label": "The goggles"
     },
     {
-      "at": "war",
+      "at": "helps",
       "file": "aqualung.jpg",
       "label": "The invention"
     },
     {
-      "at": "minesweeper",
+      "at": "ship",
       "file": "calypso.jpg",
       "label": "The ship",
       "censor": [
@@ -70,28 +70,19 @@
       ]
     },
     {
-      "at": "Oscar",
-      "file": "oscar.jpg",
-      "label": "The Oscar"
-    },
-    {
-      "at": "Last",
+      "at": "chapter",
       "file": "red_cap.jpg",
       "label": "Last clue"
     },
     {
-      "at": "Jacques",
+      "at": "By",
       "file": "portrait.jpg",
       "label": "Jacques Cousteau"
-    },
-    {
-      "at": "got",
-      "full": "talk"
     }
   ],
   "end_card": {
-    "at": "follow",
+    "at": "Comment",
     "title": "Guess the Legend",
-    "sub": "Next: a climber turned billionaire"
+    "sub": "Comment when you got it"
   }
 }

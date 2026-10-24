@@ -2,7 +2,6 @@
   "footage": "input/chouinard_b_guess",
   "series_tag": "Lifestyle Legends · Guess who #2",
   "highlight": [
-    "guess",
     "cat"
   ],
   "sequence": [
@@ -12,7 +11,7 @@
   ],
   "panels": [
     {
-      "at": "imagine",
+      "at": 0,
       "file": "portrait.jpg",
       "label": "Guess the legend",
       "censor": [
@@ -23,24 +22,34 @@
       ]
     },
     {
-      "at": "outsider",
+      "at": "growing",
       "file": "1940s_california.jpg",
       "label": "The outsider"
     },
     {
-      "at": "falconry",
+      "at": "falls",
       "file": "falcon.jpg",
       "label": "Falconry"
     },
     {
-      "at": "blacksmithing",
+      "at": "heads",
+      "file": "yosemite.jpg",
+      "label": "Yosemite"
+    },
+    {
+      "at": "lives",
+      "file": "cat_food.jpg",
+      "label": "A dollar a day"
+    },
+    {
+      "at": "stand",
       "file": "forge.jpg",
       "label": "Self-taught blacksmith"
     },
     {
       "at": "sells",
-      "file": "cat_food.jpg",
-      "label": "The diet"
+      "file": "car_boot.mp4",
+      "label": "From his car"
     },
     {
       "at": "quits",
@@ -53,18 +62,7 @@
       "label": "The rugby shirt"
     },
     {
-      "at": "book",
-      "file": "book.jpg",
-      "label": "The book",
-      "censor": [
-        0.0,
-        0.7,
-        1.0,
-        0.3
-      ]
-    },
-    {
-      "at": "entire",
+      "at": "chapter",
       "file": "headline.png",
       "label": "Last clue",
       "censor": [
@@ -75,18 +73,14 @@
       ]
     },
     {
-      "at": "Yvon",
+      "at": "By",
       "file": "portrait.jpg",
       "label": "Yvon Chouinard"
-    },
-    {
-      "at": "got",
-      "full": "talk"
     }
   ],
   "end_card": {
-    "at": "follow",
+    "at": "Comment",
     "title": "Guess the Legend",
-    "sub": "Next: a writer who fished for marlin"
+    "sub": "Comment when you got it"
   }
 }

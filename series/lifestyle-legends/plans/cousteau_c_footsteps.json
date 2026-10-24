@@ -3,7 +3,6 @@
   "series_tag": "Lifestyle Legends · Ep 01 · In his footsteps",
   "highlight": [
     "goggles",
-    "Aqua-Lung",
     "ocean"
   ],
   "sequence": [
@@ -16,39 +15,38 @@
   ],
   "panels": [
     {
-      "at": "1936",
+      "at": "Jacques",
       "file": "portrait_navy.jpg",
       "label": "Le Mourillon, 1936"
     },
     {
-      "at": "goggles",
-      "file": "goggles.jpg",
-      "label": "The goggles"
+      "at": "Here's",
+      "full": "beach.mp4",
+      "label": "Le Mourillon, Toulon"
     },
     {
-      "at": "brought",
-      "full": "talk"
-    },
-    {
-      "at": "This#2",
+      "at": "walk",
       "full": "underwater.mp4"
     },
     {
-      "at": "Seven",
-      "file": "aqualung.jpg",
-      "label": "1943: the Aqua-Lung"
+      "at": "eat",
+      "full": "port.mp4"
     },
     {
-      "at": "followed",
-      "full": "coast_drive.mp4"
+      "at": "window",
+      "full": "underwater2.mp4"
     },
     {
-      "at": "Oceanographic",
+      "at": "bothered",
+      "full": "talk"
+    },
+    {
+      "at": "Monaco",
       "file": "museum.mp4",
       "label": "Oceanographic Museum, Monaco"
     },
     {
-      "at": "man",
+      "at": "week",
       "full": "talk"
     }
   ],
@@ -59,6 +57,6 @@
   },
   "title": {
     "text": "Following Cousteau\nalong the Riviera",
-    "until": "1936"
+    "until": "Here's"
   }
 }

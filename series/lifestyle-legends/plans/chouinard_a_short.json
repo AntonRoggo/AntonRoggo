@@ -1,0 +1,50 @@
+{
+  "footage": "input/chouinard_a_short",
+  "series_tag": "Lifestyle Legends · Ep 02 · short",
+  "highlight": [
+    "cat",
+    "forge",
+    "Patagonia"
+  ],
+  "sequence": [
+    {
+      "talk": "01_talk.mp4"
+    }
+  ],
+  "panels": [
+    {
+      "at": 0,
+      "file": "yosemite.jpg",
+      "label": "Yvon Chouinard"
+    },
+    {
+      "at": "afford",
+      "file": "old_pitons.jpg",
+      "label": "The problem"
+    },
+    {
+      "at": "found",
+      "file": "cat_food.jpg",
+      "label": "A dollar a day"
+    },
+    {
+      "at": "junkyard",
+      "file": "forge.jpg",
+      "label": "The junkyard forge"
+    },
+    {
+      "at": "ticket",
+      "full": "climb.mp4"
+    },
+    {
+      "at": "refusing",
+      "file": "patagonia.jpg",
+      "label": "Patagonia"
+    }
+  ],
+  "end_card": {
+    "at": "Follow",
+    "title": "Lifestyle Legends",
+    "sub": "Full story on the page"
+  }
+}

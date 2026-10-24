@@ -2,11 +2,11 @@
   "footage": "input/chouinard_a_origin",
   "series_tag": "Lifestyle Legends · Ep 02",
   "highlight": [
-    "forge",
+    "climb",
     "cat",
+    "forge",
     "Patagonia",
-    "surf's",
-    "Earth"
+    "surf's"
   ],
   "sequence": [
     {
@@ -15,28 +15,41 @@
   ],
   "panels": [
     {
-      "at": "Yvon",
-      "file": "forge.jpg",
-      "label": "1957"
+      "at": 0,
+      "file": "portrait.jpg",
+      "label": "Yvon Chouinard"
     },
     {
-      "at": "This",
+      "at": "learned",
       "full": "talk"
     },
     {
-      "at": "French",
-      "file": "young.jpg",
-      "label": "The outsider"
+      "at": "series",
+      "full": "talk"
     },
     {
-      "at": "falconry",
+      "at": "kid",
       "file": "yosemite.jpg",
-      "label": "Yosemite"
+      "label": "The dream: Yosemite"
     },
     {
-      "at": "afford",
-      "file": "pitons.jpg",
-      "label": "Homemade pitons"
+      "at": "dented",
+      "file": "cat_food.jpg",
+      "label": "A dollar a day"
+    },
+    {
+      "at": "fingertips",
+      "file": "old_pitons.jpg",
+      "label": "The problem"
+    },
+    {
+      "at": "Rather",
+      "file": "forge.jpg",
+      "label": "The junkyard forge"
+    },
+    {
+      "at": "wanted#2",
+      "full": "talk"
     },
     {
       "at": "sold",
@@ -44,36 +57,22 @@
       "label": "$1.50 each"
     },
     {
-      "at": "lived#2",
-      "file": "cat_food.jpg",
-      "label": "The diet"
-    },
-    {
-      "at": "biggest",
-      "full": "talk"
-    },
-    {
-      "at": "scarring",
-      "file": "scarred_rock.jpg",
-      "label": "Scarring the rock"
-    },
-    {
-      "at": "clothes",
+      "at": "business",
       "file": "patagonia.jpg",
-      "label": "1973: Patagonia"
+      "label": "Patagonia"
     },
     {
-      "at": "rule",
+      "at": "ran",
       "full": "surf.mp4",
       "label": "Company policy"
     },
     {
-      "at": "gave#2",
+      "at": "climate",
       "file": "headline.png",
-      "label": "2022"
+      "label": "2022: gives it away"
     },
     {
-      "at": "nobody",
+      "at": "Life#2",
       "full": "talk"
     }
   ],

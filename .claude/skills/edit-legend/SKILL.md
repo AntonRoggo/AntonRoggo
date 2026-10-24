@@ -31,7 +31,7 @@ Don't publish from here. Publishing goes through the `publish-metricool` skill, 
 
 ```json
 {
-  "footage": "input/london_b_guess",
+  "footage": "input/cousteau_b_guess",
   "series_tag": "Lifestyle Legends · Guess who #1",
   "highlight": ["guess", "jail"],
   "title": {"text": "Following Cousteau\nalong the Riviera", "until": "1936"},

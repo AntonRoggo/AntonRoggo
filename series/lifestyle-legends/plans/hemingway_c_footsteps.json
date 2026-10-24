@@ -10,41 +10,53 @@
       "talk": "01_street.mp4"
     },
     {
-      "talk": "02_afternoon.mp4"
+      "talk": "02_closerie.mp4"
     }
   ],
   "panels": [
     {
-      "at": "1921",
+      "at": "Ernest",
       "file": "hemingway_hadley.jpg",
       "label": "Paris, 1921"
     },
     {
-      "at": "Step",
+      "at": "Here's",
       "full": "apartment.mp4",
-      "label": "Step 1: 74 rue du Cardinal Lemoine"
+      "label": "74 rue du Cardinal Lemoine"
     },
     {
-      "at": "two",
+      "at": "walk",
       "file": "cafe_writing.mp4",
-      "label": "Step 2: one true sentence"
+      "label": "One true sentence"
+    },
+    {
+      "at": "Luxembourg",
+      "full": "gardens.mp4"
+    },
+    {
+      "at": "Shakespeare",
+      "file": "bookshop.mp4",
+      "label": "Shakespeare and Company"
     },
     {
       "at": "stop",
       "full": "talk"
     },
     {
-      "at": "three",
-      "full": "gardens.mp4",
-      "label": "Step 3: the gardens"
+      "at": "zinc",
+      "full": "paris_broll.mp4"
     },
     {
-      "at": "four",
-      "file": "bookshop.mp4",
-      "label": "Step 4: Shakespeare and Company"
+      "at": "days",
+      "full": "talk"
     },
     {
-      "at": "Here's",
+      "at": "Closerie",
+      "file": "closerie.mp4",
+      "label": "La Closerie des Lilas"
+    },
+    {
+      "at": "notebook#3",
       "full": "talk"
     }
   ],
@@ -54,7 +66,7 @@
     "sub": "Next week: a new legend"
   },
   "title": {
-    "text": "One day as broke\nHemingway in Paris",
-    "until": "1921"
+    "text": "Writing like broke\nHemingway in Paris",
+    "until": "Here's"
   }
 }

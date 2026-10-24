@@ -48,7 +48,7 @@ This format is built from Sandcastles' global data: the top-outlier reels across
 
 ## The three formats
 
-The shot-by-shot editing breakdown of every reference is in [BREAKDOWNS.md](BREAKDOWNS.md).
+The shot-by-shot editing breakdown of every reference is in [BREAKDOWNS.md](BREAKDOWNS.md). Every script in [SCRIPTS.md](SCRIPTS.md) copies one winning transcript line for line. There's also a 30-second short cut of the Origin Story, built on the Favreau winner.
 
 ### A. The Origin Story (60–90 s)
 The full arc above, told from the start of their life to the payoff. Uses the split screen throughout, with photos on top and you on the bottom. Go full screen for the series line and the moral.
@@ -79,4 +79,4 @@ References: Stevenson Trail (11% engagement), Hever Castle, Harry DuBois. This i
 - **Episode numbers** go in the header strip (`Ep 01`, `Ep 02`…), as in the "Part 187" series.
 - **The newsletter** gets the long version of each Origin Story, plus the Community Legend of the week.
 - **The line-up:** Jacques Cousteau (Ep 01), Yvon Chouinard (Ep 02), Ernest Hemingway (Ep 03). See [SCRIPTS.md](SCRIPTS.md).
-- **The bench:** Robert Louis Stevenson, Jack London (scripted), Ian Fleming (scripted), Anthony Bourdain, then Duke Kahanamoku, John Muir, Patrick Leigh Fermor, Peter Mayle and Jimmy Buffett.
+- **The bench:** Robert Louis Stevenson, Jack London, Ian Fleming, Anthony Bourdain, then Duke Kahanamoku, John Muir, Patrick Leigh Fermor, Peter Mayle and Jimmy Buffett.

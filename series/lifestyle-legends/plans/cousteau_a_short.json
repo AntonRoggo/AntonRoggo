@@ -1,0 +1,54 @@
+{
+  "footage": "input/cousteau_a_short",
+  "series_tag": "Lifestyle Legends · Ep 01 · short",
+  "highlight": [
+    "goggles",
+    "Aqua-Lung",
+    "ocean"
+  ],
+  "sequence": [
+    {
+      "talk": "01_talk.mp4"
+    }
+  ],
+  "panels": [
+    {
+      "at": 0,
+      "file": "portrait_navy.jpg",
+      "label": "Jacques Cousteau"
+    },
+    {
+      "at": "crash",
+      "file": "old_car.jpg",
+      "label": "The crash"
+    },
+    {
+      "at": "found",
+      "full": "swim.mp4"
+    },
+    {
+      "at": "friend",
+      "file": "goggles.jpg",
+      "label": "The goggles"
+    },
+    {
+      "at": "Drawing",
+      "file": "aqualung.jpg",
+      "label": "The Aqua-Lung"
+    },
+    {
+      "at": "door",
+      "full": "underwater.mp4"
+    },
+    {
+      "at": "following",
+      "file": "portrait.jpg",
+      "label": "Jacques Cousteau"
+    }
+  ],
+  "end_card": {
+    "at": "Follow",
+    "title": "Lifestyle Legends",
+    "sub": "Full story on the page"
+  }
+}

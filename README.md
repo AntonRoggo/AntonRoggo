@@ -43,13 +43,13 @@ Or ask Claude to "boost the audio" on a file: the `boost-audio` skill in `.claud
 Each edit is driven by a plan file, and every panel starts on a spoken word:
 
 ```bash
-python3 edit_legend.py series/lifestyle-legends/plans/london_a_origin.json --draft
-# -> output/london_a_origin.mp4  (+ .ass caption file)
+python3 edit_legend.py series/lifestyle-legends/plans/cousteau_a_origin.json --draft
+# -> output/cousteau_a_origin.mp4  (+ .ass caption file)
 ```
 
 - Format and research: `series/lifestyle-legends/FORMAT.md`
 - Style guide and reference video: `series/lifestyle-legends/EDITING_STYLE.md`
-- Scripts: `series/lifestyle-legends/SCRIPTS.md` (Origin Story, Guess the Legend and In Their Footsteps for Cousteau, Chouinard and Hemingway, plus a bench of next legends; London and Fleming are already scripted)
+- Scripts: `series/lifestyle-legends/SCRIPTS.md` (Cousteau, Chouinard and Hemingway: Origin Story, a 30 s short cut, Guess the Legend and In Their Footsteps, each built line for line on a winning reel, with three hooks per video)
 - Editing breakdown of every reference reel: `series/lifestyle-legends/BREAKDOWNS.md`
 - Put each script's footage in `input/<plan name>/`. The `edit-legend` skill runs the whole thing.
 

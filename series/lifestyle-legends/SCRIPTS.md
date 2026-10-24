@@ -1,16 +1,24 @@
 # Lifestyle Legends: scripts
 
-There are three legends, each with one script per format. How each format is edited is broken down in [BREAKDOWNS.md](BREAKDOWNS.md).
+Every script is built **line for line on a winning reel's transcript**. Each table puts the winner's line next to yours, so you can see exactly what each line copies. Each script also has **three hooks**, each copied from a proven hook formula, and you can film any of them. The editing breakdown of each winner is in [BREAKDOWNS.md](BREAKDOWNS.md).
 
-- **Legend 1: Jacques Cousteau.** The Riviera is his home water.
-- **Legend 2: Yvon Chouinard.**
-- **Legend 3: Ernest Hemingway.** He lived it, then wrote it.
-- **The bench**, for Ep 04 and beyond, is at the end. Jack London and Ian Fleming already have scripts.
+## What the winners actually do
 
-The three formats:
-- **A. The Origin Story**
-- **B. Guess the Legend**
-- **C. In Their Footsteps**
+| | Origin Story | Origin Story, short | Guess the Legend | In Their Footsteps |
+|---|---|---|---|---|
+| **Winner it copies** | [Let's Talk About It](https://www.instagram.com/reel/DaWEza9y-Dg/), 6.0M, 3,241× | [Jon Favreau](https://www.instagram.com/reel/DDSdkJGoVRs/), 5.8M, 556× | [Guess the footballer](https://www.instagram.com/reel/DdjfzUURsA3/), 97K, 12× | [Stevenson Trail](https://www.tiktok.com/@heleneinbetween/video/7646771334520769805), 578K, 65× |
+| **Length** | about 2 min | 26 s | 62 s | 99 s |
+| **How much story** | One thread: one dream, the thing that killed it, one pivot, proof, the lesson. Five or six facts. | Seven sentences, one setback, one move. | About 12 career steps, one per clause. | Barely any of the legend's life. It's the creator's own experience, with the legend as the reason. |
+| **When the name comes** | **First second**: "Jordan Howlett. More popularly known as…" | **First sentence** | **Hidden until 90%**: "By now, you probably know…" | **Named in passing at ~10 s** ("Stevenson's Trail"), paid off at his landmark at ~85 s |
+
+**What changed from the last drafts**
+- **Less story.** The old scripts packed 10–14 life events into each video. The winners pick one thread.
+- **Name timing.** The Origin Story now says the name in the first line, as the winner does. Hook 2 for each legend keeps the name off the audio, Lens on Legends style; the name tag goes on screen instead. Lens repeats its hook beat later in the story too ("moved back to London alone" at 26–39 s), so the later crash or shell line still works with hook 2.
+- **Guess format.** Guess the Legend now copies the winner's actual sentence pattern: present tense, every clause starts with a verb, no ages, then "A ship awaits… This chapter ends when… By now, you probably know…".
+- **Footsteps format.** In Their Footsteps is now about *your* experience, copying the Stevenson Trail beats ("No X, no Y, just me…", "Here's how it works", "This is not roughing it", "Standing there, I couldn't believe…", "That's the power of…"). The legend frames it rather than being the story.
+- **Short cuts.** A 30-second version of each Origin Story, built on the Favreau winner, for when you want it short. It also works as a text post with no filming.
+
+## How to use this
 
 Each script has a plan in `plans/`, so once you've filmed it the editor can cut it:
 
@@ -18,98 +26,140 @@ Each script has a plan in `plans/`, so once you've filmed it the editor can cut 
 python3 edit_legend.py series/lifestyle-legends/plans/<plan name>.json --draft
 ```
 
-Put the footage for each script in `input/<plan name>/`, using the file names below. In the "On screen" column:
+- Put the footage in `input/<plan name>/`, using the file names under each script.
+- The first panel starts at 0 s, so the plan works whichever hook you film.
+- In the "On screen" column, **top** is the story panel above you, **full** covers the whole frame, and the bold text is the blue pill label.
+- **Lines marked ✎ are personal.** Only say them if they're true for you, or swap in your own version.
+- Before posting, check every fact marked ✓. They're from memory and haven't been checked against sources.
 
-- **top** is the story panel above you.
-- **full screen** covers the whole frame.
-- **pill** is the blue label naming the beat.
-
-Each panel starts on the first word of its line and stays up until the next one.
-
-Before posting, check every fact marked ✓. They're from memory and haven't been checked against sources.
-
-**Images.** Archive photos from before 1931 are generally public domain in the US; use Wikimedia Commons or the Library of Congress, and check each licence. Hemingway's WWI-era photos are generally public domain; check each one. For Cousteau, Chouinard, Fleming and later Hemingway photos, most are still under copyright. Use your own footage of places and objects, film yourself holding the book, buy a licence, or use an illustrated scene (that's what Lens on Legends does). Never use a fake photoreal image of a real person.
+**Images.** Hemingway's World War I photos are generally public domain (check each one). Most Cousteau, Chouinard and later Hemingway photos are still under copyright. Use your own footage of places and objects, film yourself holding the book, buy a licence, or use an illustrated scene. Never use a fake photoreal image of a real person.
 
 
 ## Legend 1: Jacques Cousteau
 
 ### A. The Origin Story: `cousteau_a_origin`
 
-**Length:** about 95 s (284 words). **Film:** One take to camera on the rocks above the sea, slow and serious. Plus two clips of you: swimming in the Med, and an underwater POV with goggles or a mask.
+**Built line for line on:** [Let's Talk About It (@sydney.yancy.ugc)](https://www.instagram.com/reel/DaWEza9y-Dg/), 6.0M views · 3,241× · 10% engagement. The winner runs about 2 min, with the name in the first second. Shape: one dream → the thing that killed it → one pivot → proof → the lesson. Five or six facts, one thread.
 
-**Watch first:** [Lens on Legends: Dua Lipa](https://www.instagram.com/reel/DYul8wohxIL/) (main reference, 259×) · [Let's Talk About It](https://www.instagram.com/reel/DaWEza9y-Dg/) (the series line, 3,241×) · [Jon Favreau](https://www.instagram.com/reel/DDSdkJGoVRs/) (text-post version, 556×). [Editing breakdown](BREAKDOWNS.md#a-the-origin-story)
+**Yours:** 295 words, about 118 s. Look and pacing from [Lens on Legends: Dua Lipa](https://www.instagram.com/reel/DYul8wohxIL/) (259×): a new picture every sentence, uppercase captions, a branded end card. **Film:** One take to camera on the rocks above the sea. Plus two clips of you: swimming in the Med, and an underwater POV with goggles.
 
-**What to copy:** Lens on Legends, Dua Lipa: one bold fact first, short declarative sentences, a payoff flurry, the detail nobody tells, and a callback to the hook.
+**Three hooks.** Film all three; the plan works with any of them.
 
-| Say | On screen |
-|---|---|
-| At twenty-six, Jacques Cousteau crashed his car, broke both arms, and lost his dream of being a pilot. | top `portrait_navy.jpg` · pill **JACQUES COUSTEAU** |
-| This is Lifestyle Legends: the people who lived first and figured out the work later. | you, full screen |
-| He was a sickly kid, and a troublemaker. He got thrown out of school for breaking seventeen windows. | top `school.jpg` · pill **THE TROUBLEMAKER** |
-| At thirteen, he saved up for a movie camera, and took it apart to see how it worked. | top `camera.jpg` · pill **AGE 13: FIRST CAMERA** |
-| He joined the French Navy to fly planes. | top `naval_aviation.jpg` · pill **THE FRENCH NAVY** |
-| Then the crash ended all of it. | you, full screen |
-| To get his arms working again, he started swimming every day in the Mediterranean. | full screen `swim.mp4` · pill **THE REHAB** |
-| One summer morning in 1936, a friend handed him a pair of swimming goggles. | top `goggles.jpg` · pill **1936: THE GOGGLES** |
-| He put his face under the water, and that was it. | full screen `underwater.mp4` |
-| He wrote: sometimes we are lucky enough to know that our lives have been changed. | you, full screen |
-| There was one problem. You could only stay down as long as you could hold your breath. |  |
-| So during the war, he and an engineer named Emile Gagnan built a way to breathe underwater. They called it the Aqua-Lung. | top `aqualung.jpg` · pill **1943: THE AQUA-LUNG** |
-| Every scuba tank on earth comes from that idea. |  |
-| Then he got hold of an old minesweeper, named it Calypso, and sailed it around the world with a camera. | top `calypso.jpg` · pill **CALYPSO** |
-| His film The Silent World won the top prize at Cannes, and an Oscar. | top `silent_world.jpg` · pill **CANNES + OSCAR** |
-| Then the TV shows, the red cap, and a whole generation who wanted to explore the ocean. | top `red_cap.jpg` · pill **THE RED CAP** |
-| And the part nobody tells you: he became one of the loudest voices fighting to protect the sea he'd spent his life filming. | top `older.jpg` · pill **THE PROTECTOR** |
-| He wanted the sky. He got the whole ocean instead. | you, full screen |
-| Follow for the next legend: the climber who ate cat food and built Patagonia. |  |
+| # | Hook | Copied from |
+|---|---|---|
+| 1 | "Jacques Cousteau. Better known as the man in the red cap. He basically invented scuba diving, and he's still the most famous ocean explorer who ever lived." | [Let's Talk About It](https://www.instagram.com/reel/DaWEza9y-Dg/), 6.0M · 3,241×: *[Name]. More popularly known as [nickname]. [Age], [status].* |
+| 2 | "At twenty-six, he crashed his car, broke both arms, and lost his dream of flying." | [Lens on Legends: Dua Lipa](https://www.instagram.com/reel/DYul8wohxIL/), 735K · 259×: *At [age], [subject] [did a major life-changing thing].* |
+| 3 | "The French Navy knew him as a pilot who'd never fly. The world knows him as Jacques Cousteau." | [Babbu Maan (@currentyug)](https://www.instagram.com/reel/DdZDoR5hjBn/), 2.3M · 67×: *The local community calls them [title], but the world knows them by [name].* |
 
-End card from "Follow": **LIFESTYLE LEGENDS** / NEXT: YVON CHOUINARD
+| Beat | The winner said | You say | On screen |
+|---|---|---|---|
+| Hook | *Jordan Howlett. More popularly known as Jordan the Stallion. He's 28 years old and easily one of the most recognizable content creators on the planet.* | *(your hook)* | top `portrait.jpg` · **JACQUES COUSTEAU** |
+| Personal stake | *And last week I learned a little bit about his background and I can't stop thinking about it, his story is wild.* | And last week I learned what his life looked like before any of that, and I can't stop thinking about it. His story is wild. | you, full screen |
+| Series line | *This is Let's Talk About It. A series where I share the unique stories of people who inspire me… So let's talk about it.* | This is Lifestyle Legends, a series where I share the stories of people who lived first and figured out the work later. So let's get into it. | you, full screen |
+| The dream | *As a kid Jordan had dreams of being a professional baseball player.* | As a kid, Jacques wanted to fly. | top `naval_aviation.jpg` · **THE DREAM: FLYING** |
+| The grind | *In college he was broke and sleeping in a 97 Chevy Suburban but was still playing D1 baseball and being scouted by the MLB.* | He was a sickly kid who got thrown out of school, but he still made it into the French Naval Academy, training to be a pilot. | top `naval_academy.jpg` · **FRENCH NAVAL ACADEMY** |
+| The dream dies | *His dream was at his fingertips until COVID came, canceled his final season… and his dream was over.* | His dream was at his fingertips, until a car crash broke both his arms, and his flying career was over before it started. | top `old_car.jpg` · **1936: THE CRASH** |
+| The pivot | *Rather than shutting down, he used the experience to make a YouTube documentary called Dear Baseball and emailed 150 people a day to get noticed.* | Rather than giving up, he swam in the Mediterranean every single day to get his arms working again. | full `swim.mp4` · **THE REHAB** |
+| The question | *And who was he noticed by? None other than LeBron.* | And who changed everything? A friend, who handed him a pair of swimming goggles. | top `goggles.jpg` · **THE GOGGLES** |
+| The breakthrough | *Less than a week later he started creating content revealing the secrets of fast food recipes and he went viral.* | He put his face in the water, saw a world nobody had ever filmed, and a few years later he co-invented the Aqua-Lung so he could stay down there. | full `underwater.mp4`<br>top `aqualung.jpg` · **1943: THE AQUA-LUNG** |
+| Proof: a number | *His videos are generating around 90 million views a month.* | Every scuba diver on earth is breathing through a version of that idea. |  |
+| Proof: names | *Celebrities like Kevin Hart, Method Man, Donald Glover, Will Smith, Tom Holland have all worked with him… not the other way around.* | He sailed the world on his ship Calypso, won an Oscar and the top prize at Cannes, and a whole generation grew up wanting to explore the ocean because of him. | top `calypso.jpg` · **CALYPSO**<br>top `silent_world.jpg` · **CANNES + OSCAR** |
+| The lesson | *Life is going to hand you negative circumstances, career enders, and you can let it define you or you can rewrite your story.* | Life is going to take away the thing you planned on. You can let it end you, or you can put your face in the water and find the next thing. | you, full screen |
+| The lesson, part 2 | *In a world that favors instant gratification what really gets results is hard work, determination, tenacity and an unwavering belief in yourself.* | He wanted the sky. He got the whole ocean instead. |  |
+| Follow (Lens on Legends) | *Follow Lens on Legends for more untold stories about the icons who didn't just make history, they rewrote the rules to get there.* | Follow for the next legend: the climber who ate cat food and built Patagonia. |  |
+
+End card from "Follow": **LIFESTYLE LEGENDS** / NEXT: YVON CHOUINARD. Lines marked ✎ are personal: say them only if they're true for you, or swap in your version.
 
 <details><summary>Footage and images to gather</summary>
 
 - `01_talk.mp4`: you talking to camera
-- `portrait_navy.jpg`: Young Cousteau in naval uniform (check licence) or an illustration
-- `school.jpg`: 1920s French school or boarding school, old postcard
-- `camera.jpg`: 1920s Pathé home movie camera
+- `portrait.jpg`: Cousteau in the red cap (check licence) or an illustration
 - `naval_aviation.jpg`: 1930s French naval aviation photo
-- `swim.mp4`: YOU: swimming laps in the Mediterranean
+- `naval_academy.jpg`: École navale, 1930s postcard
+- `old_car.jpg`: 1930s car on a mountain road
+- `swim.mp4`: YOU: swimming in the Mediterranean
 - `goggles.jpg`: Vintage swimming goggles on a rock
 - `underwater.mp4`: YOU: underwater POV, fish and rocks
 - `aqualung.jpg`: Early Aqua-Lung regulator and tanks
 - `calypso.jpg`: The ship Calypso
 - `silent_world.jpg`: Poster or book cover of The Silent World
-- `red_cap.jpg`: A red wool cap on a ship's rail (YOU can shoot this)
-- `older.jpg`: Older Cousteau (check licence) or open ocean
 
 </details>
 
-✓ Check before posting: the 1936 car accident and the end of his naval-aviation training; expelled for breaking 17 windows; buying a movie camera at 13 and taking it apart; goggles from Philippe Tailliez at Le Mourillon, 1936; the 'lucky enough' quote from The Silent World; Aqua-Lung with Émile Gagnan, 1943; Calypso, a former minesweeper; The Silent World: Palme d'Or 1956, Oscar 1957; his campaigns against dumping waste in the sea.
+✓ Check before posting: expelled from school (the 17 broken windows story); École navale, training for naval aviation; the 1936 car crash that broke both arms and ended his flying; rehab swimming and the goggles from Philippe Tailliez; Aqua-Lung with Émile Gagnan, 1943; Calypso; The Silent World won the 1956 Palme d'Or and the 1957 Oscar.
+
+### A-short. The Origin Story, short cut: `cousteau_a_short`
+
+**Built line for line on:** [Jon Favreau (@winning.therapy)](https://www.instagram.com/reel/DDSdkJGoVRs/), 5.8M views · 556×. The winner runs 26 s (106 words), with the name in the first sentence. Shape: seven sentences: setup → setback → stuck → decision → the move → 'it wasn't just X' → result and lesson.
+
+**Yours:** 116 words, about 29 s. Post it as a talking head, or as a text post over a clip, like the winner. **Film:** One take to camera, 30 seconds, or post it as a text card over an ocean clip.
+
+**Three hooks.** Film all three; the plan works with any of them.
+
+| # | Hook | Copied from |
+|---|---|---|
+| 1 | "In 1936, Jacques Cousteau was training to be a navy pilot, thinking his life was set." | [Jon Favreau](https://www.instagram.com/reel/DDSdkJGoVRs/), 5.8M · 556×: *In [year], [person] [got X], thinking it would be [his big break]. But…* |
+| 2 | "In 1956, this was the most famous man under the sea. Twenty years earlier, he couldn't lift his arms." | [Alan Bond (@glasshouse.aus)](https://www.instagram.com/reel/DdpupJ_BinY/), 58K · 67×: *In [year], this was the [superlative] man in [place]. [Years] earlier, [opposite].* |
+| 3 | "This navy cadet broke both his arms, and ended up inventing scuba diving." | [Rohan Oza (@theventure)](https://www.instagram.com/reel/DcW8st3Rd1p/), 243K · 9.8×: *This [kind of person] [humble start] and built [huge result].* |
+
+| Beat | The winner said | You say | On screen |
+|---|---|---|---|
+| Setup | *In 1993, Jon Favreau landed a small but memorable role in the hit film Rudy, thinking it would be his big break.* | *(your hook)* | top `portrait_navy.jpg` · **JACQUES COUSTEAU** |
+| Setback | *But after the movie's success, work didn't follow.* | But a car crash broke both his arms, and ended it. | top `old_car.jpg` · **THE CRASH** |
+| Stuck | *He found himself stuck, unable to land substantial roles, questioning his future in Hollywood.* | He found himself swimming every morning, just to make his arms work again. | full `swim.mp4` |
+| Decision | *Frustrated, Favreau decided to take control of his career.* | Then a friend handed him goggles, and he decided that's where his life was going. | top `goggles.jpg` · **THE GOGGLES** |
+| The move | *Drawing from his struggles, he wrote Swingers, a low-budget film about friendship, heartbreak, and navigating the grind of Hollywood.* | Drawing on what he saw down there, he co-invented the Aqua-Lung, the scuba tank as we know it. | top `aqualung.jpg` · **THE AQUA-LUNG** |
+| Reframe | *It wasn't just a script—it was a lifeline.* | It wasn't just an invention. It was a door into a new world. | full `underwater.mp4` |
+| Result and lesson | *By betting on himself, Favreau created a cult classic that launched his career, proving that sometimes the only way forward is to create your own opportunities.* | By following the thing that found him, Cousteau became the most famous ocean explorer ever, proving that sometimes the plan falling apart is the plan. | top `portrait.jpg` · **JACQUES COUSTEAU** |
+| Sign-off (ours) | *(none in the winner)* | Follow for more Lifestyle Legends. |  |
+
+End card from "Follow": **LIFESTYLE LEGENDS** / FULL STORY ON THE PAGE. Lines marked ✎ are personal: say them only if they're true for you, or swap in your version.
+
+<details><summary>Footage and images to gather</summary>
+
+- `01_talk.mp4`: you talking to camera
+- `portrait_navy.jpg`: Young Cousteau in naval uniform (check licence) or an illustration
+- `old_car.jpg`: 1930s car on a mountain road
+- `swim.mp4`: YOU: swimming in the sea
+- `goggles.jpg`: Vintage swimming goggles
+- `aqualung.jpg`: Early Aqua-Lung
+- `underwater.mp4`: YOU: underwater POV
+- `portrait.jpg`: Cousteau in the red cap
+
+</details>
+
+✓ Check before posting: same facts as the long version.
 
 ### B. Guess the Legend: `cousteau_b_guess`
 
-**Length:** about 50 s (121 words). **Film:** One take to camera, no pauses, leaning in like you're quizzing a friend. A red cap in your hand is the silent last clue.
+**Built line for line on:** [Guess the footballer (@jackgrimse)](https://www.instagram.com/reel/DdjfzUURsA3/), 97K views · 12×. The winner runs 62 s, with the name hidden until 90% of the way through. Shape: one breathless present-tense run-on. Each clause starts with a verb and is one step. No ages, no pauses.
 
-**Watch first:** [Guess the footballer](https://www.instagram.com/reel/DdjfzUURsA3/) (main reference, 12×). [Editing breakdown](BREAKDOWNS.md#b-guess-the-legend)
+**Yours:** 182 words, about 59 s. Split screen: clue image on top with a blue pill, you underneath, captions on the seam. **Film:** One take to camera, no pauses. A red cap in your hand is the silent last clue.
 
-**What to copy:** Guess the footballer: one breathless present-tense run-on, a new image every clue, the reveal at about 90%, then 'comment when you knew'.
+**Three hooks.** Film all three; the plan works with any of them.
 
-| Say | On screen |
-|---|---|
-| Can you imagine living this explorer's life? Comment the second you know who it is. | top `portrait.jpg` (pixelated) · pill **GUESS THE LEGEND** |
-| A sickly kid who gets thrown out of school for breaking windows, | top `school.jpg` · pill **THE TROUBLEMAKER** |
-| buys his first movie camera at thirteen, | top `camera.jpg` · pill **AGE 13** |
-| joins the navy to become a pilot, | top `naval_aviation.jpg` · pill **THE NAVY** |
-| then a car crash breaks both his arms and ends it. | top `old_car.jpg` · pill **THE CRASH** |
-| He swims in the sea every day to recover, | full screen `swim.mp4` · pill **THE REHAB** |
-| puts on a pair of goggles, and never looks back. | top `goggles.jpg` · pill **THE GOGGLES** |
-| During the war, he helps invent a way to breathe underwater, | top `aqualung.jpg` · pill **THE INVENTION** |
-| sails an old minesweeper around the world with a camera, | top `calypso.jpg` (pixelated) · pill **THE SHIP** |
-| and wins an Oscar for showing everyone what's down there. | top `oscar.jpg` · pill **THE OSCAR** |
-| Last clue: the red cap. | top `red_cap.jpg` · pill **LAST CLUE** |
-| It's Jacques Cousteau. | top `portrait.jpg` · pill **JACQUES COUSTEAU** |
-| Comment when you got it, and follow for the next one. | you, full screen |
+| # | Hook | Copied from |
+|---|---|---|
+| 1 | "Can you imagine experiencing this explorer's rollercoaster life," | [Guess the footballer](https://www.instagram.com/reel/DdjfzUURsA3/), 97K · 12×: *Can you imagine experiencing this [type]'s rollercoaster [career]…* |
+| 2 | "Can you guess this legend from the story of his life," | [Guess the footballer (caption)](https://www.instagram.com/reel/DdjfzUURsA3/), 97K · 12×: *Can you guess this [type] from the story of their [career]…* |
+| 3 | "In the 1920s, nobody knew this sickly French schoolboy would end up famous," | [DiCaprio in Paris (@historic)](https://www.instagram.com/reel/DTL2tXCgGar/), 2.2M · 17.8×: *In [year], a [future legend] [did something ordinary], completely unnoticed…* |
 
-End card from "follow": **GUESS THE LEGEND** / NEXT: A CLIMBER TURNED BILLIONAIRE
+| Beat | The winner said | You say | On screen |
+|---|---|---|---|
+| Hook | *Can you imagine experiencing this footballer's rollercoaster career,* | *(your hook)* | top `portrait.jpg` (pixelated) · **GUESS THE LEGEND** |
+| Hard start | *growing up in government housing after his dad walked out on the family,* | growing up a sickly kid in France who gets thrown out of school for breaking windows, | top `school.jpg` · **THE TROUBLEMAKER** |
+| First break | *focuses on football and earns a scholarship to Man City's youth academy,* | saves up for a movie camera and takes it apart to see how it works, | top `camera.jpg` · **FIRST CAMERA** |
+| Leaves home | *goes on loan to a London club in search of first-team football,* | joins the navy in search of a life flying planes, | top `naval_aviation.jpg` · **THE NAVY** |
+| Struggle, then rise | *struggles to fit in at first, but his game speaks for itself and starts generating national attention,* | makes it through training, but a car crash breaks both his arms and ends it, | top `old_car.jpg` · **THE CRASH** |
+| Conflict | *returns to Manchester because of the owner's ego at his loan club,* | swims in the Mediterranean every day just to get his arms working again, | full `swim.mp4` · **THE REHAB** |
+| Earns it | *battles for a place in Pep Guardiola's squad and earns a spot in the starting XI by the end of the season,* | borrows a pair of goggles, looks under the water, and decides that's his life now, | top `goggles.jpg` · **THE GOGGLES** |
+| Twist | *provides the assist that sends his former club down, but joins permanently in the summer and brings them back to the Premier League.* | helps invent a way to breathe underwater in the middle of a world war, and takes it straight into the same sea. | top `aqualung.jpg` · **THE INVENTION** |
+| Peak | *An England call-up awaits, and in the coming seasons he helps his club win the FA Cup… and qualify for the Champions League in the process.* | A ship awaits, and in the coming years he films the ocean like nobody before him, and wins an Oscar and the top prize at Cannes in the process. | top `calypso.jpg` (pixelated) · **THE SHIP** |
+| Chapter ends | *This chapter ends when he is sold to FC Barcelona for a club-record fee.* | This chapter ends with a red cap, a TV show, and a whole generation wanting to explore the sea. | top `red_cap.jpg` · **LAST CLUE** |
+| Reveal | *By now, you probably know that this is the story of Jamie Tartt.* | By now, you probably know that this is the story of Jacques Cousteau. | top `portrait.jpg` · **JACQUES COUSTEAU** |
+| CTA | *Comment below when you figured it out.* | Comment below when you figured it out. |  |
+
+End card from "Comment": **GUESS THE LEGEND** / COMMENT WHEN YOU GOT IT. Lines marked ✎ are personal: say them only if they're true for you, or swap in your version.
 
 <details><summary>Footage and images to gather</summary>
 
@@ -123,53 +173,62 @@ End card from "follow": **GUESS THE LEGEND** / NEXT: A CLIMBER TURNED BILLIONAIR
 - `goggles.jpg`: Vintage swimming goggles
 - `aqualung.jpg`: Early scuba regulator
 - `calypso.jpg`: The ship, name on the hull pixelated
-- `oscar.jpg`: An Oscar statuette or 1950s premiere photo
 - `red_cap.jpg`: YOU: holding a red wool cap
 
 </details>
 
-✓ Check before posting: the same facts as version A.
+✓ Check before posting: same facts as the long version.
 
 ### C. In Their Footsteps: `cousteau_c_footsteps`
 
-**Length:** about 75 s (131 words). **Film:** Two days on the Riviera. 01 at Le Mourillon beach in Toulon (selfie, goggles in hand), 02 outside the Oceanographic Museum in Monaco. Plus underwater POV and the drive along the coast.
+**Built line for line on:** [Stevenson Trail (@heleneinbetween)](https://www.tiktok.com/@heleneinbetween/video/7646771334520769805), 578K views · 65× · 11% engagement. The winner runs 99 s, with the the legend is the reason, not the subject: named in passing at ~10 s, paid off at his landmark at ~85 s. Shape: contrast hook → 'no X, no Y, just me' → how it works → the day → the senses → 'this is not roughing it' → what changed for me → his landmark → the moral.
 
-**Watch first:** [Stevenson Trail](https://www.tiktok.com/@heleneinbetween/video/7646771334520769805) (main reference, 65×) · [Hever Castle](https://www.tiktok.com/@history_alice/video/7672324997637082390) (evidence shots, 13×) · [Harry DuBois](https://www.instagram.com/reel/DcEVwdNxIA5/) (title + list hook, 14×). [Editing breakdown](BREAKDOWNS.md#c-in-their-footsteps)
+**Yours:** 282 words, about 85 s. Full-screen B-roll every 1.5–3 s, you on camera ~25%, big title over the first seconds. **Film:** Two days on the Riviera: Le Mourillon beach in Toulon (selfie with goggles, underwater POV, the old port), then the Oceanographic Museum in Monaco.
 
-**What to copy:** Stevenson Trail + Hever Castle: a title over a selfie hook in the real place, B-roll every 1.5–3 s, you back on camera at the emotional beats, ending at the legend's landmark.
+**Opening title:** *Following Cousteau / along the Riviera*
 
-**Opening title** (until "1936"): *Following Cousteau / along the Riviera*
+**Three hooks.** Film all three; the plan works with any of them.
 
-| Say | On screen |
-|---|---|
-| This little beach in Toulon is where Jacques Cousteau first put his face in the sea. |  |
-| In 1936 he was a navy officer with two broken arms, swimming here every day to get them working again. | top `portrait_navy.jpg` · pill **LE MOURILLON, 1936** |
-| A friend gave him a pair of goggles. He looked down, and that was it. | top `goggles.jpg` · pill **THE GOGGLES** |
-| So I brought goggles. | you, full screen |
-| This is what he saw. | full screen `underwater.mp4` |
-| Seven years later, he and an engineer invented the Aqua-Lung, and took it into this same sea. | top `aqualung.jpg` · pill **1943: THE AQUA-LUNG** |
-| Then I followed the coast to Monaco. | full screen `coast_drive.mp4` |
-| Cousteau ran the Oceanographic Museum here for more than thirty years. | top `museum.mp4` · pill **OCEANOGRAPHIC MUSEUM, MONACO** |
-| The man who wanted to fly ended up with the whole ocean. | you, full screen |
-| Honestly, I get it. Put your face in the water for five minutes and tell me you don't. |  |
-| Follow for the next legend's footsteps. |  |
+| # | Hook | Copied from |
+|---|---|---|
+| 1 | "This is totally normal in the south of France and almost nobody knows it: a free beach where the father of scuba diving first looked under the sea." | [Stevenson Trail](https://www.tiktok.com/@heleneinbetween/video/7646771334520769805), 578K · 65×: *This is totally normal in [place A] and doesn't even exist in [place B].* |
+| 2 | "This is one of the most important beaches in the history of the ocean." | [Hever Castle (@history_alice)](https://www.tiktok.com/@history_alice/video/7672324997637082390), 471K · 13×: *This is one of the most important [rooms] in [history].* |
+| 3 | "I came to this beach because of a man in a red cap." | [Stevenson Trail (caption)](https://www.tiktok.com/@heleneinbetween/video/7646771334520769805), 578K · 65×: *I picked this [trip] because of a [book].* |
 
-End card from "Follow": **LIFESTYLE LEGENDS** / NEXT: CHOUINARD'S SURF RULE
+| Beat | The winner said | You say | On screen |
+|---|---|---|---|
+| Hook | *This is totally normal in Europe and doesn't even exist in the USA: inn-to-inn hiking.* | *(your hook)* |  |
+| No X, just me | *No tent, no backpack full of gear, just me, my snacks, my tripod, and 156 miles of France on Stevenson's Trail.* | No boat, no dive shop, no tank. Just me, a pair of goggles, and the beach in Toulon where Jacques Cousteau first looked under the water in 1936. | top `portrait_navy.jpg` · **LE MOURILLON, 1936** |
+| How it works | *Here's how it works. You stay in family-run village inns and small hotels along the way.* | Here's how it works. Le Mourillon is a public beach in Toulon, and the rocks start right off the sand. | full `beach.mp4` · **LE MOURILLON, TOULON** |
+| How it works, part 2 | *Every morning you leave your bag at reception, a Sherpa service moves all your stuff while you walk with just snacks and water.* | You walk in with goggles, swim out ten metres, put your face down, and that's it. | full `underwater.mp4` |
+| The day | *I'd walk anywhere from 8 to 20 miles per day, stopping for picnic lunches of crusty baguettes… and afternoon coffee in village cafés.* | ✎ I'd swim in the morning, eat lunch in the old port, and read about what he saw down here in the afternoon. | full `port.mp4` |
+| The evening | *Then I'd arrive at my next village inn, take a hot shower, and enjoy a proper French dinner every single night.* | ✎ Then I'd sit on the harbour wall with a coffee and dry off in the sun. |  |
+| The senses | *Walking Stevenson's Trail is like walking through idyllic France, through volcanic plateaus, fields of poppies, past stone houses dripping with climbing roses…* | Swimming here is like looking through a window: fish, rocks covered in weed, light coming down in lines, a whole world two metres under the tourists. | full `underwater2.mp4` |
+| Reframe | *This is not roughing it. It was challenging, but getting a hot shower and a five-course French meal every night was magnificent.* | This is not a dive trip. It's a pair of goggles and five minutes, and it changed his whole life. |  |
+| Proof | *I loved long-distance walking so much that this was my second one…* | ✎ I swim in this sea almost every day, and I'd never once bothered to look down. | you, full screen |
+| The turn | *But here's what really changed my life. Long-distance walking gave me a passion I never knew I had…* | But here's what really got me. He only started swimming because a crash had wrecked his arms, and he needed them back. |  |
+| His landmark | *On my final day the trail dropped me… into the town of Saint-Jean-du-Gard, the same village where Robert Louis Stevenson ended his own journey in 1878.* | On my last day I followed the coast to Monaco, to the Oceanographic Museum, the same building Cousteau ran for more than thirty years. | top `museum.mp4` · **OCEANOGRAPHIC MUSEUM, MONACO** |
+| The feeling | *Standing there, I couldn't believe what I'd done.* | Standing there, I couldn't believe it all started with a pair of goggles on that little beach. |  |
+| Transformation | *Two years ago I'd never call myself a hiker. Now I've walked hundreds of miles, lost 60 pounds…* | ✎ A week ago I'd never put my face in the water. Now I can't stop. | you, full screen |
+| The moral | *That's the power of choosing yourself.* | That's the power of looking down. |  |
+| Follow (ours) | *(none in the winner)* | Follow for the next legend's footsteps. |  |
+
+End card from "Follow": **LIFESTYLE LEGENDS** / NEXT: CHOUINARD'S SURF RULE. Lines marked ✎ are personal: say them only if they're true for you, or swap in your version.
 
 <details><summary>Footage and images to gather</summary>
 
 - `01_mourillon.mp4`: you talking to camera
 - `02_monaco.mp4`: you talking to camera
 - `portrait_navy.jpg`: Young Cousteau in naval uniform (check licence) or an illustration
-- `goggles.jpg`: Vintage goggles on these rocks
-- `underwater.mp4`: YOU: underwater POV off Le Mourillon
-- `aqualung.jpg`: Early Aqua-Lung regulator and tanks
-- `coast_drive.mp4`: YOU: driving or on the train along the coast
+- `beach.mp4`: YOU: walking onto the beach
+- `underwater.mp4`: YOU: underwater POV off the rocks
+- `port.mp4`: YOU: lunch in Toulon's old port
+- `underwater2.mp4`: YOU: more underwater shots
 - `museum.mp4`: YOU: walking up to the museum
 
 </details>
 
-✓ Check before posting: Le Mourillon, Toulon as the 1936 goggles beach; the Aqua-Lung's first sea dives off the Provence coast; director of the Oceanographic Museum of Monaco, 1957–1988.
+✓ Check before posting: Le Mourillon, Toulon as the 1936 goggles beach; director of the Oceanographic Museum of Monaco, 1957–1988.
 
 ---
 
@@ -177,73 +236,125 @@ End card from "Follow": **LIFESTYLE LEGENDS** / NEXT: CHOUINARD'S SURF RULE
 
 ### A. The Origin Story: `chouinard_a_origin`
 
-**Length:** about 90 s (209 words). **Film:** One take to camera at a crag or a surf break. Plus clips of you: a car boot full of gear, and surfing.
+**Built line for line on:** [Let's Talk About It (@sydney.yancy.ugc)](https://www.instagram.com/reel/DaWEza9y-Dg/), 6.0M views · 3,241× · 10% engagement. The winner runs about 2 min, with the name in the first second. Shape: one dream → the thing that killed it → one pivot → proof → the lesson. Five or six facts, one thread.
 
-**Watch first:** [Lens on Legends: Dua Lipa](https://www.instagram.com/reel/DYul8wohxIL/) (main reference, 259×) · [Let's Talk About It](https://www.instagram.com/reel/DaWEza9y-Dg/) (the series line, 3,241×) · [Jon Favreau](https://www.instagram.com/reel/DDSdkJGoVRs/) (text-post version, 556×). [Editing breakdown](BREAKDOWNS.md#a-the-origin-story)
+**Yours:** 284 words, about 114 s. Look and pacing from [Lens on Legends: Dua Lipa](https://www.instagram.com/reel/DYul8wohxIL/) (259×): a new picture every sentence, uppercase captions, a branded end card. **Film:** One take to camera at a crag or a surf break. Plus clips of you: a car boot full of gear, and surfing.
 
-**What to copy:** Lens on Legends, Dua Lipa + Let's Talk About It: a two-sentence hook from tiny to huge, the series line, short sentences, the detail nobody tells, a callback.
+**Three hooks.** Film all three; the plan works with any of them.
 
-| Say | On screen |
-|---|---|
-| At eighteen, Yvon Chouinard bought a used forge from a junkyard. Sixty-five years later, he gave away a three-billion-dollar company. | top `forge.jpg` · pill **1957** |
-| This is Lifestyle Legends: the people who lived first and figured out the work later. | you, full screen |
-| He was the French kid in a California school who barely spoke English. | top `young.jpg` · pill **THE OUTSIDER** |
-| He found falconry. Falconry led him to climbing. Climbing led him to Yosemite. | top `yosemite.jpg` · pill **YOSEMITE** |
-| He couldn't afford gear. So he taught himself to blacksmith, and made his own. | top `pitons.jpg` · pill **HOMEMADE PITONS** |
-| He sold it from the back of his car. A dollar fifty each. | top `car_boot.mp4` · pill **$1.50 EACH** |
-| He lived on about a dollar a day. Sometimes that meant cat food. | top `cat_food.jpg` · pill **THE DIET** |
-| By 1970, he was the biggest climbing gear supplier in America. | you, full screen |
-| Then he saw his gear was scarring the rock he loved. So he stopped selling it. | top `scarred_rock.jpg` · pill **SCARRING THE ROCK** |
-| He started selling clothes instead. He called the company Patagonia. | top `patagonia.jpg` · pill **1973: PATAGONIA** |
-| The rule at work? When the surf's up, go surfing. | full screen `surf.mp4` · pill **COMPANY POLICY** |
-| In 2022, he gave the whole company away to fight climate change. Earth is now the only shareholder. | top `headline.png` · pill **2022** |
-| The part nobody tells you: he always said he hated being called a businessman. | you, full screen |
-| The kid with the junkyard forge just wanted to keep climbing. |  |
-| Follow for the next legend: the writer who got blown up at eighteen, and won the Nobel Prize. |  |
+| # | Hook | Copied from |
+|---|---|---|
+| 1 | "Yvon Chouinard. Better known as the man who built Patagonia, then gave the whole three-billion-dollar company away." | [Let's Talk About It](https://www.instagram.com/reel/DaWEza9y-Dg/), 6.0M · 3,241×: *[Name]. More popularly known as [nickname]. [Age], [status].* |
+| 2 | "At eighteen, he was living on a dollar a day and eating cat food, just so he could keep climbing." | [Lens on Legends: Dua Lipa](https://www.instagram.com/reel/DYul8wohxIL/), 735K · 259×: *At [age], [subject] [did a major life-changing thing].* |
+| 3 | "This broke climber made his own gear in a junkyard forge, and built a three-billion-dollar company." | [Rohan Oza (@theventure)](https://www.instagram.com/reel/DcW8st3Rd1p/), 243K · 9.8×: *This [kind of person] [humble start] and built [huge result].* |
 
-End card from "Follow": **LIFESTYLE LEGENDS** / NEXT: ERNEST HEMINGWAY
+| Beat | The winner said | You say | On screen |
+|---|---|---|---|
+| Hook | *Jordan Howlett. More popularly known as Jordan the Stallion. He's 28 years old and easily one of the most recognizable content creators on the planet.* | *(your hook)* | top `portrait.jpg` · **YVON CHOUINARD** |
+| Personal stake | *And last week I learned a little bit about his background and I can't stop thinking about it, his story is wild.* | And last week I learned what his life looked like before any of that, and I can't stop thinking about it. His story is wild. | you, full screen |
+| Series line | *This is Let's Talk About It. A series where I share the unique stories of people who inspire me… So let's talk about it.* | This is Lifestyle Legends, a series where I share the stories of people who lived first and figured out the work later. So let's get into it. | you, full screen |
+| The dream | *As a kid Jordan had dreams of being a professional baseball player.* | As a kid, Yvon found climbing, and all he wanted was to live in Yosemite. | top `yosemite.jpg` · **THE DREAM: YOSEMITE** |
+| The grind | *In college he was broke and sleeping in a 97 Chevy Suburban but was still playing D1 baseball and being scouted by the MLB.* | He was broke, living on about a dollar a day, sometimes eating dented tins of cat food, but he was still climbing every big wall he could. | top `cat_food.jpg` · **A DOLLAR A DAY** |
+| The dream dies | *His dream was at his fingertips until COVID came, canceled his final season… and his dream was over.* | His dream was at his fingertips, but he couldn't afford the gear, and the gear he could buy wasn't good enough for those walls. | top `old_pitons.jpg` · **THE PROBLEM** |
+| The pivot | *Rather than shutting down, he used the experience to make a YouTube documentary called Dear Baseball and emailed 150 people a day to get noticed.* | Rather than quitting, he bought a used forge from a junkyard, taught himself to blacksmith, and made his own. | top `forge.jpg` · **THE JUNKYARD FORGE** |
+| The question | *And who was he noticed by? None other than LeBron.* | And who wanted them? Everyone he climbed with. | you, full screen |
+| The breakthrough | *Less than a week later he started creating content revealing the secrets of fast food recipes and he went viral.* | He sold them out of the back of his car for a dollar fifty each, and by 1970 he was the biggest climbing gear supplier in America. | top `car_boot.mp4` · **$1.50 EACH** |
+| Proof: a number | *His videos are generating around 90 million views a month.* | That little gear business turned into Patagonia, worth around three billion dollars. | top `patagonia.jpg` · **PATAGONIA** |
+| Proof: names | *Celebrities like Kevin Hart, Method Man, Donald Glover, Will Smith, Tom Holland have all worked with him… not the other way around.* | It ran on one rule: when the surf's up, go surfing. And in 2022 he gave the whole thing away to fight climate change. | full `surf.mp4` · **COMPANY POLICY**<br>top `headline.png` · **2022: GIVES IT AWAY** |
+| The lesson | *Life is going to hand you negative circumstances, career enders, and you can let it define you or you can rewrite your story.* | Life is going to tell you to grow up and get serious. You can listen, or you can keep doing the thing you love until it turns into the work. | you, full screen |
+| The lesson, part 2 | *In a world that favors instant gratification what really gets results is hard work, determination, tenacity and an unwavering belief in yourself.* | Chouinard never wanted a business. He just wanted to keep climbing. |  |
+| Follow (Lens on Legends) | *Follow Lens on Legends for more untold stories about the icons who didn't just make history, they rewrote the rules to get there.* | Follow for the next legend: the writer who got blown up at eighteen and won the Nobel Prize. |  |
+
+End card from "Follow": **LIFESTYLE LEGENDS** / NEXT: ERNEST HEMINGWAY. Lines marked ✎ are personal: say them only if they're true for you, or swap in your version.
 
 <details><summary>Footage and images to gather</summary>
 
 - `01_talk.mp4`: you talking to camera
-- `forge.jpg`: An old coal forge and anvil
-- `young.jpg`: Photo of young Chouinard (licensed) or a 1940s California schoolyard
+- `portrait.jpg`: Photo of Chouinard (licensed) or an illustration
 - `yosemite.jpg`: El Capitan or Camp 4, old photo
-- `pitons.jpg`: Old steel pitons
-- `car_boot.mp4`: YOU: opening a car boot full of climbing gear
 - `cat_food.jpg`: A dented tin of cat food
-- `scarred_rock.jpg`: Close-up of a scarred granite crack
+- `old_pitons.jpg`: Old soft-iron pitons
+- `forge.jpg`: An old coal forge and anvil
+- `car_boot.mp4`: YOU: opening a car boot full of climbing gear
 - `patagonia.jpg`: Patagonia shopfront or logo
 - `surf.mp4`: YOU: surfing
 - `headline.png`: Screenshot of the news headline
 
 </details>
 
-✓ Check before posting: 1957 used forge from a junkyard (he was 18); spoke only French at school in California; falconry led to climbing; pitons at $1.50, living on about $1 a day; the cat food story; biggest US climbing hardware supplier by 1970; phasing out pitons (1972 'clean climbing'); Patagonia 1973; 2022 transfer, ~$3B, 'Earth is now our only shareholder'; his line about hating to admit being a businessman (Let My People Go Surfing).
+✓ Check before posting: living on about $1 a day and the cat food story; the used forge from a junkyard (1957); pitons at $1.50 from his car; biggest US climbing hardware supplier by 1970; Patagonia's flextime rule; 2022 transfer, ~$3B; the 'billionaire' and age claims if you add any.
+
+### A-short. The Origin Story, short cut: `chouinard_a_short`
+
+**Built line for line on:** [Jon Favreau (@winning.therapy)](https://www.instagram.com/reel/DDSdkJGoVRs/), 5.8M views · 556×. The winner runs 26 s (106 words), with the name in the first sentence. Shape: seven sentences: setup → setback → stuck → decision → the move → 'it wasn't just X' → result and lesson.
+
+**Yours:** 111 words, about 28 s. Post it as a talking head, or as a text post over a clip, like the winner. **Film:** One take to camera, 30 seconds, or a text card over a climbing or surf clip.
+
+**Three hooks.** Film all three; the plan works with any of them.
+
+| # | Hook | Copied from |
+|---|---|---|
+| 1 | "In 1957, Yvon Chouinard was a broke climber living in Yosemite, thinking he could climb forever." | [Jon Favreau](https://www.instagram.com/reel/DDSdkJGoVRs/), 5.8M · 556×: *In [year], [person] [got X], thinking it would be [his big break]. But…* |
+| 2 | "In 2022, this man gave away a three-billion-dollar company. Sixty-five years earlier, he was eating cat food." | [Alan Bond (@glasshouse.aus)](https://www.instagram.com/reel/DdpupJ_BinY/), 58K · 67×: *In [year], this was the [superlative] man in [place]. [Years] earlier, [opposite].* |
+| 3 | "This climber ate cat food to stay in Yosemite, and ended up giving away a three-billion-dollar company." | [Rohan Oza (@theventure)](https://www.instagram.com/reel/DcW8st3Rd1p/), 243K · 9.8×: *This [kind of person] [humble start] and built [huge result].* |
+
+| Beat | The winner said | You say | On screen |
+|---|---|---|---|
+| Setup | *In 1993, Jon Favreau landed a small but memorable role in the hit film Rudy, thinking it would be his big break.* | *(your hook)* | top `yosemite.jpg` · **YVON CHOUINARD** |
+| Setback | *But after the movie's success, work didn't follow.* | But the gear he could afford wasn't good enough for the walls he wanted. | top `old_pitons.jpg` · **THE PROBLEM** |
+| Stuck | *He found himself stuck, unable to land substantial roles, questioning his future in Hollywood.* | He found himself living on a dollar a day, sometimes eating cat food. | top `cat_food.jpg` · **A DOLLAR A DAY** |
+| Decision | *Frustrated, Favreau decided to take control of his career.* | Frustrated, he decided to make his own. |  |
+| The move | *Drawing from his struggles, he wrote Swingers, a low-budget film about friendship, heartbreak, and navigating the grind of Hollywood.* | He bought a used forge from a junkyard, taught himself to blacksmith, and sold gear from his car. | top `forge.jpg` · **THE JUNKYARD FORGE** |
+| Reframe | *It wasn't just a script—it was a lifeline.* | It wasn't just gear. It was his ticket to keep climbing. | full `climb.mp4` |
+| Result and lesson | *By betting on himself, Favreau created a cult classic that launched his career, proving that sometimes the only way forward is to create your own opportunities.* | By refusing to give up the life he loved, Chouinard built Patagonia, proving that the best businesses start as a way to keep doing what you love. | top `patagonia.jpg` · **PATAGONIA** |
+| Sign-off (ours) | *(none in the winner)* | Follow for more Lifestyle Legends. |  |
+
+End card from "Follow": **LIFESTYLE LEGENDS** / FULL STORY ON THE PAGE. Lines marked ✎ are personal: say them only if they're true for you, or swap in your version.
+
+<details><summary>Footage and images to gather</summary>
+
+- `01_talk.mp4`: you talking to camera
+- `yosemite.jpg`: El Capitan or Camp 4, old photo
+- `old_pitons.jpg`: Old soft-iron pitons
+- `cat_food.jpg`: A dented tin of cat food
+- `forge.jpg`: An old coal forge and anvil
+- `climb.mp4`: YOU: climbing
+- `patagonia.jpg`: Patagonia shopfront or logo
+
+</details>
+
+✓ Check before posting: same facts as the long version.
 
 ### B. Guess the Legend: `chouinard_b_guess`
 
-**Length:** about 50 s (123 words). **Film:** One take to camera in a fleece, outdoors, no pauses.
+**Built line for line on:** [Guess the footballer (@jackgrimse)](https://www.instagram.com/reel/DdjfzUURsA3/), 97K views · 12×. The winner runs 62 s, with the name hidden until 90% of the way through. Shape: one breathless present-tense run-on. Each clause starts with a verb and is one step. No ages, no pauses.
 
-**Watch first:** [Guess the footballer](https://www.instagram.com/reel/DdjfzUURsA3/) (main reference, 12×). [Editing breakdown](BREAKDOWNS.md#b-guess-the-legend)
+**Yours:** 165 words, about 53 s. Split screen: clue image on top with a blue pill, you underneath, captions on the seam. **Film:** One take to camera in a fleece, outdoors, no pauses.
 
-**What to copy:** Guess the footballer: one breathless present-tense run-on, a new image every clue, the reveal at about 90%, then 'comment when you knew'.
+**Three hooks.** Film all three; the plan works with any of them.
 
-| Say | On screen |
-|---|---|
-| Can you imagine living this climber's life? Comment the second you know who it is. | top `portrait.jpg` (pixelated) · pill **GUESS THE LEGEND** |
-| A French-speaking outsider in a California school, | top `1940s_california.jpg` · pill **THE OUTSIDER** |
-| gets into falconry, which gets him into climbing, | top `falcon.jpg` · pill **FALCONRY** |
-| teaches himself blacksmithing to make his own gear, | top `forge.jpg` · pill **SELF-TAUGHT BLACKSMITH** |
-| sells it from the back of his car, lives on a dollar a day, eats cat food, | top `cat_food.jpg` · pill **THE DIET** |
-| builds the biggest climbing gear company in America, then quits his best seller because it's damaging the rock, | top `scarred_rock.jpg` · pill **QUITS HIS BEST SELLER** |
-| brings home a rugby shirt from Scotland and starts selling clothes, | top `rugby_shirt.jpg` · pill **THE RUGBY SHIRT** |
-| writes a book called Let My People Go Surfing, | top `book.jpg` (pixelated) · pill **THE BOOK** |
-| and in 2022 gives the entire company away to fight climate change. | top `headline.png` (pixelated) · pill **LAST CLUE** |
-| It's Yvon Chouinard. The founder of Patagonia. | top `portrait.jpg` · pill **YVON CHOUINARD** |
-| Comment when you got it, and follow for the next one. | you, full screen |
+| # | Hook | Copied from |
+|---|---|---|
+| 1 | "Can you imagine experiencing this climber's rollercoaster life," | [Guess the footballer](https://www.instagram.com/reel/DdjfzUURsA3/), 97K · 12×: *Can you imagine experiencing this [type]'s rollercoaster [career]…* |
+| 2 | "Can you guess this legend from the story of his life," | [Guess the footballer (caption)](https://www.instagram.com/reel/DdjfzUURsA3/), 97K · 12×: *Can you guess this [type] from the story of their [career]…* |
+| 3 | "In the 1950s, this broke climber was sleeping in the dirt in Yosemite, completely unknown," | [DiCaprio in Paris (@historic)](https://www.instagram.com/reel/DTL2tXCgGar/), 2.2M · 17.8×: *In [year], a [future legend] [did something ordinary], completely unnoticed…* |
 
-End card from "follow": **GUESS THE LEGEND** / NEXT: A WRITER WHO FISHED FOR MARLIN
+| Beat | The winner said | You say | On screen |
+|---|---|---|---|
+| Hook | *Can you imagine experiencing this footballer's rollercoaster career,* | *(your hook)* | top `portrait.jpg` (pixelated) · **GUESS THE LEGEND** |
+| Hard start | *growing up in government housing after his dad walked out on the family,* | growing up a French-speaking outsider at a California school, | top `1940s_california.jpg` · **THE OUTSIDER** |
+| First break | *focuses on football and earns a scholarship to Man City's youth academy,* | falls into falconry, which drops him straight into climbing, | top `falcon.jpg` · **FALCONRY** |
+| Leaves home | *goes on loan to a London club in search of first-team football,* | heads for Yosemite in search of the biggest walls in America, | top `yosemite.jpg` · **YOSEMITE** |
+| Struggle, then rise | *struggles to fit in at first, but his game speaks for itself and starts generating national attention,* | lives on a dollar a day and eats cat food, but his climbing speaks for itself, | top `cat_food.jpg` · **A DOLLAR A DAY** |
+| Conflict | *returns to Manchester because of the owner's ego at his loan club,* | can't stand the gear you can buy, so he teaches himself to blacksmith and forges his own, | top `forge.jpg` · **SELF-TAUGHT BLACKSMITH** |
+| Earns it | *battles for a place in Pep Guardiola's squad and earns a spot in the starting XI by the end of the season,* | sells it out of the back of his car and ends up running the biggest climbing gear company in America, | top `car_boot.mp4` · **FROM HIS CAR** |
+| Twist | *provides the assist that sends his former club down, but joins permanently in the summer and brings them back to the Premier League.* | then quits his best-selling product because it's damaging the rock, and starts selling clothes instead. | top `scarred_rock.jpg` · **QUITS HIS BEST SELLER** |
+| Peak | *An England call-up awaits, and in the coming seasons he helps his club win the FA Cup… and qualify for the Champions League in the process.* | A rugby shirt from Scotland awaits, and in the coming decades his clothing company is worth billions, with surfing written into company policy in the process. | top `rugby_shirt.jpg` · **THE RUGBY SHIRT** |
+| Chapter ends | *This chapter ends when he is sold to FC Barcelona for a club-record fee.* | This chapter ends when he gives the entire company away to fight climate change. | top `headline.png` (pixelated) · **LAST CLUE** |
+| Reveal | *By now, you probably know that this is the story of Jamie Tartt.* | By now, you probably know that this is the story of Yvon Chouinard. | top `portrait.jpg` · **YVON CHOUINARD** |
+| CTA | *Comment below when you figured it out.* | Comment below when you figured it out. |  |
+
+End card from "Comment": **GUESS THE LEGEND** / COMMENT WHEN YOU GOT IT. Lines marked ✎ are personal: say them only if they're true for you, or swap in your version.
 
 <details><summary>Footage and images to gather</summary>
 
@@ -251,56 +362,69 @@ End card from "follow": **GUESS THE LEGEND** / NEXT: A WRITER WHO FISHED FOR MAR
 - `portrait.jpg`: Portrait of Chouinard, face pixelated
 - `1940s_california.jpg`: 1940s Southern California street
 - `falcon.jpg`: A falcon on a glove
-- `forge.jpg`: An old coal forge and anvil
+- `yosemite.jpg`: El Capitan, old photo
 - `cat_food.jpg`: A dented tin of cat food
+- `forge.jpg`: An old coal forge and anvil
+- `car_boot.mp4`: YOU: car boot full of gear
 - `scarred_rock.jpg`: Scarred granite crack
 - `rugby_shirt.jpg`: A striped 1970s rugby shirt
-- `book.jpg`: YOU: holding the book, company name covered
 - `headline.png`: News headline, company name pixelated
 
 </details>
 
-✓ Check before posting: the 1970 rugby shirt from Scotland that started the clothing line.
+✓ Check before posting: the 1970 rugby shirt from Scotland that started the clothing line; phasing out pitons because they scarred the rock.
 
 ### C. In Their Footsteps: `chouinard_c_footsteps`
 
-**Length:** about 70 s (118 words). **Film:** A 'surf's up' workday: talk takes at dawn and in the afternoon, B-roll of the surf, laptop work while still wet, and a climb.
+**Built line for line on:** [Stevenson Trail (@heleneinbetween)](https://www.tiktok.com/@heleneinbetween/video/7646771334520769805), 578K views · 65× · 11% engagement. The winner runs 99 s, with the the legend is the reason, not the subject: named in passing at ~10 s, paid off at his landmark at ~85 s. Shape: contrast hook → 'no X, no Y, just me' → how it works → the day → the senses → 'this is not roughing it' → what changed for me → his landmark → the moral.
 
-**Watch first:** [Stevenson Trail](https://www.tiktok.com/@heleneinbetween/video/7646771334520769805) (main reference, 65×) · [Hever Castle](https://www.tiktok.com/@history_alice/video/7672324997637082390) (evidence shots, 13×) · [Harry DuBois](https://www.instagram.com/reel/DcEVwdNxIA5/) (title + list hook, 14×). [Editing breakdown](BREAKDOWNS.md#c-in-their-footsteps)
+**Yours:** 251 words, about 76 s. Full-screen B-roll every 1.5–3 s, you on camera ~25%, big title over the first seconds. **Film:** A week (or a day) living by the rule: dawn surf, laptop while still salty, an afternoon climb. Film the forecast check on your phone.
 
-**What to copy:** Harry DuBois + Stevenson Trail: a stacked-accomplishments hook under a big title, you living it in fast B-roll, back on camera for what you learned.
+**Opening title:** *Living by Patagonia's / one rule*
 
-**Opening title** (until "name"): *Living by Patagonia's / one rule for a day*
+**Three hooks.** Film all three; the plan works with any of them.
 
-| Say | On screen |
-|---|---|
-| He forged his own climbing gear, ate cat food to stay in Yosemite, and built a three-billion-dollar company around one rule. Today I'm following it. |  |
-| His name is Yvon Chouinard, and the rule is the title of his book: Let My People Go Surfing. | top `portrait.jpg` · pill **YVON CHOUINARD**<br>top `book.jpg` · pill **THE RULE** |
-| When the surf's up, you go surfing. You fit the work around it. | full screen `surf_dawn.mp4` · pill **DAWN PATROL** |
-| So: surf first. | you, full screen |
-| Then the laptop, still salty. | top `laptop.mp4` · pill **THEN WORK** |
-| Then a climb in the afternoon. | full screen `climb.mp4` |
-| Here's what surprised me: I got more done in four hours than on a normal day. | you, full screen |
-| Chouinard's trick is flexibility. Chase the good conditions, and fit the work around them. | top `portrait.jpg` · pill **THE TRICK** |
-| He built a company that way, then gave it all away. | top `headline.png` · pill **2022: GIVES IT AWAY** |
-| Follow for the next legend's footsteps. |  |
+| # | Hook | Copied from |
+|---|---|---|
+| 1 | "This is totally normal at one company and doesn't exist anywhere else: when the surf's up, you go surfing." | [Stevenson Trail](https://www.tiktok.com/@heleneinbetween/video/7646771334520769805), 578K · 65×: *This is totally normal in [place A] and doesn't even exist in [place B].* |
+| 2 | "This is one of the most famous rules in business history, and this week I'm living by it." | [Hever Castle (@history_alice)](https://www.tiktok.com/@history_alice/video/7672324997637082390), 471K · 13×: *This is one of the most important [rooms] in [history].* |
+| 3 | "I'm living by this rule this week because of a book." | [Stevenson Trail (caption)](https://www.tiktok.com/@heleneinbetween/video/7646771334520769805), 578K · 65×: *I picked this [trip] because of a [book].* |
 
-End card from "Follow": **LIFESTYLE LEGENDS** / NEXT: HEMINGWAY'S PARIS
+| Beat | The winner said | You say | On screen |
+|---|---|---|---|
+| Hook | *This is totally normal in Europe and doesn't even exist in the USA: inn-to-inn hiking.* | *(your hook)* |  |
+| No X, just me | *No tent, no backpack full of gear, just me, my snacks, my tripod, and 156 miles of France on Stevenson's Trail.* | No alarm, no commute, no meetings before ten. Just me, my board, my laptop, and one rule from Yvon Chouinard's book, Let My People Go Surfing. | top `book.jpg` · **LET MY PEOPLE GO SURFING** |
+| How it works | *Here's how it works. You stay in family-run village inns and small hotels along the way.* | Here's how it works. You check the surf forecast when you wake up. | full `forecast.mp4` |
+| How it works, part 2 | *Every morning you leave your bag at reception, a Sherpa service moves all your stuff while you walk with just snacks and water.* | If it's good, you go. The work waits until you're back, and it gets done around the waves. |  |
+| The day | *I'd walk anywhere from 8 to 20 miles per day, stopping for picnic lunches of crusty baguettes… and afternoon coffee in village cafés.* | ✎ I'd surf at dawn, work on the laptop still salty, and go climbing in the afternoon. | full `surf_dawn.mp4`<br>top `laptop.mp4` · **THEN WORK**<br>full `climb.mp4` |
+| The evening | *Then I'd arrive at my next village inn, take a hot shower, and enjoy a proper French dinner every single night.* | ✎ Then I'd finish the day's work at sunset, with nothing left on the list. |  |
+| The senses | *Walking Stevenson's Trail is like walking through idyllic France, through volcanic plateaus, fields of poppies, past stone houses dripping with climbing roses…* | Living by this rule is like getting your mornings back: cold water, an empty line-up, coffee on the tailgate, the whole day still in front of you. | full `morning_broll.mp4` |
+| Reframe | *This is not roughing it. It was challenging, but getting a hot shower and a five-course French meal every night was magnificent.* | ✎ This isn't skipping work. It's harder, honestly, because you have to be done before the wind comes up. | you, full screen |
+| Proof | *I loved long-distance walking so much that this was my second one…* | ✎ I did it for a full week. |  |
+| The turn | *But here's what really changed my life. Long-distance walking gave me a passion I never knew I had…* | ✎ But here's what really changed my mind. I got more done in four hours than I usually get done in eight. |  |
+| His landmark | *On my final day the trail dropped me… into the town of Saint-Jean-du-Gard, the same village where Robert Louis Stevenson ended his own journey in 1878.* | On my last day I reread the chapter where he explains it, the same rule he ran a three-billion-dollar company on, right up until he gave it away. | top `headline.png` · **2022: HE GIVES IT AWAY** |
+| The feeling | *Standing there, I couldn't believe what I'd done.* | Sitting there with wet hair, I couldn't believe I'd ever done it the other way. |  |
+| Transformation | *Two years ago I'd never call myself a hiker. Now I've walked hundreds of miles, lost 60 pounds…* | ✎ A week ago my mornings belonged to my inbox. Now they belong to the ocean. | you, full screen |
+| The moral | *That's the power of choosing yourself.* | That's the power of letting yourself go surfing. |  |
+| Follow (ours) | *(none in the winner)* | Follow for the next legend's footsteps. |  |
+
+End card from "Follow": **LIFESTYLE LEGENDS** / NEXT: HEMINGWAY'S PARIS. Lines marked ✎ are personal: say them only if they're true for you, or swap in your version.
 
 <details><summary>Footage and images to gather</summary>
 
 - `01_dawn.mp4`: you talking to camera
 - `02_afternoon.mp4`: you talking to camera
-- `portrait.jpg`: Photo of Chouinard (licensed) or an illustration
 - `book.jpg`: YOU: holding the book
-- `surf_dawn.mp4`: YOU: dawn surf session
+- `forecast.mp4`: YOU: checking the forecast on your phone in bed
+- `surf_dawn.mp4`: YOU: dawn surf
 - `laptop.mp4`: YOU: working on a laptop in a towel
-- `climb.mp4`: YOU: bouldering or a scramble
+- `climb.mp4`: YOU: climbing
+- `morning_broll.mp4`: YOU: line-up, coffee, tailgate
 - `headline.png`: Screenshot of the news headline
 
 </details>
 
-✓ Check before posting: Patagonia's flextime ('let my people go surfing') policy; only say the 'four hours' line if it's true for you.
+✓ Check before posting: Patagonia's flextime policy, explained in Let My People Go Surfing; every ✎ line must be true for you.
 
 ---
 
@@ -308,398 +432,207 @@ End card from "Follow": **LIFESTYLE LEGENDS** / NEXT: HEMINGWAY'S PARIS
 
 ### A. The Origin Story: `hemingway_a_origin`
 
-**Length:** about 100 s (269 words). **Film:** One take to camera on a boat or a harbour wall, slow and deliberate. Plus a clip of you deep-sea fishing or on a boat.
+**Built line for line on:** [Let's Talk About It (@sydney.yancy.ugc)](https://www.instagram.com/reel/DaWEza9y-Dg/), 6.0M views · 3,241× · 10% engagement. The winner runs about 2 min, with the name in the first second. Shape: one dream → the thing that killed it → one pivot → proof → the lesson. Five or six facts, one thread.
 
-**Watch first:** [Lens on Legends: Dua Lipa](https://www.instagram.com/reel/DYul8wohxIL/) (main reference, 259×) · [Let's Talk About It](https://www.instagram.com/reel/DaWEza9y-Dg/) (the series line, 3,241×) · [Jon Favreau](https://www.instagram.com/reel/DDSdkJGoVRs/) (text-post version, 556×). [Editing breakdown](BREAKDOWNS.md#a-the-origin-story)
+**Yours:** 285 words, about 114 s. Look and pacing from [Lens on Legends: Dua Lipa](https://www.instagram.com/reel/DYul8wohxIL/) (259×): a new picture every sentence, uppercase captions, a branded end card. **Film:** One take to camera on a boat or a harbour wall. Plus a clip of you deep-sea fishing or on a boat.
 
-**What to copy:** Lens on Legends, Dua Lipa: an age-and-shock hook, short sentences, a new picture every line, a payoff flurry, the detail nobody tells, and a moral that turns the series line around.
+**Three hooks.** Film all three; the plan works with any of them.
 
-| Say | On screen |
-|---|---|
-| At eighteen, Ernest Hemingway was blown up by a mortar shell in Italy, with more than two hundred pieces of shrapnel in his legs. | top `portrait_1918.jpg` · pill **ERNEST HEMINGWAY, 18** |
-| Everything he went on to write, he lived first. |  |
-| This is Lifestyle Legends: the people who lived first and figured out the work later. | you, full screen |
-| And Hemingway is the purest case. He only wrote what he'd lived. |  |
-| He grew up hunting and fishing in the woods of northern Michigan with his father. | top `michigan.jpg` · pill **NORTHERN MICHIGAN** |
-| Straight out of high school, he became a newspaper reporter. The style guide said: use short sentences. He never forgot it. | top `newsroom.jpg` · pill **AGE 18: REPORTER** |
-| The army turned him down for a bad eye, so he went to Italy to drive ambulances for the Red Cross. | top `ambulance.jpg` · pill **RED CROSS AMBULANCE** |
-| That's where the shell found him. | you, full screen |
-| In the hospital, he fell in love with his nurse. She turned him down by letter. | top `nurse.jpg` · pill **THE NURSE** |
-| That war, and that heartbreak, became A Farewell to Arms. | top `farewell.jpg` · pill **A FAREWELL TO ARMS** |
-| In his twenties he was broke in Paris, so hungry he'd take the long way round to avoid the smell of the bakeries. | top `paris_1920s.jpg` · pill **PARIS, 1920S** |
-| He ran with the bulls in Pamplona, and wrote The Sun Also Rises. | top `pamplona.jpg` · pill **PAMPLONA** |
-| He fished for marlin off Key West and Cuba on his own boat, the Pilar. | full screen `fishing.mp4` · pill **THE PILAR** |
-| Out of that came The Old Man and the Sea, a Pulitzer, and then the Nobel Prize. | top `old_man.jpg` · pill **THE OLD MAN AND THE SEA**<br>top `nobel.jpg` · pill **1954: NOBEL PRIZE** |
-| And the part nobody tells you: in 1954 he survived two plane crashes in two days, and got to read his own obituaries. | top `obituary.jpg` · pill **READS HIS OWN OBITUARY** |
-| His rule for writing was simple: write one true sentence. | you, full screen |
-| He didn't figure out the work later. For him, the living was the work. |  |
-| Follow for the next legend. |  |
+| # | Hook | Copied from |
+|---|---|---|
+| 1 | "Ernest Hemingway. Better known as the man who wrote The Old Man and the Sea. Nobel Prize, Pulitzer Prize, and one of the most famous writers who ever lived." | [Let's Talk About It](https://www.instagram.com/reel/DaWEza9y-Dg/), 6.0M · 3,241×: *[Name]. More popularly known as [nickname]. [Age], [status].* |
+| 2 | "At eighteen, he was blown up by a mortar shell in Italy, with more than two hundred pieces of shrapnel in his legs." | [Lens on Legends: Dua Lipa](https://www.instagram.com/reel/DYul8wohxIL/), 735K · 259×: *At [age], [subject] [did a major life-changing thing].* |
+| 3 | "Did you know the writer who won the Nobel Prize for a book about fishing actually got blown up in a war at eighteen?" | [Ronaldo, Part 187 (@aoieducation)](https://tiktok.com/@aoieducation/video/7648258694446124296), 3.6M · 8×: *Did you know [subject] who holds [achievement] actually [surprising background]?* |
 
-End card from "Follow": **LIFESTYLE LEGENDS** / NEXT WEEK: A NEW LEGEND
+| Beat | The winner said | You say | On screen |
+|---|---|---|---|
+| Hook | *Jordan Howlett. More popularly known as Jordan the Stallion. He's 28 years old and easily one of the most recognizable content creators on the planet.* | *(your hook)* | top `portrait_1918.jpg` · **ERNEST HEMINGWAY** |
+| Personal stake | *And last week I learned a little bit about his background and I can't stop thinking about it, his story is wild.* | And last week I learned what his life looked like before any of that, and I can't stop thinking about it. His story is wild. | you, full screen |
+| Series line | *This is Let's Talk About It. A series where I share the unique stories of people who inspire me… So let's talk about it.* | This is Lifestyle Legends, a series where I share the stories of people who lived first and figured out the work later. So let's get into it. | you, full screen |
+| The dream | *As a kid Jordan had dreams of being a professional baseball player.* | As a kid, Ernest grew up hunting and fishing in the Michigan woods, and he wanted adventure more than anything. | top `michigan.jpg` · **THE DREAM: ADVENTURE** |
+| The grind | *In college he was broke and sleeping in a 97 Chevy Suburban but was still playing D1 baseball and being scouted by the MLB.* | The army turned him down for a bad eye, but he still got to the war, driving ambulances for the Red Cross in Italy. | top `ambulance.jpg` · **RED CROSS AMBULANCE** |
+| The dream dies | *His dream was at his fingertips until COVID came, canceled his final season… and his dream was over.* | His adventure was at his fingertips, until a mortar shell exploded next to him and put more than two hundred pieces of shrapnel in his legs. | top `hospital_1918.jpg` · **1918: WOUNDED** |
+| The pivot | *Rather than shutting down, he used the experience to make a YouTube documentary called Dear Baseball and emailed 150 people a day to get noticed.* | Rather than going home and settling down, he went looking for more: broke in Paris, the bulls in Pamplona, marlin fishing off Cuba on his own boat. | top `paris_1920s.jpg` · **BROKE IN PARIS**<br>top `pamplona.jpg` · **PAMPLONA**<br>full `fishing.mp4` · **THE PILAR** |
+| The question | *And who was he noticed by? None other than LeBron.* | And what did he do with all of it? He wrote it down. | you, full screen |
+| The breakthrough | *Less than a week later he started creating content revealing the secrets of fast food recipes and he went viral.* | The war became A Farewell to Arms. Pamplona became The Sun Also Rises. The Gulf Stream became The Old Man and the Sea. | top `farewell.jpg` · **A FAREWELL TO ARMS**<br>top `sun_also_rises.jpg` · **THE SUN ALSO RISES**<br>top `old_man.jpg` · **THE OLD MAN AND THE SEA** |
+| Proof: a number | *His videos are generating around 90 million views a month.* | That last one won him the Pulitzer, and then the Nobel Prize. | top `nobel.jpg` · **1954: NOBEL PRIZE** |
+| Proof: names | *Celebrities like Kevin Hart, Method Man, Donald Glover, Will Smith, Tom Holland have all worked with him… not the other way around.* | He even survived two plane crashes in two days, and got to read his own obituaries. | top `obituary.jpg` · **READS HIS OWN OBITUARY** |
+| The lesson | *Life is going to hand you negative circumstances, career enders, and you can let it define you or you can rewrite your story.* | Life is going to tell you to wait until you've got something to say. You can wait, or you can go and live something worth saying. | you, full screen |
+| The lesson, part 2 | *In a world that favors instant gratification what really gets results is hard work, determination, tenacity and an unwavering belief in yourself.* | Hemingway lived it first. Then he wrote one true sentence about it. |  |
+| Follow (Lens on Legends) | *Follow Lens on Legends for more untold stories about the icons who didn't just make history, they rewrote the rules to get there.* | Follow for the next legend. |  |
+
+End card from "Follow": **LIFESTYLE LEGENDS** / NEXT WEEK: A NEW LEGEND. Lines marked ✎ are personal: say them only if they're true for you, or swap in your version.
 
 <details><summary>Footage and images to gather</summary>
 
 - `01_talk.mp4`: you talking to camera
 - `portrait_1918.jpg`: Hemingway in uniform in Milan, 1918 (public domain)
 - `michigan.jpg`: Michigan lake and woods, early 1900s
-- `newsroom.jpg`: 1910s newspaper newsroom
 - `ambulance.jpg`: WWI Red Cross ambulance in Italy
-- `nurse.jpg`: WWI Red Cross nurses in Milan, 1918
-- `farewell.jpg`: First-edition cover (check licence) or YOU holding a copy
-- `paris_1920s.jpg`: Paris street or café, 1920s
+- `hospital_1918.jpg`: Hemingway in the Milan hospital, 1918 (public domain)
+- `paris_1920s.jpg`: Paris café, 1920s
 - `pamplona.jpg`: Running of the bulls, 1920s
 - `fishing.mp4`: YOU: deep-sea fishing or out on a boat
-- `old_man.jpg`: YOU holding a copy of the book
-- `nobel.jpg`: Nobel medal image or 1954 headline
-- `obituary.jpg`: 1954 newspaper headline reporting him dead
+- `farewell.jpg`: YOU holding a copy
+- `sun_also_rises.jpg`: YOU holding a copy
+- `old_man.jpg`: YOU holding a copy
+- `nobel.jpg`: Nobel medal or 1954 headline
+- `obituary.jpg`: 1954 headline reporting him dead
 
 </details>
 
-✓ Check before posting: wounded at Fossalta di Piave on 8 July 1918, aged 18; 'more than two hundred' shrapnel fragments; Kansas City Star style sheet ('use short sentences'); rejected by the army for poor eyesight; nurse Agnes von Kurowsky turning him down by letter; the hunger-in-Paris detail from A Moveable Feast; Pilar, bought 1934; Pulitzer 1953, Nobel 1954; the two 1954 plane crashes and premature obituaries; the 'one true sentence' line (A Moveable Feast).
+✓ Check before posting: wounded at Fossalta di Piave, 8 July 1918, aged 18; 'more than two hundred' fragments; rejected by the army for his eyesight; the books-from-life pairings; Pulitzer 1953, Nobel 1954; the two 1954 plane crashes and premature obituaries.
 
-### B. Guess the Legend: `hemingway_b_guess`
+### A-short. The Origin Story, short cut: `hemingway_a_short`
 
-**Length:** about 50 s (117 words). **Film:** One take to camera, no pauses. A fishing rod or an old typewriter beside you is a nice silent clue.
+**Built line for line on:** [Jon Favreau (@winning.therapy)](https://www.instagram.com/reel/DDSdkJGoVRs/), 5.8M views · 556×. The winner runs 26 s (106 words), with the name in the first sentence. Shape: seven sentences: setup → setback → stuck → decision → the move → 'it wasn't just X' → result and lesson.
 
-**Watch first:** [Guess the footballer](https://www.instagram.com/reel/DdjfzUURsA3/) (main reference, 12×). [Editing breakdown](BREAKDOWNS.md#b-guess-the-legend)
+**Yours:** 121 words, about 30 s. Post it as a talking head, or as a text post over a clip, like the winner. **Film:** One take to camera, 30 seconds, or a text card over an old war or ocean clip.
 
-**What to copy:** Guess the footballer: one breathless present-tense run-on, a new image every clue, the reveal at about 90%, then 'comment when you knew'.
+**Three hooks.** Film all three; the plan works with any of them.
 
-| Say | On screen |
-|---|---|
-| Can you imagine living this writer's life? Comment the second you know who it is. | top `portrait.jpg` (pixelated) · pill **GUESS THE LEGEND** |
-| Grows up hunting and fishing in the Michigan woods, | top `michigan.jpg` · pill **THE WOODS** |
-| becomes a newspaper reporter at eighteen, | top `newsroom.jpg` · pill **AGE 18** |
-| drives ambulances in a world war and gets hit by a mortar shell, | top `ambulance.jpg` · pill **THE WAR** |
-| falls for his nurse, who dumps him by letter, | top `nurse.jpg` · pill **THE NURSE** |
-| lives broke in Paris with the most famous writers of the twenties, | top `paris_1920s.jpg` · pill **PARIS** |
-| runs with the bulls in Pamplona, | top `pamplona.jpg` · pill **PAMPLONA** |
-| fishes for marlin off Cuba on his own boat, | full screen `fishing.mp4` · pill **THE BOAT** |
-| survives two plane crashes in two days and reads his own obituary, | top `obituary.jpg` (pixelated) · pill **THE OBITUARY** |
-| and wins the Nobel Prize for a story about an old fisherman. | top `old_man.jpg` (pixelated) · pill **LAST CLUE** |
-| It's Ernest Hemingway. | top `portrait.jpg` · pill **ERNEST HEMINGWAY** |
-| Comment when you got it, and follow for the next one. | you, full screen |
+| # | Hook | Copied from |
+|---|---|---|
+| 1 | "In 1918, Ernest Hemingway went to war as an ambulance driver, thinking it would be the adventure of his life." | [Jon Favreau](https://www.instagram.com/reel/DDSdkJGoVRs/), 5.8M · 556×: *In [year], [person] [got X], thinking it would be [his big break]. But…* |
+| 2 | "In 1954, this man won the Nobel Prize. Thirty-six years earlier, he was lying in a field in Italy, full of shrapnel." | [Alan Bond (@glasshouse.aus)](https://www.instagram.com/reel/DdpupJ_BinY/), 58K · 67×: *In [year], this was the [superlative] man in [place]. [Years] earlier, [opposite].* |
+| 3 | "This eighteen-year-old ambulance driver got blown up in a war, and turned it into the Nobel Prize." | [Rohan Oza (@theventure)](https://www.instagram.com/reel/DcW8st3Rd1p/), 243K · 9.8×: *This [kind of person] [humble start] and built [huge result].* |
 
-End card from "follow": **GUESS THE LEGEND** / NEXT: ANOTHER LEGEND
+| Beat | The winner said | You say | On screen |
+|---|---|---|---|
+| Setup | *In 1993, Jon Favreau landed a small but memorable role in the hit film Rudy, thinking it would be his big break.* | *(your hook)* | top `portrait_1918.jpg` · **ERNEST HEMINGWAY** |
+| Setback | *But after the movie's success, work didn't follow.* | But a mortar shell exploded next to him, and filled his legs with shrapnel. | top `ambulance.jpg` · **1918: WOUNDED** |
+| Stuck | *He found himself stuck, unable to land substantial roles, questioning his future in Hollywood.* | He found himself in a Milan hospital, in love with a nurse who'd turn him down by letter. | top `hospital_1918.jpg` · **THE HOSPITAL** |
+| Decision | *Frustrated, Favreau decided to take control of his career.* | Instead of going home quiet, he decided to live everything he could. |  |
+| The move | *Drawing from his struggles, he wrote Swingers, a low-budget film about friendship, heartbreak, and navigating the grind of Hollywood.* | Drawing on all of it, he wrote it down: the war became A Farewell to Arms. | top `farewell.jpg` · **A FAREWELL TO ARMS** |
+| Reframe | *It wasn't just a script—it was a lifeline.* | It wasn't just writing. It was his life, one true sentence at a time. |  |
+| Result and lesson | *By betting on himself, Favreau created a cult classic that launched his career, proving that sometimes the only way forward is to create your own opportunities.* | By living it first, Hemingway won the Nobel Prize, proving that the best stories are the ones you go out and get. | top `nobel.jpg` · **1954: NOBEL PRIZE** |
+| Sign-off (ours) | *(none in the winner)* | Follow for more Lifestyle Legends. |  |
+
+End card from "Follow": **LIFESTYLE LEGENDS** / FULL STORY ON THE PAGE. Lines marked ✎ are personal: say them only if they're true for you, or swap in your version.
 
 <details><summary>Footage and images to gather</summary>
 
 - `01_talk.mp4`: you talking to camera
-- `portrait.jpg`: Portrait of Hemingway, face pixelated by the editor
+- `portrait_1918.jpg`: Hemingway in uniform, 1918 (public domain)
+- `ambulance.jpg`: WWI Red Cross ambulance in Italy
+- `hospital_1918.jpg`: Hemingway in the Milan hospital, 1918
+- `farewell.jpg`: YOU holding a copy
+- `nobel.jpg`: Nobel medal or 1954 headline
+
+</details>
+
+✓ Check before posting: the nurse (Agnes von Kurowsky) turning him down by letter; same facts as the long version.
+
+### B. Guess the Legend: `hemingway_b_guess`
+
+**Built line for line on:** [Guess the footballer (@jackgrimse)](https://www.instagram.com/reel/DdjfzUURsA3/), 97K views · 12×. The winner runs 62 s, with the name hidden until 90% of the way through. Shape: one breathless present-tense run-on. Each clause starts with a verb and is one step. No ages, no pauses.
+
+**Yours:** 166 words, about 54 s. Split screen: clue image on top with a blue pill, you underneath, captions on the seam. **Film:** One take to camera, no pauses. A fishing rod or an old typewriter beside you is a nice silent clue.
+
+**Three hooks.** Film all three; the plan works with any of them.
+
+| # | Hook | Copied from |
+|---|---|---|
+| 1 | "Can you imagine experiencing this writer's rollercoaster life," | [Guess the footballer](https://www.instagram.com/reel/DdjfzUURsA3/), 97K · 12×: *Can you imagine experiencing this [type]'s rollercoaster [career]…* |
+| 2 | "Can you guess this legend from the story of his life," | [Guess the footballer (caption)](https://www.instagram.com/reel/DdjfzUURsA3/), 97K · 12×: *Can you guess this [type] from the story of their [career]…* |
+| 3 | "In the 1920s, this broke young American walked around Paris completely unknown," | [DiCaprio in Paris (@historic)](https://www.instagram.com/reel/DTL2tXCgGar/), 2.2M · 17.8×: *In [year], a [future legend] [did something ordinary], completely unnoticed…* |
+
+| Beat | The winner said | You say | On screen |
+|---|---|---|---|
+| Hook | *Can you imagine experiencing this footballer's rollercoaster career,* | *(your hook)* | top `portrait.jpg` (pixelated) · **GUESS THE LEGEND** |
+| Hard start | *growing up in government housing after his dad walked out on the family,* | growing up hunting and fishing in the Michigan woods, desperate for adventure, | top `michigan.jpg` · **THE WOODS** |
+| First break | *focuses on football and earns a scholarship to Man City's youth academy,* | skips college and lands a job as a newspaper reporter, | top `newsroom.jpg` · **THE REPORTER** |
+| Leaves home | *goes on loan to a London club in search of first-team football,* | gets turned down by the army, so goes to war driving ambulances in search of the real thing, | top `ambulance.jpg` · **THE WAR** |
+| Struggle, then rise | *struggles to fit in at first, but his game speaks for itself and starts generating national attention,* | gets hit by a mortar shell, but keeps going, and comes home with a medal for bravery, | top `hospital_1918.jpg` (pixelated) · **THE SHELL** |
+| Conflict | *returns to Manchester because of the owner's ego at his loan club,* | falls for his nurse, who dumps him by letter, | top `nurse.jpg` · **THE NURSE** |
+| Earns it | *battles for a place in Pep Guardiola's squad and earns a spot in the starting XI by the end of the season,* | moves to Paris with no money and writes in cafés every morning, | top `paris_1920s.jpg` · **PARIS** |
+| Twist | *provides the assist that sends his former club down, but joins permanently in the summer and brings them back to the Premier League.* | runs with the bulls in Pamplona, then turns the whole trip into a bestselling novel. | top `pamplona.jpg` · **PAMPLONA** |
+| Peak | *An England call-up awaits, and in the coming seasons he helps his club win the FA Cup… and qualify for the Champions League in the process.* | A boat awaits, and in the coming years he fishes for marlin off Cuba, survives two plane crashes in two days, and reads his own obituary in the process. | full `fishing.mp4` · **THE BOAT** |
+| Chapter ends | *This chapter ends when he is sold to FC Barcelona for a club-record fee.* | This chapter ends when he wins the Nobel Prize for a story about an old fisherman. | top `old_man.jpg` (pixelated) · **LAST CLUE** |
+| Reveal | *By now, you probably know that this is the story of Jamie Tartt.* | By now, you probably know that this is the story of Ernest Hemingway. | top `portrait.jpg` · **ERNEST HEMINGWAY** |
+| CTA | *Comment below when you figured it out.* | Comment below when you figured it out. |  |
+
+End card from "Comment": **GUESS THE LEGEND** / COMMENT WHEN YOU GOT IT. Lines marked ✎ are personal: say them only if they're true for you, or swap in your version.
+
+<details><summary>Footage and images to gather</summary>
+
+- `01_talk.mp4`: you talking to camera
+- `portrait.jpg`: Portrait of Hemingway, face pixelated
 - `michigan.jpg`: Michigan lake and woods, early 1900s
 - `newsroom.jpg`: 1910s newsroom
 - `ambulance.jpg`: WWI Red Cross ambulance
+- `hospital_1918.jpg`: Milan hospital, 1918, face pixelated
 - `nurse.jpg`: WWI Red Cross nurses
 - `paris_1920s.jpg`: Paris café, 1920s
 - `pamplona.jpg`: Running of the bulls, 1920s
 - `fishing.mp4`: YOU: deep-sea fishing
-- `obituary.jpg`: 1954 headline, name pixelated
 - `old_man.jpg`: Book cover with the author's name pixelated
 
 </details>
 
-✓ Check before posting: the same facts as version A.
+✓ Check before posting: the Italian Silver Medal of Military Valour; same facts as the long version.
 
 ### C. In Their Footsteps: `hemingway_c_footsteps`
 
-**Length:** about 80 s (145 words). **Film:** One day in Paris, the A Moveable Feast route: talk takes on the street, outside 74 rue du Cardinal Lemoine (the plaque), writing in a café, the Luxembourg Gardens, the bookshop. Can't get to Paris? Do his Key West day on your coast instead: write standing up at dawn, fish all afternoon.
+**Built line for line on:** [Stevenson Trail (@heleneinbetween)](https://www.tiktok.com/@heleneinbetween/video/7646771334520769805), 578K views · 65× · 11% engagement. The winner runs 99 s, with the the legend is the reason, not the subject: named in passing at ~10 s, paid off at his landmark at ~85 s. Shape: contrast hook → 'no X, no Y, just me' → how it works → the day → the senses → 'this is not roughing it' → what changed for me → his landmark → the moral.
 
-**Watch first:** [Stevenson Trail](https://www.tiktok.com/@heleneinbetween/video/7646771334520769805) (main reference, 65×) · [Hever Castle](https://www.tiktok.com/@history_alice/video/7672324997637082390) (evidence shots, 13×) · [Harry DuBois](https://www.instagram.com/reel/DcEVwdNxIA5/) (title + list hook, 14×). [Editing breakdown](BREAKDOWNS.md#c-in-their-footsteps)
+**Yours:** 276 words, about 84 s. Full-screen B-roll every 1.5–3 s, you on camera ~25%, big title over the first seconds. **Film:** A few days in Paris on the A Moveable Feast route: 74 rue du Cardinal Lemoine (the plaque), writing in a café, the Luxembourg Gardens, Shakespeare and Company, and a last morning at La Closerie des Lilas.
 
-**What to copy:** Stevenson Trail + Hever Castle: a title over a selfie hook in the real place, the legend as the reason for the day, B-roll every 1.5–3 s, evidence shots (plaques, the bookshop), and what you learned.
+**Opening title:** *Writing like broke / Hemingway in Paris*
 
-**Opening title** (until "1921"): *One day as broke / Hemingway in Paris*
+**Three hooks.** Film all three; the plan works with any of them.
 
-| Say | On screen |
-|---|---|
-| I came to Paris to live one day exactly like a broke, twenty-two-year-old Ernest Hemingway. |  |
-| In 1921 he moved here with his wife Hadley and almost no money. | top `hemingway_hadley.jpg` · pill **PARIS, 1921** |
-| Step one: his first apartment, 74 rue du Cardinal Lemoine. No hot water, and a shared toilet on the landing. | full screen `apartment.mp4` · pill **STEP 1: 74 RUE DU CARDINAL LEMOINE** |
-| Step two: write in a café. His rule: write one true sentence, then the next one. | top `cafe_writing.mp4` · pill **STEP 2: ONE TRUE SENTENCE** |
-| And stop while you still know what happens next, so tomorrow is easy. | you, full screen |
-| Step three: the Luxembourg Gardens. He walked here when he was too broke to eat, because there was nothing to smell. | full screen `gardens.mp4` · pill **STEP 3: THE GARDENS** |
-| Step four: the bookshop. Shakespeare and Company lent him books when he couldn't afford them. | top `bookshop.mp4` · pill **STEP 4: SHAKESPEARE AND COMPANY** |
-| Here's what I learned. He wasn't waiting for a big life to write about. He went out and got one, then sat down and wrote it. | you, full screen |
-| Follow for the next legend's footsteps. |  |
+| # | Hook | Copied from |
+|---|---|---|
+| 1 | "This is totally normal in Paris and doesn't exist anywhere else: you can still sit and write in the café where Hemingway wrote his first novel." | [Stevenson Trail](https://www.tiktok.com/@heleneinbetween/video/7646771334520769805), 578K · 65×: *This is totally normal in [place A] and doesn't even exist in [place B].* |
+| 2 | "This is one of the most important café tables in the history of books." | [Hever Castle (@history_alice)](https://www.tiktok.com/@history_alice/video/7672324997637082390), 471K · 13×: *This is one of the most important [rooms] in [history].* |
+| 3 | "I came to Paris because of one sentence from Hemingway." | [Stevenson Trail (caption)](https://www.tiktok.com/@heleneinbetween/video/7646771334520769805), 578K · 65×: *I picked this [trip] because of a [book].* |
 
-End card from "Follow": **LIFESTYLE LEGENDS** / NEXT WEEK: A NEW LEGEND
+| Beat | The winner said | You say | On screen |
+|---|---|---|---|
+| Hook | *This is totally normal in Europe and doesn't even exist in the USA: inn-to-inn hiking.* | *(your hook)* |  |
+| No X, just me | *No tent, no backpack full of gear, just me, my snacks, my tripod, and 156 miles of France on Stevenson's Trail.* | No laptop, no phone, no plan. Just me, a notebook, and the Paris that Ernest Hemingway lived in when he was twenty-two and broke. | top `hemingway_hadley.jpg` · **PARIS, 1921** |
+| How it works | *Here's how it works. You stay in family-run village inns and small hotels along the way.* | Here's how it works. You start at his first apartment, 74 rue du Cardinal Lemoine, where he lived with no hot water. | full `apartment.mp4` · **74 RUE DU CARDINAL LEMOINE** |
+| How it works, part 2 | *Every morning you leave your bag at reception, a Sherpa service moves all your stuff while you walk with just snacks and water.* | Then you walk to a café, order one coffee, and do what he did: write one true sentence, then the next one. | top `cafe_writing.mp4` · **ONE TRUE SENTENCE** |
+| The day | *I'd walk anywhere from 8 to 20 miles per day, stopping for picnic lunches of crusty baguettes… and afternoon coffee in village cafés.* | ✎ I'd write all morning, walk the Luxembourg Gardens at lunch like he did when he was too broke to eat, and spend the afternoon at Shakespeare and Company. | full `gardens.mp4`<br>top `bookshop.mp4` · **SHAKESPEARE AND COMPANY** |
+| The evening | *Then I'd arrive at my next village inn, take a hot shower, and enjoy a proper French dinner every single night.* | Then I'd stop writing while I still knew what came next, like he said to, so the next morning was easy. | you, full screen |
+| The senses | *Walking Stevenson's Trail is like walking through idyllic France, through volcanic plateaus, fields of poppies, past stone houses dripping with climbing roses…* | Walking his Paris is like walking through his book: zinc bars, chestnut trees, the river, old men playing chess in the gardens. | full `paris_broll.mp4` |
+| Reframe | *This is not roughing it. It was challenging, but getting a hot shower and a five-course French meal every night was magnificent.* | This isn't a tourist trail. It's a notebook and a city, and it's exactly what made him. |  |
+| Proof | *I loved long-distance walking so much that this was my second one…* | ✎ I wrote more in those few days than I have all year. | you, full screen |
+| The turn | *But here's what really changed my life. Long-distance walking gave me a passion I never knew I had…* | But here's what really got me. He wasn't waiting for a big life to write about. He was out getting one. |  |
+| His landmark | *On my final day the trail dropped me… into the town of Saint-Jean-du-Gard, the same village where Robert Louis Stevenson ended his own journey in 1878.* | On my last morning I sat at La Closerie des Lilas, the same café where Hemingway wrote much of his first novel. | top `closerie.mp4` · **LA CLOSERIE DES LILAS** |
+| The feeling | *Standing there, I couldn't believe what I'd done.* | Sitting there, I couldn't believe it was still just a café. |  |
+| Transformation | *Two years ago I'd never call myself a hiker. Now I've walked hundreds of miles, lost 60 pounds…* | ✎ A week ago I hadn't written anything in years. Now I've got a notebook full. | you, full screen |
+| The moral | *That's the power of choosing yourself.* | That's the power of one true sentence. |  |
+| Follow (ours) | *(none in the winner)* | Follow for the next legend's footsteps. |  |
+
+End card from "Follow": **LIFESTYLE LEGENDS** / NEXT WEEK: A NEW LEGEND. Lines marked ✎ are personal: say them only if they're true for you, or swap in your version.
 
 <details><summary>Footage and images to gather</summary>
 
 - `01_street.mp4`: you talking to camera
-- `02_afternoon.mp4`: you talking to camera
+- `02_closerie.mp4`: you talking to camera
 - `hemingway_hadley.jpg`: Ernest and Hadley Hemingway, early 1920s (check licence)
 - `apartment.mp4`: YOU: in front of the building and its plaque
-- `cafe_writing.mp4`: YOU: writing in a notebook at a café table
-- `gardens.mp4`: YOU: walking through the Luxembourg Gardens
-- `bookshop.mp4`: YOU: outside and inside Shakespeare and Company
+- `cafe_writing.mp4`: YOU: writing in a notebook at a café
+- `gardens.mp4`: YOU: walking the Luxembourg Gardens
+- `bookshop.mp4`: YOU: outside and inside the bookshop
+- `paris_broll.mp4`: YOU: Paris B-roll
+- `closerie.mp4`: YOU: at a table at La Closerie des Lilas
 
 </details>
 
-✓ Check before posting: arrived in Paris in December 1921, aged 22; 74 rue du Cardinal Lemoine flat with no hot water and a toilet on the landing; the 'stop while you know what happens next' habit; walking the Luxembourg Gardens when hungry (A Moveable Feast); Sylvia Beach's original Shakespeare and Company was at 12 rue de l'Odéon; today's shop on the Seine is a later one that carries the name, so say that on camera or film the old address.
+✓ Check before posting: 74 rue du Cardinal Lemoine flat with no hot water; writing much of The Sun Also Rises at La Closerie des Lilas; walking the Luxembourg Gardens when hungry (A Moveable Feast); Sylvia Beach's original Shakespeare and Company was at 12 rue de l'Odéon; today's shop on the Seine is a later one that carries the name, so don't say he went to that one; every ✎ line must be true for you.
 
 ---
 
 ## The bench: Ep 04 and beyond
 
-Hemingway took the third slot. These are next in line:
+| | Legend | Why they fit | Data signal |
+|---|---|---|---|
+| 1 | **Robert Louis Stevenson** | Sickly kid from a family of lighthouse engineers. Trained as a lawyer and never really practised. Walked the Cévennes with a donkey, then wrote *Treasure Island*. | His trail *is* the Stevenson Trail winner (65×, 11% engagement), so the In Their Footsteps version would copy it almost exactly. The trail is in France. |
+| 2 | **Jack London** | Oyster pirate at 15, sailor, hobo and gold-rusher, then a bestselling author who learned to surf at Waikiki. | A *Call of the Wild* film-clip reel did 53.7M views (15×). |
+| 3 | **Ian Fleming** | Failed at everything his family wanted, then wrote James Bond at 43 after a morning swim in Jamaica. | Bond has the biggest name recognition. |
+| 4 | **Anthony Bourdain** | Line cook into his 40s; *Kitchen Confidential* at 44. His first oyster in France changed his life. | A Bourdain tribute reel did 3.2M views (9×). His death needs care: never make it the twist. |
 
-| | Legend | Why they fit | Data signal | Status |
-|---|---|---|---|---|
-| 1 | **Robert Louis Stevenson** | Sickly kid from a family of lighthouse engineers. Trained as a lawyer and never really practised. Walked the Cévennes with a donkey, then wrote *Treasure Island* and ended his life in Samoa. | The Stevenson Trail walk is **65× with 11% engagement**, the strongest In Their Footsteps result in the data. The trail is in France. | Not scripted yet |
-| 2 | **Jack London** | Oyster pirate at 15, sailor, hobo and gold-rusher, then a bestselling author who learned to surf at Waikiki. | A *Call of the Wild* film-clip reel did **53.7M views (15×)**. | **3 scripts ready** (below) |
-| 3 | **Ian Fleming** | Failed at everything his family wanted, then wrote James Bond at 43 after a morning swim in Jamaica. | Bond has the biggest name recognition. | **3 scripts ready** (below) |
-| 4 | **Anthony Bourdain** | Line cook into his 40s; *Kitchen Confidential* at 44. His first oyster in France changed his life. | A Bourdain tribute reel did **3.2M views (9×)**. His death needs care: never make it the twist. | Not scripted yet |
-
-
-### Bench, ready to film: Jack London
-
-#### A. The Origin Story: `london_a_origin`
-
-**Length:** about 80 s (227 words). **Film:** One take to camera on a dock or harbour wall, golden hour. Then a surf clip of you for the Hawaii beat.
-
-**Watch first:** [Lens on Legends: Dua Lipa](https://www.instagram.com/reel/DYul8wohxIL/) (main reference, 259×) · [Let's Talk About It](https://www.instagram.com/reel/DaWEza9y-Dg/) (the series line, 3,241×) · [Jon Favreau](https://www.instagram.com/reel/DDSdkJGoVRs/) (text-post version, 556×). [Editing breakdown](BREAKDOWNS.md#a-the-origin-story)
-
-| Say | On screen |
-|---|---|
-| At fifteen, Jack London borrowed three hundred dollars and became a pirate. | top `portrait.jpg` · pill **JACK LONDON** |
-| This is Lifestyle Legends: the people who lived first and figured out the work later. | you, full screen |
-| Jack grew up broke in Oakland, working ten-hour shifts in a cannery for ten cents an hour. | top `cannery.jpg` · pill **AGE 14: CANNERY WORKER** |
-| So he borrowed three hundred dollars from the woman who'd nursed him as a baby, bought a little sloop called the Razzle Dazzle, and started raiding oyster beds in San Francisco Bay at night. | top `sloop.jpg` · pill **THE RAZZLE DAZZLE**<br>top `oysters_night.mp4` · pill **OYSTER PIRATE** |
-| The waterfront called him the Prince of the Oyster Pirates. |  |
-| At seventeen he sailed to Japan on a sealing ship. | top `sealing_ship.jpg` · pill **1893: SEALING SHIP TO JAPAN** |
-| At eighteen he was riding freight trains across America, and got thrown in jail for vagrancy. | top `freight_train.jpg` · pill **AGE 18: HOBO** |
-| At twenty-one he went north for the Klondike gold rush. | top `klondike.jpg` · pill **1897: KLONDIKE GOLD RUSH** |
-| He found no gold. He came home with scurvy, no money, and a head full of stories. | you, full screen |
-| So he made himself write a thousand words a day, and editors kept sending them back. | top `notebook.mp4` · pill **1,000 WORDS A DAY** |
-| Then The Call of the Wild came out, and he became one of the most famous writers in the world. | top `call_of_the_wild.jpg` · pill **1903: THE CALL OF THE WILD** |
-| And the part nobody tells you? Already famous, he sailed to Hawaii and learned to surf at Waikiki. | top `waikiki_1907.jpg` · pill **1907: LEARNS TO SURF**<br>full screen `surf.mp4` |
-| He wrote one of the first articles that made the world care about surfing. |  |
-| He didn't plan a career. He lived first, and wrote it down later. | you, full screen |
-| Follow for the next legend. |  |
-
-End card from "Follow": **LIFESTYLE LEGENDS** / NEXT WEEK: A NEW LEGEND
-
-<details><summary>Footage and images to gather</summary>
-
-- `01_talk.mp4`: you talking to camera
-- `portrait.jpg`: Portrait of young Jack London (public domain, Wikimedia Commons)
-- `cannery.jpg`: 1890s cannery workers (Library of Congress)
-- `sloop.jpg`: Old oyster sloop on San Francisco Bay
-- `oysters_night.mp4`: YOU: shucking oysters on a dock at night by torchlight
-- `sealing_ship.jpg`: 1890s sealing schooner
-- `freight_train.jpg`: Hobos on a freight train, 1890s
-- `klondike.jpg`: Chilkoot Pass, 1898 (public domain)
-- `notebook.mp4`: YOU: writing in a notebook, close on the pen
-- `call_of_the_wild.jpg`: 1903 first-edition cover (public domain)
-- `waikiki_1907.jpg`: Waikiki surfers, early 1900s (public domain)
-- `surf.mp4`: YOU: paddling out and catching a wave
-
-</details>
-
-✓ Check before posting: the $300 loan from Virginia Prentiss at 15 and the Razzle Dazzle; cannery wages (10 cents an hour, 10+ hour shifts); sealing voyage at 17 (1893); 30 days for vagrancy at 18 (1894); Klondike 1897 and scurvy; 1,000 words a day; Waikiki 1907 and his surfing article 'A Royal Sport'.
-
-#### B. Guess the Legend: `london_b_guess`
-
-**Length:** about 50 s (121 words). **Film:** One take to camera, anywhere with character (a dock, a bar, a beach). Lean in like you're quizzing a friend.
-
-**Watch first:** [Guess the footballer](https://www.instagram.com/reel/DdjfzUURsA3/) (main reference, 12×). [Editing breakdown](BREAKDOWNS.md#b-guess-the-legend)
-
-| Say | On screen |
-|---|---|
-| Can you guess this legend from the story of his life? Comment the second you know. | top `portrait.jpg` (pixelated) · pill **GUESS THE LEGEND** |
-| Age fourteen: working in a cannery for ten cents an hour. | top `cannery.jpg` · pill **AGE 14** |
-| Age fifteen: buys a boat with borrowed money and steals oysters at night. | top `sloop.jpg` · pill **AGE 15** |
-| Then switches sides and joins the fish patrol, catching the pirates he used to sail with. | top `fish_patrol.jpg` · pill **SWITCHES SIDES** |
-| Age seventeen: sails to Japan on a sealing ship. | top `sealing_ship.jpg` · pill **AGE 17** |
-| Age eighteen: thirty days in jail for vagrancy. | top `jail.jpg` · pill **AGE 18** |
-| Age twenty-one: the Klondike. No gold. Scurvy. | top `klondike.jpg` · pill **AGE 21** |
-| Age twenty-seven: writes a book about a dog that sells millions. | top `sled_dog.jpg` · pill **AGE 27** |
-| Age thirty-one: learns to surf in Hawaii. | top `waikiki_1907.jpg` · pill **AGE 31** |
-| Still nothing? You probably read his book in school. | top `call_of_the_wild.jpg` (pixelated) · pill **LAST CLUE** |
-| It's Jack London. | top `portrait.jpg` · pill **JACK LONDON** |
-| Comment when you got it, and follow for the next one. | you, full screen |
-
-End card from "follow": **GUESS THE LEGEND** / NEXT: ANOTHER LEGEND
-
-<details><summary>Footage and images to gather</summary>
-
-- `01_talk.mp4`: you talking to camera
-- `portrait.jpg`: Portrait of Jack London, face pixelated by the editor
-- `cannery.jpg`: 1890s cannery workers
-- `sloop.jpg`: Old oyster sloop
-- `fish_patrol.jpg`: California Fish Patrol boat or 1890s patrol photo
-- `sealing_ship.jpg`: 1890s sealing schooner
-- `jail.jpg`: 1890s jail or penitentiary photo
-- `klondike.jpg`: Chilkoot Pass, 1898
-- `sled_dog.jpg`: Historic sled-dog photo
-- `waikiki_1907.jpg`: Waikiki surfers, early 1900s
-- `call_of_the_wild.jpg`: 1903 cover with the title pixelated
-
-</details>
-
-✓ Check before posting: ages for each beat (born January 1876); California Fish Patrol after the oyster piracy.
-
-#### C. In Their Footsteps: `london_c_footsteps`
-
-**Length:** about 75 s (156 words). **Film:** Two talk takes: 01 on a dock at night with oysters, 02 next morning on the beach with a board. Plus b-roll of you on a boat, writing, and surfing.
-
-**Watch first:** [Stevenson Trail](https://www.tiktok.com/@heleneinbetween/video/7646771334520769805) (main reference, 65×) · [Hever Castle](https://www.tiktok.com/@history_alice/video/7672324997637082390) (evidence shots, 13×) · [Harry DuBois](https://www.instagram.com/reel/DcEVwdNxIA5/) (title + list hook, 14×). [Editing breakdown](BREAKDOWNS.md#c-in-their-footsteps)
-
-| Say | On screen |
-|---|---|
-| I'm shucking oysters on a dock at midnight because of a writer who used to steal them. |  |
-| In 1891, a fifteen-year-old named Jack London raided oyster beds like these in San Francisco Bay. | top `portrait.jpg` · pill **JACK LONDON** |
-| He did it in a sloop called the Razzle Dazzle, bought with three hundred borrowed dollars. | top `sloop.jpg` · pill **THE RAZZLE DAZZLE** |
-| Then he went to sea, rode the rails, chased gold in the Klondike, and came home broke. | full screen `boat.mp4` |
-| Everything he lived, he wrote down. A thousand words a day. | top `notebook.mp4` · pill **1,000 WORDS A DAY** |
-| So that's the plan for this trip: live it first, write it down after. | you, full screen |
-| And the next morning, I'm doing what he did once he was already famous. |  |
-| In 1907 he sailed to Hawaii and learned to surf at Waikiki. | top `waikiki_1907.jpg` · pill **WAIKIKI, 1907** |
-| He got so sunburned he was stuck in bed, and went straight back out. | full screen `surf.mp4` |
-| Here's what I think he figured out. The adventure wasn't a break from the work. It was the work. | you, full screen |
-| Follow for the next legend's footsteps. |  |
-
-End card from "Follow": **LIFESTYLE LEGENDS** / NEXT WEEK: A NEW LEGEND
-
-<details><summary>Footage and images to gather</summary>
-
-- `01_dock_night.mp4`: you talking to camera
-- `02_beach_morning.mp4`: you talking to camera
-- `portrait.jpg`: Portrait of young Jack London
-- `sloop.jpg`: Old oyster sloop
-- `boat.mp4`: YOU: on a boat or sailing, wide shot
-- `notebook.mp4`: YOU: writing in a notebook on the dock
-- `waikiki_1907.jpg`: Waikiki surfers, early 1900s
-- `surf.mp4`: YOU: catching a wave
-
-</details>
-
-✓ Check before posting: 1891 oyster piracy at 15; the sunburn after his first surf sessions in 1907.
-
----
-
-### Bench, ready to film: Ian Fleming
-
-#### A. The Origin Story: `fleming_a_origin`
-
-**Length:** about 85 s (216 words). **Film:** One take to camera by the sea, linen shirt. Plus a snorkel clip of you for the routine beat.
-
-**Watch first:** [Lens on Legends: Dua Lipa](https://www.instagram.com/reel/DYul8wohxIL/) (main reference, 259×) · [Let's Talk About It](https://www.instagram.com/reel/DaWEza9y-Dg/) (the series line, 3,241×) · [Jon Favreau](https://www.instagram.com/reel/DDSdkJGoVRs/) (text-post version, 556×). [Editing breakdown](BREAKDOWNS.md#a-the-origin-story)
-
-| Say | On screen |
-|---|---|
-| Ian Fleming. The man who invented James Bond. By forty, he'd failed at almost everything. | top `portrait.jpg` · pill **IAN FLEMING** |
-| This is Lifestyle Legends: the people who lived first and figured out the work later. | you, full screen |
-| His big brother was the famous one, a best-selling travel writer. Ian was the problem child. | top `family.jpg` · pill **THE FAMOUS BROTHER** |
-| He left military academy early. He failed the Foreign Office exam. | top `sandhurst.jpg` · pill **STRIKE ONE, STRIKE TWO** |
-| He became a stockbroker, and later called himself the worst stockbroker in the world. | top `stock_exchange.jpg` · pill **THE WORST STOCKBROKER** |
-| Then the war came. He became the right-hand man to the head of British naval intelligence, planning operations straight out of a spy novel. | top `admiralty.jpg` · pill **NAVAL INTELLIGENCE** |
-| In 1944 he visited Jamaica, and told a friend he'd live there one day. | top `jamaica_map.jpg` · pill **JAMAICA, 1944** |
-| Two years later he built a house on the water and called it Goldeneye. | top `goldeneye.jpg` · pill **GOLDENEYE** |
-| He even got his newspaper to give him two months off every winter to go there. | you, full screen |
-| Every morning: swim the reef, then write about two thousand words. | full screen `snorkel.mp4` · pill **THE ROUTINE** |
-| At forty-three, he sat down at Goldeneye and wrote Casino Royale. | top `casino_royale.jpg` · pill **1952: CASINO ROYALE** |
-| He named his spy after the author of a bird book on his shelf, because he wanted the dullest name he could find. | top `birds_book.jpg` · pill **BIRDS OF THE WEST INDIES** |
-| Fourteen Bond books. Every one written in the Jamaican winter. | top `bond_books.jpg` · pill **14 BOND BOOKS** |
-| He failed at the careers everyone wanted for him, then built one around the life he wanted. | you, full screen |
-| Follow for the next legend. |  |
-
-End card from "Follow": **LIFESTYLE LEGENDS** / NEXT WEEK: A NEW LEGEND
-
-<details><summary>Footage and images to gather</summary>
-
-- `01_talk.mp4`: you talking to camera
-- `portrait.jpg`: Portrait of Ian Fleming (check licence) or an illustrated portrait
-- `family.jpg`: 1920s English country house or family photo
-- `sandhurst.jpg`: Royal Military College, Sandhurst (old postcard)
-- `stock_exchange.jpg`: 1930s London Stock Exchange
-- `admiralty.jpg`: The Admiralty building, London, 1940s
-- `jamaica_map.jpg`: Old map of Jamaica
-- `goldeneye.jpg`: Goldeneye house or the cove at Oracabessa
-- `snorkel.mp4`: YOU: snorkelling over a reef
-- `casino_royale.jpg`: YOU holding a copy of Casino Royale
-- `birds_book.jpg`: The bird book by ornithologist James Bond
-- `bond_books.jpg`: YOU: a stack of the paperbacks
-
-</details>
-
-✓ Check before posting: left Sandhurst early; failed the Foreign Office exam; the 'worst stockbroker' self-description; assistant to Admiral Godfrey, Director of Naval Intelligence; 1944 Jamaica visit; Goldeneye built 1946; Sunday Times contract with two months off each winter; Casino Royale written early 1952, age 43; named after ornithologist James Bond, 'the dullest name'; 14 Bond books written at Goldeneye.
-
-#### B. Guess the Legend: `fleming_b_guess`
-
-**Length:** about 50 s (123 words). **Film:** One take to camera. A martini on the table is a nice silent clue.
-
-**Watch first:** [Guess the footballer](https://www.instagram.com/reel/DdjfzUURsA3/) (main reference, 12×). [Editing breakdown](BREAKDOWNS.md#b-guess-the-legend)
-
-| Say | On screen |
-|---|---|
-| Can you guess this legend from the story of his life? Comment the second you know. | top `portrait.jpg` (pixelated) · pill **GUESS THE LEGEND** |
-| Rich family. Famous older brother. He's the disappointment. | top `family.jpg` · pill **THE DISAPPOINTMENT** |
-| Leaves military academy early. Strike one. | top `sandhurst.jpg` · pill **STRIKE ONE** |
-| Fails the Foreign Office exam. Strike two. | top `foreign_office.jpg` · pill **STRIKE TWO** |
-| Becomes a stockbroker, and says he's the worst one in the world. Strike three. | top `stock_exchange.jpg` · pill **STRIKE THREE** |
-| Then the war: he's planning secret operations for naval intelligence. | top `admiralty.jpg` · pill **WORLD WAR II** |
-| After the war, he builds a house above a reef in Jamaica. | top `goldeneye.jpg` · pill **THE HIDEOUT** |
-| He swims every morning, and writes every morning. | full screen `snorkel.mp4` |
-| At forty-three, he writes his first novel in about two months. | top `typewriter.jpg` · pill **FIRST NOVEL** |
-| Last clue: his main character likes his martini shaken, not stirred. | top `martini.jpg` · pill **LAST CLUE** |
-| It's Ian Fleming. The man who invented James Bond. | top `portrait.jpg` · pill **IAN FLEMING** |
-| Comment when you got it, and follow for the next one. | you, full screen |
-
-End card from "follow": **GUESS THE LEGEND** / NEXT: ANOTHER LEGEND
-
-<details><summary>Footage and images to gather</summary>
-
-- `01_talk.mp4`: you talking to camera
-- `portrait.jpg`: Portrait of Ian Fleming, face pixelated
-- `family.jpg`: 1920s English country house
-- `sandhurst.jpg`: Sandhurst, old postcard
-- `foreign_office.jpg`: The Foreign Office, London
-- `stock_exchange.jpg`: 1930s London Stock Exchange
-- `admiralty.jpg`: The Admiralty, 1940s
-- `goldeneye.jpg`: The cove at Oracabessa, Jamaica
-- `snorkel.mp4`: YOU: snorkelling over a reef
-- `typewriter.jpg`: Old typewriter on a terrace
-- `martini.jpg`: YOU: a martini on the bar
-
-</details>
-
-✓ Check before posting: Casino Royale written in about two months (Jan–Mar 1952).
-
-#### C. In Their Footsteps: `fleming_c_footsteps`
-
-**Length:** about 70 s (127 words). **Film:** A full 'Fleming day' somewhere with a reef: talk takes in the morning and evening, b-roll of the swim, writing on a terrace, lunch and a nap.
-
-**Watch first:** [Stevenson Trail](https://www.tiktok.com/@heleneinbetween/video/7646771334520769805) (main reference, 65×) · [Hever Castle](https://www.tiktok.com/@history_alice/video/7672324997637082390) (evidence shots, 13×) · [Harry DuBois](https://www.instagram.com/reel/DcEVwdNxIA5/) (title + list hook, 14×). [Editing breakdown](BREAKDOWNS.md#c-in-their-footsteps)
-
-| Say | On screen |
-|---|---|
-| I'm about to live one day exactly like the man who wrote James Bond. |  |
-| His name was Ian Fleming, and he wrote Casino Royale at a house on the water in Jamaica called Goldeneye. | top `portrait.jpg` · pill **IAN FLEMING**<br>top `goldeneye.jpg` · pill **GOLDENEYE, JAMAICA** |
-| His routine was simple. Wake up, swim the reef. | full screen `snorkel.mp4` · pill **STEP 1: SWIM** |
-| Then he'd sit down and write about two thousand words before lunch. | top `writing.mp4` · pill **STEP 2: 2,000 WORDS** |
-| Lunch. A long nap. A little more work in the evening. | full screen `lunch_nap.mp4` · pill **STEP 3: LUNCH, NAP** |
-| That's it. That's the schedule that built fourteen Bond books. | top `bond_books.jpg` · pill **14 BOOKS** |
-| So, I did it. Here's my two thousand words, written with salt still in my hair. | top `my_pages.mp4` · pill **MY 2,000 WORDS** |
-| Honest review: the swim makes the writing easier. Your brain shows up already awake. | you, full screen |
-| Fleming didn't separate the life from the work. The sea is all over those books. |  |
-| Follow for the next legend's footsteps. |  |
-
-End card from "Follow": **LIFESTYLE LEGENDS** / NEXT WEEK: A NEW LEGEND
-
-<details><summary>Footage and images to gather</summary>
-
-- `01_morning.mp4`: you talking to camera
-- `02_evening.mp4`: you talking to camera
-- `portrait.jpg`: Portrait of Ian Fleming (check licence)
-- `goldeneye.jpg`: The cove at Oracabessa
-- `snorkel.mp4`: YOU: snorkelling over a reef
-- `writing.mp4`: YOU: writing on a terrace, sea behind
-- `lunch_nap.mp4`: YOU: lunch with a view, then a hammock
-- `bond_books.jpg`: YOU: a stack of the paperbacks
-- `my_pages.mp4`: YOU: flipping through your written pages
-
-</details>
-
-✓ Check before posting: his routine (morning swim, about 2,000 words, nap, evening revision) from his essay 'How to Write a Thriller'; only say the 'honest review' line if it's true for you.
+The older London and Fleming drafts didn't follow the winner templates, so I took them out. They're still in git history, and I'll rewrite them on these templates when one of them is up next.
