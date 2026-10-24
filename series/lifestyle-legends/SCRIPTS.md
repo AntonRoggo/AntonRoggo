@@ -37,7 +37,9 @@ Before posting, check every fact marked ✓. They're from memory and haven't bee
 
 **Length:** about 95 s (284 words). **Film:** One take to camera on the rocks above the sea, slow and serious. Plus two clips of you: swimming in the Med, and an underwater POV with goggles or a mask.
 
-**Built on:** Lens on Legends, Dua Lipa: one bold fact first, short declarative sentences, a payoff flurry, the detail nobody tells, and a callback to the hook. See [BREAKDOWNS.md](BREAKDOWNS.md).
+**Watch first:** [Lens on Legends: Dua Lipa](https://www.instagram.com/reel/DYul8wohxIL/) (main reference, 259×) · [Let's Talk About It](https://www.instagram.com/reel/DaWEza9y-Dg/) (the series line, 3,241×) · [Jon Favreau](https://www.instagram.com/reel/DDSdkJGoVRs/) (text-post version, 556×). [Editing breakdown](BREAKDOWNS.md#a-the-origin-story)
+
+**What to copy:** Lens on Legends, Dua Lipa: one bold fact first, short declarative sentences, a payoff flurry, the detail nobody tells, and a callback to the hook.
 
 | Say | On screen |
 |---|---|
@@ -87,7 +89,9 @@ End card from "Follow": **LIFESTYLE LEGENDS** / NEXT: YVON CHOUINARD
 
 **Length:** about 50 s (121 words). **Film:** One take to camera, no pauses, leaning in like you're quizzing a friend. A red cap in your hand is the silent last clue.
 
-**Built on:** Guess the footballer: one breathless present-tense run-on, a new image every clue, the reveal at about 90%, then 'comment when you knew'. See [BREAKDOWNS.md](BREAKDOWNS.md).
+**Watch first:** [Guess the footballer](https://www.instagram.com/reel/DdjfzUURsA3/) (main reference, 12×). [Editing breakdown](BREAKDOWNS.md#b-guess-the-legend)
+
+**What to copy:** Guess the footballer: one breathless present-tense run-on, a new image every clue, the reveal at about 90%, then 'comment when you knew'.
 
 | Say | On screen |
 |---|---|
@@ -130,7 +134,9 @@ End card from "follow": **GUESS THE LEGEND** / NEXT: A CLIMBER TURNED BILLIONAIR
 
 **Length:** about 75 s (131 words). **Film:** Two days on the Riviera. 01 at Le Mourillon beach in Toulon (selfie, goggles in hand), 02 outside the Oceanographic Museum in Monaco. Plus underwater POV and the drive along the coast.
 
-**Built on:** Stevenson Trail + Hever Castle: a title over a selfie hook in the real place, B-roll every 1.5–3 s, you back on camera at the emotional beats, ending at the legend's landmark. See [BREAKDOWNS.md](BREAKDOWNS.md).
+**Watch first:** [Stevenson Trail](https://www.tiktok.com/@heleneinbetween/video/7646771334520769805) (main reference, 65×) · [Hever Castle](https://www.tiktok.com/@history_alice/video/7672324997637082390) (evidence shots, 13×) · [Harry DuBois](https://www.instagram.com/reel/DcEVwdNxIA5/) (title + list hook, 14×). [Editing breakdown](BREAKDOWNS.md#c-in-their-footsteps)
+
+**What to copy:** Stevenson Trail + Hever Castle: a title over a selfie hook in the real place, B-roll every 1.5–3 s, you back on camera at the emotional beats, ending at the legend's landmark.
 
 **Opening title** (until "1936"): *Following Cousteau / along the Riviera*
 
@@ -173,7 +179,9 @@ End card from "Follow": **LIFESTYLE LEGENDS** / NEXT: CHOUINARD'S SURF RULE
 
 **Length:** about 90 s (209 words). **Film:** One take to camera at a crag or a surf break. Plus clips of you: a car boot full of gear, and surfing.
 
-**Built on:** Lens on Legends, Dua Lipa + Let's Talk About It: a two-sentence hook from tiny to huge, the series line, short sentences, the detail nobody tells, a callback. See [BREAKDOWNS.md](BREAKDOWNS.md).
+**Watch first:** [Lens on Legends: Dua Lipa](https://www.instagram.com/reel/DYul8wohxIL/) (main reference, 259×) · [Let's Talk About It](https://www.instagram.com/reel/DaWEza9y-Dg/) (the series line, 3,241×) · [Jon Favreau](https://www.instagram.com/reel/DDSdkJGoVRs/) (text-post version, 556×). [Editing breakdown](BREAKDOWNS.md#a-the-origin-story)
+
+**What to copy:** Lens on Legends, Dua Lipa + Let's Talk About It: a two-sentence hook from tiny to huge, the series line, short sentences, the detail nobody tells, a callback.
 
 | Say | On screen |
 |---|---|
@@ -217,7 +225,9 @@ End card from "Follow": **LIFESTYLE LEGENDS** / NEXT: ERNEST HEMINGWAY
 
 **Length:** about 50 s (123 words). **Film:** One take to camera in a fleece, outdoors, no pauses.
 
-**Built on:** Guess the footballer: one breathless present-tense run-on, a new image every clue, the reveal at about 90%, then 'comment when you knew'. See [BREAKDOWNS.md](BREAKDOWNS.md).
+**Watch first:** [Guess the footballer](https://www.instagram.com/reel/DdjfzUURsA3/) (main reference, 12×). [Editing breakdown](BREAKDOWNS.md#b-guess-the-legend)
+
+**What to copy:** Guess the footballer: one breathless present-tense run-on, a new image every clue, the reveal at about 90%, then 'comment when you knew'.
 
 | Say | On screen |
 |---|---|
@@ -256,7 +266,9 @@ End card from "follow": **GUESS THE LEGEND** / NEXT: A WRITER WHO FISHED FOR MAR
 
 **Length:** about 70 s (118 words). **Film:** A 'surf's up' workday: talk takes at dawn and in the afternoon, B-roll of the surf, laptop work while still wet, and a climb.
 
-**Built on:** Harry DuBois + Stevenson Trail: a stacked-accomplishments hook under a big title, you living it in fast B-roll, back on camera for what you learned. See [BREAKDOWNS.md](BREAKDOWNS.md).
+**Watch first:** [Stevenson Trail](https://www.tiktok.com/@heleneinbetween/video/7646771334520769805) (main reference, 65×) · [Hever Castle](https://www.tiktok.com/@history_alice/video/7672324997637082390) (evidence shots, 13×) · [Harry DuBois](https://www.instagram.com/reel/DcEVwdNxIA5/) (title + list hook, 14×). [Editing breakdown](BREAKDOWNS.md#c-in-their-footsteps)
+
+**What to copy:** Harry DuBois + Stevenson Trail: a stacked-accomplishments hook under a big title, you living it in fast B-roll, back on camera for what you learned.
 
 **Opening title** (until "name"): *Living by Patagonia's / one rule for a day*
 
@@ -298,7 +310,9 @@ End card from "Follow": **LIFESTYLE LEGENDS** / NEXT: HEMINGWAY'S PARIS
 
 **Length:** about 100 s (269 words). **Film:** One take to camera on a boat or a harbour wall, slow and deliberate. Plus a clip of you deep-sea fishing or on a boat.
 
-**Built on:** Lens on Legends, Dua Lipa: an age-and-shock hook, short sentences, a new picture every line, a payoff flurry, the detail nobody tells, and a moral that turns the series line around. See [BREAKDOWNS.md](BREAKDOWNS.md).
+**Watch first:** [Lens on Legends: Dua Lipa](https://www.instagram.com/reel/DYul8wohxIL/) (main reference, 259×) · [Let's Talk About It](https://www.instagram.com/reel/DaWEza9y-Dg/) (the series line, 3,241×) · [Jon Favreau](https://www.instagram.com/reel/DDSdkJGoVRs/) (text-post version, 556×). [Editing breakdown](BREAKDOWNS.md#a-the-origin-story)
+
+**What to copy:** Lens on Legends, Dua Lipa: an age-and-shock hook, short sentences, a new picture every line, a payoff flurry, the detail nobody tells, and a moral that turns the series line around.
 
 | Say | On screen |
 |---|---|
@@ -347,7 +361,9 @@ End card from "Follow": **LIFESTYLE LEGENDS** / NEXT WEEK: A NEW LEGEND
 
 **Length:** about 50 s (117 words). **Film:** One take to camera, no pauses. A fishing rod or an old typewriter beside you is a nice silent clue.
 
-**Built on:** Guess the footballer: one breathless present-tense run-on, a new image every clue, the reveal at about 90%, then 'comment when you knew'. See [BREAKDOWNS.md](BREAKDOWNS.md).
+**Watch first:** [Guess the footballer](https://www.instagram.com/reel/DdjfzUURsA3/) (main reference, 12×). [Editing breakdown](BREAKDOWNS.md#b-guess-the-legend)
+
+**What to copy:** Guess the footballer: one breathless present-tense run-on, a new image every clue, the reveal at about 90%, then 'comment when you knew'.
 
 | Say | On screen |
 |---|---|
@@ -388,7 +404,9 @@ End card from "follow": **GUESS THE LEGEND** / NEXT: ANOTHER LEGEND
 
 **Length:** about 80 s (145 words). **Film:** One day in Paris, the A Moveable Feast route: talk takes on the street, outside 74 rue du Cardinal Lemoine (the plaque), writing in a café, the Luxembourg Gardens, the bookshop. Can't get to Paris? Do his Key West day on your coast instead: write standing up at dawn, fish all afternoon.
 
-**Built on:** Stevenson Trail + Hever Castle: a title over a selfie hook in the real place, the legend as the reason for the day, B-roll every 1.5–3 s, evidence shots (plaques, the bookshop), and what you learned. See [BREAKDOWNS.md](BREAKDOWNS.md).
+**Watch first:** [Stevenson Trail](https://www.tiktok.com/@heleneinbetween/video/7646771334520769805) (main reference, 65×) · [Hever Castle](https://www.tiktok.com/@history_alice/video/7672324997637082390) (evidence shots, 13×) · [Harry DuBois](https://www.instagram.com/reel/DcEVwdNxIA5/) (title + list hook, 14×). [Editing breakdown](BREAKDOWNS.md#c-in-their-footsteps)
+
+**What to copy:** Stevenson Trail + Hever Castle: a title over a selfie hook in the real place, the legend as the reason for the day, B-roll every 1.5–3 s, evidence shots (plaques, the bookshop), and what you learned.
 
 **Opening title** (until "1921"): *One day as broke / Hemingway in Paris*
 
@@ -440,6 +458,8 @@ Hemingway took the third slot. These are next in line:
 
 **Length:** about 80 s (227 words). **Film:** One take to camera on a dock or harbour wall, golden hour. Then a surf clip of you for the Hawaii beat.
 
+**Watch first:** [Lens on Legends: Dua Lipa](https://www.instagram.com/reel/DYul8wohxIL/) (main reference, 259×) · [Let's Talk About It](https://www.instagram.com/reel/DaWEza9y-Dg/) (the series line, 3,241×) · [Jon Favreau](https://www.instagram.com/reel/DDSdkJGoVRs/) (text-post version, 556×). [Editing breakdown](BREAKDOWNS.md#a-the-origin-story)
+
 | Say | On screen |
 |---|---|
 | At fifteen, Jack London borrowed three hundred dollars and became a pirate. | top `portrait.jpg` · pill **JACK LONDON** |
@@ -483,6 +503,8 @@ End card from "Follow": **LIFESTYLE LEGENDS** / NEXT WEEK: A NEW LEGEND
 
 **Length:** about 50 s (121 words). **Film:** One take to camera, anywhere with character (a dock, a bar, a beach). Lean in like you're quizzing a friend.
 
+**Watch first:** [Guess the footballer](https://www.instagram.com/reel/DdjfzUURsA3/) (main reference, 12×). [Editing breakdown](BREAKDOWNS.md#b-guess-the-legend)
+
 | Say | On screen |
 |---|---|
 | Can you guess this legend from the story of his life? Comment the second you know. | top `portrait.jpg` (pixelated) · pill **GUESS THE LEGEND** |
@@ -522,6 +544,8 @@ End card from "follow": **GUESS THE LEGEND** / NEXT: ANOTHER LEGEND
 
 **Length:** about 75 s (156 words). **Film:** Two talk takes: 01 on a dock at night with oysters, 02 next morning on the beach with a board. Plus b-roll of you on a boat, writing, and surfing.
 
+**Watch first:** [Stevenson Trail](https://www.tiktok.com/@heleneinbetween/video/7646771334520769805) (main reference, 65×) · [Hever Castle](https://www.tiktok.com/@history_alice/video/7672324997637082390) (evidence shots, 13×) · [Harry DuBois](https://www.instagram.com/reel/DcEVwdNxIA5/) (title + list hook, 14×). [Editing breakdown](BREAKDOWNS.md#c-in-their-footsteps)
+
 | Say | On screen |
 |---|---|
 | I'm shucking oysters on a dock at midnight because of a writer who used to steal them. |  |
@@ -560,6 +584,8 @@ End card from "Follow": **LIFESTYLE LEGENDS** / NEXT WEEK: A NEW LEGEND
 #### A. The Origin Story: `fleming_a_origin`
 
 **Length:** about 85 s (216 words). **Film:** One take to camera by the sea, linen shirt. Plus a snorkel clip of you for the routine beat.
+
+**Watch first:** [Lens on Legends: Dua Lipa](https://www.instagram.com/reel/DYul8wohxIL/) (main reference, 259×) · [Let's Talk About It](https://www.instagram.com/reel/DaWEza9y-Dg/) (the series line, 3,241×) · [Jon Favreau](https://www.instagram.com/reel/DDSdkJGoVRs/) (text-post version, 556×). [Editing breakdown](BREAKDOWNS.md#a-the-origin-story)
 
 | Say | On screen |
 |---|---|
@@ -604,6 +630,8 @@ End card from "Follow": **LIFESTYLE LEGENDS** / NEXT WEEK: A NEW LEGEND
 
 **Length:** about 50 s (123 words). **Film:** One take to camera. A martini on the table is a nice silent clue.
 
+**Watch first:** [Guess the footballer](https://www.instagram.com/reel/DdjfzUURsA3/) (main reference, 12×). [Editing breakdown](BREAKDOWNS.md#b-guess-the-legend)
+
 | Say | On screen |
 |---|---|
 | Can you guess this legend from the story of his life? Comment the second you know. | top `portrait.jpg` (pixelated) · pill **GUESS THE LEGEND** |
@@ -642,6 +670,8 @@ End card from "follow": **GUESS THE LEGEND** / NEXT: ANOTHER LEGEND
 #### C. In Their Footsteps: `fleming_c_footsteps`
 
 **Length:** about 70 s (127 words). **Film:** A full 'Fleming day' somewhere with a reef: talk takes in the morning and evening, b-roll of the swim, writing on a terrace, lunch and a nap.
+
+**Watch first:** [Stevenson Trail](https://www.tiktok.com/@heleneinbetween/video/7646771334520769805) (main reference, 65×) · [Hever Castle](https://www.tiktok.com/@history_alice/video/7672324997637082390) (evidence shots, 13×) · [Harry DuBois](https://www.instagram.com/reel/DcEVwdNxIA5/) (title + list hook, 14×). [Editing breakdown](BREAKDOWNS.md#c-in-their-footsteps)
 
 | Say | On screen |
 |---|---|

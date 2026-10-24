@@ -18,6 +18,26 @@ SERIES_LINE = ("This is Lifestyle Legends: the people who lived first "
                "and figured out the work later.")
 CENSOR = [0.25, 0.05, 0.5, 0.5]
 
+# reference reels each format is built on, shown at the top of every script
+REFS = {
+    "The Origin Story": [
+        ("Lens on Legends: Dua Lipa", "https://www.instagram.com/reel/DYul8wohxIL/", "main reference, 259×"),
+        ("Let's Talk About It", "https://www.instagram.com/reel/DaWEza9y-Dg/", "the series line, 3,241×"),
+        ("Jon Favreau", "https://www.instagram.com/reel/DDSdkJGoVRs/", "text-post version, 556×"),
+    ],
+    "Guess the Legend": [
+        ("Guess the footballer", "https://www.instagram.com/reel/DdjfzUURsA3/", "main reference, 12×"),
+    ],
+    "In Their Footsteps": [
+        ("Stevenson Trail", "https://www.tiktok.com/@heleneinbetween/video/7646771334520769805", "main reference, 65×"),
+        ("Hever Castle", "https://www.tiktok.com/@history_alice/video/7672324997637082390", "evidence shots, 13×"),
+        ("Harry DuBois", "https://www.instagram.com/reel/DcEVwdNxIA5/", "title + list hook, 14×"),
+    ],
+}
+BREAKDOWN_ANCHOR = {"The Origin Story": "a-the-origin-story",
+                    "Guess the Legend": "b-guess-the-legend",
+                    "In Their Footsteps": "c-in-their-footsteps"}
+
 # panel helpers: (anchor, kind, file, label, desc, extra)
 def top(at, file, label, desc, **extra):
     return {"at": at, "file": file, "label": label, "desc": desc, **extra}
@@ -608,8 +628,12 @@ def md(script, n_words):
     out = [f"### {script['version']}. {script['fmt']}: `{script['id']}`", ""]
     out.append(f"**Length:** {script['length']} ({n_words} words). **Film:** {script['film']}")
     out.append("")
+    refs = " · ".join(f"[{name}]({url}) ({note})" for name, url, note in REFS[script["fmt"]])
+    out.append(f"**Watch first:** {refs}. "
+               f"[Editing breakdown](BREAKDOWNS.md#{BREAKDOWN_ANCHOR[script['fmt']]})")
+    out.append("")
     if script.get("ref"):
-        out.append(f"**Built on:** {script['ref']}. See [BREAKDOWNS.md](BREAKDOWNS.md).")
+        out.append(f"**What to copy:** {script['ref']}.")
         out.append("")
     if script.get("title"):
         t = script["title"]["text"].replace(chr(10), " / ")
