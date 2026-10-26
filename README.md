@@ -83,3 +83,16 @@ Or ask Claude to "boost the audio" on a file: the `boost-audio` skill in `.claud
 ## Publishing (Metricool)
 
 Once you approve an edited video, the `publish-metricool` skill schedules it on every platform connected in Metricool. Settings are in `publishing/config.json` and every scheduled post is logged in `publishing/log.md`. This needs the Metricool connector.
+
+## Reels from YouTube videos (letterbox)
+
+`tools/letterbox_reel.py` cuts a vertical reel out of a horizontal video: the picture stays whole at full
+width, centred on black, with a title in the top bar and house-style captions in the bottom bar. Same
+cutting and audio rules as the talking-head edits (trimmed to the voice, pauses over 0.7 s cut, J-cuts,
+denoise, -12 LUFS). Transcribe with faster-whisper (word timestamps), pick the best take of each line as
+`keep` ranges, then:
+
+```bash
+python3 tools/letterbox_reel.py edits/reels/sample_european_summer.json --preview   # captions + length
+python3 tools/letterbox_reel.py edits/reels/sample_european_summer.json             # render
+```

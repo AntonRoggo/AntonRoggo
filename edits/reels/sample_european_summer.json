@@ -1,0 +1,5 @@
+{"source": "input/ytsample/MAH08806.MP4",
+ "words": "input/ytsample/words.json",
+ "keep": [[15.28, 21.12], [135.35, 139.47], [158.40, 165.88], [265.36, 268.20], [283.18, 289.90], [394.00, 398.52], [401.75, 403.63]],
+ "title": "you dont need another european summer",
+ "out": "output/reels/sample_european_summer.mp4"}
