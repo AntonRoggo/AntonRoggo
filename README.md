@@ -53,6 +53,13 @@ python3 edit_legend.py series/lifestyle-legends/plans/cousteau_a_origin.json --d
 - Editing breakdown of every reference reel: `series/lifestyle-legends/BREAKDOWNS.md`
 - Put each script's footage in `input/<plan name>/`. The `edit-legend` skill runs the whole thing.
 
+## "Do This" reels (quick format)
+
+The one-line, talk-while-doing-it format behind most of the account's biggest reels:
+- `series/do-this/ANALYSIS.md`: every 2025–26 reel transcribed and compared, winners vs losers in the format, outside winners from Sandcastles, and the rules
+- `series/do-this/SCRIPTS.md`: 15 talk scripts, 7 text-on-clip posts and 3 oyster ad versions, with a plan to film them all in one morning
+- `series/do-this/data/reels_2025_2026.csv`: one row per reel (link, views, outlier, length, format, first line)
+
 ## Publishing (Metricool)
 
 Once you approve an edited video, the `publish-metricool` skill schedules it on every platform connected in Metricool. Settings are in `publishing/config.json` and every scheduled post is logged in `publishing/log.md`. This needs the Metricool connector.
