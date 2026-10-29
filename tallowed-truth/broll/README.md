@@ -1,6 +1,6 @@
 # B-roll & overlays
 
-Every silent clip (B-roll: no one talking) and image from the TTT asset folder and the creator brief raw footage folders, tagged by what it shows. 419 files scanned: 126 B-roll clips, 220 images, 73 talking takes (not listed), 0 could not be read, 67 duplicate copies left out. Files stay where they are in Drive; `link` opens each one.
+Every silent clip (B-roll: no one talking) and image from the TTT asset folder and the creator brief raw footage folders, tagged by what it shows. 468 files scanned: 132 B-roll clips, 229 images, 107 talking takes (not listed), 0 could not be read, 70 duplicate copies left out. Files stay where they are in Drive; `link` opens each one.
 
 Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are left out of the catalog.
 
@@ -8,19 +8,18 @@ Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are lef
 
 | Category | What's in it | Files |
 |---|---|---|
-| `product` | The tin or jar: hero shots, in hand, lid off, texture, swatches | 116 |
-| `application` | Putting it on: face, neck, hands, under the eyes | 26 |
+| `product` | The tin or jar: hero shots, in hand, lid off, texture, swatches | 121 |
+| `application` | Putting it on: face, neck, hands, under the eyes | 28 |
 | `skin-result` | Glowing skin, touching the face, mirror checks, smiling close-ups | 13 |
-| `problem` | Dry, crepey, wrinkled or irritated skin; the 'before' | 6 |
+| `problem` | Dry, crepey, wrinkled or irritated skin; the 'before' | 11 |
 | `failed-solutions` | Other creams, serums, drugstore products, the bathroom cabinet | 13 |
 | `factory` | Inside the TTT facility: making, pouring, filling, machines, the team | 31 |
 | `ingredients` | Raw honey, tallow, beeswax, olive oil, essential oils | 3 |
 | `packing-shipping` | Packing orders, boxes, labels, shipping | 0 |
-| `lifestyle` | Creators posing, routines, outdoors, family, everyday moments | 15 |
+| `lifestyle` | Creators posing, routines, outdoors, family, everyday moments | 18 |
 | `founder` | Ben on camera without talking (walking, working, holding product) | 1 |
 | `graphic` | Statics, review screenshots, social proof, logos, lander images | 50 |
 | `other` | Doesn't fit the above | 0 |
-| `untagged` | Not looked at yet | 3 |
 
 ## Best product
 
@@ -75,6 +74,8 @@ Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are lef
 | Woman in a grey robe holds the open tin and pats balm on her face | video | 29.2 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1jGL4x8J8fv2RvKascQO1unvyaLG8YYyy/view) |
 | Hand scoops balm and rubs it into a dry forearm (bathroom tiles) | video | 25.2 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1TiQH8PgT-Qd6pFokGU56ELXD8_ly0ZHD/view) |
 | Close-up of balm rubbed into the back of a hand and forearm | video | 8.9 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/10d4vRz_jR_e8va38CAVDTVY9xYFP_zXk/view) |
+| Woman in a grey headband and pink jacket shows the open tin, touches her cheek | video | 17.2 | Assets / Reviews_UGC and Comments | [open](https://drive.google.com/file/d/1YrrE_kJCiaSWFecnvROKR4hbvjhiJGbp/view) |
+| Woman in the grey headband pats balm on her face, then shows the tin | video | 17.5 | Assets / Reviews_UGC and Comments | [open](https://drive.google.com/file/d/1J3nIxTURPxLBtY2_lUmRSPq5QMGlT8kT/view) |
 
 ## Best skin-result
 
@@ -147,6 +148,9 @@ Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are lef
 | What | Kind | Length | Source | Link |
 |---|---|---|---|---|
 | Phone showing the TTT checkout page in hand (ordering) | video | 26.6 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1cHanihqwuhjK6FgL_AUxEDmU_PveQDnA/view) |
+| Vintage 1950s photo: creator's grandmother outside a cabin (for '1950s skincare' angle) | image |  | Assets / Reviews_UGC and Comments | [open](https://drive.google.com/file/d/1pYNMDsa-ZcGL_VfbfzyIxrC8FdBpCiWj/view) |
+| Vintage photo: grandmother in work clothes in the snow (1950s skincare angle) | image |  | Assets / Reviews_UGC and Comments | [open](https://drive.google.com/file/d/1u4LmxpE4gIvDSv-1p5ifTE6gKF1jbaqY/view) |
+| Vintage family photo, 1950s living room (1950s skincare angle) | image |  | Assets / Reviews_UGC and Comments | [open](https://drive.google.com/file/d/1db4ESXtb5IP6J-g7m5PKsMu9kwPLcQTa/view) |
 
 ## Best founder
 
