@@ -22,6 +22,30 @@ weekly "what's working" call: one short, general rule per learning, not a note a
 - **Pop the proof in the first 2 seconds.** The person or photo the hook is about pops up on screen,
   with burned-in captions. (F-Balm briefs, editor note)
 
+## What the account says (last 30 days to 2026-10-27, see `ads/whats-working.md`)
+
+- **Ben on camera is the most efficient big spender.** Founder ads: CA$40 per purchase vs CA$57 for
+  creator ads, on 26% of spend. Best: "come clean" founder confession about bad (Chinese) tallow,
+  CA$36 on CA$44K.
+- **Review-story hooks scale.** The biggest creator ads are customer reviews told to camera:
+  "Esthetician shocked", "Carded at 73", "Nicest skin ever seen", "Noticed at 64". Pull the review
+  from `testimonials/screenshots.csv` / `reviews/stories/authority.md` and pop it on screen.
+- **Cheapest proven angles:** "Stop buying tallow" (CA$27), "$900 French creams" (CA$29),
+  "Founder 4" (CA$29), static before/afters (CA$29-35), "under eyes" (CA$34). Iterate these.
+- **Smoker's lines is expensive to scale** (CA$65-66 for two creators). Use it as a secondary story,
+  not the main hook, until a version beats CA$49.
+
+## What the comments say (see `comments/`)
+
+- **Top doubts:** greasy, smells like cow, price, "doesn't work / no difference", breakouts. Answer
+  one inside the script (e.g. "I thought it'd be greasy... you only need a pea-sized bit on damp skin").
+- **"Too fast to be true" backfires.** Viewers call out instant results ("her mom just applied it and
+  the daughter already sees a difference? Come on"). Show a timeline (weeks) instead of a same-day
+  miracle, and use a pea-sized amount on camera.
+- **Show the routine right.** People keep explaining "damp face, pea-sized, warm it in your fingers"
+  to each other. Show that on camera; it heads off the greasy complaint.
+- **People ask for before/afters.** It's one of the most common requests under the ads.
+
 ## Filming rules every brief repeats
 
 - Screen-free filming: creators never film phones, tablets or computer screens. Editors add reviews,
