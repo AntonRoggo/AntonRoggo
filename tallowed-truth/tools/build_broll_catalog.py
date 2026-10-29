@@ -90,7 +90,8 @@ def main(scan, sheets=None):
                 for k, name in enumerate((r.get("thumbs") or [])[:3]):
                     p = thumbs / name
                     if p.exists():
-                        im = Image.open(p); im.thumbnail((118, 210))
+                        im = Image.open(p)
+                        im.thumbnail((118, 210) if r["kind"] == "broll" else (358, 210))  # one image fills the cell
                         sheet.paste(im, (x + k * 120, y))
                 dr.rectangle((x, y, x + 52, y + 20), fill="black")
                 dr.text((x + 3, y + 1), str(n), fill="yellow", font=font)
