@@ -17,6 +17,7 @@ meant to be loaded into the company Claude project, and Claude should read this 
 | "What do people complain about? Objection hooks?" | `comments/objections.md` (under our ads, with how TTT answered), `reviews/objections.md` (1-3 star reviews) |
 | "What do people ask before buying?" | `comments/questions.md` |
 | "What's working in the ads right now?" | `ads/whats-working.md` (refreshed weekly), every creative in `ads/creatives_30d.csv` |
+| "Edit / cut this video" or "does this edit match our style?" | skill `skills/tt-ad-edit/` (breakdown of our best ad in `reference/`) |
 | "Give me hook ideas" | `ads/whats-working.md` (✅ concepts) + `rules/creative-learnings.md` + the stories above + `comments/` |
 
 ## Folders
@@ -29,6 +30,7 @@ meant to be loaded into the company Claude project, and Claude should read this 
 | `comments/` | 1,897 Facebook comments from the top ads: objections, questions and customer stories in their own words. |
 | `rules/` | Creative learnings from the ad tests and calls, and the video cut rules. |
 | `creators/` | Creator SOP and how to send footage. |
+| `skills/` | Skills to upload to the company Claude project (first one: `tt-ad-edit`). |
 | `tools/` | Scripts that rebuild the indexes and render review cards. |
 
 ## Ground rules for Claude
