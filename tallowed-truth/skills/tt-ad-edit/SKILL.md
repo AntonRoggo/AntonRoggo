@@ -152,6 +152,12 @@ ffmpeg overlay for one pop-up (S = start, E = end, in seconds):
 
 ## Lessons
 
+- **Pick takes per script line** (from the founder ad's raw footage): for each line of the script, use the last
+  complete, clean delivery, wherever it sits. Creators film many files (the founder ad: 8 hook takes, then one
+  file per section, some with long botched attempts before the good one). The tool only catches short restarts
+  on its own; a long failed attempt before a clean redo must be removed with `--drop`, or trim the file to the
+  good take first. Read the transcript of every file before choosing.
+
 - An immediate repeat isn't always a stutter. Read the cut-words list on every edit and restore deliberate
   repeats.
 

@@ -58,3 +58,21 @@ Analysed from Meta's 720x1280 30 fps delivery copy, so pixel sizes below are sca
 - **Audio:** -14.4 LUFS integrated, peaks -0.7 dBFS. Voice and room tone only; no music bed found under the pauses
   (to confirm).
 - **Product:** the F-Balm tin is in his hand in nearly every shot; held up to the lens for the offer.
+
+## From the raw footage (15 iPhone takes, IMG_0166-0180, Drive folder "Come Clean Hook")
+
+How the editor got from the raw takes to the ad:
+
+| Ad | Raw | What was done |
+|---|---|---|
+| Hook 0-9.1 s | IMG_0171 (take 6 of 8 hook takes) | The one complete, clean take. Starts on "Alright" (1.1 s of lead-in cut). Two jump cuts remove the pauses between sentences (0.6 s after "skin.", 0.5 s after "so"); nothing else changed. |
+| Tallow 9.1-18.1 s | IMG_0175, first 13 s | Kept up to "on top of that.", where the take falls apart (35 s of honey flubs after it, dropped). |
+| Honey 18.1-23.5 s | IMG_0176 | Whole take: the clean redo of the line he fumbled in 0175. |
+| Beeswax to essential oils 23.5-40.2 s | IMG_0179, second half | First half is a botched attempt ending in "I'm losing it"; the restart after it is used. IMG_0177 ("We use real beeswax for pol-") and IMG_0178 (a different version) were not used. |
+| Ending 40.2-64 s | IMG_0180 | One take; "It's, uh," cut before "premium ingredients", the "if" before "you don't like it" dropped. Listing pauses (0.4-0.5 s) kept under the review pop-up. |
+
+Lessons:
+- **Takes are picked per script line, from any file.** For each line, use the last complete clean delivery,
+  even if it sits after a long mess in the same file, and even if a later file has a weaker version.
+- **The hook is one take, tightened.** Jump cuts there remove pauses and filler words, not content.
+- **Creators film in pieces** (hook takes, then one file per section). Expect 10-20 files per ad.
