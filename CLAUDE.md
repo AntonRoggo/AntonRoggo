@@ -14,6 +14,7 @@ This repo is the source of truth for Anton's personal-brand content: how videos 
 | Activity clips (Anton/friends doing things) | `broll/action.json` |
 | B-roll catalogue (best clips only, tagged) | `broll/catalog.json` |
 | Raw footage and B-roll | Dropbox: `/[01] Clients/[03] Anton/ANTON MASTER BROLL` |
+| The Tallowed Truth creator brain (reviews, testimonials, ad learnings; for the company Claude project) | `tallowed-truth/` (start with its README) |
 
 ## Rules
 
