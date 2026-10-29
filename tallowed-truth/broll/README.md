@@ -1,6 +1,6 @@
 # B-roll & overlays
 
-Every silent clip (B-roll: no one talking) and image from the TTT asset folder and the creator brief raw footage folders, tagged by what it shows. 220 files scanned: 120 B-roll clips, 64 images, 36 talking takes (not listed), 0 could not be read. Files stay where they are in Drive; `link` opens each one.
+Every silent clip (B-roll: no one talking) and image from the TTT asset folder and the creator brief raw footage folders, tagged by what it shows. 419 files scanned: 126 B-roll clips, 220 images, 73 talking takes (not listed), 0 could not be read, 67 duplicate copies left out. Files stay where they are in Drive; `link` opens each one.
 
 Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are left out of the catalog.
 
@@ -8,23 +8,29 @@ Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are lef
 
 | Category | What's in it | Files |
 |---|---|---|
-| `product` | The tin or jar: hero shots, in hand, lid off, texture, swatches | 66 |
+| `product` | The tin or jar: hero shots, in hand, lid off, texture, swatches | 116 |
 | `application` | Putting it on: face, neck, hands, under the eyes | 26 |
 | `skin-result` | Glowing skin, touching the face, mirror checks, smiling close-ups | 13 |
-| `problem` | Dry, crepey, wrinkled or irritated skin; the 'before' | 7 |
+| `problem` | Dry, crepey, wrinkled or irritated skin; the 'before' | 6 |
 | `failed-solutions` | Other creams, serums, drugstore products, the bathroom cabinet | 13 |
-| `factory` | Inside the TTT facility: making, pouring, filling, machines, the team | 28 |
-| `ingredients` | Raw honey, tallow, beeswax, olive oil, essential oils | 0 |
+| `factory` | Inside the TTT facility: making, pouring, filling, machines, the team | 31 |
+| `ingredients` | Raw honey, tallow, beeswax, olive oil, essential oils | 3 |
 | `packing-shipping` | Packing orders, boxes, labels, shipping | 0 |
-| `lifestyle` | Creators posing, routines, outdoors, family, everyday moments | 17 |
-| `founder` | Ben on camera without talking (walking, working, holding product) | 0 |
-| `graphic` | Statics, review screenshots, social proof, logos, lander images | 13 |
+| `lifestyle` | Creators posing, routines, outdoors, family, everyday moments | 15 |
+| `founder` | Ben on camera without talking (walking, working, holding product) | 1 |
+| `graphic` | Statics, review screenshots, social proof, logos, lander images | 50 |
 | `other` | Doesn't fit the above | 0 |
+| `untagged` | Not looked at yet | 3 |
 
 ## Best product
 
 | What | Kind | Length | Source | Link |
 |---|---|---|---|---|
+| Flat lay mixing F-Balm and Unscented tins, black and white | image |  | Assets / All Product Photos | [open](https://drive.google.com/file/d/1AfD9KaYS6gFEHcKCW6E5S3PHPkSyXfSf/view) |
+| Range lineup: Unscented, F-Balm and small tins, studio white | image |  | Assets / All Product Photos | [open](https://drive.google.com/file/d/1o0u5OMVxqp421YD-crNsUC6a18BmMSn_/view) |
+| Two F-Balm tins in a spotlight on black, moody | image |  | Assets / Brand Logos | [open](https://drive.google.com/file/d/18wm0rehaKhL8siZ_PKuBv1A7YQvYR8yC/view) |
+| Hand holds the tin bottom: 'F-Balm ingredients: freedom, grass-fed tallow, olive oil, beeswax, Ontario honey, frankincense' | image |  | Assets / F-Balm Image Statics | [open](https://drive.google.com/file/d/1swiU8xhgck3Yw9u5nBgS99395g3ZNsgQ/view) |
+| Top-down of the golden balm surface in the tin, in hand | image |  | Assets / F-Balm Image Statics | [open](https://drive.google.com/file/d/1_WPf-bJITvHCyFtrRJ1QU4b4IwVgxLK4/view) |
 | Hand holds an F-Balm tin up next to a lit candle and two more tins on a wooden shelf | video | 5.3 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1jAhKTw5pZSO-uJENL_0Wb8bOI25HJSZp/view) |
 | Blonde woman holds the open tin to the lens, shows the golden balm, smiles | video | 11.3 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1mKIq8w4QdW8VhVRShLnSTDWr9OqyQCHM/view) |
 | Hands open a lavender F-Balm tin against white curtains, golden balm close-up | video | 48.1 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1-1sSjQJrtz-RPawRKrOLSu8F5aeyMn3u/view) |
@@ -35,21 +41,16 @@ Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are lef
 | Hands open the tin in sunlight by a window, fingertip scoops the golden balm | video | 30.9 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1knII-8GP_OoGetDzfgkG0FczlqJeW89B/view) |
 | Hands hold the tin against green leaves, lid off to the golden balm | video | 23.4 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1WJQqGd73wmvNwa-fjRjm5DSrmeXfrLLD/view) |
 | Open F-Balm tin with lid and pampas grass, styled flat lay | image |  | Assets / Manufacturing Content | [open](https://drive.google.com/file/d/1RMF_9ZzSD8iqhspP284RobOTMZMsDq_k/view) |
-| Three F-Balm tins with a candle and a sage bowl on a wooden shelf (still) | video | 6.7 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1OgX3yWm0gxVT14p_Jh2ZZabzspoNCffy/view) |
-| Hands turn the tin to show the ingredient label, then lid off to the balm | video | 26.8 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1UYg7BAh4m_Ut1bRbvMbjOn97Q5BeSUYN/view) |
-| Hands unscrew the tin: whipped balm vs our golden balm side by side | video | 35.7 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/12tRL4AjaPKkTR29x-mSe9GCMnKXYZ9Gx/view) |
-| Long-haired blonde woman in black holds the tin up to the lens and smiles | video | 11.2 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1upDTWS7USS1rNDU_cNeEKuHGd3cMLa9x/view) |
-| Long-haired blonde woman in black shows the tin close to the lens | video | 15.1 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1HOfKqHJjzoPFqN6r0KR6UOuuQISOgtzo/view) |
-| Hand holds the tin up in front of green hedges outdoors | video | 19.4 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/12NOvhl03YCa8ImcM_aJIelLGCxIwu1--/view) |
-| F-Balm tin on a marble bathroom counter next to a pump bottle and plant | video | 22.6 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1VX-LIAiQH-oAXSpVJLoM8SecJu9BniTh/view) |
-| Woman in red holds the tin and the open golden balm to the lens, smiles | video | 26.1 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1eUkJ2WFPhyck6JtEenOW07Gy2BxkdHuZ/view) |
-| Woman holds the open golden tin close to the lens, touches her lip | video | 9.6 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1dES9zhH0dzWIXvnM-0xgeaeq025z4r1b/view) |
-| Woman shows the tin label, then the open golden balm | video | 12.2 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1DfmdJDp7eiY2rN-DAOWR0fzgGNDt4vKh/view) |
-| Woman with long wavy hair holds the tin to the lens and smiles, white top | video | 9.8 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1KBqZ9p4SRguNVZVB3-hr1D_E26EXeTjs/view) |
-| Hands open the tin by bathroom tiles, golden balm close-up | video | 10.0 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1GVL6EHPPN_c4R6x_0Q4oZIbxFgHi-0Ru/view) |
-| F-Balm tin on a wooden board with pampas grass, styled | image |  | Assets / Manufacturing Content | [open](https://drive.google.com/file/d/1Vy4fhiUWG08RNL03m4eDYnZOYsQMaC3S/view) |
-| Balm swirl in a black tin against blue sky with clouds | image |  | Assets / Manufacturing Content | [open](https://drive.google.com/file/d/1WLsbZLd5xRxvNHACKMu7WL0TR1COg6Xp/view) |
-| Hand holds the balm tin up against blue sky | image |  | Assets / Manufacturing Content | [open](https://drive.google.com/file/d/16lV45F1qtdxU4Eq8BvKwZHwS3ERkZgpQ/view) |
+| Flat lay of many F-Balm (honey & frankincense) tins, top-down | image |  | Assets / All Product Photos | [open](https://drive.google.com/file/d/1e-jC6qW-m6b6NypA3B0KhTT2S6AHiaOH/view) |
+| Flat lay of F-Balm Unscented tins (black labels), top-down | image |  | Assets / All Product Photos | [open](https://drive.google.com/file/d/1YSqFMBK20P_ETJ_x8kh1WY6igKxt6CR8/view) |
+| Flat lay of F-Balm Body Butter tins (100 ml) | image |  | Assets / All Product Photos | [open](https://drive.google.com/file/d/1HekTXmCV76RFBUw0RNkKjx74zo9IsF6Z/view) |
+| Ingredient label on the tin bottom, studio white | image |  | Assets / All Product Photos | [open](https://drive.google.com/file/d/1MY-6hCyZkFD5-PZLtfAyZJwufZoc5mJT/view) |
+| Two F-Balm tins, studio white | image |  | Assets / All Product Photos | [open](https://drive.google.com/file/d/1xA4-wZcT8i1xcVzBSN7Cfcc6i3Ly_Wxy/view) |
+| Open F-Balm tin with the lid propped, studio white | image |  | Assets / All Product Photos | [open](https://drive.google.com/file/d/1O17Z9NGSWWXV-vQRJ2SuuuJss_gmyo_Y/view) |
+| Open F-Balm tin with lid, studio white, golden balm | image |  | Assets / All Product Photos | [open](https://drive.google.com/file/d/1CLtokX5BSFaN01qWvo65132-cm0GQW7S/view) |
+| Two F-Balm tins on grey, label forward | image |  | Assets / Brand Logos | [open](https://drive.google.com/file/d/1xOSKU2aibWifB65MUTPCC37exFhXJD2r/view) |
+| F-Balm lid label, flat-on close-up (older 'freedom' label) | image |  | Assets / F-Balm Image Statics | [open](https://drive.google.com/file/d/1e96OpbQfLEwfytwujhNrRhm-ll8U1VZy/view) |
+| Top-down of the golden balm surface, grey background | image |  | Assets / F-Balm Image Statics | [open](https://drive.google.com/file/d/1Wt8wer7m5283sf5Ifx8AmKrRSiPWa2az/view) |
 
 ## Best application
 
@@ -96,7 +97,6 @@ Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are lef
 | Dark-haired woman pulls at her face and frowns, upset about her skin | video | 21.4 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1MvmeF_hYoy-KBWjhUE472bO-jiOyYIRk/view) |
 | Woman in a grey tank pulls at the wrinkles around her eyes and forehead | video | 9.7 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1R0olDEIi4o8EuZU2ZkVIncbabo7OXQf5/view) |
 | Woman points at the lines and dry patches under her eye, close-up | video | 6.4 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1ycptu5ZkuX4qf_lUWvaSlEKj8504OWar/view) |
-| Close-up of red, irritated cheek (second take) | video | 11.4 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1vVD3UjjnYbf4GCXVCxSKIf0o-6jh9zBk/view) |
 | Woman stares at the camera, unhappy, tired skin (before) | video | 4.4 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1s-zk0OZQIcqv74sTVNuwaKXI4VxheZgJ/view) |
 
 ## Best failed-solutions
@@ -122,6 +122,9 @@ Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are lef
 | Filler head over a tin of golden balm, 'Warning' sticker, cinematic | video | 25.5 | Assets / Manufacturing Content | [open](https://drive.google.com/file/d/1EeJhwskNWGT6iLwfz6NdC6Cl8Lnqtz_e/view) |
 | Golden balm drips from the nozzle into a tin, slow and close | video | 16.5 | Assets / Manufacturing Content | [open](https://drive.google.com/file/d/1RH2f9iA0Jcm0bgJETM03xhhnwDyZHTrP/view) |
 | Rows of finished labelled F-Balm tins coming off the line | video | 9.9 | Assets / Manufacturing Content | [open](https://drive.google.com/file/d/1QaAhZ4dplb6rXk7UIO4XQnbe_BgrnI21/view) |
+| Filled golden tins laid out on the table, team capping in gloves | video | 11.6 | Assets / TT HQ Shorts For Ads | [open](https://drive.google.com/file/d/1JXZNK8sGkOJEqGjG-Lp7GO8O4iRB0iBu/view) |
+| Rows of freshly filled golden tins on the conveyor, close | video | 9.7 | Assets / TT HQ Shorts For Ads | [open](https://drive.google.com/file/d/1uoUaS4J4Ck1RM-KqcfFEo6-4eFGu5_Kq/view) |
+| Hundreds of filled golden tins on the factory tables | image |  | Assets / TT Lander Assets | [open](https://drive.google.com/file/d/1xu_Tw_LSR1Cs5uhLk9SJ5sUL_rtCPYRr/view) |
 | Labelled F-Balm tins pile up on the conveyor, close-up | video | 14.5 | Assets / Manufacturing Content | [open](https://drive.google.com/file/d/1hHHoVOvz-ZFGKzh8DQYQxsSA-UYZWIlc/view) |
 | BROKEN MACHINE: worn-out seal ring from the filler on a steel table (2024-08-23) | image |  | Assets / Manufacturing Content | [open](https://drive.google.com/file/d/17CKjDjtDi1JsBV_M5nX1bZHg-vzolrD9/view) |
 | Trays and boxes packed with S-Balm tins, factory | video | 11.6 | Assets / Manufacturing Content | [open](https://drive.google.com/file/d/1hmb7CWD3v97NZ5TXJzBLxqX7FZHLY_Xi/view) |
@@ -131,17 +134,54 @@ Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are lef
 | Fresh-filled golden tins on the conveyor | image |  | Assets / Manufacturing Content | [open](https://drive.google.com/file/d/1Q-RQ0PCoWTI8TyXavUubbVtaXGFeykcj/view) |
 | Empty tins lined up under the filler hose | video | 23.7 | Assets / Manufacturing Content | [open](https://drive.google.com/file/d/1JaPnfVqwrfZdy_ZdwcVqCAfxiVqrDP7A/view) |
 
+## Best ingredients
+
+| What | Kind | Length | Source | Link |
+|---|---|---|---|---|
+| Cow in a field next to raw tallow in hand (where it comes from) | image |  | Assets / TT Lander Assets | [open](https://drive.google.com/file/d/1hPVF7Jfn3iUXlWntJoaaDpVh72XjBXQs/view) |
+| Raw tallow chunk in hand (second) | image |  | Assets / Statics & Social Proof | [open](https://drive.google.com/file/d/1oigTLNj3l84AyVKft0tnafQbG7bHahYH/view) |
+| Raw tallow chunk in hand over a tray of tallow | image |  | Assets / TT Lander Assets | [open](https://drive.google.com/file/d/1f2pdUVAydDyb_uZ37_XJM5hcMaFHtrdP/view) |
+
 ## Best lifestyle
 
 | What | Kind | Length | Source | Link |
 |---|---|---|---|---|
 | Phone showing the TTT checkout page in hand (ordering) | video | 26.6 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1cHanihqwuhjK6FgL_AUxEDmU_PveQDnA/view) |
 
+## Best founder
+
+| What | Kind | Length | Source | Link |
+|---|---|---|---|---|
+| Ben in a TTT cap smiling with the tin in a kitchen (selfie) | image |  | Assets / TT Lander Assets | [open](https://drive.google.com/file/d/1mf5RfEJ4gosotJ7-nm9_lz8UjrgQDhJl/view) |
+
 ## Best graphic
 
 | What | Kind | Length | Source | Link |
 |---|---|---|---|---|
+| F-Balm tin with callouts: five ingredients, small-batch, grass-fed, zero toxins | image |  | Assets / Brand Logos | [open](https://drive.google.com/file/d/1GFnZZLF4h0gajn7UMl1A8w0S01ADRcIG/view) |
+| Review text pop-up: '69 years old on Monday and people say I look 50!' | image |  | Assets / Pop Ups | [open](https://drive.google.com/file/d/11-L1Hr2KVkLezzNNW_K7T0SY4x-Z7rVN/view) |
+| Acne before/after with DM thread (3 weeks of tallow) | image |  | Assets / Statics & Social Proof | [open](https://drive.google.com/file/d/1kZI1D1Q3iU-h8UWAaom0zxOBdttTcmEk/view) |
+| F-Balm tin with honeycomb, frankincense and beeswax cut-out (lander hero) | image |  | Assets / TT Lander Assets | [open](https://drive.google.com/file/d/1I0w6JzF0R56WuvJZQ_QJFPuOyWNovfR7/view) |
+| UGC selfie with the tin and caption 'my skin has never looked so clear and felt so hydrated and plump' | image |  | Assets / TT Lander Assets | [open](https://drive.google.com/file/d/1RPWdpzaoxzDzf4lrWoWiPjbD0oQQa8Z5/view) |
+| Review card: Sarah C. 'Cleared my unevenness and gave me a glowing complexion' with selfie | image |  | Assets / TT Lander Assets | [open](https://drive.google.com/file/d/1PgWlPNvvoenFh9p1_OuWH5oCnCGhkJBh/view) |
+| Review card: Denise T. redness before/after selfies | image |  | Assets / TT Lander Assets | [open](https://drive.google.com/file/d/1zscgQkofdau-GRGzyEildzRpjVczwQ1m/view) |
+| Facebook comments: 'I look at least 5 years younger after only 3 days', 'never use face cream again' | image |  | Assets / TT Lander Assets | [open](https://drive.google.com/file/d/1Rgz6Fjg1mmguwz091_v_TBKHsVq1tsJX/view) |
+| Text graphic: 'The Tallowed Truth, F-Balm ingredients: freedom, grass-fed tallow, organic olive oil, beeswax, Ontario honey' | image |  | Assets / Brand Logos | [open](https://drive.google.com/file/d/1fpK2X8RqDYc_OwYbXZf7SEEkjSyqvyUC/view) |
+| 'Thanks for your order! You just joined the fight against Big Cosmetic' cows card | image |  | Assets / Brand Logos | [open](https://drive.google.com/file/d/1S39G9iOo5G2NLB27SGiJSoIEsA20EFO-/view) |
+| The Tallowed Truth wordmark logo | image |  | Assets / Brand Logos | [open](https://drive.google.com/file/d/1gyBwSB7iMjTSv7BY5bwCy35DAg7vFMiE/view) |
+| The Tallowed Truth stacked logo, black on white | image |  | Assets / Brand Logos | [open](https://drive.google.com/file/d/1evOOQORv2CVwwBj8itRjGLbB5TNb515r/view) |
 | Acne before/after with a DM thread ('I've struggled with acne all my life...') | image |  | Assets / Manufacturing Content | [open](https://drive.google.com/file/d/19jeCRp91aB7a6REMnOXPxM7Q0any3oAb/view) |
 | S-Balm static: tin in hand on grass + Angela W. 5-star review | image |  | Assets / Manufacturing Content | [open](https://drive.google.com/file/d/13ECxsLFAbE0VtqIqV6JFirHjc_dHz1wT/view) |
+| Review text: 'Dry skin gone' and 'Boy mom... now it's a family affair' | image |  | Assets / Statics & Social Proof | [open](https://drive.google.com/file/d/17rbAfUqbmbY5uLbKWCOpNxLPGmS_QDsc/view) |
+| Comments: 'struggled with acne all my life... only thing that made a difference' | image |  | Assets / Statics & Social Proof | [open](https://drive.google.com/file/d/1cDlhd2knYaFWSQIU3ICFw6x_cqVl0vft/view) |
+| Review text: 'This product has fixed my face! My acne has disappeared' | image |  | Assets / Statics & Social Proof | [open](https://drive.google.com/file/d/1wlVaetcg0r2zyjWPY7IUTc9F3JROir80/view) |
+| Facebook comments: 'threw all my other products out', 'feel a difference after one use' | image |  | Assets / Statics & Social Proof | [open](https://drive.google.com/file/d/18PyXTYLxRl1BKcC3oGhQks_DzWHGc9GZ/view) |
+| Tin in hand with a DM: 'obsessed with the cream! My skin had honestly never been so soft' | image |  | Assets / Statics & Social Proof | [open](https://drive.google.com/file/d/1FEEngBLWsDBDzZf4IkZIDxEjfcEWw81d/view) |
+| Collage of UGC posts and comments with the tin ('this is great stuff', 'the best skin care') | image |  | Assets / Statics & Social Proof | [open](https://drive.google.com/file/d/1p5mtNc1Qo1-ArLiSnCL-eB3Al93wgqhc/view) |
+| Customer before/after selfies with 'Before: / After:' header | image |  | Assets / TT Lander Assets | [open](https://drive.google.com/file/d/128HRWED3EK_kZVZSQZ4zqtCqGf1mDHvQ/view) |
+| Before/after of a cut/scar on an arm healing | image |  | Assets / TT Lander Assets | [open](https://drive.google.com/file/d/1wUekjaFc16B0fzQuWawNwk6eFsODcgVu/view) |
+| Facebook comments: 'helps with my scalp psoriasis', 'making my face literally glow' | image |  | Assets / TT Lander Assets | [open](https://drive.google.com/file/d/1BU4zwoL-fLBnpvGyo8FJ-R-1Ew7DGDtS/view) |
+| Review card: Yvette M. with selfie, long review on sensitive skin | image |  | Assets / TT Lander Assets | [open](https://drive.google.com/file/d/1qlaj1pa5b2I5V5EX-88qchSxFLrl5ZqW/view) |
+| UGC: woman holds the tin to the camera, close-up selfie | image |  | Assets / TT Lander Assets | [open](https://drive.google.com/file/d/1uytE22snJ7K51sA2hhgNwcFiuRURE2Y2/view) |
 
 Full list with every file: `catalog.csv`. Rebuild: `python3 tallowed-truth/tools/build_broll_catalog.py <scan.jsonl>`.

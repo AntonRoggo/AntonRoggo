@@ -29,11 +29,39 @@ CATEGORIES = {
 }
 
 
+def fingerprint(r, thumbs):
+    """A 64-bit difference hash of the first thumbnail, so the same picture saved in two folders matches."""
+    from PIL import Image
+    names = r.get("thumbs") or []
+    if not names or not (thumbs / names[0]).exists():
+        return None
+    im = Image.open(thumbs / names[0]).convert("L").resize((9, 8))
+    px = im.tobytes()
+    return "".join("1" if px[y * 9 + x] > px[y * 9 + x + 1] else "0" for y in range(8) for x in range(8)) + \
+        f"|{r['kind']}|{round(r.get('duration', 0))}"
+
+
 def main(scan, sheets=None):
     recs = [json.loads(l) for l in open(scan) if l.strip()]
     tags_path = OUT / "tags.json"
     tags = json.loads(tags_path.read_text()) if tags_path.exists() else {}
-    keep = [r for r in recs if r["kind"] in ("broll", "image")]
+    thumbs = Path(scan).parent / "thumbs"
+    # The same file often sits in several folders: list it once, and let a copy borrow its twin's tag.
+    first, dupes = {}, 0
+    keep = []
+    for r in recs:
+        if r["kind"] not in ("broll", "image"):
+            continue
+        fp = fingerprint(r, thumbs)
+        twin = first.get(fp) if fp else None
+        if twin is None:
+            if fp:
+                first[fp] = r
+            keep.append(r)
+            continue
+        dupes += 1
+        if r["id"] in tags and twin["id"] not in tags:
+            tags[twin["id"]] = tags[r["id"]]
     rows = []
     for r in keep:
         t = tags.get(r["id"], {})
@@ -59,7 +87,7 @@ def main(scan, sheets=None):
              f"Every silent clip (B-roll: no one talking) and image from the TTT asset folder and the creator brief raw "
              f"footage folders, tagged by what it shows. {len(recs)} files scanned: {sum(1 for r in recs if r['kind']=='broll')} "
              f"B-roll clips, {sum(1 for r in recs if r['kind']=='image')} images, {talking} talking takes (not listed), "
-             f"{errors} could not be read. Files stay where they are in Drive; `link` opens each one.\n",
+             f"{errors} could not be read, {dupes} duplicate copies left out. Files stay where they are in Drive; `link` opens each one.\n",
              "Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are left out of the catalog.\n",
              "## Categories\n", "| Category | What's in it | Files |", "|---|---|---|"]
     lines += [f"| `{c}` | {d} | {counts[c]} |" for c, d in CATEGORIES.items()]
@@ -78,7 +106,6 @@ def main(scan, sheets=None):
         todo = [r for r in keep if r["id"] not in tags]
         d = Path(sheets); d.mkdir(parents=True, exist_ok=True)
         font = ImageFont.truetype("/usr/share/fonts/opentype/inter/Inter-Bold.otf", 16)
-        thumbs = Path(scan).parent / "thumbs"
         index = {}
         for s in range(0, len(todo), 12):
             sheet = Image.new("RGB", (4 * 3 * 120, 3 * 230), "white")
