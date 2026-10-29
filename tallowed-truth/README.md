@@ -11,6 +11,7 @@ meant to be loaded into the company Claude project, and Claude should read this 
 |---|---|
 | "What reviews can I use for a video about X?" | `reviews/stories/<theme>.md` (best 40 per theme), then `reviews/reviews.csv` for more |
 | "Give me the best customer stories" | `reviews/top-stories.md` |
+| "Write a story ad / teleprompter script" | `rules/story-script-prompt.md` (the 3 acts, 10 beats prompt); finished scripts in `briefs/story-scripts-2026-10.md` |
 | "Age-reaction / who-noticed stories, ready to film" | `reviews/stories/age-reactions.md` (43 stories, 2 payoff hooks each, screenshot file names) |
 | "Who noticed? Dermatologist, esthetician, nurse..." | `reviews/stories/authority.md`, `testimonials/screenshots.csv` (category `authority`) |
 | "I need a before/after or a customer photo" | `testimonials/README.md`, `testimonials/photos.csv` |
