@@ -1,6 +1,6 @@
 # B-roll & overlays
 
-Every silent clip (B-roll: no one talking) and image from the TTT asset folder and the creator brief raw footage folders, tagged by what it shows. 468 files scanned: 132 B-roll clips, 229 images, 107 talking takes (not listed), 0 could not be read, 70 duplicate copies left out. Files stay where they are in Drive; `link` opens each one.
+Every silent clip (B-roll: no one talking) and image from the TTT asset folder and the creator brief raw footage folders, tagged by what it shows. 572 files scanned: 145 B-roll clips, 230 images, 197 talking takes (not listed), 0 could not be read, 78 duplicate copies left out. Files stay where they are in Drive; `link` opens each one.
 
 Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are left out of the catalog.
 
@@ -8,15 +8,15 @@ Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are lef
 
 | Category | What's in it | Files |
 |---|---|---|
-| `product` | The tin or jar: hero shots, in hand, lid off, texture, swatches | 121 |
-| `application` | Putting it on: face, neck, hands, under the eyes | 28 |
-| `skin-result` | Glowing skin, touching the face, mirror checks, smiling close-ups | 13 |
+| `product` | The tin or jar: hero shots, in hand, lid off, texture, swatches | 124 |
+| `application` | Putting it on: face, neck, hands, under the eyes | 29 |
+| `skin-result` | Glowing skin, touching the face, mirror checks, smiling close-ups | 14 |
 | `problem` | Dry, crepey, wrinkled or irritated skin; the 'before' | 11 |
-| `failed-solutions` | Other creams, serums, drugstore products, the bathroom cabinet | 13 |
-| `factory` | Inside the TTT facility: making, pouring, filling, machines, the team | 31 |
+| `failed-solutions` | Other creams, serums, drugstore products, the bathroom cabinet | 15 |
+| `factory` | Inside the TTT facility: making, pouring, filling, machines, the team | 33 |
 | `ingredients` | Raw honey, tallow, beeswax, olive oil, essential oils | 3 |
 | `packing-shipping` | Packing orders, boxes, labels, shipping | 0 |
-| `lifestyle` | Creators posing, routines, outdoors, family, everyday moments | 18 |
+| `lifestyle` | Creators posing, routines, outdoors, family, everyday moments | 19 |
 | `founder` | Ben on camera without talking (walking, working, holding product) | 1 |
 | `graphic` | Statics, review screenshots, social proof, logos, lander images | 50 |
 | `other` | Doesn't fit the above | 0 |
@@ -36,6 +36,7 @@ Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are lef
 | Hands open the tin and dip a fingertip into the golden balm (close-up) | video | 52.6 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1AeYzpTgllyBdeCMjMyb7KXR6FZPpenM_/view) |
 | Red-haired woman fans out three F-Balm tins to the lens and smiles | video | 62.1 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1p3u8ydxYJ1IpjYPUMaq86H10xCV-ma29/view) |
 | Open tin of golden balm in bright sunlight on a marble counter, hand dips in | video | 72.7 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1zAvlreHHhz7u5IeyiYeFc0qNk669LpIZ/view) |
+| Three F-Balm tins (lavender, honey, frankincense) on a sunny marble counter, top-down | video | 15.9 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1keQcdn_WAUKfXFjWr2hyurNN5HxrDs_O/view) |
 | Hand shows the ingredient label on the bottom of the tin, plants behind | video | 10.2 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1rkP0eAQx0Bqcuq2vQlaRf2OwGyAqSAcx/view) |
 | Hands open the tin in sunlight by a window, fingertip scoops the golden balm | video | 30.9 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1knII-8GP_OoGetDzfgkG0FczlqJeW89B/view) |
 | Hands hold the tin against green leaves, lid off to the golden balm | video | 23.4 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1WJQqGd73wmvNwa-fjRjm5DSrmeXfrLLD/view) |
@@ -49,7 +50,6 @@ Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are lef
 | Open F-Balm tin with lid, studio white, golden balm | image |  | Assets / All Product Photos | [open](https://drive.google.com/file/d/1CLtokX5BSFaN01qWvo65132-cm0GQW7S/view) |
 | Two F-Balm tins on grey, label forward | image |  | Assets / Brand Logos | [open](https://drive.google.com/file/d/1xOSKU2aibWifB65MUTPCC37exFhXJD2r/view) |
 | F-Balm lid label, flat-on close-up (older 'freedom' label) | image |  | Assets / F-Balm Image Statics | [open](https://drive.google.com/file/d/1e96OpbQfLEwfytwujhNrRhm-ll8U1VZy/view) |
-| Top-down of the golden balm surface, grey background | image |  | Assets / F-Balm Image Statics | [open](https://drive.google.com/file/d/1Wt8wer7m5283sf5Ifx8AmKrRSiPWa2az/view) |
 
 ## Best application
 
@@ -74,6 +74,7 @@ Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are lef
 | Woman in a grey robe holds the open tin and pats balm on her face | video | 29.2 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1jGL4x8J8fv2RvKascQO1unvyaLG8YYyy/view) |
 | Hand scoops balm and rubs it into a dry forearm (bathroom tiles) | video | 25.2 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1TiQH8PgT-Qd6pFokGU56ELXD8_ly0ZHD/view) |
 | Close-up of balm rubbed into the back of a hand and forearm | video | 8.9 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/10d4vRz_jR_e8va38CAVDTVY9xYFP_zXk/view) |
+| Two women on a beach towel rub balm into their legs and hands (sunny, S-Balm feel) | video | 35.4 | Assets / Manufacturing Content | [open](https://drive.google.com/file/d/1-0oZIxumI1M8wQ8hPtSHuNFg64xOCit8/view) |
 | Woman in a grey headband and pink jacket shows the open tin, touches her cheek | video | 17.2 | Assets / Reviews_UGC and Comments | [open](https://drive.google.com/file/d/1YrrE_kJCiaSWFecnvROKR4hbvjhiJGbp/view) |
 | Woman in the grey headband pats balm on her face, then shows the tin | video | 17.5 | Assets / Reviews_UGC and Comments | [open](https://drive.google.com/file/d/1J3nIxTURPxLBtY2_lUmRSPq5QMGlT8kT/view) |
 
@@ -89,6 +90,7 @@ Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are lef
 | Woman in a towel turban and robe touches her cheek after skincare | video | 14.3 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1sbUp_qCVwtf-84J0kFL5cyzrY89qvajr/view) |
 | Tanned woman cups her face and smiles, open tin in hand | video | 25.3 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1nzmUnCkWBxjwDglQ7OTPBQ8xJ9RXWHAy/view) |
 | Woman outdoors on a patio, smiling and turning her face to the sun, glowing | video | 12.0 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1MzIkCO0hS9KSWhpCojbF4JZhTC-qBTVm/view) |
+| Red-haired woman's bare-skin selfie, no foundation (Break Up With Foundation brief) | image |  | Brief / Break Up With Foundation | [open](https://drive.google.com/file/d/169n2gnL9LA6Epk0BoJ2W5fcy19N84fEX/view) |
 
 ## Best problem
 
@@ -108,6 +110,8 @@ Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are lef
 | Woman sweeps old skincare bottles off the counter into the bin | video | 5.9 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1pWraiARb047yC_BP-wmCDMRZCWR00mQO/view) |
 | Hand holds a CeraVe tube and a red box of another moisturiser, reading labels | video | 22.3 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1LLIvKYULQmjpK132K2O-wCZGLA6lav5v/view) |
 | Bathroom counter crowded with skincare bottles, POV | video | 12.4 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1p7g0uIvBNDGAD0EG_BKs9kY9xKKOxHWm/view) |
+| Creator holds up a drugstore moisturiser tube to the lens, dark backdrop | video | 5.1 | Brief / ManVsGodMade | [open](https://drive.google.com/file/d/1ghxsSqmHSMZg7XJbBe3qWsojwPTD1IvD/view) |
+| Drugstore moisturiser tube next to a '$20' sticky note (price comparison) | video | 4.1 | Brief / ManVsGodMade | [open](https://drive.google.com/file/d/1AfbcjpXAJ4D6HnukFd0U9WWj7bb6xWhs/view) |
 
 ## Best factory
 
@@ -131,6 +135,7 @@ Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are lef
 | Trays and boxes packed with S-Balm tins, factory | video | 11.6 | Assets / Manufacturing Content | [open](https://drive.google.com/file/d/1hmb7CWD3v97NZ5TXJzBLxqX7FZHLY_Xi/view) |
 | Empty tins moving along the filling conveyor, top-down | video | 18.0 | Assets / Manufacturing Content | [open](https://drive.google.com/file/d/1hLCyYfLZQeq-OVSEft7_A0lX8I71_tRf/view) |
 | Tins tilted on the filling line, golden balm, cinematic | video | 7.2 | Assets / Manufacturing Content | [open](https://drive.google.com/file/d/1A3N05U1US4KVr7lUp2qSScpePOPSJvKZ/view) |
+| Low angle across finished tins in front of the labelling tunnel | video | 22.3 | Assets / Manufacturing Content | [open](https://drive.google.com/file/d/1KrT5zYf9UaanaV1mwBWfXyqlcxFIGOLH/view) |
 | Worker stirs a big steel kettle of balm with a drill mixer (horizontal) | video | 59.0 | Assets / Manufacturing Content | [open](https://drive.google.com/file/d/1hwx0mbWYrwbZGum1WEqpcmIC612X1NTV/view) |
 | Fresh-filled golden tins on the conveyor | image |  | Assets / Manufacturing Content | [open](https://drive.google.com/file/d/1Q-RQ0PCoWTI8TyXavUubbVtaXGFeykcj/view) |
 | Empty tins lined up under the filler hose | video | 23.7 | Assets / Manufacturing Content | [open](https://drive.google.com/file/d/1JaPnfVqwrfZdy_ZdwcVqCAfxiVqrDP7A/view) |

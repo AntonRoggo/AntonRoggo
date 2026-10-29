@@ -50,7 +50,7 @@ def main(scan, sheets=None):
     first, dupes = {}, 0
     keep = []
     for r in recs:
-        if r["kind"] not in ("broll", "image"):
+        if r["kind"] not in ("broll", "image") and r["id"] not in tags:  # a tag rescues a clip with stray background words
             continue
         fp = fingerprint(r, thumbs)
         twin = first.get(fp) if fp else None
@@ -67,7 +67,7 @@ def main(scan, sheets=None):
         t = tags.get(r["id"], {})
         rows.append({
             "id": r["id"], "category": t.get("category", "untagged"), "what": t.get("what", ""),
-            "quality": t.get("quality", ""), "kind": "video" if r["kind"] == "broll" else "image",
+            "quality": t.get("quality", ""), "kind": "image" if r["kind"] == "image" else "video",
             "duration": r.get("duration", ""), "orientation": ("vertical" if r.get("height", 0) > r.get("width", 0) else "horizontal") if r.get("width") else "",
             "source": r["source"], "brief": r.get("brief", ""), "creator": r.get("creator", ""),
             "file": r["name"], "path": r["path"], "link": r["link"], "notion": r.get("notion", ""),
