@@ -1,0 +1,159 @@
+[0:00] Hey everyone, Owen here. Today I want to show you how I use Grokbot computer use to one-shot video generation with StefanBrain.
+[0:07] So I've received countless DMs about this and people are already implementing about what I talked about in my tweet the other day and
+[0:16] What it all comes back to is that Grokbot is super overpowered. So two eight-figure founders have already told me this.
+[0:23] One has stopped hiring for two additional video editors like they plan to and they're actually
+[0:29] reevaluating their current video editing team to make sure that they're way more AI native and
+[0:34] Potentially even replace them with Grokbot editing. The second one is already uploading 30 to 40 unique ad concepts to meta automatically with Grokbot and StefanBrain and
+[0:44] Image and video generation with just 30 to 40 minutes of daily work, which is insane
+[0:50] So today I want to show you exactly how they're doing it how to set up Grokbot so that it can actually
+[0:56] orchestrate all of your other AI tools so
+[0:58] The vision that I see is that Grokbot is going to be like the central command center that that's all you touch
+[1:04] That's all you log into when you want to develop code
+[1:06] You tell Grokbot to message Claude code or codex if you want marketing copy
+[1:11] You send that to StefanBrain and StefanBrain returns the videos and the copy and then Grokbot actually uploads it to meta for you
+[1:18] Alongside that data. So I want to show you and explain a little bit how the architecture of Grokbot works
+[1:25] So here's this prompt. I've already pasted it into Grokbot. How I like to set this up is
+[1:31] Through group chat. So this is my favorite feature of Grokbot is that you can set up fully agent agent work flows by having the agents actually
+[1:39] communicate with each other so
+[1:42] Within this prompt, I will go over it briefly. So I tell it to set up a group chat
+[1:47] This is a fully human prompt. I recommend you read all of it. Go here is autonomous video generation and editing
+[1:53] So I've already given it a little bit of a structure because I know what I want
+[1:56] So we always want a QA bot. This is going to watch and judge videos based on specific skills that we create and DR
+[2:02] Principles pronunciation and also visual inconsistencies. We will have a prompting bot. So this will learn from the QA bot
+[2:09] it's like a circular feedback loop it will learn from the past prompts future prompts and
+[2:14] Upload all of the visual references, guidances, audio tracks, etc
+[2:18] So for example, if you want to use a specific voice and keep everything consistent across clips
+[2:23] If you need to generate for example, like an eight minute video
+[2:26] You have to keep everything consistent and it's such a pain to go and upload the audio file
+[2:31] The images every single time inside Stefan brain. So just have Grokbot do it
+[2:36] That's sort of the idea here and then Grokbot can edit and combine all of those videos together for you
+[2:43] Then finally video editor bot
+[2:45] So this is going to use Stefan brains native
+[2:47] Regeneration tools so we can actually get like multiple hooks inside one
+[2:52] Video that you can launch and test against each other and then also fix any
+[2:56] Pronunciation x issues and then also so that when we find the correct spelling of the word phonetically
+[3:02] We can actually just throw that into our future prompts so that we don't have to worry about regenerating anything in the future
+[3:07] So the goal here is to learn from your past mistakes. All of this is done through computer
+[3:13] Computer use. I'm also having it backlog every single video. I've generated. I've generated hundreds of videos on Stefan brain and
+[3:20] We're going to examine these prompts where videos went wrong
+[3:22] And then we will use these findings to create a video prompting skills so that we can ensure the highest quality results
+[3:27] We will also use our knowledge base to get some like baseline skills and best practices and then
+[3:33] Also, we're going to align so I will qa everything to start and then eventually we will say okay
+[3:39] The goal is for this to be fully autonomous, right? That was the goal
+[3:42] But before that I need to still be in the loop and qa things as we get this sort of process going so that we can make it
+[3:49] Repeatable and improve lastly this little tidbit. I always like to include like do you recommend anything else?
+[3:54] And it actually did so it's going to add in a fourth bot a gates bot
+[4:00] so I am going to accept this and
+[4:04] Say yes, and then I will get back to you as we continue setting this up
+[4:09] So just to show you how it's working because I think it's pretty awesome is that operations my lead agent
+[4:16] It sets up this group chat with our editor with our qa and with our gates
+[4:19] so right now operations is
+[4:22] Fishing the video history so that it can do a full backlog and create a skill file based on all the prompts
+[4:29] I've already given it all all the prompts that I've already done with Stefan brain
+[4:32] So that it has a solid baseline and what to work through
+[4:37] So I am just going to continue approving this stuff and I will get back to you as we continue progressing
+[4:43] Basically, you can set this up all on your own grog bot is so intuitive and it's very easy to set up
+[4:49] So once you have like the proper prompt and the proper architecture
+[4:52] It's will basically set itself up with your qa and approval. So I am going to
+[4:59] So I have signed grog bot into Stefan brain
+[5:02] So now it has access to all of the videos and it's going to backfill all of those prompts
+[5:07] It already did that and then I also had it tell our editor about to check out this tutorial
+[5:13] Because there's a video on how to use like all of the features of the Stefan brain editor
+[5:18] so it did that and
+[5:22] Then I also want to share just a little bit more of like my prompt ethos
+[5:26] So I ask it what's the workflow that this is going to follow is it going to be I give you an idea
+[5:32] You send it to a prompter prompter generate sends it to editor in qa they loop and the gate sends it to you
+[5:38] And you send it to me. What's the best setup here?
+[5:40] So I'm just deferring to grog bot as the expert and then I ask what's the most
+[5:45] Scalable setup so it's suggested I bring the idea while we're still calibrating and then eventually it finds ideas for me
+[5:53] without me having to bring ideas to the table so that if you actually go into Stefan brain and
+[5:58] You know pull angles from the products and work inside chat to actually find like different winning angles right here
+[6:06] You could for example put in some sort of ad spy automation
+[6:09] Where it scrolls through your trend track or get hooked or whatever ad spy platform you use and then it can you know try
+[6:17] And reverse engineer that using Stefan brain as like the marketing side to rewrite it for your product
+[6:21] And then throw it into your video generation like there's so many ways you can get creative here and automate it
+[6:28] So from now like as I calibrate it it will just be that and then next I am
+[6:35] Going to create a strong ad so I gave it the angle here the GLP one digestion angle
+[6:41] I told it to explore this angle inside set from a chat and then send those into video gen
+[6:46] and then I also
+[6:48] Told it to make sure to add a lot of b-roll just to show you guys that that feature because it's awesome because
+[6:54] If there's any sort of like mistake just add like some b-roll over it, and it's actually not going to be a big deal at all
+[7:01] so
+[7:02] Now I will let those run and I will see you once the videos are ready and
+[7:08] Then I also for the second video
+[7:10] I'm having it generate multiple clips inside Stefan brain and then stitch them together
+[7:14] So it actually just decided to generate them using graph but video generation
+[7:18] I'm not sure how that works
+[7:19] But so the idea here is that you can stitch multiple clips together using the grokbot editor
+[7:24] Or you could even use something like cap cut and just get download cap cut and then give grokbot computer use access and
+[7:32] Like give it some guides to like learn how to edit videos
+[7:35] And then you grokbot is literally you know a video editor using cap cut knows your exact style
+[7:41] You could give some examples like a vsl example like edit it exactly how this vsl is edited
+[7:47] Like with this type of overlays and b-roll and closed captions or whatever like you can get so creative
+[7:55] With how it will edit the videos. It is awesome. So I just watched the song and let's watch it right now together
+[8:02] I'm just gonna let the whole thing play through so you can see exactly what happened and how it was edited and how the b-roll was
+[8:17] They say what's going on down on the factory floor hit it ball
+[8:23] Now don't you reach for that green thought of slug
+[8:26] That refuse to fight when you tell me it's tender. You need something sweet to get the whole crew back on their feet
+[8:33] Like the day you need in you'll in fiber to feed the crew and whole food greens in a tasty juice
+[8:56] Not a harsh quick flush that gives you a fright just smooth daily rhythm from morning to night
+[9:01] So open that for a screen pal so grand pull out a pocket pack right in your hand
+[9:05] Pop those little bears that are chewy and soft and watch all that heavy old blow lift off
+[9:10] All the bells would jam and the kids would start here for a start
+[9:13] What that love till we chewed our crew to the line woke up 60 ohm extra no one spill glue
+[9:21] No, keep that body moving with a pack doing the work
+[9:25] You're on the journey you deserve to feel like on the inside to not bloated not waiting days. Wonder what happened
+[9:31] One simple snack pack delicious green bears made with real fruits and vegetable zero jump let the factory run
+[9:36] The way it was born to run. Are you ready to roll boys?
+[9:38] We'll pour the bells we'll jam and the kids will start
+[9:41] We're free but we're regular as clockwork and free biotics clean the daily gut hero in an emerald green
+[9:51] Say goodbye to the heavy say goodbye to the gloom but the sunshine backing you taught me with crew
+[9:55] Ready, daily, patchy, day, baby, no sugar, sugar, free, taste, mind, decree
+[10:02] So you got zero risk for your routine
+[10:06] Cool, so I honestly I think it added a little bit too much b-roll. Oh, as you can see here once we go into the edit
+[10:14] Uh, this is all of the b-roll at the bottom
+[10:17] So as you can see it added in just a bunch of different images because I told it to right
+[10:21] So I worked with the qa editor at first it was really really strict
+[10:25] And it wasn't letting any of the video pass without like tons of editing
+[10:29] So I think for the qa it could be even like less strict
+[10:33] Because like a character moving through a table that it like yeah, it's important
+[10:37] But if it's like a really long video like a lot of people don't even notice it
+[10:40] Like I didn't even notice and like q pot actually flagged it
+[10:43] But as you can see like this was all b-roll, right?
+[10:46] So like if you want you could make it smaller
+[10:48] But then the actual video is up there and then I also want to go over the
+[10:54] hooks so
+[10:56] The original is here
+[11:00] Listen here now y'all and then it swapped it
+[11:11] So
+[11:13] We had two different hooks and you can just click
+[11:16] Use or save each as a video which is awesome
+[11:19] And then we can see all of the difference like b-roll that
+[11:23] crockpot actually
+[11:25] Put inside here. So that is how the stefan brain video editor works
+[11:31] So for this one
+[11:34] crockpot stitched together like four clips that I generated with stefan brain
+[11:39] It uploaded all the proper reference assets and everything so that like this green character stays the same
+[11:46] This broccoli stays the same
+[11:48] All of the props were all
+[11:50] identical
+[11:51] So if you need to like overlay a different audio track like if you're if you're making a song ad for example
+[11:57] And you want to overlay a different audio track from a different platform or if you're using if you're speaking in like another language
+[12:05] That t-dance doesn't natively support this would work great
+[12:08] Where you can just generate everything in stefan brain like audio wise and then overlay
+[12:13] Inside the grockpot editor because it did not stitch this together inside stefan brain
+[12:18] Or it stitched it together outside in grockpots like native video editor
+[12:22] Just like clog code or anything else uses
+[12:25] So that's what this one is and then cramping your gut doesn't want a harsh reset
+[12:30] It wants whole food fiber and gentle prebiotic fuel. That's why these little green guys exist
+[12:35] Groen's food greens rhymes with moons superfood gummies whole food greens vitamins and gentle pectin fiber in a daily chew
+[12:41] No shakers no sludge one tasty green pouch with your morning routine keeps digestion light and on schedule
+[12:48] So probably for this one I would be like hey grockpot
+[12:51] Can we make sure always this style of captions are added inside the editor so that
+[12:56] Everything stays consistent because inside the grockpot editor. It doesn't have the same captions as stefan brain does
+[13:01] So it would be good to like standardize that and make that a rule
+[13:05] But yeah, that is it for this tutorial
+[13:08] Let me know if you guys have any questions feel free to reach out
+[13:12] And that setup prompt should be enough, but if you have any questions, i'm super curious
+[13:17] To know how you use it and how you're using agentic video editing
+[13:21] Which by the way more is coming to stefan brain as well. So I will see you in the next one
