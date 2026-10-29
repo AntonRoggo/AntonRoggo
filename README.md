@@ -53,6 +53,10 @@ python3 edit_legend.py series/lifestyle-legends/plans/cousteau_a_origin.json --d
 - Editing breakdown of every reference reel: `series/lifestyle-legends/BREAKDOWNS.md`
 - Put each script's footage in `input/<plan name>/`. The `edit-legend` skill runs the whole thing.
 
+## What to post (whole account)
+
+`account/STRATEGY.md` covers all 583 reels: topics ranked, what to double down on and stop, and a 12-week plan with no restrictions. The per-reel table, with topic tags, is `account/data/all_reels.csv`.
+
 ## "Do This" reels (quick format)
 
 The one-line, talk-while-doing-it format behind most of the account's biggest reels:
