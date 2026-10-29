@@ -74,8 +74,9 @@ def main(out):
     rel = os.path.join(HERE, "comments", "relevant.csv")
     if os.path.exists(rel):
         com = list(csv.DictReader(open(rel, encoding="utf-8")))
-        for sec in ["Customer results", "Doubts answered by customers", "Real objections", "Questions before buying"]:
-            tab(wb, "Comments - " + sec.split()[0].lower() if sec != "Doubts answered by customers" else "Comments - doubts answered",
+        for sec, title in [("Customer results", "Comments - results"), ("Doubts answered by customers", "Comments - doubts answered"),
+                           ("Real objections", "Comments - objections"), ("Questions before buying", "Comments - questions")]:
+            tab(wb, title,
                 ["Comment (word for word)", "Likes", "Date", "Objection", "How TTT answered"],
                 [[c["comment"], int(c["likes"]), c["date"], c["objections"], c["ttt_answer"]] for c in com if c["section"] == sec],
                 [90, 7, 11, 24, 60])
