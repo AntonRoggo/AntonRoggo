@@ -49,6 +49,7 @@ def main(out):
         "Top 100 = best overall. Each theme tab = best 40 on that theme. Screenshots and Photos tabs = files already in Dropbox.",
         "Quote reviews word for word. Never change a number or tidy the wording.",
         "Need a review on screen that has no screenshot? Ask the TTT Brain in Claude for a review card with its id.",
+        "Comments tabs = relevant comments under our Facebook ads (no names). Use them for hooks and objection lines, not as on-screen testimonials.",
         "Source of truth is the TTT brain repo; this sheet is a copy, regenerated when reviews are refreshed.",
     ]:
         ws.append([line])
@@ -70,6 +71,14 @@ def main(out):
     tab(wb, "Photos", ["Kind", "What", "Review id", "Name", "Stars", "Review", "Source", "Used in ads", "Dropbox file"],
         [[p["kind"], p["description"], p["review_id"], p["name"], p["rating"], p["review"], p["source"],
           p["used_in_ads"], p["dropbox_path"]] for p in photos], [16, 40, 12, 14, 6, 70, 30, 12, 60])
+    rel = os.path.join(HERE, "comments", "relevant.csv")
+    if os.path.exists(rel):
+        com = list(csv.DictReader(open(rel, encoding="utf-8")))
+        for sec in ["Customer results", "Doubts answered by customers", "Real objections", "Questions before buying"]:
+            tab(wb, "Comments - " + sec.split()[0].lower() if sec != "Doubts answered by customers" else "Comments - doubts answered",
+                ["Comment (word for word)", "Likes", "Date", "Objection", "How TTT answered"],
+                [[c["comment"], int(c["likes"]), c["date"], c["objections"], c["ttt_answer"]] for c in com if c["section"] == sec],
+                [90, 7, 11, 24, 60])
     wb.save(out)
     print(out, os.path.getsize(out) // 1024, "KB")
 

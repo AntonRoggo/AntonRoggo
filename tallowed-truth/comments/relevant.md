@@ -1,0 +1,817 @@
+# Relevant ad comments
+
+442 of 1897 comments are worth reading: real results, real doubts and real questions. Political, contest and one-word comments are left out. Most liked first.
+
+- **Customer results**: people who use it saying what changed. Real wording for script lines.
+- **Doubts answered by customers**: someone raises a doubt (greasy, smell, price, breakouts) and answers it from their own use. The best objection-handling lines there are.
+- **Real objections**: complaints. Know them, answer them in scripts, don't promise against them.
+- **Questions before buying / from users**: what to answer inside the video.
+
+Comments are public but unnamed here: use them for hooks, script lines and objection handling, not as on-screen testimonials (use reviews for that).
+
+## Customer results (53)
+
+- "It is making my sun spots disappear. I love it. I applied it on moist clean surfaces and it is really easy to apply." (23 likes, 2026-05-18)
+- "The face whip is absolutely amazing. It has cleared up my skin so much!!!" (23 likes, 2026-06-21)
+- "I’m impressed!it’s improving my eczema flair ups. Also love this on my face. So good! Great product !! Finallly!" (21 likes, 2024-10-27)
+  - TTT answered: "so happy to hear that! We appreciate you Susanne! 🫶"
+- "I got mine yesterday and I'm so glad I ordered the 4 pack! I love this stuff!!! Besides how great it feels on my skin, it is the best lip balm I've ever used! I live in Alberta and it's been a$$ freezing cold and my lips have been dry, cracked and peeling...2 applications and my lips are healed! I've tried a couple other tallows but they can't touch the F Balm!" (10 likes, 2026-02-21)
+  - TTT answered: "love to hear this 🫶🏼🫶🏼🫶🏼"
+- "I use it on my face and I have used super high end anti aging products in the past. Tried them all. Spent hundreds on one jar of cream (not proud to say ). The wrinkles under my eyes have disappeared with just over a month of using this. I use no other products anymore and my skin is supple and line free!" (8 likes, 2025-08-07)
+- "I was wondering if you can use the tin tallow on your face too or just the face whip? I have both and I love the lip balm. My 15 years old son found that it made his eczema worse. His hands really cracked and I'm not sure why. The face whip is my favorite because it really moisturizes my face and yes, a little goes a long way. My only issue personally is the scents, I don't like them, the only one I like is the face one, because it's lemony. I don't use body creams, I really got it to help my son and that was a disappointment 😪 I got this around Christmas time and really wanted to give it a chance. I'm glad it helps so many people though." (3 likes, 2026-06-21)
+  - TTT answered: "F-Balm is great for your face! The frankincense in it adds an anti-aging effect. Sorry to hear the products aren't to your liking. Please email us to see if we can make it up to you! Appreciate the feedback Jennyfer. support@thetallowedtruth.com"
+- "I have Sjogrens and so one issue is dry skin that peels ugh. This stuff has actually helped my skin so far and some dark spots on my face are dissipating. Thank you!" (5 likes, 2024-10-17)
+  - TTT answered: "awesome, we’re so happy to hear that! We appreciate you! 🫶"
+- "Best applied to a damp face .. the water helps to lock in the moisture. I absolutely LUV their product ..we can't keep enough of the soap in hand. We now order extra to take to our secluded island home .. it's done wonders to my man's dry elbows and knees. His psoriasis has completely disappeared. Highly recommend the Tallow Soap .. Citrus is my favorite, but the Lavender is especially nice in the evening before bed. 🇨🇦✨" (3 likes, 2026-05-27)
+- "In comparison to allllll the over the counter higher end creams its comparible in price I think. By the time you buy multiple bottles of day time, night time creams. Serums ect! Plus F-balm works. Ive been using now for almost 2 weeks. The fine lines on my forehead fading and those 11s between my eyes are getting lighter 💗💗💗" (3 likes, 2026-10-15)
+- "I absolutely love FBalm. I recieved mine a week ago, I’ve been using on my eczema, it is working magic. My eczema is very bad, and in just a week it’s fading. Love this stuff!!🙂" (3 likes, 2026-04-27)
+  - TTT answered: "Love to hear when F-Balm kicks eczema’s butt!! Appreciate you Cheryl glad it’s working well🫶🏻"
+- "Love the texture, smell and the way my face feels when I use it." (4 likes, 2026-08-22)
+  - TTT answered: "to hear, Kim!"
+- "Here's another glorious use for this product. After tattoo care. I used the F-balm on my new tattoo and my artist was impressed at how well it healed. Just another cool thing this stuff does." (3 likes, 2026-04-06)
+  - TTT answered: "Great idea"
+- "Love this! I ordered 5 to get a deal. Using it for my face. I also noticed that it is great for cracked heels!" (4 likes, 2026-05-24)
+- "I use the F Bomb on my face and hands at night time. In the AM, I use the whipped tallow on my face wait a few minutes then apply my makeup. Also, my sun spots on my hands seem to be fading. Who knew!" (3 likes, 2026-05-22)
+- "I use it and the lines of aging are disappearing love it it’s all I wear at 67 years old" (3 likes, 2026-07-29)
+  - TTT answered: "love to see this; you’re glowing! ✨"
+- "My sons and daughter with sensitive skin are loving this product. Also have the sun screen too. Noticed in a couple days of using it how soft and smooth our skin was. Also love it on my heels… i had very rough heels and cracks. Been using it a month and Now my feet feel smooth! No more cracked soles!" (1 likes, 2025-06-21)
+  - TTT answered: "looove to hear this, Hilary! We are so happy for you and your family. Appreciate you all :)"
+- "2 weeks in and i have noticed a change. Great Stuff." (3 likes, 2024-09-10)
+  - TTT answered: "Love to hear it Paolo! We appreciate you!🙏"
+- "I LOVE the product! As does my daughter and my husband. My husband doesn’t typically use skin care products, but when he has needed it, he raves about how great his skin feels. ￼ I am working on him trying to get into a regular routine, but he’s old-school and a man’s man, but aging has made him a little softer to the idea lol￼! We are all fans!! Thank you!" (1 likes, 2026-06-30)
+- "It's cleared my perimenopause acne on my face !!" (3 likes, 2026-05-20)
+- "The ‘scent’ disappears shortly after application. I use the scented F-Balm. I personally feel you would prefer the original scented to unscented based on other’s comments." (1 likes, 2026-03-20)
+  - TTT answered: "appreciate you!"
+- "Well nobody has noticed but I sure love it" (3 likes, 2026-05-14)
+- "I love the Freedom face whip in scented. Such a soft light smell." (3 likes, 2025-08-07)
+- "Takes a bit to get used to, but I love it. Actually moisturized. I use it only after the shower, soaks in after about an hour. No more eczema at all." (2 likes, 2026-05-17)
+- "Love it ... my skin just soaks it up , and feels so soft! I just found out that Amazon is now stocking it , for faster delivery and a deal if you subscribe !" (1 likes, 2026-08-21)
+  - TTT answered: "Yes, we have a listing on Amazon ;)"
+- "My skin is looking wonderful! I have tried so many face moisturizers and they still left my face dry and flaky. The Tallowed truth is amazing!" (1 likes, 2026-04-18)
+  - TTT answered: "Thank you Diana! Exactly what we want to hear🤩 Glad you love it"
+- "It works so much better than I even thought it would. My skin glows and my extreme dry skin and I mean psoriasis has disappeared. Used first thing in morning then before bed. FYI it’s great on the heels of your feet to. 😊" (0 likes, 2026-10-03)
+  - TTT answered: "Colleen! So happy to hear this! :)"
+- "This is the best. I love it. I am 75 and my wrinkles are fading because it is so moisturizing. Love it!!!" (1 likes, 2026-06-26)
+  - TTT answered: "That's what we want to hear, MaryJane! ✨"
+- "I have been using this balm for over a year now and love it! My skin looks 10 years younger!" (1 likes, 2026-06-15)
+  - TTT answered: "😁"
+- "I LOVE THIS PRODUCT!! I'm 60 and most people guess me at least 10 years younger" (1 likes, 2026-05-31)
+  - TTT answered: "Love to hear that🥳 Thanks for sharing Wendy!"
+- "Finally received my order (yay)…and this one smells amazing. So far, I’m liking this cream, and the F-bomb also. Hopefully, it continues getting better and better." (1 likes, 2025-11-11)
+- "Just received my tallow balm hope it works on my psoriasis 🙏" (2 likes, 2026-07-26)
+- "Love mine!!!! My dog follows me when I use it. He must smell the tallow cause I sure don’t! 😁 doesn’t matter cause I bought 4 and really like it!!!" (0 likes, 2026-01-12)
+  - TTT answered: "💕💕💕 love to hear it!"
+- "My skin has transformed incredibly. Nice and soft skin, my neck is looking more youthful (don’t have a Second Lady part on my neck lol ) feel absolutely incredible. Highly recommend this skincare. Dump all the other junk and use this product" (0 likes, 2026-08-03)
+- "I love it use it every morning and night time, I can see the difference on my face and neck tighten the skin up and I'm 62" (1 likes, 2026-08-19)
+- "Could you recommend the best product for hands. In Healthcare, excessive hand washing and sanitizer. Hands are like old shoes." (0 likes, 2025-02-12)
+  - TTT answered: "Our F-Balm is great for hand moisturizing as well!"
+- "65 years old and love mine. I’ve been using it for about one year and my skin glows and is well moisturized" (1 likes, 2025-11-05)
+- "Just received it and have used it for two days. Love it! A small amount, easy to apply and my skin feels so soft." (1 likes, 2026-07-18)
+- "Love this, made my age spots disappear along with a corn on my bunion AMAZING!! Using it on my face now for wrinkles 💕" (0 likes, 2025-04-02)
+  - TTT answered: "Love to hear it, Diane! Thanks for sharing!"
+- "I LOVE this product. I use it every day all over my body including my face. My face has a healthy glow." (0 likes, 2024-09-05)
+  - TTT answered: "Love to hear it, Crystal, great feedback!"
+- "My girls get eczema on their eyelids. is this safe to use on eyes? which product do you recommend" (0 likes, 2025-12-28)
+  - TTT answered: "Hey Kim! Sorry to hear that. Our Unscented F-Balm would be a great help for your daughter around her eyes and eyelids :) we recommend applying a small amount to warm, clean, slightly damp skin for best results. Feel free to check out the reviews section on our website, if you like! Www.thetallowedtruth.com"
+- "I love this stuff. My skin has never felt better! My son uses it on his psoriasis and it has cleared up completely. ￼" (0 likes, 2025-02-26)
+  - TTT answered: "love to hear this!"
+- "I just got my tin a couple days ago and my skin feels so soft and smooth" (1 likes, 2026-05-24)
+- "So I have eczema on my face, which product do you recommend first? Thanks" (0 likes, 2025-11-06)
+  - TTT answered: "hey Catherine! The Unscented F-Balm would be a great place to start — be sure to apply a very small amount to clean, warm, and damp skin for best results :)"
+- "One use….just one use and my skin is softer. So far so good!" (0 likes, 2024-08-27)
+  - TTT answered: "Love to hear it!"
+- "No one has noticed, but I love the whipped face cream! I use the regular F balm on my legs and it sure makes a difference on that dry winter skin." (0 likes, 2026-05-14)
+- "I do love this…. BUT I have to say my nose is like a peeling flakey lizard. When will that stop." (0 likes, 2026-03-12)
+- "The F-Balm is the bomb! 🤩 Great product and great results. My skin is so smooth. Try it, you won’t be disappointed! 👏🏻🙂" (0 likes, 2026-07-17)
+- "I have been using for a few months and my 11 lines are gone" (0 likes, 2026-05-20)
+- "This hasn’t helped me. I almost have a jar gone 😢" (0 likes, 2026-02-04)
+- "My skin is looking amazing, less wrinkles and plump looking, fabby product 👌 ✨️" (0 likes, 2026-10-03)
+- "I used mine last night before bed and my face was still so soft this morning" (0 likes, 2025-03-08)
+- "I LOVE the F Balm!! Put it in wrinkles, dry hands AND it smells amazing!" (0 likes, 2025-01-25)
+- "Just received my first can today-hoping for great results for my psoriasis ❤️" (0 likes, 2026-03-21)
+
+## Doubts answered by customers (83)
+
+- "I’m in love with mine. It feels so good and soft and soothing,that I just want to rub it all over my body. It smells so good🥰" (21 likes, 2025-11-19) [Smell (cow, beef)]
+- "It may seem expensive but it really is not when you consider one jar of the face balm lasts me 3 months and it's the only face product I use. No toner, no eye serum, no daytime this or night time that. I am in my early 60's and my skin has never been better. Love the product and this company!🇺🇲❤️🇨🇦" (18 likes, 2026-10-15) [Price]
+- "I really enjoy this product, I use it specifically on my face and hands. I think it's the best moisturizer there is.. so far no break outs, that was a concern I had because this is a thicker product. I definitely recommend giving this a try! I'm going to try the body butter next." (9 likes, 2025-03-12) [Breakouts / clogged pores]
+- "I just started using this a few days ago. At first it seemed greasy because I did not know how to control it. I figured out if I leave my face wet and wet my finger and put a very small amount as little dots all over then rub it in. Not one blob and try to rub all over. I noticed as my face got used to absorbing this in, it wasn't on the surface any more and absorbed into my skin. My face is so soft now and fine lines have diminished.I use morning and night." (7 likes, 2026-04-22) [Greasy / heavy]
+  - TTT answered: "Thank you for sharing this Diane! ￼Happy to hear you found your favorite way to apply it! And glad it’s working on those fine lines💪"
+- "I don’t find it expensive !! Ive been using now for almost 3 weeks and so far I love it !!" (10 likes, 2026-10-25) [Price]
+- "I’ve been using mine for about a week now and I absolutely love it , but I’m struggling with the smell. Am I the only one?" (6 likes, 2026-01-03) [Smell (cow, beef)]
+  - TTT answered: "Hey Krissy! We responded to your other comment as well, but some with a more sensitive nose can notice the faint tallow, frankincense, or bee ingredients more than others. Most quit noticing it after a couple weeks of consistent use while others like to prep their skin with a good-quality rosehip spritz before applying. Hope this helps! 🫶🏼🫶🏼"
+- "Received mine yesterday. Used it twice. No smell (got the frankincense one) and my skin is super soft. Not greasy either and it doesn’t take much! I also used on my super rough heal and huge difference immediately!" (4 likes, 2026-02-03) [Greasy / heavy; Smell (cow, beef)]
+  - TTT answered: "that is amazing to hear! Love this, thanks for sharing! If the ends of your hair or cuticles are dry, try using a small amount on the ends with a touch of water during application 😉 appreciate you!"
+- "Another bonus for those mature ladies who get microneedling done. After you've had microneedling your face is extremely sensitive, extremely dry, tight and flakes and you have to be careful what you put on your face for the first 5 days. I've been using the f-balm after my treatments and it's fantastic. A little goes a long way and it causes absolutely no reaction on my face. Works better than the hyaluronic acid suggested by the esthetician. Better yet, use the one with sunscreen ( my next purchase )🇨🇦👍🏻" (2 likes, 2026-06-02) [Reaction / sensitivity]
+  - TTT answered: "to hear that Rose! Thanks for sharing and glad it's working well for you! Just a heads up our sunblock is temporarily unavailable while we work on a better formula. Appreciate you!"
+- "Love your products. Still don't care for the smell, but kind of getting used to it. Used it on my hair the other day it helps control the frizz! Also used it on a Spider bite on my arm, it helped a lot!" (3 likes, 2025-05-21) [Smell (cow, beef)]
+  - TTT answered: "it is pretty remarkable and so many uses! We hear that many customers are trying it on their hair and bug bites and loving the results 🙂 Appreciate you sharing <3"
+- "Made in Ontario but paying US price. Starts out at $49 and after discount it’s $42. When said and done it’s $53 🥴" (4 likes, 2025-09-03) [Price]
+  - TTT answered: "taxes in Ontario are something else — trust us, we know 🥴"
+- "Love the texture and how my face absorbs it (waking up in the morning without feeling it on my skin unlike regular creams that feel like they did not quite absorb adn are on the surface) however struggling with the underlying smell a bit despite a nice essential oil in there (but I do have a very sensitive nose that can detect smells quite well) purchased regular and summer, only tried summer one so far" (1 likes, 2026-09-28) [Doesn't work / no difference; Greasy / heavy; Smell (cow, beef)]
+  - TTT answered: "Please reach out to our team at support@thetallowedtruth.com We're happy to help!"
+- "When I started it I stopped wearing eye makeup as I couldn't get anything to stay on with the beef tallow (greasy in a great way) but I'll never give tallow up!! It's so freeing to not wear eye makeup when your skin looks so good! Love it!" (3 likes, 2025-11-07) [Greasy / heavy]
+- "I am in love with this face cream! I was using the regular tallow at night because it’s too heavy for the daytime. This one is so light and perfect for daytime. Highly recommend ❤️" (2 likes, 2025-06-07) [Greasy / heavy]
+  - TTT answered: "that's great you found what works for you, Richelle! Love to hear it -- appreciate you <3"
+- "Honestly the smell is horrible, definitely don't wanna use it camping ...might attract bears lol 😜 can't use it under makeup .. definitely apply before bed and I wouldn't suggest using it before bed if you wanna make out with ur spouse 🤣 otherwise it's great shit !!" (1 likes, 2026-05-20) [Smell (cow, beef)]
+  - TTT answered: "Please reach out to us at support@thetallowedtruth.com We have an option for Unscented F-Balm :)"
+- "I did make my own whipped tallow made from the kidney leaf section from the beef. Turned out so cool! Never buying it again but making it! Added frankincense and rosemary bonded in hemp oil, castor oil, olive oil and Jobo oil. Great stuff Rendered twice, nice smell! 🎉" (1 likes, 2026-09-05) [Smell (cow, beef)]
+  - TTT answered: "Ruth!"
+- "I have already used mine up and LOVE IT! So I ordered more for stocking stuffers. I know it’s not advised nor not advised but I’m going to try this for my daughter’s chemo rash! Very excited to try it out and will update with results shortly🥰" (1 likes, 2025-12-06) [Reaction / sensitivity]
+  - TTT answered: "hey Charlene! Many customers tell us our F-Balm Unscented work well for skin damaged/sore from chemo and radiation :) we offer a 30-day money-back guarantee in case you’d like to try it out, risk-free :) appreciate you! 🫶🏼"
+- "I have very dry skin and some face creams feel like they burn, so I don't use them. They don't seem to absorb into my skin and now I am getting very wrinkly. What do you recommend and anyone out here with wrinkles? I would love to read of your experience." (1 likes, 2026-09-22) [Greasy / heavy]
+  - TTT answered: "Many folks have loved using our F-Balm or Face Whip specifically for wrinkles. 🙌🏻"
+- "I’ve had tallowed Truth now for about a month but didn’t put it on every day & today I noticed my lines between my eye brows are gone🤷‍♀️I can’t believe it. Now I’ll put it on every day….love love Love it: not greasy👍" (2 likes, 2026-05-26) [Greasy / heavy]
+- "The only skin care product I am completely comfortable with. And I have always loved cows! Many cows give their bodies to humans, unknowingly, and most little kids fall in love with cows, and other life giving creatures before they understand that. This is how it is on Earth. I had to learn that. Thank you cows, for your help. I will not forget you🐮🐮🐮" (1 likes, 2026-07-08) [Smell (cow, beef)]
+- "I have been using tallow for years before it was a thing I buy giant jars for $20 (organic) melt it in a pot with a couple drops of carrier oil and a couple drops of lavender then put it in smaller jars" (1 likes, 2026-07-04) [Price]
+  - TTT answered: "Amazing!"
+- "I don’t find it expensive at all. One can goes a long way. I bought 5 in the summer I have one left. I gave 2 to my daughter and one to a male friend going through cancer treatment and his skin is very dry. He tells me it helping😊. Love your product can’t wait to try your new sense!" (1 likes, 2026-10-26) [Price]
+- "Not expensive at all compared to everything else that’s out there. One jar lasts me about 8 weeks and I don’t use all other products anymore. No eye cream, no hyaluronic acid, no nyaminicide. I don’t even use retinol anymore. Stopped getting peels and treatments too. This is dirt cheap in comparison." (1 likes, 2026-10-18) [Price]
+- "I’ve gone through a whole tin and notice nothing 🤷‍♀️" (2 likes, 2026-09-20) [Doesn't work / no difference]
+  - TTT answered: "We have a 30-day money-back guarantee so please reach out to our team at support@thetallowedtruth.com We're happy to help!"
+- "Just got a jar . Recommend ensuring to have essential oils added as it does have a foul smell otherwise . Cow/barn I can’t pinpoint but it’s unpleasant and very disappointing" (1 likes, 2026-03-22) [Smell (cow, beef)]
+  - TTT answered: "sorry to hear you aren't happy, Rebecca! Please reach out at support@thetallowedtruth.com so we can help!"
+- "I love it but it is neither light nor does it absorb. It is “greasy”-like and my hair clings to it all day…. Things I’ve accepted because of the benefits and results." (1 likes, 2026-03-22) [Greasy / heavy]
+  - TTT answered: "A little goes a long way! Gotta stay moisturized with the best💪"
+- "So, Ive been wanting to try your product, id like to get the F-Balm and the one for ticks. Maybe because im using my phone to order it wont give me the list of your products🤔" (1 likes, 2026-06-11) [Doesn't work / no difference]
+  - TTT answered: "you want the full list of products then you need to head on over to our website at www.thetallowedtruth.com"
+- "Omgosh her mom just applied a bit under her eyes and her daughter said she could see the difference already?? Come on! That’s ridiculous 🙃" (1 likes, 2026-08-03) [Too fast to be true (instant results)]
+  - TTT answered: "Some do have instant results because it's extremely hydrating ;)"
+- "This product has changed my life! I have had breakouts since my mid 20's and finally in my mid 60's, beautiful, clear skin! Works great keeping tattoos bright." (1 likes, 2026-05-20) [Breakouts / clogged pores]
+  - TTT answered: "Wow! Amazing to hear this Sue! Thanks for sharing and glad it's working so well for you."
+- "My friend sent me a link to order it on Amazon. Just wondering if it’s the same one on Amazon or is it fake on there at for like $25" (1 likes, 2026-06-21) [Price; Trust (fake reviews, actors, offers)]
+  - TTT answered: "always switching up the deals! As long as the seller information says The Tallowed Truth, you will receive our genuine product! Appreciate you Connie"
+- "That’s very small amount 2oz should be at least 4oz people try to make a fast buck l’ll go buy me CeraVe that last a year for under $30" (1 likes, 2025-11-18) [Price]
+  - TTT answered: "our tins last the average customer 3-6 months and are all natural (no toxic) ingredients!"
+- "I know olive oil is comedogenic. Has anyone had an issue? I'm thinking of ordering but afraid it will make me break out!" (1 likes, 2026-08-26) [Breakouts / clogged pores]
+  - TTT answered: "We have a 30-day money-back guarantee so you can try it risk free!! 🙏"
+- "I love the product. It’s only been 2-3 weeks but I seem to get better result going heavy application at night. Any suggestions" (1 likes, 2024-11-05) [Greasy / heavy]
+  - TTT answered: "Great to hear that Jeff! We have info about the best way to apply the balm at the bottom of our FAQ page, linked below🤝 https://thetallowedtruth.com/pages/faq"
+- "Love how it feels but not the smell. It smells like cow hide ...my horse wouldn't take a cookie out of my hand because it still had the smell on it!!" (1 likes, 2024-10-18) [Smell (cow, beef)]
+  - TTT answered: "Please contact our team at support@thetallowedtruth.com and we can help you out with this!"
+- "I'd be right on your bandwagon if you weren't in the U.S. As Canadians Your product is gonna cost us thirty percent more" (1 likes, 2026-08-03) [Price]
+  - TTT answered: "We are in Peterborough, Ontario 💕"
+- "This stuff is greasy and it smells like a hamburger but it does work but not in the way he magical he says it does he over hypes it a lot" (1 likes, 2026-09-28) [Greasy / heavy; Smell (cow, beef)]
+  - TTT answered: "Please reach out to our team at support@thetallowedtruth.com We're happy to help!"
+- "I've been using it for 3 days and do not notice any difference in my wrinkles.Is there time period wait longer" (1 likes, 2026-05-28) [Doesn't work / no difference]
+  - TTT answered: "We recommend giving it 2-3 weeks and if you still don't notice any benefits we can refund you!"
+- "Love it too..but I hate smelling like a cow....hahha..It does not smell good, but the product itself it very much good." (2 likes, 2026-05-21) [Smell (cow, beef)]
+- "I have been using for months, it doesn't work in seconds like these people show. It is a great product and your skin feels great and looks better but it takes a couple of weeks to notice. Please don't get put off by these people saying it looks good after one application. Also she is putting on to much. You don't need that much" (0 likes, 2026-10-26) [Doesn't work / no difference; Too fast to be true (instant results)]
+- "It makes my face break out. I use it on my hands but don't notice any kind of difference" (1 likes, 2025-03-12) [Breakouts / clogged pores]
+  - TTT answered: "sorry to hear this Jenny - some people find to react to the honey - we're working on a bee free balm!"
+- "Cow fat with artificial chemicals to smell better. Leave the poor animals alone already!" (1 likes, 2026-07-01) [Smell (cow, beef)]
+  - TTT answered: "oils. We simply use tallow that would have otherwise been discarded. Not killing anything, Penny 💕"
+- "Absolutely LOVE. Nothing worked with my dry skin…until this. One time. This product is AMAZING" (2 likes, 2025-08-04) [Doesn't work / no difference]
+- "I used this. It smells like a leather tannery. Great stuff just couldn't get past the smell." (1 likes, 2026-06-07) [Smell (cow, beef)]
+  - TTT answered: "Appreciate you letting us know Mo! Please email us so we can help💪 support@thetallowedtruth.com"
+- "I just got f Balm from Amazon And love it so far. I have been using it as a night time mask because it's a little heavy for daytime. Is this new product better for a daytime moisturizer and a little bit lighter for during the day?" (0 likes, 2026-08-19) [Greasy / heavy]
+  - TTT answered: "hey! Try using less on more damp skin and you may find it works for day time use as well! The Whip is lighter and makes for a great all day moisturizer ;) a little goes a long way for both!"
+- "It's too bad your product name isn't as clean as your product! I won't buy it for just that reason." (1 likes, 2024-10-14) [Doesn't work / no difference]
+  - TTT answered: "We stand by our Freedom-Balm 🇨🇦✊"
+- "That’s hilarious 😂. I love tallow!! I cook with it, grease my pans with it and make lotions with it! ❤️🙌🏻" (1 likes, 2026-06-20) [Greasy / heavy]
+  - TTT answered: "Thanks haha that's awesome! Appreciate you🫶"
+- "I got pimple on my face after using it, but I use it for eye wrinkles" (1 likes, 2025-11-11) [Breakouts / clogged pores]
+  - TTT answered: "jewelry tutorials hey! There could be an adjustment period as the skin gets used to the natural ingredients :) love that you’re using it to minimize the appearance of eye wrinkles!"
+- "Won't buy it because youre homophobic and hate spreaders" (1 likes, 2026-08-27) [Doesn't work / no difference]
+  - TTT answered: "No fear, no hate, just truth. 🙏💕"
+- "Too beefy. I use it on my feet. Nice surprise." (1 likes, 2026-10-03) [Smell (cow, beef)]
+  - TTT answered: "We have a 30-day money-back guarantee! ;)"
+- "I’ve been using it for 1 week and I love it, however I don’t like the smell. To me I can smell the beef tallow. I hope I can get used to the smell. It’s not pleasant." (0 likes, 2026-03-24) [Smell (cow, beef)]
+  - TTT answered: "Hey Rose, sorry to hear that! Please let us know if there's anything we can do to help at support@thetallowedtruth.com"
+- "I liked it but the smell really bothered me" (1 likes, 2026-06-29) [Smell (cow, beef)]
+  - TTT answered: "We are happy to let you try our Unscented F-Balm in place of a refund. We have a 30-day money-back guarantee!"
+- "Great product why is it so expensive when it’s made in Peterborough" (1 likes, 2026-10-03) [Price]
+  - TTT answered: "We source our ingredients from the highest quality possible. 1x tin lasts around 3 months so it's not really expensive when you consider most facial moisturizers are $50+ and don't last as long :)"
+- "I have acne prone skin, will it make me break out" (1 likes, 2026-04-01) [Breakouts / clogged pores]
+  - TTT answered: "The face whip would be the best product for you🫶🏻"
+- "F-balm leaves a film on my face. Doesn't absorb into the skin." (1 likes, 2026-06-12) [Greasy / heavy]
+  - TTT answered: "It shouldn't! We recommend warming a small pea-sized amount between your fingers and applying it to a damp face for best results!"
+- "Got mine onto a week using it. I love how quickly it absorbs and doesn't feel greasy at all. Im a senior citizen by numbers only. Lol. Trying not to look my age.😅🤣" (0 likes, 2026-04-06) [Doesn't work / no difference; Greasy / heavy]
+  - TTT answered: "is just a number right?! Glad to hear you love it Carol🫶🏻"
+- "It’s an occlusive animal fat that will block your pores and if you didn’t have acne before you will using this. Also it does not have an effect on wrinkles" (1 likes, 2026-10-27) [Breakouts / clogged pores; Tallow / beef fat is gross or weird]
+- "i went to order another batch (3 containers) and noticed the price went up significantly 😔 my first order a few months back was no where near what it is now, it was affordable…. i’m so bummed because i incorporated it into my nightly regime….." (0 likes, 2026-10-28) [Price]
+- "I've noticed on reading the comments that there are fragrances and different kinds of the product but I didn't seem to have the option when I placed my order." (0 likes, 2025-12-29) [Doesn't work / no difference]
+  - TTT answered: "our products do not contain fragrances, but we do have an F-Balm with frankincense and our Summer Face Whip that contains citrus and lavender essential oils :) feel free to check out our site for all our products! www.thetallowedtruth.com appreciate you!"
+- "Love to try this. Want to get one for my girlfriend and I. Will save up and order soon. It's a bit pricey. So need to save." (1 likes, 2026-09-20) [Price]
+- "Do you sell the kind that is not wet because it’s like sticking your finger in air when you’re using it. Do you have just like the thicker grease or balm￼" (0 likes, 2025-05-31) [Greasy / heavy]
+  - TTT answered: "we have whipped products and balms; feel free to check them out on our site: www.thetallowedtruth.com"
+- "Wow, if it was reasonably priced I would have bought some... but almost 40.00 for 2 oz in this economy is just not good." (0 likes, 2024-10-29) [Price]
+  - TTT answered: "We prioritize bringing the best possible quality to our customers, and pay a premium to source our ingredients. You’re welcome to buy cheaper options Jo!🤝"
+- "I hope it smells better than all the other tallow creams I've tried. I believe in the concept but cannot get past the odor." (0 likes, 2026-04-21) [Smell (cow, beef)]
+  - TTT answered: "enough Janeen! Most folks think ours smells great. We also have a 30 day money back guarantee so it’s worth a try!"
+- "I have been using it for about 3 weeks. I dont find a difference in my wrinkles. My face does feel softer." (1 likes, 2026-10-27) [Doesn't work / no difference]
+- "This is a decent product. BUT it will not get rid of lines… it is a skin product.not a miracle worker..geez people" (1 likes, 2026-09-29) [Doesn't work / no difference]
+- "Share your beliefs all you want and screw the Libs that are butt-hurt over differing opinions and beliefs." (1 likes, 2026-04-04) [Doesn't work / no difference]
+- "Too beefy. I can't handle the smell on my face. But works great on my knees and feet!" (1 likes, 2026-09-03) [Smell (cow, beef)]
+- "That’s the big difference in price, some of it you can get for $25 ￼ same ￼ quality if not better.￼" (0 likes, 2026-02-01) [Price]
+  - TTT answered: "you’re welcome to shop there!"
+- "I think this clogged my eye lid pore and produced a STYE.. but I do love how it makes my skin feel" (1 likes, 2026-01-14) [Breakouts / clogged pores]
+- "I love this stuff, but I don't think it works that fast..." (0 likes, 2026-09-17) [Too fast to be true (instant results)]
+  - TTT answered: "some tell us they see their skin changing after the first application! 😃 appreciate you!"
+- "Love what you stand for. The libs hate everything and every body." (1 likes, 2026-03-27) [Doesn't work / no difference]
+- "If this product is so good, why do they not show a before and after picture." (0 likes, 2025-11-09) [Trust (fake reviews, actors, offers)]
+  - TTT answered: "feel free to check out our thousands of reviews on our website — some customers post their before and afters :)"
+- "I would love to try but I don't like the idea of beef fat on my face" (0 likes, 2026-05-24) [Tallow / beef fat is gross or weird]
+  - TTT answered: "triple purified!"
+- "It’s also great on mosquito bites! Relieves the itch." (1 likes, 2026-05-29) [Reaction / sensitivity]
+- "I see some have commented they don't care for the smell, I actually love it. Also, I just got back from vacation at the Gulf Shores, this product is GREAT for sun burn." (0 likes, 2026-03-15) [Smell (cow, beef)]
+- "I just wish it wouldn't smell so tallowy" (0 likes, 2026-05-28) [Smell (cow, beef)]
+  - TTT answered: "Hey Lena, if you aren't feeling satisfied please email us so we can help! support@thetallowedtruth.com"
+- "No thank you, I'm prone to breakouts, even at my age" (1 likes, 2026-07-02) [Breakouts / clogged pores]
+- "Sorry to many fake sites if you sold at store I would by it" (0 likes, 2025-10-11) [Trust (fake reviews, actors, offers)]
+  - TTT answered: "this is the real website:) thetallowedtruth.com"
+- "Isn’t tallow just cow fat ? Why would it be good for my face? Thanks" (0 likes, 2024-09-15) [Smell (cow, beef)]
+  - TTT answered: "Hey Molly! Tallow is very moisturizing and nourishing for the skin, containing vitamins and nutrients within the fat. You'll find it leaves the skin moisturized and soft, even long after application🫶"
+- "Should I smell like I just cooked a steak" (0 likes, 2024-11-09) [Smell (cow, beef)]
+  - TTT answered: "No.. If you’re finding our balm has a strong smell please contact our team at support@thetallowedtruth.com and they’ll help you out!"
+- "I ordered mine…hoping to refresh my 59 year old skin…I have adult cystic acne…hoping it doesn’t trigger - but i am looking forward to using a natural, clean product on my skin." (0 likes, 2025-01-23) [Breakouts / clogged pores]
+- "Boooo! I’m allergic to Frankincense Got any without it??🙏" (0 likes, 2026-03-26) [Reaction / sensitivity]
+  - TTT answered: "Yes we sure do! https://thetallowedtruth.com/products/f-balm-black-label-unscented"
+- "Expensive but lasts a long time and is really good stuff. I tried some garbage off of amazon , was produced in China and had a weird consistency." (0 likes, 2026-10-28) [Price]
+- "My "usually" oily face does not feel oily anymore. Adult acne reduced A LOT. The lemony smell is great." (0 likes, 2025-11-04) [Greasy / heavy; Smell (cow, beef); Breakouts / clogged pores]
+- "I have also asked a few other questions on other ads but never get a response" (0 likes, 2026-10-28) [Trust (fake reviews, actors, offers)]
+
+## Real objections (70)
+
+- "Hi. I am soo disappointed that I had to stop using F balm. I cannot handle the smell as I am very sensitive to smell. I am trying another whipped with citrus smell Canadian made tallow now. I sure wish that you could add something other than the frankincense to cover the smell. I don’t feel that this other product works as well as yours, but I feel that I do not have a choice. I have spoken to one of your staff members who was very informative. I definitely will keep checking to see if you do come up with something!! Keep up the good work!!" (11 likes, 2025-09-29) [Smell (cow, beef)]
+  - TTT answered: "thanks from the feedback Terri! We're working on other F-Balm scents!"
+- "Have been using mine for quite a while and to be brutally honest I see no change in my skin!" (13 likes, 2025-03-03) [Doesn't work / no difference]
+- "I am loving this! Been using for about 2 weeks at nighttime. I wake up looking so refreshed. Definitely a difference in fine lines. I haven’t used for daytime because it’s a bit greasy and not sure it would work with my makeup. I learned through practise that I was using too much at nighttime so maybe I just need to find the right amount to use for daytime." (4 likes, 2026-08-02) [Greasy / heavy]
+  - TTT answered: "a small, pea-sized amount to a damp face! A little goes a long way!"
+- "I find it to be greasy and my hair sticks to it. When i put it on my skin looks great. However after using for 2 months daily I see no improvements to my skin texture, wrinkles, sun spots or overall appearance ." (5 likes, 2026-09-22) [Greasy / heavy]
+  - TTT answered: "This is certainly disappointing Dorthy. Feel free to reach out to support@thetallowedtruth.com and our team would be more than happy to get you on the right track."
+- "Haven’t seen a difference yet, week 4.. hoping soon" (7 likes, 2026-05-20)
+- "Just started using it. Does anyone feel it is a bit “heavy” on the face. I’m used to face cream that is light and smooths - but this feels thicker and heavy spread. Otherwise I like it" (4 likes, 2026-04-03) [Greasy / heavy]
+  - TTT answered: "Hey Sandy, it’s meant to be a super nourishing moisturizer but if you just apply a thin layer it should absorb pretty nicely🫶🏻"
+- "Im just wondering about the whipped F Balm. I like that it would be lighter especially for the summer but it doesnt have the frankincense in it. That stuff is great for wrinkles and mature skin. Using the original f bomb now ..I just got it over a week ago and really like it but I feel it would be a little heavy for the summer. So just wondering if I switched would I get the same benefits as the original balm." (2 likes, 2026-04-11) [Greasy / heavy]
+  - TTT answered: "Absolutely Bridgette! Tallow in general combats signs of aging! The face whip is a tad lighter but will still give the supple glow🫶🏻"
+- "Just curious….I am new to using this product…maybe about 8 days! I use it at night before bed BUT I have noticed that my face/neck gets really, really itchy. Has anyone else experienced this sensation? I do have sensitive skin but NO allergies (that I know of). I’m going keep trying for a bit longer…but sadly thinking I may have to give it up. Any suggestions?!?" (2 likes, 2026-05-20) [Reaction / sensitivity]
+  - TTT answered: "Hey Tanya, thanks for letting us know! Sorry to hear that. Please email us so we can help! support@thetallowedtruth.com"
+- "Don't put under eyes. With the oil it will find its way under your eyes.I ended up tearing up. Enjoy" (5 likes, 2026-05-15) [Reaction / sensitivity]
+- "Before you consider spreading beef fat on your morning toast, let’s be clear about what tallow actually is. Our investigations have documented the journey these animals endure before becoming trendy pantry items. Cows raised for beef typically spend their final months in crowded feedlots, standing in their own waste before being transported to slaughterhouses where violations of humane handling laws are rampant. Come on people. Give your heads a shake." (1 likes, 2026-08-07) [Smell (cow, beef); Tallow / beef fat is gross or weird]
+  - TTT answered: "Tallow is typically discarded but we believe in using the whole of the animal when it's slaughtered for its meat. Do you eat meat, Jackie? Where do you recommend sourcing meat from? We purchase our tallow from Canadian grass-fed and finished farms. :)"
+- "I've been using it for about 3 months now. It hasn't done much for anti-aging on the face but let me tell you what it has done for me. Last February I had a severe flare up from my Lupus. Horrible blisters on the top of both feet. This went on for 7 months before I finally got on the right treatment. Well as you can imagine, it cleared horrible dry skin, peeling and nothing would help. I bought f-balm like I said about 3 months ago and used it twice on my feet and what a difference it has made! I am now using it daily. My feet are finally looking good. So even tho it didnt do much for my wrinkles lol I have discovered so many other useful ways to use it and for that I am grateful. Thank you Ben and team ❤️" (1 likes, 2026-09-29) [Doesn't work / no difference]
+  - TTT answered: "That is wonderful to hear, Tammy! It does heal the skin for sure! 💕"
+- "I have tried other grass fed tallows and have had zero luck with my terrible dry skin. I have then tried mixing tallow and coconut oil, olive oil, castor oil, jojoba oil, and aloe (all in different combination) and none of it relieves my dry skin - it’s always tight and uncomfortable soon after applying it. Any idea what I am doing wrong and if your products would work any better? I am tired of spending money on expensive ingredients and it not working" (1 likes, 2024-11-07) [Price]
+  - TTT answered: "That sounds very frustrating Leah, I hope we can help!🫶 All our ingredients are to help nourish the skin and our balm leaves the skin moisturized long after application. We do have a 30 day money back guarantee if you’re not satisfied with it! More info on our FAQ page! https://thetallowedtruth.com/pages/faq"
+- "I have been using tallow moisterizing cream for about 1 month...I do find it is very greasy...feels good on the skin but I have not noticed any difference in my skin condition,,I will keep using it in hopes it will make a difference" (2 likes, 2026-01-19) [Doesn't work / no difference; Greasy / heavy]
+  - TTT answered: "Hey Lois! Thanks for reaching out and your feedback. Glad to hear it feels good on your skin! As for the greasiness — try using less, once daily. From here, apply to a cleansed, warm, slightly damp face. You may need to add more droplets of water to the Balm between your fingers, warm it all in your fingers, then apply. I hope this helps you get the most out of your product and your results! 💕"
+- "This does nothing for you can use Vaseline. I’ll do the same thing or any other serum out there any other cream out there do the same thing this is no different. Why all the Sunday coming out with this and so many different people are coming out with it all of a sudden that’s just to get your money. Don’t waste your money use baby oil or vitamin E. ￼" (1 likes, 2026-09-28) [Doesn't work / no difference; Greasy / heavy]
+  - TTT answered: "Tallow has been used for skin for around 5,000 years. People are simply sick of using chemicals on their skin, that's all 💕"
+- "I love it too. Been using it for about 2 months. However, sadly I was out in the sun the other day and it fried my face. The reaction from the sun and the F - balm was not good and probably got one of the worst burns I’ve had. I do like the product very much but can’t wear it in the spring & summer I guess." (2 likes, 2026-05-22) [Reaction / sensitivity]
+- "I really tried to believe in the results of both the F-Balm and the Face Whip, but after 3 months of using these products, my face looks worse than it’s ever looked. I’ve never seen as many fine lines on my face as I see now. I’m ditching this product and reverting back to my oils. So bummed." (1 likes, 2025-06-22) [Reaction / sensitivity]
+  - TTT answered: "hmm, sorry to hear that Isr! We have never heard of this happening, but appreciate you giving it a shot! Feel free to reach out to customer service if you would like more assistance 🙂 support@thetallowedtruth.com appreciate you!"
+- "I have more wrinkles now. Love the product but definitely doesn't help wrinkles" (4 likes, 2025-12-03)
+- "You need to use more than they show to get the glow. It dries a little tacky and doesn’t have best scent. I’m returning mine for a refund. Just not for me 🤷‍♀️" (2 likes, 2026-02-18)
+  - TTT answered: "no worries! The product actually absorbs quite well when it is warmed between your fingers and applied to clean, warm, slightly damp skin! You may need to add more water for application since our products aren’t watered-down, like most. ✨"
+- "Waiting on my first order I really hope for results. I've been dumping money in to a lot of products this last year and very very disappointed so far. Some, most i couldn't return" (1 likes, 2026-05-21)
+  - TTT answered: "We hear you Bobbi-Jo! Please let us know how you like it and if it doesn't work out we will refund you! Appreciate you"
+- "Why is this stuff so greasy? My wife used it and it broke her face out" (2 likes, 2025-12-25) [Greasy / heavy]
+  - TTT answered: "hey Paul, sorry to hear your wife’s skin broke out! It could be an adjustment period some customers see when switching to a natural, fat (tallow)-based product like ours! In addition, it shouldn’t be greasy — please adjust the application and reduce the amount of balm. From here, apply to a freshly washed, warm, slightly damp face for best results. We recommend doing so at night time to start and increase as needed. Hope this helps! 💕"
+- "Doesn't work for me. With naturally oily skin the tallow-based products add an oily shine which does not go away. My CeraVe does absorb and does not leave a shiny residue on my facial skin." (1 likes, 2026-01-01) [Doesn't work / no difference; Greasy / heavy]
+  - TTT answered: "hey Don! Sometimes oily skin can mean the skin barrier needs some help. Usually customers with oily skin will apply a very small amount once-daily at night to freshly cleansed, warm and damp skin for a few weeks. During this time, the skin barrier can heal slowly and consistently. Once the adjustment period is over, they will increase to twice daily :) appreciate you!"
+- "I am the same age and my biggest problem that I feel I have is the marionette lines. Do they help with them? I have tried fillers but they didn't help." (1 likes, 2026-01-25)
+  - TTT answered: "We can't guarantee results but it is very nourishing for the skin so it can definitely help with the fine lines! I would recommend pairing the F-Balm with some facial massage and even a few facial exercises for top notch results! ;)"
+- "I have been using it for 5 weeks bought 3 tins I see no differance I still have 2 unopened jars I am not using it any more ," (1 likes, 2026-10-17)
+  - TTT answered: "Hi Sandra, please reach out to our support team and we will be happy to help you out! We want to make sure you are taken care of 🫶🏻"
+- "So far I’ve seen no difference at all the smell is horrible and I’ve come out in white heads which I’ve never had before 🧐" (1 likes, 2026-09-20) [Doesn't work / no difference; Smell (cow, beef)]
+  - TTT answered: "We have a 30-day money-back guarantee so please reach out to our team at support@thetallowedtruth.com We're happy to help!"
+- "I have been using this for a few weeks, mostly at night. It goes on a tiny bit greasy, but sinks in quickly, and I wake up feeling awesome. I’m really enjoying it so far… I think I will order the sunscreen because I like the Clean ingredients." (1 likes, 2026-03-26) [Greasy / heavy]
+- "10 dollars for 16 ounces at your local butcher. Add whatever you like to it or nothing at all. Last you the entire year or more. Never goes bad." (1 likes, 2026-08-22) [Doesn't work / no difference]
+  - TTT answered: "Making your own is totally an option! Let us know how it works out!🙏"
+- "I prefer extra virgin coconut oil, and much, much less expensive. I am allergic and react to any fragrance, but I wish you success as a Canadian company." (1 likes, 2026-06-29) [Reaction / sensitivity; Price]
+  - TTT answered: "Thank you!"
+- "our very own product but very expensive. I don’t understand why, it should have been affordable since we are not paying overseas shipping and import fees" (1 likes, 2025-05-12) [Price]
+  - TTT answered: "we use premium ingredients in all our products in our family-run small business :)"
+- "Been using for 2 months, haven’t seen a difference. Am I doing something wrong. Use every morning and night." (1 likes, 2026-01-12)
+  - TTT answered: "no difference at all? That is very odd! Please reach out to us at support@thetallowedtruth.com so our team can help you further!"
+- "I have been using beef tallow and honey baim for 2 months. .. No difference on my face ??" (1 likes, 2026-04-29) [Doesn't work / no difference]
+  - TTT answered: "Hey Ruth, appreciate you letting us know! Sorry to hear this. Please email support@thetallowedtruth.com so we can help make things right🫶🏻"
+- "Am l using this wrong l find it greasy on my skin shouldn't my skin absorb it rather than just sit there?" (1 likes, 2026-09-11) [Greasy / heavy]
+  - TTT answered: "It should not be greasy! Warm a very small, pea-sized amount between your fingers and apply to a damp face! ;)"
+- "It’s too expensive!! I would like to try it but I am on a fixed income. Too pricey" (1 likes, 2026-09-25) [Price]
+  - TTT answered: "Hey! One tin lasts the average customer 3-6 months ✅ we will be having a sale on Black Friday if you’d like to take advantage of some savings then. Thanks! 🙏🏼"
+- "The face whip is outstanding! Wow! And no greasy residue! Fantastic product. Very lightweight" (2 likes, 2025-08-15) [Greasy / heavy]
+- "I have been using it. The product is greasy. No change yet, but I’m going to keep using it until it is all gone" (1 likes, 2026-07-21) [Doesn't work / no difference; Greasy / heavy]
+  - TTT answered: "It shouldn't be greasy. Try using a small, pea-sized amount and warm between your fingers. Apply to a clean, damp face ;)"
+- "Unfortunately using this would cause me to have an allergic reaction… I am severely allergic to olives & olive oil." (1 likes, 2026-10-25) [Reaction / sensitivity]
+  - TTT answered: "yes, this would not be a good fit for you. We do have our Whipped Freedom Face Whip that would be a better option there is no Olive Oil in it. 😊"
+- "I don't usually endorse products but, after trying many expensive oils and creams, this has proven to be the most effective product I've used. I apply it at night before going to bed and I'm seeing positive results!!!!!!" (1 likes, 2026-07-10) [Price]
+- "Thanks for this post. There’re so many Chinese pigs stealing authentic business ad contents from social media then sell their own knockoff versions at the check out. I got scammed once and they refused to refund me and kept gaslighting me when I reached out. You have to be careful too and don’t let those pigs steal your ad contents." (0 likes, 2025-10-05) [Doesn't work / no difference; Trust (fake reviews, actors, offers)]
+- "I have searched on your website site for the zinc sunscreen but nothing is coming up" (1 likes, 2026-08-13) [Doesn't work / no difference]
+  - TTT answered: "It will be back summer 2027 🫶"
+- "I ordered and have been using for over a month. It hasn’t changed anything. So buyer beware. It didn’t work for me" (1 likes, 2026-01-19)
+  - TTT answered: "Hey Darlene! Depending on the health of your skins barrier, medications, genetics, and diet, some people may take longer than others to see differences when using our natural tallow products :) we hope you can continue to use them and see a difference, soon! 💕"
+- "It makes your skin feel soft however doesnt help the fine lines at all .I do like the feel of my skin now though." (1 likes, 2026-06-12)
+  - TTT answered: "using it! You may notice more benefits over time. Everyone is different 💕"
+- "I think if feels very greasy even a little bit take a long time to absorb" (1 likes, 2026-05-21) [Greasy / heavy]
+  - TTT answered: "It should not feel greasy! Use a very small, pea-sized amount and warm between your fingers. Apply it to a clean, damp face! :)"
+- "I'm not sure how, and granted there are VERY few products I can use (including deodorant and any kind of perfume; I've gotten hives just from standing by the entrance of Sephora while waiting for a friend) and when I used this product my face turned super red, itchy, and hives :( ." (0 likes, 2026-05-21) [Smell (cow, beef); Reaction / sensitivity]
+- "Wait I bought some last year and it was not this expensive" (1 likes, 2026-10-18) [Price]
+  - TTT answered: "we recently had a small price increase, but we hadn’t had one for a couple of years before that. We do our best to keep the price in line with the quality in the tin without charging too much. Thanks for sticking with us. 🫶🏼😊"
+- "I’m so excited to wash my face and try my product that arrived today! I have been so very disappointed by so many expensive products. Test driving this first thing in the morning!" (0 likes, 2024-12-15) [Price]
+  - TTT answered: "Love to hear it! We appreciate you Jana!"
+- "I just bought your unscented balm but I have to tell you it stinks . Don’t think I won’t use it I’m going to mix it with some essential oils so I can enjoy the benefits" (0 likes, 2026-06-09) [Smell (cow, beef)]
+  - TTT answered: "Thanks for letting us know Carolyn! Please email us so we can help🫶 support@thetallowedtruth.com"
+- "Mine turned all gritty and i cant use it anymore because it hurts my face" (1 likes, 2026-05-19)
+  - TTT answered: "when did your order it? It has a 12-month shelf life!"
+- "Did nothing for fine lines. Didn't fine it to be a good product." (1 likes, 2026-04-12) [Doesn't work / no difference]
+  - TTT answered: "Hey Tracey, thanks for reaching out! If you’d like to take advantage of the 30 day money back guarantee just email support@thetallowedtruth.com 🫶🏻"
+- "I don’t like the smell and it’s very greasy" (1 likes, 2026-06-22) [Greasy / heavy; Smell (cow, beef)]
+  - TTT answered: "It should not be greasy. Try using less and apply a small, pea-sized amount to a damp face! :)"
+- "I'm curious, f-balm has decent reviews on Amazon but is ×2 more expensive then other products with better reviews.. you'd think the price would be a tad better because is made here at home." (0 likes, 2026-03-25) [Price]
+  - TTT answered: "Hey, Alexander! Our price reflects the quality of tallow we use. Most brands use bleached tallow from China, we use grass-fed grass-finished tallow from local ranchers in Alberta."
+- "Been using it for over a month now, no difference. No big deal !" (1 likes, 2026-06-04) [Doesn't work / no difference]
+  - TTT answered: "Hey Connie, thanks for letting us know! Please email us so we can help🫶 support@thetallowedtruth.com"
+- "I had a few bad reactions from an unknown allergy. NOTHING has worked as well or as fast . My skin and neck were itchy, swollen, red and sore. Then it was so dry. Tallow gave me relief. Thank you." (0 likes, 2024-11-06) [Doesn't work / no difference; Reaction / sensitivity]
+  - TTT answered: "great to hear Brenda, thanks for sharing! We appreciate you! 🫶"
+- "You must have to start using it before you get wrinkles I’m about 2 months in now and nothing Still dry patches on my nose So it don’t work for everyone" (1 likes, 2026-09-26) [Doesn't work / no difference]
+- "I was very upset.I ordered this and got scammed.Now.I'm not going to order it again.Cause it cost me and i'm not in a position to do it twice" (0 likes, 2026-06-14) [Doesn't work / no difference; Price; Trust (fake reviews, actors, offers)]
+  - TTT answered: "Hey Terrye, please email us so we can help! support@thetallowedtruth.com"
+- "Mine feels like it has pumice in it. After a few minutes on my skin it gets tacky then rolls off like it my skin. Returning." (0 likes, 2026-03-16)
+  - TTT answered: "that sounds strange and shouldnt feel as such. Feel free to reach out to customer support for options :)"
+- "Just received my order and like the product. Why does it feel gritty when applying? I warm it in my hands prior to application." (0 likes, 2024-10-05)
+  - TTT answered: "Please reach out to our team at support@thetallowedtruth.com and we can help you out!🤝"
+- "I hoped I would love it but it has too much beeswax. It feels heavy and tight on my skin even after warming. Expensive for a balm I won't use on my skin. I might use it on my dogs paws when it's cold and he has to walk on snow and ice." (0 likes, 2025-12-04) [Doesn't work / no difference; Greasy / heavy; Price]
+- "I need to try this; I have the fbalm and use it at night as I find it a bit heavy for day use 😊" (0 likes, 2026-05-31)
+  - TTT answered: "Thanks for sharing Sheree! Yes the Face Whip is a bit lighter! Appreciate you"
+- "Hello I ordered your product and I don’t like the smell. I’d like to return it and get a refund. Can you please advise" (0 likes, 2025-01-07)
+  - TTT answered: "please reach out to our support team from our website!"
+- "I want to beleive BUT i have been usine it for over 1 month and no difference.." (1 likes, 2026-09-10) [Doesn't work / no difference]
+- "It’s expensive for retired people, but it is a good product" (1 likes, 2026-10-27) [Price]
+- "Used morning and night on damp skin. Didn't do anything" (1 likes, 2026-07-27) [Doesn't work / no difference]
+- "Stuff doesn’t work like they say. Sorry but it’s true." (0 likes, 2026-07-22)
+  - TTT answered: "We don't guarantee results but our over 29K reviews speak for themselves!"
+- "I thought it was too greasy and didn’t like the smell." (0 likes, 2026-05-03) [Greasy / heavy; Smell (cow, beef)]
+  - TTT answered: "Hey Linda, thanks for commenting! Sorry to hear this. Please email support@thetallowedtruth.com so we can help with a potential refund or discount 🫶"
+- "I've been using this for 6 months now and no change in my skin. Waste of money!" (0 likes, 2026-09-21) [Doesn't work / no difference]
+  - TTT answered: "Hey Rachel! Hmm that is disappointing. Everyone’s skin is different, but you didn’t even notice a more even skin tone or deeply hydrated skin from the natural ingredients? Hope you reached out to our awesome support team for help! :) appreciate you!"
+- "Tallow is totally pore clogging. Soft skin yes, but get ready for huge pores." (1 likes, 2026-06-20) [Breakouts / clogged pores]
+- "Not really its too greasy for me, i get a rash" (0 likes, 2026-03-28) [Greasy / heavy; Reaction / sensitivity]
+  - TTT answered: "The tallow itself shouldn't be causing a rash. Hopefully you aren't allergic to Frankincense! Which one did you get? Did anything else in your routine change? As for the greasy part, your skin loves fat because it's made of fat. It may be hard to get used to after using regular moisturizers, but it's way more nourishing!"
+- "I ordered this also for my face. I find it to be very sticky and heavy." (1 likes, 2025-12-06)
+- "Stops the itch when I get mosquito bites" (1 likes, 2026-07-11) [Reaction / sensitivity]
+- "🤮 nothing like rubbing a dead animal all over your face" (0 likes, 2026-02-28) [Doesn't work / no difference]
+  - TTT answered: "it’s just the rendered and purified fat, Amy, not roadkill"
+- "Tallow gave me a rash and blocked my pores 🥺" (0 likes, 2026-04-27) [Breakouts / clogged pores; Reaction / sensitivity]
+
+## Questions before buying (225)
+
+- "I’ve tried to order your product four times now I wanted to buy two get one free 8999 Canadian. It’s come up 170 999 something like that and then 300 and some dollars and then 490 some dollars why is this happening? I just want to buy two get one free. I wanna try it and give two to my friends so I’m trying to get the deal at $89.99 which is by to get one free but I can’t seem to get that it’s almost impossible. Why am I being charged three different amounts and it just gets higher?" (1 likes, 2026-08-16) [Price]
+  - TTT answered: "That does not sound right. Can you please reach out to our team at support@thetallowedtruth.com We're happy to help! :)"
+- "Summer scent? What are the ingredients, please?" (4 likes, 2025-05-02)
+  - TTT answered: "hey! Tallow, jojoba oil, and high-quality essential oils 🙂 Feel free to check it out here: https://thetallowedtruth.com/products/the-freedom-face-whip-summer-scent-60-ml (there's also an Unscented!)"
+- "Is there any discounts for seniors , I like the product a lot but find it pricey ?" (3 likes, 2026-06-16) [Price]
+  - TTT answered: "We have a welcome offer with the pop-up on our website! Appreciate you https://thetallowedtruth.com/collections/all"
+- "Any lipsticks in the making? Love my F Balm!" (3 likes, 2026-08-02)
+  - TTT answered: "Awesome idea, Betty! No news on lipsick yet!"
+- "Love your products, do you have any idea when you will have more soap?" (3 likes, 2026-06-04)
+  - TTT answered: "Yes it should just be about another week or so! Appreciate you Karen!"
+- "Ok every one is saying that it's a great moisturizer, but does it help with fine lines??" (2 likes, 2026-09-02)
+  - TTT answered: "We can't guarantee individual results but we have a 30-day money-back guarantee!"
+- "Do you have spots to grab a sample? I cant do most anything on my face but love your right" (2 likes, 2026-06-03)
+  - TTT answered: "We don't have samples but we do have a 30 day money back guarantee if you don't like it! It's great for your face and also as a healing balm for dry skin anywhere on the body. Even feet! Appreciate you Shari"
+- "Is it good for people with sensitive skin? Noncomedogenic?" (2 likes, 2026-10-27) [Breakouts / clogged pores]
+  - TTT answered: "Yes and yes! ❤️"
+- "What is the shelf life after it is opened?" (2 likes, 2026-04-21)
+  - TTT answered: "Up to 12 months🫶🏻"
+- "I see a lot of female responses. Will it help an aging man like myself?" (2 likes, 2026-09-05)
+  - TTT answered: "Yes! It was designed by a man and it's for both men and women! :)"
+- "If they are so great why arent they in stores?" (2 likes, 2026-07-23)
+  - TTT answered: "on it! 😎"
+- "Love F-Balm! Is there any way S-Balm will be in stock soon??" (2 likes, 2026-06-04)
+  - TTT answered: "Glad you love F-Balm! We're currently creating a better formula for S-Balm so it will be temporarily unavailable for a bit. Appreciate you Rosanna!"
+- "I found this on Amazon, is it the same product from you guys?" (2 likes, 2026-04-10)
+  - TTT answered: "Yes ma’am that’s us!🫶🏻"
+- "What’s in the scented one??? Please no toxic scents or chemicals!" (2 likes, 2025-05-02)
+  - TTT answered: "use toxins or chemicals. We use high-grade essential oils; the Summer scent is a light, floral scent :)"
+- "Do you also say Happy Hanukkah, or Ramadan Kareen( wishing blessings, charity and goodwill) Really just curious about all faiths." (1 likes, 2026-10-20)
+  - TTT answered: "We say Merry Christmas :)"
+- "Does this product work for chronic skin problems? Excema? Or other severe skin conditions that dermatologist treat with different creams?" (1 likes, 2026-08-14)
+  - TTT answered: "Yes, we have a lot of wonderful reviews for eczema; however, we can't guarantee individual results. :)"
+- "Hi there .. Could you tell me why your tallow is so good .. I thought i bought the right tallow but it does nothing....... Tallow and honey balm.. ???" (1 likes, 2026-04-30) [Doesn't work / no difference]
+  - TTT answered: "Our tallow isn't bleached or deodorized. It's also from grass-fed grass-finished cows! It's the potent stuff that delivers maximum nourishment"
+- "Can you please tell me what type of container it comes in? Looks from the pics like metal ? Thank you. (Hopefully not plastic. )" (1 likes, 2026-09-28)
+  - TTT answered: "It is aluminum with a food-grade lining :)"
+- "I do not have sensitive skin and love the feel, however I have broken out for the first time in my life and I’m 67. Is this unusual?" (1 likes, 2026-08-05)
+  - TTT answered: "It can happen when you first switch as it causes the skin to purge. If it continues past two weeks, please reach out to our team at support@thetallowedtruth.com so we can help!"
+- "How do you get the whip consistency? Is it just the f-balm but literally just whipped or do you add ingredients of sorts to dilute it? Can pure tallow reach this texture without adding stuff to it. Genuine question. I’m just curious because I love f-balm and use it everyday." (0 likes, 2026-06-01)
+  - TTT answered: "We use different ingredients and it's mixed differently! Check them out on the product page! I'll link it below for you💪 Glad you love F-Balm! https://thetallowedtruth.com/products/the-freedom-face-whip-summer-scent-60-ml"
+- "Ive tried asking this on a few of your videos and never get an answer....what part of the cow are you sourcing your fat from?" (1 likes, 2026-05-11) [Smell (cow, beef)]
+  - TTT answered: "a blend of kidney fat and muscle fat💪"
+- "Do you ship to Canada and is there extra tariffs on it? How do you find the discount code?" (1 likes, 2026-07-05)
+  - TTT answered: "We are 100% Canadian! For a discount code, simply enter your email on our website! www.thetallowedtruth.com"
+- "Keep trying to place an order but website keeps rejecting every payment source????" (1 likes, 2026-09-26)
+  - TTT answered: "This is very odd Cyndi. Try to refresh your browser and try again, could just be a glitch. If it persists let us know."
+- "How did the price double ( when I added it to my cart ) when I picked the one tin ?" (1 likes, 2026-08-23) [Price]
+  - TTT answered: "1x tin is $44.99 CAD without any discounts. Please reach out to our team at support@thetallowedtruth.com"
+- "I clicked the link and then stopped. I don’t do quizzes to buy product. Who told you that was a good idea?" (1 likes, 2026-10-21)
+  - TTT answered: "Hey Mike! This is totally optional and is simply one of our ads, many customers have loved the quiz! You are more than welcome for go directly to our website TheTallowedTruth.com and no quiz will pop up, hopefully this helps 🤝"
+- "Does this product go bad if not used. I bought 3 cans a couple years ago and noticed it is turning dark in the edges. ?" (1 likes, 2026-10-27)
+  - TTT answered: "hey Cathy! We recommend using within one year of receiving the product. That said, it should stay in tip top shape for at least two years. Feel free to reach out to support (email) and attach photos! support@thetallowedtruth.com. Appreciate you!"
+- "Does anyone know how to place an order WITHOUT being a an automatic subscription???" (1 likes, 2026-10-15)
+  - TTT answered: "You click one-time order instead of subscribe and save :)"
+- "Would you recommend the f bomb or the whipped face cream as a daily moisturizer? Or both?" (1 likes, 2026-05-24)
+  - TTT answered: "of folks like the whipped for day time and the f-balm for anti-aging at night time!"
+- "Why wouldn't people just get it from their butcher? There are butchers everywhere. Support your local butcher." (1 likes, 2026-05-01)
+  - TTT answered: "is a balm that has other ingredients like olive oil, honey, and beeswax. Not sure if the butcher can manage that!"
+- "I did the quiz , said I qualified for the discount , couldn’t find it ? Is it the same stuff on Amazon ?" (1 likes, 2026-06-10)
+  - TTT answered: "Thanks for letting us know Elle! Please email us so we can help🫶 support@thetallowedtruth.com"
+- "I ordered and mine is green, but in your photos it is a cream colour? Is mine normal being green?" (1 likes, 2026-04-03)
+  - TTT answered: "heard this a few times, it’s normal! Thanks Dawna🫶🏻"
+- "I ordered the whip. Maybe I should have ordered this instead. Looks like it's more powerful?" (2 likes, 2025-12-02)
+- "Does any of your product have fragrance? Of any kind. I am allergic to fragrance. I already pm’d you." (1 likes, 2026-07-27) [Reaction / sensitivity]
+  - TTT answered: "We have unscented options but this is our Summer Scent, which does have essential oils in it ;)"
+- "How to make a one time purchase? I do not want shipment every four weeks at this time." (1 likes, 2026-09-27)
+  - TTT answered: "No worries! Simply select "one time purchase". The subscription is totally optional! ;)"
+- "Do you have to order it online or can you buy from there store in Peterborough Ontario" (1 likes, 2026-10-20)
+  - TTT answered: "We currently only sell online ;)"
+- "The Tallowed Truth, is your product safe to use on my baby? Especially the sun screen?" (1 likes, 2026-05-01)
+  - TTT answered: "Yes, our S-Balm is safe for babies as long as they don't have any sensitivities to the ingredients. Our S-Balm is returning summer 2027. We always recommend a patch test before applying to large areas as well. Please note, our newly launched Field Balm is NOT safe for infants due to the high concentration of essential oils! :)"
+- "I’m wondering why there is no option to choose a scent or the regular or “whipped” balm?" (1 likes, 2026-10-28)
+  - TTT answered: "head to thetallowedtruth.com and select “Shop All” you will find all products there. 😊🫶🏼"
+- "Why "Freedom" Balm? Just curious because that word is thrown out there a lot nowadays. I really like this product but we live in crazy times and I'm trying to make ethical choices on where I spend my $$. Located in the 🇺🇲" (0 likes, 2025-03-04)
+  - TTT answered: "Hey Lindsey, that is correct, we are a pro-freedom animal-based skincare brand!"
+- "Does it help with a very red complection ? Looking to tone it down and even out skin tone" (1 likes, 2026-06-09) [Reaction / sensitivity]
+  - TTT answered: "Yes Michelle, tallow has been known to help soothe redness! Appreciate you"
+- "Where’s the sunscreen? Purchased it last year and loved it. Is it ever coming back?" (1 likes, 2026-07-24)
+  - TTT answered: "We plan to relaunch it summer 2027"
+- "Does this ship from the US or from Canada? Wondering about the extra fees for tariffs?" (1 likes, 2026-07-04)
+  - TTT answered: "We have a USA fulfillment center for this reason. However, we are based in Ontario, Canada!"
+- "I love this product and have seen incredible results but I’m also breaking out a lot. Any way around that side effect?" (1 likes, 2026-10-05)
+  - TTT answered: "Hey! Great question. Tallow is non-comedogenic and should not cause any breakouts. That being said if applied to uncleansed skin it will likely trap any impurities that are already there because it locks moisture on your face. Ensure your skin is well cleansed before applying as well as your hands!"
+- "Why did the price double on Amazon!?! I like ordering from there for the free shipping." (1 likes, 2026-05-03) [Price]
+  - TTT answered: "The seller says Elite Pro which is not us! Look for The Tallowed Truth🫶🏻"
+- "Can you tell me if it soothes itchy, flakey, reddened skin on my face that gets hot and somewhat inflamed at times, I have sunk so much money into over the counter products that only make the problem worse?" (0 likes, 2025-03-07) [Reaction / sensitivity]
+  - TTT answered: "we've had tons of positive feedback you can see in our reveiws from customers with red and dry skin."
+- "If this product is made in Canada, are we charged US dollar?" (1 likes, 2026-10-25)
+  - TTT answered: "it is made in Canada but if you live in the US you will be charged in USD. 😊"
+- "Anyone tried this with good results for excema?" (1 likes, 2026-10-18)
+  - TTT answered: "We have over 10k reviews on our website from real customers :)"
+- "I am allergic to beeswax.....can you do it plain?" (1 likes, 2026-07-21) [Reaction / sensitivity]
+  - TTT answered: "We have a line without beeswax; our Freedom Face Whip. It comes in Summer Scent and Unscented! Check it out here: https://thetallowedtruth.com/products/the-freedom-face-whip-summer-scent-60-ml"
+- "How much do I use each time? Will it help with eczema on my face?" (1 likes, 2026-08-05)
+  - TTT answered: "a small, pea-sized amount in your fingers and apply to a damp face! We have thousands of customers who it has helped but we can't guarantee individual results! ✨"
+- "I suppose you should not wear this in the sun ??" (1 likes, 2026-07-28)
+  - TTT answered: "You can but fat does attract the sun. I find I tan easier with it on for sure!"
+- "How does 44.00 turn into 154.00 on checkout" (1 likes, 2026-09-01)
+  - TTT answered: "It sounds like you added more to your cart?"
+- "You mentioned to rinse it off? Is that correct? Apply it and then wash it off?" (1 likes, 2026-10-04)
+  - TTT answered: "a small, pea-sized amount to a clean, damp face 💕"
+- "Will it spoil if you don’t use it up right away" (1 likes, 2026-09-09)
+  - TTT answered: "Good for 12 months once you open it! :)"
+- "How do I change or cancel my auto ship order?" (1 likes, 2026-10-20)
+  - TTT answered: "logging in to the portal :)"
+- "I recently ordered the one with honey and Frankincense but nowhere on the product or the website do I see the ingredients, ie, what percentage is actually tallow. Can anyone answer that?" (0 likes, 2025-04-05)
+  - TTT answered: "no, we cannot say exact percentages due to copyright :), but we can assure you that it is the number one ingredient! If you check the back of the tin, the list of ingredients is there 🥰"
+- "Can this be used as a moisturizer under makeup?" (1 likes, 2026-03-29)
+  - TTT answered: "Yes Joy, absolutely!"
+- "Yup no answer is it good for wrinkle ???" (1 likes, 2025-11-10)
+  - TTT answered: "Thanks for your patience! Yes, it's super nourishing and rejuvenating, and tons of our customers have said it helped reduce the appearance of lines and wrinkles after using it consistently :)"
+- "Does it help with fine lines and crepy skin" (1 likes, 2025-10-28)
+  - TTT answered: "We don’t guarantee results, but customers tell us it helps with these skin concerns! :)"
+- "Does it smell like Hamburg? Honest question. I have heard it a few times." (1 likes, 2026-02-08) [Smell (cow, beef)]
+  - TTT answered: "has different scent sensitivities but it does not smell like hamburg. This one is frankincense and we also have an unscented that has a light honey scent due to natural ingredients!"
+- "Which ones do not have bee venom Highly allergic" (1 likes, 2026-01-21) [Reaction / sensitivity]
+  - TTT answered: "Our F-Balm has honey and beeswax. Our Freedom Face Whip line is bee-product free! 🐝"
+- "When is the best time of day to put it on in the morning or at night?" (1 likes, 2026-08-17)
+  - TTT answered: "You got it! Morning and night! ❤️🙌"
+- "My Sons have acne. Would it help their skin?" (1 likes, 2026-05-31) [Breakouts / clogged pores]
+  - TTT answered: "Yes tallow can help soothe and heal acne! May not solve the root cause but can definitely help it heal up"
+- "Can someone please tell me how greasy it is ?" (1 likes, 2026-04-08) [Greasy / heavy]
+  - TTT answered: "It's not greasy when applied correctly. Small pea-sized amount to a damp face!"
+- "Do you realize how condescending this msg is?" (1 likes, 2026-07-11)
+  - TTT answered: "The truth hurts sometimes. 👀"
+- "Where can i buy this cream in Summerside P.E.I./ ?" (1 likes, 2026-07-20)
+  - TTT answered: "our website! https://thetallowedtruth.com/products/f-balm"
+- "Any stores sell this? I dont like ordering online" (1 likes, 2026-09-12)
+  - TTT answered: "we only sell online through our website or on Amazon ;)"
+- "Does it actually tighten skin and which one is best for the face?" (1 likes, 2026-10-15)
+  - TTT answered: "Our F-Balm is for the face and our post popular product. :)"
+- "Not to be a Debbie downer,why is there no before and after pictures?" (1 likes, 2026-10-05) [Trust (fake reviews, actors, offers)]
+  - TTT answered: "We have over 38K reviews on our website and there's many photos, too! 💕"
+- "Maybe help tighten my skin and improve my j jowels?" (1 likes, 2026-09-14)
+  - TTT answered: "It is naturally very nourishing to the skin and protectant of the skin barrier! Many of our customers have had fabulous results and while we can't guarantee results, we do offer a 30-day money-back guarantee! <3"
+- "Do you have an ETA when the S-balm will be available again?" (1 likes, 2026-05-24)
+  - TTT answered: "working as quickly as we can Crystal! Would love to get you more info, please email us so we can help! Appreciate you 🫶🏻Support@thetallowedtruth.com"
+- "What is the difference between the F-bulm and the freedom face whip?" (1 likes, 2026-10-15)
+  - TTT answered: "Our Face Whips don't have bee products and were formulated for people with allergies/sensitivities to bee products! 💕"
+- "Does it help the skin condition called Keratosis Pilaris ￼?? 🤞🏼🤞🏼" (1 likes, 2026-07-05)
+  - TTT answered: "It helps many skin conditions. We can't guarantee results but we have a 30-day money-back guarantee!"
+- "Only ‘packaged’ in Canada - where we the ingredients brought from?" (1 likes, 2025-08-04)
+  - TTT answered: "Canada!"
+- "What is better the face whip or the original tallowed ruth cream?" (1 likes, 2026-08-11)
+  - TTT answered: "Our F-Balm is a salve-like texture that contains bee-products our Face Whips do not have. We formulated our Face Whip especially for people with bee product allergies ;)"
+- "Do you have beef tallow for your body? I see for face only." (1 likes, 2026-08-18)
+  - TTT answered: "yes we do! All our products are good for anywhere on the body, but our Vanilla Body Butter was created for larger parts of the body like arms and legs :) appreciate you!"
+- "Good product. Is your face cream coming to Amazon under your store?" (1 likes, 2026-05-08)
+  - TTT answered: "Yes Kathleen it’s on our Amazon store! Appreciate you🫶"
+- "Where its tallow does it need to be refrigerated??" (1 likes, 2026-06-19)
+  - TTT answered: "it gets hot in the house like above 75 yes you could put it in the fridge to keep it from melting! Appreciate you"
+- "What process does your company use to neutralize the tallow odour?" (1 likes, 2026-07-05) [Smell (cow, beef)]
+  - TTT answered: "rendered and no bleach or high heat."
+- "I live in Ontario. Can I Come to your store?" (1 likes, 2026-09-11)
+  - TTT answered: "We currently only offer sales online through our store but this might be a thing in the future! We'll see! :)"
+- "Do you apply to a dry face or damp face?" (1 likes, 2026-06-18)
+  - TTT answered: "We recommend a freshly cleansed damp face!"
+- "How do I identify the real thing and not a fake . So many out there .." (1 likes, 2026-04-19) [Trust (fake reviews, actors, offers)]
+  - TTT answered: "you buy directly from our website you’ll be good Jerry💪 we also have an Amazon store, just make sure the seller is The Tallowed Truth"
+- "Getting ready to try it. Is it greasy at all or cause breakouts ?" (1 likes, 2026-10-02) [Greasy / heavy; Breakouts / clogged pores]
+  - TTT answered: "too much is used you may find it feeling greasy, tallow is non-comedogenic - that being said if applied to un cleansed skin it may trap the impurities that are already there. Apply properly and you’ll be good to go!"
+- "Do you make a lotion for dry skin on your legs???? If not you should!!!!!" (1 likes, 2026-10-25)
+  - TTT answered: "we have our Vanilla Body Butter. 🙌🏼🙌🏼"
+- "I can't decide between the regular and the face whip??" (1 likes, 2026-10-24)
+  - TTT answered: "you think your skin may react to Honey/Beeswax our Face Whip is a great option!"
+- "Will this lift any face problems ..Like neck and jowls ???" (1 likes, 2026-10-22)
+  - TTT answered: "We cannot guarantee that, it has helped to nourish the skin, reduce fine lines and wrinkles and overall help the skin look younger 🤝"
+- "Um, what does 'pro freedom' mean as it's mentioned in your company description?" (1 likes, 2026-10-18)
+  - TTT answered: "We were founded supporting the Freedom Convoy. Freedom from government overreach :)"
+- "Does the 30 days start from receiving or the date of ordering" (1 likes, 2026-07-27)
+  - TTT answered: "Received!"
+- "What is the whipped balm for what does it do" (1 likes, 2026-08-11)
+  - TTT answered: "It was formulated for people with bee product allergies but many of our customers love it! It is similar to our F-Balm but without honey or beeswax ;)"
+- "Are you the company that makes The Field Balm?" (1 likes, 2026-08-03)
+  - TTT answered: "Yes, you bet!"
+- "Does it help with age spots. Does anyone notice that?" (1 likes, 2026-06-06)
+  - TTT answered: "Our F-Balm is the most helpful for age spots, appreciate you!"
+- "I just bought 5 tins of f-bomb...is this any different?" (1 likes, 2026-06-21)
+  - TTT answered: "Yes this product is different than the F-Balm! Uses a few different ingredients. Hope to hear how you like F-Balm, appreciate you Kathy🫶"
+- "Is this from the same Canadian company that makes the F - Balm ?" (1 likes, 2026-05-01)
+  - TTT answered: "Yes that’s us!"
+- "What is everyone using to wash off your face?" (1 likes, 2026-10-18)
+  - TTT answered: "Some customers actually use our soap or the F-Balm to cleanse as well. Or simply water. Whatever works best for your skin! ✨"
+- "Is this made in Canada, and shipped from Canada?" (1 likes, 2026-07-17)
+  - TTT answered: "A. Laffin Yes! If you live in the USA then your order will ship from our USA fulfillment center but we still manufacture everything right here in Canada!"
+- "Does the balm go on the face too? I thought its for lip" (1 likes, 2026-05-15)
+  - TTT answered: "Yes Ranti it is for your face and wherever else you have dry skin!"
+- "Will this help with keratosis pilaris at all?(strawberry skin)" (1 likes, 2026-04-28)
+  - TTT answered: "We can't guarantee results but we do have a 30-day money-back guarantee!"
+- "Why can’t I find the sun screen product that I saw on other adds?" (1 likes, 2026-09-26)
+  - TTT answered: "It has currnetly been discontinued. Planning to release again in 2027!"
+- "How is yours different from the minus skincare?" (1 likes, 2026-07-11)
+  - TTT answered: "not sure because I'm not familiar with Minus"
+- "Canadian bees wax, Canadian honey, Canadian made but is it Canadian tallow?" (1 likes, 2026-07-04)
+  - TTT answered: "Yes, it is!"
+- "What are the different products you have ?" (1 likes, 2026-05-18)
+  - TTT answered: "We have F-Balms, Face Whips, Vanilla Body Butter, Field Balm and our soap! Currently our soap is curing so we're sold out! ;)"
+- "Is this product in any stores in Canada ?" (1 likes, 2026-07-04)
+  - TTT answered: "Not currently. We have our online shop at www.thetallowedtruth.com"
+- "Is it hypoallergenic? I have a very sensitive skin." (1 likes, 2026-06-05) [Reaction / sensitivity]
+  - TTT answered: "The unscented F-Balm (black label) would be the least likely to cause any reaction! We have a 30 day money back guarantee if it doesn't work out for you"
+- "Does this work for a bad case of psoriasis?" (1 likes, 2026-07-20)
+  - TTT answered: "We have a lot of positive reviews for psoriasis but we can't guarantee individual results! We have a 30-day money-back guarantee!"
+- "Where can this be bought?(other than online )" (1 likes, 2026-09-23)
+  - TTT answered: "Only online at this time ;)"
+- "Hello I need some why are you making it so difficult to buy?" (1 likes, 2026-09-03)
+  - TTT answered: "You can click the "shop now" button at the bottom of the ad or place an order through our website at www.thetallowedtruth.com :)"
+- "Why is it so hard to spread. Need a whipped form that spreads like butter" (1 likes, 2026-04-26)
+  - TTT answered: "Hey Deanna, we do have a whipped one! Feel free to email support@thetallowedtruth.com and maybe we can figure out a swap🫶🏻"
+- "When you go to purchase there isn’t a place to choose your scent?" (1 likes, 2026-10-04)
+  - TTT answered: "this post is from before we launched our new scents. No worries, though; if you go to our website and select “shop all,” you will see the Orange-Vanilla, Unscented and Lavender scents listed. 🙌🏼"
+- "Why did my .local store stop selling your products? I love" (1 likes, 2026-08-29)
+  - TTT answered: "you would need to ask them directly as we would not have that information! 🙏"
+- "Whats the difference between this and the face whip?" (1 likes, 2026-04-29)
+  - TTT answered: "Yes the Face Whip uses jojoba and lavender instead of olive oil and frankincense!"
+- "Does it expire or have a best before date if I order 6 at once?" (1 likes, 2026-03-27)
+  - TTT answered: "It's suggested to use it within 12 months of opening :)"
+- "I already have a greasy skin. Probably not for me?" (1 likes, 2026-05-24) [Greasy / heavy]
+  - TTT answered: "great for all skin types!"
+- "Do you still make the salmon, if not, why?" (1 likes, 2026-05-31)
+  - TTT answered: "The S-Balm? Yes we do! It's temporarily out of stock but will be back soon!"
+- "My grandson has contact dermatitis..would this stuff help him?" (1 likes, 2026-06-16)
+  - TTT answered: "It could! Many people have commented saying it has helped their eczema and psoriasis, so it's definitely possible. Appreciate you Christina!"
+- "How does this product work for oily acne prone skin" (1 likes, 2026-06-08)
+  - TTT answered: "applied to freshly cleansed skin, it can help heal acne wounds and soothe redness. Appreciate you!"
+- "Does your company do wholesales, or just online ordering ? Thanks!" (1 likes, 2026-02-26)
+  - TTT answered: "orders through our website. We currently don't offer wholesale accounts 😊"
+- "Where do you get your tallow from Canadian cows?" (1 likes, 2026-03-03) [Smell (cow, beef)]
+  - TTT answered: "We source from grass-fed and finished Canadian ranchers 🙌"
+- "Gee, why such an angry picture on the right?" (1 likes, 2026-01-15)
+  - TTT answered: "we suspect the hormone distruptors, amongst other things ;)"
+- "What a great advert 👏 marketing at its finest !!" (2 likes, 2025-09-15)
+- "You say to rub it under your eyes and into the fine lines, and then give your face a rinse? So this is not meant to stay on?" (0 likes, 2025-12-05)
+  - TTT answered: "Hey! Here’s the steps — thoroughly cleanse your skin and apply a pea-sized amount to warm, slightly damp skin for best results. Do not rinse off after — let the product absorb into the skin :) appreciate you!"
+- "Ordered it several months ago. The problem was being hung up in customs for several weeks? Has this issue been resolved?" (0 likes, 2026-07-14)
+  - TTT answered: "you ordered Field Balm it is shipped from Ontario but we do have a USA fulfillment center to speed up delivery times for our USA neighbours! Please reach out to our team at support@thetallowedtruth.com if you haven't already so we can make this right for you! :)"
+- "Tallow like any fat gets hard in cold days, hard to use , have to warm up in hands before put on face or it clumps up, anyone else find this?" (0 likes, 2026-02-03)
+  - TTT answered: "Yes, natural ingredients can fluctuate firmness based on temperature. We recommend placing the open tin you’re using in a warm bathroom for easy application :)"
+- "How much? Just answer, I don't need all the hype just want the price....your video won't load so someone tell me how much?" (0 likes, 2026-06-07) [Doesn't work / no difference; Price]
+  - TTT answered: "Appreciate the feedback! Here's a link straight to the F-Balm🫶 https://thetallowedtruth.com/products/f-balm"
+- "Does it have a smell like tallow? If so, does the smell dissipate after application? Assuming it is good for atopic skin?" (0 likes, 2026-01-26) [Smell (cow, beef)]
+  - TTT answered: "Hey! No, our F-Balm regular smells like frankincense and bee products. If you have a more sensitive nose, you may notice a faint smell of tallow, which is mitigated by the dampness of the water and also with each application. In addition, many customers tell us it helps alleviate their atopic skin! Head on over to our website if you would like to see more reviews and our FAQs page www.thetallowedtruth.com 💕"
+- "I feel the greasiness of it would mess up my glasses and nose pads of my glasses? Have you found this to be true or not?" (0 likes, 2025-11-04) [Greasy / heavy]
+  - TTT answered: "hey Linda! If you’re finding it greasy, it could be your skin adjusting or you may have to adjust your application bc process! Try using a smaller amount and apply to clean, warm, damp skin for best results. The water from the dampness helps the product absorb well :) Appreciate you!"
+- "Why are there are 8 products to pick from ? Went to make a purchase and no soap , no sunscreen no body butter. Was hoping to get the big bundle pack" (0 likes, 2026-06-06)
+  - TTT answered: "Hey Jennifer, thanks for the feedback! Our soap will be back in stock very soon! Our Sunblock is temporarily discontinued while we work on a better formula. We're coming out with a new body butter very soon! Appreciate you🫶"
+- "How does someone reach out to have questions answered by The Tallowed Truth? I have tried emailing a few times and don't get a response." (0 likes, 2026-05-29)
+  - TTT answered: "Hey Leanne! What's your email? I'll follow up with the team for you!"
+- "Can someone tell me please if this face cream is good for adolescent child getting black heads and acne. Need a face cream to add to her routine" (0 likes, 2025-06-01) [Breakouts / clogged pores]
+  - TTT answered: "we don't guarantee results, but many customers love our Face Whip for their teens acne! Feel free to check out more reviews on our website: https://thetallowedtruth.com/pages/reviews appreciate you!"
+- "Trying to decide between scented and unscented. I’ve never tried a beef tallow product and concerned about the smell. Can anyone recommend one over the other?" (0 likes, 2025-05-10) [Smell (cow, beef)]
+  - TTT answered: "the Summer scented might be a better fit for you - its a wonderful light and floral scent. Of course, it's up to you! Here's the link if you would like to check it out: https://thetallowedtruth.com/products/the-freedom-face-whip-summer-scent-60-ml"
+- "Ingredients prove it only sits on top of skin. That would only ‘help’ shin from losing moisture. And block pores. Hummmm!?" (0 likes, 2024-07-23) [Breakouts / clogged pores]
+  - TTT answered: "out our reviews page, our customers would say otherwise: https://thetallowedtruth.com/pages/reviews"
+- "Just wondering if you can tell me from what kind of fat you make your tallow products, like what part of the cow do you get it from?" (0 likes, 2024-10-16) [Smell (cow, beef)]
+  - TTT answered: "Tallow comes from the fat surrounding the organs such as the kidneys, also called the leaf fat 🫶"
+- "Why do things have to use dirty names...this...makeup...clothing ads...I hope people who choose these types of names lose sales over it...You lost this one..." (0 likes, 2025-01-14)
+  - TTT answered: "The F stands for Freedom."
+- "What is the consistency of this? I have a tallow now that is flaky and dry and I don’t like having to put so much work into getting it spread onto my face…" (0 likes, 2024-06-20)
+  - TTT answered: "We add olive oil, honey and beeswax to the tallow, which give our balm a nice smooth consistency! It does become hard at cool temperatures, but can easily be made softer by storing it in a warm-ish place and warming it between your fingers before applying! Feel free to check out our customer reviews here: https://thetallowedtruth.com/pages/reviews"
+- "What is the difference between u and Terra Lotus? I currently use that and love it but canceled my subscription because their customer service is non existent!" (0 likes, 2025-08-21)
+  - TTT answered: "we are a smaller family business and we use higher quality tallow!"
+- "Does the guy in the video use it ? His skin looks rough does he use his own product . Why I'm trying to find tallow balm that really is legit and really works" (0 likes, 2024-10-13)
+  - TTT answered: "uses the product, as for his skin looking “rough" we’re gonna have to disagree🫶"
+- "I want to order but not through FB! No info of where in Ontario and yup no phone number?" (0 likes, 2026-10-28)
+  - TTT answered: "We do not have a store front at this time, we do have an official website TheTallowedTruth.com 💕"
+- "Are you saying that you have to use water with this product or just use it on its own? It might be very sparing" (0 likes, 2026-06-02)
+  - TTT answered: "It's best applied on damp skin! Appreciate you"
+- "Can this be used as my last step in my skin care. Like in place of my moisturizer ?" (0 likes, 2025-11-20)
+  - TTT answered: "yes, exactly :)"
+- "Pointing out the obvious, not to mention scientifically proven truth, is hate speech in Canada now?" (1 likes, 2026-08-19)
+- "What’s the difference between the F-Balm and the Whipped? Also, what does it smell like?" (0 likes, 2025-07-06) [Smell (cow, beef)]
+  - TTT answered: "The Face Whip is whipped tallow which has a lighter fluffy texture...the scent is citrusy"
+- "Can not wait till I get paid. The body cream I used on my face and I got pimples. Hopefully this is better" (1 likes, 2025-09-21) [Breakouts / clogged pores; Trust (fake reviews, actors, offers)]
+- "Good morning. Love your product. Some ads say you are in Peterborough? Is this correct ?" (0 likes, 2025-05-12)
+  - TTT answered: "love to hear it, Cathy! Yes, we are in Peterborough :)"
+- "Does this smell like beef and does it have mini crystals in it that you can feel when you put it on?" (0 likes, 2024-08-22) [Smell (cow, beef)]
+  - TTT answered: "We use triple-filtered tallow, so people have said our balm has a much milder "beefy" smell than any other kinds they've tried! And our balm does not have mini crystals (once in a while the honey crystalized or the tallow isn't properly incorporated, but we'd send you a replacement tin if it arrived to you like that)."
+- "What does this smell like? I ordered one from another company and it smells terrible. I can’t use it." (0 likes, 2024-08-23) [Smell (cow, beef)]
+  - TTT answered: "We use triple-filtered tallow, so our customers say our products are way milder than other brands they've tried!"
+- "I’m obsessed! So glad I found you guys. I recommend you to evvvveryone! Will you make shampoo and conditioner?!?" (0 likes, 2025-08-16)
+  - TTT answered: "who knows what we will come up with next, but great idea! 💡🤔"
+- "You are in Ontario! when I try to purchase on your site it said does not ship to my address in Ontario?" (0 likes, 2024-10-30)
+  - TTT answered: "We do ship to Ontario! If you’re having issues with your address, you can contact our team at support@thetallowedtruth.com and they can help you out! Our website is liked below 🫶https://thetallowedtruth.com/collections/all"
+- "Can we thin it out with anything? It feels a little thick while on my face. Love this stuff." (0 likes, 2025-01-27)
+  - TTT answered: "Our recommendation is apply to damp skin and a little goes a long way!"
+- "I’m not sure of this product. Do you use it? If so do you have a before and after picture?" (0 likes, 2025-01-30) [Trust (fake reviews, actors, offers)]
+  - TTT answered: "I use it everyday. You can find lots of testamonials in our 2000 plus five-star reviews!"
+- "What about the reviews of people that said it wasn’t soft enough to apply to face? That’s what I was buying it for🙏" (0 likes, 2025-02-24)
+  - TTT answered: "we have specific guidelines for applications that ensure a smooth application. Be sure to apply to warm damp skin and always store in room temperature."
+- "Will this do anything for under eye bags?" (0 likes, 2026-09-21)
+  - TTT answered: "yes many customers say it helps to reduce eye bags with consistent use over time! 🎉 appreciate you!"
+- "Is there a discount code that I can apply" (0 likes, 2026-02-15)
+  - TTT answered: "feel free to hop on our newsletter email list and we will send you one! 🫶🏼"
+- "How much does one need to use per application" (0 likes, 2026-06-09)
+  - TTT answered: "Just a pea sized amount for the face, maybe a little more for neck and chest"
+- "How is it for someone with more wrinkles" (0 likes, 2026-07-02)
+  - TTT answered: "It is very nourishing and reduces the fine lines and wrinkles. While we can't guarantee individual results, we can guarantee our 30-day money-back guarantee!"
+- "Would like to know if it is safe for me face?" (0 likes, 2025-11-27)
+  - TTT answered: "hey! All the ingredients are natural and safe for those without allergies to bee ingredients or essential oils — even then, we offer products with no bee ingredients or essential oils. Feel free to check out the website for more information :)"
+- "Is it greasy on your face after application?" (0 likes, 2026-07-05) [Greasy / heavy]
+  - TTT answered: "It should not feel greasy! 😁"
+- "Does this smell like meat? That is my biggest concern." (0 likes, 2025-04-05) [Smell (cow, beef)]
+  - TTT answered: "you will not smell like a steak, haha, but there might be a faint tallow smell you notice. Personally, I don't notice it at all. The trade-off of this faint smell is worth it for a natural, nutrient-dense skin care product such as beef tallow! Stay tuned for new products and scents coming soon 🫶"
+- "Can one purchase in health stores or just on line" (0 likes, 2026-05-08)
+  - TTT answered: "Just online Diane🫶 Appreciate you"
+- "Does it feel greasy or make your face shine like oil ?" (0 likes, 2026-09-20) [Greasy / heavy]
+  - TTT answered: "no, not when a small amount is applied to clean damp skin :) appreciate you!"
+- "Is there a place to purchase without answering all your questions?" (0 likes, 2026-06-17)
+  - TTT answered: "Hey Kathleen, here's a quick link straight to our website! Appreciate you https://thetallowedtruth.com/collections/all"
+- "What is this good for? Explain the benefits pls" (0 likes, 2025-11-05)
+  - TTT answered: "tallow matches our skin’s properties closely, it helps restore the skin’s barrier without clogging pores. It is packed with vitamins such as A, D, E and K, which our skin loves :) feel free to check out our FAQs page on our website for more info, if you like!"
+- "Where can I find out the status of my order?" (0 likes, 2025-11-03)
+  - TTT answered: "hey! Feel free to email our customer support squad: support@thetallowedtruth.com :)"
+- "Curious what a Dermatologist woukd say about this?" (0 likes, 2026-03-27)
+  - TTT answered: "would want you to buy something they make commission on"
+- "Where can I purchase beef tallow Any in Ontario" (0 likes, 2026-01-25)
+  - TTT answered: "try googling butcher shops near you who may sell tallow :)"
+- "Why is euros coming up when I try to complete my order ?? Im Canadian!" (0 likes, 2025-11-09)
+  - TTT answered: "be sure your webpage is set to CAD — you can find this toggle at the bottom left-hand corner of the webpage on your device :)"
+- "Which part of the animal does it come from?" (1 likes, 2026-10-25)
+- "Will this stuff help with turkey neck too" (1 likes, 2026-10-19)
+- "Does it helps with aging lines/wrinkles upper lip area?" (1 likes, 2026-10-18)
+- "Does it come unscented for the people with scent allergies?" (0 likes, 2026-10-15) [Reaction / sensitivity]
+  - TTT answered: "does! ✨"
+- "Is it good for anti aging or only your F-balm?" (0 likes, 2026-04-09)
+  - TTT answered: "Tallow in general is great for fine lines and wrinkles so yes this one works too!"
+- "Are they specifically for face or all over?" (0 likes, 2025-07-19)
+  - TTT answered: "we have a body butter and F-Balm and face whip for face!"
+- "Is there a way to bundle and save when wanting a freedom face and a sunscreen?" (0 likes, 2026-05-03)
+  - TTT answered: "Yes! If you add 2 whips to the cart it’s 20% off! S-balm sunscreen is already on sale right now too"
+- "Is this better for anti aging than the F balm? Bc i just ordered ALOT of F balm" (0 likes, 2026-06-09)
+  - TTT answered: "keepers F-Balm is more anti-aging! Face Whip is is lighter face moisturizer but still helps diminish fine lines"
+- "What do you recommend for what looks like eczema on eyelids." (0 likes, 2025-05-19)
+  - TTT answered: "our f-balm unscented would be a great option for that - many customers love this one for their eczema around sensitive areas such as the eyes 🙂 You can check out the unscented here (there are also reviews for the unscented on the right if you scroll down): https://thetallowedtruth.com/products/f-balm-black-label-unscented appreciate you!"
+- "Why does the one on your site only show 2 ingredients?" (0 likes, 2025-06-15)
+  - TTT answered: "our unscented Face Whip is simply tallow and jojoba oil 🙂 appreciate you!"
+- "My whipped face cream is grainy and very oily. Is that normal?" (0 likes, 2026-03-23) [Greasy / heavy]
+  - TTT answered: "Appreciate you letting us know, Arlene. We aren't going for grainy! Email us at support@thetallowedtruth.com and we'll help you out."
+- "I was sent the F-Balm not the freedom face who are they the same?" (0 likes, 2025-08-13)
+  - TTT answered: "the Freedom Face Whip is a whipped tallow for your face--if there was a mistake in your order give our support team a shout and we can sort it!"
+- "Are the ingredients the exact same as the regular tallow?" (0 likes, 2025-06-26)
+  - TTT answered: "Hey! No, the Face Whip is a simple formula consisting of tallow and jojoba oil -- the Summer scented has lavender and litsea cubeba essential oils 🙂 appreciate you!"
+- "What happened to men!! They turned into women!" (0 likes, 2026-06-08)
+  - TTT answered: "It's a problem."
+- "Why is the unscented more than the scented" (0 likes, 2026-04-09)
+  - TTT answered: "It should be the same! $44.99 CAD"
+- "Can’t believe how small they are for the price should be double" (0 likes, 2026-03-24)
+  - TTT answered: "Hey Gary, our price reflects the premium quality of our tallow. Our tallow is from grass-fed, grass-finished cows in Alberta. Not bleached or deoderized either!"
+- "Does your skin need to be damp when you apply the F-Bomb?" (0 likes, 2025-12-05)
+  - TTT answered: "Yes — we recommend applying a very small amount to freshly cleansed, slightly damp skin :)"
+- "What is the S-Balm for ? Never heard of that one??" (0 likes, 2026-03-09)
+  - TTT answered: "That is our natural S-Balm 💕 customers love applying this after F-Balm when heading into the sun ☀️"
+- "Could you put this on a three year old with eczema?" (0 likes, 2026-04-11)
+  - TTT answered: "Yes Shelley absolutely"
+- "Do you guys have a lip balm for the lips?" (0 likes, 2026-01-09)
+  - TTT answered: "We sure do! Feel free to check out our website for all our products, including our Lip Balm 🫶🏼 www.thetallowedtruth.com"
+- "How good is this for saggy skin and face wrinkles" (0 likes, 2026-06-21)
+  - TTT answered: "Tallow is great for them! It helps encourage collagen production to firm skin"
+- "Any advice for applying? It is very thick and doesn’t spread easily" (0 likes, 2026-04-19)
+  - TTT answered: "Hey Jody! Yes tallow is a thick moisturizer! Apply a thin layer to dry skin and it should absorb nicely within a few minutes🫶🏻"
+- "What does a person use to wash your face?" (0 likes, 2025-05-20)
+  - TTT answered: "keep an eye out for our tallow soap being released May 22 😉 Outside of that, customers use their favourite cleanser, then moisturize with our F-Balm or other tallow products 🙂"
+- "I want to try this specific one, is there a code for a discount?" (0 likes, 2026-05-30)
+  - TTT answered: "a welcome offer on our website with the pop-up!"
+- "Shawna McCartney is this what you told me about?" (0 likes, 2025-11-12)
+  - TTT answered: "appreciate you!"
+- "Is it greasey, or does it absorb into your skin" (0 likes, 2025-11-20) [Greasy / heavy]
+  - TTT answered: "it absorbs and is not greasy when applied correctly. When beginning, we recommend applying a very small, pea-sized amount to thoroughly cleansed, warm, and slight damp skin once daily in the evening. After a week or so, increase to twice daily. Hope this helps! :)"
+- "Does this help with scalp fungus by any chance...." (0 likes, 2026-03-15)
+  - TTT answered: "Yes 🙌🏼 many customers use it on things like cradle cap and report it works amazing :)"
+- "Will this help dermatitis and lip skin rashes?" (0 likes, 2024-07-09) [Reaction / sensitivity]
+  - TTT answered: "We can't guarantee any given results, but tons of our customers have given amazing feedback about using it for dermatitis and many other skin issues! Feel free to check out our reviews page here to read what they've said: https://thetallowedtruth.com/pages/reviews"
+- "Where is it produced / canned and where does it shop from ?" (0 likes, 2025-02-26)
+  - TTT answered: "Ontario!"
+- "Gotta ask. Do you smell life beef? does your dog always want to lick your face?" (0 likes, 2025-03-29) [Smell (cow, beef)]
+  - TTT answered: "smell like beef? not unless I BBQ. Dog wanna lick me? yes 100%"
+- "Is this good for eczema my son is 1years old?" (0 likes, 2024-08-22)
+  - TTT answered: "We can't guarantee anything, but lots of customers have given great feedback about using it to heal their children's eczema and other skin issues. We just recommend patch testing on a small area first to make sure they're not sensitive to any of the 5 ingredients! (we have a money-back guarantee if it doesn't work for you guys)"
+- "How bad will this melt if sent to Arizona in n 110 degree heat?" (0 likes, 2024-06-08)
+  - TTT answered: "Hey, we can't guarantee anything once it's in the shipper's hands, but as long as it doesn't leak, melted balm can always be stirred and re-solidified without any negative effects! We recommend keeping an eye on the tracking and trying to get it from your mailbox as soon as it's delivered in hotter climates..."
+- "Is your tallow made from non vaccinated cows?" (0 likes, 2024-07-18) [Smell (cow, beef)]
+  - TTT answered: "Yep, it sure is! We source from some awesome independent ranchers in Alberta!"
+- "Can you use it on your face or is it too heavy" (0 likes, 2025-03-01) [Greasy / heavy]
+  - TTT answered: "Yes, it is primarily a facial moisturizer!"
+- "How is beeswax not pore clogging? Honest question." (0 likes, 2024-07-28) [Breakouts / clogged pores]
+  - TTT answered: "It depends on your particular skin, but most of our customers haven't had any issues with pore-clogging! We always recommend using a very small amount applied to still damp skin which helps it absorb well, and not feel heavy on the skin!"
+- "How is it supposed to be used? Like a moisturizer?" (0 likes, 2024-06-03)
+  - TTT answered: "Yes, it's a daily healing moisturizer! For best results, apply a very small amount to damp face/hands/skin and massage it in till it absorbs (a little water involved while applying is key)!"
+- "Are you offering any discounts for first times" (0 likes, 2024-11-09)
+  - TTT answered: "Yes! Use code “fbalm” for a discount! And watch our for our Black Friday sales!"
+- "So what does this all do to the skin??????" (0 likes, 2025-03-24)
+  - TTT answered: "check out some of our reviews! https://thetallowedtruth.com/pages/reviews"
+- "Is this what you would use in place of a typical moisturizer?" (0 likes, 2024-05-28)
+  - TTT answered: "Yep! Works great as a daily moisturizer applied to skin still damp from rinsing!"
+- "Can someone with rosacea use it? Thanks!" (0 likes, 2026-01-29)
+  - TTT answered: "Yes! Feel free to check out our website for reviews — www.thetallowedtruth.com 🫶🏼"
+- "Where in Ontario this product is made?? second time i ask" (0 likes, 2026-01-19)
+  - TTT answered: "Hey Patty, thanks for your patience! We are located in Peterborough, Ontario. Head on over to our FAQs page on our site if you’d like more information at all :) www.thetallowedtruth.com appreciate you!"
+- "What is the stuff like this like being sold on temu. Same?" (0 likes, 2026-02-27)
+  - TTT answered: "no that’s a fake. We never ship from China ever"
+- "If you're a Canadian company, why are you charging us in UDS?" (0 likes, 2025-12-08)
+  - TTT answered: "All our prices are in CAD on our site — be sure your website settings are set to CAD dollars (bottom left-hand corner :)) appreciate you!"
+- "How to know what the real thing is anymore! Everyone is selling it." (0 likes, 2025-08-24)
+  - TTT answered: "check out our 5000 plus five star reviews!"
+- "Tallow stinks.... does this tallow stink as well?" (0 likes, 2025-01-31) [Smell (cow, beef)]
+  - TTT answered: "F-Balm is made from natural ingredients, and while it may have a mild natural scent due to its tallow base, it is generally not overpowering. The tallow we use is triple filtered which takes away much of the “beefy” smell that you may have experienced with other tallow brands."
+- "Ordered off Amazon how do I know if it’s real or fake?" (0 likes, 2024-10-23) [Trust (fake reviews, actors, offers)]
+  - TTT answered: "Hey! If it shipped from china then its fake, also if it was way cheaper"
+- "Hi, do you think it would help with psoriasis that I have on my elbows?" (0 likes, 2024-08-19)
+  - TTT answered: "We can't guarantee any given results, but tons of our customers have given amazing feedback about using it for psoriasis! We always recommend patch testing on a small area before applying to larger areas to make sure it suits your particular skin. Feel free to check out our reviews page, and bear in mind that we have a money-back guarantee if you don't like it for any reason: https://thetallowedtruth.com/pages/reviews"
+- "Are you available in any stores? Toronto?" (0 likes, 2025-03-11)
+  - TTT answered: "not yet!"
+- "Is beef tallow banned from selling in Canada ?" (0 likes, 2024-11-14)
+  - TTT answered: "No"
+- "What exactly is it good for , just dry skin ?" (0 likes, 2025-03-23)
+  - TTT answered: "great for all sorts of problems -- it is an all purpose moisturizer!"
+- "Why do you not use your own product. The video does not look like it" (0 likes, 2024-09-20)
+  - TTT answered: "I can assure you we do 🤝"
+- "When will this be available in stores, like Walmart or any pharmacies?" (0 likes, 2026-06-02)
+  - TTT answered: "We don't have an ETA on that Tami-Lyn, apologies! We're online only for now🫶 Appreciate you"
+- "Shipping to the UK adds 50% to the price. Seems a bit excessive?" (0 likes, 2026-04-01) [Price]
+  - TTT answered: "enough Jo! Our brand is hoping to expand as much as we can and hopefully have a solution for that in the future🫶🏻"
+- "I know the f balm and s balm are different because the superintendent balm has zinc but is that the only difference?" (0 likes, 2026-02-04)
+- "Can’t wait for my orders, it’s my second order already and my day can’t go on without The Tallowed Truth" (0 likes, 2026-01-10)
+- "Anyone experience clogged pores or too greasy?" (0 likes, 2026-05-18) [Greasy / heavy; Breakouts / clogged pores]
+- "My tin was hard as a rock. Is that normal?" (0 likes, 2026-03-22)
+- "Does it help to reduce wrinkles and tighten your neck?" (0 likes, 2026-02-11)
+- "Can’t wait for my orders, my second already and can’t live without it" (0 likes, 2026-01-10)
+- "What happened I thought they where happy together?" (0 likes, 2026-04-13)
+- "Can't say enough good about this stuff!!!" (0 likes, 2026-06-28)
+- "Do you also sell salt for antivaxx? and shampoo? and oh ob oh … cereal? IDIOTS!" (0 likes, 2025-12-22)
+- "Is it funny that I'm allergic to CeraVe and libtards..." (0 likes, 2025-12-20)
+
+## Questions from users (11)
+
+- "Do you guys bleach and/or process your tallow? Been using F Balm for almost a year. Love the product and support your message! Just watched a video talking about the tallow industry and how corrupt it is. Can you weigh in on that?" (1 likes, 2026-08-10)
+  - TTT answered: "No bleaching. We triple purify using low heat ;)"
+- "Do I use it morning and evening or just morning?" (2 likes, 2026-08-13)
+  - TTT answered: "We recommend morning and evening but feel free to do what works best for your skin! 🙌"
+- "Can’t believe a plastic surgeon vouches for this, poor Dr. will be losing big bucks, mind you, I been using it for the last month don’t see any diminishing lines on my face, go figure, I’m disappointed but then again ordered the face whip, let see how that works, just my opinion, will keep you updated 🤟" (0 likes, 2026-07-15)
+  - TTT answered: "Please keep us posted! We have a 30-day money-back guarantee!"
+- "Are you supposed to put it on after make up before? I have been applying it before makeup after cleansing my face. Am I using it correctly?" (1 likes, 2026-03-31)
+  - TTT answered: "Yes Kerri you are using it correctly!🫶🏻"
+- "What's the difference between face whip and the normal stuff??? I have been using the regular balm for months but hope I didnt miss out on something" (1 likes, 2026-07-25)
+  - TTT answered: "We formulated Face Whip for people who have bee product sensitivities. You are not missing out as our F-Balm is our most popular product!"
+- "I just received mine today. Do you just use like a moisturizer? Anything special I need to know?" (1 likes, 2026-04-23)
+  - TTT answered: "Yes just use like a moisturizer! We recommend applying to dry skin. Let us know how you like it!"
+- "I use F balm do I apply this after or do I use both ?" (1 likes, 2026-10-22)
+  - TTT answered: "Great question! Most folks like to use one or the other, not both."
+- "Anybody used this for eczema n rosacea? What’s the results?" (1 likes, 2026-06-07)
+  - TTT answered: "Many people have commented saying it has helped heal their rosacea and eczema! We also have a 30 day money back guarantee if you see no benefits🫶"
+- "Do people prefer scented or unscented more? I purchased unscented and can’t decide if I should try the regular scented one. I’m primarily using it on my face and neck." (0 likes, 2026-05-04)
+  - TTT answered: "you smelled Frankincense before? It's a lovely scent and can add extra anti-aging benefits. Worth a try!"
+- "I just got my first order of F-Balm. I thought that was for your face?" (0 likes, 2026-07-20)
+  - TTT answered: "Yes! F-Balm is also for your face! We have a few facial moisturizers! ;)"
+- "I’ve just ordered the F-Bomb - can I use it on the neck too?" (0 likes, 2025-03-09)
+  - TTT answered: "yup!"

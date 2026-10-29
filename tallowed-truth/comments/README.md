@@ -6,6 +6,7 @@ other 609, praise 434, question 429, objection 150, story 145, political/off-top
 
 | File | Use it for |
 |---|---|
+| `relevant.md` | **Start here.** The 400-odd comments worth reading, in four groups: customer results, doubts answered by customers, real objections, questions. |
 | `objections.md` | What skeptics say, grouped, with how TTT answered. Objection hooks and lines to handle doubts in a script. |
 | `questions.md` | What people ask before buying. Answer the common ones in the video. |
 | `stories.md` | Customers telling their own results in the comments. Real wording for scripts. |
