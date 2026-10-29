@@ -21,6 +21,11 @@ weekly "what's working" call: one short, general rule per learning, not a note a
   as the hook. (Ads Arcadia call, 2026-10-23, test 4)
 - **Pop the proof in the first 2 seconds.** The person or photo the hook is about pops up on screen,
   with burned-in captions. (F-Balm briefs, editor note)
+- **Third-party age reactions win. Hook on the payoff.** Stories where someone else reacted to her skin or
+  her age (a stranger guessed her age, she got carded, a dermatologist, esthetician, doctor or plastic surgeon
+  asked what she uses) carried the week. Open on the payoff: who noticed, what they said, or her age. 15 of 16
+  winners open this way; never open on the setup. Put her review on screen as she's quoted. Ready-made
+  stories with hooks and screenshots: `reviews/stories/age-reactions.md`. (Anton, week of 2026-10-26)
 
 ## What the account says (last 30 days to 2026-10-27, see `ads/whats-working.md`)
 
