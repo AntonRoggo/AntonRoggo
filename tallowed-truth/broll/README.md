@@ -1,6 +1,6 @@
 # B-roll & overlays
 
-Every silent clip (B-roll: no one talking) and image from the TTT asset folder and the creator brief raw footage folders, tagged by what it shows. 572 files scanned: 145 B-roll clips, 230 images, 197 talking takes (not listed), 0 could not be read, 78 duplicate copies left out. Files stay where they are in Drive; `link` opens each one.
+Every silent clip (B-roll: no one talking) and image from the TTT asset folder and the creator brief raw footage folders, tagged by what it shows. 589 files scanned: 150 B-roll clips, 230 images, 209 talking takes (not listed), 0 could not be read, 78 duplicate copies left out. Files stay where they are in Drive; `link` opens each one.
 
 Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are left out of the catalog.
 
@@ -11,7 +11,7 @@ Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are lef
 | `product` | The tin or jar: hero shots, in hand, lid off, texture, swatches | 124 |
 | `application` | Putting it on: face, neck, hands, under the eyes | 29 |
 | `skin-result` | Glowing skin, touching the face, mirror checks, smiling close-ups | 14 |
-| `problem` | Dry, crepey, wrinkled or irritated skin; the 'before' | 11 |
+| `problem` | Dry, crepey, wrinkled or irritated skin; the 'before' | 14 |
 | `failed-solutions` | Other creams, serums, drugstore products, the bathroom cabinet | 15 |
 | `factory` | Inside the TTT facility: making, pouring, filling, machines, the team | 33 |
 | `ingredients` | Raw honey, tallow, beeswax, olive oil, essential oils | 3 |
@@ -20,6 +20,7 @@ Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are lef
 | `founder` | Ben on camera without talking (walking, working, holding product) | 1 |
 | `graphic` | Statics, review screenshots, social proof, logos, lander images | 50 |
 | `other` | Doesn't fit the above | 0 |
+| `untagged` | Not looked at yet | 2 |
 
 ## Best product
 
@@ -101,6 +102,8 @@ Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are lef
 | Woman in a grey tank pulls at the wrinkles around her eyes and forehead | video | 9.7 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1R0olDEIi4o8EuZU2ZkVIncbabo7OXQf5/view) |
 | Woman points at the lines and dry patches under her eye, close-up | video | 6.4 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1ycptu5ZkuX4qf_lUWvaSlEKj8504OWar/view) |
 | Woman stares at the camera, unhappy, tired skin (before) | video | 4.4 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1s-zk0OZQIcqv74sTVNuwaKXI4VxheZgJ/view) |
+| Woman in a tie-dye top touches the lines by her eye, worried (before an appointment) | video | 4.6 | Brief / TheAppointment | [open](https://drive.google.com/file/d/1ovwpYfyGnLyDkxTkn_b3zwjeZjsU8SiM/view) |
+| Woman in tie-dye grimaces and thinks, unhappy with her skin | video | 5.3 | Brief / TheAppointment | [open](https://drive.google.com/file/d/1h_2twKyzqrqhLR7p6ihEpTn_mkNt9bk9/view) |
 
 ## Best failed-solutions
 
