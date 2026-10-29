@@ -18,6 +18,33 @@ your first edit.
   `tools/review_card.py` for a review that has no screenshot yet.
 - Fonts: Proxima Nova Semibold (captions), Proxima Nova Extrabold and Bold (banner).
 
+## How to run an edit (creator footage in, edit out)
+
+The editor is `tallowed-truth/tools/tt_edit.py` (it uses `edit_video.py` at the repo root for the cutting
+engine). Needs ffmpeg and `pip install faster-whisper`.
+
+1. **Get the footage.** Creators upload to the TTT BRAIN Drive folder `01 Creator Footage (upload here)`, one
+   folder per creator per brief. Download the talking take(s) into `input/`. If the script was filmed in
+   several files, join them in script order first.
+2. **Plan pass** (no render): `python3 tallowed-truth/tools/tt_edit.py input/<take>.mp4 -o output/<name>/<name>.mp4 --plan-only`.
+   It prints what it cut ("Cut words: ...") and writes `<name>.timeline.json`, the transcript on the edited
+   timeline.
+   - Read the cut words. The engine treats any immediate repeat as a stutter, so a deliberate repeat
+     ("bang, bang, bang", "really, really") gets cut: put it back with `--keep START-END` (source seconds).
+   - Fix misheard brand words with `--fix 'START-END=tallow balm'`.
+   - Cut an outtake or aside the engine kept with `--drop START-END`.
+3. **Pick the pop-ups.** Find the brief's proof moments in the timeline and write `popups.json` with the exact
+   words they go under (see the format at the top of `tt_edit.py`): customer pairs, a review screenshot from
+   `testimonials/`, or a review card by id. The tool snaps each one to the nearest cut.
+4. **Render:** same command without `--plan-only`, plus `--headline "LINE ONE|line two"` and
+   `--popups popups.json`. About 2 minutes for a 60 s video.
+5. **Check it** against the checklist below: grab frames at the banner, every pop-up, and a few captions.
+6. **Deliver.** Upload the MP4 with `python3 tools/dropbox_upload.py "/TTT Edits/<creator>" output/<name>/<name>.mp4`
+   and send the link back with a one-line summary (length, cuts, pop-ups used).
+
+Without Proxima Nova files in `fonts/` the tool falls back to Inter so a preview still renders; final edits
+need the Proxima Nova files.
+
 ## The style in one paragraph
 
 One person talking straight to camera the whole time, moving through real places with the real product or
@@ -122,6 +149,11 @@ ffmpeg overlay for one pop-up (S = start, E = end, in seconds):
 - [ ] Product visible in most shots; held to the lens for the offer.
 - [ ] Ends on money back + link below + point down.
 - [ ] Audio -12 LUFS, peaks -1 dBTP, no music, no hiss.
+
+## Lessons
+
+- An immediate repeat isn't always a stutter. Read the cut-words list on every edit and restore deliberate
+  repeats.
 
 ## Not known yet (v1)
 

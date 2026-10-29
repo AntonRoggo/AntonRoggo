@@ -5,9 +5,12 @@ company Claude settings (Capabilities, Skills), or keep it in the repo for Claud
 
 | Skill | What it does | Version |
 |---|---|---|
-| `tt-ad-edit/` | Edit a talking-head ad in the house style of the founder confession (cuts, captions, banner, pop-ups, audio), with a checklist. `reference/` has the shot-by-shot breakdown of that ad. | v1, 2026-10-29 |
+| `tt-ad-edit/` | Edit a creator's raw talking-head footage into an ad in the house style of the founder confession (cuts, captions, banner, pop-ups, audio), with a checklist. Runs `tools/tt_edit.py`. `reference/` has the shot-by-shot breakdown of that ad. | v1, 2026-10-29 |
 
 ## To make tt-ad-edit better (questions for Anton)
+
+0. **Raw creator footage with fumbles** (one or two real uploads). v1 was tested on a finished clip, so the
+   fumble and restart cutting hasn't been checked on real creator mistakes yet.
 
 1. **The raw footage of the founder confession.** Then the skill can learn what gets cut (how many takes, how
    long the pauses were, what got dropped), not just what's left.
