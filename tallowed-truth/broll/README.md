@@ -1,6 +1,6 @@
 # B-roll & overlays
 
-Every silent clip (B-roll: no one talking) and image from the TTT asset folder and the creator brief raw footage folders, tagged by what it shows. 589 files scanned: 150 B-roll clips, 230 images, 209 talking takes (not listed), 0 could not be read, 78 duplicate copies left out. Files stay where they are in Drive; `link` opens each one.
+Every silent clip (B-roll: no one talking) and image from the TTT asset folder and the creator brief raw footage folders, tagged by what it shows. 704 files scanned: 189 B-roll clips, 230 images, 285 talking takes (not listed), 0 could not be read, 84 duplicate copies left out. Files stay where they are in Drive; `link` opens each one.
 
 Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are left out of the catalog.
 
@@ -8,19 +8,18 @@ Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are lef
 
 | Category | What's in it | Files |
 |---|---|---|
-| `product` | The tin or jar: hero shots, in hand, lid off, texture, swatches | 124 |
-| `application` | Putting it on: face, neck, hands, under the eyes | 29 |
-| `skin-result` | Glowing skin, touching the face, mirror checks, smiling close-ups | 14 |
-| `problem` | Dry, crepey, wrinkled or irritated skin; the 'before' | 14 |
-| `failed-solutions` | Other creams, serums, drugstore products, the bathroom cabinet | 15 |
+| `product` | The tin or jar: hero shots, in hand, lid off, texture, swatches | 135 |
+| `application` | Putting it on: face, neck, hands, under the eyes | 37 |
+| `skin-result` | Glowing skin, touching the face, mirror checks, smiling close-ups | 15 |
+| `problem` | Dry, crepey, wrinkled or irritated skin; the 'before' | 21 |
+| `failed-solutions` | Other creams, serums, drugstore products, the bathroom cabinet | 20 |
 | `factory` | Inside the TTT facility: making, pouring, filling, machines, the team | 33 |
 | `ingredients` | Raw honey, tallow, beeswax, olive oil, essential oils | 3 |
 | `packing-shipping` | Packing orders, boxes, labels, shipping | 0 |
-| `lifestyle` | Creators posing, routines, outdoors, family, everyday moments | 19 |
+| `lifestyle` | Creators posing, routines, outdoors, family, everyday moments | 22 |
 | `founder` | Ben on camera without talking (walking, working, holding product) | 1 |
 | `graphic` | Statics, review screenshots, social proof, logos, lander images | 50 |
 | `other` | Doesn't fit the above | 0 |
-| `untagged` | Not looked at yet | 2 |
 
 ## Best product
 
@@ -42,15 +41,15 @@ Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are lef
 | Hands open the tin in sunlight by a window, fingertip scoops the golden balm | video | 30.9 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1knII-8GP_OoGetDzfgkG0FczlqJeW89B/view) |
 | Hands hold the tin against green leaves, lid off to the golden balm | video | 23.4 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1WJQqGd73wmvNwa-fjRjm5DSrmeXfrLLD/view) |
 | Open F-Balm tin with lid and pampas grass, styled flat lay | image |  | Assets / Manufacturing Content | [open](https://drive.google.com/file/d/1RMF_9ZzSD8iqhspP284RobOTMZMsDq_k/view) |
+| Fingers open the tin and dip into the golden balm, wood table | video | 19.9 | Brief / At50,ADifferentKindOfCare | [open](https://drive.google.com/file/d/1CnQd_Mj7vPzqVpRbs0gSp22DJbqxOMFs/view) |
+| Open tin of golden balm held up close, wood table | video | 7.4 | Brief / At50,ADifferentKindOfCare | [open](https://drive.google.com/file/d/1wRiewXnwJ4ihEdEX4N2C3QzuQu8_5XI4/view) |
+| Fingertip scoops golden balm from the open tin, close | video | 32.3 | Brief / At50,ADifferentKindOfCare | [open](https://drive.google.com/file/d/13LV86N5Nj5u85lRL8SJEeY0F-x2ZulpW/view) |
+| Blonde woman in red holds up two tins and smiles | video | 14.8 | Brief / At50,ADifferentKindOfCare | [open](https://drive.google.com/file/d/1TFcPlGp98M2OS3iiD9XMIsClfSB2YAyf/view) |
+| Brunette smiles with the open golden tin by her face | video | 7.1 | Brief / SkinTimelineAd | [open](https://drive.google.com/file/d/1Fe-hkmylzO5fy3zrhFT0l5lyJiSYmkDW/view) |
+| Hand holds the tin up against purple flowers outdoors, then opens it | video | 47.6 | Brief / SkinTimelineAd | [open](https://drive.google.com/file/d/1VHe57Fv2xF81UXyNQ6MH25MKeXggTtd6/view) |
+| Fingers dip into the golden balm against flowers, close | video | 20.2 | Brief / SkinTimelineAd | [open](https://drive.google.com/file/d/1WgmC_a-fgUNv5eIAfufUOvbUGEGp2GF7/view) |
 | Flat lay of many F-Balm (honey & frankincense) tins, top-down | image |  | Assets / All Product Photos | [open](https://drive.google.com/file/d/1e-jC6qW-m6b6NypA3B0KhTT2S6AHiaOH/view) |
 | Flat lay of F-Balm Unscented tins (black labels), top-down | image |  | Assets / All Product Photos | [open](https://drive.google.com/file/d/1YSqFMBK20P_ETJ_x8kh1WY6igKxt6CR8/view) |
-| Flat lay of F-Balm Body Butter tins (100 ml) | image |  | Assets / All Product Photos | [open](https://drive.google.com/file/d/1HekTXmCV76RFBUw0RNkKjx74zo9IsF6Z/view) |
-| Ingredient label on the tin bottom, studio white | image |  | Assets / All Product Photos | [open](https://drive.google.com/file/d/1MY-6hCyZkFD5-PZLtfAyZJwufZoc5mJT/view) |
-| Two F-Balm tins, studio white | image |  | Assets / All Product Photos | [open](https://drive.google.com/file/d/1xA4-wZcT8i1xcVzBSN7Cfcc6i3Ly_Wxy/view) |
-| Open F-Balm tin with the lid propped, studio white | image |  | Assets / All Product Photos | [open](https://drive.google.com/file/d/1O17Z9NGSWWXV-vQRJ2SuuuJss_gmyo_Y/view) |
-| Open F-Balm tin with lid, studio white, golden balm | image |  | Assets / All Product Photos | [open](https://drive.google.com/file/d/1CLtokX5BSFaN01qWvo65132-cm0GQW7S/view) |
-| Two F-Balm tins on grey, label forward | image |  | Assets / Brand Logos | [open](https://drive.google.com/file/d/1xOSKU2aibWifB65MUTPCC37exFhXJD2r/view) |
-| F-Balm lid label, flat-on close-up (older 'freedom' label) | image |  | Assets / F-Balm Image Statics | [open](https://drive.google.com/file/d/1e96OpbQfLEwfytwujhNrRhm-ll8U1VZy/view) |
 
 ## Best application
 
@@ -58,6 +57,8 @@ Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are lef
 |---|---|---|---|---|
 | Older hands open a tin and rub balm into the back of the hand, gold bracelet | video | 39.6 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1B4ctOcrNx91XxzAeTUxNtnqLxUXb0PDN/view) |
 | Woman with redness holds the open tin to the lens, then pats balm on her cheeks | video | 57.9 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1gnFtl_vlSgX711le4M09B9A6yWq2dqW6/view) |
+| Brunette massages balm into her jaw and neck, eyes closed, sunlit | video | 30.0 | Brief / SkinTimelineAd | [open](https://drive.google.com/file/d/1e7iVyL6Io3Hvg5DqhNfOAKdPXYU0uvHO/view) |
+| Brunette with red nails taps balm under her eyes, holds the open tin | video | 26.4 | Brief / SkinTimelineAd | [open](https://drive.google.com/file/d/1fSBHVfGL4Y6NzOGI8hYChgMYMoK158RV/view) |
 | Dark-haired woman opens the tin, rubs balm into her face, glowy finish (living room) | video | 53.3 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/11X6Titdgw86Udp2AIESk7yFsCWGZ3fYG/view) |
 | Dark-haired woman in a headband holds the tin up, then massages balm under her eyes | video | 41.2 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1FpHVPn0z1uOXWGvALI8kjdiKNJ3wY0IX/view) |
 | Red-haired woman in pink pats balm into cheeks and presses palms together | video | 99.2 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1O9Ye1XHRSbXpmq2AYL8Vu0WvSjPhKDR3/view) |
@@ -78,6 +79,7 @@ Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are lef
 | Two women on a beach towel rub balm into their legs and hands (sunny, S-Balm feel) | video | 35.4 | Assets / Manufacturing Content | [open](https://drive.google.com/file/d/1-0oZIxumI1M8wQ8hPtSHuNFg64xOCit8/view) |
 | Woman in a grey headband and pink jacket shows the open tin, touches her cheek | video | 17.2 | Assets / Reviews_UGC and Comments | [open](https://drive.google.com/file/d/1YrrE_kJCiaSWFecnvROKR4hbvjhiJGbp/view) |
 | Woman in the grey headband pats balm on her face, then shows the tin | video | 17.5 | Assets / Reviews_UGC and Comments | [open](https://drive.google.com/file/d/1J3nIxTURPxLBtY2_lUmRSPq5QMGlT8kT/view) |
+| Hands rub balm into the back of the hands, wood table | video | 26.0 | Brief / At50,ADifferentKindOfCare | [open](https://drive.google.com/file/d/1ToDroHzWO9m6FxUPDgDx_aFeL4LBaE4R/view) |
 
 ## Best skin-result
 
@@ -92,6 +94,7 @@ Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are lef
 | Tanned woman cups her face and smiles, open tin in hand | video | 25.3 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1nzmUnCkWBxjwDglQ7OTPBQ8xJ9RXWHAy/view) |
 | Woman outdoors on a patio, smiling and turning her face to the sun, glowing | video | 12.0 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1MzIkCO0hS9KSWhpCojbF4JZhTC-qBTVm/view) |
 | Red-haired woman's bare-skin selfie, no foundation (Break Up With Foundation brief) | image |  | Brief / Break Up With Foundation | [open](https://drive.google.com/file/d/169n2gnL9LA6Epk0BoJ2W5fcy19N84fEX/view) |
+| Brunette presses her cheeks, glowy skin in sunlight | video | 6.5 | Brief / SkinTimelineAd | [open](https://drive.google.com/file/d/1x0QIQ46KL5weQwGcc96r-3xoNy2EtapQ/view) |
 
 ## Best problem
 
@@ -101,9 +104,16 @@ Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are lef
 | Dark-haired woman pulls at her face and frowns, upset about her skin | video | 21.4 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1MvmeF_hYoy-KBWjhUE472bO-jiOyYIRk/view) |
 | Woman in a grey tank pulls at the wrinkles around her eyes and forehead | video | 9.7 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1R0olDEIi4o8EuZU2ZkVIncbabo7OXQf5/view) |
 | Woman points at the lines and dry patches under her eye, close-up | video | 6.4 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1ycptu5ZkuX4qf_lUWvaSlEKj8504OWar/view) |
+| Woman in a white robe inspects her forehead lines in a magnifying mirror | video | 18.2 | Brief / At50,ADifferentKindOfCare | [open](https://drive.google.com/file/d/1fFNMbzCX1sBUZFXvMlLIfBE4filuLDa9/view) |
+| Woman points at her frown lines and smile lines, close-up | video | 16.6 | Brief / At50,ADifferentKindOfCare | [open](https://drive.google.com/file/d/1BIr8NESqtZRI6o7PjEnB-V39B8YCcXhN/view) |
 | Woman stares at the camera, unhappy, tired skin (before) | video | 4.4 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1s-zk0OZQIcqv74sTVNuwaKXI4VxheZgJ/view) |
+| Woman in a white robe presses her cheeks, frustrated with her skin | video | 21.6 | Brief / At50,ADifferentKindOfCare | [open](https://drive.google.com/file/d/1Bo43vz00M1KlzINVGP-X2dyoyUj7eisr/view) |
+| Woman checks wrinkles in the magnifying mirror, unhappy | video | 11.1 | Brief / At50,ADifferentKindOfCare | [open](https://drive.google.com/file/d/1P8VqC-V8b_tvO-ulsINkqkG2dEXKhTOx/view) |
+| Brunette close-up touching her jawline, bare skin | video | 28.3 | Brief / SkinTimelineAd | [open](https://drive.google.com/file/d/1MtUUsgXGTjIAe3pbHuRGYA-tZilARRoH/view) |
+| Woman leans into a lit vanity mirror to inspect her skin | video | 20.9 | Brief / SkinTimelineAd | [open](https://drive.google.com/file/d/1xnnB1WsOY8i0wHOmf3lQUMlLfvLNe7LU/view) |
 | Woman in a tie-dye top touches the lines by her eye, worried (before an appointment) | video | 4.6 | Brief / TheAppointment | [open](https://drive.google.com/file/d/1ovwpYfyGnLyDkxTkn_b3zwjeZjsU8SiM/view) |
 | Woman in tie-dye grimaces and thinks, unhappy with her skin | video | 5.3 | Brief / TheAppointment | [open](https://drive.google.com/file/d/1h_2twKyzqrqhLR7p6ihEpTn_mkNt9bk9/view) |
+| Woman in a white hoodie squints and grimaces at her skin, close selfie | video | 6.9 | Brief / TheAppointment | [open](https://drive.google.com/file/d/1uOt9ucrGZ2WbzBRmQXiFTRjN4CLBiB8G/view) |
 
 ## Best failed-solutions
 
@@ -111,10 +121,14 @@ Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are lef
 |---|---|---|---|---|
 | Drawer stuffed with old skincare products, POV | video | 29.8 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1pLimrgmkWUdqpxeczqoZ04TE5Jq1uXzk/view) |
 | Woman sweeps old skincare bottles off the counter into the bin | video | 5.9 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1pWraiARb047yC_BP-wmCDMRZCWR00mQO/view) |
+| Woman drops a serum on her face, then looks disappointed | video | 14.1 | Brief / At50,ADifferentKindOfCare | [open](https://drive.google.com/file/d/1HuJffxqC-868l3C_A-vTeK_IjCEcV8n2/view) |
+| Old skincare jars dropped into a bin on a wood floor, top-down | video | 6.5 | Brief / TheAppointment | [open](https://drive.google.com/file/d/1yt3ZeggRg1biGzWMfbl8baRcO-kOn_Mp/view) |
 | Hand holds a CeraVe tube and a red box of another moisturiser, reading labels | video | 22.3 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1LLIvKYULQmjpK132K2O-wCZGLA6lav5v/view) |
 | Bathroom counter crowded with skincare bottles, POV | video | 12.4 | Assets / MASTER BROLL FOLDER | [open](https://drive.google.com/file/d/1p7g0uIvBNDGAD0EG_BKs9kY9xKKOxHWm/view) |
+| Woman slaps on cream, then covers her face, fed up | video | 18.9 | Brief / At50,ADifferentKindOfCare | [open](https://drive.google.com/file/d/1K2yrxtFr6XIMa_ZQuwUJShPv0-QNc6Or/view) |
 | Creator holds up a drugstore moisturiser tube to the lens, dark backdrop | video | 5.1 | Brief / ManVsGodMade | [open](https://drive.google.com/file/d/1ghxsSqmHSMZg7XJbBe3qWsojwPTD1IvD/view) |
 | Drugstore moisturiser tube next to a '$20' sticky note (price comparison) | video | 4.1 | Brief / ManVsGodMade | [open](https://drive.google.com/file/d/1AfbcjpXAJ4D6HnukFd0U9WWj7bb6xWhs/view) |
+| Bathroom counter of serums and creams, hand picks through them | video | 28.3 | Brief / SkinTimelineAd | [open](https://drive.google.com/file/d/13JKkbz9TMxmOOpqHSUsipquR1py5Urdd/view) |
 
 ## Best factory
 
@@ -159,6 +173,7 @@ Quality 1-5 (5 = use first). Quality-1 files (blurry, black, accidental) are lef
 | Vintage 1950s photo: creator's grandmother outside a cabin (for '1950s skincare' angle) | image |  | Assets / Reviews_UGC and Comments | [open](https://drive.google.com/file/d/1pYNMDsa-ZcGL_VfbfzyIxrC8FdBpCiWj/view) |
 | Vintage photo: grandmother in work clothes in the snow (1950s skincare angle) | image |  | Assets / Reviews_UGC and Comments | [open](https://drive.google.com/file/d/1u4LmxpE4gIvDSv-1p5ifTE6gKF1jbaqY/view) |
 | Vintage family photo, 1950s living room (1950s skincare angle) | image |  | Assets / Reviews_UGC and Comments | [open](https://drive.google.com/file/d/1db4ESXtb5IP6J-g7m5PKsMu9kwPLcQTa/view) |
+| Brunette in pyjamas sips coffee in the kitchen, morning | video | 18.8 | Brief / SkinTimelineAd | [open](https://drive.google.com/file/d/1_Dvm7dHgQuVXs_Sl_chOvVKpsGRpqRQ6/view) |
 
 ## Best founder
 
