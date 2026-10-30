@@ -94,3 +94,5 @@ Instagram, TikTok and Facebook went out with the earlier caption ("My favorite c
 **2026-10-30:** Holidays are a habit and Nobody's watching went live (10:05 and 11:25) on Anton's "post everything" without him having reviewed them. Anton: never post anything he hasn't looked at and named explicitly. Rule added to CLAUDE.md and the publish-metricool skill; `confirm_before_scheduling` is now true (show the plan table and wait for a yes).
 
 **2026-10-30 17:05 ET:** Anton approved Holidays are a habit v3 (`output/larp/05_holiday_habit_0017.mp4`, re-edit he reviewed): Instagram trial reel only, Anton Roggo, 2026-10-30 17:15 ET, post 411680240, uuid -1628827986197723242, https://app.metricool.com/planner/calendar?blogId=6537632&openWithPostUuid=-1628827986197723242
+
+**2026-10-30 17:29 ET:** Anton approved Nobody's watching v3 (`output/larp/07_nobodys_watching_0019.mp4`, reviewed): Instagram trial reel only, Anton Roggo, 2026-10-30 17:40 ET, post 411699301, uuid -6811503055632644536, https://app.metricool.com/planner/calendar?blogId=6537632&openWithPostUuid=-6811503055632644536
