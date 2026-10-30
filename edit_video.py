@@ -56,6 +56,22 @@ def run(cmd, **kw):
     return subprocess.run(cmd, check=True, text=True, capture_output=True, **kw)
 
 
+_av_offsets = {}
+
+
+def av_offset(path):
+    """Seconds the audio track starts after the video in the file (iPhone .MOVs: often 0.3-0.7 s).
+    Everything we analyse (transcript, pauses) is in audio time, from the decoded audio; seeking video and
+    trimming audio are in file time, so add this to every time sent to ffmpeg, or every cut lands early."""
+    path = str(path)
+    if path not in _av_offsets:
+        info = json.loads(run(["ffprobe", "-v", "error", "-show_entries", "stream=codec_type,start_time",
+                               "-of", "json", path]).stdout)
+        start = {s["codec_type"]: float(s.get("start_time") or 0) for s in reversed(info["streams"])}
+        _av_offsets[path] = start.get("audio", 0.0) - start.get("video", 0.0) if "audio" in start else 0.0
+    return _av_offsets[path]
+
+
 def probe(path):
     """Output width, height and duration. Accounts for phone rotation; output is 1080p."""
     info = json.loads(run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries",
@@ -410,7 +426,7 @@ def face_box(src, t, width, height):
     import numpy as np
     if _face_model is None:
         _face_model = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
-    raw = subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-ss", f"{t:.2f}", "-i", str(src),
+    raw = subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-ss", f"{t + av_offset(src):.2f}", "-i", str(src),
                           "-frames:v", "1", "-vf", f"scale={width}:{height}", "-f", "rawvideo",
                           "-pix_fmt", "gray", "-"], capture_output=True).stdout
     if len(raw) != width * height:
@@ -761,6 +777,7 @@ def render(src, keep, ass_path, out, plan=(), size=None):
     captions are put together with the crossfaded audio."""
     import tempfile
     fps = source_fps(src)
+    off = av_offset(src)  # keep is in audio time; the file's audio may start after its video
     with tempfile.TemporaryDirectory(dir=out.parent) as tmp:
         tmp = Path(tmp)
         listing = []
@@ -769,14 +786,14 @@ def render(src, keep, ass_path, out, plan=(), size=None):
             if frames <= 0:
                 continue
             piece = tmp / f"seg{i:03d}.mp4"
-            run(["ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-ss", f"{vs:.4f}", "-i", str(src),
+            run(["ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-ss", f"{vs + off:.4f}", "-i", str(src),
                  "-frames:v", str(frames), "-an",
                  "-vf", f"scale={size[0]}:{size[1]},setsar=1,fps={fps:.6f}",
                  "-c:v", "libx264", "-preset", "veryfast", "-crf", "12", "-pix_fmt", "yuv420p", str(piece)])
             listing.append(f"file '{piece.name}'")
         (tmp / "list.txt").write_text("\n".join(listing) + "\n")
         alabels = "".join(
-            f"[1:a]atrim={a:.4f}:{b:.4f},asetpts=PTS-STARTPTS[a{i}];" for i, (a, b) in enumerate(keep))
+            f"[1:a]atrim={a + off:.4f}:{b + off:.4f},asetpts=PTS-STARTPTS[a{i}];" for i, (a, b) in enumerate(keep))
         ass = str(ass_path).replace("\\", "/").replace(":", r"\:")
         fonts = str(FONTS_DIR).replace(":", r"\:")
         total = sum(b - a for a, b in keep) - AUDIO_OVERLAP * (len(keep) - 1)
