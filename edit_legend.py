@@ -59,7 +59,8 @@ from pathlib import Path
 
 from boost_audio import boost
 from edit_video import (FILLERS, FONTS_DIR, ROOT, ass_time, build_keep, check_font,
-                        detect_silences, mark_mistakes, norm, remap, subtract, transcribe, PAD)
+                        detect_silences, load_audio, mark_mistakes, norm, remap, subtract,
+                        transcribe, PAD)
 
 # --- Reference style ---------------------------------------------------------
 W, H, FPS = 1080, 1920, 30
@@ -189,9 +190,20 @@ def silences_for(src):
 
 @functools.lru_cache(maxsize=None)
 def pauses_for(src):
-    """Every pause of PAUSE_MIN or more in a clip's audio."""
+    """Every pause of PAUSE_MIN or more in a clip's audio. The threshold rises
+    above PAUSE_DB with the clip's background noise; when the noise is nearly
+    as loud as you (wind, a busy street), there's no pause to trust and the
+    cuts go on word times instead."""
+    import numpy as np
+    x = load_audio(src)
+    x = x[: len(x) // 320 * 320].reshape(-1, 320)            # 20 ms blocks
+    level = 20 * np.log10(np.sqrt((x ** 2).mean(1)) + 1e-9)
+    floor, loud = np.percentile(level, [10, 95])
+    if loud - floor < 15:
+        return ()
+    noise = max(PAUSE_DB, round(float(floor) + 8))
     err = subprocess.run(["ffmpeg", "-hide_banner", "-i", str(src), "-vn", "-af",
-                          f"silencedetect=noise={PAUSE_DB}dB:d={PAUSE_MIN}",
+                          f"silencedetect=noise={noise}dB:d={PAUSE_MIN}",
                           "-f", "null", "-"], text=True, capture_output=True).stderr
     starts = [max(0.0, float(x)) for x in re.findall(r"silence_start: (-?[\d.]+)", err)]
     ends = [float(x) for x in re.findall(r"silence_end: ([\d.]+)", err)]
@@ -235,11 +247,25 @@ def build_sequence(plan, footage, model):
             b = min(float(item.get("out", dur)), dur)
             picked = "in" in item or "out" in item
             if picked:
-                a, b = snap(a, b, pauses_for(src))
+                pauses = pauses_for(src)
+                a, b = snap(a, b, pauses)
+                a_sure, b_sure = (any(x <= t <= y for x, y in pauses) for t in (a, b))
                 # transcribed on its own: on the whole clip, whisper can give
                 # one take's words the times of the retake next to it
-                every = words_for(src, model, round(max(0.0, a - 0.2), 2),
-                                  round(min(dur, b + 0.2), 2))
+                every = words_for(src, model, round(max(0.0, a - (0.2 if a_sure else 0.6)), 2),
+                                  round(min(dur, b + (0.2 if b_sure else 0.6)), 2))
+                raw = [w for w in every if w["end"] > a + 0.05 and w["start"] < b - 0.05]
+                # an in/out point that found no pause can sit inside a word:
+                # widen to the whole word, stopping short of the next one
+                if raw and not a_sure and raw[0]["start"] < a:
+                    before = [w["end"] for w in every if w["end"] <= raw[0]["start"]]
+                    a = max(raw[0]["start"] - LEAD, (before[-1] + 0.02) if before else 0.0)
+                if raw and not b_sure and raw[-1]["end"] > b:
+                    after = [w["start"] for w in every if w["start"] >= raw[-1]["end"]]
+                    b = min(raw[-1]["end"] + TAIL, (after[0] - 0.02) if after else dur)
+                # never replay the end of the line before from the same clip
+                if segments and segments[-1][0] == src and segments[-1][1] < a < segments[-1][2]:
+                    a = segments[-1][2]
             else:
                 every = words_for(src, model)
             raw = [w for w in every if w["end"] > a + 0.05 and w["start"] < b - 0.05]
