@@ -304,6 +304,9 @@ def main():
         words = [w for w in words if (w["start"] + w["end"]) / 2 <= a.end]
     span = lambda r: tuple(float(v) for v in r.split("-"))
     drop = ev.mark_mistakes(words)
+    forced = [span(r) for r in a.keep]
+    mid = lambda w: (w["start"] + w["end"]) / 2
+    drop = {i for i in drop if not any(x <= mid(words[i]) <= y for x, y in forced)}  # --keep brings the captions back too
     cuts_src = [span(r) for r in a.cut]
     for i, w in enumerate(words):
         if any(x <= (w["start"] + w["end"]) / 2 <= y for x, y in [span(r) for r in a.drop] + cuts_src):
@@ -311,7 +314,6 @@ def main():
     silences = ev.detect_silences(a.input, duration)
     keep, kept = ev.build_keep(words, drop, silences, duration)
     keep = ev.trim_to_speech(ev.cut_pauses(keep, ev.detect_pauses(a.input, MAX_PAUSE)), a.input)
-    forced = [span(r) for r in a.keep]
     if forced:
         merged = []
         for x, y in sorted(keep + forced):
