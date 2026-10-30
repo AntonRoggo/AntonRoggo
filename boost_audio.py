@@ -46,14 +46,15 @@ def measure(src):
     return json.loads(re.search(r"\{[^{}]*\"input_i\"[^{}]*\}", err).group(0))
 
 
-def audio_filter(m):
+def audio_filter(m, limit=None):
+    limit = LIMIT if limit is None else limit
     return (f"{PRE},loudnorm=I={TARGET_LUFS}:TP=0:LRA=20:"
             f"measured_I={m['input_i']}:measured_TP={m['input_tp']}:"
             f"measured_LRA={m['input_lra']}:measured_thresh={m['input_thresh']}:"
             f"offset={m['target_offset']}:linear=true,"
             # resample BEFORE limiting, so nothing after the limiter can create new peaks
             f"aresample=48000,"
-            f"alimiter=limit={LIMIT:.4f}:attack=5:release=50:level=false,"
+            f"alimiter=limit={limit:.4f}:attack=5:release=50:level=false,"
             # RNNoise (10 ms) + limiter (5 ms) delay the sound slightly: trim it back into sync
             f"atrim=start={PROCESS_DELAY},asetpts=PTS-STARTPTS")
 
@@ -64,12 +65,31 @@ def boost(src, out):
         ["ffprobe", "-v", "error", "-select_streams", "v", "-show_entries",
          "stream=index", "-of", "csv=p=0", str(src)],
         text=True, capture_output=True).stdout.strip() != ""
-    cmd = ["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-i", str(src),
-           "-af", audio_filter(m), "-c:a", "aac", "-b:a", "192k"]
-    if has_video:
-        cmd += ["-map", "0:v:0", "-map", "0:a:0", "-c:v", "copy", "-shortest", "-movflags", "+faststart"]
-    subprocess.run(cmd + [str(out)], check=True)
+    limit = LIMIT
+    for _ in range(4):
+        cmd = ["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-i", str(src),
+               "-af", audio_filter(m, limit), "-c:a", "aac", "-b:a", "192k"]
+        if has_video:
+            cmd += ["-map", "0:v:0", "-map", "0:a:0", "-c:v", "copy", "-shortest", "-movflags", "+faststart"]
+        subprocess.run(cmd + [str(out)], check=True)
+        # A sharp click (a tap on a clip-on mic) can come out of the AAC encoder well over full scale even
+        # though the limiter caught it: check the encoded file and go again with a lower ceiling if so.
+        peak = encoded_peak(out)
+        if peak <= 10 ** (TRUE_PEAK / 20):
+            break
+        limit *= 10 ** (TRUE_PEAK / 20) / peak
     return m
+
+
+def encoded_peak(path):
+    """Highest sample in any channel of the encoded audio (linear)."""
+    import numpy as np
+    ch = int(subprocess.run(["ffprobe", "-v", "error", "-select_streams", "a:0", "-show_entries", "stream=channels",
+                             "-of", "csv=p=0", str(path)], capture_output=True, text=True).stdout.strip() or 1)
+    raw = subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-i", str(path), "-vn", "-f", "f32le", "-"],
+                         capture_output=True).stdout
+    x = np.abs(np.frombuffer(raw, np.float32))
+    return float(x.max()) if len(x) else 0.0
 
 
 def main():

@@ -390,6 +390,23 @@ def phrase_break(w0, w1):
     return w0["text"].rstrip().endswith((",", ".", "?", "!", ";", ":")) or norm(w1["text"]) in CONNECTORS
 
 
+_audio = {}
+
+
+def quietest(path, a, b):
+    """The quietest 10 ms in source seconds a-b: the boundary between two words said with no gap. (The ear
+    test can't find it: the transcriber completes a clipped word, so it 'hears' a word that's cut short.)"""
+    import numpy as np
+    if path not in _audio:
+        _audio[path] = ev.load_audio(path)
+    x = _audio[path][int(max(0.0, a) * 16000):int(b * 16000)]
+    n = len(x) // 160
+    if n == 0:
+        return a
+    rms = np.sqrt((x[:n * 160].reshape(n, 160) ** 2).mean(1))
+    return max(0.0, a) + int(np.argmin(rms)) * 0.01 + 0.005
+
+
 def edge_end(path, w, nxt, runs, model_size, hint):
     """Where a shot ending on word w should stop: in the silence after it, or (when he talks straight on
     into a dropped word) the point where w, heard on its own, has just finished."""
@@ -397,13 +414,15 @@ def edge_end(path, w, nxt, runs, model_size, hint):
              if w["end"] - 0.2 <= e0 <= w["end"] + 0.6 and s1 - e0 >= 0.15]
     if after:
         return min(after[0][0] + END_PAD, after[0][1] - 0.02), True
-    want, t = norm(w["text"]), max(w["start"] + 0.1, w["end"] - 0.15)
+    # he talks straight on. By ear, find the first point where the word is heard whole; the transcriber
+    # completes a word clipped by up to ~0.2 s, so the true end is at the quietest point just after it.
+    want, t = norm(w["text"]), max(w["start"] + 0.1, w["end"] - 0.2)
     while t <= w["end"] + 0.6:
         got = heard(path, t - 3.0, t, model_size, hint)
         if got and same(got[-1], want):
-            return t + 0.06, True
+            return quietest(path, t, t + 0.3), False
         t += 0.03
-    return w["end"] + 0.05, False
+    return quietest(path, w["end"] - 0.1, w["end"] + 0.35), False
 
 
 def past_dropped(t, floor, runs):
@@ -421,18 +440,19 @@ def edge_start(path, w, floor, runs, model_size, hint):
     """Where a shot starting on word w should start: on the first sound of w (never the silence or breath
     before it, never the end of a dropped word), found in the audio or, if he talks straight in, by ear."""
     before = [s1 for (_, e0), (s1, _) in zip(runs, runs[1:])
-              if w["start"] - 0.6 <= s1 <= w["start"] + 0.25 and s1 - e0 >= 0.15 and s1 >= floor]
+              if w["start"] - 0.6 <= s1 <= w["start"] + 0.5 and s1 - e0 >= 0.15 and s1 >= floor]
     if before:
         return past_dropped(max(floor, before[0] - ONSET_PAD), floor, runs), True
+    # he talks straight in: by ear, the earliest point the word is heard first (in silence: where his voice starts)
     want, t = norm(w["text"]), max(floor, w["start"] - 0.6)
     while t <= w["start"] + 0.5:
         got = heard(path, t, t + 3.0, model_size, hint)
         if got and same(got[0], want):
-            if not any(a <= t < b for a, b in runs):  # t is in silence: start where his voice starts
+            if not any(a <= t < b for a, b in runs):
                 nxt = [a for a, b in runs if a > t and b - a >= 0.1]
                 if nxt and nxt[0] - t < 0.8:
                     t = max(t, nxt[0] - ONSET_PAD)
-            return past_dropped(t, floor, runs), True
+            return past_dropped(t, floor, runs), False
         t += 0.03
     return max(floor, w["start"] - 0.05), False
 
@@ -441,14 +461,17 @@ def word_keep(path, words, kept_idx, runs, duration, model_size, hint):
     """Shots built from the kept words. A cut goes where words were dropped (lines, restarts, fluff) and in
     every thinking pause at a phrase break; never inside a phrase. Returns [(start, end, [word indices])]."""
     shots, cur = [], [kept_idx[0]]
-    first_floor = words[kept_idx[0] - 1]["end"] if kept_idx[0] > 0 else 0.0  # never into dropped words
+    pw = words[kept_idx[0] - 1] if kept_idx[0] > 0 else None  # never into dropped words (ghosts excepted)
+    first_floor = 0.0 if pw is None else (pw["end"] if pw["end"] - pw["start"] >= 0.08 else pw["start"] - 0.3)
     start, ok = edge_start(path, words[kept_idx[0]], first_floor, runs, model_size, hint)
     bad = [] if ok else [kept_idx[0]]
     for i, j in zip(kept_idx, kept_idx[1:]):
         w0, w1 = words[i], words[j]
         if j != i + 1:  # words dropped in between
             end, ok0 = edge_end(path, w0, words[i + 1], runs, model_size, hint)
-            nstart, ok1 = edge_start(path, w1, words[j - 1]["end"], runs, model_size, hint)
+            prev = words[j - 1]  # a zero-length word (a transcriber ghost, often an "um") doesn't mark real sound
+            floor = prev["end"] if prev["end"] - prev["start"] >= 0.08 else prev["start"] - 0.3
+            nstart, ok1 = edge_start(path, w1, floor, runs, model_size, hint)
             nstart = max(nstart, end + 0.02)
         else:
             g = gap_between(runs, w0, w1)
@@ -466,13 +489,14 @@ def word_keep(path, words, kept_idx, runs, duration, model_size, hint):
     while k < len(shots) - 1:
         a, b = shots[k], shots[k + 1]
         follows = b[2][0] == a[2][-1] + 1
-        if follows and (b[0] - a[1] < MIN_REMOVED or min(a[1] - a[0], b[1] - b[0]) < MIN_SHOT):
+        if b[0] - a[1] < MIN_REMOVED or (follows and min(a[1] - a[0], b[1] - b[0]) < MIN_SHOT):
             shots[k] = [a[0], b[1], a[2] + b[2]]
             del shots[k + 1]
         else:
             k += 1
     for i in bad:
-        print(f"WARNING: no clean edge at '{words[i]['text']}' ({words[i]['start']:.2f}s); check by ear")
+        print(f"WARNING: no gap at '{words[i]['text']}' ({words[i]['start']:.2f}s): he runs the words together, so the "
+              f"cut sits at the quietest point; listen to it, or keep the words / drop the whole line instead")
     return shots
 
 
