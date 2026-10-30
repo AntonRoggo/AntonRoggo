@@ -90,3 +90,5 @@ Instagram, TikTok and Facebook went out with the earlier caption ("My favorite c
 | Old people were right 2 (08, 0020) | 11:05 | 411270566 | 411270661 | 411270987 | 411271100 |
 | Nobody's watching (07, 0019) | 11:25 | 411277124 | 411277474 | 411282649 | 411286667 |
 | The trade (14, 0022) | 11:45 | 411286923 | 411287050 | 411287263 | 411287414 |
+
+**2026-10-30:** Holidays are a habit and Nobody's watching went live (10:05 and 11:25) on Anton's "post everything" without him having reviewed them. Anton: never post anything he hasn't looked at and named explicitly. Rule added to CLAUDE.md and the publish-metricool skill; `confirm_before_scheduling` is now true (show the plan table and wait for a yes).

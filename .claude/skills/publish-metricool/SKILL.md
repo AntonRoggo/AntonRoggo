@@ -7,6 +7,8 @@ description: Schedule an approved edited video on every connected social platfor
 
 Only run this for a video the user has explicitly approved in this conversation (e.g. "approve clip_edited.mp4", "this one's good, post it"). Approval of one video never covers another. If it's unclear which file they mean, ask.
 
+**Anton must have seen the final version of every video and named it before it is posted** (rule set 2026-10-30, after two LARP videos he never reviewed went live on a blanket "post everything"). A blanket request ("post everything", "post the rest", "post them all") never covers a video he hasn't watched and given his OK on in its final form. When the request is blanket, list the videos by name, mark any he hasn't reviewed (or that changed since he last saw them), and wait for him to name the ones to post. Post nothing from the list until he does.
+
 ## Requirements
 
 - The Metricool connector must be connected. Its tools are `mcp__Metricool_Social_Media_Management__*`: `getBrandSettings`, `getBestTimeToPostByNetwork`, `getScheduledPosts`, `createScheduledPost`, `createScheduledPostForReview`, `updateScheduledPost`. Load them with ToolSearch. If they're missing, stop and tell the user to connect Metricool at https://claude.ai/customize/connectors and start a new session. Never fake a scheduled post.

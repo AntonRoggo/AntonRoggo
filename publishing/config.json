@@ -23,7 +23,7 @@
     "made_for_kids": false
   },
   "media_hosting": "Dropbox: create a shared link for the finished video and pass it in media (Metricool uploads Dropbox links automatically)",
-  "confirm_before_scheduling": false,
+  "confirm_before_scheduling": true,
   "draft": false,
   "reviewers": [],
   "cover_frame_ms": null,
