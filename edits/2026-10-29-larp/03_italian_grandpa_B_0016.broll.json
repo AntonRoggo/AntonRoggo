@@ -12,15 +12,15 @@
   "clip_in": 3.0
  },
  {
-  "file": "input/larp/broll/market_tents_talk.mov",
+  "file": "input/larp/v3/br_market_aisle2.mov",
   "start_at": "shopping",
   "end_at": "an evening",
-  "clip_in": 1.5
+  "clip_in": 0.5
  },
  {
-  "file": "input/larp/broll/hands_behind_back_lane.mov",
+  "file": "input/larp/v3/uk_pebble_beach.mov",
   "start_at": "an evening",
   "end_at": "and then",
-  "clip_in": 0.0
+  "clip_in": 11.0
  }
 ]
