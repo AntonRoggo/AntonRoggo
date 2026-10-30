@@ -190,15 +190,12 @@ def hook_png(text, width, height, path, face):
     im = Image.new("RGBA", (width, height), (0, 0, 0, 0))
     d = ImageDraw.Draw(im)
     max_w, pad = int(900 * k), int(22 * k)
-    lines, line = [], ""
-    for word in text.split():
-        test = (line + " " + word).strip()
-        if d.textlength(test, font=font) <= max_w - 2 * pad or not line:
-            line = test
-        else:
-            lines.append(line)
-            line = word
-    lines.append(line)
+    words = text.split()
+    lines = [text]
+    if d.textlength(text, font=font) > max_w - 2 * pad:  # two balanced lines, never "64 / year old's"
+        best = min(range(1, len(words)), key=lambda i: max(d.textlength(" ".join(words[:i]), font=font),
+                                                            d.textlength(" ".join(words[i:]), font=font)))
+        lines = [" ".join(words[:best]), " ".join(words[best:])]
     lh = int(64 * k * 1.25)
     box_w = int(max(d.textlength(ln, font=font) for ln in lines)) + 2 * pad
     box_h = lh * len(lines) + 2 * pad - int(10 * k)

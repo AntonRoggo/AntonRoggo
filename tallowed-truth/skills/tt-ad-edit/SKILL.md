@@ -22,7 +22,8 @@ your first edit.
 ## How to run an edit (creator footage in, edit out)
 
 The editor is `tallowed-truth/tools/tt_edit.py` (it uses `edit_video.py` at the repo root for the cutting
-engine). Needs ffmpeg and `pip install faster-whisper`.
+engine). Needs ffmpeg and `pip install faster-whisper "opencv-python-headless<5"` (OpenCV 5 dropped the face
+detector that places the hook).
 
 1. **Get the footage.** Creators upload to the TTT BRAIN Drive folder `01 Creator Footage (upload here)`, one
    folder per creator per brief. Download the talking take(s) into `input/`. If the script was filmed in
