@@ -275,6 +275,119 @@ def overlay_pass(rough, out, popups, banner, width, height, fps, tmp):
     return out
 
 
+def transcribe_chunked(path, model_size, hint, chunk=20.0):
+    """Word timestamps that hold up: one pass over a whole long take drifts (up to 0.6 s on Pat's 2.5-min
+    take, enough to put a cut inside a word), so transcribe ~20 s chunks split at pauses and offset them."""
+    from faster_whisper import WhisperModel
+    audio = ev.load_audio(path)
+    sr = 16000
+    talking, step = ev.speech_mask(path)
+    bounds, t = [0.0], 0.0
+    total = len(audio) / sr
+    while total - t > chunk * 1.5:
+        lo, hi = int((t + chunk * 0.75) / step), int(min(total, t + chunk * 1.25) / step)
+        quiet = [i for i in range(lo, hi - 10) if not any(talking[i:i + 10])]  # 0.2 s of silence
+        t = (quiet[len(quiet) // 2] + 5) * step if quiet else t + chunk
+        bounds.append(t)
+    bounds.append(total)
+    model = WhisperModel(model_size, device="auto", compute_type="int8")
+    words = []
+    for a, b in zip(bounds, bounds[1:]):
+        segs, _ = model.transcribe(audio[int(a * sr):int(b * sr)], word_timestamps=True, vad_filter=False,
+                                   initial_prompt=("Um, uh, so, like, I mean... " + hint).strip())
+        words += [{"text": w.word.strip(), "start": round(w.start + a, 3), "end": round(w.end + a, 3)}
+                  for seg in segs for w in seg.words]
+    return words
+
+
+_local_model = None
+
+
+def local_words(path, a, b, model_size, hint):
+    """Words in source seconds a-b from a transcription of just that window. Word times from a long pass
+    can be 0.5 s off; inside a few seconds they're exact, which is what a cut needs."""
+    global _local_model
+    from faster_whisper import WhisperModel
+    if _local_model is None:
+        _local_model = WhisperModel(model_size, device="auto", compute_type="int8")
+    audio = ev.load_audio(path)[int(max(0.0, a) * 16000):int(b * 16000)]
+    segs, _ = _local_model.transcribe(audio, word_timestamps=True, vad_filter=False, initial_prompt=hint)
+    return [{"text": w.word.strip(), "start": w.start + max(0.0, a), "end": w.end + max(0.0, a)}
+            for seg in segs for w in seg.words]
+
+
+def heard(path, a, b, model_size, hint):
+    """Words heard in source seconds a-b alone (normalised)."""
+    return [norm(w["text"]) for w in local_words(path, a, b, model_size, hint) if norm(w["text"])]
+
+
+def same(x, y):
+    return bool(x) and bool(y) and (x == y or (min(len(x), len(y)) >= 3 and (x.startswith(y) or y.startswith(x))))
+
+
+def place_edges(path, keep, words, sents, dropped, runs, model_size, hint):
+    """Where a dropped sentence sits next to a kept one, find the exact edge by ear: step through in 30 ms
+    and keep the first point where the shot, heard on its own, ends on its last word whole (or starts on its
+    first word, with nothing of the dropped line before it). Needed where he talks straight through from one
+    sentence into the next, and the transcript's times are 0.1-0.5 s off."""
+    kept_sents = [n for n in range(len(sents)) if n not in dropped]
+    out = [list(k) for k in keep]
+    for k in range(len(out) - 1):
+        b0, a1 = out[k][1], out[k + 1][0]
+        last = max(n for n in kept_sents if words[sents[n][0]]["start"] < b0)
+        first = min((n for n in kept_sents if words[sents[n][-1]]["end"] > a1), default=last)
+        if last + 1 in dropped:
+            want, ws, we = norm(words[sents[last][-1]]["text"]), words[sents[last][-1]]["start"], words[sents[last][-1]]["end"]
+            after = [(e0, s1) for (_, e0), (s1, _) in zip(runs, runs[1:]) if we - 0.2 <= e0 <= we + 0.6 and s1 - e0 >= 0.15]
+            if after:  # a real silence follows: end in it (the ear test can't hear where a drawn-out word ends)
+                out[k][1] = min(after[0][0] + END_PAD, after[0][1] - 0.02)
+            t = max(ws + 0.1, we - 0.15) if not after else we + 1.0
+            while t <= we + 0.6:
+                got = heard(path, t - 3.0, t, model_size, hint)
+                if got and same(got[-1], want) and not (len(got) > 1 and same(got[-2], want) and got[-1] != want):
+                    out[k][1] = t + 0.06
+                    break
+                t += 0.03
+            else:
+                if not after:
+                    print(f"WARNING: sentence {last} runs straight into the dropped one; no clean end found")
+        if first - 1 in dropped:
+            want, ws = norm(words[sents[first][0]]["text"]), words[sents[first][0]]["start"]
+            t = max(out[k][1] + 0.02, ws - 0.3)
+            while t <= ws + 0.5:
+                got = heard(path, t, t + 3.0, model_size, hint)
+                if got and same(got[0], want):
+                    nxt = [r[0] for r in runs if r[0] >= t and r[1] - r[0] >= 0.1]  # skip silence before the word
+                    out[k + 1][0] = max(t, nxt[0] - ONSET_PAD) if nxt and nxt[0] - t < 0.8 else t
+                    break
+                t += 0.03
+            else:
+                print(f"WARNING: no clean start for sentence {first} (he runs into it from the dropped line); "
+                      f"drop it or keep the line before it")
+    return [(a, b) for a, b in out]
+
+
+def check_cuts(path, keep, words, sents, dropped, model_size, hint):
+    """Test every cut by ear, the way an editor would: play the shot up to its end on its own and hear its
+    last words; play the next shot from its start and hear its first words. Prints both so a clipped word
+    or the tail of a dropped line shows up before rendering (transcript times can be 0.5 s off)."""
+    kept_sents = [n for n in range(len(sents)) if n not in dropped]
+    bad = 0
+    print("Cut check (heard alone: end of the shot || start of the next):")
+    for (a0, b0), (a1, b1) in zip(keep, keep[1:]):
+        last = max(n for n in kept_sents if words[sents[n][0]]["start"] < b0)
+        first = min((n for n in kept_sents if words[sents[n][-1]]["end"] > a1), default=last)
+        end = heard(path, b0 - 3.0, b0, model_size, hint)
+        start = heard(path, a1, a1 + 3.0, model_size, hint)
+        ok = (end and same(end[-1], norm(words[sents[last][-1]]["text"]))
+              and start and same(start[0], norm(words[sents[first][0]]["text"])))
+        bad += not ok
+        print(f"  {'ok ' if ok else 'BAD'} {b0:7.2f} -> {a1:7.2f} | ...{' '.join(end[-4:])} || {' '.join(start[:4])}...")
+    if bad:
+        print(f"WARNING: {bad} cut(s) don't sound clean; fix them before rendering")
+    return bad
+
+
 def sentences(words):
     """Split the transcript into sentences: lists of word indices, ending at . ? ! or a trailing "..."."""
     out, cur = [], []
@@ -335,10 +448,18 @@ def sentence_keep(words, sents, dropped, runs, duration):
         spans.append((n, a, b))
     segs = []  # [first sentence, last sentence, start, end]
     for n, a, b in spans:
-        if segs and n == segs[-1][1] + 1 and a - segs[-1][3] <= MAX_GAP - END_PAD - ONSET_PAD:
-            segs[-1][1], segs[-1][3] = n, max(segs[-1][3], b)  # next sentence, short pause: no cut
-        else:
-            segs.append([n, n, a, b])
+        if segs and n == segs[-1][1] + 1:
+            # two kept sentences in a row: cut only if the audio has a real silence over MAX_GAP between them
+            lo, hi = words[sents[n - 1][-1]]["end"] - 0.3, words[sents[n][0]]["start"] + 0.5
+            gaps = [(e0, s1) for (_, e0), (s1, _) in zip(runs, runs[1:]) if e0 >= lo and s1 <= hi and s1 > e0]
+            g = max(gaps, key=lambda x: x[1] - x[0], default=None)
+            if g is None or g[1] - g[0] <= MAX_GAP:
+                segs[-1][1], segs[-1][3] = n, max(segs[-1][3], b)  # no real pause: no cut
+                continue
+            segs[-1][3] = min(g[0] + END_PAD, (g[0] + g[1]) / 2)  # cut inside the silence itself
+            segs.append([n, n, max(g[1] - ONSET_PAD, (g[0] + g[1]) / 2), b])
+            continue
+        segs.append([n, n, a, b])
     merged = True
     while merged:  # no pointless jolts, no slivers: join neighbours that follow on in the source
         merged = False
@@ -392,7 +513,7 @@ def main():
         words = json.loads(cache.read_text())
     else:
         print("Transcribing...")
-        words = ev.transcribe(a.input, a.model, a.hint)
+        words = transcribe_chunked(a.input, a.model, a.hint)
         cache.write_text(json.dumps(words))
     for f in a.fix:
         words = ev.fix_words(words, f)
@@ -413,6 +534,7 @@ def main():
     out.with_suffix(".sentences.txt").write_text("\n".join(plan) + "\n")
 
     keep = sentence_keep(words, sents, dropped, runs, duration)
+    keep = place_edges(a.input, keep, words, sents, dropped, runs, a.model, a.hint)
     kept = [words[i] for n, idx in enumerate(sents) if n not in dropped for i in idx]
     kept_cap = onset_timed(kept, runs)  # captions go up when he starts the word, not when the model places it
 
@@ -442,6 +564,7 @@ def main():
         before = [w["text"] for w in kept if w["end"] <= b0 + 0.05][-4:]
         after = [w["text"] for w in kept if w["start"] >= a1 - 0.05][:4]
         print(f"  {b0:7.2f} -> {a1:7.2f} ({a1 - b0:.2f}s out) | ...{' '.join(before)} | {' '.join(after)}...")
+    check_cuts(a.input, keep, words, sents, dropped, a.model, a.hint)
     if a.plan_only:
         print(f"Transcript on the edited timeline: {out.with_suffix('.timeline.json')}")
         return
