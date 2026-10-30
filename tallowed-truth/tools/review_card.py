@@ -4,11 +4,14 @@
   python3 tallowed-truth/tools/review_card.py r-b072bac3 [r-... ...] [--name] [--max-chars 420] [--out output/cards]
   python3 tallowed-truth/tools/review_card.py "r-07671545@And here’s the best part"   # start at that sentence
   python3 tallowed-truth/tools/review_card.py --comment "text" --out x.png             # a Facebook comment
+  python3 tallowed-truth/tools/review_card.py "r-959aa813@She said she" --max-chars 120 \
+      --highlight "has never seen skin like mine"                                     # just the main point, highlighted
 
 --name adds "Sandi M." under the text. Long reviews are cut at the last full
 sentence under --max-chars and end with "..."; never edit the words themselves.
 "id@words" starts the card at the sentence holding those words (shown as "... " first), for when the
-payoff sits in the middle of a long review.
+payoff sits in the middle of a long review. On screen, show only the main point (a sentence or two, the
+--max-chars cut) and mark it with --highlight, like a highlighter pen; the details aren't read in 2-3 s.
 Writes <out>/<id>.png (transparent outside a rounded white card, 1080 px wide for 9:16 video).
 """
 import argparse, csv, math, os, re
@@ -17,6 +20,7 @@ from PIL import Image, ImageDraw, ImageFont
 csv.field_size_limit(10**9)
 HERE = os.path.dirname(__file__)
 TEAL, TEXT, GREY = (60, 130, 116), (51, 51, 51), (120, 120, 120)
+MARKER = (255, 226, 77)  # highlighter yellow behind the main point
 FONT = "/usr/share/fonts/opentype/inter/Inter-Regular.otf"
 FONT_BOLD = "/usr/share/fonts/opentype/inter/Inter-SemiBold.otf"
 W, PAD, SIZE, LEAD = 1000, 48, 38, 1.5
@@ -59,11 +63,23 @@ def excerpt(text, words):
     start = max(text.rfind(". ", 0, i), text.rfind("! ", 0, i), text.rfind("? ", 0, i))
     return "... " + text[start + 2 if start >= 0 else 0:]
 
-def card(review, show_name, limit, start=None):
+def marked(lines, phrase):
+    """Per line, the indices of the words inside `phrase` (matched word for word, punctuation ignored)."""
+    key = lambda w: re.sub(r"[^\w']", "", w.lower().replace("’", "'"))
+    words = [(li, wi, key(w)) for li, ln in enumerate(lines) for wi, w in enumerate(ln.split(" "))]
+    want = [key(w) for w in phrase.split() if key(w)]
+    toks = [k for _, _, k in words]
+    for i in range(len(toks) - len(want) + 1):
+        if toks[i:i + len(want)] == want:
+            return {(li, wi) for li, wi, _ in words[i:i + len(want)]}
+    raise SystemExit(f"highlight not in the card text: {phrase}")
+
+def card(review, show_name, limit, start=None, highlight=None):
     font, bold = ImageFont.truetype(FONT, SIZE), ImageFont.truetype(FONT_BOLD, SIZE - 6)
     probe = ImageDraw.Draw(Image.new("RGB", (1, 1)))
     body = excerpt(review["body"], start) if start else review["body"]
     lines = wrap(probe, trim(body, limit), font, W - 2 * PAD)
+    hi = marked(lines, highlight) if highlight else set()
     lh = int(SIZE * LEAD)
     h = PAD + 44 + 30 + lh * len(lines) + (lh + 10 if show_name else 0) + PAD - 10
     im = Image.new("RGBA", (W, h), (0, 0, 0, 0))
@@ -72,7 +88,15 @@ def card(review, show_name, limit, start=None):
     for i in range(int(review["rating"] or 5)):
         star(d, PAD + 22 + i * 52, PAD + 22, 24, TEAL)
     y = PAD + 44 + 30
-    for ln in lines:
+    space = d.textlength(" ", font=font)
+    for li, ln in enumerate(lines):
+        x = PAD
+        for wi, w in enumerate(ln.split(" ")):
+            wl = d.textlength(w, font=font)
+            if (li, wi) in hi:  # marker under the word, and under the space if the next word is marked too
+                ext = space if (li, wi + 1) in hi else 0
+                d.rectangle((x - 4, y - 2, x + wl + ext + 4, y + SIZE + 8), fill=MARKER)
+            x += wl + space
         d.text((PAD, y), ln, font=font, fill=TEXT)
         y += lh
     if show_name:
@@ -102,6 +126,7 @@ def main():
     ap.add_argument("--comment", help="render this Facebook comment instead of a review (--out is the .png path)")
     ap.add_argument("--name", action="store_true")
     ap.add_argument("--max-chars", type=int, default=420)
+    ap.add_argument("--highlight", help="words of the main point to mark in yellow")
     ap.add_argument("--out", default="output/cards")
     a = ap.parse_args()
     if a.comment:
@@ -114,7 +139,7 @@ def main():
     for r in csv.DictReader(open(os.path.join(HERE, "..", "reviews", "reviews.csv"), encoding="utf-8")):
         if r["id"] in want:
             path = os.path.join(a.out, r["id"] + ".png")
-            card(r, a.name, a.max_chars, starts[r["id"]]).save(path)
+            card(r, a.name, a.max_chars, starts[r["id"]], a.highlight).save(path)
             print(path)
             want.discard(r["id"])
     for missing in want:

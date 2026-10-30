@@ -2,26 +2,32 @@
 """Edit a creator's raw talking-head footage into a TTT ad, in the style of skill tt-ad-edit
 (the founder confession breakdown).
 
-  python3 tallowed-truth/tools/tt_edit.py raw.mp4 --plan-only            # 1. cuts + transcript
-  python3 tallowed-truth/tools/tt_edit.py raw.mp4 --headline "OFFICIAL STATEMENT|from The Tallowed Truth Founder" \\
+  python3 tallowed-truth/tools/tt_edit.py raw.mp4 --plan-only            # 1. numbered sentence list
+  python3 tallowed-truth/tools/tt_edit.py raw.mp4 --drop-sentence 1,4,9 --hook "Esthetician shocked by 64 year old's skin:" \\
       --popups popups.json                                               # 2. render
 
 What it does (rules in tallowed-truth/skills/tt-ad-edit/SKILL.md):
-  * cuts fumbles, restarts, fillers and pauses (pauses left at ~0.2 s), J-cuts at every cut
-    (the engine is edit_video.py at the repo root)
+  * the sentence is the unit: the plan lists every sentence with a number; you choose which to drop
+    (false starts, outtakes, wrong facts). Kept sentences are never cut into. A cut only happens where a
+    sentence was dropped or between two sentences with more than 0.7 s of silence. No cut removes less
+    than 0.3 s, no shot is shorter than 1.5 s, and a shot starts on the first word, not the breath
+    before it (onsets are measured from the audio). J-cuts at every cut (the engine is edit_video.py)
   * captions: Proxima Nova Semibold 70 px, white, 4 px black outline + soft shadow, lowercase,
-    apostrophes kept, 2 words, fixed at 68% of the height, hidden while a pop-up is up
-  * headline banner: white box, black text ("LINE 1|line 2"), from frame 1 until the first
-    pop-up (or 3 s)
+    apostrophes kept, 3-4 words, a new caption at each sentence or pause, timed to the measured
+    start of speech, fixed at 68% of the height, hidden while a pop-up is up
+  * text-on-screen hook (rules/tos-hook-rules.md): one short line in a white box above his head,
+    from frame 1 for HOOK_SECONDS; no pop-up starts before it ends
   * pop-ups centred on the caption zone, 0.3 s fade in, starting/ending on cuts where one is close
   * audio: RNNoise, -12 LUFS, -1 dBTP (boost_audio.py), no music
 
 popups.json, times found from the words said (see <out>.timeline.json after --plan-only):
   [{"say": "gives people glowing", "until": "feeling skin", "files": ["cust1.jpg", "cust2.jpg"]},
    {"say": "in the comments", "until": "good stuff", "file": "reviews_scroll.mp4"},
-   {"say": "plastic surgeon", "review": "r-b072bac3"}]
+   {"say": "sent us this message", "review": "r-959aa813", "from": "She said she", "max_chars": 120,
+    "highlight": "has never seen skin like mine"}]
   "files" = two images side by side, "file" = one image or video on a white panel, "review" = a
-  review card rendered from reviews/reviews.csv. Use "start"/"end" (edited-timeline seconds)
+  review card rendered from reviews/reviews.csv: show only the main point ("from" = the sentence it
+  starts at, "max_chars" to stop after it) with "highlight" on the key words. Use "start"/"end" (edited-timeline seconds)
   instead of "say"/"until" to place one by time. Optional "width" (fraction of the frame).
 
 Fonts: put Proxima Nova Semibold / Bold / Extrabold (.otf/.ttf) in fonts/ at the repo root;
@@ -41,9 +47,15 @@ sys.path.insert(0, str(HERE))
 import edit_video as ev  # noqa: E402
 
 # --- TTT house style (from the founder confession, FBA1400B) -----------------------------------
-MAX_PAUSE = 0.3        # pauses longer than this are cut...
-PAD_IN, PAD_OUT = 0.12, 0.2   # ...leaving about 0.2 s, so it never sounds rushed or robotic
-WORDS = 2              # words per caption
+MAX_GAP = 0.7          # silence between two kept sentences longer than this is cut; pauses inside a sentence always stay
+MIN_REMOVED = 0.3      # a cut must remove at least this much, or it's just a jolt
+MIN_SHOT = 1.5         # no shot shorter than this
+ONSET_PAD = 0.04       # a shot starts this long before the first word's sound (not on the breath before it)
+END_PAD = 0.2          # ...and ends this long after the last word's sound
+WORDS = 4              # up to 4 words per caption (3-4)
+HOOK_SECONDS = 4.0     # the text-on-screen hook stays up this long
+MIN_CAPTION = 0.4      # no caption flashes by faster than this
+CAPTION_LEAD = 0.05    # a caption goes up this long before the word's sound starts
 CAPTION_Y = 0.668      # caption centre, fraction of the height (baseline lands at ~68%)
 FONT_SIZE = 70         # at 1080 wide
 OUTLINE, SHADOW = 4, 3
@@ -52,7 +64,6 @@ POPUP_Y = 0.64         # pop-up centre, fraction of the height (the caption zone
 FADE_IN = 0.3
 SNAP_START = 0.6       # a pop-up starts on a cut if one is this close
 SNAP_END = 1.5         # ...and runs on to the next cut if it's this close after its end
-BANNER_MAX = 3.0       # banner stays until the first pop-up, at most this long if there's none
 # -------------------------------------------------------------------------------------------------
 
 SYS_FONTS = Path("/usr/share/fonts/opentype/inter")
@@ -145,7 +156,7 @@ def write_captions(timed, popups, width, height, path, font):
         start = ch[0][0]
         nxt = chunks[k + 1][0][0] if k + 1 < len(chunks) else None
         end = nxt if nxt is not None and nxt - ch[-1][1] < 0.6 else ch[-1][1] + 0.3
-        events.append([start, max(end, start + ev.MIN_CAPTION), text])
+        events.append([start, max(end, start + MIN_CAPTION), text])
     shown = []
     for s, e, text in events:  # no captions while a pop-up is on screen
         for p in popups:
@@ -160,8 +171,8 @@ def write_captions(timed, popups, width, height, path, font):
     for i in range(len(shown) - 1):  # never two captions at once (libass would stack them)
         cur, nxt = shown[i], shown[i + 1]
         cur[1] = min(cur[1], nxt[0])
-        if cur[1] - cur[0] < 0.25 and nxt[0] - cur[1] < 0.05 and nxt[1] - (cur[0] + 0.25) >= 0.25:
-            cur[1] = nxt[0] = cur[0] + 0.25  # no flashes: borrow a moment from the next caption
+        if cur[1] - cur[0] < MIN_CAPTION and nxt[0] - cur[1] < 0.05 and nxt[1] - (cur[0] + MIN_CAPTION) >= MIN_CAPTION:
+            cur[1] = nxt[0] = cur[0] + MIN_CAPTION  # no flashes: borrow a moment from the next caption
     y = round(height * CAPTION_Y)
     for s, e, text in shown:
         lines.append(f"Dialogue: 0,{ev.ass_time(s)},{ev.ass_time(e)},TT,,0,0,0,,{{\\an5\\pos({width // 2},{y})}}{text}")
@@ -169,37 +180,34 @@ def write_captions(timed, popups, width, height, path, font):
     return len(shown)
 
 
-def banner_png(text, width, height, path):
-    """White box, black text: 'LINE ONE|line two'. Measured from the founder ad: 77% wide, top at 57.7%."""
+def hook_png(text, width, height, path, face):
+    """Text-on-screen hook: one short line (two if it must wrap) in black Proxima Nova Semibold on a white
+    rounded box, centred above his head (`face` = (x, y, w, h) in output pixels, or None)."""
     from PIL import Image, ImageDraw, ImageFont
-    top, bottom = (text.split("|", 1) + [""])[:2]
     k = width / 1080
-    f1, _ = font_file(["extrabold", "black", "heavy"])
-    f2, _ = font_file(["bold"])
-    box_w, pad = int(831 * k), int(14 * k)
+    f, _ = font_file(["semibold"])
+    font = ImageFont.truetype(str(f), int(64 * k))
     im = Image.new("RGBA", (width, height), (0, 0, 0, 0))
     d = ImageDraw.Draw(im)
-
-    def fit(fontfile, size, txt):
-        while size > 20:
-            font = ImageFont.truetype(str(fontfile), size)
-            if d.textlength(txt, font=font) <= box_w - 2 * pad:
-                return font
-            size -= 2
-        return ImageFont.truetype(str(fontfile), size)
-
-    t1 = fit(f1, int(70 * k), top.strip())
-    t2 = fit(f2, int(50 * k), bottom.strip()) if bottom.strip() else None
-    h1 = t1.getbbox(top.strip())[3]
-    h2 = t2.getbbox(bottom.strip())[3] if t2 else 0
-    gap = int(8 * k) if t2 else 0
-    box_h = pad + h1 + gap + h2 + pad
-    y0 = int(height * 0.577)
+    max_w, pad = int(900 * k), int(22 * k)
+    lines, line = [], ""
+    for word in text.split():
+        test = (line + " " + word).strip()
+        if d.textlength(test, font=font) <= max_w - 2 * pad or not line:
+            line = test
+        else:
+            lines.append(line)
+            line = word
+    lines.append(line)
+    lh = int(64 * k * 1.25)
+    box_w = int(max(d.textlength(ln, font=font) for ln in lines)) + 2 * pad
+    box_h = lh * len(lines) + 2 * pad - int(10 * k)
+    head_top = face[1] - int(face[3] * 0.35) if face is not None else int(height * 0.30)  # hair sits above the face box
+    y0 = max(int(height * 0.06), head_top - box_h - int(20 * k))
     x0 = (width - box_w) // 2
-    d.rectangle((x0, y0, x0 + box_w, y0 + box_h), fill="white")
-    d.text((width // 2, y0 + pad), top.strip(), font=t1, fill="black", anchor="mt")
-    if t2:
-        d.text((width // 2, y0 + pad + h1 + gap), bottom.strip(), font=t2, fill="black", anchor="mt")
+    d.rounded_rectangle((x0, y0, x0 + box_w, y0 + box_h), radius=int(18 * k), fill="white")
+    for i, ln in enumerate(lines):
+        d.text((width // 2, y0 + pad + i * lh), ln, font=font, fill="black", anchor="mt")
     im.save(path)
 
 
@@ -214,7 +222,8 @@ def popup_asset(p, width, tmp, idx):
         if p["review"] not in rows:
             raise SystemExit(f"review {p['review']} not in reviews.csv")
         png = tmp / f"pop{idx}.png"
-        review_card.card(rows[p["review"]], p.get("name", True), p.get("max_chars", 420)).save(png)
+        review_card.card(rows[p["review"]], p.get("name", True), p.get("max_chars", 420), p.get("from"),
+                         p.get("highlight")).save(png)
         return ["-loop", "1", "-i", str(png)], f"scale={int(width * p.get('width', 0.85))}:-1", False
     if "files" in p:  # two pictures side by side, thin dark border
         w_each = int(width * p.get("width", 0.36))
@@ -269,6 +278,99 @@ def overlay_pass(rough, out, popups, banner, width, height, fps, tmp):
     return out
 
 
+def sentences(words):
+    """Split the transcript into sentences: lists of word indices, ending at . ? ! or a trailing "..."."""
+    out, cur = [], []
+    for i, w in enumerate(words):
+        cur.append(i)
+        if w["text"].rstrip().endswith((".", "?", "!")):
+            out.append(cur)
+            cur = []
+    if cur:
+        out.append(cur)
+    return out
+
+
+def speech_runs(path):
+    """(start, end) of each stretch of sound at speaking level, short gaps (<= 40 ms) closed."""
+    talking, step = ev.speech_mask(path)
+    runs, start, gap = [], None, 0
+    for i, t in enumerate(list(talking) + [False] * 3):
+        if t:
+            if start is None:
+                start = i
+            gap = 0
+        elif start is not None:
+            gap += 1
+            if gap > 2:
+                runs.append((start * step, (i - gap + 1) * step))
+                start, gap = None, 0
+    return runs
+
+
+def word_onset(w, runs, floor=0.0):
+    """When the word's sound really starts. The speech model's start runs ~0.2 s late, and a breath
+    before a word is its own short run of sound: take the first run of at least 0.1 s that reaches the
+    word, so the shot never opens on the inhale."""
+    ws = w["start"]
+    hits = [a for a, b in runs if b - a >= 0.1 and b >= ws - 0.05 and a <= ws + 0.25 and a >= ws - 0.6]
+    return max(floor, min(hits) if hits else ws - 0.05)  # never reach back into the word before
+
+
+def word_offset(w, runs, ceiling=1e9):
+    """When the word's sound really ends (the model stretches words over the silence after them)."""
+    we = w["end"]
+    hits = [b for a, b in runs if b - a >= 0.1 and a <= we + 0.05 and b >= we - 0.3 and b <= we + 0.6]
+    return min(ceiling, max(hits) if hits else we)  # never run into the next word
+
+
+def sentence_keep(words, sents, dropped, runs, duration):
+    """Kept source ranges built from whole sentences (see the rules at the top of the file)."""
+    spans = []  # (sentence number, start, end) of each kept sentence
+    for n, idx in enumerate(sents):
+        if n in dropped:
+            continue
+        prev_end = words[idx[0] - 1]["end"] if idx[0] > 0 else 0.0
+        next_start = words[idx[-1] + 1]["start"] if idx[-1] + 1 < len(words) else duration
+        a = max(prev_end if n - 1 in dropped else 0.0, word_onset(words[idx[0]], runs, prev_end) - ONSET_PAD)
+        b = min(duration, next_start if n + 1 in dropped else duration,
+                word_offset(words[idx[-1]], runs, next_start) + END_PAD)
+        spans.append((n, a, b))
+    segs = []  # [first sentence, last sentence, start, end]
+    for n, a, b in spans:
+        if segs and n == segs[-1][1] + 1 and a - segs[-1][3] <= MAX_GAP - END_PAD - ONSET_PAD:
+            segs[-1][1], segs[-1][3] = n, max(segs[-1][3], b)  # next sentence, short pause: no cut
+        else:
+            segs.append([n, n, a, b])
+    merged = True
+    while merged:  # no pointless jolts, no slivers: join neighbours that follow on in the source
+        merged = False
+        for k in range(len(segs) - 1):
+            cur, nxt = segs[k], segs[k + 1]
+            follows = nxt[0] == cur[1] + 1
+            short = min(cur[3] - cur[2], nxt[3] - nxt[2]) < MIN_SHOT
+            if follows and (nxt[2] - cur[3] < MIN_REMOVED or short):
+                segs[k] = [cur[0], nxt[1], cur[2], nxt[3]]
+                del segs[k + 1]
+                merged = True
+                break
+    for k, (n0, n1, a, b) in enumerate(segs):
+        if b - a < MIN_SHOT:
+            print(f"WARNING: sentences {n0}-{n1} make a {b - a:.1f}s shot (dropped sentences on both sides)")
+    return [(a, b) for _, _, a, b in segs]
+
+
+def onset_timed(words, runs):
+    """Words with their start moved to the measured start of their sound wherever a word follows a
+    pause (the model's start is off by -0.1 to +0.3 s there), so each caption goes up as he says it."""
+    out = []
+    for i, w in enumerate(words):
+        if i == 0 or w["start"] - words[i - 1]["end"] > 0.15 or w["start"] - words[i - 1]["start"] > 0.6:
+            w = dict(w, start=min(w["start"], word_onset(w, runs, words[i - 1]["end"] if i else 0.0)) - CAPTION_LEAD)
+        out.append(w)
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("input", type=Path)
@@ -276,17 +378,14 @@ def main():
     ap.add_argument("--model", default="small.en", help="whisper model (small.en is quick; medium.en is more accurate)")
     ap.add_argument("--hint", default="tallow, The Tallowed Truth, F-Balm, tallow balm, beeswax, raw honey",
                     help="words to help transcription")
-    ap.add_argument("--headline", help='banner text, "LINE ONE|line two"; omit for no banner')
+    ap.add_argument("--hook", help="text-on-screen hook (rules/tos-hook-rules.md), e.g. \"Esthetician shocked by 64 year old's skin:\"")
     ap.add_argument("--popups", type=Path, help="JSON list of pop-ups (see top of file)")
-    ap.add_argument("--drop", action="append", default=[], metavar="START-END", help="source range to cut (outtakes)")
-    ap.add_argument("--cut", action="append", default=[], metavar="START-END", help="source range removed exactly")
-    ap.add_argument("--keep", action="append", default=[], metavar="START-END", help="source range always kept")
+    ap.add_argument("--drop-sentence", default="", metavar="N,N-M", help="sentence numbers from the plan to leave out")
     ap.add_argument("--fix", action="append", default=[], metavar="START-END=TEXT", help="caption fix for misheard words")
     ap.add_argument("--end", type=float, metavar="SEC", help="source time where the video ends")
     ap.add_argument("--plan-only", action="store_true", help="work out cuts and transcript, don't render")
     a = ap.parse_args()
 
-    ev.MAX_PAUSE, ev.PAD_IN, ev.PAD_OUT = MAX_PAUSE, PAD_IN, PAD_OUT
     out = a.output or ROOT / "output" / f"{a.input.stem}_tt.mp4"
     out.parent.mkdir(parents=True, exist_ok=True)
     width, height, duration = ev.probe(a.input)
@@ -302,49 +401,50 @@ def main():
         words = ev.fix_words(words, f)
     if a.end is not None:
         words = [w for w in words if (w["start"] + w["end"]) / 2 <= a.end]
-    span = lambda r: tuple(float(v) for v in r.split("-"))
-    drop = ev.mark_mistakes(words)
-    forced = [span(r) for r in a.keep]
-    mid = lambda w: (w["start"] + w["end"]) / 2
-    drop = {i for i in drop if not any(x <= mid(words[i]) <= y for x, y in forced)}  # --keep brings the captions back too
-    cuts_src = [span(r) for r in a.cut]
-    for i, w in enumerate(words):
-        if any(x <= (w["start"] + w["end"]) / 2 <= y for x, y in [span(r) for r in a.drop] + cuts_src):
-            drop.add(i)
-    silences = ev.detect_silences(a.input, duration)
-    keep, kept = ev.build_keep(words, drop, silences, duration)
-    keep = ev.trim_to_speech(ev.cut_pauses(keep, ev.detect_pauses(a.input, MAX_PAUSE)), a.input)
-    if forced:
-        merged = []
-        for x, y in sorted(keep + forced):
-            if merged and x <= merged[-1][1] + 0.05:
-                merged[-1] = (merged[-1][0], max(merged[-1][1], y))
-            else:
-                merged.append((x, y))
-        keep = merged
-    if cuts_src:
-        keep = ev.subtract(keep, [(x - ev.PAD, y + ev.PAD) for x, y in cuts_src])
-    if a.end is not None:
-        keep = [(x, min(y, a.end)) for x, y in keep if x < a.end]
+
+    sents = sentences(words)
+    dropped = set()
+    for part in filter(None, a.drop_sentence.split(",")):
+        lo, _, hi = part.partition("-")
+        dropped.update(range(int(lo), int(hi or lo) + 1))
+    runs = speech_runs(a.input)
+    # The detector's suggestions only: a sentence that's a filler, or restarted by the next one
+    suspect = ev.mark_mistakes(words)
+    plan = [f"{'  DROP' if n in dropped else '      '} {n:3d} [{words[idx[0]]['start']:6.2f}-{words[idx[-1]]['end']:6.2f}] "
+            f"{' '.join(words[i]['text'] for i in idx)}"
+            + ("   <- repeat/filler?" if any(i in suspect for i in idx) else "") for n, idx in enumerate(sents)]
+    out.with_suffix(".sentences.txt").write_text("\n".join(plan) + "\n")
+
+    keep = sentence_keep(words, sents, dropped, runs, duration)
+    kept = [words[i] for n, idx in enumerate(sents) if n not in dropped for i in idx]
+    kept_cap = onset_timed(kept, runs)  # captions go up when he starts the word, not when the model places it
 
     fps = ev.source_fps(a.input)
-    timed = ev.timed_words(kept, keep)
+    timed = ev.timed_words(kept_cap, keep)
     total = sum(y - x for x, y in keep) - ev.AUDIO_OVERLAP * (len(keep) - 1)
     pic_cuts = ev.picture_cuts(keep, fps)[1][1:-1]
-    removed = [words[i]["text"] for i in sorted(drop)]
-    print(f"{duration:.1f}s raw -> {total:.1f}s edit, {len(keep)} segments ({len(pic_cuts)} cuts)")
-    print(f"Cut words (fumbles, fillers, retakes): {' '.join(removed) or '-'}")
+    print(f"{duration:.1f}s raw -> {total:.1f}s edit, {len(keep)} shots ({len(pic_cuts)} cuts), "
+          f"{len(sents) - len(dropped)}/{len(sents)} sentences kept")
+    print(f"Sentence list: {out.with_suffix('.sentences.txt')}")
     out.with_suffix(".timeline.json").write_text(json.dumps(
         [{"text": t, "start": round(s, 2), "end": round(e, 2)} for s, e, t in timed], indent=0))
     out.with_suffix(".keep.json").write_text(json.dumps([[round(x, 3), round(y, 3)] for x, y in keep]))
 
     popups = place_popups(json.loads(a.popups.read_text()), timed, pic_cuts, total) if a.popups else []
+    if a.hook:  # the hook is never cut off by a pop-up
+        popups = [dict(p, start=max(p["start"], HOOK_SECONDS)) for p in popups]
+        popups = [p for p in popups if p["end"] - p["start"] >= 1.0]
     for p in popups:
         print(f"Pop-up {p['start']:.2f}-{p['end']:.2f}s: {p.get('say') or p.get('file') or p.get('review')}")
     font, _ = caption_font()
     ass = out.with_suffix(".ass")
     n = write_captions(timed, popups, width, height, ass, font)
     print(f"{n} captions")
+    print("Cuts (source time | last words before | first words after):")
+    for (a0, b0), (a1, b1) in zip(keep, keep[1:]):
+        before = [w["text"] for w in kept if w["end"] <= b0 + 0.05][-4:]
+        after = [w["text"] for w in kept if w["start"] >= a1 - 0.05][:4]
+        print(f"  {b0:7.2f} -> {a1:7.2f} ({a1 - b0:.2f}s out) | ...{' '.join(before)} | {' '.join(after)}...")
     if a.plan_only:
         print(f"Transcript on the edited timeline: {out.with_suffix('.timeline.json')}")
         return
@@ -356,12 +456,11 @@ def main():
         print("Rendering cuts + captions...")
         ev.render(a.input, keep, ass, rough, (), (width, height))
         banner = None
-        if a.headline:
-            png = tmp / "banner.png"
-            banner_png(a.headline, width, height, png)
-            first = popups[0]["start"] if popups and popups[0]["start"] < 6 else BANNER_MAX
-            banner = (png, min(first, 6.0))
-        print("Banner + pop-ups...")
+        if a.hook:
+            png = tmp / "hook.png"
+            hook_png(a.hook, width, height, png, ev.face_box(a.input, keep[0][0] + 1.0, width, height))
+            banner = (png, HOOK_SECONDS)
+        print("Hook + pop-ups...")
         layered = overlay_pass(rough, tmp / "layered.mp4", popups, banner, width, height, fps, tmp)
         print("Audio (RNNoise, -12 LUFS, -1 dBTP)...")
         ev.boost(layered, out)
