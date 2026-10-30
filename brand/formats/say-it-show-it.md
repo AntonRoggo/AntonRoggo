@@ -11,7 +11,7 @@ Anton approved this format on 2026-10-30 ("I like the way these turned out"). Re
 - **Structure:**
   1. **Hook on his face.** The opening line stays on camera (no B-roll in the first ~3 s), with one exception: in list and protocol videos, if the first item is named inside the hook ("a dozen oysters", "hibernate"), the B-roll and the song come in right there (`"in_hook": true`).
   2. **One shot per item.** Each thing he names gets a 1-2.5 s shot that starts and ends on caption starts (`start_at` / `end_at` word anchors). The shot shows exactly the named thing, with HIM doing it, in the setting he names.
-  3. **Lines with no visual stay on his face** ("call your mama on a Sunday", "follow this protocol daily").
+  3. **Keep the B-roll going through the middle.** A line with no literal object still gets a shot that shows the idea ("nobody's watching you" = him walking past a packed bar terrace). Only a line he says straight to the viewer as a beat ("call your mama on a Sunday", "follow this protocol daily") stays on his face.
   4. **Ending.** Either back to his face for the punchline or warm last line ("nah, we ain't doing that", "and you're in bed by ten"), or, if the last lines are visual, the B-roll runs to the end (`"end_at": "END"`). Never cut back to his face for a short last clause.
 - **Music:** "charmed - stella" at -8 dB, first beat on the first B-roll frame.
 - **Captions, audio and cuts:** house style from `CLAUDE.md`. No pause at any cut: `edit_video.py` clamps every clip to its words and prints a WARNING for any join with more than 0.35 s of silence. Fix every warning before showing him.
@@ -42,6 +42,10 @@ Check every shot against this list in the actual frames the edit plays (contact 
 | sunset / go to bed when it gets dark | Brazil, him running into the sea at sunset | `id:wdILo7p6X3AAAAAAAACG4w`, 2.0 |
 | lunch / dinner with the boys | Montenegro seafood dinner with friends | `id:wdILo7p6X3AAAAAAAABCWA`, 3.0 |
 | hang out with your boys | Long oyster dinner table, Toronto | `id:wdILo7p6X3AAAAAAAACLoA`, 0.0 |
+| nobody's watching / nobody cares | Him walking past a packed Rio bar terrace, towel on shoulder | `id:wdILo7p6X3AAAAAAAACIbA`, 2.5 |
+| talk to a stranger / talk to someone | Him chatting with a woman trying an oyster, Toronto oyster party | `id:wdILo7p6X3AAAAAAAACLow`, 14.0 |
+| dance | Him dancing salsa with a partner, Brazil salsa night (wide: `"x": 0.18`) | `id:wdILo7p6X3AAAAAAAACFLg`, 5.0 |
+| scenic way / bike ride | Him riding a bike down leafy Toronto streets | `id:wdILo7p6X3AAAAAAAACYSw`, 0.0 |
 | friends who show up / don't check their phones | Rio beach group at sunset; Toronto oyster picnic toast | `id:wdILo7p6X3AAAAAAAACHwQ`, 1.5; `id:wdILo7p6X3AAAAAAAACM2A`, 1.5 |
 | swimming with my boys | Boys in the Rio waterfall pool | `id:wdILo7p6X3AAAAAAAACIcw`, 0.5 |
 | in bed / hibernate | Him lying on a hotel bed, Kraków | `id:wdILo7p6X3AAAAAAAAA-Eg`, 0.0 |

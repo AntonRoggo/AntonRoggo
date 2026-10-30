@@ -7,6 +7,13 @@
   "in_hook": true
  },
  {
+  "file": "input/larp/broll/walking_past_bar.mov",
+  "start_at": "nobodys watching",
+  "end_at": "you could",
+  "clip_in": 2.5,
+  "in_hook": true
+ },
+ {
   "file": "input/larp/broll/swim_clear_sea_montenegro.mov",
   "start_at": "you could",
   "end_at": "you could dance",
@@ -18,5 +25,11 @@
   "end_at": "talk to",
   "clip_in": 5.0,
   "x": 0.18
+ },
+ {
+  "file": "input/larp/v4/shucking_for_friends.mov",
+  "start_at": "talk to",
+  "end_at": "no one",
+  "clip_in": 14.0
  }
 ]
