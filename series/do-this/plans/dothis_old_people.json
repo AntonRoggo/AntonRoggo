@@ -1,0 +1,49 @@
+{
+  "footage": "input/dothis",
+  "captions": {
+    "style": "lower"
+  },
+  "script": "SCRIPTS.md #8 Old people were right, part 2",
+  "sequence": [
+    {
+      "talk": "t0020.MP4",
+      "in": 0.0,
+      "out": 2.95
+    },
+    {
+      "talk": "t0020.MP4",
+      "in": 10.1,
+      "out": 11.9
+    },
+    {
+      "talk": "t0020.MP4",
+      "in": 15.5,
+      "out": 17.0
+    },
+    {
+      "talk": "t0020.MP4",
+      "in": 21.35,
+      "out": 23.95
+    }
+  ],
+  "panels": [
+    {
+      "at": "Hit",
+      "full": "beach_walk.MP4",
+      "in": 0.3
+    },
+    {
+      "at": "Call",
+      "full": "talk"
+    },
+    {
+      "at": "bed",
+      "full": "dusk_trees.MP4",
+      "in": 3.5
+    },
+    {
+      "at": "not",
+      "full": "talk"
+    }
+  ]
+}

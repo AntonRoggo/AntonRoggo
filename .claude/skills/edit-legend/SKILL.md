@@ -51,7 +51,25 @@ Don't publish from here. Publishing goes through the `publish-metricool` skill, 
 - `file` panels go in the top half. `"full": "<clip or photo>"` fills the whole screen; `"full": "talk"` shows you full screen.
 - Photos get a slow zoom automatically. For video panels, `in` sets the start point within the clip.
 - `censor` takes `[x, y, w, h]` as fractions of the panel, or a list of those boxes. It pixelates photos only.
+- `focus` sets which part of a tall photo stays in the panel: 0 keeps the top (faces in full-length portraits), 0.5 the middle (default), 1 the bottom.
 - Captions are uppercase. Numbers and `highlight` words turn yellow.
 - `title` is the big opening title used by the In Their Footsteps format. It stays up until the `until` word, or for 5 s if there's no `until`.
+
+## Cutting from one long clip with several takes
+
+When the footage is one long recording with retakes, don't split it into files. Point each `talk` item at the best take with `in`/`out` seconds:
+
+```json
+"sequence": [{"talk": "t0010.MP4", "in": 12.9, "out": 15.9}, {"talk": "t0010.MP4", "in": 27.9, "out": 31.2}],
+"fix": [["Yvonne", "Yvon"], ["forage", "forge"]],
+"captions": {"style": "lower"}
+```
+
+- In and out points snap to the nearest pause in the audio (up to 0.6 s away), so they can be rough. Each picked line is transcribed on its own, so a retake next to it can't leak into the captions. Within a picked line only fillers and pauses over 0.7 s are cut. Repeats stay.
+- Pick ranges by listening or from a transcript, then check with `--dry-run` before rendering: it prints each line's range, the transcript and the panel table in seconds, and the transcript shows any doubled take ("Then he built one of the biggest... Then he built..."). Move that line's `in` past the false start.
+- `fix` corrects misheard words in the captions: `[wrong phrase, right phrase]`, matched case- and punctuation-blind.
+- `captions.style` is `legend` (uppercase, on the seam; default) or `lower` (lowercase, smaller, lower third: used for the Do This reels).
+- Transcripts are cached in `output/.cache`, so re-cutting the same clip skips transcription.
+- Cuts made from real footage live in `series/lifestyle-legends/cuts/` (and `series/do-this/plans/`), not in `plans/`, because the script generator rewrites `plans/`. Image credits for the cuts are in `series/lifestyle-legends/CREDITS.md`.
 
 The style constants (panel sizes, colours, caption size) are at the top of `edit_legend.py`. The scripts and their plans are generated from one source, `series/lifestyle-legends/tools/gen_scripts.py`. To change a line or a panel, edit it there and run `python3 series/lifestyle-legends/tools/gen_scripts.py`. The generator checks every cue word against its line, then rewrites `SCRIPTS.md` and `plans/`. Don't hand-edit the generated files.

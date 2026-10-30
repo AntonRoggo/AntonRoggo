@@ -1,0 +1,56 @@
+{
+  "footage": "input/dothis",
+  "captions": {
+    "style": "lower"
+  },
+  "script": "SCRIPTS.md #14 The trade (stitch a watch clip in front of it in Instagram)",
+  "sequence": [
+    {
+      "talk": "t0022.MP4",
+      "in": 22.7,
+      "out": 27.35
+    },
+    {
+      "talk": "t0022.MP4",
+      "in": 28.85,
+      "out": 30.5
+    },
+    {
+      "talk": "t0022.MP4",
+      "in": 35.25,
+      "out": 37.65
+    },
+    {
+      "talk": "t0022.MP4",
+      "in": 40.85,
+      "out": 42.25
+    }
+  ],
+  "fix": [
+    [
+      "fryer",
+      "Friday"
+    ]
+  ],
+  "panels": [
+    {
+      "at": "swimming",
+      "full": "river_friends.MP4",
+      "in": 20.0
+    },
+    {
+      "at": "Having",
+      "full": "sunset_beach.MP4",
+      "in": 2.0
+    },
+    {
+      "at": "cheeky",
+      "full": "talk"
+    },
+    {
+      "at": "friends",
+      "full": "night_crowd.MP4",
+      "in": 6.0
+    }
+  ]
+}

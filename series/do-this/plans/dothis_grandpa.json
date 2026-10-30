@@ -1,0 +1,65 @@
+{
+  "footage": "input/dothis",
+  "captions": {
+    "style": "lower"
+  },
+  "script": "SCRIPTS.md #3 Retired Italian grandpa",
+  "sequence": [
+    {
+      "talk": "t0011.MP4",
+      "in": 1.6,
+      "out": 5.8
+    },
+    {
+      "talk": "t0011.MP4",
+      "in": 27.8,
+      "out": 29.3
+    },
+    {
+      "talk": "t0011.MP4",
+      "in": 30.1,
+      "out": 31.4
+    },
+    {
+      "talk": "t0011.MP4",
+      "in": 43.2,
+      "out": 44.7
+    },
+    {
+      "talk": "t0016.MP4",
+      "in": 35.9,
+      "out": 39.4
+    }
+  ],
+  "fix": [
+    [
+      "I forgot those",
+      "Affogatos"
+    ],
+    [
+      "then your in",
+      "then you're in"
+    ]
+  ],
+  "panels": [
+    {
+      "at": "Two",
+      "full": "food_plate.MP4",
+      "in": 4.8
+    },
+    {
+      "at": "Shopping",
+      "full": "market.MP4",
+      "in": 2.4
+    },
+    {
+      "at": "An evening",
+      "full": "beach_walk.MP4",
+      "in": 0.3
+    },
+    {
+      "at": "then",
+      "full": "talk"
+    }
+  ]
+}

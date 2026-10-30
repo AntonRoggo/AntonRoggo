@@ -1,0 +1,61 @@
+{
+  "footage": "input/dothis",
+  "captions": {
+    "style": "lower"
+  },
+  "script": "SCRIPTS.md #7 Nobody's watching",
+  "sequence": [
+    {
+      "talk": "t0019.MP4",
+      "in": 2.6,
+      "out": 7.75
+    },
+    {
+      "talk": "t0019.MP4",
+      "in": 12.85,
+      "out": 14.15
+    },
+    {
+      "talk": "t0019.MP4",
+      "in": 22.35,
+      "out": 24.3
+    },
+    {
+      "talk": "t0019.MP4",
+      "in": 33.75,
+      "out": 35.35
+    },
+    {
+      "talk": "t0019.MP4",
+      "in": 40.05,
+      "out": 41.25
+    },
+    {
+      "talk": "t0019.MP4",
+      "in": 44.55,
+      "out": 45.55
+    }
+  ],
+  "fix": [
+    [
+      "10 a .m.",
+      "10am."
+    ]
+  ],
+  "panels": [
+    {
+      "at": "swim",
+      "full": "swim_crawl.MP4",
+      "in": 37.0
+    },
+    {
+      "at": "dance",
+      "full": "night_crowd.MP4",
+      "in": 4.0
+    },
+    {
+      "at": "No",
+      "full": "talk"
+    }
+  ]
+}

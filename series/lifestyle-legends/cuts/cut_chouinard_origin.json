@@ -1,0 +1,233 @@
+{
+  "footage": "input/legends",
+  "takes": "DJI_20261027191355_0008_D.MP4 (Lifestyle Legends folder), best take of each line; series line from DJI_20261027192157_0010_D.MP4",
+  "series_tag": "Lifestyle Legends · Ep 02",
+  "highlight": [
+    "cat",
+    "Yosemite",
+    "blacksmith",
+    "1970",
+    "Patagonia",
+    "surfing",
+    "climb"
+  ],
+  "sequence": [
+    {
+      "talk": "t0008.MP4",
+      "in": 0.7,
+      "out": 5.8
+    },
+    {
+      "talk": "t0008.MP4",
+      "in": 14.1,
+      "out": 17.0
+    },
+    {
+      "talk": "t0010.MP4",
+      "in": 48.4,
+      "out": 55.4
+    },
+    {
+      "talk": "t0008.MP4",
+      "in": 57.6,
+      "out": 62.3
+    },
+    {
+      "talk": "t0008.MP4",
+      "in": 75.3,
+      "out": 81.1
+    },
+    {
+      "talk": "t0008.MP4",
+      "in": 124.0,
+      "out": 128.2
+    },
+    {
+      "talk": "t0008.MP4",
+      "in": 133.7,
+      "out": 136.5
+    },
+    {
+      "talk": "t0008.MP4",
+      "in": 144.3,
+      "out": 149.5
+    },
+    {
+      "talk": "t0008.MP4",
+      "in": 161.4,
+      "out": 164.6
+    },
+    {
+      "talk": "t0008.MP4",
+      "in": 182.4,
+      "out": 189.3
+    },
+    {
+      "talk": "t0008.MP4",
+      "in": 203.1,
+      "out": 208.1
+    },
+    {
+      "talk": "t0008.MP4",
+      "in": 217.5,
+      "out": 220.9
+    },
+    {
+      "talk": "t0008.MP4",
+      "in": 225.7,
+      "out": 228.8
+    },
+    {
+      "talk": "t0008.MP4",
+      "in": 235.8,
+      "out": 239.6
+    },
+    {
+      "talk": "t0008.MP4",
+      "in": 245.6,
+      "out": 248.6
+    },
+    {
+      "talk": "t0008.MP4",
+      "in": 253.1,
+      "out": 255.4
+    },
+    {
+      "talk": "t0008.MP4",
+      "in": 266.5,
+      "out": 271.4
+    }
+  ],
+  "fix": [
+    [
+      "Yvonne",
+      "Yvon"
+    ],
+    [
+      "forage",
+      "forge"
+    ],
+    [
+      "three billion dollars.",
+      "$3 billion."
+    ],
+    [
+      "a dollar fifty",
+      "$1.50"
+    ],
+    [
+      "a dollar a day",
+      "$1 a day"
+    ],
+    [
+      "forger",
+      "forge"
+    ],
+    [
+      "$1 .50",
+      "$1.50"
+    ]
+  ],
+  "panels": [
+    {
+      "at": "At",
+      "file": "cho_salathe_1960s.jpg",
+      "label": "Age 18"
+    },
+    {
+      "at": "Then",
+      "file": "cho_patagonia_store.jpg",
+      "label": "Patagonia"
+    },
+    {
+      "at": "This",
+      "full": "talk"
+    },
+    {
+      "at": "As",
+      "file": "cho_portrait_young.jpg",
+      "label": "Yvon Chouinard",
+      "focus": 0.2
+    },
+    {
+      "at": "Yosemite",
+      "file": "cho_el_capitan.jpg",
+      "label": "Yosemite"
+    },
+    {
+      "at": "broke",
+      "file": "cho_tenement_1964.jpg",
+      "label": "$1 a day",
+      "focus": 0.3
+    },
+    {
+      "at": "got so good",
+      "file": "cho_na_wall_team.jpg",
+      "label": "El Capitan · 1964"
+    },
+    {
+      "at": "gear he could",
+      "full": "talk"
+    },
+    {
+      "at": "junkyard",
+      "file": "cho_skunkworks_1969.jpg",
+      "label": "Self-taught blacksmith"
+    },
+    {
+      "at": "who wanted",
+      "file": "cho_rurp.jpg",
+      "label": "Chouinard pitons"
+    },
+    {
+      "at": "sold",
+      "file": "cho_camp4_tea_1960.jpg",
+      "label": "$1.50 each",
+      "focus": 0.6
+    },
+    {
+      "at": "1970",
+      "full": "talk"
+    },
+    {
+      "at": "That little",
+      "file": "cho_patagonia_store.jpg",
+      "label": "Patagonia"
+    },
+    {
+      "at": "runs",
+      "full": "sunset_waves.MP4",
+      "in": 0.8
+    },
+    {
+      "at": "gave",
+      "file": "cho_portrait_older_a.jpg",
+      "label": "Gave it all away · 2022",
+      "focus": 0.3
+    },
+    {
+      "at": "Life's",
+      "full": "talk"
+    },
+    {
+      "at": "keep doing",
+      "full": "river_friends.MP4",
+      "in": 20
+    },
+    {
+      "at": "never wanted",
+      "file": "cho_portrait_young.jpg",
+      "label": "Yvon Chouinard",
+      "focus": 0.2
+    },
+    {
+      "at": "follow",
+      "full": "talk"
+    }
+  ],
+  "end_card": {
+    "at": "follow",
+    "title": "Lifestyle Legends",
+    "sub": "Next: the writer who got blown up at 18"
+  }
+}

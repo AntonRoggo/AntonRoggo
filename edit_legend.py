@@ -17,7 +17,12 @@ Layout
 A plan (JSON) lists your talk clips in order and the panels that go on top:
 
   sequence  talk clips (transcribed; fillers, retakes, >1 s silences cut
-            unless "cut": false) and b-roll clips, joined in order
+            unless "cut": false) and b-roll clips, joined in order.
+            "in"/"out" (seconds) use just that part of a talk clip, so one
+            line can be picked from a long take: {"talk": "a.mp4", "in": 12.0,
+            "out": 15.5}. In/out snap to the nearest pause in the
+            audio, and only fillers and long pauses are cut inside a
+            picked line. Only the parts used are decoded.
   panels    each starts at a spoken word and holds until the next one:
               {"at": "fifteen", "file": "boat.jpg", "label": "OYSTER PIRATE"}
               {"at": "Namaste", "full": "talk"}        you, full screen
@@ -27,18 +32,25 @@ A plan (JSON) lists your talk clips in order and the panels that go on top:
             big opening title (default 5 s)
   end_card  {"at": "follow", "title": "...", "sub": "..."} over the ending
   music     optional bed, ducked under the voice
+  fix       caption corrections for words the transcript got wrong:
+            [["i forgot those", "Affogatos"]]
+  captions  {"style": "lower"} for small lowercase captions with no split
+            screen styling (the quick "do this" reels); default is the
+            uppercase seam captions above
 
 Anchors: "swim" = first word starting with "swim", "swim#2" = the second,
 a number = that many seconds in. Before the first panel you're full screen.
 
 Usage:
   python3 edit_legend.py series/lifestyle-legends/plans/london_a_origin.json
-  python3 edit_legend.py PLAN [-o output/x.mp4] [--model medium] [--draft]
+  python3 edit_legend.py PLAN [-o output/x.mp4] [--model medium] [--draft] [--dry-run]
 
 Requires ffmpeg and `pip install faster-whisper`. Proxima Nova Semibold in
 ./fonts, as for edit_video.py.
 """
 import argparse
+import functools
+import hashlib
 import json
 import re
 import subprocess
@@ -46,8 +58,8 @@ import sys
 from pathlib import Path
 
 from boost_audio import boost
-from edit_video import (FONTS_DIR, ROOT, ass_time, build_keep, check_font,
-                        detect_silences, mark_mistakes, norm, remap, transcribe)
+from edit_video import (FILLERS, FONTS_DIR, ROOT, ass_time, build_keep, check_font,
+                        detect_silences, mark_mistakes, norm, remap, subtract, transcribe, PAD)
 
 # --- Reference style ---------------------------------------------------------
 W, H, FPS = 1080, 1920, 30
@@ -72,15 +84,33 @@ TITLE_Y = 0.14
 ZOOM = 0.08                   # slow push on every photo (alternates in/out)
 CENSOR_BLOCKS = 18            # pixel size of the "guess who" blur
 MUSIC_VOLUME = 0.12
+# caption looks: "legend" is the split-screen seam style, "lower" the small
+# lowercase captions of the quick talk-to-camera reels
+CAPTION_STYLES = {
+    "legend": {"case": "upper", "size": CAPTION_SIZE, "outline": CAPTION_OUTLINE,
+               "y": CAPTION_FULL_Y, "max_words": CAPTION_MAX_WORDS,
+               "max_chars": CAPTION_MAX_CHARS, "accent_numbers": True},
+    "lower": {"case": "lower", "size": 58, "outline": 3, "y": 0.63, "max_words": 3,
+              "max_chars": 18, "accent_numbers": False},
+}
 # -----------------------------------------------------------------------------
 
 CUT_FADE = 0.015
+# picked lines ("in"/"out") are cut on the pauses in the audio, not on word
+# times, which can be a few tenths of a second off
+PAUSE_DB = -35                # quieter than this is a pause
+PAUSE_MIN = 0.12              # shortest pause to snap to
+SNAP_MAX = 0.6                # how far an in/out point may move to reach a pause
+LEAD = 0.12                   # quiet kept before the first word of a line
+TAIL = 0.15                   # and after the last
+LONG_PAUSE = 0.7              # pauses longer than this inside a line are tightened
 NORM_A = "aformat=sample_rates=48000:channel_layouts=stereo"
 
 
-def cover(w, h):
-    return (f"scale={w}:{h}:force_original_aspect_ratio=increase,crop={w}:{h},"
-            f"setsar=1")
+def cover(w, h, focus=0.5):
+    """Fill w x h, cropping the overflow; focus 0 keeps the top, 1 the bottom."""
+    return (f"scale={w}:{h}:force_original_aspect_ratio=increase,"
+            f"crop={w}:{h}:(iw-{w})/2:(ih-{h})*{focus},setsar=1")
 
 
 def ff(args):
@@ -125,6 +155,69 @@ def encode(inputs, graph, vlabel, alabel, out, draft, crf=18, total=None):
 
 
 # --- 1. your talk, joined ----------------------------------------------------
+@functools.lru_cache(maxsize=None)
+def words_for(src, model, start=0.0, end=None):
+    """Transcript of a clip, or of start-end within it. Saved in
+    output/.cache so re-cutting a plan skips transcription."""
+    # a whole clip keeps every "um" for the retake and filler cuts; a picked
+    # excerpt skips its silences first for steadier word times
+    vad = end is not None
+    real = src.resolve()
+    st = real.stat()
+    key = hashlib.sha1(f"{real}|{st.st_size}|{st.st_mtime}|{model}|{'vad' if vad else 'novad'}"
+                       f"|{start}|{end}".encode()).hexdigest()[:12]
+    saved = ROOT / "output" / ".cache" / f"{src.stem}_{key}.words.json"
+    if saved.exists():
+        return json.loads(saved.read_text())
+    print(f"Transcribing {src.name}" + (f" {start:.1f}-{end:.1f}s" if end else "") + "...")
+    words = transcribe(src, model, vad=vad, start=start, end=end)
+    saved.parent.mkdir(parents=True, exist_ok=True)
+    saved.write_text(json.dumps(words))
+    return words
+
+
+@functools.lru_cache(maxsize=None)
+def silences_for(src):
+    return detect_silences(src, duration(src))
+
+
+@functools.lru_cache(maxsize=None)
+def pauses_for(src):
+    """Every pause of PAUSE_MIN or more in a clip's audio."""
+    err = subprocess.run(["ffmpeg", "-hide_banner", "-i", str(src), "-vn", "-af",
+                          f"silencedetect=noise={PAUSE_DB}dB:d={PAUSE_MIN}",
+                          "-f", "null", "-"], text=True, capture_output=True).stderr
+    starts = [max(0.0, float(x)) for x in re.findall(r"silence_start: (-?[\d.]+)", err)]
+    ends = [float(x) for x in re.findall(r"silence_end: ([\d.]+)", err)]
+    ends += [duration(src)] * (len(starts) - len(ends))
+    return tuple(zip(starts, ends))
+
+
+def snap(a, b, pauses):
+    """Move a picked line's in/out points into the pauses around it, so no
+    word is clipped and only a breath of quiet is left at each end."""
+    inside = [(s, e) for s, e in pauses if s <= a <= e]
+    if inside:
+        a = max(a, inside[0][1] - LEAD)
+    else:
+        prev = [(s, e) for s, e in pauses if e <= a and a - e <= SNAP_MAX]
+        if prev:
+            a = max(prev[-1][0], prev[-1][1] - LEAD)
+    inside = [(s, e) for s, e in pauses if s <= b <= e]
+    if inside:
+        b = min(b, inside[0][0] + TAIL)
+    else:
+        nxt = [(s, e) for s, e in pauses if s >= b and s - b <= SNAP_MAX]
+        if nxt:
+            b = min(nxt[0][1], nxt[0][0] + TAIL)
+    return a, b
+
+
+def clip_ranges(ranges, a, b):
+    out = [(max(x, a), min(y, b)) for x, y in ranges]
+    return [(x, y) for x, y in out if y - x > 0.05]
+
+
 def build_sequence(plan, footage, model):
     """Return (segments, words, broll_texts) on the output timeline."""
     segments, words, texts, t = [], [], [], 0.0
@@ -132,13 +225,32 @@ def build_sequence(plan, footage, model):
         if "talk" in item:
             src = footage / item["talk"]
             dur = duration(src)
-            print(f"Transcribing {src.name}...")
-            raw = transcribe(src, model)
-            if item.get("cut", True):
-                drop = mark_mistakes(raw)
-                keep, kept = build_keep(raw, drop, detect_silences(src, dur), dur)
+            a = float(item.get("in", 0.0))
+            b = min(float(item.get("out", dur)), dur)
+            picked = "in" in item or "out" in item
+            if picked:
+                a, b = snap(a, b, pauses_for(src))
+                # transcribed on its own: on the whole clip, whisper can give
+                # one take's words the times of the retake next to it
+                every = words_for(src, model, round(max(0.0, a - 0.2), 2),
+                                  round(min(dur, b + 0.2), 2))
             else:
-                drop, keep, kept = set(), [(0.0, dur)], raw
+                every = words_for(src, model)
+            raw = [w for w in every if w["end"] > a + 0.05 and w["start"] < b - 0.05]
+            if not item.get("cut", True):
+                drop, keep, kept = set(), [(a, b)], raw
+            elif picked:
+                # a hand-picked line is already the right take, so only fillers
+                # and long pauses go; retake detection would eat deliberate
+                # repeats ("my whole year, but my whole year is...")
+                drop = {i for i, w in enumerate(raw) if norm(w["text"]) in FILLERS}
+                gaps = [(x, y) for x, y in pauses_for(src) if y - x > LONG_PAUSE and a < x and y < b]
+                gaps += [(raw[i]["start"] - PAD, raw[i]["end"] + PAD) for i in drop]
+                keep = clip_ranges(subtract([(a, b)], sorted(gaps)), a, b)
+                kept = [w for i, w in enumerate(raw) if i not in drop]
+            else:
+                drop = mark_mistakes(raw)
+                keep, kept = build_keep(raw, drop, silences_for(src), dur)
             for w in kept:
                 s, e = remap(w["start"], keep), remap(w["end"], keep)
                 if s is None and e is None:
@@ -148,8 +260,9 @@ def build_sequence(plan, footage, model):
                 words.append({"text": w["text"], "start": t + s, "end": t + e})
             segments += [(src, a, b, item.get("sound", 1.0)) for a, b in keep]
             cut = [raw[i]["text"] for i in sorted(drop)]
-            new_len = sum(b - a for a, b in keep)
-            print(f"  {dur:.1f}s -> {new_len:.1f}s, dropped: {' '.join(cut) or 'nothing'}")
+            new_len = sum(y - x for x, y in keep)
+            print(f"  {src.name} {a:.1f}-{b:.1f}s -> {new_len:.1f}s, "
+                  f"dropped: {' '.join(cut) or 'nothing'}")
             t += new_len
         elif "broll" in item:
             src = footage / item["broll"]
@@ -164,23 +277,45 @@ def build_sequence(plan, footage, model):
     return segments, words, texts
 
 
+def render_segment(src, a, b, vol, cache, draft):
+    """One piece of the edit at output size. Seeks straight to it, so only
+    these seconds are decoded (4K HEVC decodes slower than real time), and
+    keeps it for the next run."""
+    d = b - a
+    key = hashlib.sha1(f"{src.resolve()}|{a:.3f}|{b:.3f}|{vol}|{draft}".encode()).hexdigest()[:12]
+    out = cache / f"{src.stem}_{key}.mkv"
+    if out.exists():
+        return out
+    seek = ["-ss", f"{a:.3f}", "-t", f"{d:.3f}", "-i", str(src)]
+    fades = (f"{NORM_A},volume={vol},afade=t=in:d={CUT_FADE},"
+             f"afade=t=out:st={max(0.0, d - CUT_FADE):.3f}:d={CUT_FADE}")
+    if has_audio(src):
+        audio = ["-map", "0:v:0", "-map", "0:a:0", "-af", fades]
+    else:
+        seek += ["-f", "lavfi", "-t", f"{d:.3f}", "-i", "anullsrc=r=48000:cl=stereo"]
+        audio = ["-map", "0:v:0", "-map", "1:a:0"]
+    tmp = out.with_suffix(".part.mkv")
+    ff(seek + audio + ["-vf", f"{cover(W, H)},fps={FPS},format=yuv420p", "-t", f"{d:.3f}",
+                       "-c:v", "libx264", "-preset", "ultrafast" if draft else "veryfast",
+                       "-crf", "24" if draft else "14", "-c:a", "pcm_s16le", "-ar", "48000",
+                       "-ac", "2", str(tmp)])
+    tmp.rename(out)
+    return out
+
+
 def render_base(segments, out, draft):
-    files = list(dict.fromkeys(src for src, *_ in segments))
-    audio = {f: has_audio(f) for f in files}
-    parts, labels = [], ""
-    for i, (src, a, b, vol) in enumerate(segments):
-        k, d = files.index(src), b - a
-        parts.append(f"[{k}:v]trim=start={a:.3f}:end={b:.3f},setpts=PTS-STARTPTS,"
-                     f"{cover(W, H)},fps={FPS},format=yuv420p[v{i}];")
-        if audio[src]:
-            parts.append(f"[{k}:a]atrim=start={a:.3f}:end={b:.3f},asetpts=PTS-STARTPTS,{NORM_A},"
-                         f"volume={vol},afade=t=in:d={CUT_FADE},"
-                         f"afade=t=out:st={max(0.0, d - CUT_FADE):.3f}:d={CUT_FADE}[a{i}];")
-        else:
-            parts.append(f"anullsrc=r=48000:cl=stereo,atrim=duration={d:.3f}[a{i}];")
-        labels += f"[v{i}][a{i}]"
-    graph = "".join(parts) + f"{labels}concat=n={len(segments)}:v=1:a=1[v][a]"
-    encode([x for f in files for x in ("-i", str(f))], graph, "[v]", "[a]", out, draft, crf=16)
+    cache = out.parent / ".cache"
+    cache.mkdir(exist_ok=True)
+    pieces = []
+    for n, (src, a, b, vol) in enumerate(segments, 1):
+        print(f"  piece {n}/{len(segments)}: {src.name} {a:.2f}-{b:.2f}s", flush=True)
+        pieces.append(render_segment(src, a, b, vol, cache, draft))
+    listing = out.with_suffix(".txt")
+    listing.write_text("".join(f"file '{p.resolve()}'\n" for p in pieces))
+    try:
+        ff(["-f", "concat", "-safe", "0", "-i", str(listing), "-c", "copy", str(out)])
+    finally:
+        listing.unlink(missing_ok=True)
 
 
 # --- 2. anchors and the panel timeline ---------------------------------------
@@ -239,7 +374,7 @@ def visual(k, entry, w, h, n):
     """Filter chain that turns input k into exactly n frames at w x h."""
     p, src, d = entry["panel"], entry["src"], entry["frames"] / FPS
     if is_image(src):
-        chain = f"[{k}:v]{cover(2 * w, 2 * h)}"
+        chain = f"[{k}:v]{cover(2 * w, 2 * h, p.get('focus', 0.5))}"
         regions = p.get("censor") or []
         if regions and not isinstance(regions[0], list):
             regions = [regions]
@@ -254,7 +389,8 @@ def visual(k, entry, w, h, n):
         z = f"{z0}{'+' if z1 >= z0 else '-'}{abs(z1 - z0)}*on/{max(1, n - 1)}"
         return (f"{chain},zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
                 f"d={n}:s={w}x{h}:fps={FPS},setsar=1,format=yuv420p")
-    return (f"[{k}:v]trim=start={p.get('in', 0)},setpts=PTS-STARTPTS,{cover(w, h)},fps={FPS},"
+    # clips are opened already seeked to their "in" point (see render_final)
+    return (f"[{k}:v]setpts=PTS-STARTPTS,{cover(w, h)},fps={FPS},"
             f"tpad=stop_mode=clone:stop_duration={d + 1:.3f},trim=end_frame={n},"
             f"setpts=PTS-STARTPTS,format=yuv420p")
 
@@ -270,11 +406,35 @@ def spans(timeline, kind):
 
 
 # --- 4. captions, labels, end card -------------------------------------------
-def caption_events(words, highlight):
+def apply_fixes(words, fixes):
+    """Swap misheard phrases for the right words, keeping their timing."""
+    for wrong, right in fixes:
+        toks = [norm(t) for t in wrong.split()]
+        new = right.split()
+        i = 0
+        while i <= len(words) - len(toks):
+            if [norm(w["text"]) for w in words[i:i + len(toks)]] != toks:
+                i += 1
+                continue
+            s, e = words[i]["start"], words[i + len(toks) - 1]["end"]
+            tail = re.search(r"[.,!?;:]*$", words[i + len(toks) - 1]["text"]).group()
+            step = (e - s) / len(new)
+            if re.search(r"[.,!?;:]$", new[-1]):
+                tail = ""
+            words[i:i + len(toks)] = [
+                {"text": t + (tail if j == len(new) - 1 else ""),
+                 "start": s + j * step, "end": s + (j + 1) * step}
+                for j, t in enumerate(new)]
+            i += len(new)
+    return words
+
+
+def caption_events(words, highlight, cap=CAPTION_STYLES["legend"]):
     chunks, cur = [], []
     for w in words:
         raw = w["text"].strip()
-        text = re.sub(r"[.,;:\"“”]+", "", raw).upper()
+        text = re.sub(r"[.,;:\"“”]+", "", raw)
+        text = text.upper() if cap["case"] == "upper" else text.lower()
         if cur and text.startswith("-"):              # "euro" "-maxing"
             cur[-1] = {**cur[-1], "clean": cur[-1]["clean"] + text, "text": raw,
                        "end": w["end"]}
@@ -284,7 +444,7 @@ def caption_events(words, highlight):
         if cur:
             prev = cur[-1]["text"]
             length = len(" ".join(x["clean"] for x in cur)) + 1 + len(text)
-            if (len(cur) >= CAPTION_MAX_WORDS or length > CAPTION_MAX_CHARS
+            if (len(cur) >= cap["max_words"] or length > cap["max_chars"]
                     or w["start"] - cur[-1]["end"] > 0.4
                     or re.search(r"[.!?]$", prev)
                     or (re.search(r"[,;:]$", prev) and len(cur) >= 2)):
@@ -302,13 +462,15 @@ def caption_events(words, highlight):
             e = nxt if nxt - chunk[-1]["end"] < 0.6 else min(e, nxt)
         text = " ".join(
             f"{{\\c{ACCENT}}}{x['clean']}{{\\c&H00FFFFFF&}}"
-            if norm(x["clean"]) in highlight or re.search(r"\d", x["clean"]) else x["clean"]
+            if norm(x["clean"]) in highlight
+            or (cap["accent_numbers"] and re.search(r"\d", x["clean"])) else x["clean"]
             for x in chunk)
         events.append((s, e, text))
     return events
 
 
-def write_ass(path, captions, texts, timeline, tag, end_card, title=None):
+def write_ass(path, captions, texts, timeline, tag, end_card, title=None,
+              cap=CAPTION_STYLES["legend"]):
     cx = W // 2
     head = [
         "[Script Info]", "ScriptType: v4.00+", f"PlayResX: {W}", f"PlayResY: {H}",
@@ -318,8 +480,8 @@ def write_ass(path, captions, texts, timeline, tag, end_card, title=None):
         "OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, "
         "ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, "
         "Alignment, MarginL, MarginR, MarginV, Encoding",
-        f"Style: Caption,{FONT_NAME},{CAPTION_SIZE},&H00FFFFFF,&H00FFFFFF,&H00000000,"
-        f"&H90000000,-1,0,0,0,100,100,0,0,1,{CAPTION_OUTLINE},2,5,60,60,0,1",
+        f"Style: Caption,{FONT_NAME},{cap['size']},&H00FFFFFF,&H00FFFFFF,&H00000000,"
+        f"&H90000000,-1,0,0,0,100,100,0,0,1,{cap['outline']},2,5,60,60,0,1",
         f"Style: Pill,{FONT_NAME},{PILL_SIZE},&H00FFFFFF,&H00FFFFFF,{PILL_COLOR},"
         f"{PILL_COLOR},-1,0,0,0,100,100,0,0,3,18,0,5,90,90,0,1",
         f"Style: Tag,{FONT_NAME},{TAG_SIZE},&H00222222,&H00222222,&H00000000,"
@@ -337,14 +499,15 @@ def write_ass(path, captions, texts, timeline, tag, end_card, title=None):
         return f"{{\\an5\\pos({x},{round(y)})}}"
 
     # captions follow the layout: on the seam when split, lower third when full
-    for s, e, text in captions + [(s, e, t.upper()) for s, e, t in texts]:
+    case = str.upper if cap["case"] == "upper" else str.lower
+    for s, e, text in captions + [(s, e, case(t)) for s, e, t in texts]:
         if end_card:                   # the card owns the ending
             e = min(e, end_card["start"])
         for entry in timeline:
             a, b = max(s, entry["start"]), min(e, entry["end"])
             if b - a < 0.05:
                 continue
-            y = SEAM_Y if entry["kind"] == "split" else H * CAPTION_FULL_Y
+            y = SEAM_Y if entry["kind"] == "split" else H * cap["y"]
             ev.append(f"Dialogue: 2,{ass_time(a)},{ass_time(b)},Caption,,0,0,0,,{at(cx, y)}{text}")
     for entry in timeline:
         a, b, p = ass_time(entry["start"]), ass_time(entry["end"]), entry["panel"]
@@ -384,6 +547,10 @@ def render_final(base, total, timeline, music, ass_path, crop_y, out, draft):
         labels = []
         for i, entry in enumerate(timeline):
             if entry["kind"] == kind:
+                if not is_image(entry["src"]):
+                    d = entry["frames"] / FPS + 1
+                    inputs += ["-ss", f"{float(entry['panel'].get('in', 0)):.3f}",
+                               "-t", f"{d:.3f}"]
                 inputs += ["-i", str(entry["src"])]
                 parts.append(f"{visual(k, entry, w, h, entry['frames'])}[{name}{i}];")
                 k += 1
@@ -421,7 +588,23 @@ def render_final(base, total, timeline, music, ass_path, crop_y, out, draft):
     encode(inputs, "".join(parts), "[vo]", "[ao]", out, draft, total=total)
 
 
+def pick_font():
+    """Proxima Nova if it's in ./fonts, else Montserrat SemiBold (free, close match)."""
+    if check_font():
+        return FONT_NAME
+    for f in FONTS_DIR.glob("*"):
+        if f.suffix.lower() not in (".otf", ".ttf"):
+            continue
+        name = subprocess.run(["fc-scan", "--format", "%{fullname}", str(f)],
+                              text=True, capture_output=True).stdout.lower()
+        if "montserrat" in name and "semibold" in name:
+            print("Using Montserrat SemiBold for captions instead.", file=sys.stderr)
+            return "Montserrat SemiBold"
+    return FONT_NAME
+
+
 def main():
+    global FONT_NAME
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("plan", type=Path)
@@ -429,6 +612,8 @@ def main():
     ap.add_argument("--model", default="small",
                     help="whisper model size (tiny/base/small/medium/large-v3)")
     ap.add_argument("--draft", action="store_true", help="fast low-quality render for review")
+    ap.add_argument("--dry-run", action="store_true",
+                    help="print the cut, transcript and panels without rendering")
     args = ap.parse_args()
 
     plan = json.loads(args.plan.read_text())
@@ -443,10 +628,17 @@ def main():
 
     out = args.output or ROOT / "output" / f"{args.plan.stem}.mp4"
     out.parent.mkdir(parents=True, exist_ok=True)
-    check_font()
+    FONT_NAME = pick_font()
 
     segments, words, texts = build_sequence(plan, footage, args.model)
-    base = out.with_name(f"{out.stem}_base.mp4")
+    words = apply_fixes(words, plan.get("fix", []))
+    cap = CAPTION_STYLES[plan.get("captions", {}).get("style", "legend")]
+    if args.dry_run:
+        total = sum(b - a for _, a, b, _ in segments)
+        report(words, build_timeline(panels, words, total, footage))
+        print(f"\nDry run: {total:.1f}s, nothing rendered.")
+        return
+    base = out.with_name(f"{out.stem}_base.mkv")
     rough = out.with_name(f"{out.stem}_rough.mp4")
     print("Joining your talk clips...")
     render_base(segments, base, args.draft)
@@ -466,8 +658,8 @@ def main():
         title = {"text": t["text"], "start": 0.0, "end": min(end, total)}
     highlight = {norm(h) for h in plan.get("highlight", [])}
     ass_path = out.with_suffix(".ass")
-    write_ass(ass_path, caption_events(words, highlight), texts, timeline,
-              plan.get("series_tag"), end_card, title)
+    write_ass(ass_path, caption_events(words, highlight, cap), texts, timeline,
+              plan.get("series_tag"), end_card, title, cap)
     music = ({**plan["music"], "file": footage / plan["music"]["file"]}
              if plan.get("music") else None)
 
@@ -481,6 +673,11 @@ def main():
         base.unlink(missing_ok=True)
         rough.unlink(missing_ok=True)
 
+    report(words, timeline)
+    print(f"\nDone: {out}  ({total:.1f}s, captions: {ass_path})")
+
+
+def report(words, timeline):
     print("\nEdited transcript (anchor words for panels):")
     line, t0 = [], 0.0
     for w in words:
@@ -497,7 +694,6 @@ def main():
         what = "you, full screen" if e["kind"] == "talk" else e["src"].name
         label = f"  [{e['panel']['label']}]" if e["panel"].get("label") else ""
         print(f"  {e['start']:6.2f}-{e['end']:6.2f}s  {e['kind']:5}  {what}{label}")
-    print(f"\nDone: {out}  ({total:.1f}s, captions: {ass_path})")
 
 
 if __name__ == "__main__":

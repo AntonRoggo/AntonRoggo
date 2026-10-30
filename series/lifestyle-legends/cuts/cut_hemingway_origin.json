@@ -1,0 +1,253 @@
+{
+  "footage": "input/legends",
+  "takes": "DJI_20261027192157_0010_D.MP4 (Lifestyle Legends folder), best take of each line",
+  "series_tag": "Lifestyle Legends · Ep 03",
+  "highlight": [
+    "blown",
+    "Nobel",
+    "Paris",
+    "Cuba",
+    "Pamplona"
+  ],
+  "sequence": [
+    {
+      "talk": "t0010.MP4",
+      "in": 12.9,
+      "out": 15.9
+    },
+    {
+      "talk": "t0010.MP4",
+      "in": 27.9,
+      "out": 31.2
+    },
+    {
+      "talk": "t0010.MP4",
+      "in": 48.4,
+      "out": 55.4
+    },
+    {
+      "talk": "t0010.MP4",
+      "in": 62.75,
+      "out": 66.1
+    },
+    {
+      "talk": "t0010.MP4",
+      "in": 70.1,
+      "out": 71.9
+    },
+    {
+      "talk": "t0010.MP4",
+      "in": 77.9,
+      "out": 82.1
+    },
+    {
+      "talk": "t0010.MP4",
+      "in": 88.0,
+      "out": 90.7
+    },
+    {
+      "talk": "t0010.MP4",
+      "in": 122.0,
+      "out": 129.4
+    },
+    {
+      "talk": "t0010.MP4",
+      "in": 137.5,
+      "out": 141.0
+    },
+    {
+      "talk": "t0010.MP4",
+      "in": 147.2,
+      "out": 148.9
+    },
+    {
+      "talk": "t0010.MP4",
+      "in": 163.2,
+      "out": 165.8
+    },
+    {
+      "talk": "t0010.MP4",
+      "in": 173.1,
+      "out": 175.9
+    },
+    {
+      "talk": "t0010.MP4",
+      "in": 187.2,
+      "out": 189.3
+    },
+    {
+      "talk": "t0010.MP4",
+      "in": 193.6,
+      "out": 195.7
+    },
+    {
+      "talk": "t0010.MP4",
+      "in": 206.0,
+      "out": 208.6
+    },
+    {
+      "talk": "t0010.MP4",
+      "in": 225.2,
+      "out": 226.9
+    },
+    {
+      "talk": "t0010.MP4",
+      "in": 235.7,
+      "out": 240.1
+    },
+    {
+      "talk": "t0010.MP4",
+      "in": 250.9,
+      "out": 253.7
+    },
+    {
+      "talk": "t0010.MP4",
+      "in": 258.8,
+      "out": 261.8
+    },
+    {
+      "talk": "t0010.MP4",
+      "in": 269.2,
+      "out": 271.7
+    },
+    {
+      "talk": "t0010.MP4",
+      "in": 274.2,
+      "out": 275.5
+    }
+  ],
+  "fix": [
+    [
+      "bows and pampalona",
+      "bulls in Pamplona."
+    ],
+    [
+      "bows and Pamplona",
+      "bulls in Pamplona."
+    ],
+    [
+      "bows in Pamplona",
+      "bulls in Pamplona."
+    ],
+    [
+      "bows in pampalona",
+      "bulls in Pamplona."
+    ],
+    [
+      "old man in the sea",
+      "Old Man and the Sea"
+    ],
+    [
+      "a farewell to arms",
+      "A Farewell to Arms."
+    ],
+    [
+      "the sun also rises",
+      "The Sun Also Rises."
+    ],
+    [
+      "fishin'",
+      "fishing"
+    ],
+    [
+      "the ball running",
+      "The bull running"
+    ],
+    [
+      "the Old Man and the Sea",
+      "the Old Man and the Sea."
+    ]
+  ],
+  "panels": [
+    {
+      "at": "At",
+      "file": "hem_red_cross_1918.jpg",
+      "label": "Age 18"
+    },
+    {
+      "at": "Then",
+      "file": "hem_portrait_1939.jpg"
+    },
+    {
+      "at": "This",
+      "full": "talk"
+    },
+    {
+      "at": "As",
+      "file": "hem_passport_1923.jpg",
+      "label": "Ernest Hemingway"
+    },
+    {
+      "at": "army",
+      "file": "hem_ambulance.jpg",
+      "label": "World War I"
+    },
+    {
+      "at": "Just",
+      "file": "hem_hospital_milan.jpg",
+      "label": "200 pieces of shrapnel",
+      "focus": 0.1
+    },
+    {
+      "at": "But instead",
+      "full": "talk"
+    },
+    {
+      "at": "broke",
+      "file": "hem_passport_1923.jpg",
+      "label": "Broke in Paris"
+    },
+    {
+      "at": "ran",
+      "file": "hem_pamplona_1925.jpg",
+      "label": "Pamplona"
+    },
+    {
+      "at": "went marlin",
+      "file": "hem_marlin_1934.png",
+      "label": "Cuba"
+    },
+    {
+      "at": "what did",
+      "full": "talk"
+    },
+    {
+      "at": "war became",
+      "file": "hem_farewell_cover.jpg",
+      "label": "1929"
+    },
+    {
+      "at": "bull running",
+      "file": "hem_pamplona_1925.jpg",
+      "label": "The Sun Also Rises"
+    },
+    {
+      "at": "Gulf",
+      "file": "hem_marlin_1934.png",
+      "label": "The Old Man and the Sea"
+    },
+    {
+      "at": "last one",
+      "file": "hem_writing_kenya.jpg",
+      "label": "Nobel Prize · 1954"
+    },
+    {
+      "at": "even",
+      "full": "talk"
+    },
+    {
+      "at": "live something",
+      "full": "swim_crawl.MP4",
+      "in": 36.5
+    },
+    {
+      "at": "Hemingway lived",
+      "full": "talk"
+    }
+  ],
+  "end_card": {
+    "at": "follow",
+    "title": "Lifestyle Legends",
+    "sub": "A new legend every week"
+  }
+}

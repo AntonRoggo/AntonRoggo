@@ -1,0 +1,228 @@
+{
+  "footage": "input/legends",
+  "takes": "DJI_20261027190150_0005_D.MP4 (Lifestyle Legends folder), best take of each line",
+  "series_tag": "Lifestyle Legends · Ep 01",
+  "highlight": [
+    "Cousteau",
+    "pilot",
+    "ocean",
+    "Oscar",
+    "Cannes",
+    "sky"
+  ],
+  "sequence": [
+    {
+      "talk": "t0005.MP4",
+      "in": 73.2,
+      "out": 81.1
+    },
+    {
+      "talk": "t0005.MP4",
+      "in": 97.3,
+      "out": 103.3
+    },
+    {
+      "talk": "t0005.MP4",
+      "in": 110.2,
+      "out": 115.3
+    },
+    {
+      "talk": "t0005.MP4",
+      "in": 126.9,
+      "out": 133.6
+    },
+    {
+      "talk": "t0005.MP4",
+      "in": 157.0,
+      "out": 163.3
+    },
+    {
+      "talk": "t0005.MP4",
+      "in": 168.8,
+      "out": 170.7
+    },
+    {
+      "talk": "t0005.MP4",
+      "in": 176.4,
+      "out": 180.6
+    },
+    {
+      "talk": "t0005.MP4",
+      "in": 186.7,
+      "out": 191.8
+    },
+    {
+      "talk": "t0005.MP4",
+      "in": 203.4,
+      "out": 209.9
+    },
+    {
+      "talk": "t0005.MP4",
+      "in": 230.4,
+      "out": 234.3
+    },
+    {
+      "talk": "t0005.MP4",
+      "in": 261.9,
+      "out": 266.4
+    },
+    {
+      "talk": "t0005.MP4",
+      "in": 269.1,
+      "out": 271.9
+    },
+    {
+      "talk": "t0005.MP4",
+      "in": 288.4,
+      "out": 291.7
+    },
+    {
+      "talk": "t0005.MP4",
+      "in": 300.6,
+      "out": 304.1
+    },
+    {
+      "talk": "t0005.MP4",
+      "in": 312.4,
+      "out": 314.5
+    },
+    {
+      "talk": "t0005.MP4",
+      "in": 319.7,
+      "out": 323.1
+    },
+    {
+      "talk": "t0005.MP4",
+      "in": 341.3,
+      "out": 347.5
+    },
+    {
+      "talk": "t0005.MP4",
+      "in": 352.7,
+      "out": 355.3
+    },
+    {
+      "talk": "t0005.MP4",
+      "in": 362.8,
+      "out": 366.6
+    }
+  ],
+  "fix": [
+    [
+      "Calipe so",
+      "Calypso,"
+    ],
+    [
+      "Calipe",
+      "Calypso"
+    ],
+    [
+      "co -invented",
+      "co-invented"
+    ],
+    [
+      "aqua lung.",
+      "Aqua-Lung."
+    ],
+    [
+      "aqualung.",
+      "Aqua-Lung."
+    ],
+    [
+      "Calipso",
+      "Calypso"
+    ],
+    [
+      "Jack",
+      "Jacques"
+    ],
+    [
+      "got on a car crash",
+      "got in a car crash"
+    ]
+  ],
+  "panels": [
+    {
+      "at": "Jacques",
+      "file": "cou_portrait_1975.jpg",
+      "label": "The man in the red cap"
+    },
+    {
+      "at": "At",
+      "file": "cou_divers_1948.jpg",
+      "label": "Age 26"
+    },
+    {
+      "at": "world knows",
+      "file": "cou_jfk_medal_1961.jpg",
+      "label": "Jacques Cousteau"
+    },
+    {
+      "at": "early",
+      "full": "talk"
+    },
+    {
+      "at": "As a kid",
+      "file": "sunset_beach.MP4",
+      "label": "He wanted to fly",
+      "in": 3.0
+    },
+    {
+      "at": "car crash",
+      "full": "talk"
+    },
+    {
+      "at": "swimming",
+      "file": "swim_crawl.MP4",
+      "label": "The Mediterranean",
+      "in": 36.0
+    },
+    {
+      "at": "changed",
+      "full": "talk"
+    },
+    {
+      "at": "fell",
+      "file": "cou_diver_reef.png",
+      "label": "A world nobody had filmed"
+    },
+    {
+      "at": "few years",
+      "file": "cou_diver_reef.png",
+      "label": "The Aqua-Lung · 1943"
+    },
+    {
+      "at": "sailed",
+      "file": "cou_calypso_1983.jpg",
+      "label": "Calypso"
+    },
+    {
+      "at": "also won",
+      "file": "cou_portrait_1972.jpg",
+      "label": "Palme d'Or · 1956"
+    },
+    {
+      "at": "whole generation",
+      "file": "waterfall_me.MP4",
+      "in": 2.3
+    },
+    {
+      "at": "Life's",
+      "full": "talk"
+    },
+    {
+      "at": "put your face",
+      "full": "swim_crawl.MP4",
+      "in": 38.0
+    },
+    {
+      "at": "wanted the sky",
+      "full": "talk"
+    }
+  ],
+  "end_card": {
+    "at": "Follow",
+    "title": "Lifestyle Legends",
+    "sub": "Next: the climber who ate cat food"
+  }
+}

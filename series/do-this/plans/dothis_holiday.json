@@ -1,0 +1,56 @@
+{
+  "footage": "input/dothis",
+  "captions": {
+    "style": "lower"
+  },
+  "script": "SCRIPTS.md #5 Holidays are a habit",
+  "sequence": [
+    {
+      "talk": "t0017.MP4",
+      "in": 2.95,
+      "out": 5.65
+    },
+    {
+      "talk": "t0017.MP4",
+      "in": 12.0,
+      "out": 15.6
+    },
+    {
+      "talk": "t0017.MP4",
+      "in": 21.35,
+      "out": 23.75
+    },
+    {
+      "talk": "t0017.MP4",
+      "in": 32.35,
+      "out": 33.95
+    },
+    {
+      "talk": "t0017.MP4",
+      "in": 38.3,
+      "out": 41.45
+    }
+  ],
+  "panels": [
+    {
+      "at": "Sit",
+      "full": "breakfast_watermelon.MP4",
+      "in": 0.3
+    },
+    {
+      "at": "Go",
+      "full": "swim_crawl.MP4",
+      "in": 36.5
+    },
+    {
+      "at": "Take",
+      "full": "road.MP4",
+      "in": 5.4
+    },
+    {
+      "at": "tourist",
+      "full": "market.MP4",
+      "in": 2.4
+    }
+  ]
+}

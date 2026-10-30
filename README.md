@@ -52,6 +52,9 @@ python3 edit_legend.py series/lifestyle-legends/plans/cousteau_a_origin.json --d
 - Scripts: `series/lifestyle-legends/SCRIPTS.md` (Cousteau, Chouinard and Hemingway: Origin Story, a 30 s short cut, Guess the Legend and In Their Footsteps, each built line for line on a winning reel, with three hooks per video)
 - Editing breakdown of every reference reel: `series/lifestyle-legends/BREAKDOWNS.md`
 - Put each script's footage in `input/<plan name>/`. The `edit-legend` skill runs the whole thing.
+- Cuts from the real footage (Cousteau, Chouinard and Hemingway origin stories, filmed Oct 27): `series/lifestyle-legends/cuts/`. Each one picks the best take of every line from one long clip. Image credits to paste into the post caption are in `series/lifestyle-legends/CREDITS.md`.
+
+Which Dropbox file each short clip name in these plans comes from: `series/FOOTAGE.md`.
 
 ## What to post (whole account)
 
@@ -63,6 +66,7 @@ The one-line, talk-while-doing-it format behind most of the account's biggest re
 - `series/do-this/ANALYSIS.md`: every 2025–26 reel transcribed and compared, winners vs losers in the format, outside winners from Sandcastles, and the rules
 - `series/do-this/SCRIPTS.md`: 15 talk scripts, 7 text-on-clip posts and 3 oyster ad versions, with a plan to film them all in one morning
 - `series/do-this/data/reels_2025_2026.csv`: one row per reel (link, views, outlier, length, format, first line)
+- `series/do-this/plans/`: edit plans for the eight Do This reels filmed Oct 29, cut with `python3 edit_legend.py series/do-this/plans/<name>.json` (your take plus Costa Rica B-roll, lowercase captions)
 
 ## Publishing (Metricool)
 

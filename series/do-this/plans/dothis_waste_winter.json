@@ -1,0 +1,75 @@
+{
+  "footage": "input/dothis",
+  "captions": {
+    "style": "lower"
+  },
+  "script": "SCRIPTS.md #11 Five ways to waste a winter",
+  "sequence": [
+    {
+      "talk": "t0021.MP4",
+      "in": 0.1,
+      "out": 1.95
+    },
+    {
+      "talk": "t0021.MP4",
+      "in": 8.05,
+      "out": 9.45
+    },
+    {
+      "talk": "t0021.MP4",
+      "in": 12.75,
+      "out": 14.65
+    },
+    {
+      "talk": "t0021.MP4",
+      "in": 15.9,
+      "out": 18.05
+    },
+    {
+      "talk": "t0021.MP4",
+      "in": 22.35,
+      "out": 25.0
+    },
+    {
+      "talk": "t0021.MP4",
+      "in": 27.8,
+      "out": 29.75
+    },
+    {
+      "talk": "t0021.MP4",
+      "in": 31.7,
+      "out": 33.0
+    }
+  ],
+  "fix": [
+    [
+      "The hibernate",
+      "Hibernate"
+    ],
+    [
+      "1 a .m.",
+      "1am."
+    ]
+  ],
+  "panels": [
+    {
+      "at": "Skip",
+      "full": "river_friends.MP4",
+      "in": 14.0
+    },
+    {
+      "at": "Eat",
+      "full": "talk"
+    },
+    {
+      "at": "wait",
+      "full": "swim_crawl.MP4",
+      "in": 36.0
+    },
+    {
+      "at": "Nah",
+      "full": "waterfall_me.MP4",
+      "in": 2.3
+    }
+  ]
+}

@@ -53,10 +53,11 @@ def probe(path):
     return int(vals["width"]), int(vals["height"]), float(vals["duration"])
 
 
-def load_audio(path):
+def load_audio(path, start=0.0, end=None):
     """Decode to 16 kHz mono float32 with ffmpeg (avoids PyAV version clashes)."""
     import numpy as np
-    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", str(path), "-f", "f32le",
+    span = ["-ss", f"{start:.3f}"] + (["-t", f"{end - start:.3f}"] if end else [])
+    raw = subprocess.run(["ffmpeg", "-v", "error", *span, "-i", str(path), "-vn", "-f", "f32le",
                           "-ac", "1", "-ar", "16000", "-"],
                          check=True, capture_output=True).stdout
     return np.frombuffer(raw, np.float32)
@@ -68,20 +69,24 @@ def whisper_model(model_size):
     return WhisperModel(model_size, device="auto", compute_type="int8")
 
 
-def transcribe(path, model_size):
+def transcribe(path, model_size, vad=False, start=0.0, end=None):
+    """vad=True skips non-speech first: steadier word times on long clips
+    with several takes, but it can drop quiet fillers. start/end transcribe
+    just that part of the file (times stay in the file's clock)."""
     model = whisper_model(model_size)
-    segments, _ = model.transcribe(load_audio(path), word_timestamps=True,
-                                   vad_filter=False,
+    segments, _ = model.transcribe(load_audio(path, start, end), word_timestamps=True,
+                                   vad_filter=vad,
                                    initial_prompt="Um, uh, so, like, I mean...")
     words = []
     for seg in segments:
         for w in seg.words:
-            words.append({"text": w.word.strip(), "start": w.start, "end": w.end})
+            words.append({"text": w.word.strip(), "start": start + w.start,
+                          "end": start + w.end})
     return words
 
 
 def norm(text):
-    return re.sub(r"[^a-z0-9']", "", text.lower())
+    return re.sub(r"[^a-z0-9']", "", text.lower().replace("\u2019", "'"))
 
 
 def mark_mistakes(words):

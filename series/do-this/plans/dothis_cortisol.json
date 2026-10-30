@@ -1,0 +1,45 @@
+{
+  "footage": "input/dothis",
+  "captions": {
+    "style": "lower"
+  },
+  "script": "SCRIPTS.md #6 My favorite cortisol supplement",
+  "sequence": [
+    {
+      "talk": "t0018.MP4",
+      "in": 0.0,
+      "out": 2.95
+    },
+    {
+      "talk": "t0018.MP4",
+      "in": 10.8,
+      "out": 12.4
+    },
+    {
+      "talk": "t0018.MP4",
+      "in": 18.55,
+      "out": 21.6
+    },
+    {
+      "talk": "t0018.MP4",
+      "in": 36.35,
+      "out": 40.55
+    }
+  ],
+  "panels": [
+    {
+      "at": "orange",
+      "full": "sunset_waves.MP4",
+      "in": 0.8
+    },
+    {
+      "at": "couple",
+      "full": "river_friends.MP4",
+      "in": 18.0
+    },
+    {
+      "at": "Follow",
+      "full": "talk"
+    }
+  ]
+}

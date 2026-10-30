@@ -1,0 +1,25 @@
+{
+  "footage": "input/dothis",
+  "captions": {
+    "style": "lower"
+  },
+  "script": "SCRIPTS.md #4 Let's all",
+  "sequence": [
+    {
+      "talk": "t0015.MP4",
+      "in": 0.3,
+      "out": 12.0
+    }
+  ],
+  "panels": [
+    {
+      "at": "cold",
+      "full": "sunset_beach.MP4",
+      "in": 1.0
+    },
+    {
+      "at": "Let's#3",
+      "full": "talk"
+    }
+  ]
+}
