@@ -70,3 +70,13 @@ Day in the life and bar v3 were first saved as drafts, then switched live after 
 | TikTok | Video | 2026-10-30 00:35 ET | 410810300 | -7123476781473706737 | https://app.metricool.com/planner/calendar?blogId=6537632&openWithPostUuid=-7123476781473706737 |
 | Facebook | Reel | 2026-10-30 00:35 ET | 410809610 | 4596574665962571505 | https://app.metricool.com/planner/calendar?blogId=6537632&openWithPostUuid=4596574665962571505 |
 | YouTube | Short | 2026-10-30 00:35 ET | 410809670 | 7713095716602728008 | https://app.metricool.com/planner/calendar?blogId=6537632&openWithPostUuid=7713095716602728008 |
+
+**2026-10-30 08:50 ET:** Anton approved Cortisol supplement v2 (`output/larp/06_cortisol_supplement_0018.mp4`): Instagram trial reel + TikTok, Facebook, YouTube Shorts on Anton Roggo.
+| Platform | Type | Published / publishes at | Post id | uuid | Link |
+|---|---|---|---|---|---|
+| Instagram | Trial reel | 2026-10-30 09:01 ET (published) | 411182143 | -5008104231980871870 | https://www.instagram.com/reel/DfHpky1j2Bu/ |
+| TikTok | Video | 2026-10-30 09:01 ET (published) | 411182331 | 4527303927998664500 | https://www.tiktok.com/@antonroggo/video/7702446480975482133 |
+| Facebook | Reel | 2026-10-30 09:01 ET (published) | 411183992 | 4513710359613034048 | https://facebook.com/reel/4499115913738079 |
+| YouTube | Short | 2026-10-30 09:37 ET (first try rejected: time had passed) | 411229134 | 5794432188284357644 | https://app.metricool.com/planner/calendar?blogId=6537632&openWithPostUuid=5794432188284357644 |
+
+Instagram, TikTok and Facebook went out with the earlier caption ("My favorite cortisol supplement..."). Anton then set the standard caption for all videos: "I’m building a group chat for people who’d rather be outside. Comment “nature” to get in 🌲" (now `caption.default_text` in config.json); the YouTube post was updated to it before publishing.

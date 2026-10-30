@@ -13,9 +13,10 @@
     "delay_minutes": 10
   },
   "caption": {
-    "style": "Short hook line from the video, one sentence of value, then a call to action.",
+    "style": "Use caption.default_text exactly, for every video (Anton, 2026-10-30). YouTube still needs its own title from the video's hook.",
     "hashtags": [],
-    "max_hashtags": 5
+    "max_hashtags": 5,
+    "default_text": "I’m building a group chat for people who’d rather be outside. Comment “nature” to get in 🌲"
   },
   "youtube": {
     "made_for_kids": false
