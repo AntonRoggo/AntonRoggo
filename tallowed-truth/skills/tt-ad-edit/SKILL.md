@@ -16,7 +16,8 @@ your first edit.
 - Pop-up material for the proof moments: customer photos or clips, review screenshots or a screen recording of
   the reviews page. Find them with the brain: `testimonials/README.md`, `reviews/`, and
   `tools/review_card.py` for a review that has no screenshot yet.
-- Fonts: Proxima Nova Semibold (captions), Proxima Nova Extrabold and Bold (banner).
+- Fonts: Proxima Nova Semibold (captions), Proxima Nova Extrabold and Bold (banner). The Semibold is in
+  Dropbox `/[04] Video Editing Resources/fonts/`; put it in `fonts/` at the repo root (git-ignored).
 
 ## How to run an edit (creator footage in, edit out)
 
@@ -160,6 +161,17 @@ ffmpeg overlay for one pop-up (S = start, E = end, in seconds):
 
 - An immediate repeat isn't always a stutter. Read the cut-words list on every edit and restore deliberate
   repeats.
+
+- **Check a story video against the real review before cutting it** (Pat's four authority stories, Oct 2026).
+  Creators retell customer stories from memory and drift: a wrong name ("Jill" for Shari W.), a made-up
+  timeline ("three months, every day" for "a month"), lines the customer never wrote, or two reviews merged
+  into one. Find the review in `reviews/reviews.csv` (or `reviews/stories/`), then `--cut` every wrong name,
+  number or invented line; keep the scene if the core is true. If too much is invented to cut around, don't
+  edit that take: ask for a reshoot from the real review.
+
+- **Crop tall B-roll to the subject before using it as a pop-up.** A vertical clip shrunk into the caption
+  zone is mostly background (the tin ends up at the bottom of a strip of curtain). Cut a short square crop
+  around the subject with ffmpeg first, then use it at `"width": 0.6`.
 
 ## Not known yet (v1)
 
