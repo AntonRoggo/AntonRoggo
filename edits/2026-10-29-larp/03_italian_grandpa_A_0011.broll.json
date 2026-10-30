@@ -12,10 +12,10 @@
   "clip_in": 3.0
  },
  {
-  "file": "input/larp/italy/haul_110052.mov",
+  "file": "input/larp/broll/market_tents_talk.mov",
   "start_at": "shopping",
   "end_at": "hit an",
-  "clip_in": 0.0
+  "clip_in": 1.5
  },
  {
   "file": "input/larp/broll/hands_behind_back_lane.mov",
