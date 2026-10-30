@@ -169,7 +169,7 @@ def mark_mistakes(words):
 
 
 def detect_silences(path, duration):
-    err = subprocess.run(["ffmpeg", "-hide_banner", "-i", str(path), "-af",
+    err = subprocess.run(["ffmpeg", "-hide_banner", "-i", str(path), "-vn", "-af",
                           f"silencedetect=noise={SILENCE_DB}dB:d={MAX_SILENCE}",
                           "-f", "null", "-"], text=True,
                          capture_output=True).stderr

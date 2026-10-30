@@ -1,0 +1,26 @@
+[
+ {
+  "file": "input/larp/broll/slurping_oysters_park.mov",
+  "start": 3.81,
+  "end": 5.7,
+  "clip_in": 0.0
+ },
+ {
+  "file": "input/larp/broll/running_into_sea.mov",
+  "start": 5.7,
+  "end": 7.25,
+  "clip_in": 0.3
+ },
+ {
+  "file": "input/larp/broll/dancing_festival.mov",
+  "start": 7.25,
+  "end": 9.58,
+  "clip_in": 1.0
+ },
+ {
+  "file": "input/larp/broll/walking_past_bar.mov",
+  "start": 9.58,
+  "end": 11.82,
+  "clip_in": 3.5
+ }
+]

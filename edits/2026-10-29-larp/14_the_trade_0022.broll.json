@@ -1,0 +1,26 @@
+[
+ {
+  "file": "input/larp/broll/swim_lake_ontario.mp4",
+  "start": 4.01,
+  "end": 5.22,
+  "clip_in": 26.5
+ },
+ {
+  "file": "input/larp/broll/oj_sunbed.mov",
+  "start": 5.22,
+  "end": 7.11,
+  "clip_in": 0.0
+ },
+ {
+  "file": "input/larp/broll/oyster_party_table.mov",
+  "start": 7.11,
+  "end": 8.84,
+  "clip_in": 0.0
+ },
+ {
+  "file": "input/larp/broll/oyster_picnic_toast.mov",
+  "start": 8.84,
+  "end": 10.8,
+  "clip_in": 1.5
+ }
+]

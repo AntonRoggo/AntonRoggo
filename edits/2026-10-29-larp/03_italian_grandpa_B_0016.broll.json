@@ -1,0 +1,26 @@
+[
+ {
+  "file": "input/larp/broll/gelato_backgammon.mov",
+  "start": 4.21,
+  "end": 5.76,
+  "clip_in": 1.0
+ },
+ {
+  "file": "input/larp/broll/seafood_dinner_friends.mov",
+  "start": 5.76,
+  "end": 7.44,
+  "clip_in": 3.0
+ },
+ {
+  "file": "input/larp/broll/farmers_market.mov",
+  "start": 7.44,
+  "end": 9.37,
+  "clip_in": 3.0
+ },
+ {
+  "file": "input/larp/broll/hands_behind_back_lane.mov",
+  "start": 9.37,
+  "end": 11.49,
+  "clip_in": 0.0
+ }
+]

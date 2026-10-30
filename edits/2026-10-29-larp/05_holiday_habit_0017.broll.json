@@ -1,0 +1,20 @@
+[
+ {
+  "file": "input/larp/broll/croissant_cafe.mov",
+  "start": 6.37,
+  "end": 8.94,
+  "clip_in": 2.5
+ },
+ {
+  "file": "input/larp/broll/swim_lake_ontario.mp4",
+  "start": 8.94,
+  "end": 10.96,
+  "clip_in": 26.0
+ },
+ {
+  "file": "input/larp/broll/walking_down_street.mov",
+  "start": 10.96,
+  "end": 12.17,
+  "clip_in": 0.5
+ }
+]

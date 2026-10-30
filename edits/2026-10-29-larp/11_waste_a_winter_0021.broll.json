@@ -1,0 +1,26 @@
+[
+ {
+  "file": "input/larp/broll/waking_hotel_bed.mov",
+  "start": 3.51,
+  "end": 5.47,
+  "clip_in": 0.0
+ },
+ {
+  "file": "input/larp/broll/sauna_woods.mov",
+  "start": 5.47,
+  "end": 6.57,
+  "clip_in": 0.0
+ },
+ {
+  "file": "input/larp/broll/long_table_dinner.mov",
+  "start": 6.57,
+  "end": 8.07,
+  "clip_in": 0.0
+ },
+ {
+  "file": "input/larp/broll/laptop_outdoors.mov",
+  "start": 8.07,
+  "end": 10.81,
+  "clip_in": 0.0
+ }
+]

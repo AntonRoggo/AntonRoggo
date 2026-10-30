@@ -1,0 +1,26 @@
+[
+ {
+  "file": "input/larp/broll/gelato_backgammon.mov",
+  "start_at": "affogatos",
+  "end_at": "two hour",
+  "clip_in": 1.0
+ },
+ {
+  "file": "input/larp/broll/seafood_dinner_friends.mov",
+  "start_at": "two hour",
+  "end_at": "shopping",
+  "clip_in": 3.0
+ },
+ {
+  "file": "input/larp/broll/farmers_market.mov",
+  "start_at": "shopping",
+  "end_at": "hit an",
+  "clip_in": 3.0
+ },
+ {
+  "file": "input/larp/broll/hands_behind_back_lane.mov",
+  "start_at": "hit an",
+  "end_at": "and be",
+  "clip_in": 0.0
+ }
+]

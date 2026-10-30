@@ -1,0 +1,14 @@
+[
+ {
+  "file": "input/larp/broll/sunset_beach_walk.mov",
+  "start": 3.15,
+  "end": 4.95,
+  "clip_in": 0.0
+ },
+ {
+  "file": "input/larp/broll/sunset_lawn.mov",
+  "start": 6.86,
+  "end": 8.78,
+  "clip_in": 0.0
+ }
+]
