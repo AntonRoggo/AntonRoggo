@@ -1,26 +1,26 @@
 [
  {
-  "file": "input/larp/broll/swim_lake_ontario.mp4",
-  "start": 4.01,
-  "end": 5.22,
-  "clip_in": 26.5
+  "file": "input/larp/broll/friends_waterfall_rio.mov",
+  "start_at": "just swimming",
+  "end_at": "having orange",
+  "clip_in": 0.5
  },
  {
   "file": "input/larp/broll/oj_sunbed.mov",
-  "start": 5.22,
-  "end": 7.11,
+  "start_at": "having orange",
+  "end_at": "cheeky oysters",
   "clip_in": 0.0
  },
  {
-  "file": "input/larp/broll/oyster_party_table.mov",
-  "start": 7.11,
-  "end": 8.84,
-  "clip_in": 0.0
+  "file": "input/larp/broll/eating_oysters_patio.mov",
+  "start_at": "cheeky oysters",
+  "end_at": "and friends",
+  "clip_in": 18.6
  },
  {
-  "file": "input/larp/broll/oyster_picnic_toast.mov",
-  "start": 8.84,
-  "end": 10.8,
+  "file": "input/larp/broll/friends_beach_sunset_rio.mov",
+  "start_at": "and friends",
+  "end_at": "END",
   "clip_in": 1.5
  }
 ]

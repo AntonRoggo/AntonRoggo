@@ -249,6 +249,19 @@ def clamp_to_words(keep, kept):
     return out
 
 
+def report_joins(keep, path, limit=0.35):
+    """Print every join where the silence (end of one clip + start of the next, minus the
+    audio overlap) is longer than `limit`: a pause Anton will hear at the cut."""
+    talking, step = speech_mask(path)
+    def speech(a, b):
+        return [i * step for i in range(int(a / step), min(int(b / step), len(talking))) if talking[i]]
+    for (a0, b0), (a1, b1) in zip(keep, keep[1:]):
+        e, n = speech(a0, b0), speech(a1, b1)
+        gap = (b0 - (e[-1] + step) if e else 0) + (n[0] - a1 if n else 0) - AUDIO_OVERLAP
+        if gap > limit:
+            print(f"WARNING: {gap:.2f}s pause at the cut {b0:.2f} -> {a1:.2f} (source time)")
+
+
 def cut_pauses(keep, pauses):
     """Remove pauses from the kept ranges, leaving PAD_OUT after speech and PAD_IN before it."""
     return subtract(keep, [(a + PAD_OUT - PAD, b - PAD_IN + PAD) for a, b in pauses])
@@ -890,6 +903,7 @@ def main():
         keep = [(a, min(b, args.end)) for a, b in keep if a < args.end]
         keep[-1] = (keep[-1][0], min(args.end, duration))
 
+    report_joins(keep, args.input)
     removed = [words[i]["text"] for i in sorted(drop)]
     print(f"Dropped {len(removed)} mistake/filler words: {' '.join(removed)}")
     print(f"Silences > {MAX_SILENCE}s found: {len(silences)}")

@@ -1,26 +1,26 @@
 [
  {
-  "file": "input/larp/broll/gelato_backgammon.mov",
-  "start": 4.21,
-  "end": 5.76,
-  "clip_in": 1.0
+  "file": "input/larp/italy/aff_110356.mov",
+  "start_at": "affogatos",
+  "end_at": "two hour",
+  "clip_in": 4.3
  },
  {
   "file": "input/larp/broll/seafood_dinner_friends.mov",
-  "start": 5.76,
-  "end": 7.44,
+  "start_at": "two hour",
+  "end_at": "shopping",
   "clip_in": 3.0
  },
  {
-  "file": "input/larp/broll/farmers_market.mov",
-  "start": 7.44,
-  "end": 9.37,
-  "clip_in": 3.0
+  "file": "input/larp/italy/haul_110052.mov",
+  "start_at": "shopping",
+  "end_at": "an evening",
+  "clip_in": 0.0
  },
  {
   "file": "input/larp/broll/hands_behind_back_lane.mov",
-  "start": 9.37,
-  "end": 11.49,
+  "start_at": "an evening",
+  "end_at": "and then",
   "clip_in": 0.0
  }
 ]

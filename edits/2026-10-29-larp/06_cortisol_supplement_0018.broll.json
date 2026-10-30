@@ -1,14 +1,21 @@
 [
  {
+  "file": "input/larp/broll/slurping_oysters_park.mov",
+  "start_at": "a dozen",
+  "end_at": "some orange",
+  "clip_in": 0.0,
+  "in_hook": true
+ },
+ {
   "file": "input/larp/broll/oj_sunbed.mov",
-  "start": 3.19,
-  "end": 5.1,
+  "start_at": "some orange",
+  "end_at": "and a couple",
   "clip_in": 0.0
  },
  {
   "file": "input/larp/broll/oyster_picnic_toast.mov",
-  "start": 5.1,
-  "end": 8.03,
+  "start_at": "and a couple",
+  "end_at": "follow this",
   "clip_in": 1.5
  }
 ]

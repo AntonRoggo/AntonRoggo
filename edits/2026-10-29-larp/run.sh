@@ -10,7 +10,7 @@ run(){ name=$1; shift; [ "$ONLY" != "  " ] && [[ "$ONLY" != *" $name "* ]] && re
   python3 edit_video.py "$@" "${mb[@]}" "${EXTRA[@]}" -o $O/$name.mp4 2>&1 | grep -v -i "warn\|hf_token"; }
 GRANDPA="The goal this winter is to be as close to a retired Italian grandpa as possible. Affogatos for breakfast. Two-hour lunch with the boys. Shopping at the farmers market. Evening walk with your hands behind your back. In bed by ten."
 LETS="Let's all keep watching reels in bed with the brightness on max. Let's hit snooze four times because it's too cold to see the sunrise. Let's all eat lunch at our desk and be exhausted. Who's with me?"
-run 03_italian_grandpa_A_0011 input/larp/clean/0011.mp4 --hint "$GRANDPA" --drop 13.9-16.3 --drop 24.0-27.0 --keep 1.8-2.0
+run 03_italian_grandpa_A_0011 input/larp/clean/0011.mp4 --hint "$GRANDPA" --drop 13.9-16.3 --drop 24.0-27.0 --fix "5.6-6.8=possible@5.70-6.24"
 run 03_italian_grandpa_B_0016 $I/0016.mp4 --hint "$GRANDPA" --fix "0-6.5=The@5.68-6.20 goal@6.20-6.46" --drop 27.4-29.9
 run 04_lets_all_A_0012 $I/0012.mp4 --hint "$LETS" --fix "0-0.9=Let's@0.46-0.72 all@0.74-0.9" --cut 0-0.28
 run 04_lets_all_B_0014 $I/0014.mp4 --hint "$LETS" --drop 0-34.0 --drop 41.0-42.6 --end 45.2

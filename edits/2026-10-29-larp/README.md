@@ -15,3 +15,12 @@ Source: Dropbox `/[01] Clients/[03] Anton/Short Form/Larp Clips Oct 29` (DJI 4K,
 | 14_the_trade | 0022 | 14. The trade | Meant as a stitch: stitch it onto a flex video in-app. |
 
 0013 is a 1.6 s accidental shot of a table: not used.
+
+## v2 (Anton's feedback, 2026-10-30)
+
+- Let's all C approved and scheduled (Instagram trial reel + TikTok, Facebook, YouTube Shorts); see `publishing/log.md`.
+- Italian grandpa A/B: real affogato (Italy café, `italy/affagato`), Anton in the Italian market (`italy/grocery haul`) instead of a stranger at a Brazil market; A re-transcribed from the cleaned audio and the tail after "possible" removed (no pause before the song).
+- Cortisol: song and B-roll come in on "a dozen oysters" (his most-used oyster shot, park table).
+- Old people: Anton at dusk on the Baltic beach for the evening walk (the old clip was someone else), face for "call your mama", Brazil sunset run from "go to bed" to the end.
+- Five ways to waste a winter: B-roll from #1 (bed), phone in bed at night, indoor laptop for "desk inside", Cotswolds stream for spring, back to face for "nah, we ain't doing that".
+- The trade: boys at the Rio waterfall, Anton eating oysters, Rio beach group at sunset.
