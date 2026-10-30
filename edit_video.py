@@ -232,6 +232,23 @@ def trim_to_speech(keep, path):
     return out
 
 
+def clamp_to_words(keep, kept):
+    """Never let a clip run more than PAD_OUT past its last word (or start more than PAD_IN
+    before its first). On noisy takes (wind, insects) the speech detector hears 'speech' in the
+    background and leaves a silent tail on the clip, which plays as a pause at the cut."""
+    out = []
+    for a, b in keep:
+        inside = [w for w in kept if a <= (w["start"] + w["end"]) / 2 <= b]
+        if inside:
+            last = inside[-1]
+            letters = len(re.sub(r"[^a-zA-Z]", "", last["text"]))
+            end = min(last["end"], last["start"] + 0.25 + 0.09 * letters)  # natural length, as in timed_words
+            a, b = max(a, inside[0]["start"] - PAD_IN), min(b, end + PAD_OUT)
+        if b - a > 0.1:
+            out.append((a, b))
+    return out
+
+
 def cut_pauses(keep, pauses):
     """Remove pauses from the kept ranges, leaving PAD_OUT after speech and PAD_IN before it."""
     return subtract(keep, [(a + PAD_OUT - PAD, b - PAD_IN + PAD) for a, b in pauses])
@@ -856,7 +873,7 @@ def main():
     silences = detect_silences(args.input, duration)
     keep, kept = build_keep(words, drop, silences, duration)
     pauses = detect_pauses(args.input)
-    keep = trim_to_speech(cut_pauses(keep, pauses), args.input)
+    keep = clamp_to_words(trim_to_speech(cut_pauses(keep, pauses), args.input), kept)
     print(f"Pauses > {MAX_PAUSE}s cut: {len(pauses)}")
     forced = [tuple(float(v) for v in r.split("-")) for r in args.keep]
     if forced:
