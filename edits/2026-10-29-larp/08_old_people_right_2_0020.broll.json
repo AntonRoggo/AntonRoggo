@@ -1,9 +1,9 @@
 [
  {
-  "file": "input/larp/broll/beach_dusk_baltic.mov",
+  "file": "input/larp/v3/uk_rocks_stormy.mov",
   "start_at": "hit an",
   "end_at": "call your",
-  "clip_in": 5.5
+  "clip_in": 0.0
  },
  {
   "file": "input/larp/broll/running_ocean_sunset.mov",
