@@ -63,6 +63,8 @@ Which Dropbox file each short clip name in these plans comes from: `series/FOOTA
 
 `account/STRATEGY.md` covers all 583 reels: topics ranked, what to double down on and stop, and a 12-week plan with no restrictions. The per-reel table, with topic tags, is `account/data/all_reels.csv`.
 
+`account/ADJACENT_IDEAS.md` has 9 next-door formats from Sandcastles 10× outliers (cinematic one-liners, nervous-system explainers, real food vs modern food, country reveals and more), each matched to footage already in Dropbox, with what to make first.
+
 ## "Do This" reels (quick format)
 
 The one-line, talk-while-doing-it format behind most of the account's biggest reels:
