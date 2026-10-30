@@ -1,9 +1,10 @@
 [
  {
   "file": "input/larp/v4/seaside_rocks_fruit.mov",
-  "start_at": "out the lifestyle",
+  "start_at": "you need",
   "end_at": "the work later",
-  "clip_in": 11.0
+  "clip_in": 10.0,
+  "in_hook": true
  },
  {
   "file": "input/larp/v4/laptop_garden_chair.mov",
@@ -24,9 +25,9 @@
   "clip_in": 1.3
  },
  {
-  "file": "input/larp/v4/riverside_icecream.mov",
+  "file": "input/larp/v4/bike_selfie_leafy.mp4",
   "start_at": "take the",
   "end_at": "you gotta",
-  "clip_in": 2.0
+  "clip_in": 0.0
  }
 ]

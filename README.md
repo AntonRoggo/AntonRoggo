@@ -11,7 +11,7 @@
 ## B-roll
 
 The first run writes `output/<name>_edited.timeline.json` (the words with their times after cuts). Pick clips from `broll/catalog.json` / `broll/action.json`, download them to `input/broll/`, write a plan like
-`[{"file": "input/broll/oj.mov", "start": 3.2, "end": 5.0, "clip_in": 1.5}]` and run again with `--broll plan.json`. Clips are scaled to fill the frame; captions stay on top.
+`[{"file": "input/broll/oj.mov", "start": 3.2, "end": 5.0, "clip_in": 1.5}]` and run again with `--broll plan.json`. Clips are scaled to fill the frame; captions stay on top. On a horizontal clip, `"x": 0.2` moves the vertical crop toward the left (0 = left edge, 0.5 = centre, 1 = right) to keep him in frame.
 
 ## Setup
 

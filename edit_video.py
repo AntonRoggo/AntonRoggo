@@ -677,10 +677,11 @@ def broll_filters(plan, width, height, first_input, fps, total):
         else:
             n = first_input + bi
             cin = b.get("clip_in", 0)
+            x = b.get("x", 0.5)  # horizontal crop position (0 = left edge, 1 = right): keeps him in frame on wide clips
             chain.append(f"[{n}:v]{hdr_to_sdr(b['file'])}trim=start={cin:.3f},setpts=PTS-STARTPTS,fps={fps:.6f},"
                          f"tpad=stop_mode=clone:stop_duration=2,"
                          f"scale={width}:{height}:force_original_aspect_ratio=increase,"
-                         f"crop={width}:{height},setsar=1,"
+                         f"crop={width}:{height}:(iw-ow)*{x:.3f}:(ih-oh)/2,setsar=1,"
                          f"trim=end_frame={e - s},setpts=PTS-STARTPTS[p{bi}b];")
             labels += f"[p{bi}b]"
             bi += 1

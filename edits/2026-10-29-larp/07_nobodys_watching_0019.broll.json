@@ -1,7 +1,7 @@
 [
  {
   "file": "input/larp/broll/slurping_oysters_park.mov",
-  "start_at": "eating a dozen",
+  "start_at": "a dozen",
   "end_at": "nobodys watching",
   "clip_in": 0.0,
   "in_hook": true
@@ -13,15 +13,10 @@
   "clip_in": 0.0
  },
  {
-  "file": "input/larp/broll/dancing_festival.mov",
+  "file": "input/larp/v4/salsa_spin.mov",
   "start_at": "you could dance",
   "end_at": "talk to",
-  "clip_in": 1.0
- },
- {
-  "file": "input/larp/v4/hosting_oyster_party.mov",
-  "start_at": "talk to",
-  "end_at": "no one",
-  "clip_in": 1.0
+  "clip_in": 5.0,
+  "x": 0.18
  }
 ]
