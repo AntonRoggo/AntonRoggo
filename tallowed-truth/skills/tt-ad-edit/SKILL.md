@@ -216,6 +216,19 @@ ffmpeg overlay for one pop-up (S = start, E = end, in seconds):
   if the story still holds without it; otherwise keep what he says (Anton: the review on screen is the proof).
   Never splice inside a sentence to remove a detail. If too much is invented, ask for a reshoot.
 
+- **Several full takes, each with a different hook** (Chantel's great-grandma script, V1-V6, Oct 2026): each
+  take is a whole ad, so they can become a hook test. Cut the strongest first, judged by
+  `rules/tos-hook-rules.md` (V4: a third party plus an age, "People at the doctor's office think my
+  great-grandma is in her 70s"), and skip takes with a medical claim (four of six say F-Balm "cleared up my
+  adult acne"; keep that out of ads). Her own B-roll and photos (the great-grandma's birthday photo) are the
+  best proof: pop them up on the line they prove.
+
+- **Words run together.** Where there's no gap between a kept word and a dropped one ("routine? It is— your
+  skin", "you know, over— over 20,000"), the transcriber still "hears" a word that's been clipped, so the ear
+  test alone cuts into words. The tool ends at the quietest point just after the word and flags the edge;
+  often the better fix is to drop one more word so the cut lands in a real pause ("you know," went with the
+  first "over 20,000"), or keep the stumble.
+
 - **Crop tall B-roll to the subject before using it as a pop-up.** A vertical clip shrunk into the caption
   zone is mostly background (the tin ends up at the bottom of a strip of curtain). Cut a short square crop
   around the subject with ffmpeg first, then use it at `"width": 0.6`.
