@@ -57,29 +57,40 @@ plus "link below" with a point down.
 
 ## Cutting
 
-Approved by Anton after Pat's esthetician edit (Oct 30 2026), where the automatic cutter made 23 cuts, most of
-them mid-sentence, on breaths, or removing nothing.
+From Anton's feedback on Pat's esthetician edits (Oct 30 2026): v1's automatic cutter made 23 cuts, most of them
+mid-sentence, on breaths, or removing nothing; v2 kept every pause and stumble. The aim is tight and clean: cut
+his thinking and his stumbles, never his words.
 
-1. **The sentence is the unit.** Cuts go between whole sentences, never inside one. Every kept sentence is
-   finished; we never cut while he's speaking.
-2. **Choose sentences, don't trim words.** Go through the sentence list against the script: keep or drop each
-   one, with a reason (the best take, a false start, an aside, a wrong fact). When he messes up a sentence and
-   says it again, drop the messed-up one and keep his redo. With no clean redo, keep it, or flag a reshoot. A
-   sentence with a wrong fact comes out whole or stays; never splice around the fact.
-3. **Pauses inside a sentence stay**, and so do pauses up to 0.7 s between sentences. Only silence over 0.7 s
-   between two kept sentences is cut.
-4. **A shot never opens on a breath.** It starts on the first word's sound (measured from the audio, not the
-   transcript) and never reaches back into the word before it.
-5. **No pointless cuts.** No cut that removes under 0.3 s, no shot under 1.5 s. A good continuous take stays
-   continuous.
-6. **Nothing is cut automatically.** The repeat/filler detector only suggests; check each one against the
-   script. A repeat is often deliberate.
-7. **Hard cuts only**, with the usual J-cut (`AUDIO_OVERLAP` 0.1 s, `J_CUT` 0.1 s). First word on frame 1, the
-   video ends 0.2 s after the last word.
-8. **Product in shot.** The tin in hand for most of it, held to the lens for the offer (that's filming; flag it
+1. **Never cut while he's speaking.** Every cut sits in a real silence or between two whole words, and every
+   kept sentence or phrase is finished.
+2. **Choose the best take of every line.** Drop:
+   - false starts and lines where he loses his train of thought and it goes nowhere ("This is a story..."),
+   - restarts inside a line: keep the complete take ("over 20,000 five-star reviews, over 20,000 five-star
+     reviews on this product" -> keep the second, it completes the sentence),
+   - fluff while he finds his words ("It is more, you know, they're, they're using cheap tallow" -> straight
+     to "they're using cheap tallow"),
+   - stutters ("I thought, I thought" -> "I thought").
+   A sentence with a wrong fact comes out whole or stays. Record a reason for every drop.
+3. **Cut his thinking pauses.** A pause of 0.45 s or more at a phrase break (after a full stop or comma, or
+   before "and", "so", "because"...) is him thinking: cut it ("...never been to the spa before [pause] and so
+   she goes in"). Pauses inside a phrase stay, and so do short ones.
+4. **The video starts on his first word** (frame 1 is him talking) and **no shot opens on a breath or a
+   silence**: each starts 0.1 s before the first word's sound (soft "h"/"f" starts are quiet), never reaching
+   back into a dropped word.
+5. **No pointless cuts.** No cut that removes under 0.3 s, no shot under 1.5 s.
+6. **The detector only suggests.** Repeats can be deliberate; check each one. If he runs two words together
+   with no gap (Pat's "writes it down-she's like"), no clean cut exists: keep both or drop the whole line.
+7. **Hear every cut before rendering.** The plan plays each shot's end and the next shot's start on their own
+   (`Cut check`). A "BAD" can be the transcriber mishearing a clipped edge; confirm by ear.
+8. **Hard cuts only**, with the usual J-cut (`AUDIO_OVERLAP` 0.1 s, `J_CUT` 0.1 s). The video ends 0.2 s after
+   the last word.
+9. **Product in shot.** The tin in hand for most of it, held to the lens for the offer (that's filming; flag it
    to the creator if it's missing).
-9. **Length.** Whatever the kept sentences make. The founder ad is 64 s; a told story runs longer. Shorten by
-   dropping whole sentences, never by trimming inside them.
+10. **Length.** Whatever the kept lines make. Shorten by dropping whole lines.
+
+Tool: `--drop-sentence 0,2,3` for whole lines, `--drop-words "27:over 20 ,000 five star reviews,"` for a phrase
+inside line 27 (its first occurrence), thinking pauses automatically. iPhone files often have the sound start up
+to 0.7 s after the picture; the engine corrects for it (`av_offset`), which is why v1's cuts all landed early.
 
 ## Captions
 
@@ -106,10 +117,11 @@ of the line box, which sits about 15 px below the baseline at 70 px). Check it o
 ## Text-on-screen hook (first 4 s)
 
 - **The words follow `rules/tos-hook-rules.md`:** 3-7 words, under 35 characters, a third party plus an exact
-  age or number, ending in a colon for a story ("Esthetician shocked by 64 year old's skin:"). It must not
+  age or number ("Esthetician shocked by 64 year old's skin"). **No colon or other punctuation on screen**
+  (Anton, Oct 30 2026; this overrides the colon rule in the hook file). It must not
   repeat what the speaker says. Never a generic label ("REAL CUSTOMER STORY") and never the "OFFICIAL
   STATEMENT / from The Tallowed Truth Founder" shape (the us-vs-them pattern, highest CPAs) for a story ad.
-- **Above his head**, around the forehead, so it never covers his face or the captions: black Proxima Nova
+- **Above his head**, around the forehead, so it never covers his mouth or the captions: black Proxima Nova
   Semibold on a white rounded box, one line (two if it must wrap). The tool finds the face and places it.
 - On from frame 1 for 4 s. **No pop-up starts before it ends.**
 
@@ -117,7 +129,9 @@ of the line box, which sits about 15 px below the baseline at 70 px). Check it o
 
 - **Timing:** each pop-up starts on a cut (or within 0.1 s of it), fades in over 0.3 s (a slight blur on the way
   in is fine) and ends with a hard cut. Length 2-8 s.
-- **Place:** centred on the caption zone (y about 1050-1400), so the viewer's eye doesn't move.
+- **Place: never over his mouth.** Below his chin if there's room, else above his eyebrows (covering the
+  forehead is fine), shrunk to fit if neither has room. The tool finds his face over the whole pop-up and
+  places each one. This goes for every pop-up: reviews, B-roll, the hook.
 - **Content matches the words.** When the speaker says people get results, show real people; when they say
   "the reviews say...", scroll the real reviews while they read them out.
 - **Kinds used in the winner:**
@@ -136,7 +150,8 @@ of the line box, which sits about 15 px below the baseline at 70 px). Check it o
   - Quality, "we make it ourselves", premium ingredients: the open golden tins laid out in the factory
     (Anton's favourite).
   - Never the nozzle filling a tin.
-  - All B-roll pop-ups the same size and shape: square crops of the subject at `"width": 0.6`.
+  - All B-roll pop-ups the same size and shape: tight square crops of the subject (crop the original
+    tighter if needed) at `"width": 0.42`. 0.6 was too big.
 - Review cards (`tools/review_card.py`) and before/afters from `testimonials/` follow the same rules.
 - Quote reviews word for word, and only show a customer's photo with their own review.
 
@@ -170,7 +185,9 @@ ffmpeg overlay for one pop-up (S = start, E = end, in seconds):
 - [ ] Every dropped sentence has a reason in the cut list sent to Anton.
 - [ ] Captions: Proxima Nova Semibold 70 px, white, 4 px outline + shadow, lowercase, apostrophes only,
       3-4 words, new caption per sentence, up as he starts the word, none under pop-ups, brand words right.
-- [ ] Text-on-screen hook passes `rules/tos-hook-rules.md`, sits above his head, up for 4 s, not cut off.
+- [ ] Frame 1 is him talking; every stumble, restart and thinking pause at a phrase break is cut.
+- [ ] Text-on-screen hook passes `rules/tos-hook-rules.md` (no punctuation), sits above his head, up 4 s.
+- [ ] No pop-up covers his mouth.
 - [ ] Every pop-up fades in 0.3 s, sits on the caption zone, shows what's being said at that moment, and
       matches the B-roll list above. The review pops up only on "review"/"message", main point highlighted.
 - [ ] Product visible in most shots; held to the lens for the offer.

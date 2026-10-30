@@ -47,10 +47,11 @@ sys.path.insert(0, str(HERE))
 import edit_video as ev  # noqa: E402
 
 # --- TTT house style (from the founder confession, FBA1400B) -----------------------------------
-MAX_GAP = 0.7          # silence between two kept sentences longer than this is cut; pauses inside a sentence always stay
+THINK_PAUSE = 0.45     # a pause this long at a phrase break is him thinking: cut it (never inside a phrase)
 MIN_REMOVED = 0.3      # a cut must remove at least this much, or it's just a jolt
 MIN_SHOT = 1.5         # no shot shorter than this
-ONSET_PAD = 0.04       # a shot starts this long before the first word's sound (not on the breath before it)
+ONSET_PAD = 0.1        # a shot starts this long before the first word's detected sound: soft starts ("h", "f")
+                       # sit under the detector's level, 0.04 s clipped "Her" to "a prosthetician"
 END_PAD = 0.2          # ...and ends this long after the last word's sound
 WORDS = 4              # up to 4 words per caption (3-4)
 HOOK_SECONDS = 4.0     # the text-on-screen hook stays up this long
@@ -208,6 +209,22 @@ def hook_png(text, width, height, path, face):
     im.save(path)
 
 
+def asset_size(args, filt, width):
+    """Pixel size of a pop-up after its scale filter (the first scale=W:H in `filt`)."""
+    from PIL import Image
+    src = args[-1]
+    if src.lower().endswith((".png", ".jpg", ".jpeg")):
+        iw, ih = Image.open(src).size
+    else:
+        iw, ih = (int(v) for v in ev.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries",
+                                           "stream=width,height", "-of", "csv=p=0", src]).stdout.strip().split(",")[:2])
+    m = re.search(r"scale=(\d+):", filt)
+    if not m:
+        return iw, ih
+    w = int(m.group(1))
+    return w, int(ih * w / iw)
+
+
 def popup_asset(p, width, tmp, idx):
     """Return (input args, filter for that input producing a scaled RGBA picture, is_video)."""
     from PIL import Image
@@ -248,7 +265,26 @@ def popup_asset(p, width, tmp, idx):
     return ["-loop", "1", "-i", str(f)], f"scale={w}:-1", False
 
 
-def overlay_pass(rough, out, popups, banner, width, height, fps, tmp):
+def popup_place(face, pw, ph, width, height):
+    """(top y, scale) for a pop-up of pw x ph px that never covers his mouth: below the chin if there's room,
+    else above the eyebrows (covering the forehead is fine), shrunk to fit if neither has room.
+    `face` = union of his face boxes while it's up (x, y, w, h), or None: then the caption zone."""
+    if face is None:
+        return int(height * POPUP_Y - ph / 2), 1.0
+    x, y, w, h = face
+    brow, chin = y + h * 0.30, y + h * 1.12  # the detector box runs from mid-forehead to about the mouth
+    margin = int(24 * width / 1080)
+    below, above = height - margin - (chin + margin), brow - margin - margin
+    if ph <= below:
+        return int(chin + margin), 1.0
+    if ph <= above:
+        return int(brow - margin - ph), 1.0
+    if below >= above:
+        return int(chin + margin), below / ph
+    return int(margin), above / ph
+
+
+def overlay_pass(rough, out, popups, banner, width, height, fps, tmp, face_at=None):
     inputs, chain, last, n = ["-i", str(rough)], [], "0:v", 1
     if banner:
         inputs += ["-loop", "1", "-i", str(banner[0])]
@@ -260,9 +296,15 @@ def overlay_pass(rough, out, popups, banner, width, height, fps, tmp):
         args, filt, video = popup_asset(p, width, tmp, i)
         inputs += args
         s, e = p["start"], p["end"]
+        pw, ph = asset_size(args, filt, width)
+        face = face_at(s, e) if face_at else None
+        top, k = popup_place(face, pw, ph, width, height)
+        if k < 1.0:
+            filt += f",scale=iw*{k:.3f}:-2"
+        p["y"] = top
         chain.append(f"[{n}:v]{filt},fps={fps:.6f},format=rgba,trim=duration={e - s:.3f},setpts=PTS-STARTPTS+{s:.3f}/TB,"
                      f"fade=t=in:st={s:.3f}:d={FADE_IN}:alpha=1[p{i}];"
-                     f"[{last}][p{i}]overlay=x=(W-w)/2:y={cy}-h/2:eof_action=pass:enable='between(t,{s:.3f},{e:.3f})'[v{n}];")
+                     f"[{last}][p{i}]overlay=x=(W-w)/2:y={top}:eof_action=pass:enable='between(t,{s:.3f},{e:.3f})'[v{n}];")
         last, n = f"v{n}", n + 1
     if n == 1:
         return rough
@@ -325,64 +367,111 @@ def same(x, y):
     return bool(x) and bool(y) and (x == y or (min(len(x), len(y)) >= 3 and (x.startswith(y) or y.startswith(x))))
 
 
-def place_edges(path, keep, words, sents, dropped, runs, model_size, hint):
-    """Where a dropped sentence sits next to a kept one, find the exact edge by ear: step through in 30 ms
-    and keep the first point where the shot, heard on its own, ends on its last word whole (or starts on its
-    first word, with nothing of the dropped line before it). Needed where he talks straight through from one
-    sentence into the next, and the transcript's times are 0.1-0.5 s off."""
-    kept_sents = [n for n in range(len(sents)) if n not in dropped]
-    out = [list(k) for k in keep]
-    for k in range(len(out) - 1):
-        b0, a1 = out[k][1], out[k + 1][0]
-        last = max(n for n in kept_sents if words[sents[n][0]]["start"] < b0)
-        first = min((n for n in kept_sents if words[sents[n][-1]]["end"] > a1), default=last)
-        if last + 1 in dropped:
-            want, ws, we = norm(words[sents[last][-1]]["text"]), words[sents[last][-1]]["start"], words[sents[last][-1]]["end"]
-            after = [(e0, s1) for (_, e0), (s1, _) in zip(runs, runs[1:]) if we - 0.2 <= e0 <= we + 0.6 and s1 - e0 >= 0.15]
-            if after:  # a real silence follows: end in it (the ear test can't hear where a drawn-out word ends)
-                out[k][1] = min(after[0][0] + END_PAD, after[0][1] - 0.02)
-            t = max(ws + 0.1, we - 0.15) if not after else we + 1.0
-            while t <= we + 0.6:
-                got = heard(path, t - 3.0, t, model_size, hint)
-                if got and same(got[-1], want) and not (len(got) > 1 and same(got[-2], want) and got[-1] != want):
-                    out[k][1] = t + 0.06
-                    break
-                t += 0.03
-            else:
-                if not after:
-                    print(f"WARNING: sentence {last} runs straight into the dropped one; no clean end found")
-        if first - 1 in dropped:
-            want, ws = norm(words[sents[first][0]]["text"]), words[sents[first][0]]["start"]
-            t = max(out[k][1] + 0.02, ws - 0.3)
-            while t <= ws + 0.5:
-                got = heard(path, t, t + 3.0, model_size, hint)
-                if got and same(got[0], want):
-                    nxt = [r[0] for r in runs if r[0] >= t and r[1] - r[0] >= 0.1]  # skip silence before the word
-                    out[k + 1][0] = max(t, nxt[0] - ONSET_PAD) if nxt and nxt[0] - t < 0.8 else t
-                    break
-                t += 0.03
-            else:
-                print(f"WARNING: no clean start for sentence {first} (he runs into it from the dropped line); "
-                      f"drop it or keep the line before it")
-    return [(a, b) for a, b in out]
+CONNECTORS = {"and", "so", "but", "because", "then", "or"}
 
 
-def check_cuts(path, keep, words, sents, dropped, model_size, hint):
-    """Test every cut by ear, the way an editor would: play the shot up to its end on its own and hear its
-    last words; play the next shot from its start and hear its first words. Prints both so a clipped word
-    or the tail of a dropped line shows up before rendering (transcript times can be 0.5 s off)."""
-    kept_sents = [n for n in range(len(sents)) if n not in dropped]
+def gap_between(runs, w0, w1):
+    """The longest silence in his audio between word w0 and the next word w1, as (start, end), or None."""
+    gaps = [(e0, s1) for (_, e0), (s1, _) in zip(runs, runs[1:])
+            if e0 >= w0["start"] and s1 <= w1["end"] and s1 - e0 > 0.05]
+    return max(gaps, key=lambda g: g[1] - g[0], default=None)
+
+
+def phrase_break(w0, w1):
+    """True where a new phrase starts: after punctuation, or before 'and', 'so', 'because'..."""
+    return w0["text"].rstrip().endswith((",", ".", "?", "!", ";", ":")) or norm(w1["text"]) in CONNECTORS
+
+
+def edge_end(path, w, nxt, runs, model_size, hint):
+    """Where a shot ending on word w should stop: in the silence after it, or (when he talks straight on
+    into a dropped word) the point where w, heard on its own, has just finished."""
+    after = [(e0, s1) for (_, e0), (s1, _) in zip(runs, runs[1:])
+             if w["end"] - 0.2 <= e0 <= w["end"] + 0.6 and s1 - e0 >= 0.15]
+    if after:
+        return min(after[0][0] + END_PAD, after[0][1] - 0.02), True
+    want, t = norm(w["text"]), max(w["start"] + 0.1, w["end"] - 0.15)
+    while t <= w["end"] + 0.6:
+        got = heard(path, t - 3.0, t, model_size, hint)
+        if got and same(got[-1], want):
+            return t + 0.06, True
+        t += 0.03
+    return w["end"] + 0.05, False
+
+
+def edge_start(path, w, floor, runs, model_size, hint):
+    """Where a shot starting on word w should start: on the first sound of w (never the silence or breath
+    before it, never the end of a dropped word), found in the audio or, if he talks straight in, by ear."""
+    before = [s1 for (_, e0), (s1, _) in zip(runs, runs[1:])
+              if w["start"] - 0.6 <= s1 <= w["start"] + 0.25 and s1 - e0 >= 0.15 and s1 >= floor]
+    if before:
+        return max(floor, before[0] - ONSET_PAD), True
+    want, t = norm(w["text"]), max(floor, w["start"] - 0.6)
+    while t <= w["start"] + 0.5:
+        got = heard(path, t, t + 3.0, model_size, hint)
+        if got and same(got[0], want):
+            if not any(a <= t < b for a, b in runs):  # t is in silence: start where his voice starts
+                nxt = [a for a, b in runs if a > t and b - a >= 0.1]
+                if nxt and nxt[0] - t < 0.8:
+                    t = max(t, nxt[0] - ONSET_PAD)
+            return t, True
+        t += 0.03
+    return max(floor, w["start"] - 0.05), False
+
+
+def word_keep(path, words, kept_idx, runs, duration, model_size, hint):
+    """Shots built from the kept words. A cut goes where words were dropped (lines, restarts, fluff) and in
+    every thinking pause at a phrase break; never inside a phrase. Returns [(start, end, [word indices])]."""
+    shots, cur = [], [kept_idx[0]]
+    first_floor = words[kept_idx[0] - 1]["end"] if kept_idx[0] > 0 else 0.0  # never into dropped words
+    start, ok = edge_start(path, words[kept_idx[0]], first_floor, runs, model_size, hint)
+    bad = [] if ok else [kept_idx[0]]
+    for i, j in zip(kept_idx, kept_idx[1:]):
+        w0, w1 = words[i], words[j]
+        if j != i + 1:  # words dropped in between
+            end, ok0 = edge_end(path, w0, words[i + 1], runs, model_size, hint)
+            nstart, ok1 = edge_start(path, w1, words[j - 1]["end"], runs, model_size, hint)
+            nstart = max(nstart, end + 0.02)
+        else:
+            g = gap_between(runs, w0, w1)
+            if not (g and g[1] - g[0] >= THINK_PAUSE and phrase_break(w0, w1)):
+                cur.append(j)
+                continue
+            end, nstart, ok0, ok1 = g[0] + 0.12, g[1] - ONSET_PAD, True, True  # cut inside the silence
+        bad += ([i] if not ok0 else []) + ([j] if not ok1 else [])
+        shots.append([start, end, cur])
+        start, cur = nstart, [j]
+    end, ok = edge_end(path, words[kept_idx[-1]], None, runs, model_size, hint)
+    shots.append([start, min(duration, end), cur])
+    # a pause cut that would leave a sliver of a shot isn't worth it: join it back
+    k = 0
+    while k < len(shots) - 1:
+        a, b = shots[k], shots[k + 1]
+        follows = b[2][0] == a[2][-1] + 1
+        if follows and (b[0] - a[1] < MIN_REMOVED or min(a[1] - a[0], b[1] - b[0]) < MIN_SHOT):
+            shots[k] = [a[0], b[1], a[2] + b[2]]
+            del shots[k + 1]
+        else:
+            k += 1
+    for i in bad:
+        print(f"WARNING: no clean edge at '{words[i]['text']}' ({words[i]['start']:.2f}s); check by ear")
+    return shots
+
+
+def check_cuts(path, shots, words, model_size, hint):
+    """Play every cut by ear, the way an editor would: the shot up to its end on its own, then the next
+    shot from its start. Prints what's heard on each side so a clipped word shows up before rendering."""
     bad = 0
     print("Cut check (heard alone: end of the shot || start of the next):")
-    for (a0, b0), (a1, b1) in zip(keep, keep[1:]):
-        last = max(n for n in kept_sents if words[sents[n][0]]["start"] < b0)
-        first = min((n for n in kept_sents if words[sents[n][-1]]["end"] > a1), default=last)
+    first = heard(path, shots[0][0], shots[0][0] + 3.0, model_size, hint)
+    ok = first and same(first[0], norm(words[shots[0][2][0]]["text"]))
+    bad += not ok
+    print(f"  {'ok ' if ok else 'BAD'} opening {shots[0][0]:7.2f} | {' '.join(first[:4])}...")
+    for (a0, b0, i0), (a1, b1, i1) in zip(shots, shots[1:]):
         end = heard(path, b0 - 3.0, b0, model_size, hint)
         start = heard(path, a1, a1 + 3.0, model_size, hint)
-        ok = (end and same(end[-1], norm(words[sents[last][-1]]["text"]))
-              and start and same(start[0], norm(words[sents[first][0]]["text"])))
+        ok = (end and same(end[-1], norm(words[i0[-1]]["text"])) and start and same(start[0], norm(words[i1[0]]["text"])))
         bad += not ok
-        print(f"  {'ok ' if ok else 'BAD'} {b0:7.2f} -> {a1:7.2f} | ...{' '.join(end[-4:])} || {' '.join(start[:4])}...")
+        print(f"  {'ok ' if ok else 'BAD'} {b0:7.2f} -> {a1:7.2f} ({a1 - b0:.2f}s out) | ...{' '.join(end[-4:])} || {' '.join(start[:4])}...")
     if bad:
         print(f"WARNING: {bad} cut(s) don't sound clean; fix them before rendering")
     return bad
@@ -434,50 +523,6 @@ def word_offset(w, runs, ceiling=1e9):
     return min(ceiling, max(hits) if hits else we)  # never run into the next word
 
 
-def sentence_keep(words, sents, dropped, runs, duration):
-    """Kept source ranges built from whole sentences (see the rules at the top of the file)."""
-    spans = []  # (sentence number, start, end) of each kept sentence
-    for n, idx in enumerate(sents):
-        if n in dropped:
-            continue
-        prev_end = words[idx[0] - 1]["end"] if idx[0] > 0 else 0.0
-        next_start = words[idx[-1] + 1]["start"] if idx[-1] + 1 < len(words) else duration
-        a = max(prev_end if n - 1 in dropped else 0.0, word_onset(words[idx[0]], runs, prev_end) - ONSET_PAD)
-        b = min(duration, next_start if n + 1 in dropped else duration,
-                word_offset(words[idx[-1]], runs, next_start) + END_PAD)
-        spans.append((n, a, b))
-    segs = []  # [first sentence, last sentence, start, end]
-    for n, a, b in spans:
-        if segs and n == segs[-1][1] + 1:
-            # two kept sentences in a row: cut only if the audio has a real silence over MAX_GAP between them
-            lo, hi = words[sents[n - 1][-1]]["end"] - 0.3, words[sents[n][0]]["start"] + 0.5
-            gaps = [(e0, s1) for (_, e0), (s1, _) in zip(runs, runs[1:]) if e0 >= lo and s1 <= hi and s1 > e0]
-            g = max(gaps, key=lambda x: x[1] - x[0], default=None)
-            if g is None or g[1] - g[0] <= MAX_GAP:
-                segs[-1][1], segs[-1][3] = n, max(segs[-1][3], b)  # no real pause: no cut
-                continue
-            segs[-1][3] = min(g[0] + END_PAD, (g[0] + g[1]) / 2)  # cut inside the silence itself
-            segs.append([n, n, max(g[1] - ONSET_PAD, (g[0] + g[1]) / 2), b])
-            continue
-        segs.append([n, n, a, b])
-    merged = True
-    while merged:  # no pointless jolts, no slivers: join neighbours that follow on in the source
-        merged = False
-        for k in range(len(segs) - 1):
-            cur, nxt = segs[k], segs[k + 1]
-            follows = nxt[0] == cur[1] + 1
-            short = min(cur[3] - cur[2], nxt[3] - nxt[2]) < MIN_SHOT
-            if follows and (nxt[2] - cur[3] < MIN_REMOVED or short):
-                segs[k] = [cur[0], nxt[1], cur[2], nxt[3]]
-                del segs[k + 1]
-                merged = True
-                break
-    for k, (n0, n1, a, b) in enumerate(segs):
-        if b - a < MIN_SHOT:
-            print(f"WARNING: sentences {n0}-{n1} make a {b - a:.1f}s shot (dropped sentences on both sides)")
-    return [(a, b) for _, _, a, b in segs]
-
-
 def onset_timed(words, runs):
     """Words with their start moved to the measured start of their sound wherever a word follows a
     pause (the model's start is off by -0.1 to +0.3 s there), so each caption goes up as he says it."""
@@ -499,6 +544,8 @@ def main():
     ap.add_argument("--hook", help="text-on-screen hook (rules/tos-hook-rules.md), e.g. \"Esthetician shocked by 64 year old's skin:\"")
     ap.add_argument("--popups", type=Path, help="JSON list of pop-ups (see top of file)")
     ap.add_argument("--drop-sentence", default="", metavar="N,N-M", help="sentence numbers from the plan to leave out")
+    ap.add_argument("--drop-words", action="append", default=[], metavar="N:WORDS",
+                    help="inside sentence N, leave out these words (a restart or fluff), e.g. '27:over 20 ,000 five star reviews,'")
     ap.add_argument("--fix", action="append", default=[], metavar="START-END=TEXT", help="caption fix for misheard words")
     ap.add_argument("--end", type=float, metavar="SEC", help="source time where the video ends")
     ap.add_argument("--plan-only", action="store_true", help="work out cuts and transcript, don't render")
@@ -533,9 +580,19 @@ def main():
             + ("   <- repeat/filler?" if any(i in suspect for i in idx) else "") for n, idx in enumerate(sents)]
     out.with_suffix(".sentences.txt").write_text("\n".join(plan) + "\n")
 
-    keep = sentence_keep(words, sents, dropped, runs, duration)
-    keep = place_edges(a.input, keep, words, sents, dropped, runs, a.model, a.hint)
-    kept = [words[i] for n, idx in enumerate(sents) if n not in dropped for i in idx]
+    gone = {i for n in dropped for i in sents[n]}
+    for spec in a.drop_words:  # a phrase inside a kept line: the first take of a restart, fluff
+        n, _, phrase = spec.partition(":")
+        idx, want = sents[int(n)], [norm(t) for t in phrase.split() if norm(t)]
+        toks = [norm(words[i]["text"]) for i in idx]
+        hit = next((k for k in range(len(toks) - len(want) + 1) if toks[k:k + len(want)] == want), None)
+        if hit is None:
+            raise SystemExit(f"--drop-words: {phrase!r} not in sentence {n}: {' '.join(words[i]['text'] for i in idx)}")
+        gone.update(idx[hit:hit + len(want)])
+    kept_idx = [i for i in range(len(words)) if i not in gone]
+    shots = word_keep(a.input, words, kept_idx, runs, duration, a.model, a.hint)
+    keep = [(s0, s1) for s0, s1, _ in shots]
+    kept = [words[i] for i in kept_idx]
     kept_cap = onset_timed(kept, runs)  # captions go up when he starts the word, not when the model places it
 
     fps = ev.source_fps(a.input)
@@ -543,7 +600,7 @@ def main():
     total = sum(y - x for x, y in keep) - ev.AUDIO_OVERLAP * (len(keep) - 1)
     pic_cuts = ev.picture_cuts(keep, fps)[1][1:-1]
     print(f"{duration:.1f}s raw -> {total:.1f}s edit, {len(keep)} shots ({len(pic_cuts)} cuts), "
-          f"{len(sents) - len(dropped)}/{len(sents)} sentences kept")
+          f"{len(sents) - len(dropped)}/{len(sents)} sentences kept, {len(words) - len(kept_idx)} words dropped")
     print(f"Sentence list: {out.with_suffix('.sentences.txt')}")
     out.with_suffix(".timeline.json").write_text(json.dumps(
         [{"text": t, "start": round(s, 2), "end": round(e, 2)} for s, e, t in timed], indent=0))
@@ -560,11 +617,10 @@ def main():
     n = write_captions(timed, popups, width, height, ass, font)
     print(f"{n} captions")
     print("Cuts (source time | last words before | first words after):")
-    for (a0, b0), (a1, b1) in zip(keep, keep[1:]):
-        before = [w["text"] for w in kept if w["end"] <= b0 + 0.05][-4:]
-        after = [w["text"] for w in kept if w["start"] >= a1 - 0.05][:4]
-        print(f"  {b0:7.2f} -> {a1:7.2f} ({a1 - b0:.2f}s out) | ...{' '.join(before)} | {' '.join(after)}...")
-    check_cuts(a.input, keep, words, sents, dropped, a.model, a.hint)
+    for (a0, b0, i0), (a1, b1, i1) in zip(shots, shots[1:]):
+        print(f"  {b0:7.2f} -> {a1:7.2f} ({a1 - b0:.2f}s out) | ...{' '.join(words[i]['text'] for i in i0[-4:])} | "
+              f"{' '.join(words[i]['text'] for i in i1[:4])}...")
+    check_cuts(a.input, shots, words, a.model, a.hint)
     if a.plan_only:
         print(f"Transcript on the edited timeline: {out.with_suffix('.timeline.json')}")
         return
@@ -581,7 +637,15 @@ def main():
             hook_png(a.hook, width, height, png, ev.face_box(a.input, keep[0][0] + 1.0, width, height))
             banner = (png, HOOK_SECONDS)
         print("Hook + pop-ups...")
-        layered = overlay_pass(rough, tmp / "layered.mp4", popups, banner, width, height, fps, tmp)
+        def face_at(s0, s1):  # union of his face over the pop-up (start, middle, end)
+            boxes = [b for t in (s0 + 0.2, (s0 + s1) / 2, s1 - 0.2)
+                     if (b := ev.face_box(a.input, ev.unremap(t, keep), width, height)) is not None]
+            if not boxes:
+                return None
+            x0, y0 = min(b[0] for b in boxes), min(b[1] for b in boxes)
+            x1, y1 = max(b[0] + b[2] for b in boxes), max(b[1] + b[3] for b in boxes)
+            return (x0, y0, x1 - x0, y1 - y0)
+        layered = overlay_pass(rough, tmp / "layered.mp4", popups, banner, width, height, fps, tmp, face_at)
         print("Audio (RNNoise, -12 LUFS, -1 dBTP)...")
         ev.boost(layered, out)
     print(f"Done: {out}")

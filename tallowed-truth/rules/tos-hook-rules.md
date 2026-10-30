@@ -59,9 +59,13 @@ Pattern 4 scales but runs the highest CPAs ($64-89): use it for reach, balanced 
 
 ## The rules
 
+The hook text never covers his mouth: above his head, or below his chin.
+
+
 1. **3-7 words, under 35 characters.** Never over 8 unless it's a comment bubble. If it wraps to 3 lines, cut it.
 2. **One piece of context, zero payoff.** The viewer knows what it's about and has no idea how it turned out.
-3. **End a story, encounter or hack hook with a colon.**
+3. ~~End a story, encounter or hack hook with a colon.~~ **Anton, Oct 30 2026: no colon or other punctuation
+   on the on-screen hook.** Keep the open loop in the words instead ("Esthetician shocked by 64 year old's skin").
 4. **A third party, never self-praise:** a neighbor, a skeptic, a stranger, an esthetician, a plastic surgeon,
    a customer review.
 5. **Exact numbers:** "64 years old", "19 year difference", "Carded in her 70's". Never "look younger" or "look
