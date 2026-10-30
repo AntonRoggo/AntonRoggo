@@ -102,9 +102,10 @@
       "out": 355.3
     },
     {
-      "talk": "t0005.MP4",
-      "in": 362.8,
-      "out": 366.6
+      "broll": "sunset_waves.MP4",
+      "in": 3.0,
+      "out": 6.0,
+      "sound": 0.5
     }
   ],
   "fix": [
@@ -221,8 +222,7 @@
     }
   ],
   "end_card": {
-    "at": "Follow",
-    "title": "Lifestyle Legends",
-    "sub": "Next: the climber who ate cat food"
+    "title": "Comment “NATURE”",
+    "sub": "to join the network\\Nwe're building for nature"
   }
 }

@@ -111,9 +111,10 @@
       "out": 271.7
     },
     {
-      "talk": "t0010.MP4",
-      "in": 274.2,
-      "out": 275.5
+      "broll": "sunset_beach.MP4",
+      "in": 3.0,
+      "out": 6.0,
+      "sound": 0.5
     }
   ],
   "fix": [
@@ -246,8 +247,7 @@
     }
   ],
   "end_card": {
-    "at": "follow",
-    "title": "Lifestyle Legends",
-    "sub": "A new legend every week"
+    "title": "Comment “NATURE”",
+    "sub": "to join the network\\Nwe're building for nature"
   }
 }

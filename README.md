@@ -11,6 +11,9 @@
 
 ```bash
 pip install faster-whisper   # ffmpeg must also be installed
+pip install mediapipe        # optional: face tracking for the Legends cuts
+curl -L -o models/face_landmarker.task --create-dirs \
+  https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task
 ```
 
 Proxima Nova is a licensed font, so it isn't included. Put `ProximaNova-Semibold.otf` (or `.ttf`) in `fonts/`.

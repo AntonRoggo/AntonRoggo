@@ -93,9 +93,10 @@
       "out": 255.4
     },
     {
-      "talk": "t0008.MP4",
-      "in": 266.5,
-      "out": 271.4
+      "broll": "beach_walk.MP4",
+      "in": 1.0,
+      "out": 4.0,
+      "sound": 0.5
     }
   ],
   "fix": [
@@ -221,13 +222,12 @@
       "focus": 0.2
     },
     {
-      "at": "follow",
+      "at": 69.9,
       "full": "talk"
     }
   ],
   "end_card": {
-    "at": "follow",
-    "title": "Lifestyle Legends",
-    "sub": "Next: the writer who got blown up at 18"
+    "title": "Comment “NATURE”",
+    "sub": "to join the network\\Nwe're building for nature"
   }
 }

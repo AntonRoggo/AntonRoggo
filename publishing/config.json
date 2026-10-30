@@ -8,9 +8,10 @@
     "slots": ["09:00", "18:00"]
   },
   "caption": {
-    "style": "Short hook line from the video, one sentence of value, then a call to action.",
+    "style": "Short hook line from the video, one sentence of value, then the call to action.",
     "hashtags": [],
-    "max_hashtags": 5
+    "max_hashtags": 5,
+    "call_to_action": "Comment \"nature\" to join the network we're building for nature"
   },
   "youtube": { "made_for_kids": false },
   "media_hosting": "TODO: how to get a public URL for the video",

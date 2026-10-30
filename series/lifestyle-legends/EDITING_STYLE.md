@@ -62,6 +62,7 @@ I downloaded the references and measured them for cuts, loudness, layout and fra
 `python3 edit_legend.py series/lifestyle-legends/plans/<plan>.json [--draft]` runs these steps:
 
 1. **Talk clips.** Each one is transcribed. Fillers, stutters, retakes and pauses over 1 s are cut, using the same rules as `edit_video.py`.
+   Lines picked from a long take are cut tight: 0.05 s before the first syllable and 0.07 s after the last, with pauses inside a line over 0.4 s shortened. At each cut the picture may switch up to 0.3 s before or after the sound (an L or J cut). Face tracking picks the frame where you're looking into the lens, so glances at the script before and after a line don't show.
 2. **Panels.** Each panel starts at its spoken word (`"at": "Klondike"`; `"surf#2"` means the second time "surf" is said) and holds until the next panel. Before the first panel you're full screen.
 3. **The picture.** Photos get the zoom and any `censor` pixelation. Clips are trimmed and held to length. The split screen, pills, header tag, captions and end card are composed on top.
 4. **Audio.** The music is ducked under your voice, and the mix is boosted to -12 LUFS.

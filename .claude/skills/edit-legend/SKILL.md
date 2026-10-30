@@ -65,7 +65,8 @@ When the footage is one long recording with retakes, don't split it into files. 
 "captions": {"style": "lower"}
 ```
 
-- In and out points snap to the nearest pause in the audio (up to 0.6 s away), so they can be rough. Each picked line is transcribed on its own, so a retake next to it can't leak into the captions. Within a picked line only fillers and pauses over 0.7 s are cut. Repeats stay.
+- In and out points snap to the nearest pause in the audio (up to 0.6 s away), so they can be rough. Each picked line is transcribed on its own, so a retake next to it can't leak into the captions. Lines are cut tight (0.05 s before the first syllable, 0.07 s after the last), and pauses inside a line over 0.4 s are shortened; fillers go, repeats stay.
+- At every cut between talk pieces the picture may switch up to 0.3 s before or after the sound (L or J cut), on the frame where face tracking sees you looking into the lens. This needs `pip install mediapipe`, the model in `models/face_landmarker.task` (see the README) and, on Linux, `libegl1`. Without them, picture and sound cut together. The render log lists every L/J cut.
 - Pick ranges by listening or from a transcript, then check with `--dry-run` before rendering: it prints each line's range, the transcript and the panel table in seconds, and the transcript shows any doubled take ("Then he built one of the biggest... Then he built..."). Move that line's `in` past the false start.
 - `fix` corrects misheard words in the captions: `[wrong phrase, right phrase]`, matched case- and punctuation-blind.
 - `captions.style` is `legend` (uppercase, on the seam; default) or `lower` (lowercase, smaller, lower third: used for the Do This reels).

@@ -5,3 +5,4 @@ output/*
 fonts/*.otf
 fonts/*.ttf
 __pycache__/
+models/*.task

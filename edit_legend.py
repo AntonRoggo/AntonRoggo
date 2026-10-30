@@ -101,9 +101,15 @@ CUT_FADE = 0.015
 PAUSE_DB = -35                # quieter than this is a pause
 PAUSE_MIN = 0.12              # shortest pause to snap to
 SNAP_MAX = 0.6                # how far an in/out point may move to reach a pause
-LEAD = 0.12                   # quiet kept before the first word of a line
-TAIL = 0.15                   # and after the last
-LONG_PAUSE = 0.7              # pauses longer than this inside a line are tightened
+LEAD = 0.05                   # quiet kept before the first word of a line
+TAIL = 0.07                   # and after the last
+LONG_PAUSE = 0.4              # pauses longer than this inside a line are tightened
+# where the picture cuts: up to SHIFT_MAX before or after the sound cut (an L
+# or J cut), at the frame where you're looking into the lens, found with
+# face tracking (pip install mediapipe, model in models/face_landmarker.task)
+SHIFT_MAX = 0.3
+FACE_MODEL = ROOT / "models" / "face_landmarker.task"
+SIDE_OK = 0.25                # sideways eye score that still reads as "at the lens"
 NORM_A = "aformat=sample_rates=48000:channel_layouts=stereo"
 
 
@@ -258,7 +264,7 @@ def build_sequence(plan, footage, model):
                 s = s if s is not None else e
                 e = e if e is not None else s + 0.2
                 words.append({"text": w["text"], "start": t + s, "end": t + e})
-            segments += [(src, a, b, item.get("sound", 1.0)) for a, b in keep]
+            segments += [(src, a, b, item.get("sound", 1.0), True) for a, b in keep]
             cut = [raw[i]["text"] for i in sorted(drop)]
             new_len = sum(y - x for x, y in keep)
             print(f"  {src.name} {a:.1f}-{b:.1f}s -> {new_len:.1f}s, "
@@ -268,7 +274,7 @@ def build_sequence(plan, footage, model):
             src = footage / item["broll"]
             a = float(item.get("in", 0.0))
             b = float(item.get("out", duration(src)))
-            segments.append((src, a, b, item.get("sound", 1.0)))
+            segments.append((src, a, b, item.get("sound", 1.0), False))
             if item.get("text"):
                 texts.append((t, t + b - a, item["text"]))
             t += b - a
@@ -277,45 +283,152 @@ def build_sequence(plan, footage, model):
     return segments, words, texts
 
 
-def render_segment(src, a, b, vol, cache, draft):
-    """One piece of the edit at output size. Seeks straight to it, so only
-    these seconds are decoded (4K HEVC decodes slower than real time), and
-    keeps it for the next run."""
-    d = b - a
-    key = hashlib.sha1(f"{src.resolve()}|{a:.3f}|{b:.3f}|{vol}|{draft}".encode()).hexdigest()[:12]
+@functools.lru_cache(maxsize=None)
+def face_model():
+    try:
+        import mediapipe as mp
+        from mediapipe.tasks.python import BaseOptions, vision
+        return mp, vision.FaceLandmarker.create_from_options(vision.FaceLandmarkerOptions(
+            base_options=BaseOptions(model_asset_path=str(FACE_MODEL)),
+            output_face_blendshapes=True, num_faces=1))
+    except Exception as e:                       # no mediapipe/model: plain cuts
+        print(f"  (no face tracking, cutting picture with sound: {e})")
+        return None
+
+
+def gaze_for(src, a, b):
+    """How far you're looking away from the lens, one score (0-1) per frame
+    from a to b. Cached, like the transcripts."""
+    real = src.resolve()
+    key = hashlib.sha1(f"{real}|{real.stat().st_mtime}|{a:.3f}|{b:.3f}|{FPS}".encode()).hexdigest()[:12]
+    saved = ROOT / "output" / ".cache" / f"{src.stem}_{key}.gaze.json"
+    if saved.exists():
+        return json.loads(saved.read_text())
+    fm = face_model()
+    if fm is None:
+        return None
+    mp, lm = fm
+    import numpy as np
+    w, h = 360, 640
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-ss", f"{max(0.0, a):.3f}", "-t", f"{b - a:.3f}",
+                          "-i", str(src), "-vf", f"{cover(w, h)},fps={FPS}", "-f", "rawvideo",
+                          "-pix_fmt", "rgb24", "-"], capture_output=True, check=True).stdout
+    scores = []
+    for f in np.frombuffer(raw, np.uint8).reshape(-1, h, w, 3):
+        r = lm.detect(mp.Image(image_format=mp.ImageFormat.SRGB, data=np.ascontiguousarray(f)))
+        if not r.face_blendshapes:
+            scores.append(1.0)
+            continue
+        d = {c.category_name: c.score for c in r.face_blendshapes[0]}
+        side = max(d["eyeLookInLeft"] + d["eyeLookOutRight"],
+                   d["eyeLookOutLeft"] + d["eyeLookInRight"]) / 2
+        blink = (d["eyeBlinkLeft"] + d["eyeBlinkRight"]) / 2
+        down = 0.0 if blink > 0.4 else (d["eyeLookDownLeft"] + d["eyeLookDownRight"]) / 2
+        up = (d["eyeLookUpLeft"] + d["eyeLookUpRight"]) / 2
+        away = (max(0.0, side - SIDE_OK) + max(0.0, down - 0.45) + max(0.0, up - 0.35)) / 0.2
+        scores.append(round(min(1.0, away), 3))
+    saved.write_text(json.dumps(scores))
+    return scores
+
+
+def picture_shift(prev, cur):
+    """Seconds the picture cut moves from the sound cut between two talk
+    pieces: negative cuts to the next piece early (L cut, hides a glance
+    after your last word), positive holds the last piece (J cut, hides the
+    look up before your first word). Picks the frames where you're at the lens."""
+    (p, _, pb, *_), (q, qa, *_) = prev, cur
+    n = round(SHIFT_MAX * FPS)
+    gp = gaze_for(p, pb - SHIFT_MAX, pb + SHIFT_MAX)
+    gq = gaze_for(q, qa - SHIFT_MAX, qa + SHIFT_MAX)
+    if not gp or not gq or qa - SHIFT_MAX < 0:
+        return 0.0
+    gp, gq = (gp + [1.0] * 2 * n)[:2 * n], (gq + [1.0] * 2 * n)[:2 * n]
+    best = min(range(-n, n + 1),
+               key=lambda d: sum(gp[:n + d]) + sum(gq[n + d:]) + 0.03 * abs(d))
+    return best / FPS
+
+
+def render_video_piece(src, start, frames, cache, draft):
+    key = hashlib.sha1(f"{src.resolve()}|v|{start:.3f}|{frames}|{draft}".encode()).hexdigest()[:12]
     out = cache / f"{src.stem}_{key}.mkv"
-    if out.exists():
-        return out
-    seek = ["-ss", f"{a:.3f}", "-t", f"{d:.3f}", "-i", str(src)]
-    fades = (f"{NORM_A},volume={vol},afade=t=in:d={CUT_FADE},"
-             f"afade=t=out:st={max(0.0, d - CUT_FADE):.3f}:d={CUT_FADE}")
-    if has_audio(src):
-        audio = ["-map", "0:v:0", "-map", "0:a:0", "-af", fades]
-    else:
-        seek += ["-f", "lavfi", "-t", f"{d:.3f}", "-i", "anullsrc=r=48000:cl=stereo"]
-        audio = ["-map", "0:v:0", "-map", "1:a:0"]
-    tmp = out.with_suffix(".part.mkv")
-    ff(seek + audio + ["-vf", f"{cover(W, H)},fps={FPS},format=yuv420p", "-t", f"{d:.3f}",
-                       "-c:v", "libx264", "-preset", "ultrafast" if draft else "veryfast",
-                       "-crf", "24" if draft else "14", "-c:a", "pcm_s16le", "-ar", "48000",
-                       "-ac", "2", str(tmp)])
-    tmp.rename(out)
+    if not out.exists():
+        tmp = out.with_suffix(".part.mkv")
+        ff(["-ss", f"{max(0.0, start):.3f}", "-i", str(src), "-an",
+            "-vf", f"{cover(W, H)},fps={FPS},format=yuv420p", "-frames:v", str(frames),
+            "-c:v", "libx264", "-preset", "ultrafast" if draft else "veryfast",
+            "-crf", "24" if draft else "14", str(tmp)])
+        tmp.rename(out)
     return out
 
 
-def render_base(segments, out, draft):
-    cache = out.parent / ".cache"
-    cache.mkdir(exist_ok=True)
-    pieces = []
-    for n, (src, a, b, vol) in enumerate(segments, 1):
-        print(f"  piece {n}/{len(segments)}: {src.name} {a:.2f}-{b:.2f}s", flush=True)
-        pieces.append(render_segment(src, a, b, vol, cache, draft))
+def render_audio_piece(src, a, b, vol, cache):
+    d = b - a
+    key = hashlib.sha1(f"{src.resolve()}|a|{a:.3f}|{b:.3f}|{vol}".encode()).hexdigest()[:12]
+    out = cache / f"{src.stem}_{key}.wav"
+    if not out.exists():
+        fades = (f"{NORM_A},volume={vol},afade=t=in:d={CUT_FADE},"
+                 f"afade=t=out:st={max(0.0, d - CUT_FADE):.3f}:d={CUT_FADE}")
+        src_in = (["-ss", f"{a:.3f}", "-t", f"{d:.3f}", "-i", str(src), "-vn", "-af", fades]
+                  if has_audio(src) else
+                  ["-f", "lavfi", "-t", f"{d:.3f}", "-i", "anullsrc=r=48000:cl=stereo"])
+        tmp = out.with_suffix(".part.wav")
+        ff(src_in + ["-t", f"{d:.3f}", "-c:a", "pcm_s16le", "-ar", "48000", "-ac", "2", str(tmp)])
+        tmp.rename(out)
+    return out
+
+
+def concat(pieces, out, durations=None):
+    """Join pieces without re-encoding. Give the exact durations for video:
+    each piece's container counts one frame too many, which would add up
+    to sound drifting out of sync."""
     listing = out.with_suffix(".txt")
-    listing.write_text("".join(f"file '{p.resolve()}'\n" for p in pieces))
+    listing.write_text("".join(
+        f"file '{p.resolve()}'\n" + (f"duration {durations[i]:.6f}\n" if durations else "")
+        for i, p in enumerate(pieces)))
     try:
         ff(["-f", "concat", "-safe", "0", "-i", str(listing), "-c", "copy", str(out)])
     finally:
         listing.unlink(missing_ok=True)
+
+
+def render_base(segments, out, draft):
+    """Join the pieces. Sound is cut exactly; the picture cut at each join
+    between talk pieces may sit a few frames off it (picture_shift), on the
+    frame grid so sound and picture never drift apart."""
+    cache = out.parent / ".cache"
+    cache.mkdir(exist_ok=True)
+    starts = [0.0]
+    for _, a, b, *_ in segments:
+        starts.append(starts[-1] + b - a)
+    cuts = [0]
+    for i in range(1, len(segments)):
+        shift = 0.0
+        if segments[i - 1][4] and segments[i][4]:
+            shift = picture_shift(segments[i - 1], segments[i])
+        frame = round((starts[i] + shift) * FPS)
+        if frame - cuts[-1] < 0.3 * FPS:        # never leave a sliver
+            frame = round(starts[i] * FPS)
+        cuts.append(frame)
+        if shift:
+            kind = "L" if shift < 0 else "J"
+            print(f"  cut {i}: {kind} cut, picture {abs(shift):.2f}s "
+                  f"{'early' if shift < 0 else 'late'}", flush=True)
+    cuts.append(round(starts[-1] * FPS))
+    video, audio = [], []
+    for i, (src, a, b, vol, _) in enumerate(segments):
+        print(f"  piece {i + 1}/{len(segments)}: {src.name} {a:.2f}-{b:.2f}s", flush=True)
+        start = a + cuts[i] / FPS - starts[i]
+        video.append(render_video_piece(src, start, cuts[i + 1] - cuts[i], cache, draft))
+        audio.append(render_audio_piece(src, a, b, vol, cache))
+    vpath, apath = out.with_name(out.stem + "_v.mkv"), out.with_name(out.stem + "_a.wav")
+    try:
+        concat(video, vpath, [(cuts[i + 1] - cuts[i]) / FPS for i in range(len(video))])
+        concat(audio, apath)
+        ff(["-i", str(vpath), "-i", str(apath), "-map", "0:v", "-map", "1:a",
+            "-c", "copy", str(out)])
+    finally:
+        vpath.unlink(missing_ok=True)
+        apath.unlink(missing_ok=True)
 
 
 # --- 2. anchors and the panel timeline ---------------------------------------
@@ -634,7 +747,7 @@ def main():
     words = apply_fixes(words, plan.get("fix", []))
     cap = CAPTION_STYLES[plan.get("captions", {}).get("style", "legend")]
     if args.dry_run:
-        total = sum(b - a for _, a, b, _ in segments)
+        total = sum(seg[2] - seg[1] for seg in segments)
         report(words, build_timeline(panels, words, total, footage))
         print(f"\nDry run: {total:.1f}s, nothing rendered.")
         return
