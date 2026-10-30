@@ -62,3 +62,11 @@ Day in the life and bar v3 were first saved as drafts, then switched live after 
 **23:50 ET:** Anton asked to move approved drafts past midnight. No approved video was left in drafts. The only drafts are Gatekeep v3 (unapproved, set for 00:10) and the old v1 edits (download happiness 394453142, tourist 394453678, I'll tag you 394453775), which aren't approved and stay as drafts.
 
 **2026-10-17 11:51 ET:** Anton approved Gatekeep v3 (review request dq8vigf5pxagft5a4mmw). Its draft was switched live: Instagram trial reel (Anton Roggo), 2026-10-17 12:02 ET, post 398588267, uuid -5464765197629436479.
+
+**2026-10-30 00:25 ET:** Anton approved Let's all C (`output/larp/04_lets_all_C_0015.mp4`, Do This LARP batch): Instagram trial reel, then TikTok, Facebook and YouTube Shorts on Anton Roggo.
+| Platform | Type | Publishes at | Post id | uuid | plannerUrl |
+|---|---|---|---|---|---|
+| Instagram | Trial reel | 2026-10-30 00:35 ET | 410809540 | 7624650374126714926 | https://app.metricool.com/planner/calendar?blogId=6537632&openWithPostUuid=7624650374126714926 |
+| TikTok | Video | 2026-10-30 00:35 ET | 410810300 | -7123476781473706737 | https://app.metricool.com/planner/calendar?blogId=6537632&openWithPostUuid=-7123476781473706737 |
+| Facebook | Reel | 2026-10-30 00:35 ET | 410809610 | 4596574665962571505 | https://app.metricool.com/planner/calendar?blogId=6537632&openWithPostUuid=4596574665962571505 |
+| YouTube | Short | 2026-10-30 00:35 ET | 410809670 | 7713095716602728008 | https://app.metricool.com/planner/calendar?blogId=6537632&openWithPostUuid=7713095716602728008 |
