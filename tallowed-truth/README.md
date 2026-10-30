@@ -22,6 +22,7 @@ meant to be loaded into the company Claude project, and Claude should read this 
 | "I need B-roll or an overlay of X" (product, factory, application, problem, the broken honey machine...) | `broll/README.md` (best per category), `broll/catalog.csv` (every clip and image, with links) |
 | "Edit / cut this video" or "does this edit match our style?" | skill `skills/tt-ad-edit/` (breakdown of our best ad in `reference/`) |
 | "Give me hook ideas" | `ads/whats-working.md` (✅ concepts) + `rules/creative-learnings.md` + the stories above + `comments/` |
+| "Write the text-on-screen hook" | `rules/tos-hook-rules.md` (41 winning hooks: 3-7 words, third party, exact age, colon) |
 
 ## Folders
 

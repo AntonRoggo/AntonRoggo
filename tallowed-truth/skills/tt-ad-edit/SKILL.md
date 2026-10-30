@@ -98,8 +98,11 @@ of the line box, which sits about 15 px below the baseline at 70 px). Check it o
 - Line 1: the claim in caps, black Proxima Nova Extrabold ~70 px ("OFFICIAL STATEMENT").
 - Line 2: who's speaking, black Proxima Nova Bold ~50 px ("from The Tallowed Truth Founder").
 - On from frame 1 until the first pop-up (or ~3 s). Captions run directly underneath it.
-- Swap the words to fit the speaker and the angle, keeping the same shape. For example, "HONEST REVIEW / from
-  a 64-year-old nurse".
+- **The words follow `rules/tos-hook-rules.md`:** 3-7 words, under 35 characters, a third party plus an exact
+  age or number, ending in a colon for a story ("Esthetician shocked by 64 year old's skin:"). It must not
+  repeat what the speaker says. "OFFICIAL STATEMENT / from The Tallowed Truth Founder" is the us-vs-them pattern,
+  which runs the highest CPAs; don't reuse its shape for a story ad. Never a generic label ("REAL CUSTOMER
+  STORY"): that breaks every rule (no third party, no number, no open loop, no colon).
 
 ## Pop-ups
 

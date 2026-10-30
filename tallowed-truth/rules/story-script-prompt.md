@@ -57,7 +57,9 @@ Act 3, the close (last 15 to 20%):
 - Facts (checked on the product page, Oct 29 2026): one 2 oz tin is $49 (under $50), lasts two to three
   months used daily; 30-day money-back guarantee; F-Balm has over 21,900 five-star Judge.me reviews, so
   "over 20,000 five-star reviews". Don't quote a sale, bundle or discount.
-- Also write the hook text box: the first line, under 10 words, shown on screen for the first 3 to 5 seconds.
+- Also write the hook text box, shown on screen for the first 3 to 5 seconds, following `rules/tos-hook-rules.md`:
+  3 to 7 words, under 35 characters, a third party plus her exact age, ending in a colon, and not the same words
+  as the spoken first line ("Esthetician shocked by 64 year old's skin:").
 
 ## Before you hand it over, check
 
