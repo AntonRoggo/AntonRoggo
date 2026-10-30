@@ -52,7 +52,9 @@ MIN_REMOVED = 0.3      # a cut must remove at least this much, or it's just a jo
 MIN_SHOT = 1.5         # no shot shorter than this
 ONSET_PAD = 0.1        # a shot starts this long before the first word's detected sound: soft starts ("h", "f")
                        # sit under the detector's level, 0.04 s clipped "Her" to "a prosthetician"
-END_PAD = 0.2          # ...and ends this long after the last word's sound
+END_PAD = 0.1          # ...and ends this long after the last word's sound (0.2 left the old shot hanging)
+J_CUT = 0.0            # the picture changes as the new line's first word starts; its audio still leads by
+                       # AUDIO_OVERLAP, so it stays a J-cut, just tight (Anton's own edits keep 0.1)
 WORDS = 4              # up to 4 words per caption (3-4)
 HOOK_SECONDS = 4.0     # the text-on-screen hook stays up this long
 MIN_CAPTION = 0.4      # no caption flashes by faster than this
@@ -61,6 +63,7 @@ CAPTION_Y = 0.668      # caption centre, fraction of the height (baseline lands 
 FONT_SIZE = 70         # at 1080 wide
 OUTLINE, SHADOW = 4, 3
 SHADOW_COLOUR = "&H66000000"   # black, ~60% opaque
+FOREHEAD_MID, BROW = 0.12, 0.28  # down the face detector's box: mid-forehead, eyebrows (checked on Pat's frames)
 POPUP_Y = 0.64         # pop-up centre, fraction of the height (the caption zone)
 FADE_IN = 0.3
 SNAP_START = 0.6       # a pop-up starts on a cut if one is this close
@@ -183,7 +186,8 @@ def write_captions(timed, popups, width, height, path, font):
 
 def hook_png(text, width, height, path, face):
     """Text-on-screen hook: one short line (two if it must wrap) in black Proxima Nova Semibold on a white
-    rounded box, centred above his head (`face` = (x, y, w, h) in output pixels, or None)."""
+    rounded box, on the top-third line or higher (`face` = the highest his face box gets while the hook is
+    up, (x, y, w, h) in output pixels, or None)."""
     from PIL import Image, ImageDraw, ImageFont
     k = width / 1080
     f, _ = font_file(["semibold"])
@@ -200,8 +204,12 @@ def hook_png(text, width, height, path, face):
     lh = int(64 * k * 1.25)
     box_w = int(max(d.textlength(ln, font=font) for ln in lines)) + 2 * pad
     box_h = lh * len(lines) + 2 * pad - int(10 * k)
-    head_top = face[1] - int(face[3] * 0.35) if face is not None else int(height * 0.30)  # hair sits above the face box
-    y0 = max(int(height * 0.06), head_top - box_h - int(20 * k))
+    # On the top-third line, unless that comes down past the middle of his forehead: then move up so the
+    # box ends halfway up the forehead (the top half of the forehead can be covered, never the eyebrows).
+    y0 = int(height / 3 - box_h / 2)
+    if face is not None:
+        y0 = min(y0, int(face[1] + face[3] * FOREHEAD_MID) - box_h)
+    y0 = max(int(height * 0.04), y0)
     x0 = (width - box_w) // 2
     d.rounded_rectangle((x0, y0, x0 + box_w, y0 + box_h), radius=int(18 * k), fill="white")
     for i, ln in enumerate(lines):
@@ -272,7 +280,7 @@ def popup_place(face, pw, ph, width, height):
     if face is None:
         return int(height * POPUP_Y - ph / 2), 1.0
     x, y, w, h = face
-    brow, chin = y + h * 0.30, y + h * 1.12  # the detector box runs from mid-forehead to about the mouth
+    brow, chin = y + h * BROW, y + h * 1.12  # the detector box runs from the hairline to below the mouth
     margin = int(24 * width / 1080)
     below, above = height - margin - (chin + margin), brow - margin - margin
     if ph <= below:
@@ -398,13 +406,24 @@ def edge_end(path, w, nxt, runs, model_size, hint):
     return w["end"] + 0.05, False
 
 
+def past_dropped(t, floor, runs):
+    """If t sits in the last moments of a sound that began before `floor` (the tail of a dropped word, which
+    the transcriber ignores) and silence follows, move t to where his voice starts again."""
+    for a, b in runs:
+        if a < floor and a <= t < b and b - t <= 0.3:
+            nxt = [a2 for a2, b2 in runs if a2 >= b and b2 - a2 >= 0.1]
+            if nxt and nxt[0] - t < 1.0:
+                return nxt[0] - ONSET_PAD
+    return t
+
+
 def edge_start(path, w, floor, runs, model_size, hint):
     """Where a shot starting on word w should start: on the first sound of w (never the silence or breath
     before it, never the end of a dropped word), found in the audio or, if he talks straight in, by ear."""
     before = [s1 for (_, e0), (s1, _) in zip(runs, runs[1:])
               if w["start"] - 0.6 <= s1 <= w["start"] + 0.25 and s1 - e0 >= 0.15 and s1 >= floor]
     if before:
-        return max(floor, before[0] - ONSET_PAD), True
+        return past_dropped(max(floor, before[0] - ONSET_PAD), floor, runs), True
     want, t = norm(w["text"]), max(floor, w["start"] - 0.6)
     while t <= w["start"] + 0.5:
         got = heard(path, t, t + 3.0, model_size, hint)
@@ -413,7 +432,7 @@ def edge_start(path, w, floor, runs, model_size, hint):
                 nxt = [a for a, b in runs if a > t and b - a >= 0.1]
                 if nxt and nxt[0] - t < 0.8:
                     t = max(t, nxt[0] - ONSET_PAD)
-            return t, True
+            return past_dropped(t, floor, runs), True
         t += 0.03
     return max(floor, w["start"] - 0.05), False
 
@@ -436,7 +455,7 @@ def word_keep(path, words, kept_idx, runs, duration, model_size, hint):
             if not (g and g[1] - g[0] >= THINK_PAUSE and phrase_break(w0, w1)):
                 cur.append(j)
                 continue
-            end, nstart, ok0, ok1 = g[0] + 0.12, g[1] - ONSET_PAD, True, True  # cut inside the silence
+            end, nstart, ok0, ok1 = g[0] + END_PAD, g[1] - ONSET_PAD, True, True  # cut inside the silence
         bad += ([i] if not ok0 else []) + ([j] if not ok1 else [])
         shots.append([start, end, cur])
         start, cur = nstart, [j]
@@ -551,6 +570,7 @@ def main():
     ap.add_argument("--plan-only", action="store_true", help="work out cuts and transcript, don't render")
     a = ap.parse_args()
 
+    ev.J_CUT = J_CUT
     out = a.output or ROOT / "output" / f"{a.input.stem}_tt.mp4"
     out.parent.mkdir(parents=True, exist_ok=True)
     width, height, duration = ev.probe(a.input)
@@ -590,7 +610,26 @@ def main():
             raise SystemExit(f"--drop-words: {phrase!r} not in sentence {n}: {' '.join(words[i]['text'] for i in idx)}")
         gone.update(idx[hit:hit + len(want)])
     kept_idx = [i for i in range(len(words)) if i not in gone]
-    shots = word_keep(a.input, words, kept_idx, runs, duration, a.model, a.hint)
+    # "um"s that aren't part of a sentence go: one at the start of a line or phrase (after a full stop or
+    # comma, or after dropped words). An "um" mid-phrase stays. No shot ever opens on one.
+    starts_line = {idx[0] for idx in sents}
+    filler = lambda i: norm(words[i]["text"]) in ev.FILLERS
+    ums = set()
+    for k, i in enumerate(kept_idx):
+        prev = kept_idx[k - 1] if k else None
+        if filler(i) and (i in starts_line or prev is None or prev != i - 1 or prev in ums
+                          or words[prev]["text"].rstrip().endswith((",", ".", "?", "!", ";", ":"))):
+            ums.add(i)
+    kept_idx = [i for i in kept_idx if i not in ums]
+    while True:
+        shots = word_keep(a.input, words, kept_idx, runs, duration, a.model, a.hint)
+        opening_ums = {sh[2][0] for sh in shots if filler(sh[2][0])}
+        if not opening_ums:
+            break
+        ums |= opening_ums
+        kept_idx = [i for i in kept_idx if i not in opening_ums]
+    if ums:
+        print("Fillers cut: " + ", ".join(f"{words[i]['text']}@{words[i]['start']:.1f}" for i in sorted(ums)))
     keep = [(s0, s1) for s0, s1, _ in shots]
     kept = [words[i] for i in kept_idx]
     kept_cap = onset_timed(kept, runs)  # captions go up when he starts the word, not when the model places it
@@ -634,7 +673,8 @@ def main():
         banner = None
         if a.hook:
             png = tmp / "hook.png"
-            hook_png(a.hook, width, height, png, ev.face_box(a.input, keep[0][0] + 1.0, width, height))
+            boxes = [b for t in (0.3, 1.3, 2.3, 3.5) if (b := ev.face_box(a.input, ev.unremap(t, keep), width, height)) is not None]
+            hook_png(a.hook, width, height, png, min(boxes, key=lambda b: b[1] + b[3] * FOREHEAD_MID) if boxes else None)
             banner = (png, HOOK_SECONDS)
         print("Hook + pop-ups...")
         def face_at(s0, s1):  # union of his face over the pop-up (start, middle, end)

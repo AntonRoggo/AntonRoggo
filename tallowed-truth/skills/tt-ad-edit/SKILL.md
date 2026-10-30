@@ -69,7 +69,10 @@ his thinking and his stumbles, never his words.
      reviews on this product" -> keep the second, it completes the sentence),
    - fluff while he finds his words ("It is more, you know, they're, they're using cheap tallow" -> straight
      to "they're using cheap tallow"),
-   - stutters ("I thought, I thought" -> "I thought").
+   - stutters ("I thought, I thought" -> "I thought"),
+   - "um"s that aren't part of a sentence: one at the start of a line or phrase goes. An "um" mid-phrase
+     stays. **No shot ever opens on "um".** (The transcript must show the ums: the tool's chunked transcription
+     does; a single long pass smooths them out.)
    A sentence with a wrong fact comes out whole or stays. Record a reason for every drop.
 3. **Cut his thinking pauses.** A pause of 0.45 s or more at a phrase break (after a full stop or comma, or
    before "and", "so", "because"...) is him thinking: cut it ("...never been to the spa before [pause] and so
@@ -82,8 +85,9 @@ his thinking and his stumbles, never his words.
    with no gap (Pat's "writes it down-she's like"), no clean cut exists: keep both or drop the whole line.
 7. **Hear every cut before rendering.** The plan plays each shot's end and the next shot's start on their own
    (`Cut check`). A "BAD" can be the transcriber mishearing a clipped edge; confirm by ear.
-8. **Hard cuts only**, with the usual J-cut (`AUDIO_OVERLAP` 0.1 s, `J_CUT` 0.1 s). The video ends 0.2 s after
-   the last word.
+8. **Tight J-cuts.** The outgoing shot ends 0.1 s after its last word; the next line's sound leads by 0.1 s and
+   the picture changes as its first word starts (TTT `J_CUT` 0.0; Anton's own edits keep 0.1). Don't leave the
+   old shot hanging over silence ("...24 years of working" -> cut straight to "Her boss takes them").
 9. **Product in shot.** The tin in hand for most of it, held to the lens for the offer (that's filming; flag it
    to the creator if it's missing).
 10. **Length.** Whatever the kept lines make. Shorten by dropping whole lines.
@@ -121,8 +125,10 @@ of the line box, which sits about 15 px below the baseline at 70 px). Check it o
   (Anton, Oct 30 2026; this overrides the colon rule in the hook file). It must not
   repeat what the speaker says. Never a generic label ("REAL CUSTOMER STORY") and never the "OFFICIAL
   STATEMENT / from The Tallowed Truth Founder" shape (the us-vs-them pattern, highest CPAs) for a story ad.
-- **Above his head**, around the forehead, so it never covers his mouth or the captions: black Proxima Nova
-  Semibold on a white rounded box, one line (two if it must wrap). The tool finds the face and places it.
+- **On the top-third line** of the screen, unless that would cover the eyebrows: then it moves up until it
+  ends halfway up the forehead (covering the top half of the forehead is fine, the eyebrows never). Black
+  Proxima Nova Semibold on a white rounded box, one line (two balanced lines if it must wrap). The tool finds
+  the face over the 4 s and places it.
 - On from frame 1 for 4 s. **No pop-up starts before it ends.**
 
 ## Pop-ups
@@ -140,8 +146,9 @@ of the line box, which sits about 15 px below the baseline at 70 px). Check it o
      Leave in a 3-4 star review; it reads as real.
 - **A review pops up only when he says it's a review or message** ("she sent us this message", "we got a
   review"), as proof of what he's telling. Keep his words as he said them around it.
-- **Show only the main point of the review, highlighted:** a sentence or two (`"from"` + `"max_chars"`) with
-  the key words marked (`"highlight": "has never seen skin like mine"`). Nobody reads a paragraph in 3 s.
+- **Show the whole review with the main point highlighted** (`"max_chars": 2000`, `"highlight": "has never seen
+  skin like mine"`): it's there as proof, the highlight is what gets read. Placed like every pop-up (below the
+  chin or above the brows, shrunk to fit).
 - **B-roll pop-ups, by what he's saying:**
   - Any time he describes F-Balm: the golden balm texture in warm or sunny light (open tin in sunlight on
     marble, fingertip scoop by a window).

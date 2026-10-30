@@ -674,9 +674,11 @@ def broll_filters(plan, width, height, first_input, fps, total):
     return "".join(chain), "vb"
 
 
-def picture_cuts(keep, fps=30.0, j=J_CUT, overlap=AUDIO_OVERLAP):
+def picture_cuts(keep, fps=30.0, j=None, overlap=AUDIO_OVERLAP):
     """Audio start of every segment, and the output times where the picture changes
-    (0, every J-cut, the end), on whole frames of the output timeline."""
+    (0, every J-cut, the end), on whole frames of the output timeline. j defaults to J_CUT as set
+    at call time (a caller like the TTT editor can set its own)."""
+    j = J_CUT if j is None else j
     frame = 1.0 / fps
     starts, t = [], 0.0
     for a, b in keep:
@@ -688,7 +690,7 @@ def picture_cuts(keep, fps=30.0, j=J_CUT, overlap=AUDIO_OVERLAP):
     return starts, cuts
 
 
-def jcut_video(keep, fps=30.0, j=J_CUT, overlap=AUDIO_OVERLAP):
+def jcut_video(keep, fps=30.0, j=None, overlap=AUDIO_OVERLAP):
     """Video in/out points for J-cuts.
 
     Audio segments are crossfaded with `overlap` seconds of overlap, so the next clip's
