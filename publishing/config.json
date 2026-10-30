@@ -13,10 +13,11 @@
     "delay_minutes": 10
   },
   "caption": {
-    "style": "Use caption.default_text exactly, for every video (Anton, 2026-10-30). YouTube still needs its own title from the video's hook.",
+    "style": "Use caption.default_text exactly for every video on Instagram (trial reels), Facebook and YouTube, and caption.tiktok_text on TikTok (Anton, 2026-10-30). YouTube and TikTok still need a title from the video's hook.",
     "hashtags": [],
     "max_hashtags": 5,
-    "default_text": "I’m building a group chat for people who’d rather be outside. Comment “nature” to get in 🌲"
+    "default_text": "I’m building a group chat for people who’d rather be outside. Comment “nature” to get in 🌲",
+    "tiktok_text": "I’m building a group chat for people who’d rather be outside. DM me “nature” to get in 🌲"
   },
   "youtube": {
     "made_for_kids": false

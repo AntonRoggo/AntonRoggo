@@ -80,3 +80,13 @@ Day in the life and bar v3 were first saved as drafts, then switched live after 
 | YouTube | Short | 2026-10-30 09:37 ET (first try rejected: time had passed) | 411229134 | 5794432188284357644 | https://app.metricool.com/planner/calendar?blogId=6537632&openWithPostUuid=5794432188284357644 |
 
 Instagram, TikTok and Facebook went out with the earlier caption ("My favorite cortisol supplement..."). Anton then set the standard caption for all videos: "I’m building a group chat for people who’d rather be outside. Comment “nature” to get in 🌲" (now `caption.default_text` in config.json); the YouTube post was updated to it before publishing.
+
+**2026-10-30 09:50 ET:** Anton: "post everything with the new captions" (Instagram trial reels + Facebook + YouTube: Comment "nature"; TikTok: DM me "nature"). The six unposted LARP edits went out 20 min apart on Anton Roggo (Italian grandpa as take B, the version he chose; Let's all A/B and grandpa A are unused alternates). Each row: Instagram / TikTok / Facebook / YouTube post ids.
+| Video | Publishes at (ET) | Instagram | TikTok | Facebook | YouTube |
+|---|---|---|---|---|---|
+| Holidays are a habit (05, 0017) | 10:05 (published) | 411252123 https://www.instagram.com/reel/DfHwyU3DyaF/ | 411252444 https://www.tiktok.com/@antonroggo/video/7702462541162745096 | 411253202 https://facebook.com/reel/2237459390451181 | 411257183 https://www.youtube.com/shorts/BzVDAVZ83tc |
+| Italian grandpa B (03, 0016) | 10:25 (published) | 411257594 https://www.instagram.com/reel/DfHys2-j2es/ | 411257710 https://www.tiktok.com/@antonroggo/video/7702466945349586183 | 411258469 https://facebook.com/reel/2607896632984617 | 411261935 https://www.youtube.com/shorts/5SbK60tG1Oc |
+| Five ways to waste a winter (11, 0021) | 10:45 | 411262416 | 411262667 | 411262902 | 411267790 |
+| Old people were right 2 (08, 0020) | 11:05 | 411270566 | 411270661 | 411270987 | 411271100 |
+| Nobody's watching (07, 0019) | 11:25 | 411277124 | 411277474 | 411282649 | 411286667 |
+| The trade (14, 0022) | 11:45 | 411286923 | 411287050 | 411287263 | 411287414 |
