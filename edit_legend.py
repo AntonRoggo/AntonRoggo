@@ -433,7 +433,7 @@ def caption_events(words, highlight, cap=CAPTION_STYLES["legend"]):
     chunks, cur = [], []
     for w in words:
         raw = w["text"].strip()
-        text = re.sub(r"[.,;:\"“”]+", "", raw)
+        text = re.sub(r"[,;:\"“”]+|\.(?!\d)", "", raw)   # keeps "$1.50"
         text = text.upper() if cap["case"] == "upper" else text.lower()
         if cur and text.startswith("-"):              # "euro" "-maxing"
             cur[-1] = {**cur[-1], "clean": cur[-1]["clean"] + text, "text": raw,
