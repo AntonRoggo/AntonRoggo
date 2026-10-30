@@ -30,6 +30,9 @@ PROCESS_DELAY = 0.015  # seconds of latency added by the denoiser + limiter
 DENOISE_MIX = 0.9  # 1.0 = remove all background; 0.9 keeps a little room sound so it stays natural
 
 PRE = ("highpass=f=80,"
+       # clicks and mic taps out first: a sharp spike comes out of the AAC encoder far over full scale even
+       # after the limiter (Chantel's tap hit +4.7 dBFS), and lowering the ceiling for it squashes the voice
+       "adeclick,"
        # neural speech denoiser (RNNoise): pulls crowd/room noise down under the voice
        f"arnndn=m={DENOISE_MODEL}:mix={DENOISE_MIX},"
        # gentle compression evens out words without lifting the background in pauses
@@ -77,7 +80,11 @@ def boost(src, out):
         peak = encoded_peak(out)
         if peak <= 10 ** (TRUE_PEAK / 20):
             break
-        limit *= 10 ** (TRUE_PEAK / 20) / peak
+        if limit <= LIMIT * 10 ** (-1.5 / 20):  # never squash the whole voice for one spike
+            print(f"WARNING: audio peaks at {20 * __import__('math').log10(peak):+.1f} dBFS after encoding; "
+                  f"find the click and remove it", flush=True)
+            break
+        limit = max(LIMIT * 10 ** (-1.5 / 20), limit * 10 ** (TRUE_PEAK / 20) / peak)
     return m
 
 
