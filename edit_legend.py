@@ -514,7 +514,10 @@ def filler(w, h, n):
 
 
 def spans(timeline, kind):
-    return "+".join(f"between(t,{e['start']:.4f},{e['end'] - 0.001:.4f})"
+    # windows run half a frame early so each switch falls between two frames,
+    # never on one where rounding could go either way
+    h = 0.5 / FPS
+    return "+".join(f"between(t,{e['start'] - h:.4f},{e['end'] - h:.4f})"
                     for e in timeline if e["kind"] == kind)
 
 
@@ -651,7 +654,9 @@ def write_ass(path, captions, texts, timeline, tag, end_card, title=None,
 
 # --- 5. compose ----------------------------------------------------------------
 def render_final(base, total, timeline, music, ass_path, crop_y, out, draft):
-    inputs, parts, k, v = ["-i", str(base)], [], 1, "[0:v]"
+    # exact frame times on the joined talk: its stamps are rounded to the
+    # millisecond, which let a panel switch land a frame early (a flash frame)
+    inputs, parts, k, v = ["-i", str(base)], [f"[0:v]setpts=N/({FPS}*TB)[base];"], 1, "[base]"
     # one continuous stream per layer; entries that don't use a layer get black
     # filler, and `enable` shows each layer only during its own entries
     for kind, w, h, name in (("split", W, PANEL_H, "top"), ("full", W, H, "fullv")):
@@ -670,11 +675,12 @@ def render_final(base, total, timeline, music, ass_path, crop_y, out, draft):
             else:
                 parts.append(f"{filler(w, h, entry['frames'])}[{name}{i}];")
             labels.append(f"[{name}{i}]")
-        parts.append(f"{''.join(labels)}concat=n={len(labels)}:v=1:a=0[{name}];")
+        parts.append(f"{''.join(labels)}concat=n={len(labels)}:v=1:a=0,"
+                     f"setpts=N/({FPS}*TB)[{name}];")
 
     if spans(timeline, "split"):
         cy = round(H * crop_y)
-        parts.append(f"[0:v]split=2[bfull][bcrop];[bcrop]crop={W}:{BOTTOM_H}:0:{cy}[bottom];"
+        parts.append(f"[base]split=2[bfull][bcrop];[bcrop]crop={W}:{BOTTOM_H}:0:{cy}[bottom];"
                      f"color=c={HEADER_COLOR}:s={W}x{H}:r={FPS}:d={total + 1:.3f}[canvas];"
                      f"[canvas][top]overlay=0:{HEADER_H}[c1];"
                      f"[c1][bottom]overlay=0:{SEAM_Y}[splitv];"

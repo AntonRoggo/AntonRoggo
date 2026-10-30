@@ -181,10 +181,10 @@
       "label": "Chouinard pitons"
     },
     {
-      "at": "sold",
-      "file": "cho_camp4_tea_1960.jpg",
+      "at": 41.0,
       "label": "$1.50 each",
-      "focus": 0.6
+      "focus": 0.6,
+      "full": "cho_camp4_tea_1960.jpg"
     },
     {
       "at": "1970",
